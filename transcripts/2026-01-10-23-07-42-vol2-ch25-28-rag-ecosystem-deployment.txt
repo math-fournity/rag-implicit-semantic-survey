@@ -1,0 +1,2109 @@
+Assistant:
+Content:
+[
+  {
+    "start_timestamp": "2026-01-10T14:14:57.537480Z",
+    "stop_timestamp": "2026-01-10T14:14:57.537480Z",
+    "flags": null,
+    "type": "text",
+    "text": "\n\n",
+    "citations": []
+  },
+  {
+    "start_timestamp": "2026-01-10T14:14:57.537480Z",
+    "stop_timestamp": "2026-01-10T14:15:02.677137Z",
+    "flags": null,
+    "type": "thinking",
+    "thinking": "\u7528\u6237\u8981\u6c42\u6211\u7ee7\u7eedResearch\u3002\u6211\u4e4b\u524d\u5df2\u7ecf\u5728\u4e3a\u7b2c22-24\u7ae0\u505a\u6df1\u5ea6\u7814\u7a76\uff08\u5e7b\u89c9\u63a7\u5236\u3001\u8bc4\u4f30\u65b9\u6cd5\u3001\u5782\u76f4\u9886\u57df\u5e94\u7528\uff09\uff0c\u5df2\u7ecf\u7528web_search\u83b7\u53d6\u4e86\u4e00\u4e9b\u8d44\u6599\u3002\u73b0\u5728\u6211\u5e94\u8be5\u7ee7\u7eed\u5b8c\u6210\u8fd9\u4e2a\u7814\u7a76\u4efb\u52a1\u3002\n\n\u6839\u636eresearch_instructions\uff0c\u6211\u5e94\u8be5\u4f7f\u7528launch_extended_search_task\u5de5\u5177\u6765\u8fdb\u884c\u66f4\u5168\u9762\u7684\u7814\u7a76\u3002\u4f46\u662f\u6211\u5df2\u7ecf\u6536\u96c6\u4e86\u4e0d\u5c11\u8d44\u6599\u4e86\uff0c\u8ba9\u6211\u5148\u6574\u7406\u4e00\u4e0b\u5df2\u6709\u7684\u8d44\u6599\uff0c\u7136\u540e\u51b3\u5b9a\u662f\u5426\u9700\u8981\u542f\u52a8\u66f4\u6df1\u5165\u7684\u7814\u7a76\u3002\n\n\u5b9e\u9645\u4e0a\uff0c\u6211\u5df2\u7ecf\u901a\u8fc7web_search\u83b7\u53d6\u4e86\uff1a\n1. \u5e7b\u89c9\u68c0\u6d4b\u4e0e\u7f13\u89e3\u7684\u8d44\u6599\n2. RAG\u8bc4\u4f30\u6846\u67b6\uff08RAGAS\u7b49\uff09\u7684\u8d44\u6599\n3. \u5782\u76f4\u9886\u57df\u5e94\u7528\uff08\u533b\u7597\u3001\u6cd5\u5f8b\u3001\u91d1\u878d\uff09\u7684\u8d44\u6599\n4. \u5f00\u6e90\u6846\u67b6\uff08LangChain\u3001LlamaIndex\uff09\u7684\u6bd4\u8f83\n\n\u73b0\u5728\u6211\u5e94\u8be5\u7ee7\u7eed\u7528launch_extended_search_task\u6765\u5b8c\u6210\u7b2c22-24\u7ae0\u7684\u6df1\u5ea6\u7814\u7a76\u3002",
+    "summaries": [
+      {
+        "summary": "\u601d\u8003\u5982\u4f55\u6062\u590d\u5e76\u7ee7\u7eed\u4e4b\u524d\u4e2d\u65ad\u7684\u7814\u7a76\u5de5\u4f5c"
+      },
+      {
+        "summary": "\u6574\u7406\u5df2\u6536\u96c6\u8d44\u6599\uff0c\u51b3\u5b9a\u662f\u5426\u6df1\u5316\u7814\u7a76\u3002"
+      },
+      {
+        "summary": "\u7ee7\u7eed\u6df1\u5316\u7b2c22-24\u7ae0\u7814\u7a76\uff0c\u6574\u5408\u5df2\u6536\u96c6\u8d44\u6599\u3002"
+      }
+    ],
+    "cut_off": false,
+    "alternative_display_type": null
+  },
+  {
+    "start_timestamp": "2026-01-10T14:15:02.736225Z",
+    "stop_timestamp": "2026-01-10T14:15:03.071995Z",
+    "flags": null,
+    "type": "text",
+    "text": "\u597d\u7684\uff0c\u7ee7\u7eed\uff01\u6211\u73b0\u5728\u542f\u52a8\u7b2c22-24\u7ae0\u7684\u6df1\u5ea6\u7814\u7a76\u4efb\u52a1\uff1a",
+    "citations": []
+  },
+  {
+    "start_timestamp": "2026-01-10T14:15:03.291110Z",
+    "stop_timestamp": "2026-01-10T14:15:16.370348Z",
+    "flags": null,
+    "type": "tool_use",
+    "name": "launch_extended_search_task",
+    "input": {
+      "command": "\u6df1\u5ea6\u7814\u7a76RAG\u6280\u672f\u7b2c22-24\u7ae0\u5b66\u672f\u524d\u6cbf\uff082024-2025\u5e74\uff09\uff0c\u5177\u4f53\u5305\u62ec\uff1a\n\n**\u7b2c22\u7ae0\uff1a\u751f\u6210\u8d28\u91cf\u4e0e\u5e7b\u89c9\u63a7\u5236**\n1. RAG\u7cfb\u7edf\u4e2d\u5e7b\u89c9(Hallucination)\u7684\u5206\u7c7b\u5b66\uff1a\u77e5\u8bc6\u578b\u5e7b\u89c9 vs \u903b\u8f91\u578b\u5e7b\u89c9\n2. \u5e7b\u89c9\u68c0\u6d4b\u65b9\u6cd5\uff1aLRP4RAG\u3001TrustRAG\u3001SelfCheckGPT\u3001RAGTruth\u7b49\n3. \u5e7b\u89c9\u7f13\u89e3\u6280\u672f\uff1aSelf-RAG\u53cd\u601d\u673a\u5236\u3001CRAG\u4fee\u6b63\u6027\u68c0\u7d22\u3001Speculative RAG\u9a8c\u8bc1\n4. \u751f\u6210\u8d28\u91cf\u63a7\u5236\uff1aFaithfulness\u8bc4\u4f30\u3001\u5f15\u7528\u5f52\u56e0(Citation Attribution)\u3001\u4e8b\u5b9e\u4e00\u81f4\u6027\n5. \u6700\u65b0\u7efc\u8ff0\u8bba\u6587\uff1aarXiv:2510.24476\u3001arXiv:2510.06265\u7b49\n\n**\u7b2c23\u7ae0\uff1a\u8bc4\u4f30\u65b9\u6cd5\u4e0e\u57fa\u51c6**\n1. RAG\u8bc4\u4f30\u6846\u67b6\uff1aRAGAS\uff08Context Precision/Recall\u3001Faithfulness\u3001Answer Relevancy\uff09\n2. \u5176\u4ed6\u8bc4\u4f30\u5de5\u5177\uff1aRAGChecker\u3001TruLens\u3001ARES\u3001continuous-eval\u3001RAGVue\n3. RAG\u57fa\u51c6\u6570\u636e\u96c6\uff1aRAGBench\uff08100k\u6837\u672c\uff09\u3001RAGTruth\u3001MIRAGE\uff08\u533b\u5b66\uff09\u3001FeB4RAG\n4. \u8bc4\u4f30\u6307\u6807\u4f53\u7cfb\uff1a\u68c0\u7d22\u8d28\u91cf\u6307\u6807 vs \u751f\u6210\u8d28\u91cf\u6307\u6807\n5. LLM-as-a-Judge\u65b9\u6cd5\u7684\u4f18\u7f3a\u70b9\n\n**\u7b2c24\u7ae0\uff1a\u5782\u76f4\u9886\u57df\u5e94\u7528**\n1. \u533b\u7597RAG\uff1a\u8bca\u65ad\u652f\u6301\u3001EHR\u6458\u8981\u3001\u533b\u5b66\u95ee\u7b54\u3001BioRAG\u3001MedRAG\n2. \u6cd5\u5f8bRAG\uff1a\u6848\u4f8b\u68c0\u7d22\u3001\u5408\u89c4\u6027\u5206\u6790\u3001CBR-RAG\u3001LegalBench-RAG\n3. \u91d1\u878dRAG\uff1a\u5408\u89c4\u77e5\u8bc6\u68c0\u7d22\u3001\u6b3a\u8bc8\u68c0\u6d4b\u3001\u8d22\u52a1\u6587\u6863\u5206\u6790\n4. \u9886\u57df\u9002\u5e94\u6280\u672f\uff1aDomain-specific fine-tuning\u3001Knowledge Graph\u589e\u5f3a\n\n\u8bf7\u63d0\u4f9b\uff1a\n- 2024-2025\u5e74\u6838\u5fc3\u8bba\u6587\uff08arXiv ID\u3001\u4f1a\u8bae\u3001\u6027\u80fd\u6570\u636e\uff09\n- GitHub\u4ed3\u5e93\u94fe\u63a5\n- \u5173\u952e\u6027\u80fd\u57fa\u51c6\u5bf9\u6bd4\n- \u6700\u4f73\u5b9e\u8df5\u5efa\u8bae"
+    },
+    "message": "launch_extended_search_task",
+    "integration_name": null,
+    "integration_icon_url": null,
+    "context": null,
+    "display_content": null,
+    "approval_options": null,
+    "approval_key": null
+  },
+  {
+    "start_timestamp": null,
+    "stop_timestamp": null,
+    "flags": null,
+    "type": "tool_result",
+    "name": "launch_extended_search_task",
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"task_id\": \"wf-5b6fb034-b18e-42d8-8e04-a600cc090696\"}",
+        "uuid": "ea4a6ae3-01b7-4011-8a8c-90eef18f6622"
+      }
+    ],
+    "is_error": false,
+    "structured_content": null,
+    "meta": null,
+    "message": null,
+    "integration_name": null,
+    "integration_icon_url": null,
+    "display_content": null
+  },
+  {
+    "start_timestamp": "2026-01-10T14:15:16.667380Z",
+    "stop_timestamp": "2026-01-10T14:15:16.667380Z",
+    "flags": null,
+    "type": "text",
+    "text": "",
+    "citations": []
+  },
+  {
+    "start_timestamp": null,
+    "stop_timestamp": null,
+    "flags": null,
+    "type": "text",
+    "text": "\u60a8\u7684RAG\u6280\u672f\u5b66\u672f\u524d\u6cbf\u62a5\u544a\u5df2\u5b8c\u6210\u3002\u62a5\u544a\u6db5\u76d62024-2025\u5e74\u4e09\u5927\u6838\u5fc3\u65b9\u5411\uff1a\u5e7b\u89c9\u68c0\u6d4b\u4e0e\u63a7\u5236\uff08\u51c6\u786e\u7387\u4ece60%\u63d0\u5347\u81f389%\uff09\u3001RAGAS/RAGChecker\u7b49\u8bc4\u4f30\u6846\u67b6\u5bf9\u6bd4\uff0c\u4ee5\u53caMedRAG\u3001LegalBench-RAG\u7b49\u5782\u76f4\u9886\u57df\u5e94\u7528\u3002\u62a5\u544a\u57fa\u4e8e50+\u7bc7\u6838\u5fc3\u8bba\u6587\uff0c\u5305\u542b\u8be6\u7ec6\u6027\u80fd\u57fa\u51c6\u3001GitHub\u8d44\u6e90\u6c47\u603b\u53ca\u6700\u4f73\u5b9e\u8df5\u5efa\u8bae\u3002",
+    "citations": []
+  },
+  {
+    "start_timestamp": null,
+    "stop_timestamp": null,
+    "flags": null,
+    "type": "tool_use",
+    "name": "artifacts",
+    "input": {
+      "id": "compass_artifact_wf-5b6fb034-b18e-42d8-8e04-a600cc090696_text/markdown",
+      "type": "text/markdown",
+      "title": "RAG\u6280\u672f\u5b66\u672f\u524d\u6cbf\uff1a\u751f\u6210\u8d28\u91cf\u3001\u8bc4\u4f30\u65b9\u6cd5\u4e0e\u5782\u76f4\u5e94\u7528 (2024-2025)",
+      "source": "c",
+      "command": "create",
+      "content": "# RAG\u6280\u672f\u5b66\u672f\u524d\u6cbf\uff1a\u751f\u6210\u8d28\u91cf\u3001\u8bc4\u4f30\u65b9\u6cd5\u4e0e\u5782\u76f4\u5e94\u7528 (2024-2025)\n\n\u68c0\u7d22\u589e\u5f3a\u751f\u6210(RAG)\u6280\u672f\u57282024-2025\u5e74\u7ecf\u5386\u4e86\u91cd\u5927\u7a81\u7834\u3002**\u5e7b\u89c9\u68c0\u6d4b\u51c6\u786e\u7387\u5df2\u4ece2023\u5e74\u768460%\u63d0\u5347\u81f32025\u5e74\u768489%**\uff0cRAGAS\u548cRAGChecker\u7b49\u8bc4\u4f30\u6846\u67b6\u6210\u4e3a\u884c\u4e1a\u6807\u51c6\uff0c\u800cMedRAG\u3001LegalBench-RAG\u7b49\u5782\u76f4\u5e94\u7528\u6b63\u5728\u91cd\u5851\u4e13\u4e1a\u9886\u57df\u7684AI\u5b9e\u8df5\u3002\u672c\u62a5\u544a\u57fa\u4e8e\u8d85\u8fc750\u7bc7\u6838\u5fc3\u8bba\u6587\uff0c\u7cfb\u7edf\u68b3\u7406\u4e09\u4e2a\u5173\u952e\u65b9\u5411\u7684\u6700\u65b0\u8fdb\u5c55\u3002\n\n---\n\n## \u7b2c22\u7ae0\uff1a\u751f\u6210\u8d28\u91cf\u4e0e\u5e7b\u89c9\u63a7\u5236\n\n### \u5e7b\u89c9\u5206\u7c7b\u5b66\uff1a\u77e5\u8bc6\u578b\u4e0e\u903b\u8f91\u578b\u7684\u6839\u672c\u533a\u522b\n\nRAG\u7cfb\u7edf\u4e2d\u7684\u5e7b\u89c9\u53ef\u5206\u4e3a\u4e24\u5927\u7c7b\u578b\uff0c\u8fd9\u4e00\u5206\u7c7b\u6846\u67b6\u6765\u81eaarXiv:2510.24476\u7efc\u8ff0\u3002**\u77e5\u8bc6\u578b\u5e7b\u89c9(Knowledge Hallucination)** \u6307\u6a21\u578b\u751f\u6210\u4e0e\u771f\u5b9e\u4e16\u754c\u4e8b\u5b9e\u4e0d\u4e00\u81f4\u7684\u5185\u5bb9\uff0c\u6e90\u4e8eLLM\u53c2\u6570\u5316\u77e5\u8bc6\u7684\u4e0d\u8db3\u6216\u68c0\u7d22\u5668\u8fd4\u56de\u4e0d\u76f8\u5173\u6587\u6863\u3002**\u903b\u8f91\u578b\u5e7b\u89c9(Logic Hallucination)** \u5219\u53d1\u751f\u5728\u63a8\u7406\u8fc7\u7a0b\u4e2d\u2014\u2014\u5373\u4f7f\u63d0\u4f9b\u4e86\u6b63\u786e\u4fe1\u606f\uff0c\u6a21\u578b\u4ecd\u53ef\u80fd\u4ea7\u751f\u81ea\u76f8\u77db\u76fe\u6216\u63a8\u7406\u9519\u8bef\u7684\u8f93\u51fa\u3002\n\nRAG\u7cfb\u7edf\u5b58\u5728\u56db\u4e2a\u7279\u6b8a\u7684\u5e7b\u89c9\u6765\u6e90\uff1a\u68c0\u7d22\u5931\u8d25\u3001\u77e5\u8bc6\u51b2\u7a81\uff08\u68c0\u7d22\u5185\u5bb9\u4e0e\u6a21\u578b\u53c2\u6570\u5316\u77e5\u8bc6\u77db\u76fe\uff09\u3001\u4f4d\u7f6e\u504f\u5dee\uff08\u5bf9\u68c0\u7d22\u6587\u6863\u987a\u5e8f\u654f\u611f\uff09\u4ee5\u53caFFN\u4e3b\u5bfc\u73b0\u8c61\uff08Knowledge FFNs\u8fc7\u5ea6\u5f3a\u8c03\u53c2\u6570\u5316\u77e5\u8bc6\uff09\u3002ReDeEP\u673a\u5236\u7814\u7a76(arXiv:2410.11414)\u9996\u6b21\u63ed\u793a\u4e86Knowledge FFN\u4e0eCopying Head\u4e4b\u95f4\u7684\u51b2\u7a81\u673a\u5236\u3002\n\n### \u5e7b\u89c9\u68c0\u6d4b\u65b9\u6cd5\u7684\u6280\u672f\u6f14\u8fdb\n\n2024-2025\u5e74\u89c1\u8bc1\u4e86\u5e7b\u89c9\u68c0\u6d4b\u51c6\u786e\u7387\u7684\u5927\u5e45\u8dc3\u5347\u3002\u4e0b\u8868\u6c47\u603b\u4e86\u5173\u952e\u65b9\u6cd5\uff1a\n\n| \u65b9\u6cd5 | arXiv ID | \u53d1\u8868\u4f1a\u8bae | RAGTruth\u6027\u80fd | \u6838\u5fc3\u521b\u65b0 |\n|------|----------|----------|--------------|----------|\n| **LRP4RAG** | 2408.15533 | - | 77.2% Acc | \u5c42\u7ea7\u76f8\u5173\u6027\u4f20\u64ad\u7b97\u6cd5\uff0c\u9996\u6b21\u5c06LRP\u5e94\u7528\u4e8eRAG |\n| **SelfCheckGPT** | 2303.08896 | EMNLP 2023 | 60.5% F1 | \u96f6\u8d44\u6e90\u9ed1\u76d2\u68c0\u6d4b\uff0c\u591a\u6b21\u91c7\u6837\u4e00\u81f4\u6027\u9a8c\u8bc1 |\n| **RAGTruth** | 2401.00396 | ACL 2024 | 80.7% F1 | 18,000\u54cd\u5e94\uff0c\u8bcd\u7ea7\u6807\u6ce8\uff0c\u5fae\u8c03Llama-2-13B |\n| **SIRG** | 2601.03052 | - | **89.17% F1** | \u8bed\u4e49\u7ea7\u5185\u90e8\u63a8\u7406\u56fe\uff0c\u4ecetoken\u7ea7\u6269\u5c55\u5230\u8bed\u4e49\u7ea7 |\n| **LettuceDetect** | 2502.17125 | - | 79.22% F1 | ModernBERT\u57fa\u7840\uff0c\u6a21\u578b\u4ec5\u4e3a\u6700\u4f73\u76841/30 |\n| **HALT-RAG** | 2509.07475 | - | 97.86% F1 | NLI\u6a21\u578b\u96c6\u6210+\u8f7b\u91cf\u8bcd\u6c47\u4fe1\u53f7 |\n\n**SIRG\u65b9\u6cd5**\u4ee3\u8868\u4e86\u5f53\u524d\u7684\u6280\u672f\u524d\u6cbf\uff0c\u5c06\u68c0\u6d4b\u4ecetoken\u7ea7\u63d0\u5347\u5230\u8bed\u4e49\u7ea7\uff0c\u6784\u5efa\u5185\u90e8\u63a8\u7406\u56fe\u5b9e\u73b0\u53ef\u89e3\u91ca\u6027\u5206\u6790\u3002**LettuceDetect**\u5219\u5c55\u793a\u4e86\u8f7b\u91cf\u5316\u65b9\u5411\u7684\u6f5c\u529b\u2014\u2014\u57fa\u4e8eModernBERT\u652f\u63018k\u4e0a\u4e0b\u6587\uff0c\u5904\u7406\u901f\u5ea6\u8fbe30-60\u6837\u672c/\u79d2\uff0c\u6a21\u578b\u5927\u5c0f\u4ec5\u4e3a\u6700\u4f73\u6a21\u578b\u7684\u4e09\u5341\u5206\u4e4b\u4e00\u3002\n\n**GitHub\u4ed3\u5e93**\uff1a\n- SelfCheckGPT: https://github.com/potsawee/selfcheckgpt\n- RAGTruth: https://github.com/ParticleMedia/RAGTruth\n\n### \u5e7b\u89c9\u7f13\u89e3\u7684\u4e09\u5927\u6838\u5fc3\u6280\u672f\n\n**Self-RAG\u53cd\u601d\u673a\u5236** (arXiv:2310.11511, ICLR 2024) \u5f15\u5165\u4e86\u53cd\u5c04\u4ee4\u724c(Reflection Tokens)\u7cfb\u7edf\uff1a\u68c0\u7d22\u4ee4\u724c(RET)\u51b3\u5b9a\u662f\u5426\u9700\u8981\u68c0\u7d22\uff0c\u6279\u8bc4\u4ee4\u724c(REL/SUP/USE)\u8bc4\u4f30\u76f8\u5173\u6027\u3001\u652f\u6301\u5ea6\u548c\u6709\u7528\u6027\u3002Self-RAG\u76847B/13B\u6a21\u578b\u5728Open-domain QA\u3001\u63a8\u7406\u548c\u4e8b\u5b9e\u9a8c\u8bc1\u4efb\u52a1\u4e0a\u8d85\u8d8a\u4e86ChatGPT\u548cRAG-Llama2-chat\u3002\n\n**CRAG\u4fee\u6b63\u6027\u68c0\u7d22** (arXiv:2401.15884) \u91c7\u7528\u4e09\u7ea7\u7f6e\u4fe1\u5ea6\u5206\u7c7b\u673a\u5236\uff1aCorrect(\u9ad8\u76f8\u5173\u6027\uff0c\u4f7f\u7528\u68c0\u7d22\u7ed3\u679c)\u3001Incorrect(\u4f4e\u76f8\u5173\u6027\uff0c\u89e6\u53d1\u7f51\u7edc\u641c\u7d22)\u3001Ambiguous(\u7ed3\u5408\u4e24\u79cd\u7b56\u7565)\u3002\u57fa\u4e8eT5-large\u7684\u8f7b\u91cf\u8bc4\u4f30\u5668\u4ec50.77B\u53c2\u6570\uff0c\u5728PopQA\u4e0a\u63d0\u5347**19.0%**\uff0cPubHealth\u4e0a\u63d0\u5347**36.6%**\u3002\n\n**Speculative RAG\u9a8c\u8bc1** (arXiv:2407.08223) \u91c7\u7528\u53cc\u9636\u6bb5\u67b6\u6784\uff1aRAG Drafter\u5e76\u884c\u751f\u6210\u591a\u4e2a\u8349\u7a3f\uff0cRAG Verifier\u5355\u6b21\u9a8c\u8bc1\u9009\u62e9\u6700\u4f73\u3002\u6587\u6863\u5b50\u96c6\u7b56\u7565\u901a\u8fc7\u805a\u7c7b\u68c0\u7d22\u6587\u6863\u5b9e\u73b0\u591a\u6837\u5316\u751f\u6210\uff0c\u5ef6\u8fdf\u964d\u4f4e**51%**\u540c\u65f6\u63d0\u5347\u51c6\u786e\u7387\u3002\n\n| \u65b9\u6cd5 | GitHub | \u6838\u5fc3\u4f18\u52bf |\n|------|--------|----------|\n| Self-RAG | https://selfrag.github.io/ | \u81ea\u9002\u5e94\u68c0\u7d22\uff0c\u6309\u9700\u800c\u975e\u56fa\u5b9a\u6570\u91cf |\n| CRAG | https://github.com/HuskyInSalt/CRAG | \u5373\u63d2\u5373\u7528\uff0c\u53ef\u4e0e\u5404\u79cdRAG\u65b9\u6cd5\u7ed3\u5408 |\n| Speculative RAG | - | \u65e0\u9700\u5bf9\u901a\u7528LM\u989d\u5916\u5fae\u8c03 |\n\n### \u751f\u6210\u8d28\u91cf\u63a7\u5236\uff1aFaithfulness\u4e0e\u5f15\u7528\u5f52\u56e0\n\n\u5f53\u524d\u5f52\u56e0\u7b54\u6848\u4e2d\u9ad8\u8fbe**57%\u7684\u5f15\u7528\u7f3a\u4e4ffaithfulness**\uff08arXiv:2412.18004\uff09\uff0c\u8fd9\u4e00\u53d1\u73b0\u63ed\u793a\u4e86\"\u540e\u5408\u7406\u5316\"\u95ee\u9898\u2014\u2014\u6a21\u578b\u57fa\u4e8e\u8868\u9762token\u5339\u914d\u800c\u975e\u771f\u5b9e\u56e0\u679c\u4f9d\u8d56\u8fdb\u884c\u5f15\u7528\u3002\u7814\u7a76\u8005\u533a\u5206\u4e86\u4e24\u4e2a\u5173\u952e\u6982\u5ff5\uff1a**Citation Correctness**(\u5f15\u7528\u6587\u6863\u662f\u5426\u652f\u6301\u9648\u8ff0)\u4e0e**Citation Faithfulness**(\u6a21\u578b\u662f\u5426\u771f\u6b63\u4f9d\u8d56\u5f15\u7528\u6587\u6863)\u3002\n\nCiteCheck (arXiv:2502.10881)\u8d21\u732e\u4e86\u9996\u4e2a\u5927\u89c4\u6a21\u4e2d\u6587\u5f15\u7528\u5fe0\u5b9e\u5ea6\u68c0\u6d4b\u6570\u636e\u96c6\uff0cREC\u65b9\u6cd5(arXiv:2411.02448)\u9996\u6b21\u5b9e\u73b0\u81ea\u52a8\u8bc4\u4f30\u5f15\u7528\u548c\u901a\u7528RAG\u5f15\u7528\u7684\u7edf\u4e00\u6a21\u578b\u3002franq\u6846\u67b6(arXiv:2505.21072)\u63d0\u51fa\u57fa\u4e8efaithfulness\u7684\u4e0d\u786e\u5b9a\u6027\u91cf\u5316\u65b9\u6cd5\u3002\n\n### \u6700\u65b0\u7efc\u8ff0\u8bba\u6587\u5bfc\u8bfb\n\n**arXiv:2510.24476**\u300aMitigating Hallucination in Large Language Models\u300b\u662f2025\u5e7410\u6708\u53d1\u8868\u7684\u5e94\u7528\u5bfc\u5411\u7efc\u8ff0\uff0c\u63d0\u51fa\u77e5\u8bc6\u578b/\u903b\u8f91\u578b\u5e7b\u89c9\u5206\u7c7b\u6cd5\uff0c\u6df1\u5165\u5206\u6790RAG\u548c\u63a8\u7406\u589e\u5f3a\u5982\u4f55\u534f\u540c\u7f13\u89e3\u5e7b\u89c9\uff0c\u6db5\u76d6Agent\u7cfb\u7edf\u4e2d\u7684\u5e7b\u89c9\u63a7\u5236\u3002\n\n**arXiv:2510.06265**\u300aLarge Language Models Hallucination: A Comprehensive Survey\u300b\u4eceLLM\u5f00\u53d1\u5168\u5468\u671f\u5206\u6790\u5e7b\u89c9\u539f\u56e0\uff0c\u7cfb\u7edf\u8bc4\u8ff0\u68c0\u6d4b\u548c\u7f13\u89e3\u65b9\u6cd5\u3002**arXiv:2506.00054**\u7efc\u8ff0\u663e\u793a2024\u5e74\u53d1\u8868\u4e86\u8d85\u8fc71,200\u7bc7RAG\u76f8\u5173\u8bba\u6587\uff0c\u5c55\u793a\u8be5\u9886\u57df\u7684\u7206\u53d1\u5f0f\u589e\u957f\u3002\n\n---\n\n## \u7b2c23\u7ae0\uff1a\u8bc4\u4f30\u65b9\u6cd5\u4e0e\u57fa\u51c6\n\n### RAGAS\u6846\u67b6\uff1aReference-Free\u8bc4\u4f30\u7684\u884c\u4e1a\u6807\u51c6\n\nRAGAS (arXiv:2309.15217, EACL 2024)\u5df2\u6210\u4e3aRAG\u8bc4\u4f30\u7684\u4e8b\u5b9e\u6807\u51c6\u3002\u5176\u56db\u4e2a\u6838\u5fc3\u6307\u6807\u6784\u6210\u5b8c\u6574\u8bc4\u4f30\u4f53\u7cfb\uff1a\n\n| \u6307\u6807 | \u5b9a\u4e49 | \u8f93\u5165\u6570\u636e | \u662f\u5426\u9700\u8981\u6807\u6ce8 |\n|------|------|----------|-------------|\n| **Context Precision** | \u68c0\u7d22\u4e0a\u4e0b\u6587\u7684\u4fe1\u566a\u6bd4 | question + contexts | \u5426 |\n| **Context Recall** | \u68c0\u7d22\u4fe1\u606f\u5b8c\u6574\u6027 | ground_truth + contexts | \u662f |\n| **Faithfulness** | \u7b54\u6848\u5bf9\u68c0\u7d22\u5185\u5bb9\u7684\u5fe0\u5b9e\u5ea6 | answer + contexts | \u5426 |\n| **Answer Relevancy** | \u7b54\u6848\u4e0e\u95ee\u9898\u76f8\u5173\u6027 | question + answer | \u5426 |\n\nRAGAS\u7684\u6838\u5fc3\u4f18\u52bf\u5728\u4e8e**Reference-Free\u8bbe\u8ba1**\u2014\u2014\u5927\u90e8\u5206\u6307\u6807\u4e0d\u9700\u8981ground truth\u6807\u6ce8\uff0c\u8fd9\u5927\u5e45\u964d\u4f4e\u4e86\u8bc4\u4f30\u6210\u672c\u3002\u6846\u67b6\u652f\u6301LangChain\u548cLlamaIndex\u96c6\u6210\uff0c\u5e76\u63d0\u4f9b\u81ea\u52a8\u6d4b\u8bd5\u6570\u636e\u751f\u6210\u5de5\u5177\u3002\n\n**GitHub**: https://github.com/explodinggradients/ragas  \n**\u5b98\u65b9\u6587\u6863**: https://docs.ragas.io/\n\n### \u8bc4\u4f30\u5de5\u5177\u751f\u6001\u7cfb\u7edf\u5bf9\u6bd4\n\n**RAGChecker** (arXiv:2408.08067, NeurIPS 2024)\u7531Amazon AWS AI\u3001\u4e0a\u6d77\u4ea4\u5927\u548c\u897f\u6e56\u5927\u5b66\u8054\u5408\u5f00\u53d1\uff0c\u91c7\u7528**Claim-level Entailment Checking**\u2014\u2014\u5c06\u56de\u7b54\u5206\u89e3\u4e3a\u72ec\u7acb\u58f0\u660e\u8fdb\u884c\u9a8c\u8bc1\u3002Meta-evaluation\u663e\u793a\u5176\u4e0e\u4eba\u7c7b\u5224\u65ad\u76f8\u5173\u6027\u663e\u8457\u4f18\u4e8eRAGAS\u3001TruLens\u3001ARES\u3002\n\n**ARES** (arXiv:2311.09476, NAACL 2024)\u6765\u81eaStanford\uff0c\u6838\u5fc3\u521b\u65b0\u662f**PPI\u6821\u51c6**\uff1a\u4f7f\u7528\u7ea6150\u4e2a\u4eba\u5de5\u6807\u6ce8\u70b9\u6821\u51c6\u81ea\u52a8\u8bc4\u4f30\uff0c\u63d0\u4f9b\u7f6e\u4fe1\u533a\u95f4\u3002\u5728Context Relevance\u4e0a\u6bd4RAGAS\u9ad8**59.3\u4e2a\u767e\u5206\u70b9**\uff0cAnswer Relevance\u9ad8**14.4\u4e2a\u767e\u5206\u70b9**\u3002\n\n**TruLens** (Snowflake Inc.)\u63d0\u51fa**RAG Triad**\u6982\u5ff5\uff1aContext Relevance\u3001Groundedness\u3001Answer Relevance\uff0c\u652f\u6301\u5b9e\u65f6\u8ffd\u8e2a\u548c\u53ef\u89c6\u5316Dashboard\u3002\n\n| \u5de5\u5177 | GitHub Stars | \u6838\u5fc3\u7279\u8272 | \u9002\u7528\u573a\u666f |\n|------|-------------|----------|----------|\n| RAGAS | \u9ad8 | Reference-free\uff0c\u81ea\u52a8\u6570\u636e\u751f\u6210 | \u5feb\u901f\u8fed\u4ee3\u8bc4\u4f30 |\n| RAGChecker | \u4e2d | Claim-level\uff0c\u4e0e\u4eba\u7c7b\u5224\u65ad\u9ad8\u76f8\u5173 | \u7ec6\u7c92\u5ea6\u8bca\u65ad |\n| ARES | 672+ | PPI\u7f6e\u4fe1\u533a\u95f4\uff0c\u5408\u6210\u6570\u636e\u8bad\u7ec3 | \u5b66\u672f\u7814\u7a76 |\n| TruLens | \u9ad8 | \u5b9e\u65f6\u76d1\u63a7Dashboard | \u751f\u4ea7\u73af\u5883\u76d1\u63a7 |\n| DeepEval | \u9ad8 | Pytest\u98ce\u683c\u5355\u5143\u6d4b\u8bd5 | CI/CD\u96c6\u6210 |\n\n**\u5173\u952eGitHub\u94fe\u63a5**\uff1a\n- RAGChecker: https://github.com/amazon-science/RAGChecker\n- ARES: https://github.com/stanford-futuredata/ARES\n- TruLens: https://github.com/truera/trulens\n\n### RAG\u57fa\u51c6\u6570\u636e\u96c6\u5168\u666f\n\n**RAGBench** (arXiv:2407.11005)\u662f\u76ee\u524d\u89c4\u6a21\u6700\u5927\u7684RAG\u8bc4\u4f30\u57fa\u51c6\uff0c\u5305\u542b**100,000\u4e2a\u6837\u672c**\uff0c\u8986\u76d6\u5ba2\u6237\u652f\u6301(DelucionQA)\u3001\u591a\u8df3\u63a8\u7406(HotpotQA)\u3001\u751f\u7269\u533b\u5b66(CovidQA)\u3001\u91d1\u878d(FinQA/TAT-QA)\u3001\u6cd5\u5f8b(CUAD)\u7b49\u591a\u4e2a\u9886\u57df\u3002\u5176TRACe\u8bc4\u4f30\u6846\u67b6\u6db5\u76d6Context Utilization\u3001Relevance\u3001Adherence\u3001Completeness\u56db\u4e2a\u7ef4\u5ea6\u3002\u91cd\u8981\u53d1\u73b0\uff1a400M\u53c2\u6570\u7684DeBERTa\u5fae\u8c03\u540e\u5728\u5e7b\u89c9\u68c0\u6d4b\u4e0a\u4f18\u4e8e\u5927\u578bLLM judges\u3002\n\n**RAGTruth** (arXiv:2401.00396, ACL 2024)\u63d0\u4f9b\u7ea618,000\u4e2a\u54cd\u5e94\uff0c\u5305\u542b**\u8bcd\u7ea7\u5e7b\u89c9\u6807\u6ce8**\u548c\u5e7b\u89c9\u5f3a\u5ea6\u8bc4\u4f30\uff0c\u5c06\u5e7b\u89c9\u5206\u4e3aEvident Conflict\u3001Subtle Conflict\u3001Evident Baseless Info\u3001Subtle Baseless Info\u56db\u7c7b\u3002\n\n**MIRAGE** (ACL 2024 Findings)\u4e13\u6ce8\u533b\u5b66\u9886\u57df\uff0c\u5305\u542b7,663\u4e2a\u95ee\u9898\uff0c\u6574\u5408MedQA\u3001PubMedQA\u3001MMLU-Med\u7b49\u6570\u636e\u96c6\uff0c\u914d\u5957MedRAG toolkit\u652f\u630141\u79cd\u7ec4\u5408\u5b9e\u9a8c\u3002\n\n| \u6570\u636e\u96c6 | arXiv ID | \u89c4\u6a21 | \u9886\u57df | \u7279\u8272 |\n|--------|----------|------|------|------|\n| RAGBench | 2407.11005 | 100k | \u591a\u9886\u57df | TRACe\u56db\u7ef4\u8bc4\u4f30 |\n| RAGTruth | 2401.00396 | 18k | \u901a\u7528 | \u8bcd\u7ea7\u6807\u6ce8\uff0c6\u4e2aLLM |\n| MIRAGE | ACL 2024 | 7,663 | \u533b\u5b66 | \u914d\u5957MedRAG\u5de5\u5177 |\n| FeB4RAG | - | 790 | \u8054\u90a6\u68c0\u7d22 | \u5bf9\u8bdd\u5f0f\u67e5\u8be2 |\n| CRAG | - | 4,409 | \u901a\u7528 | KDD Cup 2024 |\n\n### LLM-as-a-Judge\uff1a\u4f18\u52bf\u4e0e12\u79cd\u5df2\u8bc6\u522b\u504f\u89c1\n\n\u4f7f\u7528LLM\u4f5c\u4e3a\u8bc4\u5224\u8005\u5177\u6709\u663e\u8457\u4f18\u52bf\uff1a\u7075\u6d3b\u8bc4\u4f30\u5f00\u653e\u5f0f\u4efb\u52a1\u3001\u53ef\u6269\u5c55\u6027\u5f3a\u3001\u6210\u672c\u6548\u76ca\u9ad8\u3001\u591a\u7ef4\u5ea6\u540c\u65f6\u8bc4\u4f30\u3001\u6807\u51c6\u7edf\u4e00\u65e0\u4eba\u5de5\u75b2\u52b3\u3002\u7136\u800cCALM\u6846\u67b6(arXiv:2410.02736)\u7cfb\u7edf\u8bc6\u522b\u4e86**12\u79cd\u504f\u89c1**\uff1a\n\n\u4f4d\u7f6e\u504f\u89c1(Position Bias)\u3001\u5197\u957f\u504f\u89c1(Verbosity Bias)\u3001\u81ea\u6211\u504f\u597d(Self-preference)\u3001\u6743\u5a01\u504f\u89c1(Authority Bias)\u3001\u6027\u522b\u504f\u89c1\u3001\u9519\u8bef\u4fe1\u606f\u5ffd\u89c6\u3001\u7f8e\u89c2\u504f\u89c1(Beauty Bias)\u3001\u591a\u6837\u6027\u504f\u89c1\u3001\u8c2c\u8bef\u5ffd\u89c6\u3001\u60c5\u611f\u504f\u89c1\u3001\u6539\u8fdb\u504f\u89c1(Refinement Bias)\u3001\u957f\u5ea6\u504f\u89c1\u3002\n\n**2024-2025\u5e74\u6539\u8fdb\u65b9\u6cd5**\u5305\u62ec\uff1aMultiple-Evidence Calibration(\u591a\u6b21\u8bc4\u5206\u53d6\u5e73\u5747)\u3001Balanced Position Calibration(\u4ea4\u6362\u4f4d\u7f6e\u591a\u6b21\u8bc4\u4f30)\u3001PPI\u6821\u51c6(\u5c11\u91cf\u4eba\u5de5\u6807\u6ce8)\u3001Fine-tuned Lightweight Judges(\u5fae\u8c03\u5c0f\u6a21\u578b\u4e13\u95e8\u8bc4\u5224)\u3001Claim-level Checking(\u7ec6\u7c92\u5ea6\u9a8c\u8bc1)\u3001Multi-LLM Collaboration(\u591aLLM\u534f\u4f5c)\u3002\u4ea4\u6362\u4f4d\u7f6e\u53ef\u5bfc\u81f4**10%+**\u7684\u51c6\u786e\u7387\u53d8\u5316\uff0c\u51f8\u663e\u53bb\u504f\u7684\u91cd\u8981\u6027\u3002\n\n---\n\n## \u7b2c24\u7ae0\uff1a\u5782\u76f4\u9886\u57df\u5e94\u7528\n\n### \u533b\u7597RAG\uff1a\u4ece\u8bca\u65ad\u652f\u6301\u5230EHR\u6458\u8981\n\n**MedRAG\u7cfb\u5217**\u4ee3\u8868\u4e86\u533b\u7597RAG\u7684\u6700\u9ad8\u6c34\u5e73\u3002**MedRAG Toolkit** (arXiv:2402.13178, ACL 2024 Findings)\u5efa\u7acb\u4e86\u9996\u4e2a\u533b\u7597RAG\u8bc4\u6d4b\u57fa\u51c6MIRAGE\uff0c\u5305\u542b41\u79cd\u7ec4\u5408\u5b9e\u9a8c\uff08\u8bed\u6599\u5e93\u00d7\u68c0\u7d22\u5668\u00d7LLM backbone\uff09\uff0c\u6700\u9ad8\u63d0\u5347**18%\u51c6\u786e\u7387**\uff0c\u4f7fGPT-3.5\u8fbe\u5230GPT-4\u6c34\u5e73\u3002\n\n**MedRAG\u77e5\u8bc6\u56fe\u8c31\u589e\u5f3a\u7248** (arXiv:2502.04413, ACM Web Conference 2025)\u6784\u5efa\u56db\u5c42\u5206\u7ea7\u8bca\u65ad\u77e5\u8bc6\u56fe\u8c31\uff0c\u7cfb\u7edf\u8868\u793a\u75be\u75c5\u95f4\u7684\u5173\u952e\u8bca\u65ad\u5dee\u5f02\uff0c\u652f\u6301\u52a8\u6001\u751f\u6210\u540e\u7eed\u95ee\u8bca\u95ee\u9898\u3002\u5728\u65b0\u52a0\u5761\u9648\u7b03\u751f\u533b\u9662\u6162\u6027\u75bc\u75db\u8bca\u65ad\u6570\u636e\u96c6\u4e0a\u663e\u8457\u964d\u4f4e\u8bef\u8bca\u7387\u3002\n\n**BioRAG** (arXiv:2408.01107)\u7d22\u5f15\u4e862200\u4e07\u7bc7PubMed\u8bba\u6587\uff0c\u8bad\u7ec3\u9886\u57df\u7279\u5b9a\u5d4c\u5165\u6a21\u578b\uff0c\u5728\u57fa\u56e0\u522b\u540d\u8bc6\u522b\u8fbe**98%\u51c6\u786e\u7387**\uff0cSNP\u4f4d\u7f6e\u4efb\u52a1\u8fbe**100%\u51c6\u786e\u7387**\u3002\n\n**i-MedRAG** (arXiv:2408.00727, PSB 2025)\u91c7\u7528\u8fed\u4ee3\u5f0f\u591a\u8f6e\u68c0\u7d22\uff0cGPT-3.5\u5728MedQA\u8fbe\u523069.68%\u51c6\u786e\u7387\u3002**MMed-RAG** (arXiv:2410.13085, ICLR 2025)\u5c06RAG\u6269\u5c55\u5230\u533b\u5b66\u89c6\u89c9\u8bed\u8a00\u6a21\u578b\u3002\n\n| \u7cfb\u7edf | arXiv ID | \u53d1\u8868 | \u6027\u80fd\u4eae\u70b9 |\n|------|----------|------|----------|\n| MedRAG Toolkit | 2402.13178 | ACL 2024 | +18%\u51c6\u786e\u7387 |\n| MedRAG-KG | 2502.04413 | WWW 2025 | \u964d\u4f4e\u8bef\u8bca\u7387 |\n| BioRAG | 2408.01107 | - | 98%\u57fa\u56e0\u8bc6\u522b |\n| i-MedRAG | 2408.00727 | PSB 2025 | 69.68% MedQA |\n| MMed-RAG | 2410.13085 | ICLR 2025 | \u591a\u6a21\u6001\u533b\u5b66 |\n\n**GitHub**: https://github.com/Teddy-XiongGZ/MedRAG\n\n### \u6cd5\u5f8bRAG\uff1a\u6848\u4f8b\u63a8\u7406\u4e0e\u5408\u89c4\u5206\u6790\n\n**LegalBench-RAG** (arXiv:2408.10343)\u662f\u9996\u4e2a\u4e13\u95e8\u8bc4\u4f30\u6cd5\u5f8bRAG\u68c0\u7d22\u6b65\u9aa4\u7684\u57fa\u51c6\uff0c\u5305\u542b6,858\u4e2aquery-answer\u5bf9\u548c7900\u4e07+\u5b57\u7b26\u8bed\u6599\u5e93\uff0c**\u5b8c\u5168\u7531\u6cd5\u5f8b\u4e13\u5bb6\u4eba\u5de5\u6807\u6ce8**\u3002\u5173\u952e\u53d1\u73b0\uff1aRecursive Text Character Splitter\u663e\u8457\u4f18\u4e8e\u56fa\u5b9a\u5206\u5757\uff0c\u800c\u901a\u7528Cohere Reranker\u53cd\u800c\u964d\u4f4e\u6cd5\u5f8b\u68c0\u7d22\u6027\u80fd\u3002\n\n**CBR-RAG** (arXiv:2404.04302, ICCBR 2024)\u5c06\u6848\u4f8b\u63a8\u7406(Case-Based Reasoning)\u7684\u68c0\u7d22\u9636\u6bb5\u96c6\u6210\u5230RAG\u4e2d\uff0c\u5229\u7528\u7d22\u5f15\u8bcd\u6c47\u548c\u76f8\u4f3c\u6027\u77e5\u8bc6\u5bb9\u5668\u589e\u5f3aLLM\u67e5\u8be2\u3002\u5728Open Australian Legal Corpus\u4e0a\u7684\u5b9e\u9a8c\u8bc1\u660eCBR\u4e0a\u4e0b\u6587\u663e\u8457\u63d0\u5347\u751f\u6210\u7b54\u6848\u8d28\u91cf\u3002\n\n| \u7cfb\u7edf | arXiv ID | \u53d1\u8868 | \u6838\u5fc3\u521b\u65b0 |\n|------|----------|------|----------|\n| LegalBench-RAG | 2408.10343 | - | \u9996\u4e2a\u6cd5\u5f8b\u68c0\u7d22\u57fa\u51c6 |\n| CBR-RAG | 2404.04302 | ICCBR 2024 | CBR+RAG\u878d\u5408 |\n| LRAGE | 2025 | - | \u6cd5\u5f8b\u8bc4\u4f30\u5de5\u5177 |\n| LexRAG | 2025 | - | \u591a\u8f6e\u6cd5\u5f8b\u5bf9\u8bdd |\n\n**GitHub**: https://github.com/zeroentropy-ai/legalbenchrag\n\n### \u91d1\u878dRAG\uff1a\u591a\u6a21\u6001\u4e0e\u65f6\u5e8f\u611f\u77e5\n\n**FinRAGBench-V** (arXiv:2505.17471)\u662f\u9996\u4e2a\u591a\u6a21\u6001\u91d1\u878dRAG\u57fa\u51c6\uff0c\u5305\u542b\u53cc\u8bed\u68c0\u7d22\u8bed\u6599\u5e93(60,780\u4e2d\u6587\u9875+51,219\u82f1\u6587\u9875)\uff0c\u8986\u76d67\u7c7b\u95ee\u9898\u7c7b\u578b\u548c\u5f02\u6784\u6570\u636e\uff0c\u521b\u65b0\u6027\u5730\u63d0\u51fa\u81ea\u52a8\u8bc4\u4f30\u591a\u6a21\u6001LLM\u89c6\u89c9\u5f15\u7528\u80fd\u529b\u7684\u65b9\u6cd5\u3002\n\n**FinTMMBench** (arXiv:2503.05185)\u57fa\u4e8eNASDAQ 100\u516c\u53f8\u6784\u5efa\u65f6\u5e8f\u611f\u77e5\u57fa\u51c6\uff0c\u6574\u5408\u8d22\u52a1\u8868\u683c\u3001\u65b0\u95fb\u3001\u80a1\u4ef7\u3001\u6280\u672f\u56fe\u8868\u7b49\u591a\u6a21\u6001\u8bed\u6599\uff0c\u652f\u6301\u65e5/\u5468/\u6708/\u5b63/\u5e74\u4e94\u79cd\u65f6\u95f4\u7c92\u5ea6\u768410\u79cd\u91d1\u878d\u5206\u6790\u4efb\u52a1\u3002TMMHybridRAG\u65b9\u6cd5\u5c06\u591a\u6a21\u6001\u6570\u636e\u8f6c\u5316\u4e3a\u6587\u672c\u5e76\u6784\u5efa\u65f6\u95f4\u4fe1\u606f\u56fe\u8c31\u3002\n\n**MultiFinRAG**\u5b9e\u73b0\u8de8\u6a21\u6001\u63a8\u7406(\u6587\u672c+\u8868\u683c+\u56fe\u50cf)\uff0c\u91c7\u7528\u8f7b\u91cf\u7ea7\u91cf\u5316\u5f00\u6e90\u6a21\u578b\u548c\u5206\u5c42\u56de\u9000\u7b56\u7565\uff0c\u4e0eChatGPT-4o\u5dee\u8ddd\u4ec5**4.1%**\u3002\n\n### \u9886\u57df\u9002\u5e94\u6280\u672f\uff1a\u77e5\u8bc6\u56fe\u8c31\u4e0e\u4e13\u4e1a\u5d4c\u5165\n\n**GraphRAG** (arXiv:2501.00309)\u7efc\u8ff0\u7cfb\u7edf\u68b3\u7406\u4e86\u77e5\u8bc6\u56fe\u8c31\u589e\u5f3aRAG\u7684\u6846\u67b6\u7ec4\u4ef6\uff1aQuery Processor\u3001Retriever(GNN/\u56fe\u904d\u5386)\u3001Organizer\u3001Generator\u3001Data Source\u3002\u56fe\u7ed3\u6784\u77e5\u8bc6\u8868\u793a\u5b9e\u73b0\u591a\u8df3\u63a8\u7406\u548c\u7ed3\u6784\u611f\u77e5\u77e5\u8bc6\u96c6\u6210\u3002\n\n**\u9886\u57df\u7279\u5b9a\u5d4c\u5165\u6a21\u578b**\u662f\u9002\u5e94\u5782\u76f4\u9886\u57df\u7684\u5173\u952e\uff1a\n\n| \u9886\u57df | \u4ee3\u8868\u6a21\u578b | \u6027\u80fd\u63d0\u5347 |\n|------|----------|----------|\n| \u533b\u7597 | BioBERT | +12.24% MRR (QA) |\n| \u533b\u7597 | PubMedBERT | PubMed\u4e13\u4f18\u5316 |\n| \u533b\u7597 | MedTE (2024) | 0.578 vs 0.525 (\u6b21\u4f18) |\n| \u6cd5\u5f8b | LEGAL-BERT | 11.5GB\u6cd5\u5f8b\u6587\u672c\u9884\u8bad\u7ec3 |\n| \u91d1\u878d | \u5143\u6570\u636e\u805a\u7c7b\u5d4c\u5165 | \u65f6\u5e8f\u611f\u77e5 |\n\n**Domain-specific Fine-tuning**\u91c7\u7528\u5bf9\u6bd4\u5b66\u4e60\u4e09\u5143\u7ec4\u683c\u5f0f(query, positive, negative)\u3002\u5178\u578b\u6848\u4f8bMedCPT\u4f7f\u75282.55\u4ebfPubMed\u7528\u6237\u70b9\u51fb\u65e5\u5fd7\u8bad\u7ec3\u3002\u591a\u9636\u6bb5\u5fae\u8c03\u5148\u8fdb\u884c\u9886\u57df\u8bed\u6599\u9884\u8bad\u7ec3\uff0c\u518d\u8fdb\u884c\u4efb\u52a1\u7279\u5b9a\u5fae\u8c03\u3002\n\n---\n\n## \u5173\u952e\u6027\u80fd\u57fa\u51c6\u5bf9\u6bd4\u6c47\u603b\n\n### \u5e7b\u89c9\u68c0\u6d4b\u65b9\u6cd5\u6027\u80fd\n\n| \u65b9\u6cd5 | \u6570\u636e\u96c6 | \u6307\u6807 | \u6027\u80fd | \u65e5\u671f |\n|------|--------|------|------|------|\n| SIRG | RAGTruth | F1 | 89.17% | 2025.01 |\n| HALT-RAG | HaluEval | F1 | 97.86% | 2025.09 |\n| Fine-tuned Llama-2-13B | RAGTruth | F1 | 80.7% | 2024.05 |\n| LettuceDetect | RAGTruth | F1 | 79.22% | 2025.02 |\n| LRP4RAG | RAGTruth | Acc | 77.2% | 2024.08 |\n\n### \u5e7b\u89c9\u7f13\u89e3\u65b9\u6cd5\u6027\u80fd\n\n| \u65b9\u6cd5 | \u6570\u636e\u96c6 | \u63d0\u5347\u5e45\u5ea6 | \u5ef6\u8fdf |\n|------|--------|----------|------|\n| CRAG | PopQA | +19.0% | - |\n| CRAG | PubHealth | +36.6% | - |\n| Speculative RAG | PubHealth | +12.97% | -51% |\n\n### \u5782\u76f4\u9886\u57dfRAG\u6027\u80fd\n\n| \u7cfb\u7edf | \u4efb\u52a1 | \u6027\u80fd |\n|------|------|------|\n| MedRAG | \u533b\u5b66QA | +18%\u51c6\u786e\u7387 |\n| BioRAG | \u57fa\u56e0\u8bc6\u522b | 98%\u51c6\u786e\u7387 |\n| MultiFinRAG | \u91d1\u878d\u5206\u6790 | \u4e0eGPT-4o\u5dee4.1% |\n\n---\n\n## GitHub\u4ed3\u5e93\u8d44\u6e90\u6c47\u603b\n\n| \u7c7b\u522b | \u9879\u76ee | \u94fe\u63a5 |\n|------|------|------|\n| **\u5e7b\u89c9\u68c0\u6d4b** | SelfCheckGPT | https://github.com/potsawee/selfcheckgpt |\n| | RAGTruth | https://github.com/ParticleMedia/RAGTruth |\n| **\u5e7b\u89c9\u7f13\u89e3** | Self-RAG | https://selfrag.github.io/ |\n| | CRAG | https://github.com/HuskyInSalt/CRAG |\n| **\u8bc4\u4f30\u6846\u67b6** | RAGAS | https://github.com/explodinggradients/ragas |\n| | RAGChecker | https://github.com/amazon-science/RAGChecker |\n| | ARES | https://github.com/stanford-futuredata/ARES |\n| | TruLens | https://github.com/truera/trulens |\n| **\u533b\u7597RAG** | MedRAG | https://github.com/Teddy-XiongGZ/MedRAG |\n| | MMed-RAG | https://github.com/richard-peng-xia/MMed-RAG |\n| **\u6cd5\u5f8bRAG** | LegalBench-RAG | https://github.com/zeroentropy-ai/legalbenchrag |\n| | CBR-RAG | https://github.com/rgu-iit-bt/cbr-for-legal-rag |\n| **\u77e5\u8bc6\u56fe\u8c31** | GraphRAG\u8d44\u6e90 | https://github.com/DEEP-PolyU/Awesome-GraphRAG |\n| **\u8d44\u6e90\u5217\u8868** | Awesome-RAG-Evaluation | https://github.com/YHPeter/Awesome-RAG-Evaluation |\n\n---\n\n## \u6700\u4f73\u5b9e\u8df5\u5efa\u8bae\n\n### \u5e7b\u89c9\u63a7\u5236\u7b56\u7565\n\n\u91c7\u7528\u591a\u9636\u6bb5\u9632\u5fa1\u67b6\u6784\uff1a\u68c0\u7d22\u9636\u6bb5\u4f7f\u7528CRAG\u8bc4\u4f30\u5668\u8fc7\u6ee4\u4f4e\u8d28\u91cf\u6587\u6863\uff0c\u751f\u6210\u9636\u6bb5\u4f7f\u7528Self-RAG\u53cd\u601d\u673a\u5236\uff0c\u540e\u5904\u7406\u9636\u6bb5\u4f7f\u7528HALT-RAG\u9a8c\u8bc1\u3002\u5bf9\u4e8e\u751f\u4ea7\u7cfb\u7edf\uff0cLettuceDetect\u63d0\u4f9b\u4e86\u9ad8\u6027\u80fd\u4f4e\u6210\u672c\u7684\u9009\u62e9\u3002\u91cd\u70b9\u5173\u6ce8faithfulness\u800c\u975e\u4ec5correctness\uff0c\u907f\u514d\"\u540e\u5408\u7406\u5316\"\u95ee\u9898\u3002\n\n### \u8bc4\u4f30\u4f53\u7cfb\u6784\u5efa\n\n\u5feb\u901f\u8fed\u4ee3\u9636\u6bb5\u4f7f\u7528RAGAS\u8fdb\u884creference-free\u8bc4\u4f30\uff0c\u7ec6\u7c92\u5ea6\u8bca\u65ad\u4f7f\u7528RAGChecker\u8fdb\u884cclaim-level\u5206\u6790\uff0c\u751f\u4ea7\u76d1\u63a7\u4f7f\u7528TruLens\u5b9e\u65f6\u8ffd\u8e2a\uff0c\u5b66\u672f\u7814\u7a76\u4f7f\u7528ARES\u83b7\u53d6\u7f6e\u4fe1\u533a\u95f4\u3002LLM-as-Judge\u9700\u914d\u5408Position Switching\u3001\u591a\u6b21\u8bc4\u4f30\u548c\u5c11\u91cf\u4eba\u5de5\u6821\u51c6\u3002\n\n### \u5782\u76f4\u9886\u57df\u90e8\u7f72\n\n\u533b\u7597\u9886\u57df\u4f18\u5148\u91c7\u7528\u77e5\u8bc6\u56fe\u8c31\u589e\u5f3a(MedRAG-KG)\u548c\u9886\u57df\u7279\u5b9a\u5d4c\u5165(PubMedBERT/MedTE)\uff0c\u4f7f\u7528MIRAGE\u57fa\u51c6\u8bc4\u4f30\u3002\u6cd5\u5f8b\u9886\u57df\u907f\u514d\u4f7f\u7528\u901a\u7528reranker\uff0c\u91c7\u7528CBR\u7ed3\u6784\u5316\u68c0\u7d22\u548c\u5b57\u7b26\u7ea7\u7cbe\u786e\u68c0\u7d22\u3002\u91d1\u878d\u9886\u57df\u9700\u6574\u5408\u65f6\u5e8f\u611f\u77e5\u673a\u5236\u548c\u591a\u6a21\u6001\u5904\u7406\u80fd\u529b\u3002\n\n---\n\n## \u7814\u7a76\u8d8b\u52bf\u4e0e\u5c55\u671b\n\nRAG\u6280\u672f\u6b63\u5728\u5411\u4e94\u4e2a\u65b9\u5411\u6f14\u8fdb\uff1a**\u591a\u6a21\u6001RAG**\u6574\u5408\u6587\u672c\u3001\u56fe\u50cf\u3001\u8868\u683c\u548c\u65f6\u5e8f\u6570\u636e\uff1b**Agentic RAG**\u5b9e\u73b0\u81ea\u4e3b\u51b3\u7b56\u4f55\u65f6\u3001\u5982\u4f55\u68c0\u7d22\uff1b**\u6301\u7eed\u5b66\u4e60RAG**\u81ea\u52a8\u66f4\u65b0\u77e5\u8bc6\u5e93\uff1b**\u53ef\u89e3\u91caRAG**\u901a\u8fc7\u77e5\u8bc6\u56fe\u8c31\u5b9e\u73b0\u63a8\u7406\u8ffd\u6eaf\uff1b**\u8054\u90a6RAG**\u89e3\u51b3\u9690\u79c1\u4fdd\u62a4\u573a\u666f\u7684\u5206\u5e03\u5f0f\u68c0\u7d22\u30022024\u5e74\u8d85\u8fc71,200\u7bc7RAG\u8bba\u6587\u7684\u53d1\u8868\u91cf\u9884\u793a\u7740\u8be5\u9886\u57df\u5c06\u6301\u7eed\u9ad8\u901f\u53d1\u5c55\u3002",
+      "language": null,
+      "md_citations": [
+        {
+          "url": "https://openreview.net/forum?id=ztzZDzgfrh",
+          "uuid": "6f650850-cd8c-47bb-9bdd-8993fa8ef1f9",
+          "title": "OpenReview",
+          "sources": [
+            {
+              "url": "https://openreview.net/forum?id=ztzZDzgfrh",
+              "uuid": "6f650850-cd8c-47bb-9bdd-8993fa8ef1f9",
+              "title": "ReDeEP: Detecting Hallucination in Retrieval-Augmented Generation via Mechanistic Interpretability | OpenReview",
+              "source": "OpenReview",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=openreview.net",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "6f650850-cd8c-47bb-9bdd-8993fa8ef1f9",
+            "source": "OpenReview",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=openreview.net",
+            "preview_title": "ReDeEP: Detecting Hallucination in Retrieval-Augmented Generation via Mechanistic Interpretability | OpenReview"
+          },
+          "end_index": 614,
+          "start_index": 547,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://github.com/potsawee/selfcheckgpt",
+          "uuid": "92f5fe92-92f3-4508-a5a6-06ff0455381b",
+          "title": "GitHub",
+          "sources": [
+            {
+              "url": "https://github.com/potsawee/selfcheckgpt",
+              "uuid": "92f5fe92-92f3-4508-a5a6-06ff0455381b",
+              "title": "GitHub - potsawee/selfcheckgpt: SelfCheckGPT: Zero-Resource Black-Box Hallucination Detection for Generative Large Language Models",
+              "source": "GitHub",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=github.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "92f5fe92-92f3-4508-a5a6-06ff0455381b",
+            "source": "GitHub",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=github.com",
+            "preview_title": "GitHub - potsawee/selfcheckgpt: SelfCheckGPT: Zero-Resource Black-Box Hallucination Detection for Generative Large Language Models"
+          },
+          "end_index": 918,
+          "start_index": 901,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://aclanthology.org/2024.acl-long.585/",
+          "uuid": "146d6da9-bb42-4824-bea3-17db788e761c",
+          "title": "ACL Anthology",
+          "sources": [
+            {
+              "url": "https://aclanthology.org/2024.acl-long.585/",
+              "uuid": "146d6da9-bb42-4824-bea3-17db788e761c",
+              "title": "RAGTruth: A Hallucination Corpus for Developing Trustworthy Retrieval-Augmented Language Models - ACL Anthology",
+              "source": "ACL Anthology",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=aclanthology.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "146d6da9-bb42-4824-bea3-17db788e761c",
+            "source": "ACL Anthology",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=aclanthology.org",
+            "preview_title": "RAGTruth: A Hallucination Corpus for Developing Trustworthy Retrieval-Augmented Language Models - ACL Anthology"
+          },
+          "end_index": 1000,
+          "start_index": 973,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/abs/2601.03052",
+          "uuid": "dc0d6aa5-e461-4cc5-b3f1-4841b0a7ad4c",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/abs/2601.03052",
+              "uuid": "dc0d6aa5-e461-4cc5-b3f1-4841b0a7ad4c",
+              "title": "[2601.03052] Detecting Hallucinations in Retrieval-Augmented Generation via Semantic-level Internal Reasoning Graph",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "dc0d6aa5-e461-4cc5-b3f1-4841b0a7ad4c",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "[2601.03052] Detecting Hallucinations in Retrieval-Augmented Generation via Semantic-level Internal Reasoning Graph"
+          },
+          "end_index": 1071,
+          "start_index": 1049,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/html/2502.17125",
+          "uuid": "4a3fb5b7-2ad9-4f62-b574-ba658b333541",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/html/2502.17125",
+              "uuid": "4a3fb5b7-2ad9-4f62-b574-ba658b333541",
+              "title": "LettuceDetect: A Hallucination Detection Framework for RAG Applications",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "4a3fb5b7-2ad9-4f62-b574-ba658b333541",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "LettuceDetect: A Hallucination Detection Framework for RAG Applications"
+          },
+          "end_index": 1149,
+          "start_index": 1125,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/html/2509.07475",
+          "uuid": "d70f3399-ae3e-4a00-a85e-a9495a8ba7a3",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/html/2509.07475",
+              "uuid": "d70f3399-ae3e-4a00-a85e-a9495a8ba7a3",
+              "title": "HALT-RAG: A Task-Adaptable Framework for Hallucination Detection with Calibrated NLI Ensembles and Abstention",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "d70f3399-ae3e-4a00-a85e-a9495a8ba7a3",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "HALT-RAG: A Task-Adaptable Framework for Hallucination Detection with Calibrated NLI Ensembles and Abstention"
+          },
+          "end_index": 1212,
+          "start_index": 1198,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/html/2601.03052",
+          "uuid": "fcfc20d7-51b1-47bb-a91c-c13706d67a29",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/html/2601.03052",
+              "uuid": "fcfc20d7-51b1-47bb-a91c-c13706d67a29",
+              "title": "Detecting Hallucinations in Retrieval-Augmented Generation via Semantic-level Internal Reasoning Graph",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "fcfc20d7-51b1-47bb-a91c-c13706d67a29",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "Detecting Hallucinations in Retrieval-Augmented Generation via Semantic-level Internal Reasoning Graph"
+          },
+          "end_index": 1272,
+          "start_index": 1237,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/html/2502.17125",
+          "uuid": "5f9c4d1a-7fec-4d27-a5c9-2021ad2f44a0",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/html/2502.17125",
+              "uuid": "5f9c4d1a-7fec-4d27-a5c9-2021ad2f44a0",
+              "title": "LettuceDetect: A Hallucination Detection Framework for RAG Applications",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "5f9c4d1a-7fec-4d27-a5c9-2021ad2f44a0",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "LettuceDetect: A Hallucination Detection Framework for RAG Applications"
+          },
+          "end_index": 1353,
+          "start_index": 1301,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://ar5iv.labs.arxiv.org/html/2310.11511",
+          "uuid": "831abb21-4e3c-433e-b89c-4506e461c5d1",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://ar5iv.labs.arxiv.org/html/2310.11511",
+              "uuid": "831abb21-4e3c-433e-b89c-4506e461c5d1",
+              "title": "[2310.11511] Self-Rag: Self-reflective Retrieval augmented Generation",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "831abb21-4e3c-433e-b89c-4506e461c5d1",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "[2310.11511] Self-Rag: Self-reflective Retrieval augmented Generation"
+          },
+          "end_index": 1623,
+          "start_index": 1574,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "http://export.arxiv.org/abs/2310.11511",
+          "uuid": "9208504f-c8f5-499c-a88f-8c46b08d20b1",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "http://export.arxiv.org/abs/2310.11511",
+              "uuid": "9208504f-c8f5-499c-a88f-8c46b08d20b1",
+              "title": "[2310.11511] Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "9208504f-c8f5-499c-a88f-8c46b08d20b1",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "[2310.11511] Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection"
+          },
+          "end_index": 1693,
+          "start_index": 1623,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://learnprompting.org/docs/retrieval_augmented_generation/speculative-rag",
+          "uuid": "4171473b-71ce-4a14-b2a8-87ab9458464a",
+          "title": "Learnprompting",
+          "sources": [
+            {
+              "url": "https://learnprompting.org/docs/retrieval_augmented_generation/speculative-rag",
+              "uuid": "4171473b-71ce-4a14-b2a8-87ab9458464a",
+              "title": "Speculative RAG",
+              "source": "Learnprompting",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=learnprompting.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "4171473b-71ce-4a14-b2a8-87ab9458464a",
+            "source": "Learnprompting",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=learnprompting.org",
+            "preview_title": "Speculative RAG"
+          },
+          "end_index": 1960,
+          "start_index": 1919,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/html/2407.08223v1",
+          "uuid": "0a5bc846-05b5-4c4c-8ec7-f8cc061b6fb5",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/html/2407.08223v1",
+              "uuid": "0a5bc846-05b5-4c4c-8ec7-f8cc061b6fb5",
+              "title": "Speculative RAG: Enhancing Retrieval Augmented Generation through Drafting",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "0a5bc846-05b5-4c4c-8ec7-f8cc061b6fb5",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "Speculative RAG: Enhancing Retrieval Augmented Generation through Drafting"
+          },
+          "end_index": 1982,
+          "start_index": 1960,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/abs/2407.08223v1",
+          "uuid": "c1ab8ad4-ffe6-4137-8e2a-e4962ac01c53",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/abs/2407.08223v1",
+              "uuid": "c1ab8ad4-ffe6-4137-8e2a-e4962ac01c53",
+              "title": "[2407.08223v1] Speculative RAG: Enhancing Retrieval Augmented Generation through Drafting",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "c1ab8ad4-ffe6-4137-8e2a-e4962ac01c53",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "[2407.08223v1] Speculative RAG: Enhancing Retrieval Augmented Generation through Drafting"
+          },
+          "end_index": 2001,
+          "start_index": 1982,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://www.projectpro.io/article/self-rag/1176",
+          "uuid": "75d1bb2a-0ad6-422f-b903-b31fb5b29b6f",
+          "title": "ProjectPro",
+          "sources": [
+            {
+              "url": "https://www.projectpro.io/article/self-rag/1176",
+              "uuid": "75d1bb2a-0ad6-422f-b903-b31fb5b29b6f",
+              "title": "The Self-RAG Shortcut Every AI Expert Wishes They Knew",
+              "source": "ProjectPro",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=projectpro.io",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "75d1bb2a-0ad6-422f-b903-b31fb5b29b6f",
+            "source": "ProjectPro",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=projectpro.io",
+            "preview_title": "The Self-RAG Shortcut Every AI Expert Wishes They Knew"
+          },
+          "end_index": 2111,
+          "start_index": 2097,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://learnprompting.org/docs/retrieval_augmented_generation/speculative-rag",
+          "uuid": "6ca87f30-228f-495b-9656-7260eead8d33",
+          "title": "Learnprompting",
+          "sources": [
+            {
+              "url": "https://learnprompting.org/docs/retrieval_augmented_generation/speculative-rag",
+              "uuid": "6ca87f30-228f-495b-9656-7260eead8d33",
+              "title": "Speculative RAG",
+              "source": "Learnprompting",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=learnprompting.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "6ca87f30-228f-495b-9656-7260eead8d33",
+            "source": "Learnprompting",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=learnprompting.org",
+            "preview_title": "Speculative RAG"
+          },
+          "end_index": 2215,
+          "start_index": 2204,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/abs/2412.18004",
+          "uuid": "beecb545-ea75-4d13-999d-9a6185a3f619",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/abs/2412.18004",
+              "uuid": "beecb545-ea75-4d13-999d-9a6185a3f619",
+              "title": "[2412.18004] Correctness is not Faithfulness in RAG Attributions",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "beecb545-ea75-4d13-999d-9a6185a3f619",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "[2412.18004] Correctness is not Faithfulness in RAG Attributions"
+          },
+          "end_index": 2283,
+          "start_index": 2249,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/abs/2412.18004",
+          "uuid": "a5593300-e37f-405d-9506-87d7148b6dbd",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/abs/2412.18004",
+              "uuid": "a5593300-e37f-405d-9506-87d7148b6dbd",
+              "title": "[2412.18004] Correctness is not Faithfulness in RAG Attributions",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "a5593300-e37f-405d-9506-87d7148b6dbd",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "[2412.18004] Correctness is not Faithfulness in RAG Attributions"
+          },
+          "end_index": 2434,
+          "start_index": 2357,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/abs/2510.24476",
+          "uuid": "9963830a-8a82-428f-a43c-8307c4bc4e47",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/abs/2510.24476",
+              "uuid": "9963830a-8a82-428f-a43c-8307c4bc4e47",
+              "title": "[2510.24476] Mitigating Hallucination in Large Language Models (LLMs): An Application-Oriented Survey on RAG, Reasoning, and Agentic Systems",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "9963830a-8a82-428f-a43c-8307c4bc4e47",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "[2510.24476] Mitigating Hallucination in Large Language Models (LLMs): An Application-Oriented Survey on RAG, Reasoning, and Agentic Systems"
+          },
+          "end_index": 2741,
+          "start_index": 2689,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/abs/2510.06265",
+          "uuid": "e19bdeb9-4674-485a-a381-196427d21c08",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/abs/2510.06265",
+              "uuid": "e19bdeb9-4674-485a-a381-196427d21c08",
+              "title": "[2510.06265] Large Language Models Hallucination: A Comprehensive Survey",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "e19bdeb9-4674-485a-a381-196427d21c08",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "[2510.06265] Large Language Models Hallucination: A Comprehensive Survey"
+          },
+          "end_index": 2854,
+          "start_index": 2824,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/html/2507.18910v1",
+          "uuid": "b81b9e06-1901-4ca1-8733-0dd7ecc7367f",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/html/2507.18910v1",
+              "uuid": "b81b9e06-1901-4ca1-8733-0dd7ecc7367f",
+              "title": "A Systematic Review of Key Retrieval-Augmented Generation (RAG) Systems: Progress, Gaps, and Future Directions",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "b81b9e06-1901-4ca1-8733-0dd7ecc7367f",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "A Systematic Review of Key Retrieval-Augmented Generation (RAG) Systems: Progress, Gaps, and Future Directions"
+          },
+          "end_index": 2900,
+          "start_index": 2876,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/abs/2309.15217",
+          "uuid": "648bf710-102b-4afe-afb5-80f4558495d3",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/abs/2309.15217",
+              "uuid": "648bf710-102b-4afe-afb5-80f4558495d3",
+              "title": "[2309.15217] Ragas: Automated Evaluation of Retrieval Augmented Generation",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "648bf710-102b-4afe-afb5-80f4558495d3",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "[2309.15217] Ragas: Automated Evaluation of Retrieval Augmented Generation"
+          },
+          "end_index": 3020,
+          "start_index": 2971,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/abs/2309.15217",
+          "uuid": "1754d07a-0588-4d8a-ac66-c3be102d0250",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/abs/2309.15217",
+              "uuid": "1754d07a-0588-4d8a-ac66-c3be102d0250",
+              "title": "[2309.15217] Ragas: Automated Evaluation of Retrieval Augmented Generation",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "1754d07a-0588-4d8a-ac66-c3be102d0250",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "[2309.15217] Ragas: Automated Evaluation of Retrieval Augmented Generation"
+          },
+          "end_index": 3422,
+          "start_index": 3354,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://medium.com/data-science/evaluating-rag-applications-with-ragas-81d67b0ee31a",
+          "uuid": "d3d5796b-9fb9-4f6c-9463-8f9090b79c92",
+          "title": "Medium",
+          "sources": [
+            {
+              "url": "https://medium.com/data-science/evaluating-rag-applications-with-ragas-81d67b0ee31a",
+              "uuid": "d3d5796b-9fb9-4f6c-9463-8f9090b79c92",
+              "title": "Evaluating RAG Applications with RAGAs | by Leonie Monigatti | TDS Archive | Medium",
+              "source": "Medium",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=medium.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "d3d5796b-9fb9-4f6c-9463-8f9090b79c92",
+            "source": "Medium",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=medium.com",
+            "preview_title": "Evaluating RAG Applications with RAGAs | by Leonie Monigatti | TDS Archive | Medium"
+          },
+          "end_index": 3422,
+          "start_index": 3354,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://medium.com/data-science/evaluating-rag-applications-with-ragas-81d67b0ee31a",
+          "uuid": "db0dedb2-ddfb-479f-b658-4c9a3f407723",
+          "title": "Medium",
+          "sources": [
+            {
+              "url": "https://medium.com/data-science/evaluating-rag-applications-with-ragas-81d67b0ee31a",
+              "uuid": "db0dedb2-ddfb-479f-b658-4c9a3f407723",
+              "title": "Evaluating RAG Applications with RAGAs | by Leonie Monigatti | TDS Archive | Medium",
+              "source": "Medium",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=medium.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "db0dedb2-ddfb-479f-b658-4c9a3f407723",
+            "source": "Medium",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=medium.com",
+            "preview_title": "Evaluating RAG Applications with RAGAs | by Leonie Monigatti | TDS Archive | Medium"
+          },
+          "end_index": 3463,
+          "start_index": 3422,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/abs/2401.00396",
+          "uuid": "9518675b-56ad-4ad2-b10d-a3f0d72e94d8",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/abs/2401.00396",
+              "uuid": "9518675b-56ad-4ad2-b10d-a3f0d72e94d8",
+              "title": "[2401.00396] RAGTruth: A Hallucination Corpus for Developing Trustworthy Retrieval-Augmented Language Models",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "9518675b-56ad-4ad2-b10d-a3f0d72e94d8",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "[2401.00396] RAGTruth: A Hallucination Corpus for Developing Trustworthy Retrieval-Augmented Language Models"
+          },
+          "end_index": 4854,
+          "start_index": 4780,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://aclanthology.org/2024.acl-long.585/",
+          "uuid": "93ddc34c-aabf-4c7d-a332-4cda4430e2c7",
+          "title": "ACL Anthology",
+          "sources": [
+            {
+              "url": "https://aclanthology.org/2024.acl-long.585/",
+              "uuid": "93ddc34c-aabf-4c7d-a332-4cda4430e2c7",
+              "title": "RAGTruth: A Hallucination Corpus for Developing Trustworthy Retrieval-Augmented Language Models - ACL Anthology",
+              "source": "ACL Anthology",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=aclanthology.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "93ddc34c-aabf-4c7d-a332-4cda4430e2c7",
+            "source": "ACL Anthology",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=aclanthology.org",
+            "preview_title": "RAGTruth: A Hallucination Corpus for Developing Trustworthy Retrieval-Augmented Language Models - ACL Anthology"
+          },
+          "end_index": 4854,
+          "start_index": 4780,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/abs/2402.13178",
+          "uuid": "bfe73b92-254c-4d3d-bcc2-341c8cada63e",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/abs/2402.13178",
+              "uuid": "bfe73b92-254c-4d3d-bcc2-341c8cada63e",
+              "title": "[2402.13178] Benchmarking Retrieval-Augmented Generation for Medicine",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "bfe73b92-254c-4d3d-bcc2-341c8cada63e",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "[2402.13178] Benchmarking Retrieval-Augmented Generation for Medicine"
+          },
+          "end_index": 6101,
+          "start_index": 5959,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/html/2502.04413v1",
+          "uuid": "150e8ec2-9ca5-46bf-803a-f5454d2589bc",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/html/2502.04413v1",
+              "uuid": "150e8ec2-9ca5-46bf-803a-f5454d2589bc",
+              "title": "MedRAG: Enhancing Retrieval-augmented Generation with Knowledge Graph-Elicited Reasoning for Healthcare Copilot",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "150e8ec2-9ca5-46bf-803a-f5454d2589bc",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "MedRAG: Enhancing Retrieval-augmented Generation with Knowledge Graph-Elicited Reasoning for Healthcare Copilot"
+          },
+          "end_index": 6205,
+          "start_index": 6192,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/abs/2408.01107",
+          "uuid": "29d3a01e-f55e-4482-a994-3407c0bb7ea9",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/abs/2408.01107",
+              "uuid": "29d3a01e-f55e-4482-a994-3407c0bb7ea9",
+              "title": "[2408.01107] BioRAG: A RAG-LLM Framework for Biological Question Reasoning",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "29d3a01e-f55e-4482-a994-3407c0bb7ea9",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "[2408.01107] BioRAG: A RAG-LLM Framework for Biological Question Reasoning"
+          },
+          "end_index": 6292,
+          "start_index": 6234,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://www.ivysci.com/en/articles/7789875__BioRAG_A_RAGLLM_Framework_for_Biological_Question_Reasoning",
+          "uuid": "ff3846e7-8ab2-4ede-8123-a5909421aaa1",
+          "title": "Optica",
+          "sources": [
+            {
+              "url": "https://www.ivysci.com/en/articles/7789875__BioRAG_A_RAGLLM_Framework_for_Biological_Question_Reasoning",
+              "uuid": "ff3846e7-8ab2-4ede-8123-a5909421aaa1",
+              "title": "BioRAG: A RAG-LLM Framework for Biological Question Reasoning \u00b7 \u7814\u98deivySCI",
+              "source": "Optica",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=ivysci.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "ff3846e7-8ab2-4ede-8123-a5909421aaa1",
+            "source": "Optica",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=ivysci.com",
+            "preview_title": "BioRAG: A RAG-LLM Framework for Biological Question Reasoning \u00b7 \u7814\u98deivySCI"
+          },
+          "end_index": 6292,
+          "start_index": 6234,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://www.emergentmind.com/papers/2408.01107",
+          "uuid": "c5791e4e-adc8-4275-9355-1d1f67975bc4",
+          "title": "Emergent Mind",
+          "sources": [
+            {
+              "url": "https://www.emergentmind.com/papers/2408.01107",
+              "uuid": "c5791e4e-adc8-4275-9355-1d1f67975bc4",
+              "title": "BioRAG: A RAG-LLM Framework for Biological Question Reasoning",
+              "source": "Emergent Mind",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=emergentmind.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "c5791e4e-adc8-4275-9355-1d1f67975bc4",
+            "source": "Emergent Mind",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=emergentmind.com",
+            "preview_title": "BioRAG: A RAG-LLM Framework for Biological Question Reasoning"
+          },
+          "end_index": 6331,
+          "start_index": 6292,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/abs/2408.00727",
+          "uuid": "c7a080e4-38fa-417d-95c8-dc6a46f28f19",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/abs/2408.00727",
+              "uuid": "c7a080e4-38fa-417d-95c8-dc6a46f28f19",
+              "title": "[2408.00727] Improving Retrieval-Augmented Generation in Medicine with Iterative Follow-up Questions",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "c7a080e4-38fa-417d-95c8-dc6a46f28f19",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "[2408.00727] Improving Retrieval-Augmented Generation in Medicine with Iterative Follow-up Questions"
+          },
+          "end_index": 6411,
+          "start_index": 6333,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/abs/2408.10343",
+          "uuid": "c941a7d5-93d6-4c82-9fa3-94fc73317c1c",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/abs/2408.10343",
+              "uuid": "c941a7d5-93d6-4c82-9fa3-94fc73317c1c",
+              "title": "[2408.10343] LegalBench-RAG: A Benchmark for Retrieval-Augmented Generation in the Legal Domain",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "c941a7d5-93d6-4c82-9fa3-94fc73317c1c",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "[2408.10343] LegalBench-RAG: A Benchmark for Retrieval-Augmented Generation in the Legal Domain"
+          },
+          "end_index": 6954,
+          "start_index": 6847,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/html/2408.10343v1",
+          "uuid": "0d9f1494-c95e-4622-b84d-05ac37dc4322",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/html/2408.10343v1",
+              "uuid": "0d9f1494-c95e-4622-b84d-05ac37dc4322",
+              "title": "LegalBench-RAG: A Benchmark for Retrieval-Augmented Generation in the Legal Domain",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "0d9f1494-c95e-4622-b84d-05ac37dc4322",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "LegalBench-RAG: A Benchmark for Retrieval-Augmented Generation in the Legal Domain"
+          },
+          "end_index": 6954,
+          "start_index": 6847,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://www.promptlayer.com/research-papers/legalbench-rag-a-benchmark-for-retrieval-augmented-generation-in-the-legal-domain",
+          "uuid": "b04a0e38-55e0-4729-8ced-092baad998e3",
+          "title": "PromptLayer",
+          "sources": [
+            {
+              "url": "https://www.promptlayer.com/research-papers/legalbench-rag-a-benchmark-for-retrieval-augmented-generation-in-the-legal-domain",
+              "uuid": "b04a0e38-55e0-4729-8ced-092baad998e3",
+              "title": "LegalBench-RAG: A Benchmark for Retrieval-Augmented Generation in the Legal Domain | PromptLayer",
+              "source": "PromptLayer",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=promptlayer.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "b04a0e38-55e0-4729-8ced-092baad998e3",
+            "source": "PromptLayer",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=promptlayer.com",
+            "preview_title": "LegalBench-RAG: A Benchmark for Retrieval-Augmented Generation in the Legal Domain | PromptLayer"
+          },
+          "end_index": 7030,
+          "start_index": 6954,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/abs/2404.04302",
+          "uuid": "bf2d7de5-0101-4d83-b2db-c0805a2755dd",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/abs/2404.04302",
+              "uuid": "bf2d7de5-0101-4d83-b2db-c0805a2755dd",
+              "title": "[2404.04302] CBR-RAG: Case-Based Reasoning for Retrieval Augmented Generation in LLMs for Legal Question Answering",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "bf2d7de5-0101-4d83-b2db-c0805a2755dd",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "[2404.04302] CBR-RAG: Case-Based Reasoning for Retrieval Augmented Generation in LLMs for Legal Question Answering"
+          },
+          "end_index": 7136,
+          "start_index": 7032,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/html/2404.04302v1",
+          "uuid": "a1de7133-1ab2-4cf3-bf45-f1a398ff8eb1",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/html/2404.04302v1",
+              "uuid": "a1de7133-1ab2-4cf3-bf45-f1a398ff8eb1",
+              "title": "CBR-RAG: Case-Based Reasoning for Retrieval Augmented Generation in LLMs for Legal Question Answering This research is funded by SFC International Science Partnerships Fund.",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "a1de7133-1ab2-4cf3-bf45-f1a398ff8eb1",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "CBR-RAG: Case-Based Reasoning for Retrieval Augmented Generation in LLMs for Legal Question Answering This research is funded by SFC International Science Partnerships Fund."
+          },
+          "end_index": 7136,
+          "start_index": 7032,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/abs/2505.17471",
+          "uuid": "d3fbd95a-9516-4e65-b335-09efeaa0cecb",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/abs/2505.17471",
+              "uuid": "d3fbd95a-9516-4e65-b335-09efeaa0cecb",
+              "title": "[2505.17471] FinRAGBench-V: A Benchmark for Multimodal RAG with Visual Citation in the Financial Domain",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "d3fbd95a-9516-4e65-b335-09efeaa0cecb",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "[2505.17471] FinRAGBench-V: A Benchmark for Multimodal RAG with Visual Citation in the Financial Domain"
+          },
+          "end_index": 7593,
+          "start_index": 7498,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://www.emergentmind.com/papers/2505.17471",
+          "uuid": "3f8b6c32-4622-4e45-bd3d-184350bbd036",
+          "title": "Emergent Mind",
+          "sources": [
+            {
+              "url": "https://www.emergentmind.com/papers/2505.17471",
+              "uuid": "3f8b6c32-4622-4e45-bd3d-184350bbd036",
+              "title": "FinRAGBench-V: Multimodal RAG in Finance",
+              "source": "Emergent Mind",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=emergentmind.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "3f8b6c32-4622-4e45-bd3d-184350bbd036",
+            "source": "Emergent Mind",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=emergentmind.com",
+            "preview_title": "FinRAGBench-V: Multimodal RAG in Finance"
+          },
+          "end_index": 7619,
+          "start_index": 7593,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/abs/2503.05185",
+          "uuid": "aa005091-8dbb-4345-b20e-99de28141065",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/abs/2503.05185",
+              "uuid": "aa005091-8dbb-4345-b20e-99de28141065",
+              "title": "[2503.05185] Towards Temporal-Aware Multi-Modal Retrieval Augmented Generation in Finance",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "aa005091-8dbb-4345-b20e-99de28141065",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "[2503.05185] Towards Temporal-Aware Multi-Modal Retrieval Augmented Generation in Finance"
+          },
+          "end_index": 7765,
+          "start_index": 7621,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/html/2506.20821v1",
+          "uuid": "26deae68-be65-4c53-8fa7-cbc49bc77c12",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/html/2506.20821v1",
+              "uuid": "26deae68-be65-4c53-8fa7-cbc49bc77c12",
+              "title": "MultiFinRAG: An Optimized Multimodal Retrieval-Augmented Generation (RAG) Framework for Financial Question Answering",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "26deae68-be65-4c53-8fa7-cbc49bc77c12",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "MultiFinRAG: An Optimized Multimodal Retrieval-Augmented Generation (RAG) Framework for Financial Question Answering"
+          },
+          "end_index": 7842,
+          "start_index": 7767,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/html/2411.00300v1",
+          "uuid": "b9a53769-88fb-4007-be41-e1201aba6730",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/html/2411.00300v1",
+              "uuid": "b9a53769-88fb-4007-be41-e1201aba6730",
+              "title": "Rationale-Guided Retrieval Augmented Generation for Medical Question Answering",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "b9a53769-88fb-4007-be41-e1201aba6730",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "Rationale-Guided Retrieval Augmented Generation for Medical Question Answering"
+          },
+          "end_index": 8363,
+          "start_index": 8261,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://www.preprints.org/manuscript/202508.1022",
+          "uuid": "50446a68-dc7e-41af-9474-dba50a3e4400",
+          "title": "Preprints.org",
+          "sources": [
+            {
+              "url": "https://www.preprints.org/manuscript/202508.1022",
+              "uuid": "50446a68-dc7e-41af-9474-dba50a3e4400",
+              "title": "Retrieval-Augmented Generation (RAG) in Healthcare: A Comprehensive Review[v1] | Preprints.org",
+              "source": "Preprints.org",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=preprints.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "50446a68-dc7e-41af-9474-dba50a3e4400",
+            "source": "Preprints.org",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=preprints.org",
+            "preview_title": "Retrieval-Augmented Generation (RAG) in Healthcare: A Comprehensive Review[v1] | Preprints.org"
+          },
+          "end_index": 10450,
+          "start_index": 10399,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://medium.com/@ghitahouiralami/legalbench-rag-the-first-open-source-retrieval-benchmark-for-the-legal-domain-bbacc015d109",
+          "uuid": "213c507a-4249-4abf-9831-3ec6783ba23c",
+          "title": "Medium",
+          "sources": [
+            {
+              "url": "https://medium.com/@ghitahouiralami/legalbench-rag-the-first-open-source-retrieval-benchmark-for-the-legal-domain-bbacc015d109",
+              "uuid": "213c507a-4249-4abf-9831-3ec6783ba23c",
+              "title": "LegalBench-RAG, the First Open-Source Retrieval Benchmark for the Legal Domain | by Ghita Houir Alami | Medium",
+              "source": "Medium",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=medium.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "213c507a-4249-4abf-9831-3ec6783ba23c",
+            "source": "Medium",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=medium.com",
+            "preview_title": "LegalBench-RAG, the First Open-Source Retrieval Benchmark for the Legal Domain | by Ghita Houir Alami | Medium"
+          },
+          "end_index": 10482,
+          "start_index": 10463,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/html/2507.18910v1",
+          "uuid": "e84ae063-ee44-46eb-b2b8-3eb33ee6dc9e",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/html/2507.18910v1",
+              "uuid": "e84ae063-ee44-46eb-b2b8-3eb33ee6dc9e",
+              "title": "A Systematic Review of Key Retrieval-Augmented Generation (RAG) Systems: Progress, Gaps, and Future Directions",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "e84ae063-ee44-46eb-b2b8-3eb33ee6dc9e",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "A Systematic Review of Key Retrieval-Augmented Generation (RAG) Systems: Progress, Gaps, and Future Directions"
+          },
+          "end_index": 10700,
+          "start_index": 10678,
+          "origin_tool_name": "web_search"
+        }
+      ],
+      "version_uuid": "978a01e2-9716-4323-af37-993cc77496a2"
+    },
+    "message": null,
+    "integration_name": null,
+    "integration_icon_url": null,
+    "context": null,
+    "display_content": null,
+    "approval_options": null,
+    "approval_key": null
+  },
+  {
+    "start_timestamp": null,
+    "stop_timestamp": null,
+    "flags": null,
+    "type": "tool_result",
+    "name": "artifacts",
+    "content": [
+      {
+        "type": "text",
+        "text": "OK",
+        "uuid": "093f2154-c32c-48b5-af24-20d7e930e49c"
+      }
+    ],
+    "is_error": false,
+    "structured_content": null,
+    "meta": null,
+    "message": null,
+    "integration_name": null,
+    "integration_icon_url": null,
+    "display_content": null
+  }
+]
+
+================================================================================
+
+Human:
+Content:
+[
+  {
+    "start_timestamp": "2026-01-10T15:45:10.006230Z",
+    "stop_timestamp": "2026-01-10T15:45:10.006230Z",
+    "flags": null,
+    "type": "text",
+    "text": "\u7ee7\u7eed\u5b8c\u6210\u540e\u9762\u7684Research",
+    "citations": []
+  }
+]
+
+================================================================================
+
+Assistant:
+Content:
+[
+  {
+    "start_timestamp": "2026-01-10T15:45:14.044187Z",
+    "stop_timestamp": "2026-01-10T15:45:14.044187Z",
+    "flags": null,
+    "type": "text",
+    "text": "\n\n",
+    "citations": []
+  },
+  {
+    "start_timestamp": "2026-01-10T15:45:14.044187Z",
+    "stop_timestamp": "2026-01-10T15:45:18.200611Z",
+    "flags": null,
+    "type": "thinking",
+    "thinking": "\u7528\u6237\u8bf4\"\u7ee7\u7eed\u5b8c\u6210\u540e\u9762\u7684Research\"\uff0c\u6307\u7684\u662f\u7ee7\u7eed\u5b8c\u6210Vol2\u5269\u4f59\u7ae0\u8282\u7684\u7814\u7a76\u3002\u6839\u636e\u4e4b\u524d\u7684\u7d22\u5f15\uff1a\n\n- Vol2-01: Ch19-21 \u2705 \u5b8c\u6210\n- Vol2-02: Ch22-24 \u2705 \u521a\u5b8c\u6210\n- Vol2-03: Ch25-28 \u23f3 \u5f85\u542f\u52a8\n\n\u6240\u4ee5\u73b0\u5728\u9700\u8981\u542f\u52a8\u7b2c25-28\u7ae0\u7684\u7814\u7a76\uff1a\n- Ch25: \u5f00\u6e90\u751f\u6001\u4e0e\u5de5\u5177\u94fe\n- Ch26: \u672c\u5730\u90e8\u7f72\u4e0e\u4f18\u5316 (Apple Silicon, MLX)\n- Ch27: MCP\u534f\u8bae\u4e0e\u5de5\u5177\u8c03\u7528\n- Ch28: \u672a\u6765\u65b9\u5411\n\n\u8fd9\u4e2a\u4efb\u52a1\u5f88\u6e05\u6670\uff0c\u4e0d\u9700\u8981\u95eeclarifying questions\uff0c\u76f4\u63a5\u542f\u52a8\u7814\u7a76\u4efb\u52a1\u3002",
+    "summaries": [
+      {
+        "summary": "\u601d\u8003\u5982\u4f55\u7ee7\u7eed\u5b8c\u6210\u5148\u524d\u7684\u7814\u7a76\u5de5\u4f5c"
+      },
+      {
+        "summary": "\u542f\u52a8\u7b2c25\u81f328\u7ae0\u7814\u7a76\uff0c\u65e0\u9700\u6f84\u6e05\u95ee\u9898\u3002"
+      },
+      {
+        "summary": "\u8bc6\u522b\u4e86\u7814\u7a76\u8fdb\u5ea6\u5e76\u51c6\u5907\u542f\u52a8\u540e\u7eed\u7ae0\u8282\u7814\u7a76\u3002"
+      }
+    ],
+    "cut_off": false,
+    "alternative_display_type": null
+  },
+  {
+    "start_timestamp": "2026-01-10T15:45:18.446371Z",
+    "stop_timestamp": "2026-01-10T15:45:18.857381Z",
+    "flags": null,
+    "type": "text",
+    "text": "\u597d\u7684\uff01\u73b0\u5728\u542f\u52a8\u7b2c25-28\u7ae0\u7684\u6df1\u5ea6\u7814\u7a76\uff08\u5f00\u6e90\u751f\u6001\u3001\u672c\u5730\u90e8\u7f72\u3001MCP\u534f\u8bae\u3001\u672a\u6765\u65b9\u5411\uff09\uff1a",
+    "citations": []
+  },
+  {
+    "start_timestamp": "2026-01-10T15:45:19.118933Z",
+    "stop_timestamp": "2026-01-10T15:45:31.818570Z",
+    "flags": null,
+    "type": "tool_use",
+    "name": "launch_extended_search_task",
+    "input": {
+      "command": "\u6df1\u5ea6\u7814\u7a76RAG\u6280\u672f\u7b2c25-28\u7ae0\u5b66\u672f\u524d\u6cbf\uff082024-2025\u5e74\uff09\uff0c\u5177\u4f53\u5305\u62ec\uff1a\n\n**\u7b2c25\u7ae0\uff1a\u5f00\u6e90\u751f\u6001\u4e0e\u5de5\u5177\u94fe**\n1. RAG\u6846\u67b6\u5bf9\u6bd4\uff1aLangChain vs LlamaIndex vs Haystack vs DSPy\n2. LangChain\u751f\u6001\uff1aLangGraph\u3001LangSmith\u3001LCEL\u8868\u8fbe\u5f0f\u8bed\u8a00\n3. LlamaIndex\u751f\u6001\uff1aLlamaHub\u6570\u636e\u8fde\u63a5\u5668\u3001Query Engines\u3001Routers\n4. \u5411\u91cf\u6570\u636e\u5e93\u5f00\u6e90\u65b9\u6848\uff1aMilvus\u3001Qdrant\u3001Weaviate\u3001ChromaDB\u3001pgvector\n5. \u7f16\u6392\u5de5\u5177\uff1aFlowise\u3001Dify\u3001RAGFlow\u7b49\u4f4e\u4ee3\u7801/\u65e0\u4ee3\u7801\u5e73\u53f0\n6. 2024-2025\u5e74\u5404\u6846\u67b6GitHub Stars\u3001\u6027\u80fd\u57fa\u51c6\u3001\u6700\u65b0\u7248\u672c\u7279\u6027\n\n**\u7b2c26\u7ae0\uff1a\u672c\u5730\u90e8\u7f72\u4e0e\u4f18\u5316**\n1. Apple Silicon\u4f18\u5316\uff1aMLX\u6846\u67b6\u3001M\u7cfb\u5217\u82af\u7247RAG\u90e8\u7f72\n2. Ollama\u672c\u5730LLM\u90e8\u7f72\uff1a\u652f\u6301\u6a21\u578b\u3001API\u517c\u5bb9\u6027\u3001\u6027\u80fd\u4f18\u5316\n3. \u91cf\u5316\u6280\u672f\uff1aGGUF\u683c\u5f0f\u3001AWQ\u3001GPTQ\u3001bitsandbytes\n4. \u8f7b\u91cf\u7ea7\u5d4c\u5165\u6a21\u578b\uff1aall-MiniLM\u3001BGE-small\u3001Nomic-embed\n5. \u8fb9\u7f18\u90e8\u7f72\uff1allama.cpp\u3001MLC-LLM\u3001ExecuTorch\n6. \u5185\u5b58\u4f18\u5316\u4e0e\u63a8\u7406\u52a0\u901f\u6280\u672f\n\n**\u7b2c27\u7ae0\uff1aMCP\u534f\u8bae\u4e0e\u5de5\u5177\u8c03\u7528**\n1. Model Context Protocol (MCP)\uff1aAnthropic\u63d0\u51fa\u7684\u5f00\u653e\u534f\u8bae\n2. MCP\u67b6\u6784\uff1aHosts\u3001Clients\u3001Servers\u3001Resources\u3001Tools\u3001Prompts\n3. MCP\u4e0eRAG\u96c6\u6210\uff1a\u52a8\u6001\u5de5\u5177\u53d1\u73b0\u3001\u6807\u51c6\u5316\u6570\u636e\u8bbf\u95ee\n4. Function Calling\u53d1\u5c55\uff1aOpenAI\u3001Anthropic\u3001Google\u7684\u5de5\u5177\u8c03\u7528\u89c4\u8303\n5. Agent\u5de5\u5177\u751f\u6001\uff1aWeb\u641c\u7d22\u3001\u4ee3\u7801\u6267\u884c\u3001\u6570\u636e\u5e93\u8bbf\u95ee\u3001API\u8c03\u7528\n6. MCP Server\u5b9e\u73b0\u6848\u4f8b\u4e0e\u6700\u4f73\u5b9e\u8df5\n\n**\u7b2c28\u7ae0\uff1a\u672a\u6765\u65b9\u5411**\n1. Agentic RAG\u4e0e\u81ea\u4e3b\u51b3\u7b56\u7cfb\u7edf\n2. \u591a\u6a21\u6001RAG\uff1a\u89c6\u89c9\u3001\u97f3\u9891\u3001\u89c6\u9891\u68c0\u7d22\u4e0e\u751f\u6210\n3. RAG\u5b89\u5168\u6027\uff1a\u5bf9\u6297\u653b\u51fb\u3001\u6570\u636e\u6cc4\u9732\u9632\u62a4\u3001\u9690\u79c1\u4fdd\u62a4\n4. RAG\u4e0e\u63a8\u7406\u589e\u5f3a\u7684\u878d\u5408\uff1aSystem 2 Reasoning\n5. \u6301\u7eed\u5b66\u4e60RAG\uff1a\u77e5\u8bc6\u5e93\u81ea\u52a8\u66f4\u65b0\n6. 2025-2026\u5e74\u6280\u672f\u8d8b\u52bf\u9884\u6d4b\n\n\u8bf7\u63d0\u4f9b\uff1a\n- \u6700\u65b0\u6280\u672f\u89c4\u683c\u4e0e\u6027\u80fd\u6570\u636e\n- GitHub\u4ed3\u5e93\u94fe\u63a5\u4e0eStars\u6570\n- \u90e8\u7f72\u914d\u7f6e\u5efa\u8bae\n- \u884c\u4e1a\u5e94\u7528\u6848\u4f8b"
+    },
+    "message": "launch_extended_search_task",
+    "integration_name": null,
+    "integration_icon_url": null,
+    "context": null,
+    "display_content": null,
+    "approval_options": null,
+    "approval_key": null
+  },
+  {
+    "start_timestamp": null,
+    "stop_timestamp": null,
+    "flags": null,
+    "type": "tool_result",
+    "name": "launch_extended_search_task",
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"task_id\": \"wf-edb04f2d-d6b6-442a-93fa-33152f483422\"}",
+        "uuid": "ed27ea9f-4b78-4ad7-9306-7fc32a24ed68"
+      }
+    ],
+    "is_error": false,
+    "structured_content": null,
+    "meta": null,
+    "message": null,
+    "integration_name": null,
+    "integration_icon_url": null,
+    "display_content": null
+  },
+  {
+    "start_timestamp": "2026-01-10T15:45:32.131339Z",
+    "stop_timestamp": "2026-01-10T15:45:32.131339Z",
+    "flags": null,
+    "type": "text",
+    "text": "",
+    "citations": []
+  },
+  {
+    "start_timestamp": null,
+    "stop_timestamp": null,
+    "flags": null,
+    "type": "text",
+    "text": "\u60a8\u7684RAG\u6280\u672f\u6df1\u5ea6\u7814\u7a76\u62a5\u544a\u5df2\u5b8c\u6210\u3002\u62a5\u544a\u6db5\u76d62024-2025\u5e74\u56db\u5927\u6838\u5fc3\u9886\u57df\uff1a\u5f00\u6e90\u6846\u67b6\u751f\u6001\uff08LangChain\u3001LlamaIndex\u3001Haystack\u3001DSPy\u5bf9\u6bd4\u53ca\u5411\u91cf\u6570\u636e\u5e93\u9009\u578b\uff09\u3001\u672c\u5730\u90e8\u7f72\u4f18\u5316\uff08Apple Silicon\u6027\u80fd\u57fa\u51c6\u3001\u91cf\u5316\u6280\u672f\u6307\u5357\u3001\u8fb9\u7f18\u90e8\u7f72\u65b9\u6848\uff09\u3001MCP\u534f\u8bae\u4e0e\u5de5\u5177\u8c03\u7528\u6807\u51c6\uff0c\u4ee5\u53ca\u672a\u6765\u6280\u672f\u65b9\u5411\uff08Agentic RAG\u3001\u591a\u6a21\u6001\u878d\u5408\u3001\u5b89\u5168\u9632\u62a4\uff09\u3002\u62a5\u544a\u5305\u542b\u8be6\u7ec6\u7684\u6027\u80fd\u6570\u636e\u3001\u914d\u7f6e\u5efa\u8bae\u548c2025-2026\u6280\u672f\u8d8b\u52bf\u9884\u6d4b\u3002",
+    "citations": []
+  },
+  {
+    "start_timestamp": null,
+    "stop_timestamp": null,
+    "flags": null,
+    "type": "tool_use",
+    "name": "artifacts",
+    "input": {
+      "id": "compass_artifact_wf-edb04f2d-d6b6-442a-93fa-33152f483422_text/markdown",
+      "type": "text/markdown",
+      "title": "RAG\u6280\u672f\u5b66\u672f\u524d\u6cbf\u6df1\u5ea6\u7814\u7a76\u62a5\u544a\uff1a\u5f00\u6e90\u751f\u6001\u3001\u672c\u5730\u90e8\u7f72\u3001MCP\u534f\u8bae\u4e0e\u672a\u6765\u65b9\u5411\uff082024-2025\uff09",
+      "source": "c",
+      "command": "create",
+      "content": "# RAG\u6280\u672f\u5b66\u672f\u524d\u6cbf\u6df1\u5ea6\u7814\u7a76\u62a5\u544a\uff082024-2025\uff09\n\n**\u7b2c25-28\u7ae0\u7efc\u5408\u7814\u7a76\uff1a\u5f00\u6e90\u751f\u6001\u3001\u672c\u5730\u90e8\u7f72\u3001MCP\u534f\u8bae\u4e0e\u672a\u6765\u65b9\u5411**\n\nRAG\u6280\u672f\u6b63\u7ecf\u5386\u4ece\u9759\u6001\u68c0\u7d22\u5de5\u5177\u5230\u52a8\u6001\u667a\u80fd\"\u4e0a\u4e0b\u6587\u5e73\u53f0\"\u7684\u6839\u672c\u6027\u8f6c\u53d8\u30022025\u5e74\u88ab\u884c\u4e1a\u6807\u8bb0\u4e3a\"Agentic AI\u5143\u5e74\"\uff0cLangChain\u4ee5**120K GitHub Stars**\u9886\u8dd1\u5f00\u6e90\u751f\u6001\uff0cMilvus\u5411\u91cf\u6570\u636e\u5e93\u7a81\u7834**40K Stars**\uff0c\u800cAnthropic\u7684MCP\u534f\u8bae\u5df2\u53d1\u5c55\u51fa**16,000+\u793e\u533a\u670d\u52a1\u5668**\u3002\u672c\u62a5\u544a\u7cfb\u7edf\u68b3\u74062024-2025\u5e74RAG\u6280\u672f\u6808\u7684\u6700\u65b0\u8fdb\u5c55\uff0c\u8986\u76d6\u6846\u67b6\u9009\u578b\u3001\u90e8\u7f72\u4f18\u5316\u3001\u534f\u8bae\u6807\u51c6\u548c\u6280\u672f\u8d8b\u52bf\u56db\u5927\u7ef4\u5ea6\u3002\n\n---\n\n## \u7b2c25\u7ae0\uff1a\u5f00\u6e90\u751f\u6001\u4e0e\u5de5\u5177\u94fe\n\n### RAG\u6846\u67b6\u56db\u5f3a\u683c\u5c40\u5df2\u7ecf\u786e\u7acb\n\n\u5f53\u524dRAG\u5f00\u53d1\u5f62\u6210\u4e86**LangChain\u3001LlamaIndex\u3001Haystack\u3001DSPy**\u56db\u5927\u6846\u67b6\u5206\u5ead\u6297\u793c\u7684\u683c\u5c40\u3002\u6839\u636eAIMultiple 2025\u5e74\u57fa\u51c6\u6d4b\u8bd5\uff08100\u67e5\u8be2\u00d7100\u6b21\u8fd0\u884c\uff0cGPT-4.1-mini + BGE-small + Qdrant\uff09\uff0cDSPy\u6846\u67b6\u5f00\u9500\u6700\u4f4e\uff08**~3.53ms**\uff09\uff0cHaystack Token\u6548\u7387\u6700\u9ad8\uff08**~1,570 tokens**\uff09\uff0c\u800cLangChain\u51ed\u501f**50,000+\u96c6\u6210**\u548c3\u500d\u5f00\u53d1\u901f\u5ea6\u4f18\u52bf\u5360\u636e\u5e02\u573a\u4e3b\u5bfc\u3002\n\n| \u6846\u67b6 | GitHub Stars | \u8bbe\u8ba1\u7406\u5ff5 | \u6700\u4f73\u573a\u666f |\n|------|-------------|----------|----------|\n| **LangChain** | **120K** | \u6a21\u5757\u5316\u5de5\u4f5c\u6d41\u7f16\u6392 | \u5feb\u901f\u539f\u578b\u3001\u901a\u7528LLM\u5e94\u7528 |\n| **LlamaIndex** | ~37K | \u6570\u636e\u6846\u67b6\uff08Document\u2192Index\u2192Query\uff09 | \u590d\u6742\u6570\u636e\u7d22\u5f15\u4e0eRAG |\n| **Haystack** | ~20K | \u751f\u4ea7\u7ea7\u7ba1\u9053\u7cfb\u7edf | \u4f01\u4e1a\u7ea7\u641c\u7d22\uff0899.9%\u53ef\u7528\u6027\uff09 |\n| **DSPy** | ~25K | \u58f0\u660e\u5f0f\u7f16\u7a0b | \u81ea\u52a8\u5316Prompt\u4f18\u5316 |\n\n**LangChain\u751f\u6001**\u57282025\u5e74\u53d6\u5f97\u91cc\u7a0b\u7891\u5f0f\u53d1\u5c55\uff1a\u83b7\u5f97**1\u4ebf\u7f8e\u5143B\u8f6e\u878d\u8d44**\uff08IVP\u9886\u6295\uff09\uff0cLangGraph Platform\u6b63\u5f0f\u53d1\u5e03\uff08GA\uff09\uff0c\u652f\u6301\u72b6\u6001\u673a\u5de5\u4f5c\u6d41\u3001Human-in-the-Loop\u548cTime-travel\u8c03\u8bd5\u3002LCEL\u8868\u8fbe\u5f0f\u8bed\u8a00\u5b9e\u73b0\u4e86`prompt | llm | parser`\u7684\u4f18\u96c5\u7ba1\u9053\u7ec4\u5408\uff0c\u539f\u751f\u652f\u6301async/streaming\u3002LangSmith\u5219\u63d0\u4f9b\u4e86\u5b8c\u6574\u7684Tracing\u3001Evaluation\u548cOpenTelemetry\u652f\u6301\uff0c\u6bcf\u4e2a\u90e8\u7f72\u7684agent\u53ef\u66b4\u9732MCP\u7aef\u70b9\u3002\n\n**LlamaIndex**\u4e13\u6ce8\u4e8e\u6570\u636e\u8fde\u63a5\uff0cLlamaHub\u63d0\u4f9b**300+\u96c6\u6210\u5305**\uff0c\u652f\u6301PDF\u3001DOCX\u3001S3\u3001Notion\u3001Salesforce\u7b49\u6570\u636e\u6e90\u3002LlamaParse\u9ad8\u7ea7PDF\u89e3\u6790\u5668\u901a\u8fc7Markdown\u8f93\u51fa\u663e\u8457\u63d0\u5347\u68c0\u7d22\u8d28\u91cf\u30022024-2025\u5e74\u65b0\u589eWorkflows\u4e8b\u4ef6\u9a71\u52a8\u7cfb\u7edf\u548cCrewAI\u591aAgent\u534f\u4f5c\u96c6\u6210\u3002\n\n### \u5411\u91cf\u6570\u636e\u5e93\u8fdb\u5165\u6df7\u5408\u641c\u7d22\u65f6\u4ee3\n\n\u5411\u91cf\u6570\u636e\u5e93\u9886\u57df**Milvus**\u4ee5**40K+ Stars**\u9886\u8dd1\uff0c2024\u5e7412\u6708\u53d1\u5e03\u7684**Milvus 2.5**\u5f15\u5165\u5185\u7f6eSparse-BM25\u5168\u6587\u641c\u7d22\uff0c\u57281M\u5411\u91cf\u89c4\u6a21\u4e0b\u67e5\u8be2\u5ef6\u8fdf\u4ec5**6ms**\uff08Elasticsearch\u4e3a200ms\uff0c\u5feb**30\u500d**\uff09\u30022025\u5e746\u6708\u7684**Milvus 2.6**\u63a8\u51faRaBitQ 1\u4f4d\u9ad8\u7cbe\u5ea6\u91cf\u5316\u548cGeospatial\u6570\u636e\u7c7b\u578b\u3002\n\n| \u6570\u636e\u5e93 | Stars | \u6838\u5fc3\u4f18\u52bf | \u6027\u80fd\u7279\u70b9 |\n|--------|-------|----------|----------|\n| **Milvus** | 40K+ | GPU\u52a0\u901f\u3001Hybrid Search | \u4e9a\u6beb\u79d2\u5ef6\u8fdf\u300110\u4ebf+\u89c4\u6a21 |\n| **Qdrant** | ~22K | Rust\u5b9e\u73b0\u3001\u590d\u6742\u8fc7\u6ee4 | \u6700\u4f4ep99\u5ef6\u8fdf\u30011\u4ebf\u7ea7 |\n| **ChromaDB** | ~17K | \u8f7b\u91cf\u5d4c\u5165\u5f0f\u30015\u884c\u4ee3\u7801\u542f\u52a8 | \u5feb\u901f\u539f\u578b\u3001\u5e76\u53d1\u5f31 |\n| **pgvector** | ~14K | PostgreSQL\u751f\u6001\u3001ACID | \u6df7\u5408\u67e5\u8be2\u30015000\u4e07\u5185 |\n| **Weaviate** | ~12K | GraphQL API\u3001\u591a\u6a21\u6001 | \u8bed\u4e49\u641c\u7d22\u30011\u4ebf\u7ea7 |\n\n**pgvectorscale**\u57282025\u5e74\u5b9e\u73b0\u7a81\u7834\uff1a50M\u5411\u91cf\u8fbe\u5230**471 QPS @99%\u53ec\u56de\u7387**\uff0c\u6bd4Qdrant\u5feb**11.4\u500d**\uff08\u540c\u6761\u4ef6\u6d4b\u8bd5\uff09\u3002\n\n### \u4f4e\u4ee3\u7801\u5e73\u53f0\u7206\u53d1\u5f0f\u589e\u957f\n\n**Dify**\u4ee5**58K Stars**\u6210\u4e3a\u589e\u957f\u6700\u5feb\u7684RAG\u4f4e\u4ee3\u7801\u5e73\u53f0\uff082024\u5e749\u670840K\u21922025\u5e741\u670858K\uff09\uff0c\u63d0\u4f9b\u53ef\u89c6\u5316Workflow\u6784\u5efa\u3001\u5185\u7f6e\u5411\u91cf\u77e5\u8bc6\u5e93\u548cPlugin\u751f\u6001\u3002**Langflow**\uff0842K Stars\uff09\u88abDataStax\u6536\u8d2d\u540e\u6df1\u5ea6\u96c6\u6210Astra DB\uff0c\u5904\u7406100\u9875+PDF\u6bd4Flowise\u5feb**23%**\u3002**RAGFlow**\u4e13\u6ce8\u6df1\u5ea6\u6587\u6863\u7406\u89e3\uff0c\u652f\u6301\u9ad8\u7ea7\u6444\u53d6\u7ba1\u9053\u548cMCP\u53ef\u89c6\u5316\u5de5\u4f5c\u6d41\u96c6\u6210\uff0c\u9002\u5408\u6cd5\u5f8b/\u533b\u7597\u7b49\u9ad8\u7cbe\u5ea6\u9886\u57df\u3002\n\n---\n\n## \u7b2c26\u7ae0\uff1a\u672c\u5730\u90e8\u7f72\u4e0e\u4f18\u5316\n\n### Apple Silicon\u6210\u4e3a\u672c\u5730AI\u9996\u9009\u5e73\u53f0\n\nApple\u7684**MLX\u6846\u67b6**\u4e3aM\u7cfb\u5217\u82af\u7247\u91cf\u8eab\u6253\u9020\uff0c\u91c7\u7528\u7edf\u4e00\u5185\u5b58\u6a21\u578b\u5b9e\u73b0CPU/GPU\u95f4\u96f6\u62f7\u8d1d\u6570\u636e\u64cd\u4f5c\uff0c\u652f\u6301\u5ef6\u8fdf\u8ba1\u7b97\u548c\u52a8\u6001\u56fe\u6784\u5efa\u3002\u5728M2 Ultra\u4e0a\u7684\u57fa\u51c6\u6d4b\u8bd5\u663e\u793a\uff0cMLX\u541e\u5410\u91cf\u8fbe\u5230**~230 tok/s**\uff08\u6700\u9ad8\uff09\uff0cMLC-LLM\u7ea6190 tok/s\uff0cllama.cpp\u7ea6150 tok/s\uff0cOllama 20-40 tok/s\u3002\n\n**Apple M5\u82af\u7247**\u76f8\u6bd4M4\u5b9e\u73b0\u4e86\u663e\u8457\u6027\u80fd\u63d0\u5347\uff1aTTFT\uff08\u9996Token\u65f6\u95f4\uff09\u52a0\u901f\u7ea6**4\u500d**\uff08Qwen 1.7B/8B BF16\uff09\uff0cToken\u751f\u6210\u901f\u5ea6\u63d0\u5347**19-27%**\uff08\u5f97\u76ca\u4e8e153GB/s vs 120GB/s\u5185\u5b58\u5e26\u5bbd\uff09\u3002Qwen 30B MoE 4-bit\u6a21\u578b\u5728M5\u4e0aTTFT\u4f4e\u4e8e3\u79d2\u3002\n\n### Ollama\u7b80\u5316\u672c\u5730LLM\u90e8\u7f72\n\n**Ollama**\uff08\u6700\u65b0v0.13.5\uff09\u652f\u6301Llama 3.1/3.2/3.3\u3001Qwen2.5/3\u3001Mistral\u3001DeepSeek-R1\u7b49\u4e3b\u6d41\u6a21\u578b\uff0c\u63d0\u4f9bOpenAI\u517c\u5bb9API\uff08`/api/generate`\u3001`/api/chat`\uff0c\u9ed8\u8ba4\u7aef\u53e311434\uff09\u3002\u5185\u5b58\u9700\u6c42\u53c2\u8003\uff1a\n\n| \u6a21\u578b\u89c4\u6a21 | \u6700\u4f4eRAM | \u63a8\u8350RAM | VRAM\u9700\u6c42\uff084-bit\uff09 |\n|----------|---------|---------|-------------------|\n| 1B-3B | 4GB | 8GB | 2-3GB |\n| 7B | 8GB | 16GB | 4-6GB |\n| 13B-14B | 16GB | 32GB | 8-10GB |\n| 30B+ | 32GB | 64GB+ | 20-24GB |\n\n### \u91cf\u5316\u6280\u672f\u9009\u578b\u6307\u5357\n\n**GGUF\u683c\u5f0f**\uff08llama.cpp\uff09\u662f\u672c\u5730\u90e8\u7f72\u7684\u9996\u9009\uff0c\u91cf\u5316\u7ea7\u522b\u5bf9\u6bd4\uff087B\u6a21\u578b\u57fa\u51c6\uff09\uff1a\n\n| \u91cf\u5316\u7c7b\u578b | \u6a21\u578b\u5927\u5c0f | \u56f0\u60d1\u5ea6\u589e\u52a0 | \u63a8\u8350\u5ea6 |\n|----------|----------|------------|--------|\n| **Q4_K_M** | 3.80GB | +0.0535 ppl | **\u9ed8\u8ba4\u63a8\u8350** |\n| **Q5_K_M** | 4.78GB | +0.0142 ppl | **\u9ad8\u8d28\u91cf\u63a8\u8350** |\n| Q6_K | 6.14GB | +0.0044 ppl | \u63a5\u8fd1\u65e0\u635f |\n| Q8_0 | 7.96GB | +0.0004 ppl | \u51e0\u4e4e\u65e0\u635f |\n\n**AWQ vs GPTQ**\uff1aAWQ\u5728\u8d28\u91cf\u4fdd\u7559\uff08**~95% vs ~90%**\uff09\u548c\u4ee3\u7801\u4efb\u52a1Pass@1\uff08**51.83% vs ~46%**\uff09\u4e0a\u4f18\u4e8eGPTQ\uff0c\u63a8\u7406\u901f\u5ea6\u5feb\u7ea61.2\u500d\u3002**bitsandbytes**\u652f\u6301\u5373\u65f6\u91cf\u5316\uff08\u65e0\u9700\u6821\u51c6\u6570\u636e\uff09\uff0cNF4\u683c\u5f0f\u4e13\u4e3a\u795e\u7ecf\u7f51\u7edc\u6743\u91cd\u8bbe\u8ba1\u3002\n\n### \u8f7b\u91cf\u7ea7\u5d4c\u5165\u6a21\u578b\u6027\u80fd\u5bf9\u6bd4\n\n| \u6a21\u578b | \u53c2\u6570\u91cf | \u7ef4\u5ea6 | \u7279\u70b9 | \u63a8\u8350\u573a\u666f |\n|------|--------|------|------|----------|\n| **all-MiniLM-L6-v2** | 22M | 384 | 14.7ms/1K tokens | \u8fb9\u7f18\u8bbe\u5907\u3001\u9ad8\u541e\u5410 |\n| **BGE-M3** | - | 1024 | 100+\u8bed\u8a00\u30018K\u4e0a\u4e0b\u6587 | \u591a\u8bed\u8a00/\u4e2d\u6587 |\n| **nomic-embed-text** | - | 768 | 2048+ tokens\u300186.2% top-5\u51c6\u786e\u7387 | \u957f\u6587\u672c |\n| **EmbeddingGemma** | 300M | - | <200MB RAM\uff08\u91cf\u5316\u540e\uff09 | \u79fb\u52a8\u8bbe\u5907 |\n\n### \u8fb9\u7f18\u90e8\u7f72\u6846\u67b6\u9009\u578b\n\n| \u6846\u67b6 | \u4f18\u52bf | \u8fb9\u7f18\u7528\u4f8b | \u6027\u80fd |\n|------|------|----------|------|\n| **llama.cpp** | \u6700\u5c0f\u4f9d\u8d56\u3001\u7eafC++ | \u684c\u9762\u3001\u6811\u8393\u6d3e\u3001Android | ~150 tok/s |\n| **ExecuTorch** | PyTorch Mobile\u3001LoRA | iPhone 15\u3001Galaxy S24 | \u9ad8\u6548\u8fd0\u884c |\n| **MLC-LLM** | Swift\u96c6\u6210\u300164K+\u4e0a\u4e0b\u6587 | Apple Silicon\u3001\u79fb\u52a8 | ~190 tok/s |\n| **TensorRT-LLM** | NVIDIA\u4f18\u5316\u3001FP8 | A100/H100\u3001Jetson | **~70%\u52a0\u901f** |\n\n### \u63a8\u7406\u52a0\u901f\u5173\u952e\u6280\u672f\n\n**PagedAttention**\uff08vLLM\uff09\u5c06KV Cache\u7ec4\u7ec7\u4e3a\u9875\u8868\u7ed3\u6784\uff0c\u5185\u5b58\u788e\u7247\u4ece60-80%\u6d6a\u8d39\u964d\u81f3**<4%**\uff0c\u76f8\u6bd4HuggingFace Transformers\u5b9e\u73b0**24\u500d\u541e\u5410\u63d0\u5347**\u3002**FlashInfer**\u5728GQA\u6279\u89e3\u7801\u4e0a\u6bd4vLLM PageAttention\u5feb**3\u500d**\uff08batch_size=64\uff09\u3002**\u6295\u673a\u89e3\u7801**\u4f7f\u7528\u5c0f\u6a21\u578b\u9884\u6d4b\u5927\u6a21\u578b\u8f93\u51fa\uff0cTensorRT-LLM\u7684ReDrafter\u53ef\u5b9e\u73b0**3.5\u500d**token\u751f\u6210\u52a0\u901f\u3002\n\n---\n\n## \u7b2c27\u7ae0\uff1aMCP\u534f\u8bae\u4e0e\u5de5\u5177\u8c03\u7528\n\n### MCP\u534f\u8bae\u91cd\u5851AI\u5de5\u5177\u96c6\u6210\u6807\u51c6\n\n**Model Context Protocol (MCP)**\u7531Anthropic\u4e8e2024\u5e7411\u6708\u53d1\u5e03\uff0c\u501f\u9274LSP\uff08Language Server Protocol\uff09\u601d\u60f3\u89e3\u51b3\"M\u00d7N\u96c6\u6210\u95ee\u9898\"\u30022025\u5e74\u53d1\u5c55\u8fc5\u901f\uff1a3\u6708\u83b7\u5f97Sam Altman\u548cSundar Pichai\u516c\u5f00\u652f\u6301\uff0c5\u6708Microsoft\u548cGitHub\u52a0\u5165\u6307\u5bfc\u59d4\u5458\u4f1a\uff0c12\u6708\u6350\u8d60\u7ed9Linux\u57fa\u91d1\u4f1a\u4e0b\u7684**Agentic AI Foundation (AAIF)**\u3002\n\nMCP\u91c7\u7528**MIT License**\u5f00\u6e90\uff0c\u5b98\u65b9\u89c4\u8303\uff1ahttps://modelcontextprotocol.io/specification/2025-11-25\n\n### MCP\u6838\u5fc3\u67b6\u6784\u89e3\u6790\n\n```\n\u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n\u2502                      MCP \u67b6\u6784                                \u2502\n\u251c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2524\n\u2502  Host (Claude Desktop\u7b49) \u2192 Client (1:1\u8fde\u63a5) \u2192 Server        \u2502\n\u2502                                                             \u2502\n\u2502  Server Primitives:                                         \u2502\n\u2502  \u2022 Resources (\u6570\u636e\u8d44\u6e90): file:///path/doc.txt              \u2502\n\u2502  \u2022 Tools (\u53ef\u6267\u884c\u51fd\u6570): get_weather, read_file              \u2502\n\u2502  \u2022 Prompts (\u63d0\u793a\u6a21\u677f): code_review, summarize              \u2502\n\u2502                                                             \u2502\n\u2502  \u4f20\u8f93\u5c42: STDIO (\u672c\u5730) | HTTP+SSE (\u8fdc\u7a0b/OAuth2)              \u2502\n\u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518\n```\n\n**Claude Desktop\u914d\u7f6e\u793a\u4f8b**\uff1a\n```json\n{\n  \"mcpServers\": {\n    \"filesystem\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"@modelcontextprotocol/server-filesystem\", \"/path/to/files\"]\n    },\n    \"github\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"@modelcontextprotocol/server-github\"],\n      \"env\": { \"GITHUB_PERSONAL_ACCESS_TOKEN\": \"ghp_xxx\" }\n    }\n  }\n}\n```\n\n### RAG-MCP\u96c6\u6210\u4f18\u5316\n\n\u6839\u636earXiv\u8bba\u6587RAG-MCP\uff0c\u8be5\u65b9\u6cd5\u901a\u8fc7\u5d4c\u5165\u641c\u7d22\u548c\u8bed\u4e49\u6392\u5e8f\u5b9e\u73b0\u52a8\u6001\u5de5\u5177\u53d1\u73b0\uff0c\u53ef**\u51cf\u5c1150%\u4ee5\u4e0a\u7684prompt tokens**\uff0c\u5de5\u5177\u9009\u62e9\u51c6\u786e\u7387\u63d0\u5347**3\u500d\u4ee5\u4e0a**\uff0843.13% vs 13.62%\u57fa\u7ebf\uff09\u3002\n\n\u622a\u81f32025\u5e74\u5e95\uff0c\u793e\u533a\u5df2\u6709**16,000+\u4e2aMCP\u670d\u52a1\u5668**\uff0c\u5b98\u65b9\u53c2\u8003\u5b9e\u73b0\u5305\u62ec\uff1afilesystem\u3001github\u3001git\u3001memory\u3001postgres\u3001puppeteer\u7b49\u3002\u4f01\u4e1a\u5b98\u65b9\u96c6\u6210\u6db5\u76d6Google Drive\u3001Slack\u3001Azure\u3001GitHub\u7b49\u3002\n\n### Function Calling\u5382\u5546\u89c4\u8303\u5bf9\u6bd4\n\n| \u7279\u6027 | OpenAI | Anthropic | Google Gemini |\n|------|--------|-----------|---------------|\n| \u53c2\u6570\u540d\u79f0 | `tools` | `tools` | `function_declarations` |\n| \u5e76\u884c\u8c03\u7528 | `parallel_tool_calls` | Programmatic Tool Calling | \u652f\u6301 |\n| \u5f3a\u5236\u8c03\u7528 | `tool_choice: \"required\"` | `tool_choice: {type: \"tool\"}` | `mode: \"ANY\"` |\n| \u6d41\u5f0f\u652f\u6301 | \u652f\u6301 | \u652f\u6301 | `streamFunctionCallArguments` |\n\n**OpenAI**\u4ece2023\u5e74\u7684`functions`\u53c2\u6570\u5347\u7ea7\u4e3a`tools`\uff0c\u652f\u6301Parallel Tool Calls\u3002**Anthropic**\u57282025\u5e74\u63a8\u51faProgrammatic Tool Calling\u548cTool Search Tool\uff08\u8bbf\u95ee\u6570\u5343\u5de5\u5177\uff09\u3002**Google Gemini**\u652f\u6301AUTO/ANY/NONE\u4e09\u79cd\u6a21\u5f0f\u548cCompositional\u94fe\u5f0f\u51fd\u6570\u8c03\u7528\u3002\n\n### Agent\u5de5\u5177\u751f\u6001\n\n- **Web\u641c\u7d22**\uff1aTavily\uff08RAG\u4f18\u5316\u3001\u5b9e\u65f6\u68c0\u7d22\uff09\u3001Serper\uff08Google\u76f4\u63a5\u8bbf\u95ee\uff09\u3001SerpAPI\uff08\u591a\u5f15\u64ce\uff09\n- **\u4ee3\u7801\u6267\u884c**\uff1aE2B Code Interpreter\uff08Firecracker VM\u3001~150ms\u542f\u52a8\uff09\u3001OpenAI Code Interpreter\n- **\u6570\u636e\u5e93**\uff1aPostgreSQL MCP Server\u3001Qdrant/Chroma\u5411\u91cf\u6570\u636e\u5e93\u96c6\u6210\n\n---\n\n## \u7b2c28\u7ae0\uff1a\u672a\u6765\u65b9\u5411\n\n### Agentic RAG\u5f00\u542f\u81ea\u4e3b\u51b3\u7b56\u65b0\u65f6\u4ee3\n\n**Agentic RAG**\u5c06\u81ea\u4e3bAI\u4ee3\u7406\u5d4c\u5165RAG\u7ba1\u9053\uff0c\u652f\u6301\u52a8\u6001\u68c0\u7d22\u51b3\u7b56\u3001\u8fed\u4ee3\u7cbe\u70bc\u548c\u5de5\u4f5c\u6d41\u4f18\u5316\u3002\u6838\u5fc3\u8bba\u6587[arXiv:2501.09136]\u7cfb\u7edf\u68b3\u7406\u4e86Single-Agent\u3001Multi-Agent\u3001Hierarchical\u3001Corrective (CRAG)\u3001Graph-based\u4e94\u79cd\u67b6\u6784\u6a21\u5f0f\u3002\n\n**\u56db\u5927\u8bbe\u8ba1\u6a21\u5f0f**\uff1aReflection\uff08\u53cd\u601d\uff09\u3001Planning\uff08\u89c4\u5212\uff09\u3001Tool Use\uff08\u5de5\u5177\u4f7f\u7528\uff09\u3001Multi-Agent Collaboration\uff08\u534f\u4f5c\uff09\n\n\u4ee3\u8868\u6846\u67b6\uff1a**LangGraph**\uff08\u56fe\u5de5\u4f5c\u6d41\uff09\u3001**CrewAI**\uff08\u591aAgent\uff09\u3001**Semantic Kernel**\uff08\u4f01\u4e1a\u7ea7\uff09\n\n### \u591a\u6a21\u6001RAG\u7a81\u7834\u5355\u4e00\u6a21\u6001\u9650\u5236\n\n\u591a\u6a21\u6001RAG\uff08mRAG\uff09\u5c06\u68c0\u7d22\u6269\u5c55\u5230\u89c6\u89c9\u3001\u97f3\u9891\u3001\u89c6\u9891\uff0cACL 2025 Findings\u53d1\u8868\u4e86\u5168\u9762\u7efc\u8ff0\"Ask in Any Modality\"\u3002**Multi-RAG**\u7cfb\u7edf\uff08arXiv:2505.23990\uff09\u5728MMBench-Video\u4e0a\u8d85\u8d8a\u5f00\u6e90Video-LLM\u3002\u6838\u5fc3\u5d4c\u5165\u6a21\u578b\u5305\u62ecCLIP\uff08\u56fe\u50cf-\u6587\u672c\uff09\u3001ImageBind\uff086\u79cd\u6a21\u6001\uff09\u3001Jina-ColBERT-v2\uff08\u591a\u8bed\u8a00\u5f20\u91cf\uff09\u3002\n\n### RAG\u5b89\u5168\u6027\u9762\u4e34\u4e25\u5cfb\u6311\u6218\n\n**Prompt Injection**\u4f4d\u5217OWASP Top 10 for LLMs\u7b2c\u4e00\u3002\u7814\u7a76\u8bba\u6587[arXiv:2511.15759]\u63d0\u51fa847\u4e2a\u5bf9\u6297\u6d4b\u8bd5\u7528\u4f8b\uff0c\u7ec4\u5408\u9632\u5fa1\u6846\u67b6\u5c06\u653b\u51fb\u6210\u529f\u7387\u4ece**73.2%\u964d\u81f38.7%**\u3002**PoisonedRAG**\u7814\u7a76\u663e\u793a\uff0c\u4ec5\u9700\u5728\u767e\u4e07\u6587\u6863\u5e93\u4e2d\u6ce8\u5165**5\u4e2a\u6076\u610f\u6587\u6863**\uff0c\u5373\u53ef\u4f7fAI\u5bf9\u7279\u5b9a\u95ee\u9898\u8fd4\u56de\u9519\u8bef\u7b54\u6848**90%\u7684\u65f6\u95f4**\u3002\n\n\u9632\u5fa1\u6280\u672f\u5305\u62ec\uff1aRAG Triad\u8bc4\u4f30\u3001Action-selector\u8bbe\u8ba1\u6a21\u5f0f\u3001**\u5dee\u5206\u9690\u79c1RAG**\uff08DPVoteRAG\u7b97\u6cd5\uff09\u3001**\u8054\u90a6RAG**\uff08EMNLP 2025 Findings\u7cfb\u7edf\u6027\u6620\u5c04\uff09\u3002\n\n### \u63a8\u7406\u589e\u5f3a\u878d\u5408System 2\u8ba4\u77e5\u6846\u67b6\n\n\u6838\u5fc3\u8bba\u6587[arXiv:2506.10408]\u63d0\u51faSystem 1\uff08\u5feb\u901f\u76f4\u89c9\uff09\u4e0eSystem 2\uff08\u6162\u901f\u63a8\u7406\uff09\u5728RAG\u4e2d\u7684\u8ba4\u77e5\u5bf9\u9f50\u6846\u67b6\u3002\u5173\u952e\u6280\u672f\u5305\u62ec\uff1a\n\n- **Self-RAG**\uff1a\u901a\u8fc7Reflection Tokens\u5b9e\u73b0\u81ea\u9002\u5e94\u68c0\u7d22\n- **CRAG**\uff1a\u8f7b\u91cf\u7ea7\u68c0\u7d22\u8bc4\u4f30\u5668\u7ea0\u6b63\u9519\u8bef\uff0c\u96c6\u6210\u7f51\u7edc\u641c\u7d22\n- **MCTS-RAG**\uff1a\u8499\u7279\u5361\u6d1b\u6811\u641c\u7d22\u52a8\u6001\u96c6\u6210\u68c0\u7d22\u4e0e\u63a8\u7406\n\n### 2025-2026\u6280\u672f\u8d8b\u52bf\u9884\u6d4b\n\n**Gartner\u5173\u952e\u9884\u6d4b**\uff1a\n- **40%**\u4f01\u4e1a\u5e94\u7528\u5c06\u57282026\u5e74\u5e95\u96c6\u6210\u4efb\u52a1\u7279\u5b9aAI\u4ee3\u7406\uff082025\u5e74\u4ec55%\uff09\n- **33%**\u4f01\u4e1a\u8f6f\u4ef6\u5c06\u57282028\u5e74\u5305\u542bAgentic AI\uff08\u8f832024\u5e741%\u663e\u8457\u589e\u957f\uff09\n- **50%+**\u4f01\u4e1a\u5c06\u57282028\u5e74\u4f7f\u7528\u9886\u57df\u7279\u5b9a\u8bed\u8a00\u6a21\u578b\uff08DSLM\uff09\n\n**\u5e02\u573a\u89c4\u6a21**\uff1a\u5168\u7403RAG\u5e02\u573a\u9884\u8ba1\u4ece2025\u5e74**19.4\u4ebf\u7f8e\u5143**\u589e\u957f\u81f32030\u5e74**98.6\u4ebf\u7f8e\u5143**\u3002\n\n**\u6280\u672f\u6f14\u8fdb\u8def\u7ebf**\uff1aRAG\u6b63\u4ece\"\u68c0\u7d22\u5f15\u64ce\"\u6f14\u8fdb\u4e3a\"**\u4e0a\u4e0b\u6587\u5e73\u53f0\uff08Context Engine\uff09**\"\uff0c\u7edf\u4e00\u7ba1\u7406\u975e\u7ed3\u6784\u5316\u6587\u6863\u3001\u5b9e\u65f6\u4ea4\u4e92\u65e5\u5fd7\u548c\u7ed3\u6784\u5316\u670d\u52a1\u63a5\u53e3\u3002GraphRAG\u5c06\u5e7f\u6cdb\u5e94\u7528\uff0c\u5f20\u91cf\u91cd\u6392\u5e8f\u6280\u672f\u5c06\u57282025\u5e74\u666e\u53ca\uff0cAgentic Memory\u5c06\u8d85\u8d8a\u4f20\u7edfRAG\u7528\u4e8e\u81ea\u9002\u5e94\u52a9\u624b\u3002\n\n---\n\n## \u90e8\u7f72\u914d\u7f6e\u5efa\u8bae\n\n### \u5f00\u53d1/\u539f\u578b\u9636\u6bb5\n```\n\u6846\u67b6: LangChain + ChromaDB + Flowise\n\u6a21\u578b: Ollama + Llama 3.2 7B (Q4_K_M)\n\u5d4c\u5165: all-MiniLM-L6-v2\n```\n\n### \u751f\u4ea7\u73af\u5883\uff08Apple Silicon\uff09\n```\n\u6846\u67b6: LlamaIndex + Milvus\n\u63a8\u7406: MLX\uff08\u9ad8\u541e\u5410\uff09\u6216 MLC-LLM\uff08\u4f4e\u5ef6\u8fdf\uff09\n\u91cf\u5316: Q5_K_M\uff08\u9ad8\u8d28\u91cf\uff09\n\u5d4c\u5165: BGE-M3\uff08\u591a\u8bed\u8a00\uff09\n```\n\n### \u751f\u4ea7\u73af\u5883\uff08NVIDIA GPU\uff09\n```\n\u6846\u67b6: Haystack + Qdrant\n\u63a8\u7406: vLLM + AWQ\u91cf\u5316 \u6216 TensorRT-LLM + FP8\n\u4f18\u5316: PagedAttention + Flash Attention\n\u5d4c\u5165: nomic-embed-text\uff08\u957f\u4e0a\u4e0b\u6587\uff09\n```\n\n### \u8fb9\u7f18/\u79fb\u52a8\u8bbe\u5907\n```\n\u6846\u67b6: ExecuTorch + Core ML\n\u6a21\u578b: Llama 3.2 1B/3B (GPTQ 4-bit)\n\u683c\u5f0f: GGUF Q4_K_M\n\u5d4c\u5165: EmbeddingGemma\uff08\u91cf\u5316\u540e<200MB\uff09\n```\n\n---\n\n## \u7ed3\u8bba\n\nRAG\u6280\u672f\u57282024-2025\u5e74\u5b8c\u6210\u4e86\u4ece\u5de5\u5177\u5230\u5e73\u53f0\u7684\u5173\u952e\u8dc3\u8fc1\u3002\u5f00\u6e90\u751f\u6001\u5df2\u5f62\u6210LangChain\u4e3b\u5bfc\u3001\u591a\u6846\u67b6\u5e76\u5b58\u7684\u6210\u719f\u683c\u5c40\uff1b\u672c\u5730\u90e8\u7f72\u53d7\u76ca\u4e8eApple Silicon\u4f18\u5316\u548c\u91cf\u5316\u6280\u672f\u7a81\u7834\u5b9e\u73b0\u4e86\u663e\u8457\u964d\u672c\uff1bMCP\u534f\u8bae\u6b63\u5728\u5efa\u7acbAI\u5de5\u5177\u96c6\u6210\u7684\u884c\u4e1a\u6807\u51c6\uff1bAgentic RAG\u3001\u591a\u6a21\u6001\u878d\u5408\u548c\u9690\u79c1\u4fdd\u62a4\u6280\u672f\u5219\u4e3a\u4f01\u4e1a\u7ea7\u5e94\u7528\u5960\u5b9a\u57fa\u7840\u3002\n\n\u9884\u8ba1\u52302026\u5e74\uff0cRAG\u5c06\u6210\u4e3a\u4f01\u4e1aAI\u67b6\u6784\u7684\u6838\u5fc3\u652f\u67f1\u2014\u2014\u4e0d\u662f\u4f5c\u4e3a\u72ec\u7acb\u7684\u68c0\u7d22\u7ec4\u4ef6\uff0c\u800c\u662f\u4f5c\u4e3a\u667a\u80fd\u7cfb\u7edf\u7684\u4e0a\u4e0b\u6587\u57fa\u7840\u8bbe\u65bd\uff0c\u652f\u6491Agentic AI\u7684\u81ea\u4e3b\u51b3\u7b56\u80fd\u529b\u3002\u5bf9\u4e8e\u6280\u672f\u51b3\u7b56\u8005\u800c\u8a00\uff0c\u5f53\u524d\u7684\u5173\u952e\u884c\u52a8\u662f\uff1a\u8bc4\u4f30Agentic RAG\u67b6\u6784\u3001\u5e03\u5c40\u591a\u6a21\u6001\u68c0\u7d22\u80fd\u529b\u3001\u5efa\u7acbRAG\u5b89\u5168\u8bc4\u4f30\u4f53\u7cfb\u3002",
+      "language": null,
+      "md_citations": [
+        {
+          "url": "https://arxiv.org/html/2506.10408v1",
+          "uuid": "3788432b-2d19-416f-a79e-497a69e794ed",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/html/2506.10408v1",
+              "uuid": "3788432b-2d19-416f-a79e-497a69e794ed",
+              "title": "Reasoning RAG via System 1 or System 2: A Survey on Reasoning Agentic Retrieval-Augmented Generation for Industry Challenges",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "3788432b-2d19-416f-a79e-497a69e794ed",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "Reasoning RAG via System 1 or System 2: A Survey on Reasoning Agentic Retrieval-Augmented Generation for Industry Challenges"
+          },
+          "end_index": 128,
+          "start_index": 102,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://medium.com/@fahey_james/langgraph-and-langchain-hit-1-0-alpha-the-future-of-agentic-ai-infrastructure-8ea86c7c11c8",
+          "uuid": "409f7acc-8691-48e4-bf4a-bb50f2e0010a",
+          "title": "Medium",
+          "sources": [
+            {
+              "url": "https://medium.com/@fahey_james/langgraph-and-langchain-hit-1-0-alpha-the-future-of-agentic-ai-infrastructure-8ea86c7c11c8",
+              "uuid": "409f7acc-8691-48e4-bf4a-bb50f2e0010a",
+              "title": "LangGraph and LangChain Hit 1.0 Alpha: The Future of Agentic AI Infrastructure | by James Fahey | Medium",
+              "source": "Medium",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=medium.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "409f7acc-8691-48e4-bf4a-bb50f2e0010a",
+            "source": "Medium",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=medium.com",
+            "preview_title": "LangGraph and LangChain Hit 1.0 Alpha: The Future of Agentic AI Infrastructure | by James Fahey | Medium"
+          },
+          "end_index": 916,
+          "start_index": 864,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://www.datacamp.com/tutorial/langchain-vs-langgraph-vs-langsmith-vs-langflow",
+          "uuid": "936e1d58-0673-44e5-bf2c-041c0e677839",
+          "title": "DataCamp",
+          "sources": [
+            {
+              "url": "https://www.datacamp.com/tutorial/langchain-vs-langgraph-vs-langsmith-vs-langflow",
+              "uuid": "936e1d58-0673-44e5-bf2c-041c0e677839",
+              "title": "LangChain vs LangGraph vs LangSmith vs LangFlow: Key Differences Explained | DataCamp",
+              "source": "DataCamp",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=datacamp.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "936e1d58-0673-44e5-bf2c-041c0e677839",
+            "source": "DataCamp",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=datacamp.com",
+            "preview_title": "LangChain vs LangGraph vs LangSmith vs LangFlow: Key Differences Explained | DataCamp"
+          },
+          "end_index": 1027,
+          "start_index": 984,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://xenoss.io/blog/langchain-langgraph-llamaindex-llm-frameworks",
+          "uuid": "2784b520-b3b3-4d07-9acf-834bd6a5e870",
+          "title": "Xenoss",
+          "sources": [
+            {
+              "url": "https://xenoss.io/blog/langchain-langgraph-llamaindex-llm-frameworks",
+              "uuid": "2784b520-b3b3-4d07-9acf-834bd6a5e870",
+              "title": "LangChain vs LangGraph vs LlamaIndex: Best LLM framework",
+              "source": "Xenoss",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=xenoss.io",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "2784b520-b3b3-4d07-9acf-834bd6a5e870",
+            "source": "Xenoss",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=xenoss.io",
+            "preview_title": "LangChain vs LangGraph vs LlamaIndex: Best LLM framework"
+          },
+          "end_index": 1098,
+          "start_index": 1047,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://www.firecrawl.dev/blog/best-vector-databases-2025",
+          "uuid": "b44b354a-b340-4ab8-862c-260f3f005acf",
+          "title": "Firecrawl",
+          "sources": [
+            {
+              "url": "https://www.firecrawl.dev/blog/best-vector-databases-2025",
+              "uuid": "b44b354a-b340-4ab8-862c-260f3f005acf",
+              "title": "Best Vector Databases in 2025: A Complete Comparison Guide",
+              "source": "Firecrawl",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=firecrawl.dev",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "b44b354a-b340-4ab8-862c-260f3f005acf",
+            "source": "Firecrawl",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=firecrawl.dev",
+            "preview_title": "Best Vector Databases in 2025: A Complete Comparison Guide"
+          },
+          "end_index": 1339,
+          "start_index": 1304,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://github.com/ml-explore/mlx",
+          "uuid": "41559638-7614-45a0-a74d-445100738540",
+          "title": "GitHub",
+          "sources": [
+            {
+              "url": "https://github.com/ml-explore/mlx",
+              "uuid": "41559638-7614-45a0-a74d-445100738540",
+              "title": "GitHub - ml-explore/mlx: MLX: An array framework for Apple silicon",
+              "source": "GitHub",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=github.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "41559638-7614-45a0-a74d-445100738540",
+            "source": "GitHub",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=github.com",
+            "preview_title": "GitHub - ml-explore/mlx: MLX: An array framework for Apple silicon"
+          },
+          "end_index": 2273,
+          "start_index": 2208,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2511.05502",
+          "uuid": "7c6eda82-05de-4415-aefd-7205d90fa103",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/pdf/2511.05502",
+              "uuid": "7c6eda82-05de-4415-aefd-7205d90fa103",
+              "title": "A Compara've Study of MLX, MLC-LLM, Ollama, llama.cpp, ...",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "7c6eda82-05de-4415-aefd-7205d90fa103",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "A Compara've Study of MLX, MLC-LLM, Ollama, llama.cpp, ..."
+          },
+          "end_index": 2375,
+          "start_index": 2273,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://machinelearning.apple.com/research/exploring-llms-mlx-m5",
+          "uuid": "4ec74406-984b-48c3-8e85-815d27dc2b9b",
+          "title": "Apple Machine Learning Research",
+          "sources": [
+            {
+              "url": "https://machinelearning.apple.com/research/exploring-llms-mlx-m5",
+              "uuid": "4ec74406-984b-48c3-8e85-815d27dc2b9b",
+              "title": "Exploring LLMs with MLX and the Neural Accelerators in the M5 GPU - Apple Machine Learning Research",
+              "source": "Apple Machine Learning Research",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=apple.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "4ec74406-984b-48c3-8e85-815d27dc2b9b",
+            "source": "Apple Machine Learning Research",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=apple.com",
+            "preview_title": "Exploring LLMs with MLX and the Neural Accelerators in the M5 GPU - Apple Machine Learning Research"
+          },
+          "end_index": 2530,
+          "start_index": 2377,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://www.bentoml.com/blog/from-ollama-to-openllm-running-llms-in-the-cloud",
+          "uuid": "d5662335-8858-4416-becb-a92535a16eff",
+          "title": "BentoML",
+          "sources": [
+            {
+              "url": "https://www.bentoml.com/blog/from-ollama-to-openllm-running-llms-in-the-cloud",
+              "uuid": "d5662335-8858-4416-becb-a92535a16eff",
+              "title": "From Ollama to OpenLLM: Running LLMs in the Cloud",
+              "source": "BentoML",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=bentoml.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "d5662335-8858-4416-becb-a92535a16eff",
+            "source": "BentoML",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=bentoml.com",
+            "preview_title": "From Ollama to OpenLLM: Running LLMs in the Cloud"
+          },
+          "end_index": 2629,
+          "start_index": 2553,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://apidog.com/blog/deploy-local-ai-llms/",
+          "uuid": "00cf21df-7703-4d04-b56f-527ce2b5a1c5",
+          "title": "Apidog",
+          "sources": [
+            {
+              "url": "https://apidog.com/blog/deploy-local-ai-llms/",
+              "uuid": "00cf21df-7703-4d04-b56f-527ce2b5a1c5",
+              "title": "Deploy LLMs Locally Using Ollama: The Ultimate Guide to Local AI Development",
+              "source": "Apidog",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=apidog.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "00cf21df-7703-4d04-b56f-527ce2b5a1c5",
+            "source": "Apidog",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=apidog.com",
+            "preview_title": "Deploy LLMs Locally Using Ollama: The Ultimate Guide to Local AI Development"
+          },
+          "end_index": 2682,
+          "start_index": 2629,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://github.com/ggml-org/llama.cpp/discussions/2094",
+          "uuid": "2459144c-cea8-42d4-abc4-ac6d793a6b0c",
+          "title": "GitHub",
+          "sources": [
+            {
+              "url": "https://github.com/ggml-org/llama.cpp/discussions/2094",
+              "uuid": "2459144c-cea8-42d4-abc4-ac6d793a6b0c",
+              "title": "Difference in different quantization methods \u00b7 ggml-org/llama.cpp \u00b7 Discussion #2094",
+              "source": "GitHub",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=github.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "2459144c-cea8-42d4-abc4-ac6d793a6b0c",
+            "source": "GitHub",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=github.com",
+            "preview_title": "Difference in different quantization methods \u00b7 ggml-org/llama.cpp \u00b7 Discussion #2094"
+          },
+          "end_index": 3096,
+          "start_index": 3052,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://github.com/FlagOpen/FlagEmbedding",
+          "uuid": "960988a8-a5ab-45c2-92bb-d7abbdb6b61c",
+          "title": "GitHub",
+          "sources": [
+            {
+              "url": "https://github.com/FlagOpen/FlagEmbedding",
+              "uuid": "960988a8-a5ab-45c2-92bb-d7abbdb6b61c",
+              "title": "GitHub - FlagOpen/FlagEmbedding: Retrieval and Retrieval-augmented LLMs",
+              "source": "GitHub",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=github.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "960988a8-a5ab-45c2-92bb-d7abbdb6b61c",
+            "source": "GitHub",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=github.com",
+            "preview_title": "GitHub - FlagOpen/FlagEmbedding: Retrieval and Retrieval-augmented LLMs"
+          },
+          "end_index": 3573,
+          "start_index": 3528,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://www.bentoml.com/blog/a-guide-to-open-source-embedding-models",
+          "uuid": "0d21ebfd-0946-4781-aff4-309e3c4d2e1f",
+          "title": "BentoML",
+          "sources": [
+            {
+              "url": "https://www.bentoml.com/blog/a-guide-to-open-source-embedding-models",
+              "uuid": "0d21ebfd-0946-4781-aff4-309e3c4d2e1f",
+              "title": "The Best Open-Source Embedding Models in 2026",
+              "source": "BentoML",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=bentoml.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "0d21ebfd-0946-4781-aff4-309e3c4d2e1f",
+            "source": "BentoML",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=bentoml.com",
+            "preview_title": "The Best Open-Source Embedding Models in 2026"
+          },
+          "end_index": 3703,
+          "start_index": 3649,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://www.runpod.io/blog/introduction-to-vllm-and-pagedattention",
+          "uuid": "abab4d9a-6bce-4409-8f2e-3d206379597a",
+          "title": "Runpod",
+          "sources": [
+            {
+              "url": "https://www.runpod.io/blog/introduction-to-vllm-and-pagedattention",
+              "uuid": "abab4d9a-6bce-4409-8f2e-3d206379597a",
+              "title": "Introduction to vLLM and PagedAttention | Runpod Blog",
+              "source": "Runpod",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=runpod.io",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "abab4d9a-6bce-4409-8f2e-3d206379597a",
+            "source": "Runpod",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=runpod.io",
+            "preview_title": "Introduction to vLLM and PagedAttention | Runpod Blog"
+          },
+          "end_index": 4165,
+          "start_index": 4059,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://flashinfer.ai/2024/02/02/introduce-flashinfer.html",
+          "uuid": "93f7ca14-aa2d-45ab-ae30-357f7d24c296",
+          "title": "FlashInfer",
+          "sources": [
+            {
+              "url": "https://flashinfer.ai/2024/02/02/introduce-flashinfer.html",
+              "uuid": "93f7ca14-aa2d-45ab-ae30-357f7d24c296",
+              "title": "Accelerating Self-Attentions for LLM Serving with FlashInfer | FlashInfer",
+              "source": "FlashInfer",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=flashinfer.ai",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "93f7ca14-aa2d-45ab-ae30-357f7d24c296",
+            "source": "FlashInfer",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=flashinfer.ai",
+            "preview_title": "Accelerating Self-Attentions for LLM Serving with FlashInfer | FlashInfer"
+          },
+          "end_index": 4229,
+          "start_index": 4163,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://www.runpod.io/blog/introduction-to-vllm-and-pagedattention",
+          "uuid": "e08b886a-4953-4b2f-a131-9eddf28b3973",
+          "title": "Runpod",
+          "sources": [
+            {
+              "url": "https://www.runpod.io/blog/introduction-to-vllm-and-pagedattention",
+              "uuid": "e08b886a-4953-4b2f-a131-9eddf28b3973",
+              "title": "Introduction to vLLM and PagedAttention | Runpod Blog",
+              "source": "Runpod",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=runpod.io",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "e08b886a-4953-4b2f-a131-9eddf28b3973",
+            "source": "Runpod",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=runpod.io",
+            "preview_title": "Introduction to vLLM and PagedAttention | Runpod Blog"
+          },
+          "end_index": 4248,
+          "start_index": 4227,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Model_Context_Protocol",
+          "uuid": "714cf3ce-57e1-4902-8e3a-ff8ab25c6a26",
+          "title": "Wikipedia",
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/wiki/Model_Context_Protocol",
+              "uuid": "714cf3ce-57e1-4902-8e3a-ff8ab25c6a26",
+              "title": "Model Context Protocol - Wikipedia",
+              "source": "Wikipedia",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=wikipedia.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "714cf3ce-57e1-4902-8e3a-ff8ab25c6a26",
+            "source": "Wikipedia",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=wikipedia.org",
+            "preview_title": "Model Context Protocol - Wikipedia"
+          },
+          "end_index": 4438,
+          "start_index": 4339,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://thenewstack.io/why-the-model-context-protocol-won/",
+          "uuid": "5e79f2c2-82ae-42e8-882f-45911d95decc",
+          "title": "The New Stack",
+          "sources": [
+            {
+              "url": "https://thenewstack.io/why-the-model-context-protocol-won/",
+              "uuid": "5e79f2c2-82ae-42e8-882f-45911d95decc",
+              "title": "Why the Model Context Protocol Won - The New Stack",
+              "source": "The New Stack",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=thenewstack.io",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "5e79f2c2-82ae-42e8-882f-45911d95decc",
+            "source": "The New Stack",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=thenewstack.io",
+            "preview_title": "Why the Model Context Protocol Won - The New Stack"
+          },
+          "end_index": 4507,
+          "start_index": 4438,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Model_Context_Protocol",
+          "uuid": "60073a02-4a0a-42ed-91b9-3cf6bebb1e57",
+          "title": "Wikipedia",
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/wiki/Model_Context_Protocol",
+              "uuid": "60073a02-4a0a-42ed-91b9-3cf6bebb1e57",
+              "title": "Model Context Protocol - Wikipedia",
+              "source": "Wikipedia",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=wikipedia.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "60073a02-4a0a-42ed-91b9-3cf6bebb1e57",
+            "source": "Wikipedia",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=wikipedia.org",
+            "preview_title": "Model Context Protocol - Wikipedia"
+          },
+          "end_index": 4556,
+          "start_index": 4507,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://aerospike.com/blog/model-context-protocol/",
+          "uuid": "4ef710b4-fa32-4874-9398-aeb3cf3af9ae",
+          "title": "Aerospike",
+          "sources": [
+            {
+              "url": "https://aerospike.com/blog/model-context-protocol/",
+              "uuid": "4ef710b4-fa32-4874-9398-aeb3cf3af9ae",
+              "title": "Model Context Protocol: Simplifying AI Tool Integration | Aerospike",
+              "source": "Aerospike",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=aerospike.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "4ef710b4-fa32-4874-9398-aeb3cf3af9ae",
+            "source": "Aerospike",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=aerospike.com",
+            "preview_title": "Model Context Protocol: Simplifying AI Tool Integration | Aerospike"
+          },
+          "end_index": 5985,
+          "start_index": 5895,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/html/2412.04697v2",
+          "uuid": "c8468d76-72db-4afe-95cf-c23edd5fdacd",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/html/2412.04697v2",
+              "uuid": "c8468d76-72db-4afe-95cf-c23edd5fdacd",
+              "title": "Privacy-Preserving Retrieval-Augmented Generation with Differential Privacy",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "c8468d76-72db-4afe-95cf-c23edd5fdacd",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "Privacy-Preserving Retrieval-Augmented Generation with Differential Privacy"
+          },
+          "end_index": 7645,
+          "start_index": 7579,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/html/2505.18906v1",
+          "uuid": "1016e753-3284-4328-a099-c18e856344a6",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/html/2505.18906v1",
+              "uuid": "1016e753-3284-4328-a099-c18e856344a6",
+              "title": "Federated Retrieval-Augmented Generation: A Systematic Mapping Study",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "1016e753-3284-4328-a099-c18e856344a6",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "Federated Retrieval-Augmented Generation: A Systematic Mapping Study"
+          },
+          "end_index": 7679,
+          "start_index": 7643,
+          "origin_tool_name": "web_search"
+        }
+      ],
+      "version_uuid": "b3f3033a-7a90-4935-a4cb-7c1c58a99ad7"
+    },
+    "message": null,
+    "integration_name": null,
+    "integration_icon_url": null,
+    "context": null,
+    "display_content": null,
+    "approval_options": null,
+    "approval_key": null
+  },
+  {
+    "start_timestamp": null,
+    "stop_timestamp": null,
+    "flags": null,
+    "type": "tool_result",
+    "name": "artifacts",
+    "content": [
+      {
+        "type": "text",
+        "text": "OK",
+        "uuid": "2b69851b-3b5f-4bb1-a526-0140f2bf95ee"
+      }
+    ],
+    "is_error": false,
+    "structured_content": null,
+    "meta": null,
+    "message": null,
+    "integration_name": null,
+    "integration_icon_url": null,
+    "display_content": null
+  }
+]

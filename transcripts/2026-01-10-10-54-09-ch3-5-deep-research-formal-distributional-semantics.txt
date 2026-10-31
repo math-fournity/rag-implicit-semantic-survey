@@ -1,0 +1,1723 @@
+Assistant:
+Content:
+[
+  {
+    "start_timestamp": "2026-01-10T09:56:05.852517Z",
+    "stop_timestamp": "2026-01-10T09:56:05.852517Z",
+    "flags": null,
+    "type": "text",
+    "text": "\n\n",
+    "citations": []
+  },
+  {
+    "start_timestamp": "2026-01-10T09:56:05.852517Z",
+    "stop_timestamp": "2026-01-10T09:56:14.943203Z",
+    "flags": null,
+    "type": "thinking",
+    "thinking": "\u7528\u6237\u95ee\u7684\u662f\uff1a16\u7ae0\u4e4b\u540e\u6ca1\u6709\u542f\u52a8\"\u5148\u505a\u6df1\u5ea6\u7814\u7a76\uff0c\u518d\u505a\u6587\u6863\u64b0\u5199\"\u5427\uff1f\u68c0\u67e5\u662f\u5426\u8fd8\u5b58\u5728\u6ca1\u6709\u542f\u52a8Research Mode\uff0c\u5c31\u5f00\u59cb\u7f16\u5199\u7684\u7ae0\u8282\uff1f\n\n\u8fd9\u662f\u4e00\u4e2a\u5173\u4e8e\u6211\u7684\u5de5\u4f5c\u6d41\u7a0b\u7684\u68c0\u67e5\u95ee\u9898\uff0c\u4e0d\u9700\u8981\u542f\u52a8\u6df1\u5ea6\u7814\u7a76\u5de5\u5177\u3002\u8fd9\u662f\u4e00\u4e2a\u5185\u90e8\u9879\u76ee\u7ba1\u7406\u95ee\u9898\uff0c\u6211\u9700\u8981\u56de\u987e\u6211\u7684\u5de5\u4f5c\u8bb0\u5f55\u6765\u56de\u7b54\u3002\n\n\u8ba9\u6211\u68c0\u67e5\u4e00\u4e0b\u54ea\u4e9b\u7ae0\u8282\u662f\u505a\u4e86\u6df1\u5ea6\u7814\u7a76\u540e\u518d\u5199\u7684\uff0c\u54ea\u4e9b\u662f\u76f4\u63a5\u5199\u7684\uff1a\n\n1. \u7b2c1\u7ae0 - \u6709\u6df1\u5ea6\u7814\u7a76\n2. \u7b2c2\u7ae0 - \u6709\u6df1\u5ea6\u7814\u7a76\n3. \u7b2c3\u7ae0 - **\u6ca1\u6709\u505a\u6df1\u5ea6\u7814\u7a76\uff0c\u76f4\u63a5\u5199\u7684**\n4. \u7b2c4\u7ae0 - **\u6ca1\u6709\u505a\u6df1\u5ea6\u7814\u7a76\uff0c\u76f4\u63a5\u5199\u7684**\n5. \u7b2c5\u7ae0 - **\u6ca1\u6709\u505a\u6df1\u5ea6\u7814\u7a76\uff0c\u76f4\u63a5\u5199\u7684**\n6. \u7b2c6\u7ae0 - \u6709\u6df1\u5ea6\u7814\u7a76\uff08RSA\u6846\u67b6\uff09\n7. \u7b2c7\u7ae0 - \u6709\u6df1\u5ea6\u7814\u7a76\uff08\u5728\u7b2c7-8-13-16\u7ae0\u7684\u7efc\u5408\u7814\u7a76\u4e2d\uff09\n8. \u7b2c8\u7ae0 - \u6709\u6df1\u5ea6\u7814\u7a76\uff08\u5728\u7b2c7-8-13-16\u7ae0\u7684\u7efc\u5408\u7814\u7a76\u4e2d\uff09\n9. \u7b2c9\u7ae0 - \u6709\u6df1\u5ea6\u7814\u7a76\uff08eRST\uff09\n10. \u7b2c10\u7ae0 - \u6709\u6df1\u5ea6\u7814\u7a76\uff08\u8ba1\u7b97\u8bba\u8bc1\uff09\n11. \u7b2c11\u7ae0 - \u6709\u6df1\u5ea6\u7814\u7a76\uff08FrameNet\uff09\n12. \u7b2c12\u7ae0 - \u6709\u6df1\u5ea6\u7814\u7a76\uff08\u9690\u55bb\u8ba1\u7b97\uff09\n13. \u7b2c13\u7ae0 - \u6709\u6df1\u5ea6\u7814\u7a76\uff08\u5728\u7b2c7-8-13-16\u7ae0\u7684\u7efc\u5408\u7814\u7a76\u4e2d\uff09\n\n\n14. \u7b2c14\u7ae0 - \u6709\u6df1\u5ea6\u7814\u7a76\uff08\u5728\u7b2c7-8-13-16\u7ae0\u7684\u7efc\u5408\u7814\u7a76\u4e2d\uff09\n15. \u7b2c15\u7ae0 - \u6709\u6df1\u5ea6\u7814\u7a76\uff08\u5728\u7b2c7-8-13-16\u7ae0\u7684\u7efc\u5408\u7814\u7a76\u4e2d\uff09\n16. \u7b2c16\u7ae0 - \u6709\u6df1\u5ea6\u7814\u7a76\uff08\u5728\u7b2c7-8-13-16\u7ae0\u7684\u7efc\u5408\u7814\u7a76\u4e2d\uff09\n17. \u7b2c17\u7ae0 - **\u6ca1\u6709\u505a\u6df1\u5ea6\u7814\u7a76\uff0c\u76f4\u63a5\u5199\u7684**\n18. \u7b2c18\u7ae0 - **\u6ca1\u6709\u505a\u6df1\u5ea6\u7814\u7a76\uff0c\u76f4\u63a5\u5199\u7684**\n\n\u770b\u676516\u7ae0\u4e4b\u540e\u786e\u5b9e\u51fa\u73b0\u4e86\u95ee\u9898\u3002\u7b2c17\u548c18\u7ae0\u90fd\u6ca1\u6709\u7ecf\u8fc7\u6df1\u5ea6\u7814\u7a76\u9636\u6bb5\u5c31\u76f4\u63a5\u5f00\u59cb\u7f16\u5199\u4e86\uff0c\u8fd9\u8fdd\u53cd\u4e86\u6211\u5efa\u7acb\u7684\u5de5\u4f5c\u6d41\u7a0b\u89c4\u8303\u3002\n\n\u52a0\u4e0a\u4e4b\u524d\u53d1\u73b0\u7684\u7b2c3\u30014\u30015\u7ae0\u4e5f\u5b58\u5728\u540c\u6837\u7684\u60c5\u51b5\uff0c\u8fd9\u8bf4\u660e\u5728\u67d0\u4e9b\u7ae0\u8282\u4e0a\u6211\u6ca1\u6709\u9075\u5faa\u5148\u7814\u7a76\u540e\u64b0\u5199\u7684\u539f\u5219\u3002",
+    "summaries": [
+      {
+        "summary": "\u601d\u8003\u662f\u5426\u5b58\u5728\u8df3\u8fc7\u6df1\u5ea6\u7814\u7a76\u9636\u6bb5\u800c\u76f4\u63a5\u5f00\u59cb\u64b0\u5199\u7684\u7ae0\u8282"
+      },
+      {
+        "summary": "\u5ba1\u89c6\u7ae0\u8282\u5de5\u4f5c\u6d41\u7a0b\uff0c\u7504\u522b\u672a\u542f\u52a8\u7814\u7a76\u6a21\u5f0f\u7684\u90e8\u5206\u3002"
+      },
+      {
+        "summary": "\u5ba1\u67e5\u4e86\u7ae0\u8282\u7814\u7a76\u6d41\u7a0b\uff0c\u53d1\u73b0\u7b2c3\u30014\u30015\u300117\u300118\u7ae0\u7f3a\u5931\u6df1\u5ea6\u7814\u7a76\u3002"
+      }
+    ],
+    "cut_off": false,
+    "alternative_display_type": null
+  },
+  {
+    "start_timestamp": "2026-01-10T09:56:13.732468Z",
+    "stop_timestamp": "2026-01-10T09:56:14.140509Z",
+    "flags": null,
+    "type": "text",
+    "text": "\u60a8\u8bf4\u5f97\u5bf9\uff01\u8ba9\u6211\u68c0\u67e5\u4e00\u4e0b\u5404\u7ae0\u8282\u7684\u7814\u7a76\u60c5\u51b5\uff1a",
+    "citations": []
+  },
+  {
+    "start_timestamp": "2026-01-10T09:56:14.415593Z",
+    "stop_timestamp": "2026-01-10T09:56:18.785804Z",
+    "flags": null,
+    "type": "tool_use",
+    "name": "bash_tool",
+    "input": {
+      "command": "# \u68c0\u67e5\u5404\u7ae0\u8282_research\u76ee\u5f55\u4e0b\u7684\u6df1\u5ea6\u7814\u7a76\u62a5\u544a\necho \"=== \u5404\u7ae0\u8282\u6df1\u5ea6\u7814\u7a76\u62a5\u544a\u68c0\u67e5 ===\"\necho \"\"\n\nfor i in 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18; do\n  dir=$(find /mnt/user-data/outputs/aurolaok/docs/survey/vol1 -type d -name \"ch${i}*\" 2>/dev/null | head -1)\n  if [ -n \"$dir\" ]; then\n    chapter_name=$(basename \"$dir\")\n    research_files=$(find \"$dir/_research\" -name \"*.md\" 2>/dev/null | wc -l)\n    if [ \"$research_files\" -gt 0 ]; then\n      echo \"\u2705 \u7b2c${i}\u7ae0 ($chapter_name): ${research_files}\u4e2a\u7814\u7a76\u62a5\u544a\"\n      find \"$dir/_research\" -name \"*.md\" -exec basename {} \\; 2>/dev/null | head -3\n    else\n      echo \"\u274c \u7b2c${i}\u7ae0 ($chapter_name): \u65e0\u7814\u7a76\u62a5\u544a\"\n    fi\n    echo \"\"\n  fi\ndone",
+      "description": "\u68c0\u67e5\u5404\u7ae0\u8282\u7684\u6df1\u5ea6\u7814\u7a76\u62a5\u544a\u60c5\u51b5"
+    },
+    "message": "\u68c0\u67e5\u5404\u7ae0\u8282\u7684\u6df1\u5ea6\u7814\u7a76\u62a5\u544a\u60c5\u51b5",
+    "integration_name": null,
+    "integration_icon_url": null,
+    "context": null,
+    "display_content": {
+      "type": "json_block",
+      "json_block": "{\"language\": \"bash\", \"code\": \"# \\u68c0\\u67e5\\u5404\\u7ae0\\u8282_research\\u76ee\\u5f55\\u4e0b\\u7684\\u6df1\\u5ea6\\u7814\\u7a76\\u62a5\\u544a\\necho \\\"=== \\u5404\\u7ae0\\u8282\\u6df1\\u5ea6\\u7814\\u7a76\\u62a5\\u544a\\u68c0\\u67e5 ===\\\"\\necho \\\"\\\"\\n\\nfor i in 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18; do\\n  dir=$(find /mnt/user-data/outputs/aurolaok/docs/survey/vol1 -type d -name \\\"ch${i}*\\\" 2>/dev/null | head -1)\\n  if [ -n \\\"$dir\\\" ]; then\\n    chapter_name=$(basename \\\"$dir\\\")\\n    research_files=$(find \\\"$dir/_research\\\" -name \\\"*.md\\\" 2>/dev/null | wc -l)\\n    if [ \\\"$research_files\\\" -gt 0 ]; then\\n      echo \\\"\\u2705 \\u7b2c${i}\\u7ae0 ($chapter_name): ${research_files}\\u4e2a\\u7814\\u7a76\\u62a5\\u544a\\\"\\n      find \\\"$dir/_research\\\" -name \\\"*.md\\\" -exec basename {} \\\\; 2>/dev/null | head -3\\n    else\\n      echo \\\"\\u274c \\u7b2c${i}\\u7ae0 ($chapter_name): \\u65e0\\u7814\\u7a76\\u62a5\\u544a\\\"\\n    fi\\n    echo \\\"\\\"\\n  fi\\ndone\"}"
+    },
+    "approval_options": null,
+    "approval_key": null
+  },
+  {
+    "start_timestamp": null,
+    "stop_timestamp": null,
+    "flags": null,
+    "type": "tool_result",
+    "name": "bash_tool",
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"returncode\":0,\"stdout\":\"=== \u5404\u7ae0\u8282\u6df1\u5ea6\u7814\u7a76\u62a5\u544a\u68c0\u67e5 ===\\n\\n\u2705 \u7b2c01\u7ae0 (ch01_\u7814\u7a76\u80cc\u666f\u4e0e\u95ee\u9898\u5b9a\u4e49): 12\u4e2a\u7814\u7a76\u62a5\u544a\\n00_Deep_Research_Ch1-4_\u7efc\u5408\u62a5\u544a.md\\n00_Deep_Research_Ch5-8_\u7efc\u5408\u62a5\u544a.md\\n00_Deep_Research_Ch9-12_\u7efc\u5408\u62a5\u544a.md\\n\\n\u2705 \u7b2c02\u7ae0 (ch02_\u7814\u7a76\u65b9\u6cd5\u8bba): 2\u4e2a\u7814\u7a76\u62a5\u544a\\n\u5bf9\u8bdd\u6458\u8981_\u4e2d\u6587\u7248.md\\n\u6df1\u5ea6\u7814\u7a76\u5ba1\u67e5\u62a5\u544a_20260110.md\\n\\n\u274c \u7b2c03\u7ae0 (ch03_\u5f62\u5f0f\u8bed\u4e49\u5b66): \u65e0\u7814\u7a76\u62a5\u544a\\n\\n\u274c \u7b2c04\u7ae0 (ch04_\u5206\u5e03\u5f0f\u8bed\u4e49\u5b66): \u65e0\u7814\u7a76\u62a5\u544a\\n\\n\u274c \u7b2c05\u7ae0 (ch05_\u5f62\u5f0f\u4e0e\u5206\u5e03\u5f0f\u878d\u5408): \u65e0\u7814\u7a76\u62a5\u544a\\n\\n\u2705 \u7b2c06\u7ae0 (ch06_\u683c\u83b1\u65af\u4f1a\u8bdd\u542b\u4e49): 1\u4e2a\u7814\u7a76\u62a5\u544a\\n\u6df1\u5ea6\u7814\u7a76\u62a5\u544a_RSA\u6846\u67b6_20260110.md\\n\\n\u2705 \u7b2c07\u7ae0 (ch07_\u8a00\u8bed\u884c\u4e3a\u7406\u8bba): 1\u4e2a\u7814\u7a76\u62a5\u544a\\n\u6df1\u5ea6\u7814\u7a76\u62a5\u544a_\u8a00\u8bed\u884c\u4e3a_20260110.md\\n\\n\u2705 \u7b2c08\u7ae0 (ch08_\u5173\u8054\u7406\u8bba): 1\u4e2a\u7814\u7a76\u62a5\u544a\\n\u6df1\u5ea6\u7814\u7a76\u62a5\u544a_\u5173\u8054\u7406\u8bba_20260110.md\\n\\n\u2705 \u7b2c09\u7ae0 (ch09_\u4fee\u8f9e\u7ed3\u6784\u7406\u8bba): 1\u4e2a\u7814\u7a76\u62a5\u544a\\n\u6df1\u5ea6\u7814\u7a76\u62a5\u544a_eRST_20260110.md\\n\\n\u2705 \u7b2c10\u7ae0 (ch10_\u56fe\u5c14\u654f\u8bba\u8bc1\u6a21\u578b): 1\u4e2a\u7814\u7a76\u62a5\u544a\\n\u6df1\u5ea6\u7814\u7a76\u62a5\u544a_\u8ba1\u7b97\u8bba\u8bc1_20260110.md\\n\\n\u2705 \u7b2c11\u7ae0 (ch11_\u6846\u67b6\u8bed\u4e49\u5b66): 1\u4e2a\u7814\u7a76\u62a5\u544a\\n\u6df1\u5ea6\u7814\u7a76\u62a5\u544a_FrameNet_20260110.md\\n\\n\u2705 \u7b2c12\u7ae0 (ch12_\u6982\u5ff5\u9690\u55bb\u7406\u8bba): 1\u4e2a\u7814\u7a76\u62a5\u544a\\n\u6df1\u5ea6\u7814\u7a76\u62a5\u544a_\u9690\u55bb\u8ba1\u7b97_20260110.md\\n\\n\u2705 \u7b2c13\u7ae0 (ch13_\u53d9\u4e8b\u7ed3\u6784\u7406\u8bba): 1\u4e2a\u7814\u7a76\u62a5\u544a\\n\u6df1\u5ea6\u7814\u7a76\u62a5\u544a_\u53d9\u4e8b\u7ed3\u6784_20260110.md\\n\\n\u2705 \u7b2c14\u7ae0 (ch14_\u5bf9\u8bdd\u7ed3\u6784): 1\u4e2a\u7814\u7a76\u62a5\u544a\\n\u6df1\u5ea6\u7814\u7a76\u62a5\u544a_\u5bf9\u8bdd\u7ed3\u6784_20260110.md\\n\\n\u2705 \u7b2c15\u7ae0 (ch15_\u6307\u79f0\u4e0e\u56de\u6307): 1\u4e2a\u7814\u7a76\u62a5\u544a\\n\u6df1\u5ea6\u7814\u7a76\u62a5\u544a_\u5171\u6307\u6d88\u89e3_20260110.md\\n\\n\u2705 \u7b2c16\u7ae0 (ch16_\u9884\u8bbe\u4e0e\u8574\u6db5): 1\u4e2a\u7814\u7a76\u62a5\u544a\\n\u6df1\u5ea6\u7814\u7a76\u62a5\u544a_\u9884\u8bbe\u8574\u6db5_20260110.md\\n\\n\u274c \u7b2c17\u7ae0 (ch17_\u8bcd\u6c47\u8bed\u4e49\u5173\u7cfb): \u65e0\u7814\u7a76\u62a5\u544a\\n\\n\u274c \u7b2c18\u7ae0 (ch18_\u7b2c\u4e00\u5377\u603b\u7ed3): \u65e0\u7814\u7a76\u62a5\u544a\\n\\n\",\"stderr\":\"\"}",
+        "uuid": "fde05558-fa6a-462c-9b4c-acba1a0b6669"
+      }
+    ],
+    "is_error": false,
+    "structured_content": null,
+    "meta": null,
+    "message": null,
+    "integration_name": null,
+    "integration_icon_url": null,
+    "display_content": {
+      "type": "json_block",
+      "json_block": "{\"returncode\":0,\"stdout\":\"=== \u5404\u7ae0\u8282\u6df1\u5ea6\u7814\u7a76\u62a5\u544a\u68c0\u67e5 ===\\n\\n\u2705 \u7b2c01\u7ae0 (ch01_\u7814\u7a76\u80cc\u666f\u4e0e\u95ee\u9898\u5b9a\u4e49): 12\u4e2a\u7814\u7a76\u62a5\u544a\\n00_Deep_Research_Ch1-4_\u7efc\u5408\u62a5\u544a.md\\n00_Deep_Research_Ch5-8_\u7efc\u5408\u62a5\u544a.md\\n00_Deep_Research_Ch9-12_\u7efc\u5408\u62a5\u544a.md\\n\\n\u2705 \u7b2c02\u7ae0 (ch02_\u7814\u7a76\u65b9\u6cd5\u8bba): 2\u4e2a\u7814\u7a76\u62a5\u544a\\n\u5bf9\u8bdd\u6458\u8981_\u4e2d\u6587\u7248.md\\n\u6df1\u5ea6\u7814\u7a76\u5ba1\u67e5\u62a5\u544a_20260110.md\\n\\n\u274c \u7b2c03\u7ae0 (ch03_\u5f62\u5f0f\u8bed\u4e49\u5b66): \u65e0\u7814\u7a76\u62a5\u544a\\n\\n\u274c \u7b2c04\u7ae0 (ch04_\u5206\u5e03\u5f0f\u8bed\u4e49\u5b66): \u65e0\u7814\u7a76\u62a5\u544a\\n\\n\u274c \u7b2c05\u7ae0 (ch05_\u5f62\u5f0f\u4e0e\u5206\u5e03\u5f0f\u878d\u5408): \u65e0\u7814\u7a76\u62a5\u544a\\n\\n\u2705 \u7b2c06\u7ae0 (ch06_\u683c\u83b1\u65af\u4f1a\u8bdd\u542b\u4e49): 1\u4e2a\u7814\u7a76\u62a5\u544a\\n\u6df1\u5ea6\u7814\u7a76\u62a5\u544a_RSA\u6846\u67b6_20260110.md\\n\\n\u2705 \u7b2c07\u7ae0 (ch07_\u8a00\u8bed\u884c\u4e3a\u7406\u8bba): 1\u4e2a\u7814\u7a76\u62a5\u544a\\n\u6df1\u5ea6\u7814\u7a76\u62a5\u544a_\u8a00\u8bed\u884c\u4e3a_20260110.md\\n\\n\u2705 \u7b2c08\u7ae0 (ch08_\u5173\u8054\u7406\u8bba): 1\u4e2a\u7814\u7a76\u62a5\u544a\\n\u6df1\u5ea6\u7814\u7a76\u62a5\u544a_\u5173\u8054\u7406\u8bba_20260110.md\\n\\n\u2705 \u7b2c09\u7ae0 (ch09_\u4fee\u8f9e\u7ed3\u6784\u7406\u8bba): 1\u4e2a\u7814\u7a76\u62a5\u544a\\n\u6df1\u5ea6\u7814\u7a76\u62a5\u544a_eRST_20260110.md\\n\\n\u2705 \u7b2c10\u7ae0 (ch10_\u56fe\u5c14\u654f\u8bba\u8bc1\u6a21\u578b): 1\u4e2a\u7814\u7a76\u62a5\u544a\\n\u6df1\u5ea6\u7814\u7a76\u62a5\u544a_\u8ba1\u7b97\u8bba\u8bc1_20260110.md\\n\\n\u2705 \u7b2c11\u7ae0 (ch11_\u6846\u67b6\u8bed\u4e49\u5b66): 1\u4e2a\u7814\u7a76\u62a5\u544a\\n\u6df1\u5ea6\u7814\u7a76\u62a5\u544a_FrameNet_20260110.md\\n\\n\u2705 \u7b2c12\u7ae0 (ch12_\u6982\u5ff5\u9690\u55bb\u7406\u8bba): 1\u4e2a\u7814\u7a76\u62a5\u544a\\n\u6df1\u5ea6\u7814\u7a76\u62a5\u544a_\u9690\u55bb\u8ba1\u7b97_20260110.md\\n\\n\u2705 \u7b2c13\u7ae0 (ch13_\u53d9\u4e8b\u7ed3\u6784\u7406\u8bba): 1\u4e2a\u7814\u7a76\u62a5\u544a\\n\u6df1\u5ea6\u7814\u7a76\u62a5\u544a_\u53d9\u4e8b\u7ed3\u6784_20260110.md\\n\\n\u2705 \u7b2c14\u7ae0 (ch14_\u5bf9\u8bdd\u7ed3\u6784): 1\u4e2a\u7814\u7a76\u62a5\u544a\\n\u6df1\u5ea6\u7814\u7a76\u62a5\u544a_\u5bf9\u8bdd\u7ed3\u6784_20260110.md\\n\\n\u2705 \u7b2c15\u7ae0 (ch15_\u6307\u79f0\u4e0e\u56de\u6307): 1\u4e2a\u7814\u7a76\u62a5\u544a\\n\u6df1\u5ea6\u7814\u7a76\u62a5\u544a_\u5171\u6307\u6d88\u89e3_20260110.md\\n\\n\u2705 \u7b2c16\u7ae0 (ch16_\u9884\u8bbe\u4e0e\u8574\u6db5): 1\u4e2a\u7814\u7a76\u62a5\u544a\\n\u6df1\u5ea6\u7814\u7a76\u62a5\u544a_\u9884\u8bbe\u8574\u6db5_20260110.md\\n\\n\u274c \u7b2c17\u7ae0 (ch17_\u8bcd\u6c47\u8bed\u4e49\u5173\u7cfb): \u65e0\u7814\u7a76\u62a5\u544a\\n\\n\u274c \u7b2c18\u7ae0 (ch18_\u7b2c\u4e00\u5377\u603b\u7ed3): \u65e0\u7814\u7a76\u62a5\u544a\\n\\n\",\"stderr\":\"\"}"
+    }
+  },
+  {
+    "start_timestamp": "2026-01-10T09:56:32.842943Z",
+    "stop_timestamp": "2026-01-10T09:56:35.461728Z",
+    "flags": null,
+    "type": "thinking",
+    "thinking": "\u68c0\u67e5\u7ed3\u679c\u786e\u8ba4\u4e86\u6211\u7684\u5224\u65ad\uff1a\n\n**\u7f3a\u5c11\u6df1\u5ea6\u7814\u7a76\u7684\u7ae0\u8282**\uff1a\n- \u274c \u7b2c3\u7ae0 (\u5f62\u5f0f\u8bed\u4e49\u5b66)\n- \u274c \u7b2c4\u7ae0 (\u5206\u5e03\u5f0f\u8bed\u4e49\u5b66) \n- \u274c \u7b2c5\u7ae0 (\u5f62\u5f0f\u4e0e\u5206\u5e03\u5f0f\u878d\u5408)\n- \u274c \u7b2c17\u7ae0 (\u8bcd\u6c47\u8bed\u4e49\u5173\u7cfb)\n- \u274c \u7b2c18\u7ae0 (\u7b2c\u4e00\u5377\u603b\u7ed3)\n\n\u7b2c18\u7ae0\u662f\u603b\u7ed3\u7ae0\u8282\uff0c\u53ef\u80fd\u4e0d\u9700\u8981\u5355\u72ec\u7684\u6df1\u5ea6\u7814\u7a76\u3002\u4f46\u7b2c3\u30014\u30015\u300117\u7ae0\u786e\u5b9e\u5e94\u8be5\u5148\u505a\u6df1\u5ea6\u7814\u7a76\u518d\u64b0\u5199\u3002\n\n\u6211\u5e94\u8be5\u5411\u7528\u6237\u62a5\u544a\u8fd9\u4e2a\u60c5\u51b5\uff0c\u5e76\u5efa\u8bae\u4e3a\u8fd9\u4e9b\u7ae0\u8282\u542f\u52a8\u6df1\u5ea6\u7814\u7a76\u3002",
+    "summaries": [
+      {
+        "summary": "\u8bc6\u522b\u4e86\u4e94\u4e2a\u7ae0\u8282\u7f3a\u5c11\u6df1\u5ea6\u7814\u7a76\u9636\u6bb5\u3002"
+      }
+    ],
+    "cut_off": false,
+    "alternative_display_type": null
+  },
+  {
+    "start_timestamp": "2026-01-10T09:56:35.612741Z",
+    "stop_timestamp": "2026-01-10T09:56:43.765863Z",
+    "flags": null,
+    "type": "text",
+    "text": "\u60a8\u7684\u68c0\u67e5\u662f\u5bf9\u7684\uff01\u786e\u5b9e\u5b58\u5728**5\u4e2a\u7ae0\u8282\u6ca1\u6709\u5148\u505a\u6df1\u5ea6\u7814\u7a76\u5c31\u76f4\u63a5\u64b0\u5199**\uff1a\n\n## \u7f3a\u5c11\u6df1\u5ea6\u7814\u7a76\u7684\u7ae0\u8282\n\n| \u7ae0\u8282 | \u4e3b\u9898 | \u72b6\u6001 | \u8bf4\u660e |\n|------|------|------|------|\n| **\u7b2c3\u7ae0** | \u5f62\u5f0f\u8bed\u4e49\u5b66\u57fa\u7840 | \u274c \u65e0\u7814\u7a76 | \u9700\u8981\u8865\u51452024-2025\u8fdb\u5c55 |\n| **\u7b2c4\u7ae0** | \u5206\u5e03\u5f0f\u8bed\u4e49\u5b66\u4e0e\u5411\u91cf\u7a7a\u95f4\u6a21\u578b | \u274c \u65e0\u7814\u7a76 | \u9700\u8981\u8865\u5145\u6700\u65b0\u5d4c\u5165\u6280\u672f |\n| **\u7b2c5\u7ae0** | \u5f62\u5f0f\u4e0e\u5206\u5e03\u5f0f\u8bed\u4e49\u7684\u878d\u5408\u8def\u5f84 | \u274c \u65e0\u7814\u7a76 | \u9700\u8981\u8865\u5145\u795e\u7ecf\u7b26\u53f7\u6574\u5408\u8fdb\u5c55 |\n| **\u7b2c17\u7ae0** | \u8bcd\u6c47\u8bed\u4e49\u5173\u7cfb\u4e0eWordNet | \u274c \u65e0\u7814\u7a76 | \u9700\u8981\u8865\u5145\u6700\u65b0\u8bcd\u6c47\u8bed\u4e49\u8fdb\u5c55 |\n| **\u7b2c18\u7ae0** | \u7b2c\u4e00\u5377\u603b\u7ed3 | \u274c \u65e0\u7814\u7a76 | \u603b\u7ed3\u7ae0\u8282\uff0c\u53ef\u80fd\u4e0d\u9700\u8981\u5355\u72ec\u7814\u7a76 |\n\n---\n\n## \u5efa\u8bae\u5904\u7406\u65b9\u6848\n\n**\u65b9\u6848A**\uff1a\u4e3a\u7b2c3\u30014\u30015\u300117\u7ae0\u542f\u52a8\u6df1\u5ea6\u7814\u7a76\uff0c\u7136\u540e\u91cd\u5199\u5b66\u672f\u7248\n\n**\u65b9\u6848B**\uff1a\u5408\u5e76\u7814\u7a76\u2014\u2014\u5c06\u7b2c3-5\u7ae0\u4f5c\u4e3a\u4e00\u7ec4\uff08\u8bed\u4e49\u5b66\u57fa\u7840\uff09\uff0c\u7b2c17\u7ae0\u5355\u72ec\u7814\u7a76\n\n\u662f\u5426\u73b0\u5728\u4e3a\u8fd9\u4e9b\u7ae0\u8282\u542f\u52a8\u6df1\u5ea6\u7814\u7a76\uff1f\u5982\u679c\u662f\uff0c\u6211\u5efa\u8bae\u6309\u4ee5\u4e0b\u4e3b\u9898\u8fdb\u884c\uff1a\n\n1. **\u7b2c3-5\u7ae0\u5408\u5e76\u7814\u7a76**\uff1a\u5f62\u5f0f\u8bed\u4e49\u5b66\u4e0e\u5206\u5e03\u5f0f\u8bed\u4e49\u5b66\u76842024-2025\u5e74\u6700\u65b0\u8fdb\u5c55\uff0c\u7279\u522b\u662f\u795e\u7ecf\u7b26\u53f7\u6574\u5408\u3001\u7c7b\u578b\u8bba\u4e0e\u795e\u7ecf\u7f51\u7edc\u7ed3\u5408\u3001\u6700\u65b0\u5d4c\u5165\u6280\u672f\uff08\u5982GTE\u3001BGE-M3\u3001Jina\u7b49\uff09\n\n2. **\u7b2c17\u7ae0\u7814\u7a76**\uff1a\u8bcd\u6c47\u8bed\u4e49\u8d44\u6e90\u7684\u6700\u65b0\u8fdb\u5c55\uff0c\u5305\u62ecWordNet\u6269\u5c55\u3001\u8de8\u8bed\u8a00\u8bcd\u7f51\u3001\u77e5\u8bc6\u56fe\u8c31\u5d4c\u5165\u3001\u8bcd\u6c47\u8bed\u4e49\u5728RAG\u4e2d\u7684\u5e94\u7528\n\n\u8bf7\u786e\u8ba4\u662f\u5426\u542f\u52a8\uff1f",
+    "citations": []
+  }
+]
+
+================================================================================
+
+Human:
+Content:
+[
+  {
+    "start_timestamp": "2026-01-10T09:57:14.000643Z",
+    "stop_timestamp": "2026-01-10T09:57:14.000643Z",
+    "flags": null,
+    "type": "text",
+    "text": "\u6267\u884c\u65b9\u6848A\uff0c\u5fc5\u987b\u786e\u4fdd\u6240\u6709\u7ae0\u8282\u90fd\u542f\u52a8\u4e86\u5145\u5206\u7684Research\u8fc7\u7a0b\u3002",
+    "citations": []
+  }
+]
+
+================================================================================
+
+Assistant:
+Content:
+[
+  {
+    "start_timestamp": "2026-01-10T09:57:17.476460Z",
+    "stop_timestamp": "2026-01-10T09:57:19.370347Z",
+    "flags": null,
+    "type": "text",
+    "text": "\n\n\u597d\u7684\uff0c\u6267\u884c\u65b9\u6848A\uff0c\u4e3a\u7b2c3\u30014\u30015\u300117\u7ae0\u9010\u4e00\u542f\u52a8\u6df1\u5ea6\u7814\u7a76\u3002\u8ba9\u6211\u5148\u542f\u52a8\u7b2c3-5\u7ae0\u7684\u8054\u5408\u7814\u7a76\uff08\u8bed\u4e49\u5b66\u57fa\u7840\u4e09\u7ae0\u5173\u8054\u6027\u5f3a\uff0c\u5408\u5e76\u7814\u7a76\u66f4\u9ad8\u6548\uff09\uff0c\u7136\u540e\u5355\u72ec\u7814\u7a76\u7b2c17\u7ae0\u3002\n\n## \u542f\u52a8\u7b2c3-5\u7ae0\u6df1\u5ea6\u7814\u7a76\uff1a\u5f62\u5f0f\u8bed\u4e49\u5b66\u4e0e\u5206\u5e03\u5f0f\u8bed\u4e49\u5b66\u57fa\u7840",
+    "citations": []
+  },
+  {
+    "start_timestamp": "2026-01-10T09:57:19.516511Z",
+    "stop_timestamp": "2026-01-10T09:57:33.414682Z",
+    "flags": null,
+    "type": "tool_use",
+    "name": "launch_extended_search_task",
+    "input": {
+      "command": "\u6df1\u5ea6\u7814\u7a76\u4efb\u52a1\uff1a\u5f62\u5f0f\u8bed\u4e49\u5b66\u4e0e\u5206\u5e03\u5f0f\u8bed\u4e49\u5b66\u76842024-2025\u5e74\u6700\u65b0\u5b66\u672f\u8fdb\u5c55\n\n\u7814\u7a76\u76ee\u6807\uff1a\u4e3aRAG\u4e0e\u9690\u6027\u8bed\u4e49\u5904\u7406\u7efc\u8ff0\u7684\u7b2c3-5\u7ae0\u63d0\u4f9b\u6700\u65b0\u5b66\u672f\u524d\u6cbf\u8d44\u6599\n\n\u7b2c3\u7ae0\uff1a\u5f62\u5f0f\u8bed\u4e49\u5b66\u57fa\u7840\n- \u8499\u592a\u53e4\u8bed\u6cd5\uff08Montague Grammar\uff09\u7684\u73b0\u4ee3\u8ba1\u7b97\u5b9e\u73b0\n- \u7c7b\u578b\u8bba\uff08Type Theory\uff09\u4e0e\u795e\u7ecf\u7f51\u7edc\u7684\u7ed3\u5408\uff08\u5982Neural Type Inference\uff09\n- \u52a8\u6001\u8bed\u4e49\u5b66\uff08Dynamic Semantics, DRT\uff09\u76842024-2025\u5e74\u8fdb\u5c55\n- \u4e8b\u4ef6\u8bed\u4e49\u5b66\uff08Event Semantics\uff09\u5728NLP\u4e2d\u7684\u5e94\u7528\n- \u53ef\u80fd\u4e16\u754c\u8bed\u4e49\u5b66\uff08Possible World Semantics\uff09\u4e0e\u6a21\u6001\u63a8\u7406\u7684\u6700\u65b0\u7814\u7a76\n- Lambda\u6f14\u7b97\u5728\u73b0\u4ee3NLP\u4e2d\u7684\u5e94\u7528\n- \u7ec4\u5408\u6027\u539f\u5219\uff08Compositionality\uff09\u5728\u795e\u7ecf\u7f51\u7edc\u4e2d\u7684\u5b9e\u73b0\n\n\u7b2c4\u7ae0\uff1a\u5206\u5e03\u5f0f\u8bed\u4e49\u5b66\u4e0e\u5411\u91cf\u7a7a\u95f4\u6a21\u578b\n- 2024-2025\u5e74\u6700\u65b0\u6587\u672c\u5d4c\u5165\u6a21\u578b\uff08\u5982GTE\u3001BGE-M3\u3001Jina Embeddings\u3001NV-Embed\u3001E5-Mistral\uff09\n- MTEB\u57fa\u51c6\u6d4b\u8bd5\u7684\u6700\u65b0\u6392\u884c\u699c\u548cSOTA\u65b9\u6cd5\n- \u8bed\u5883\u5316\u5d4c\u5165\u7684\u6700\u65b0\u8fdb\u5c55\uff08\u540eBERT\u65f6\u4ee3\uff09\n- \u53e5\u5b50\u548c\u6587\u6863\u7ea7\u5d4c\u5165\u7684\u6700\u65b0\u65b9\u6cd5\n- \u591a\u8bed\u8a00\u548c\u8de8\u8bed\u8a00\u5d4c\u5165\u6280\u672f\n- \u957f\u6587\u6863\u5d4c\u5165\u7684\u89e3\u51b3\u65b9\u6848\n- \u7a00\u758f\u4e0e\u7a20\u5bc6\u5d4c\u5165\u7684\u6df7\u5408\u65b9\u6cd5\n\n\u7b2c5\u7ae0\uff1a\u5f62\u5f0f\u4e0e\u5206\u5e03\u5f0f\u8bed\u4e49\u7684\u878d\u5408\u8def\u5f84\n- \u795e\u7ecf\u7b26\u53f7\u6574\u5408\uff08Neurosymbolic AI\uff09\u76842024-2025\u5e74\u6700\u65b0\u8fdb\u5c55\n- \u77e5\u8bc6\u56fe\u8c31\u5d4c\u5165\uff08Knowledge Graph Embedding\uff09\u7684\u6700\u65b0\u65b9\u6cd5\n- \u795e\u7ecf\u5b9a\u7406\u8bc1\u660e\uff08Neural Theorem Proving\uff09\n- \u53ef\u5fae\u5206\u903b\u8f91\uff08Differentiable Logic\uff09\u4e0e\u795e\u7ecf\u903b\u8f91\u7f16\u7a0b\n- LLM\u4e2d\u7684\u7b26\u53f7\u63a8\u7406\u80fd\u529b\u7814\u7a76\n- \u7ed3\u6784\u5316\u5411\u91cf\u7a7a\u95f4\uff08Structured Vector Spaces\uff09\n- \u601d\u7ef4\u94fe\u63a8\u7406\uff08Chain-of-Thought\uff09\u7684\u5f62\u5f0f\u5316\u5206\u6790\n- RAG\u4e2d\u7684\u795e\u7ecf\u7b26\u53f7\u6574\u5408\u67b6\u6784\n\n\u5177\u4f53\u7814\u7a76\u95ee\u9898\uff1a\n1. \u5f62\u5f0f\u8bed\u4e49\u5b66\u7684\u6838\u5fc3\u6982\u5ff5\uff08\u7ec4\u5408\u6027\u3001\u7c7b\u578b\u8bba\u3001Lambda\u6f14\u7b97\uff09\u5982\u4f55\u4e0e\u73b0\u4ee3\u6df1\u5ea6\u5b66\u4e60\u7ed3\u5408\uff1f\n2. 2024-2025\u5e74\u6709\u54ea\u4e9b\u65b0\u7684\u6587\u672c\u5d4c\u5165\u6a21\u578b\uff1f\u5b83\u4eec\u5728MTEB\u4e0a\u7684\u8868\u73b0\u5982\u4f55\uff1f\n3. \u795e\u7ecf\u7b26\u53f7\u6574\u5408\u7684\u6700\u65b0\u67b6\u6784\u548c\u65b9\u6cd5\u6709\u54ea\u4e9b\uff1f\n4. \u8fd9\u4e9b\u8fdb\u5c55\u5982\u4f55\u5e94\u7528\u4e8eRAG\u7cfb\u7edf\u7684\u9690\u6027\u8bed\u4e49\u5904\u7406\uff1f\n\n\u8f93\u51fa\u8981\u6c42\uff1a\n- \u63d0\u4f9b\u5177\u4f53\u7684\u8bba\u6587\u5f15\u7528\uff08arXiv ID\u3001\u4f1a\u8bae\u3001DOI\uff09\n- \u5305\u542bGitHub\u4ed3\u5e93\u94fe\u63a5\n- \u91cf\u5316\u7684\u6027\u80fd\u6307\u6807\n- \u4e0eRAG\u5e94\u7528\u7684\u5173\u8054\u5206\u6790\n\n\u7814\u7a76\u8303\u56f4\uff1a\u91cd\u70b9\u5173\u6ce8ACL\u3001EMNLP\u3001NAACL\u3001NeurIPS\u3001ICLR\u3001ICML 2024-2025\u5e74\u7684\u76f8\u5173\u8bba\u6587\uff0c\u4ee5\u53caarXiv\u4e0a\u7684\u6700\u65b0\u9884\u5370\u672c\u3002"
+    },
+    "message": "launch_extended_search_task",
+    "integration_name": null,
+    "integration_icon_url": null,
+    "context": null,
+    "display_content": null,
+    "approval_options": null,
+    "approval_key": null
+  },
+  {
+    "start_timestamp": null,
+    "stop_timestamp": null,
+    "flags": null,
+    "type": "tool_result",
+    "name": "launch_extended_search_task",
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"task_id\": \"wf-b6eb68ba-fc95-4623-91bb-d28382a265bb\"}",
+        "uuid": "8d1c55e0-00c8-487a-8f91-da7023733be9"
+      }
+    ],
+    "is_error": false,
+    "structured_content": null,
+    "meta": null,
+    "message": null,
+    "integration_name": null,
+    "integration_icon_url": null,
+    "display_content": null
+  },
+  {
+    "start_timestamp": "2026-01-10T09:57:33.575085Z",
+    "stop_timestamp": "2026-01-10T09:57:33.575085Z",
+    "flags": null,
+    "type": "text",
+    "text": "",
+    "citations": []
+  },
+  {
+    "start_timestamp": null,
+    "stop_timestamp": null,
+    "flags": null,
+    "type": "text",
+    "text": "Your research report on formal and distributional semantics (2024-2025) is ready. It covers the neural integration of compositional semantics, the latest embedding model breakthroughs (with NV-Embed-v2 and Qwen3-Embedding achieving 72-74 MTEB scores), neurosymbolic AI advances including AlphaProof's IMO silver medal and DeepSeek-Prover-V2's 88.9% on MiniF2F, and graph-enhanced RAG architectures (GraphRAG, HippoRAG, LightRAG). The report includes detailed performance comparisons, GitHub repositories, and practical recommendations for RAG implementation.",
+    "citations": []
+  },
+  {
+    "start_timestamp": null,
+    "stop_timestamp": null,
+    "flags": null,
+    "type": "tool_use",
+    "name": "artifacts",
+    "input": {
+      "id": "compass_artifact_wf-b6eb68ba-fc95-4623-91bb-d28382a265bb_text/markdown",
+      "type": "text/markdown",
+      "title": "\u5f62\u5f0f\u8bed\u4e49\u5b66\u4e0e\u5206\u5e03\u5f0f\u8bed\u4e49\u5b66\u76842024-2025\u5b66\u672f\u524d\u6cbf\uff1a\u795e\u7ecf\u7b26\u53f7AI\u4e0eRAG\u67b6\u6784\u7efc\u8ff0",
+      "source": "c",
+      "command": "create",
+      "content": "# \u5f62\u5f0f\u8bed\u4e49\u5b66\u4e0e\u5206\u5e03\u5f0f\u8bed\u4e49\u5b66\u76842024-2025\u5b66\u672f\u524d\u6cbf\n\n\u5f62\u5f0f\u8bed\u4e49\u5b66\u4e0e\u5206\u5e03\u5f0f\u8bed\u4e49\u5b66\u6b63\u5728\u7ecf\u5386\u524d\u6240\u672a\u6709\u7684\u878d\u5408\u3002**\u795e\u7ecf\u7b26\u53f7AI\uff08Neurosymbolic AI\uff09\u5df2\u6210\u4e3a\u8fde\u63a5\u7b26\u53f7\u63a8\u7406\u4e0e\u5411\u91cf\u8868\u793a\u7684\u6838\u5fc3\u8303\u5f0f**\uff0c\u800c2024-2025\u5e74\u7684\u5d4c\u5165\u6a21\u578b\u9769\u547d\u4f7f7B\u53c2\u6570\u7684\u89e3\u7801\u5668\u6a21\u578b\u5728MTEB\u57fa\u51c6\u4e0a\u8fbe\u523072+\u5206\u3002\u8fd9\u4efd\u7814\u7a76\u62a5\u544a\u4e3aRAG\u4e0e\u9690\u6027\u8bed\u4e49\u5904\u7406\u7efc\u8ff0\u7684\u7b2c3-5\u7ae0\u63d0\u4f9b\u6700\u65b0\u5b66\u672f\u8d44\u6599\uff0c\u6db5\u76d6\u4ece\u8499\u592a\u53e4\u8bed\u6cd5\u7684\u73b0\u4ee3\u5b9e\u73b0\u5230GraphRAG\u67b6\u6784\u7684\u5168\u9762\u8fdb\u5c55\u3002\n\n---\n\n## \u7b2c3\u7ae0\uff1a\u5f62\u5f0f\u8bed\u4e49\u5b66\u57fa\u7840\u7684\u795e\u7ecf\u5316\u8fdb\u7a0b\n\n### \u7ec4\u5408\u6027\u539f\u5219\u5728\u795e\u7ecf\u7f51\u7edc\u4e2d\u7684\u4e89\u8bae\u4e0e\u7a81\u7834\n\n**\u7ec4\u5408\u6027\uff08Compositionality\uff09\u662f\u5426\u80fd\u5728\u795e\u7ecf\u7f51\u7edc\u4e2d\u5b9e\u73b0**\u662f2024\u5e74\u6700\u53d7\u5173\u6ce8\u7684\u7406\u8bba\u95ee\u9898\u4e4b\u4e00\u3002McCurdy\u7b49\u4eba\u5728EMNLP 2024\u53d1\u8868\u7684\u5927\u89c4\u6a21\u8c03\u67e5\uff08DOI: 10.18653/v1/2024.emnlp-main.524\uff09\u5bf979\u540d\u7814\u7a76\u8005\u8fdb\u884c\u95ee\u5377\uff0c\u7ed3\u679c\u663e\u793a\uff1a**81%\u7684\u7814\u7a76\u8005\u8ba4\u4e3a\u5f53\u524d\u6a21\u578b\u672a\u80fd\u5b9e\u73b0\u7ec4\u5408\u884c\u4e3a**\uff0c81%\u53cd\u5bf9\"\u89c4\u6a21\u5373\u89e3\u51b3\u65b9\u6848\"\u7684\u89c2\u70b9\uff0c73%\u8ba4\u4e3a\u9700\u8981\u6a21\u578b\u5185\u90e8\u7684\u7ed3\u6784\u6027\u5e72\u9884\u3002\n\nRussin\u7b49\u4eba\u7684\u7efc\u8ff0\u300aFrom Frege to ChatGPT\u300b\uff08arXiv:2405.15164\uff09\u7cfb\u7edf\u68b3\u7406\u4e86\u6df1\u5ea6\u795e\u7ecf\u7f51\u7edc\u4e2d\u7ec4\u5408\u6cdb\u5316\u7684\u4e24\u6761\u8def\u5f84\uff1a**\uff081\uff09\u67b6\u6784\u5f52\u7eb3\u504f\u7f6e**\u2014\u2014\u901a\u8fc7\u5f20\u91cf\u79ef\u8868\u793a\uff08Tensor Product Representations\uff09\u7b49\u7ed3\u6784\u5f15\u5165\u7ec4\u5408\u6027\uff1b**\uff082\uff09\u5143\u5b66\u4e60**\u2014\u2014\u5c06LLM\u9884\u8bad\u7ec3\u7406\u89e3\u4e3a\u9690\u5f0f\u5143\u5b66\u4e60\u8fc7\u7a0b\uff0c\u4f7f\u6a21\u578b\u83b7\u5f97\u7ec4\u5408\u80fd\u529b\u3002Nature Communications 2024\u7684\u7814\u7a76\uff08DOI: 10.1038/s41467-024-55158-1\uff09\u8bc1\u5b9e\uff0cLLM\u548cRNN\u90fd\u80fd\u4ece\u66f4\u7ed3\u6784\u5316\u7684\u8bed\u8a00\u8f93\u5165\u4e2d\u53d7\u76ca\uff0c\u5c55\u73b0\u7cfb\u7edf\u6027\u6cdb\u5316\u80fd\u529b\u3002\n\n\u7ec4\u5408\u51fd\u6570\u7f51\u7edc\uff08Compositional Function Networks, CFNs\uff09\u662f2025\u5e74\u7684\u65b0\u7a81\u7834\uff08arXiv:2507.21004\uff09\uff0c\u901a\u8fc7\u7ec4\u5408\u57fa\u672c\u6570\u5b66\u51fd\u6570\u5b9e\u73b0**96.24%\u7684CIFAR-10\u51c6\u786e\u7387**\uff0c\u540c\u65f6\u4fdd\u6301\u5185\u7f6e\u53ef\u89e3\u91ca\u6027\u3002\n\n### \u7c7b\u578b\u8bba\u4e0e\u795e\u7ecf\u7f51\u7edc\u7684\u73b0\u4ee3\u7ed3\u5408\n\n\u7c7b\u578b\u8bba\uff08Type Theory\uff09\u4e0e\u6df1\u5ea6\u5b66\u4e60\u7684\u4ea4\u53c9\u4e3b\u8981\u4f53\u73b0\u5728\u4ee5\u4e0b\u65b9\u5411\uff1a\n\n**BlackboxNLP 2024\u7814\u8ba8\u4f1a**\uff08EMNLP 2024\uff0cDOI: 10.18653/v1/2024.blackboxnlp-1.0\uff09\u4e13\u6ce8\u4e8e\u795e\u7ecf\u7f51\u7edc\u7684\u53ef\u89e3\u91ca\u8868\u793a\u5206\u6790\uff0c\u63a2\u9488\uff08Probing\uff09\u65b9\u6cd5\u5728\u68c0\u6d4bTransformer\u4e2d\u7684\u53e5\u6cd5/\u8bed\u4e49\u5c5e\u6027\u65f6\u901a\u5e38\u8fbe\u5230**70-90%\u51c6\u786e\u7387**\u3002ETH Zurich\u7684Rycolab\u63d0\u4f9b\u4e86\u5f62\u5f0f\u8bed\u8a00\u7406\u8bba\u6559\u7a0b\uff0c\u7cfb\u7edf\u63a2\u8ba8RNN/Transformer\u4e0e\u4e54\u59c6\u65af\u57fa\u5c42\u7ea7\u7684\u5173\u7cfb\u3002\n\nMIT\u7684Computational Linguistics\u671f\u520a2024\u5e74\u53d1\u8868\u7684\u300aNLP RELIES on Linguistics\u300b\uff08DOI: direct.mit.edu/coli/article/51/3/1009\uff09\u5f3a\u8c03\u4e86\u62bd\u8c61\u610f\u4e49\u8868\u793a\uff08AMR\uff09\u7684\u91cd\u8981\u6027\uff0c\u8be5\u9886\u57df\u5df2\u79ef\u7d2f**\u8d85\u8fc7450\u7bc7\u8bba\u6587**\u3002\n\n### Lambda\u6f14\u7b97\u4e0eCCG\u8bed\u4e49\u89e3\u6790\u7684\u5ef6\u7eed\n\nCCG\uff08\u7ec4\u5408\u8303\u7574\u8bed\u6cd5\uff09\u4e0eLambda\u6f14\u7b97\u7684\u7ed3\u5408\u5728\u8bed\u4e49\u89e3\u6790\u4e2d\u6301\u7eed\u53d1\u6325\u4f5c\u7528\uff1a\n\n- **ccg2lambda\u7cfb\u7edf**\uff08GitHub: mynlp/ccg2lambda\uff09\uff1a\u4eceCCG\u63a8\u5bfc\u6811\u751f\u6210\u5f62\u5f0f\u8bed\u4e49\u8868\u793a\uff0c\u4f7f\u7528\u7c7b\u578b\u5316Lambda\u6f14\u7b97\uff0c\u652f\u6301\u591a\u8bed\u8a00\n- **UDepLambda/DepLambda**\uff1a\u5c06\u901a\u7528\u4f9d\u5b58\u5173\u7cfb\u6620\u5c04\u5230Lambda\u6f14\u7b97\u903b\u8f91\u5f62\u5f0f\n- **\u795e\u7ecf\u8bed\u4e49\u89e3\u6790\u5668**\u5728CFQ\u3001COGS\u57fa\u51c6\u4e0a\u8fbe\u5230**70-95%\u51c6\u786e\u7387**\uff08\u53d6\u51b3\u4e8e\u6cdb\u5316\u5206\u5272\u65b9\u5f0f\uff09\n\n### \u4e8b\u4ef6\u8bed\u4e49\u5b66\u5728NLP\u4e2d\u76842024\u7a81\u7834\n\n\u65f6\u95f4\u63a8\u7406\u548c\u4e8b\u4ef6\u63d0\u53d6\u53d6\u5f97\u91cd\u8981\u8fdb\u5c55\uff1a\n\n| \u8bba\u6587 | \u4f1a\u8bae/\u671f\u520a | \u6838\u5fc3\u521b\u65b0 |\n|------|----------|----------|\n| Narrative-of-Thought | EMNLP Findings 2024 (DOI: 10.18653/v1/2024.findings-emnlp.963) | \u5c06\u4e8b\u4ef6\u8f6c\u6362\u4e3aPython\u7c7b\u7684\u63d0\u793a\u6280\u672f\uff0c\u5728Schema-11\u4e0a\u8fbe\u5230\u6700\u9ad8F1 |\n| Temporal Cognitive Tree | EMNLP Findings 2024 (DOI: 10.18653/v1/2024.findings-emnlp.47) | \u6a21\u62df\u4eba\u7c7b\u903b\u8f91\u63a8\u7406\u7684\u5c42\u6b21\u6a21\u578b\uff0c\u5728TB-Dense\u548cMATRES\u4e0a\u8d85\u8d8a\u73b0\u6709\u65b9\u6cd5 |\n| ExpTime Dataset | ACM Web Conference 2024 (DOI: 10.1145/3589334.3645376) | \u9996\u4e2a\u53ef\u89e3\u91ca\u65f6\u95f4\u63a8\u7406\u4efb\u52a1\uff0c\u5305\u542b26K\u6837\u672c\uff0c\u63d0\u51faTimeLLaMA\u6a21\u578b\u7cfb\u5217 |\n\n### \u53ef\u80fd\u4e16\u754c\u8bed\u4e49\u5b66\u4e0e\u6a21\u6001\u63a8\u7406\u7684LLM\u8bc4\u4f30\n\nHolliday\u7b49\u4eba\u5728EMNLP 2024\u53d1\u8868\u7684\u300aConditional and Modal Reasoning in Large Language Models\u300b\uff08DOI: 10.18653/v1/2024.emnlp-main.222\uff09\u6d4b\u8bd5\u4e8612+\u4e2aLLM\u572830+\u6761\u4ef6\u53e5\u548c\u8ba4\u77e5\u6a21\u6001\u63a8\u7406\u6a21\u5f0f\u4e0a\u7684\u8868\u73b0\u3002\u5173\u952e\u53d1\u73b0\uff1a**\u9664GPT-4\u5916\uff0c\u6240\u6709\u6a21\u578b\u5728\u6761\u4ef6\u53e5\u63a8\u7406\u4e0a\u90fd\u5b58\u5728\u57fa\u672c\u9519\u8bef**\u3002\n\n\u53cd\u4e8b\u5b9e\u63a8\u7406\u540c\u6837\u9762\u4e34\u6311\u6218\uff1aCVPR 2024\u7684C-VQA\u57fa\u51c6\u663e\u793a\uff0c\u6240\u6709\u591a\u6a21\u6001LLM\u5728\u53cd\u4e8b\u5b9e\u95ee\u9898\u4e0a\u90fd\u51fa\u73b0**\u663e\u8457\u6027\u80fd\u4e0b\u964d**\uff1b\u300aCLOMO: Counterfactual Logical Modification\u300b\uff08arXiv:2311.17438\uff09\u63d0\u51fa\u4e86\u57f9\u517bLLM\u53cd\u4e8b\u5b9e\u601d\u7ef4\u7684\u65b0\u4efb\u52a1\u548c\u81ea\u8bc4\u4f30\u5206\u6570\uff08SES\uff09\u6307\u6807\u3002\n\n---\n\n## \u7b2c4\u7ae0\uff1a\u5206\u5e03\u5f0f\u8bed\u4e49\u5b66\u4e0e\u5411\u91cf\u7a7a\u95f4\u6a21\u578b\u7684SOTA\u8fdb\u5c55\n\n### 2024-2025\u5e74\u5d4c\u5165\u6a21\u578b\u7684\u6280\u672f\u9769\u547d\n\n**\u89e3\u7801\u5668LLM\u4e3b\u5bfc\u5d4c\u5165\u9886\u57df**\u662f2024\u5e74\u6700\u91cd\u5927\u7684\u6280\u672f\u8f6c\u53d8\u3002\u57fa\u4e8e7B\u53c2\u6570\u7684Mistral/Qwen\u89e3\u7801\u5668\u6a21\u578b\u73b0\u5df2\u8d85\u8d8a\u6240\u6709\u7f16\u7801\u5668\u6a21\u578b\uff1a\n\n| \u6a21\u578b | \u673a\u6784 | \u53d1\u5e03\u65e5\u671f | \u53c2\u6570\u91cf | MTEB\u5206\u6570 | \u7ef4\u5ea6 | \u4e0a\u4e0b\u6587 | arXiv |\n|------|------|----------|--------|----------|------|--------|-------|\n| **NV-Embed-v2** | NVIDIA | 2024.8 | 7.1B | **72.31** | 4096 | 32K | 2405.17428 |\n| gte-Qwen2-7B | Alibaba | 2024.6 | 7B | 70.24 | 3584 | 8K | 2308.03281 |\n| E5-Mistral-7B | Microsoft | 2024.1 | 7B | 66.63 | 4096 | 4K | 2401.00368 |\n| Jina-embeddings-v3 | Jina AI | 2024.9 | 570M | 65.52 | 1024 | 8K | 2409.10173 |\n| BGE-M3 | BAAI | 2024.1 | 568M | ~65 | 1024 | 8K | 2402.03216 |\n| Qwen3-Embedding-8B | Alibaba | 2025 | 8B | **73.84** | - | - | 2506.05176 |\n\n**NV-Embed-v2\u7684\u6838\u5fc3\u521b\u65b0**\uff1a\uff081\uff09**\u6f5c\u5728\u6ce8\u610f\u529b\u5c42**\u2014\u2014\u4f7f\u7528512\u4e2a\u6f5c\u5728\u5411\u91cf\u548c8\u4e2a\u6ce8\u610f\u529b\u5934\u66ff\u4ee3\u5747\u503c\u6c60\u5316\uff1b\uff082\uff09**\u4e24\u9636\u6bb5\u5bf9\u6bd4\u6307\u4ee4\u5fae\u8c03**\u2014\u2014\u5148\u5728\u68c0\u7d22\u6570\u636e\u96c6\u8bad\u7ec3\uff0c\u518d\u6df7\u5408\u975e\u68c0\u7d22\u6570\u636e\u96c6\uff1b\uff083\uff09**\u79fb\u9664\u56e0\u679c\u6ce8\u610f\u529b\u63a9\u7801**\u2014\u2014\u542f\u7528\u53cc\u5411\u6ce8\u610f\u529b\uff1b\uff084\uff09**\u6b63\u4f8b\u611f\u77e5\u786c\u8d1f\u4f8b\u6316\u6398**\u3002\n\n**BGE-M3\u7684\u4e09\u91cdM\u8303\u5f0f**\uff08arXiv:2402.03216\uff0cACL Findings 2024\uff09\uff1a\n- **Multi-Functionality**\uff1a\u5355\u4e00\u6a21\u578b\u652f\u6301\u7a20\u5bc6\u3001\u7a00\u758f\u3001\u591a\u5411\u91cf\uff08ColBERT\u98ce\u683c\uff09\u68c0\u7d22\n- **Multi-Linguality**\uff1a100+\u8bed\u8a00\n- **Multi-Granularity**\uff1a\u6700\u957f8192 tokens\n\n\u6df7\u5408\u68c0\u7d22\u516c\u5f0f\uff1a`s_rank = w1\u00b7s_dense + w2\u00b7s_lex + w3\u00b7s_mul`\n\n### Matryoshka\u8868\u793a\u5b66\u4e60\u7684\u5e7f\u6cdb\u91c7\u7528\n\n**\u4fc4\u7f57\u65af\u5957\u5a03\u5d4c\u5165\uff08MRL\uff09**\uff08Kusupati\u7b49\u4eba\uff0cNeurIPS 2022\uff0carXiv:2205.13147\uff09\u5141\u8bb8\u5728\u591a\u4e2a\u622a\u65ad\u7ef4\u5ea6\u4e0a\u4f7f\u7528\u5d4c\u5165\uff08\u59821024\u2192512\u2192256\u2192128\u219264\uff09\uff0c\u5b9e\u73b0**\u6700\u9ad814\u500d\u7684\u5d4c\u5165\u538b\u7f29**\u548c14\u500d\u7684\u5b9e\u9645\u68c0\u7d22\u52a0\u901f\u3002\n\n\u91c7\u7528MRL\u7684\u4e3b\u8981\u6a21\u578b\uff1a\n- Nomic Embed v1.5\uff0864-768\u7ef4\uff09\n- Jina v3\uff0832-1024\u7ef4\uff09\n- Voyage\u7cfb\u5217\uff08256-2048\u7ef4\uff09\n- OpenAI text-embedding-3\u7cfb\u5217\n\n2024\u5e74\u6269\u5c55\uff1a**2D Matryoshka**\uff08arXiv:2402.14776\uff09\u540c\u65f6\u652f\u6301\u53ef\u53d8\u5c42\u6570\u548c\u7ef4\u5ea6\u3002\n\n### \u591a\u8bed\u8a00\u4e0e\u8de8\u8bed\u8a00\u5d4c\u5165\u6280\u672f\n\n**Jina-ColBERT-v2**\uff08arXiv:2408.16672\uff0cACL MRL 2024 Workshop\uff09\u652f\u630189\u79cd\u8bed\u8a00\u7684\u665a\u671f\u4ea4\u4e92\u68c0\u7d22\uff0c\u5728BEIR\u4e0a\u6bd4\u539f\u59cbColBERTv2\u63d0\u5347**+6.5%**\u3002\n\n**Multilingual-E5**\uff08arXiv:2402.05672\uff09\u901a\u8fc7\u5f31\u76d1\u7763\u5bf9\u6bd4\u9884\u8bad\u7ec3+\u591a\u4efb\u52a1\u5fae\u8c03\u652f\u6301100+\u8bed\u8a00\u3002\n\n### \u957f\u6587\u6863\u5d4c\u5165\u7684\u5173\u952e\u7a81\u7834\uff1a\u665a\u671f\u5206\u5757\u6280\u672f\n\n**Late Chunking**\uff08Jina AI\uff0carXiv:2409.04701\uff09\u662f2024\u5e74\u6700\u91cd\u8981\u7684\u957f\u6587\u6863\u5d4c\u5165\u521b\u65b0\uff1a\n1. \u5148\u7528\u957f\u4e0a\u4e0b\u6587\u6a21\u578b\u5d4c\u5165\u6574\u4e2a\u6587\u6863\n2. \u7136\u540e\u901a\u8fc7\u5747\u503c\u6c60\u5316\u751f\u6210\u6bcf\u4e2a\u5206\u5757\u7684\u5d4c\u5165\n3. **\u4f18\u52bf**\uff1a\u4fdd\u7559\u8de8\u5206\u5757\u7684\u4e0a\u4e0b\u6587\u4fe1\u606f\uff0c\u89e3\u51b3\u6307\u4ee3\u6d88\u89e3\u95ee\u9898\n4. **\u6027\u80fd**\uff1a\u5728NFCorpus\u3001LongEmbed\u57fa\u51c6\u4e0a\u663e\u8457\u4f18\u4e8e\u6734\u7d20\u5206\u5757\n\n### \u7a00\u758f-\u7a20\u5bc6\u6df7\u5408\u65b9\u6cd5\u7684\u6210\u719f\n\n**SPLADE\u7cfb\u5217**\uff08\u539f\u59cb\u8bba\u6587SIGIR 2021\uff0carXiv:2107.05720\uff1bv2 arXiv:2109.10086\uff09\u901a\u8fc7BERT MLM\u5934\u5b66\u4e60\u7a00\u758f\u8868\u793a\uff0c\u5b9e\u73b0\u8bcd\u9879\u6269\u5c55\u548c\u91cd\u8981\u6027\u4f30\u8ba1\u3002MS MARCO\u4e0aMRR@10\u8fbe\u5230**37.2%**\u3002\n\n**\u9ad8\u6548\u6df7\u5408\u641c\u7d22**\uff08arXiv:2410.20381\uff09\u901a\u8fc7\u56fe\u57faANNS\uff08HNSW\uff09\u4e0e\u5206\u5e03\u5bf9\u9f50\u5b9e\u73b0**8.9\u500dQPS\u63d0\u5347**\u3002\n\nGitHub\u4ed3\u5e93\uff1a\n- FlagEmbedding (BGE): https://github.com/FlagOpen/FlagEmbedding\n- SPLADE: https://github.com/naver/splade\n- Sentence Transformers: https://github.com/huggingface/sentence-transformers\n\n---\n\n## \u7b2c5\u7ae0\uff1a\u5f62\u5f0f\u4e0e\u5206\u5e03\u5f0f\u8bed\u4e49\u7684\u795e\u7ecf\u7b26\u53f7\u878d\u5408\n\n### \u795e\u7ecf\u5b9a\u7406\u8bc1\u660e\u7684\u91cc\u7a0b\u7891\u5f0f\u7a81\u7834\n\n2024-2025\u5e74\u795e\u7ecf\u5b9a\u7406\u8bc1\u660e\u53d6\u5f97\u4e86\u60ca\u4eba\u8fdb\u5c55\uff1a\n\n**AlphaProof**\uff08Google DeepMind\uff0cNature 2025\uff0cDOI: 10.1038/s41586-025-09833-y\uff09\uff1a\n- IMO 2024\u83b7\u5f97**28/42\u5206\uff08\u94f6\u724c\uff09**\uff0c\u89e3\u51b3\u5305\u62ec\u6700\u96beP6\u5728\u5185\u76844/6\u95ee\u9898\n- \u8bad\u7ec3\u6570\u636e\uff1a8000\u4e07\u81ea\u52a8\u5f62\u5f0f\u5316\u95ee\u9898\n- \u6838\u5fc3\u521b\u65b0\uff1a**\u6d4b\u8bd5\u65f6\u5f3a\u5316\u5b66\u4e60\uff08TTRL\uff09**\u2014\u2014\u63a8\u7406\u65f6\u751f\u6210\u6570\u767e\u4e07\u95ee\u9898\u53d8\u4f53\n- \u8bc1\u660e\u8bed\u8a00\uff1aLean 4\n\n**DeepSeek-Prover\u7cfb\u5217**\uff1a\n| \u7248\u672c | arXiv | MiniF2F-test | \u5173\u952e\u521b\u65b0 |\n|------|-------|--------------|----------|\n| V1 | 2405.14333 | 52.0% | \u5408\u6210Lean 4\u8bc1\u660e\u6570\u636e |\n| V1.5 | 2408.08152 | 63.5% | RMaxTS\u8499\u7279\u5361\u6d1b\u6811\u641c\u7d22 |\n| **V2** | 2504.21801 | **88.9%** | \u9012\u5f52\u5b9a\u7406\u8bc1\u660e+\u5b50\u76ee\u6807\u5206\u89e3 |\n\nGitHub: https://github.com/deepseek-ai/DeepSeek-Prover-V2\n\n**Gemini Deep Think**\uff08Google\uff0c2025\uff09\u5728IMO 2025\u8fbe\u5230**\u91d1\u724c\u6c34\u51c6\uff0835/42\u5206\uff09**\uff0c\u5b8c\u5168\u4f7f\u7528\u81ea\u7136\u8bed\u8a00\u57284.5\u5c0f\u65f6\u5185\u5b8c\u6210\u3002\n\n### \u53ef\u5fae\u5206\u903b\u8f91\u4e0e\u795e\u7ecf\u903b\u8f91\u7f16\u7a0b\n\n**\u903b\u8f91\u5f20\u91cf\u7f51\u7edc\uff08LTN\uff09**\uff08Artificial Intelligence 303, 2022\uff09\u4f7f\u7528\"Real Logic\"\u2014\u2014\u5b8c\u5168\u53ef\u5fae\u5206\u7684\u4e00\u9636\u903b\u8f91\u8bed\u8a00\u4e0e\u6a21\u7cca\u8bed\u4e49\uff0c\u5c06\u903b\u8f91\u7b26\u53f7\u63a5\u5730\u5230\u795e\u7ecf\u7f51\u7edc\u30022024\u5e74PyTorch\u5b9e\u73b0\uff08arXiv:2409.16045\uff09\u5df2\u53d1\u5e03\u3002\n\n**\u5377\u79ef\u53ef\u5fae\u5206\u903b\u8f91\u95e8\u7f51\u7edc**\uff08NeurIPS 2024 Oral\uff0carXiv:2411.04732\uff09\u4ec5\u75286100\u4e07\u903b\u8f91\u95e8\u5728CIFAR-10\u4e0a\u8fbe\u5230**86.29%\u51c6\u786e\u7387**\uff08\u6bd4SOTA\u5c0f29\u500d\uff09\u3002\n\n**DFORL**\uff08Artificial Intelligence 2024\uff0cDOI: 10.1016/j.artint.2024.108\uff09\u63d0\u51fa\u53ef\u6269\u5c55\u7684\u53ef\u5fae\u5206\u4e00\u9636\u89c4\u5219\u5b66\u4e60\u5668\uff0c\u540c\u65f6\u9002\u7528\u4e8e\u5c0f\u578bILP\u6570\u636e\u96c6\u548c\u5927\u578b\u77e5\u8bc6\u56fe\u8c31\u3002\n\n### \u77e5\u8bc6\u56fe\u8c31\u5d4c\u5165\u4e0eLLM\u7684\u7edf\u4e00\u8def\u7ebf\u56fe\n\nPan\u7b49\u4eba\u7684\u7efc\u8ff0\u300aUnifying Large Language Models and Knowledge Graphs: A Roadmap\u300b\uff08arXiv:2306.08302\uff0cIEEE TKDE 2024\uff09\u63d0\u51fa\u4e09\u7c7b\u8303\u5f0f\uff1a\n1. **KG\u589e\u5f3a\u7684LLM**\uff1a\u77e5\u8bc6\u56fe\u8c31\u4e3aLLM\u63d0\u4f9b\u7ed3\u6784\u5316\u77e5\u8bc6\n2. **LLM\u589e\u5f3a\u7684KG**\uff1aLLM\u7528\u4e8e\u77e5\u8bc6\u56fe\u8c31\u6784\u5efa\u548c\u8865\u5168\n3. **LLM+KG\u534f\u540c**\uff1a\u53cc\u5411\u4ea4\u4e92\u589e\u5f3a\n\n**2024\u5e74\u5173\u952e\u65b9\u6cd5**\uff1a\n- **KG-Adapter**\uff08ACL Findings 2024\uff09\uff1a\u53c2\u6570\u9ad8\u6548\u5fae\u8c03\u5b9e\u73b0KG\u96c6\u6210\n- **\u77e5\u8bc6\u56fe\u8c31\u6ce8\u5165LLM**\uff08arXiv:2505.07554\uff09\uff1a\u4f7f\u7528KGE\u6a21\u578b\u7f16\u7801\u5b9e\u4f53/\u5173\u7cfb\u4e3a\u7ed3\u6784\u5316token\u6ce8\u5165\u51bb\u7ed3LLM\n- **QA-GNN**\uff1a\u7ed3\u5408GNN\u63a8\u7406\u4e0eLM\u9a71\u52a8\u7684KG\u8bc4\u5206\uff0c\u5728\u5e38\u8bc6/\u533b\u5b66QA\u4e0a\u8fbe\u5230SOTA\n\nGitHub: https://github.com/RManLuo/Awesome-LLM-KG\n\n### \u7ed3\u6784\u5316\u5411\u91cf\u7a7a\u95f4\uff1a\u5f20\u91cf\u79ef\u8868\u793a\u7684\u590d\u5174\n\n**\u8f6f\u5f20\u91cf\u79ef\u8868\u793a\uff08Soft TPR\uff09**\uff08NeurIPS 2024\uff0carXiv:2412.04671\uff09\u6269\u5c55Smolensky\u7684TPR\uff0c\u5b9e\u73b0\u8fde\u7eed\u3001\u5206\u5e03\u5f0f\u7684\u7ec4\u5408\u7f16\u7801\u3002\u5728DCI\u89e3\u8026\u5ea6\u91cf\u4e0a\u63d0\u5347**29%+**\uff08Cars3D\uff09\u3001**74%+**\uff08MPI3D\uff09\u3002\n\nTPR\u63d0\u4f9b\u4e86\u4e00\u4e2a\u6570\u5b66\u539f\u7406\u6027\u7684\u6865\u6881\uff0c\u8fde\u63a5\u7b26\u53f7/\u7ec4\u5408\u7ed3\u6784\u4e0e\u8fde\u7eed\u5411\u91cf\u7a7a\u95f4\u2014\u2014\u8fd9\u76f4\u63a5\u5173\u7cfb\u5230\u5f62\u5f0f\u8bed\u4e49\u5b66\uff08\u79bb\u6563\u3001\u7ec4\u5408\uff09\u4e0e\u5206\u5e03\u5f0f\u8bed\u4e49\u5b66\uff08\u8fde\u7eed\u3001\u5b66\u4e60\uff09\u7684\u878d\u5408\u3002\n\nGitHub: https://github.com/gomb0c/soft_tpr\n\n### LLM\u4e2d\u7b26\u53f7\u63a8\u7406\u7684\u5c40\u9650\u6027\u7814\u7a76\n\nApple\u7684GSM-Symbolic\u7814\u7a76\uff08arXiv:2410.05229\uff09\u63ed\u793aLLM\u7b26\u53f7\u63a8\u7406\u7684\u8106\u5f31\u6027\uff1a\n- \u6dfb\u52a0\u65e0\u5173\u5b50\u53e5\u65f6\u6027\u80fd\u4e0b\u964d**\u6700\u9ad865%**\n- \u6570\u503c\u66ff\u6362\u5bfc\u81f4\u9ad8\u65b9\u5dee\n- **\u7ed3\u8bba**\uff1aLLM\u590d\u5236\u63a8\u7406\u6a21\u5f0f\u800c\u975e\u6267\u884c\u771f\u6b63\u7684\u903b\u8f91\u63a8\u7406\n\nGitHub: https://github.com/apple/ml-gsm-symbolic\n\n### \u601d\u7ef4\u94fe\u63a8\u7406\u7684\u5f62\u5f0f\u5316\u5206\u6790\n\n**\u590d\u6742\u5ea6\u7406\u8bba\u89c6\u89d2**\uff08ICLR 2024\uff0c\u300aChain of Thought Empowers Transformers to Solve Inherently Serial Problems\u300b\uff09\uff1a\n- \u5b9a\u4e49CoT[T(n), d(n), s(n), e(n)]\u590d\u6742\u5ea6\u7c7b\n- \u5173\u952e\u5b9a\u7406\uff1aCoT\u4f7fTransformer\u80fd\u591f\u89e3\u51b3\u9700\u8981\u4e32\u884c\u8ba1\u7b97\u7684\u95ee\u9898\uff08\u6392\u5217\u7ec4\u5408\u3001\u8fed\u4ee3\u5e73\u65b9\u3001\u7535\u8def\u503c\u95ee\u9898\uff09\n\n**\u7ec4\u5408\u601d\u7ef4\u94fe\uff08CCoT\uff09**\uff08CVPR 2024\uff0carXiv:2311.17076\uff09\u901a\u8fc7\u573a\u666f\u56fe\u5b9e\u73b0\u4e24\u6b65\u96f6\u6837\u672c\u63d0\u793a\uff1a\n1. \u4ece\u56fe\u50cf+\u4efb\u52a1\u751f\u6210\u573a\u666f\u56fe\n2. \u4f7f\u7528\u573a\u666f\u56fe\u8fdb\u884c\u7ec4\u5408\u63a8\u7406\n\n**\u601d\u7ef4\u6811\uff08ToT\uff09**\uff08NeurIPS 2023\uff0carXiv:2305.10601\uff09\u548c**\u601d\u7ef4\u56fe\uff08GoT\uff09**\uff08arXiv:2308.09687\uff09\u6269\u5c55\u4e86CoT\u7684\u63a8\u7406\u62d3\u6251\uff1a\n- ToT\u5728Game of 24\u4e0a\u6bd4CoT\u63d0\u5347**25%**\n- GoT\u5728\u6392\u5e8f\u4efb\u52a1\u4e0a\u8d28\u91cf\u63d0\u5347**62%**\uff0c\u6210\u672c\u964d\u4f4e**31%+**\n\nGitHub: https://github.com/zchuz/CoT-Reasoning-Survey\n\n---\n\n## \u795e\u7ecf\u7b26\u53f7RAG\u67b6\u6784\u7684\u6700\u65b0\u8fdb\u5c55\n\n### \u56fe\u589e\u5f3aRAG\u7684\u4e09\u5927\u8303\u5f0f\n\n**Microsoft GraphRAG**\uff082024\uff0chttps://github.com/microsoft/graphrag\uff09\uff1a\n1. \u4f7f\u7528LLM\u63d0\u53d6\u5b9e\u4f53\u3001\u5173\u7cfb\u3001\u58f0\u660e\n2. Leiden\u7b97\u6cd5\u8fdb\u884c\u5c42\u6b21\u805a\u7c7b\n3. \u751f\u6210\u793e\u533a\u6458\u8981\u7528\u4e8e\u68c0\u7d22\n4. **\u53cc\u67e5\u8be2\u6a21\u5f0f**\uff1a\u5168\u5c40\u641c\u7d22\uff08\u8de8\u793e\u533amap-reduce\uff09+ \u672c\u5730\u641c\u7d22\uff08\u5b9e\u4f53\u90bb\u5c45\u904d\u5386\uff09\n\n**HippoRAG**\uff08NeurIPS 2024\uff0carXiv:2405.14831\uff09\u53d7\u6d77\u9a6c\u4f53\u7d22\u5f15\u7406\u8bba\u542f\u53d1\uff1a\n- LLM\uff08\u65b0\u76ae\u5c42\u7c7b\u6bd4\uff09+ \u77e5\u8bc6\u56fe\u8c31 + \u4e2a\u6027\u5316PageRank\uff08\u6d77\u9a6c\u4f53\u7c7b\u6bd4\uff09\n- \u591a\u8df3QA\u4e0a**\u6700\u9ad8\u63d0\u534720%**\uff0c\u5355\u6b65\u68c0\u7d22\u5339\u914d\u8fed\u4ee3\u65b9\u6cd5\u6027\u80fd\uff0c\u540c\u65f6**\u6210\u672c\u964d\u4f4e10-30\u500d**\n\nGitHub: https://github.com/OSU-NLP-Group/HippoRAG\n\n**LightRAG**\uff08EMNLP 2025\uff0carXiv:2410.05779\uff09\uff1a\n- \u53cc\u5c42\u68c0\u7d22\uff08\u4f4e\u5c42\u5177\u4f53 + \u9ad8\u5c42\u62bd\u8c61\uff09\n- \u589e\u91cf\u66f4\u65b0\u7b97\u6cd5\uff08\u65e0\u9700\u91cd\u5efa\u5b8c\u6574\u56fe\uff09\n- \u6bd4GraphRAG\u6548\u7387\u66f4\u9ad8\uff1a**\u6bcf\u6b21\u68c0\u7d22<100 tokens vs \u6570\u5343tokens**\n\nGitHub: https://github.com/HKUDS/LightRAG\n\n### \u81ea\u53cd\u601d\u4e0e\u7ea0\u6b63\u578bRAG\n\n**Self-RAG**\uff08ICLR 2024 Oral\uff0cTop 1%\uff09\uff1a\n- \u8bad\u7ec3Critic\u548cGenerator\u4f7f\u7528\u53cd\u601dtoken\n- \u52a8\u6001\u68c0\u7d22\u51b3\u7b56\uff08\u53ef\u8df3\u8fc7\u6216\u591a\u6b21\u68c0\u7d22\uff09\n- \u6bb5\u7ea7\u675f\u641c\u7d22\u4f18\u5316\u6548\u7528\n\nGitHub: https://github.com/AkariAsai/self-rag\n\n**Corrective RAG (CRAG)**\uff08arXiv:2401.15884\uff09\uff1a\n- T5-large\u68c0\u7d22\u8bc4\u4f30\u5668\u5206\u914d\u7f6e\u4fe1\u5ea6\u5206\u6570\n- \u4e09\u79cd\u52a8\u4f5c\uff1a\u6b63\u786e\u3001\u9519\u8bef\u3001\u6a21\u7cca\n- \u6b21\u4f18\u68c0\u7d22\u65f6\u542f\u7528\u7f51\u7edc\u641c\u7d22\u589e\u5f3a\n\n### \u795e\u7ecf\u7b26\u53f7RAG\u7684\u6027\u80fd\u6c47\u603b\n\n| \u7cfb\u7edf | \u57fa\u51c6 | \u6307\u6807 | \u6570\u503c |\n|------|------|------|------|\n| HippoRAG | 2WikiMultiHopQA | R@5 | +20% vs SOTA |\n| IRCoT + GPT-3 | HotpotQA | QA F1 | +15\u5206 |\n| SymRAG | HotpotQA/DROP | Exact Match | 97.6-100% |\n| LightRAG | UltraDomain | \u68c0\u7d22\u6548\u7387 | <100 tokens |\n| MA-RAG | HotpotQA | - | \u8d85\u8d8a\u66f4\u5927\u72ec\u7acbLLM |\n\n---\n\n## \u6838\u5fc3\u7814\u7a76\u95ee\u9898\u7684\u7efc\u5408\u89e3\u7b54\n\n### \u95ee\u98981\uff1a\u5f62\u5f0f\u8bed\u4e49\u5b66\u6838\u5fc3\u6982\u5ff5\u5982\u4f55\u4e0e\u6df1\u5ea6\u5b66\u4e60\u7ed3\u5408\uff1f\n\n\u5f62\u5f0f\u8bed\u4e49\u5b66\u4e0e\u6df1\u5ea6\u5b66\u4e60\u7684\u7ed3\u5408\u4f53\u73b0\u5728\u4e09\u4e2a\u5c42\u9762\uff1a\n\n**\u7ec4\u5408\u6027\u5c42\u9762**\uff1a\u5f20\u91cf\u79ef\u8868\u793a\uff08TPR\uff09\u548c\u8f6fTPR\u63d0\u4f9b\u4e86\u5728\u8fde\u7eed\u5411\u91cf\u7a7a\u95f4\u4e2d\u7f16\u7801\u7ec4\u5408\u7ed3\u6784\u7684\u6570\u5b66\u6846\u67b6\u3002LLM\u9884\u8bad\u7ec3\u53ef\u7406\u89e3\u4e3a\u5143\u5b66\u4e60\u8fc7\u7a0b\uff0c\u9690\u5f0f\u83b7\u5f97\u7ec4\u5408\u80fd\u529b\uff0c\u4f4681%\u7684\u7814\u7a76\u8005\u8ba4\u4e3a\u5f53\u524d\u6a21\u578b\u672a\u771f\u6b63\u5b9e\u73b0\u7ec4\u5408\u884c\u4e3a\u3002\n\n**\u7c7b\u578b\u8bba\u5c42\u9762**\uff1a\u7c7b\u578b\u5316Lambda\u6f14\u7b97\u4ecd\u662fCCG\u8bed\u4e49\u89e3\u6790\u7684\u6838\u5fc3\uff08ccg2lambda\u7cfb\u7edf\uff09\uff0c\u795e\u7ecf\u8bed\u4e49\u89e3\u6790\u5668\u5728CFQ/COGS\u4e0a\u8fbe\u523070-95%\u51c6\u786e\u7387\u3002\u63a2\u9488\u65b9\u6cd5\u53ef\u4ee570-90%\u51c6\u786e\u7387\u68c0\u6d4bTransformer\u4e2d\u7684\u7c7b\u578b\u5316\u8bed\u4e49\u5c5e\u6027\u3002\n\n**Lambda\u6f14\u7b97\u5c42\u9762**\uff1a\u73b0\u4ee3\u65b9\u6cd5\u5982TRANX\u548c\u7c97\u5230\u7ec6\u89e3\u7801\u5c06Lambda\u6f14\u7b97\u5f62\u5f0f\u4e0e\u795e\u7ecf\u5e8f\u5217\u6a21\u578b\u7ed3\u5408\uff0c\u5b9e\u73b0\u7aef\u5230\u7aef\u53ef\u5fae\u5206\u7684\u8bed\u4e49\u89e3\u6790\u3002\n\n### \u95ee\u98982\uff1a2024-2025\u5e74\u7684\u65b0\u5d4c\u5165\u6a21\u578b\u53caMTEB\u8868\u73b0\n\n2024-2025\u5e74\u5d4c\u5165\u6a21\u578b\u7684\u6838\u5fc3\u8d8b\u52bf\u662f**\u89e3\u7801\u5668LLM\u8d85\u8d8a\u7f16\u7801\u5668\u6a21\u578b**\u3002NV-Embed-v2\uff08NVIDIA\uff0c7.1B\u53c2\u6570\uff09\u4ee572.31\u5206\u9886\u5148MTEB\uff0cQwen3-Embedding-8B\u8fbe\u523073.84\u5206\u3002\u5173\u952e\u6280\u672f\u521b\u65b0\u5305\u62ec\uff1a\u6f5c\u5728\u6ce8\u610f\u529b\u6c60\u5316\u3001\u53cc\u5411\u6ce8\u610f\u529b\u89e3\u7801\u5668\u3001\u4e24\u9636\u6bb5\u5bf9\u6bd4\u8bad\u7ec3\u3001Matryoshka\u8868\u793a\u5b66\u4e60\u3001\u6df7\u5408\u7a20\u5bc6-\u7a00\u758f\u68c0\u7d22\uff08BGE-M3\uff09\u3002\n\n### \u95ee\u98983\uff1a\u795e\u7ecf\u7b26\u53f7\u6574\u5408\u7684\u6700\u65b0\u67b6\u6784\u548c\u65b9\u6cd5\n\n2024-2025\u5e74\u795e\u7ecf\u7b26\u53f7\u6574\u5408\u7684\u7a81\u7834\u6027\u8fdb\u5c55\u5305\u62ec\uff1a\n- **\u795e\u7ecf\u5b9a\u7406\u8bc1\u660e**\uff1aAlphaProof\uff08IMO\u94f6\u724c\uff09\u3001DeepSeek-Prover-V2\uff08MiniF2F 88.9%\uff09\n- **\u53ef\u5fae\u5206\u903b\u8f91**\uff1a\u903b\u8f91\u5f20\u91cf\u7f51\u7edc\u3001\u5377\u79ef\u53ef\u5fae\u5206\u903b\u8f91\u95e8\u7f51\u7edc\uff08CIFAR-10 86.29%\uff09\n- **\u77e5\u8bc6\u56fe\u8c31+LLM**\uff1aGraphRAG\u3001HippoRAG\u3001KG-Adapter\n- **\u7ed3\u6784\u5316\u5411\u91cf\u7a7a\u95f4**\uff1a\u8f6f\u5f20\u91cf\u79ef\u8868\u793a\uff08+29-74%\u89e3\u8026\u5ea6\u63d0\u5347\uff09\n\n### \u95ee\u98984\uff1a\u8fd9\u4e9b\u8fdb\u5c55\u5982\u4f55\u5e94\u7528\u4e8eRAG\u7684\u9690\u6027\u8bed\u4e49\u5904\u7406\uff1f\n\n\u795e\u7ecf\u7b26\u53f7\u65b9\u6cd5\u5728RAG\u4e2d\u7684\u5e94\u7528\u4f53\u73b0\u4e3a\uff1a\n\n**\u7ec4\u5408\u6027\u8bed\u4e49\u5206\u89e3**\uff1a\u56fe\u7ed3\u6784RAG\u5c06\u6587\u6863\u5206\u89e3\u4e3a\u5b9e\u4f53\u548c\u5173\u7cfb\uff0c\u7136\u540e\u4ece\u7ed3\u6784\u5316\u8868\u793a\u7ec4\u5408\u610f\u4e49\u2014\u2014\u7c7b\u4f3c\u5f62\u5f0f\u8bed\u4e49\u5b66\u7684\u7ec4\u5408\u8ba1\u7b97\u3002\n\n**\u7c7b\u578b\u5316\u68c0\u7d22\u64cd\u4f5c**\uff1a\u5b9e\u4f53-\u5173\u7cfb\u63d0\u53d6\u521b\u5efa\u7c7b\u578b\u5316\u7ed3\u6784\uff0c\u77e5\u8bc6\u56fe\u8c31\u7f16\u7801\u8c13\u8bcd\u548c\u53c2\u6570\uff0c\u67e5\u8be2\u6539\u5199\u7c7b\u4f3c\u7c7b\u578b\u9a71\u52a8\u7684\u8bed\u4e49\u89e3\u91ca\u3002\n\n**\u63a8\u7406\u94fe\u5916\u663e\u5316**\uff1aCoT\u63a8\u7406\u5c06\u5f62\u5f0f\u8bed\u4e49\u5b66\u5185\u90e8\u5efa\u6a21\u7684\u63a8\u7406\u8fc7\u7a0b\u5916\u663e\u5316\uff0cToT/GoT\u63d0\u4f9b\u7ed3\u6784\u5316\u63a8\u7406\u62d3\u6251\u3002\n\n**\u6df7\u5408\u68c0\u7d22\u878d\u5408**\uff1aBGE-M3\u7684\u7a20\u5bc6+\u7a00\u758f+\u591a\u5411\u91cf\u68c0\u7d22\u878d\u5408\u4e86\u5206\u5e03\u5f0f\u8bed\u4e49\uff08\u5411\u91cf\u76f8\u4f3c\u5ea6\uff09\u4e0e\u5f62\u5f0f\u8bed\u4e49\uff08\u8bcd\u6c47\u5339\u914d\u3001\u7ed3\u6784\u5bf9\u9f50\uff09\u3002\n\n---\n\n## \u5173\u952eGitHub\u4ed3\u5e93\u6c47\u603b\n\n| \u9886\u57df | \u4ed3\u5e93 | \u63cf\u8ff0 |\n|------|------|------|\n| \u5d4c\u5165\u6a21\u578b | github.com/FlagOpen/FlagEmbedding | BGE\u7cfb\u5217\u3001\u91cd\u6392\u5e8f\u5668 |\n| \u5d4c\u5165\u6a21\u578b | github.com/microsoft/unilm/tree/master/e5 | E5-Mistral\u7cfb\u5217 |\n| \u8bed\u4e49\u89e3\u6790 | github.com/mynlp/ccg2lambda | CCG+Lambda\u8bed\u4e49\u89e3\u6790 |\n| \u795e\u7ecf\u5b9a\u7406\u8bc1\u660e | github.com/deepseek-ai/DeepSeek-Prover-V2 | SOTA\u5b9a\u7406\u8bc1\u660e\u5668 |\n| \u795e\u7ecf\u7b26\u53f7 | github.com/logictensornetworks/LTNtorch | \u903b\u8f91\u5f20\u91cf\u7f51\u7edc |\n| \u7ed3\u6784\u5316\u8868\u793a | github.com/gomb0c/soft_tpr | \u8f6f\u5f20\u91cf\u79ef\u8868\u793a |\n| GraphRAG | github.com/microsoft/graphrag | \u5fae\u8f6f\u56fe\u589e\u5f3aRAG |\n| HippoRAG | github.com/OSU-NLP-Group/HippoRAG | \u6d77\u9a6c\u4f53\u542f\u53d1RAG |\n| LightRAG | github.com/HKUDS/LightRAG | \u9ad8\u6548\u53cc\u5c42\u56feRAG |\n| Self-RAG | github.com/AkariAsai/self-rag | \u81ea\u53cd\u601dRAG |\n| CoT\u7efc\u8ff0 | github.com/zchuz/CoT-Reasoning-Survey | \u601d\u7ef4\u94fe\u5168\u9762\u7efc\u8ff0 |\n| KG+LLM | github.com/RManLuo/Awesome-LLM-KG | \u77e5\u8bc6\u56fe\u8c31+LLM\u8d44\u6e90 |\n\n---\n\n## \u7ed3\u8bba\uff1a\u878d\u5408\u8def\u5f84\u7684\u5173\u952e\u6d1e\u5bdf\n\n\u5f62\u5f0f\u8bed\u4e49\u5b66\u4e0e\u5206\u5e03\u5f0f\u8bed\u4e49\u5b66\u76842024-2025\u5e74\u8fdb\u5c55\u63ed\u793a\u4e86\u4e09\u6761\u6838\u5fc3\u878d\u5408\u8def\u5f84\uff1a\n\n**\u8def\u5f84\u4e00\uff1a\u7ed3\u6784\u5316\u5411\u91cf\u7a7a\u95f4**\u2014\u2014\u8f6f\u5f20\u91cf\u79ef\u8868\u793a\u8bc1\u660e\u8fde\u7eed\u5411\u91cf\u7a7a\u95f4\u53ef\u4ee5\u4e25\u683c\u7f16\u7801\u7ec4\u5408\u7ed3\u6784\uff0c\u4e3a\u5f62\u5f0f\u8bed\u4e49\u5b66\u7684\u795e\u7ecf\u5316\u63d0\u4f9b\u6570\u5b66\u57fa\u7840\u3002\n\n**\u8def\u5f84\u4e8c\uff1a\u795e\u7ecf\u5b9a\u7406\u8bc1\u660e**\u2014\u2014AlphaProof\u548cDeepSeek-Prover\u7cfb\u5217\u5c55\u793a\u4e86\u795e\u7ecf\u7f51\u7edc\u53ef\u4ee5\u4f5c\u4e3a\u5f62\u5f0f\u8bc1\u660e\u641c\u7d22\u7684\u5f3a\u5927\u542f\u53d1\u5f0f\u5f15\u64ce\uff0c\u540c\u65f6Lean/Coq\u63d0\u4f9b\u7b26\u53f7\u7ea7\u6b63\u786e\u6027\u4fdd\u8bc1\u3002\n\n**\u8def\u5f84\u4e09\uff1a\u56fe\u7ed3\u6784RAG**\u2014\u2014GraphRAG\u3001HippoRAG\u3001LightRAG\u5c06\u77e5\u8bc6\u56fe\u8c31\u7684\u5173\u7cfb\u8bed\u4e49\u4e0e\u5411\u91cf\u68c0\u7d22\u7684\u5206\u5e03\u5f0f\u8bed\u4e49\u878d\u5408\uff0c\u5b9e\u73b0\u9690\u6027\u8bed\u4e49\u5904\u7406\u7684\u795e\u7ecf\u7b26\u53f7\u5316\u3002\n\n\u5bf9\u4e8eRAG\u7cfb\u7edf\u7684\u5b9e\u8df5\u5efa\u8bae\uff1a\u9ad8\u6027\u80fd\u573a\u666f\u4f7f\u7528NV-Embed-v2\u6216Qwen3-Embedding-8B\uff1b\u591a\u8bed\u8a00\u573a\u666f\u4f7f\u7528BGE-M3\uff1b\u9700\u8981\u7ed3\u6784\u5316\u63a8\u7406\u65f6\u91c7\u7528GraphRAG/HippoRAG\u67b6\u6784\uff1b\u8ffd\u6c42\u6548\u7387\u548c\u53ef\u89e3\u91ca\u6027\u65f6\u8003\u8651\u7a00\u758f-\u7a20\u5bc6\u6df7\u5408\u68c0\u7d22\u4e0e\u795e\u7ecf\u7b26\u53f7\u63a8\u7406\u7684\u7ed3\u5408\u3002",
+      "language": null,
+      "md_citations": [
+        {
+          "url": "https://arxiv.org/html/2405.15164v1",
+          "uuid": "b46ff417-7114-4b55-b8b2-6c823f64af24",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/html/2405.15164v1",
+              "uuid": "b46ff417-7114-4b55-b8b2-6c823f64af24",
+              "title": "From Frege to chatGPT: Compositionality in language, cognition, and deep neural networks",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "b46ff417-7114-4b55-b8b2-6c823f64af24",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "From Frege to chatGPT: Compositionality in language, cognition, and deep neural networks"
+          },
+          "end_index": 640,
+          "start_index": 463,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://www.nature.com/articles/s41467-024-55158-1",
+          "uuid": "7b579df7-e674-4e40-9236-11aaeb5c4921",
+          "title": "Nature",
+          "sources": [
+            {
+              "url": "https://www.nature.com/articles/s41467-024-55158-1",
+              "uuid": "7b579df7-e674-4e40-9236-11aaeb5c4921",
+              "title": "Deep neural networks and humans both benefit from compositional language structure | Nature Communications",
+              "source": "Nature",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=nature.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "7b579df7-e674-4e40-9236-11aaeb5c4921",
+            "source": "Nature",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=nature.com",
+            "preview_title": "Deep neural networks and humans both benefit from compositional language structure | Nature Communications"
+          },
+          "end_index": 738,
+          "start_index": 640,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/abs/2507.21004",
+          "uuid": "01f44664-e9f5-4465-a822-a091e6424418",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/abs/2507.21004",
+              "uuid": "01f44664-e9f5-4465-a822-a091e6424418",
+              "title": "[2507.21004] Compositional Function Networks: A High-Performance Alternative to Deep Neural Networks with Built-in Interpretability",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "01f44664-e9f5-4465-a822-a091e6424418",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "[2507.21004] Compositional Function Networks: A High-Performance Alternative to Deep Neural Networks with Built-in Interpretability"
+          },
+          "end_index": 860,
+          "start_index": 740,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://aclanthology.org/2024.blackboxnlp-1.0/",
+          "uuid": "3801609b-f492-45d0-b35b-297a298fa5e3",
+          "title": "ACL Anthology",
+          "sources": [
+            {
+              "url": "https://aclanthology.org/2024.blackboxnlp-1.0/",
+              "uuid": "3801609b-f492-45d0-b35b-297a298fa5e3",
+              "title": "Proceedings of the 7th BlackboxNLP Workshop: Analyzing and Interpreting Neural Networks for NLP - ACL Anthology",
+              "source": "ACL Anthology",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=aclanthology.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "3801609b-f492-45d0-b35b-297a298fa5e3",
+            "source": "ACL Anthology",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=aclanthology.org",
+            "preview_title": "Proceedings of the 7th BlackboxNLP Workshop: Analyzing and Interpreting Neural Networks for NLP - ACL Anthology"
+          },
+          "end_index": 1006,
+          "start_index": 917,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://rycolab.io/classes/esslli-23/",
+          "uuid": "3d26f1b7-4961-422d-a936-25809c4444a6",
+          "title": "Rycolab",
+          "sources": [
+            {
+              "url": "https://rycolab.io/classes/esslli-23/",
+              "uuid": "3d26f1b7-4961-422d-a936-25809c4444a6",
+              "title": "Formal Language Theory and Neural Networks | Rycolab",
+              "source": "Rycolab",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=rycolab.io",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "3d26f1b7-4961-422d-a936-25809c4444a6",
+            "source": "Rycolab",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=rycolab.io",
+            "preview_title": "Formal Language Theory and Neural Networks | Rycolab"
+          },
+          "end_index": 1121,
+          "start_index": 1061,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://github.com/mynlp/ccg2lambda",
+          "uuid": "410cd67c-8745-4fec-8e72-c7c6f338416e",
+          "title": "GitHub",
+          "sources": [
+            {
+              "url": "https://github.com/mynlp/ccg2lambda",
+              "uuid": "410cd67c-8745-4fec-8e72-c7c6f338416e",
+              "title": "GitHub - mynlp/ccg2lambda: Provide Semantic Parsing solutions and Natural Language Inferences for multiple languages following the idea of the syntax-semantics interface.",
+              "source": "GitHub",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=github.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "410cd67c-8745-4fec-8e72-c7c6f338416e",
+            "source": "GitHub",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=github.com",
+            "preview_title": "GitHub - mynlp/ccg2lambda: Provide Semantic Parsing solutions and Natural Language Inferences for multiple languages following the idea of the syntax-semantics interface."
+          },
+          "end_index": 1411,
+          "start_index": 1338,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://aclanthology.org/2024.findings-emnlp.963/",
+          "uuid": "3bcf4ac2-3fde-4c15-980f-0c78830635f9",
+          "title": "ACL Anthology",
+          "sources": [
+            {
+              "url": "https://aclanthology.org/2024.findings-emnlp.963/",
+              "uuid": "3bcf4ac2-3fde-4c15-980f-0c78830635f9",
+              "title": "Narrative-of-Thought: Improving Temporal Reasoning of Large Language Models via Recounted Narratives - ACL Anthology",
+              "source": "ACL Anthology",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=aclanthology.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "3bcf4ac2-3fde-4c15-980f-0c78830635f9",
+            "source": "ACL Anthology",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=aclanthology.org",
+            "preview_title": "Narrative-of-Thought: Improving Temporal Reasoning of Large Language Models via Recounted Narratives - ACL Anthology"
+          },
+          "end_index": 1740,
+          "start_index": 1704,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://aclanthology.org/2024.findings-emnlp.47/",
+          "uuid": "532c6a8c-51f0-46f4-aae3-a1be6d5a3e07",
+          "title": "ACL Anthology",
+          "sources": [
+            {
+              "url": "https://aclanthology.org/2024.findings-emnlp.47/",
+              "uuid": "532c6a8c-51f0-46f4-aae3-a1be6d5a3e07",
+              "title": "Temporal Cognitive Tree: A Hierarchical Modeling Approach for Event Temporal Relation Extraction - ACL Anthology",
+              "source": "ACL Anthology",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=aclanthology.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "532c6a8c-51f0-46f4-aae3-a1be6d5a3e07",
+            "source": "ACL Anthology",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=aclanthology.org",
+            "preview_title": "Temporal Cognitive Tree: A Hierarchical Modeling Approach for Event Temporal Relation Extraction - ACL Anthology"
+          },
+          "end_index": 1872,
+          "start_index": 1835,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Zhang_What_If_the_TV_Was_Off_Examining_Counterfactual_Reasoning_Abilities_CVPR_2024_paper.pdf",
+          "uuid": "50ad3e47-3c9a-4eac-b66e-6d206dd7acde",
+          "title": "TheCVF",
+          "sources": [
+            {
+              "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Zhang_What_If_the_TV_Was_Off_Examining_Counterfactual_Reasoning_Abilities_CVPR_2024_paper.pdf",
+              "uuid": "50ad3e47-3c9a-4eac-b66e-6d206dd7acde",
+              "title": "What If the TV Was Off? Examining Counterfactual Reasoning Abilities of",
+              "source": "TheCVF",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=thecvf.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "50ad3e47-3c9a-4eac-b66e-6d206dd7acde",
+            "source": "TheCVF",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=thecvf.com",
+            "preview_title": "What If the TV Was Off? Examining Counterfactual Reasoning Abilities of"
+          },
+          "end_index": 2266,
+          "start_index": 2204,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/abs/2405.17428",
+          "uuid": "4878c61c-df37-4271-bb90-f5d53686138a",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/abs/2405.17428",
+              "uuid": "4878c61c-df37-4271-bb90-f5d53686138a",
+              "title": "[2405.17428] NV-Embed: Improved Techniques for Training LLMs as Generalist Embedding Models",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "4878c61c-df37-4271-bb90-f5d53686138a",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "[2405.17428] NV-Embed: Improved Techniques for Training LLMs as Generalist Embedding Models"
+          },
+          "end_index": 2486,
+          "start_index": 2450,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://bge-model.com/bge/bge_m3.html",
+          "uuid": "dc7ad063-4c35-49d1-bcbf-3f8bab8bc0b6",
+          "title": "Bge-model",
+          "sources": [
+            {
+              "url": "https://bge-model.com/bge/bge_m3.html",
+              "uuid": "dc7ad063-4c35-49d1-bcbf-3f8bab8bc0b6",
+              "title": "BGE-M3 \u2014 BGE documentation",
+              "source": "Bge-model",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=bge-model.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "dc7ad063-4c35-49d1-bcbf-3f8bab8bc0b6",
+            "source": "Bge-model",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=bge-model.com",
+            "preview_title": "BGE-M3 \u2014 BGE documentation"
+          },
+          "end_index": 3323,
+          "start_index": 3271,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://bge-model.com/bge/bge_m3.html",
+          "uuid": "5d0a9f44-d8e7-4df0-bbb7-bf77e9d2324e",
+          "title": "Bge-model",
+          "sources": [
+            {
+              "url": "https://bge-model.com/bge/bge_m3.html",
+              "uuid": "5d0a9f44-d8e7-4df0-bbb7-bf77e9d2324e",
+              "title": "BGE-M3 \u2014 BGE documentation",
+              "source": "Bge-model",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=bge-model.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "5d0a9f44-d8e7-4df0-bbb7-bf77e9d2324e",
+            "source": "Bge-model",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=bge-model.com",
+            "preview_title": "BGE-M3 \u2014 BGE documentation"
+          },
+          "end_index": 3353,
+          "start_index": 3326,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://bge-model.com/bge/bge_m3.html",
+          "uuid": "144a7ea7-b25a-4b7f-8be1-56f40bbc515b",
+          "title": "Bge-model",
+          "sources": [
+            {
+              "url": "https://bge-model.com/bge/bge_m3.html",
+              "uuid": "144a7ea7-b25a-4b7f-8be1-56f40bbc515b",
+              "title": "BGE-M3 \u2014 BGE documentation",
+              "source": "Bge-model",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=bge-model.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "144a7ea7-b25a-4b7f-8be1-56f40bbc515b",
+            "source": "Bge-model",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=bge-model.com",
+            "preview_title": "BGE-M3 \u2014 BGE documentation"
+          },
+          "end_index": 3391,
+          "start_index": 3356,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://bge-model.com/bge/bge_m3.html",
+          "uuid": "d14e9fde-5db1-4c16-b9be-9d8a35c06960",
+          "title": "Bge-model",
+          "sources": [
+            {
+              "url": "https://bge-model.com/bge/bge_m3.html",
+              "uuid": "d14e9fde-5db1-4c16-b9be-9d8a35c06960",
+              "title": "BGE-M3 \u2014 BGE documentation",
+              "source": "Bge-model",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=bge-model.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "d14e9fde-5db1-4c16-b9be-9d8a35c06960",
+            "source": "Bge-model",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=bge-model.com",
+            "preview_title": "BGE-M3 \u2014 BGE documentation"
+          },
+          "end_index": 3443,
+          "start_index": 3393,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://jina.ai/news/jina-colbert-v2-multilingual-late-interaction-retriever-for-embedding-and-reranking/",
+          "uuid": "b3b0453e-e294-4e11-a52f-71e2726ceffa",
+          "title": "Jina AI",
+          "sources": [
+            {
+              "url": "https://jina.ai/news/jina-colbert-v2-multilingual-late-interaction-retriever-for-embedding-and-reranking/",
+              "uuid": "b3b0453e-e294-4e11-a52f-71e2726ceffa",
+              "title": "Jina ColBERT v2: Multilingual Late Interaction Retriever for Embedding and Reranking",
+              "source": "Jina AI",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=jina.ai",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "b3b0453e-e294-4e11-a52f-71e2726ceffa",
+            "source": "Jina AI",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=jina.ai",
+            "preview_title": "Jina ColBERT v2: Multilingual Late Interaction Retriever for Embedding and Reranking"
+          },
+          "end_index": 3884,
+          "start_index": 3780,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://weaviate.io/blog/late-chunking",
+          "uuid": "14362eb5-6dd5-4751-a058-dd49c988f973",
+          "title": "Weaviate",
+          "sources": [
+            {
+              "url": "https://weaviate.io/blog/late-chunking",
+              "uuid": "14362eb5-6dd5-4751-a058-dd49c988f973",
+              "title": "Late Chunking: Balancing Precision and Cost in Long Context Retrieval | Weaviate",
+              "source": "Weaviate",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=weaviate.io",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "14362eb5-6dd5-4751-a058-dd49c988f973",
+            "source": "Weaviate",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=weaviate.io",
+            "preview_title": "Late Chunking: Balancing Precision and Cost in Long Context Retrieval | Weaviate"
+          },
+          "end_index": 4104,
+          "start_index": 3973,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/abs/2107.05720",
+          "uuid": "30c00409-1eaf-4411-94c3-5fc6eee3b91e",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/abs/2107.05720",
+              "uuid": "30c00409-1eaf-4411-94c3-5fc6eee3b91e",
+              "title": "[2107.05720] SPLADE: Sparse Lexical and Expansion Model for First Stage Ranking",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "30c00409-1eaf-4411-94c3-5fc6eee3b91e",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "[2107.05720] SPLADE: Sparse Lexical and Expansion Model for First Stage Ranking"
+          },
+          "end_index": 4261,
+          "start_index": 4165,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://deepmind.google/blog/ai-solves-imo-problems-at-silver-medal-level/",
+          "uuid": "baf55793-957a-4a3d-95d2-dd6708afa7af",
+          "title": "Google DeepMind",
+          "sources": [
+            {
+              "url": "https://deepmind.google/blog/ai-solves-imo-problems-at-silver-medal-level/",
+              "uuid": "baf55793-957a-4a3d-95d2-dd6708afa7af",
+              "title": "AI achieves silver-medal standard solving International Mathematical Olympiad problems - Google DeepMind",
+              "source": "Google DeepMind",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=deepmind.google",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "baf55793-957a-4a3d-95d2-dd6708afa7af",
+            "source": "Google DeepMind",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=deepmind.google",
+            "preview_title": "AI achieves silver-medal standard solving International Mathematical Olympiad problems - Google DeepMind"
+          },
+          "end_index": 4729,
+          "start_index": 4704,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://eu.36kr.com/en/p/3551304246589575",
+          "uuid": "796b2e9d-b9ce-49f0-8f7d-d5613895a6df",
+          "title": "36Kr",
+          "sources": [
+            {
+              "url": "https://eu.36kr.com/en/p/3551304246589575",
+              "uuid": "796b2e9d-b9ce-49f0-8f7d-d5613895a6df",
+              "title": "Google DeepMind's Latest Paper in Nature Unveils Most Powerful Mathematical Model for IMO",
+              "source": "36Kr",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=36kr.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "796b2e9d-b9ce-49f0-8f7d-d5613895a6df",
+            "source": "36Kr",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=36kr.com",
+            "preview_title": "Google DeepMind's Latest Paper in Nature Unveils Most Powerful Mathematical Model for IMO"
+          },
+          "end_index": 4745,
+          "start_index": 4729,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://www.natureasia.com/en/info/press-releases/detail/9147",
+          "uuid": "48f88d20-f909-41bc-a8c9-ece69d4bcb16",
+          "title": "Nature",
+          "sources": [
+            {
+              "url": "https://www.natureasia.com/en/info/press-releases/detail/9147",
+              "uuid": "48f88d20-f909-41bc-a8c9-ece69d4bcb16",
+              "title": "[Research Press Release] Artificial intelligence: A mathematics medal-worthy AI system (Nature) | Nature Portfolio",
+              "source": "Nature",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=natureasia.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "48f88d20-f909-41bc-a8c9-ece69d4bcb16",
+            "source": "Nature",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=natureasia.com",
+            "preview_title": "[Research Press Release] Artificial intelligence: A mathematics medal-worthy AI system (Nature) | Nature Portfolio"
+          },
+          "end_index": 4765,
+          "start_index": 4753,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://www.nature.com/articles/s41586-025-09833-y",
+          "uuid": "2a359b33-0d35-4696-84a3-fb2ec1229e4e",
+          "title": "Nature",
+          "sources": [
+            {
+              "url": "https://www.nature.com/articles/s41586-025-09833-y",
+              "uuid": "2a359b33-0d35-4696-84a3-fb2ec1229e4e",
+              "title": "Olympiad-level formal mathematical reasoning with reinforcement learning | Nature",
+              "source": "Nature",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=nature.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "2a359b33-0d35-4696-84a3-fb2ec1229e4e",
+            "source": "Nature",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=nature.com",
+            "preview_title": "Olympiad-level formal mathematical reasoning with reinforcement learning | Nature"
+          },
+          "end_index": 4804,
+          "start_index": 4773,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://deepmind.google/blog/ai-solves-imo-problems-at-silver-medal-level/",
+          "uuid": "4f4803c9-e705-4dae-b187-c39470356b94",
+          "title": "Google DeepMind",
+          "sources": [
+            {
+              "url": "https://deepmind.google/blog/ai-solves-imo-problems-at-silver-medal-level/",
+              "uuid": "4f4803c9-e705-4dae-b187-c39470356b94",
+              "title": "AI achieves silver-medal standard solving International Mathematical Olympiad problems - Google DeepMind",
+              "source": "Google DeepMind",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=deepmind.google",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "4f4803c9-e705-4dae-b187-c39470356b94",
+            "source": "Google DeepMind",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=deepmind.google",
+            "preview_title": "AI achieves silver-medal standard solving International Mathematical Olympiad problems - Google DeepMind"
+          },
+          "end_index": 4816,
+          "start_index": 4807,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://deepmind.google/blog/advanced-version-of-gemini-with-deep-think-officially-achieves-gold-medal-standard-at-the-international-mathematical-olympiad/",
+          "uuid": "ab812a47-4966-45d3-975d-c95e44546ce0",
+          "title": "Google DeepMind",
+          "sources": [
+            {
+              "url": "https://deepmind.google/blog/advanced-version-of-gemini-with-deep-think-officially-achieves-gold-medal-standard-at-the-international-mathematical-olympiad/",
+              "uuid": "ab812a47-4966-45d3-975d-c95e44546ce0",
+              "title": "Advanced version of Gemini with Deep Think officially achieves gold-medal standard at the International Mathematical Olympiad - Google DeepMind",
+              "source": "Google DeepMind",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=deepmind.google",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "ab812a47-4966-45d3-975d-c95e44546ce0",
+            "source": "Google DeepMind",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=deepmind.google",
+            "preview_title": "Advanced version of Gemini with Deep Think officially achieves gold-medal standard at the International Mathematical Olympiad - Google DeepMind"
+          },
+          "end_index": 5203,
+          "start_index": 5123,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://openreview.net/forum?id=4bKEFyUHT4",
+          "uuid": "18df2890-8604-4cf3-8aa9-ed5f50b91ea5",
+          "title": "OpenReview",
+          "sources": [
+            {
+              "url": "https://openreview.net/forum?id=4bKEFyUHT4",
+              "uuid": "18df2890-8604-4cf3-8aa9-ed5f50b91ea5",
+              "title": "Convolutional Differentiable Logic Gate Networks | OpenReview",
+              "source": "OpenReview",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=openreview.net",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "18df2890-8604-4cf3-8aa9-ed5f50b91ea5",
+            "source": "OpenReview",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=openreview.net",
+            "preview_title": "Convolutional Differentiable Logic Gate Networks | OpenReview"
+          },
+          "end_index": 5455,
+          "start_index": 5358,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0004370224000444",
+          "uuid": "40f60d01-06db-48ac-8c12-53a60bfd9d07",
+          "title": "ScienceDirect",
+          "sources": [
+            {
+              "url": "https://www.sciencedirect.com/science/article/abs/pii/S0004370224000444",
+              "uuid": "40f60d01-06db-48ac-8c12-53a60bfd9d07",
+              "title": "A differentiable first-order rule learner for inductive logic programming - ScienceDirect",
+              "source": "ScienceDirect",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=sciencedirect.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "40f60d01-06db-48ac-8c12-53a60bfd9d07",
+            "source": "ScienceDirect",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=sciencedirect.com",
+            "preview_title": "A differentiable first-order rule learner for inductive logic programming - ScienceDirect"
+          },
+          "end_index": 5565,
+          "start_index": 5457,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/abs/2306.08302",
+          "uuid": "13f910e1-7443-4801-af5a-2166fc878425",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/abs/2306.08302",
+              "uuid": "13f910e1-7443-4801-af5a-2166fc878425",
+              "title": "[2306.08302] Unifying Large Language Models and Knowledge Graphs: A Roadmap",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "13f910e1-7443-4801-af5a-2166fc878425",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "[2306.08302] Unifying Large Language Models and Knowledge Graphs: A Roadmap"
+          },
+          "end_index": 5787,
+          "start_index": 5589,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/html/2505.07554v1",
+          "uuid": "4f0eaba3-e7a6-4c41-99b7-01dbf3fbb19a",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/html/2505.07554v1",
+              "uuid": "4f0eaba3-e7a6-4c41-99b7-01dbf3fbb19a",
+              "title": "Injecting Knowledge Graphs into Large Language Models",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "4f0eaba3-e7a6-4c41-99b7-01dbf3fbb19a",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "Injecting Knowledge Graphs into Large Language Models"
+          },
+          "end_index": 5917,
+          "start_index": 5855,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2025.1590632/full",
+          "uuid": "6b0029e7-6167-43ff-89fb-b834ee8d0ac0",
+          "title": "Frontiers",
+          "sources": [
+            {
+              "url": "https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2025.1590632/full",
+              "uuid": "6b0029e7-6167-43ff-89fb-b834ee8d0ac0",
+              "title": "Frontiers | Practices, opportunities and challenges in the fusion of knowledge graphs and large language models",
+              "source": "Frontiers",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=frontiersin.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "6b0029e7-6167-43ff-89fb-b834ee8d0ac0",
+            "source": "Frontiers",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=frontiersin.org",
+            "preview_title": "Frontiers | Practices, opportunities and challenges in the fusion of knowledge graphs and large language models"
+          },
+          "end_index": 5964,
+          "start_index": 5920,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://github.com/RManLuo/Awesome-LLM-KG",
+          "uuid": "0c8e03eb-9dcd-445e-a380-1b0febd73785",
+          "title": "GitHub",
+          "sources": [
+            {
+              "url": "https://github.com/RManLuo/Awesome-LLM-KG",
+              "uuid": "0c8e03eb-9dcd-445e-a380-1b0febd73785",
+              "title": "GitHub - RManLuo/Awesome-LLM-KG: Awesome papers about unifying LLMs and KGs",
+              "source": "GitHub",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=github.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "0c8e03eb-9dcd-445e-a380-1b0febd73785",
+            "source": "GitHub",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=github.com",
+            "preview_title": "GitHub - RManLuo/Awesome-LLM-KG: Awesome papers about unifying LLMs and KGs"
+          },
+          "end_index": 6015,
+          "start_index": 5966,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/abs/2410.05229",
+          "uuid": "a0857c9a-ce17-493b-b9df-1c0ffcb68cd7",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/abs/2410.05229",
+              "uuid": "a0857c9a-ce17-493b-b9df-1c0ffcb68cd7",
+              "title": "[2410.05229] GSM-Symbolic: Understanding the Limitations of Mathematical Reasoning in Large Language Models",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "a0857c9a-ce17-493b-b9df-1c0ffcb68cd7",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "[2410.05229] GSM-Symbolic: Understanding the Limitations of Mathematical Reasoning in Large Language Models"
+          },
+          "end_index": 6355,
+          "start_index": 6303,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://huggingface.co/papers/2410.05229",
+          "uuid": "332586d2-51c6-4a94-a0dd-8093121d247f",
+          "title": "Hugging Face",
+          "sources": [
+            {
+              "url": "https://huggingface.co/papers/2410.05229",
+              "uuid": "332586d2-51c6-4a94-a0dd-8093121d247f",
+              "title": "Paper page - GSM-Symbolic: Understanding the Limitations of Mathematical Reasoning in Large Language Models",
+              "source": "Hugging Face",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=huggingface.co",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "332586d2-51c6-4a94-a0dd-8093121d247f",
+            "source": "Hugging Face",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=huggingface.co",
+            "preview_title": "Paper page - GSM-Symbolic: Understanding the Limitations of Mathematical Reasoning in Large Language Models"
+          },
+          "end_index": 6378,
+          "start_index": 6358,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://machinelearning.apple.com/research/gsm-symbolic",
+          "uuid": "842b136a-5f86-4ec9-a591-72a50b59715a",
+          "title": "Apple Machine Learning Research",
+          "sources": [
+            {
+              "url": "https://machinelearning.apple.com/research/gsm-symbolic",
+              "uuid": "842b136a-5f86-4ec9-a591-72a50b59715a",
+              "title": "GSM-Symbolic: Understanding the Limitations of Mathematical Reasoning in Large Language Models - Apple Machine Learning Research",
+              "source": "Apple Machine Learning Research",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=apple.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "842b136a-5f86-4ec9-a591-72a50b59715a",
+            "source": "Apple Machine Learning Research",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=apple.com",
+            "preview_title": "GSM-Symbolic: Understanding the Limitations of Mathematical Reasoning in Large Language Models - Apple Machine Learning Research"
+          },
+          "end_index": 6390,
+          "start_index": 6381,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/html/2410.05229v2",
+          "uuid": "0d8da971-bc4c-4941-8685-4092cb4c7620",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/html/2410.05229v2",
+              "uuid": "0d8da971-bc4c-4941-8685-4092cb4c7620",
+              "title": "GSM-Symbolic: Understanding the Limitations of Mathematical Reasoning in Large Language Models",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "0d8da971-bc4c-4941-8685-4092cb4c7620",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "GSM-Symbolic: Understanding the Limitations of Mathematical Reasoning in Large Language Models"
+          },
+          "end_index": 6420,
+          "start_index": 6393,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/html/2311.17076v3",
+          "uuid": "7c0bbb64-453e-4604-ab50-785acc941b9b",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/html/2311.17076v3",
+              "uuid": "7c0bbb64-453e-4604-ab50-785acc941b9b",
+              "title": "Compositional Chain-of-Thought Prompting for Large Multimodal Models",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "7c0bbb64-453e-4604-ab50-785acc941b9b",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "Compositional Chain-of-Thought Prompting for Large Multimodal Models"
+          },
+          "end_index": 6768,
+          "start_index": 6680,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/abs/2305.10601",
+          "uuid": "d4c1c782-7f7e-4ceb-b269-c8462625aa46",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/abs/2305.10601",
+              "uuid": "d4c1c782-7f7e-4ceb-b269-c8462625aa46",
+              "title": "[2305.10601] Tree of Thoughts: Deliberate Problem Solving with Large Language Models",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "d4c1c782-7f7e-4ceb-b269-c8462625aa46",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "[2305.10601] Tree of Thoughts: Deliberate Problem Solving with Large Language Models"
+          },
+          "end_index": 6813,
+          "start_index": 6770,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/abs/2308.09687",
+          "uuid": "0db6aed0-265c-4529-ac30-03764e03bb20",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/abs/2308.09687",
+              "uuid": "0db6aed0-265c-4529-ac30-03764e03bb20",
+              "title": "[2308.09687] Graph of Thoughts: Solving Elaborate Problems with Large Language Models",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "0db6aed0-265c-4529-ac30-03764e03bb20",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "[2308.09687] Graph of Thoughts: Solving Elaborate Problems with Large Language Models"
+          },
+          "end_index": 6844,
+          "start_index": 6814,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://learnprompting.org/docs/advanced/decomposition/tree_of_thoughts",
+          "uuid": "28c467ca-9a2d-4ea8-b991-2fdaf41f9d88",
+          "title": "Learnprompting",
+          "sources": [
+            {
+              "url": "https://learnprompting.org/docs/advanced/decomposition/tree_of_thoughts",
+              "uuid": "28c467ca-9a2d-4ea8-b991-2fdaf41f9d88",
+              "title": "Tree of Thoughts (ToT): Enhancing Problem-Solving in LLMs",
+              "source": "Learnprompting",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=learnprompting.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "28c467ca-9a2d-4ea8-b991-2fdaf41f9d88",
+            "source": "Learnprompting",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=learnprompting.org",
+            "preview_title": "Tree of Thoughts (ToT): Enhancing Problem-Solving in LLMs"
+          },
+          "end_index": 6887,
+          "start_index": 6859,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/abs/2308.09687",
+          "uuid": "801f3669-abcd-4552-8a8e-ce5b61d90662",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/abs/2308.09687",
+              "uuid": "801f3669-abcd-4552-8a8e-ce5b61d90662",
+              "title": "[2308.09687] Graph of Thoughts: Solving Elaborate Problems with Large Language Models",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "801f3669-abcd-4552-8a8e-ce5b61d90662",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "[2308.09687] Graph of Thoughts: Solving Elaborate Problems with Large Language Models"
+          },
+          "end_index": 6923,
+          "start_index": 6890,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://neo4j.com/blog/developer/llm-knowledge-graph-builder-release/",
+          "uuid": "93cbf38e-954b-4854-a2c1-5cff1eb3f301",
+          "title": "Neo4j",
+          "sources": [
+            {
+              "url": "https://neo4j.com/blog/developer/llm-knowledge-graph-builder-release/",
+              "uuid": "93cbf38e-954b-4854-a2c1-5cff1eb3f301",
+              "title": "LLM Knowledge Graph Builder \u2014 First Release of 2025 - Graph Database & Analytics",
+              "source": "Neo4j",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=neo4j.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "93cbf38e-954b-4854-a2c1-5cff1eb3f301",
+            "source": "Neo4j",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=neo4j.com",
+            "preview_title": "LLM Knowledge Graph Builder \u2014 First Release of 2025 - Graph Database & Analytics"
+          },
+          "end_index": 7125,
+          "start_index": 7111,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://github.com/OSU-NLP-Group/HippoRAG",
+          "uuid": "74805a78-9e7f-4f55-ae0d-b2b5e180489e",
+          "title": "GitHub",
+          "sources": [
+            {
+              "url": "https://github.com/OSU-NLP-Group/HippoRAG",
+              "uuid": "74805a78-9e7f-4f55-ae0d-b2b5e180489e",
+              "title": "GitHub - OSU-NLP-Group/HippoRAG: [NeurIPS'24] HippoRAG is a novel RAG framework inspired by human long-term memory that enables LLMs to continuously integrate knowledge across external documents. RAG + Knowledge Graphs + Personalized PageRank.",
+              "source": "GitHub",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=github.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "74805a78-9e7f-4f55-ae0d-b2b5e180489e",
+            "source": "GitHub",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=github.com",
+            "preview_title": "GitHub - OSU-NLP-Group/HippoRAG: [NeurIPS'24] HippoRAG is a novel RAG framework inspired by human long-term memory that enables LLMs to continuously integrate knowledge across external documents. RAG + Knowledge Graphs + Personalized PageRank."
+          },
+          "end_index": 7382,
+          "start_index": 7333,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://lightrag.github.io/",
+          "uuid": "1e06c91f-b69f-477b-8716-2b7897b30bb3",
+          "title": "Lightrag",
+          "sources": [
+            {
+              "url": "https://lightrag.github.io/",
+              "uuid": "1e06c91f-b69f-477b-8716-2b7897b30bb3",
+              "title": "LightRAG",
+              "source": "Lightrag",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=github.io",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "1e06c91f-b69f-477b-8716-2b7897b30bb3",
+            "source": "Lightrag",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=github.io",
+            "preview_title": "LightRAG"
+          },
+          "end_index": 7464,
+          "start_index": 7449,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://graphrag.com/appendices/research/2410.05779/",
+          "uuid": "337f519f-f4e1-4d4d-b438-7d7ff3b51040",
+          "title": "GraphRAG",
+          "sources": [
+            {
+              "url": "https://graphrag.com/appendices/research/2410.05779/",
+              "uuid": "337f519f-f4e1-4d4d-b438-7d7ff3b51040",
+              "title": "LightRAG: Simple and Fast Retrieval-Augmented Generation | GraphRAG",
+              "source": "GraphRAG",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=graphrag.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "337f519f-f4e1-4d4d-b438-7d7ff3b51040",
+            "source": "GraphRAG",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=graphrag.com",
+            "preview_title": "LightRAG: Simple and Fast Retrieval-Augmented Generation | GraphRAG"
+          },
+          "end_index": 7512,
+          "start_index": 7384,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://learnopencv.com/lightrag/",
+          "uuid": "9316b33c-c79f-424a-8b84-af265571b452",
+          "title": "LearnOpenCV",
+          "sources": [
+            {
+              "url": "https://learnopencv.com/lightrag/",
+              "uuid": "9316b33c-c79f-424a-8b84-af265571b452",
+              "title": "LightRAG: Simple and Fast Alternative to GraphRAG",
+              "source": "LearnOpenCV",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=learnopencv.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "9316b33c-c79f-424a-8b84-af265571b452",
+            "source": "LearnOpenCV",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=learnopencv.com",
+            "preview_title": "LightRAG: Simple and Fast Alternative to GraphRAG"
+          },
+          "end_index": 7512,
+          "start_index": 7467,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://github.com/HKUDS/LightRAG",
+          "uuid": "9429a2a3-a197-42d5-b751-e28b6311e77f",
+          "title": "GitHub",
+          "sources": [
+            {
+              "url": "https://github.com/HKUDS/LightRAG",
+              "uuid": "9429a2a3-a197-42d5-b751-e28b6311e77f",
+              "title": "GitHub - HKUDS/LightRAG: [EMNLP2025] \"LightRAG: Simple and Fast Retrieval-Augmented Generation\"",
+              "source": "GitHub",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=github.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "9429a2a3-a197-42d5-b751-e28b6311e77f",
+            "source": "GitHub",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=github.com",
+            "preview_title": "GitHub - HKUDS/LightRAG: [EMNLP2025] \"LightRAG: Simple and Fast Retrieval-Augmented Generation\""
+          },
+          "end_index": 7555,
+          "start_index": 7514,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/abs/2212.10509",
+          "uuid": "e273f89f-da69-4046-aaca-e08aba41c4a5",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/abs/2212.10509",
+              "uuid": "e273f89f-da69-4046-aaca-e08aba41c4a5",
+              "title": "[2212.10509] Interleaving Retrieval with Chain-of-Thought Reasoning for Knowledge-Intensive Multi-Step Questions",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "e273f89f-da69-4046-aaca-e08aba41c4a5",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "[2212.10509] Interleaving Retrieval with Chain-of-Thought Reasoning for Knowledge-Intensive Multi-Step Questions"
+          },
+          "end_index": 7983,
+          "start_index": 7944,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/abs/2505.20096",
+          "uuid": "4001f281-5147-4f40-a5ed-a4e9fab6e94f",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/abs/2505.20096",
+              "uuid": "4001f281-5147-4f40-a5ed-a4e9fab6e94f",
+              "title": "[2505.20096] MA-RAG: Multi-Agent Retrieval-Augmented Generation via Collaborative Chain-of-Thought Reasoning",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "4001f281-5147-4f40-a5ed-a4e9fab6e94f",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "[2505.20096] MA-RAG: Multi-Agent Retrieval-Augmented Generation via Collaborative Chain-of-Thought Reasoning"
+          },
+          "end_index": 8122,
+          "start_index": 8089,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/html/2405.15164v1",
+          "uuid": "e47ce12c-b14d-49ad-a335-297fe39a269d",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/html/2405.15164v1",
+              "uuid": "e47ce12c-b14d-49ad-a335-297fe39a269d",
+              "title": "From Frege to chatGPT: Compositionality in language, cognition, and deep neural networks",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "e47ce12c-b14d-49ad-a335-297fe39a269d",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "From Frege to chatGPT: Compositionality in language, cognition, and deep neural networks"
+          },
+          "end_index": 8272,
+          "start_index": 8199,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://aclanthology.org/2024.emnlp-main.524.pdf",
+          "uuid": "5cb8c001-13c1-44c9-b6e4-d4beda13f925",
+          "title": "aclanthology",
+          "sources": [
+            {
+              "url": "https://aclanthology.org/2024.emnlp-main.524.pdf",
+              "uuid": "5cb8c001-13c1-44c9-b6e4-d4beda13f925",
+              "title": "",
+              "source": "aclanthology",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=aclanthology.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "5cb8c001-13c1-44c9-b6e4-d4beda13f925",
+            "source": "aclanthology",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=aclanthology.org",
+            "preview_title": ""
+          },
+          "end_index": 8296,
+          "start_index": 8247,
+          "origin_tool_name": "web_fetch"
+        },
+        {
+          "url": "https://www.nature.com/articles/s41586-025-09833-y",
+          "uuid": "cbc42c8f-51a9-410b-b92d-a3444fcf9b22",
+          "title": "Nature",
+          "sources": [
+            {
+              "url": "https://www.nature.com/articles/s41586-025-09833-y",
+              "uuid": "cbc42c8f-51a9-410b-b92d-a3444fcf9b22",
+              "title": "Olympiad-level formal mathematical reasoning with reinforcement learning | Nature",
+              "source": "Nature",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=nature.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "cbc42c8f-51a9-410b-b92d-a3444fcf9b22",
+            "source": "Nature",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=nature.com",
+            "preview_title": "Olympiad-level formal mathematical reasoning with reinforcement learning | Nature"
+          },
+          "end_index": 8771,
+          "start_index": 8742,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/abs/2504.21801",
+          "uuid": "e563b49d-cdb8-4fa3-b481-b842dc374bcd",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/abs/2504.21801",
+              "uuid": "e563b49d-cdb8-4fa3-b481-b842dc374bcd",
+              "title": "[2504.21801] DeepSeek-Prover-V2: Advancing Formal Mathematical Reasoning via Reinforcement Learning for Subgoal Decomposition",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "e563b49d-cdb8-4fa3-b481-b842dc374bcd",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "[2504.21801] DeepSeek-Prover-V2: Advancing Formal Mathematical Reasoning via Reinforcement Learning for Subgoal Decomposition"
+          },
+          "end_index": 8804,
+          "start_index": 8771,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://neurips.cc/virtual/2024/poster/96650",
+          "uuid": "ec1d9d5f-ce60-4b72-b4fc-17818b58b592",
+          "title": "NeurIPS",
+          "sources": [
+            {
+              "url": "https://neurips.cc/virtual/2024/poster/96650",
+              "uuid": "ec1d9d5f-ce60-4b72-b4fc-17818b58b592",
+              "title": "NeurIPS Poster Convolutional Differentiable Logic Gate Networks",
+              "source": "NeurIPS",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=neurips.cc",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "ec1d9d5f-ce60-4b72-b4fc-17818b58b592",
+            "source": "NeurIPS",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=neurips.cc",
+            "preview_title": "NeurIPS Poster Convolutional Differentiable Logic Gate Networks"
+          },
+          "end_index": 8851,
+          "start_index": 8824,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2025.1590632/full",
+          "uuid": "d0a972da-b68c-46e4-ba99-a46dc0b92404",
+          "title": "Frontiers",
+          "sources": [
+            {
+              "url": "https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2025.1590632/full",
+              "uuid": "d0a972da-b68c-46e4-ba99-a46dc0b92404",
+              "title": "Frontiers | Practices, opportunities and challenges in the fusion of knowledge graphs and large language models",
+              "source": "Frontiers",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=frontiersin.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "d0a972da-b68c-46e4-ba99-a46dc0b92404",
+            "source": "Frontiers",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=frontiersin.org",
+            "preview_title": "Frontiers | Practices, opportunities and challenges in the fusion of knowledge graphs and large language models"
+          },
+          "end_index": 8895,
+          "start_index": 8854,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://www.semanticscholar.org/paper/Interleaving-Retrieval-with-Chain-of-Thought-for-Trivedi-Balasubramanian/f208ea909fa7f54fea82def9a92fd81dfc758c39",
+          "uuid": "cf0c3335-5d68-4670-a597-df60e4c1f1b2",
+          "title": "Semantic Scholar",
+          "sources": [
+            {
+              "url": "https://www.semanticscholar.org/paper/Interleaving-Retrieval-with-Chain-of-Thought-for-Trivedi-Balasubramanian/f208ea909fa7f54fea82def9a92fd81dfc758c39",
+              "uuid": "cf0c3335-5d68-4670-a597-df60e4c1f1b2",
+              "title": "[PDF] Interleaving Retrieval with Chain-of-Thought Reasoning for Knowledge-Intensive Multi-Step Questions | Semantic Scholar",
+              "source": "Semantic Scholar",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=semanticscholar.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "cf0c3335-5d68-4670-a597-df60e4c1f1b2",
+            "source": "Semantic Scholar",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=semanticscholar.org",
+            "preview_title": "[PDF] Interleaving Retrieval with Chain-of-Thought Reasoning for Knowledge-Intensive Multi-Step Questions | Semantic Scholar"
+          },
+          "end_index": 9133,
+          "start_index": 9098,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://www.nature.com/articles/s41586-025-09833-y",
+          "uuid": "eaba053b-99ee-4924-99c8-5e0d097fc049",
+          "title": "Nature",
+          "sources": [
+            {
+              "url": "https://www.nature.com/articles/s41586-025-09833-y",
+              "uuid": "eaba053b-99ee-4924-99c8-5e0d097fc049",
+              "title": "Olympiad-level formal mathematical reasoning with reinforcement learning | Nature",
+              "source": "Nature",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=nature.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "eaba053b-99ee-4924-99c8-5e0d097fc049",
+            "source": "Nature",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=nature.com",
+            "preview_title": "Olympiad-level formal mathematical reasoning with reinforcement learning | Nature"
+          },
+          "end_index": 10169,
+          "start_index": 10115,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2507.15855",
+          "uuid": "01e3ee47-3632-45fa-ab87-891f8b7879a1",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/pdf/2507.15855",
+              "uuid": "01e3ee47-3632-45fa-ab87-891f8b7879a1",
+              "title": "Winning Gold at IMO 2025 with a Model-Agnostic",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "01e3ee47-3632-45fa-ab87-891f8b7879a1",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "Winning Gold at IMO 2025 with a Model-Agnostic"
+          },
+          "end_index": 10190,
+          "start_index": 10169,
+          "origin_tool_name": "web_search"
+        }
+      ],
+      "version_uuid": "5125e60e-7874-4c10-b712-fd6454bfeaba"
+    },
+    "message": null,
+    "integration_name": null,
+    "integration_icon_url": null,
+    "context": null,
+    "display_content": null,
+    "approval_options": null,
+    "approval_key": null
+  },
+  {
+    "start_timestamp": null,
+    "stop_timestamp": null,
+    "flags": null,
+    "type": "tool_result",
+    "name": "artifacts",
+    "content": [
+      {
+        "type": "text",
+        "text": "OK",
+        "uuid": "94799e3e-1066-4843-8548-3ae7dd62b22f"
+      }
+    ],
+    "is_error": false,
+    "structured_content": null,
+    "meta": null,
+    "message": null,
+    "integration_name": null,
+    "integration_icon_url": null,
+    "display_content": null
+  }
+]

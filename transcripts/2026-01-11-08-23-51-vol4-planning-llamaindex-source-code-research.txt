@@ -1,0 +1,1151 @@
+Assistant:
+Content:
+[
+  {
+    "start_timestamp": "2026-01-11T04:47:03.159003Z",
+    "stop_timestamp": "2026-01-11T04:47:03.159003Z",
+    "flags": null,
+    "type": "text",
+    "text": "\n\n",
+    "citations": []
+  },
+  {
+    "start_timestamp": "2026-01-11T04:47:03.159003Z",
+    "stop_timestamp": "2026-01-11T04:47:09.542795Z",
+    "flags": null,
+    "type": "thinking",
+    "thinking": "\u7528\u6237\u8981\u6c42\u5c06Vol4\u6309\u65b9\u6848A\u5904\u7406\u2014\u2014\u7cbe\u7b80\u91cd\u6784\u4e3a\"\u6e90\u4ee3\u7801\u7ea7\u6df1\u5ea6\u5256\u6790\"\u3002\n\n\u8fd9\u610f\u5473\u7740\u6211\u9700\u8981\uff1a\n1. \u5148\u5236\u5b9a\u65b0\u7684Vol4\u7ae0\u8282\u89c4\u5212\n2. \u7136\u540e\u542f\u52a8\u6df1\u5ea6\u7814\u7a76\n\n\u65b9\u6848A\u7684\u89c4\u5212\u662f\uff1a\n- 54-57: LlamaIndex\u6e90\u4ee3\u7801\u6df1\u5ea6\u89e3\u6790\n- 58-60: \u6846\u67b6\u63d0\u793a\u8bcd\u9006\u5411\u5de5\u7a0b\n- 61-63: Haystack 2.0 + Semantic Kernel\n- 64-66: \u6846\u67b6\u95f4\u4e92\u64cd\u4f5c\u4e0e\u96c6\u6210\n\n\u4f46\u662f\u539f\u89c4\u5212\u662f54-73\uff0820\u7ae0\uff09\uff0c\u65b9\u6848A\u53ea\u670913\u7ae0\uff0854-66\uff09\u3002\u6211\u9700\u8981\u786e\u8ba4\u8fd9\u4e2a\u8c03\u6574\u662f\u5426\u5408\u7406\uff0c\u6216\u8005\u662f\u5426\u9700\u8981\u6269\u5c55\u3002\n\n\u5b9e\u9645\u4e0a\uff0c\u7528\u6237\u8bf4\"\u628aVol4\u5904\u7406\u6210\u65b9\u6848A\"\uff0c\u6211\u5e94\u8be5\uff1a\n1. \u5148\u786e\u8ba4\u65b0\u7684\u7ae0\u8282\u89c4\u5212\n2. \u7136\u540e\u5f00\u59cb\u7814\u7a76\n\n\u8ba9\u6211\u5148\u8f93\u51fa\u4fee\u8ba2\u540e\u7684Vol4\u89c4\u5212\uff0c\u786e\u8ba4\u540e\u518d\u542f\u52a8\u7814\u7a76\u3002\u8fd9\u4e0d\u9700\u8981\u542f\u52a8\u6df1\u5ea6\u7814\u7a76\u5de5\u5177\uff0c\u56e0\u4e3a\u8fd9\u662f\u89c4\u5212\u786e\u8ba4\u9636\u6bb5\u3002\n\n\u4e0d\uff0c\u7528\u6237\u5df2\u7ecf\u660e\u786e\u8bf4\"\u628aVol4\u5904\u7406\u6210\u65b9\u6848A\"\uff0c\u8fd9\u662f\u4e00\u4e2a\u660e\u786e\u7684\u6307\u4ee4\u3002\u6211\u5e94\u8be5\uff1a\n1. \u786e\u8ba4\u5e76\u8f93\u51fa\u4fee\u8ba2\u540e\u7684Vol4\u89c4\u5212\n2. \u8be2\u95ee\u662f\u5426\u53ef\u4ee5\u5f00\u59cb\u7814\u7a76\n\n\u6216\u8005\uff0c\u6211\u53ef\u4ee5\u76f4\u63a5\u5f00\u59cb\u5236\u5b9a\u8be6\u7ec6\u89c4\u5212\uff0c\u7136\u540e\u542f\u52a8\u7814\u7a76\u3002\n\n\u8ba9\u6211\u5148\u8f93\u51fa\u4fee\u8ba2\u540e\u7684\u8be6\u7ec6Vol4\u89c4\u5212\u4f9b\u7528\u6237\u786e\u8ba4\u3002",
+    "summaries": [
+      {
+        "summary": "\u601d\u8003\u5982\u4f55\u5c06Vol4\u8f6c\u6362\u4e3a\u65b9\u6848A"
+      },
+      {
+        "summary": "\u6838\u5b9e\u65b9\u6848A\u7ae0\u8282\u89c4\u5212\u7684\u5408\u7406\u6027\u4e0e\u53ef\u884c\u6027\u3002"
+      },
+      {
+        "summary": "\u89c4\u5212Vol4\u91cd\u6784\u4e3a\u6e90\u4ee3\u7801\u6df1\u5ea6\u5256\u6790\u65b9\u6848\u3002"
+      }
+    ],
+    "cut_off": false,
+    "alternative_display_type": null
+  },
+  {
+    "start_timestamp": "2026-01-11T04:47:09.595372Z",
+    "stop_timestamp": "2026-01-11T04:47:30.840420Z",
+    "flags": null,
+    "type": "text",
+    "text": "\u597d\u7684\uff0c\u6309\u65b9\u6848A\u91cd\u6784Vol4\u3002\u8ba9\u6211\u5148\u5236\u5b9a\u8be6\u7ec6\u7684\u65b0\u7ae0\u8282\u89c4\u5212\uff1a\n\n---\n\n## Vol4\u4fee\u8ba2\u7248\uff1a\u6e90\u4ee3\u7801\u7ea7\u6df1\u5ea6\u5256\u6790\uff0813\u7ae0\uff0c\u56de\u590d54-66\uff09\n\n### \u6838\u5fc3\u5b9a\u4f4d\u8c03\u6574\n\n| \u5bf9\u6bd4\u9879 | \u539fVol4 | \u65b0Vol4 |\n|:------:|--------|--------|\n| \u7ae0\u8282\u6570 | 20\u7ae0\uff0854-73\uff09 | 13\u7ae0\uff0854-66\uff09 |\n| \u89c6\u89d2 | \u529f\u80fd\u4ecb\u7ecd+\u6e90\u4ee3\u7801\u6df7\u5408 | **\u7eaf\u6e90\u4ee3\u7801\u7ea7\u5256\u6790** |\n| \u4e0eVol3\u5173\u7cfb | \u5927\u91cf\u91cd\u53e0 | **\u4e92\u8865\uff1aVol3\u6982\u5ff5\u8c03\u7814 \u2192 Vol4\u5b9e\u73b0\u7ec6\u8282** |\n| \u72ec\u7279\u4ef7\u503c | \u4e0d\u660e\u786e | **\u63d0\u793a\u8bcd\u9006\u5411\u3001\u67b6\u6784\u5185\u6838\u3001\u4e92\u64cd\u4f5c** |\n\n---\n\n### \u65b0Vol4\u7ae0\u8282\u89c4\u5212\n\n#### \u56de\u590d54-57\uff1aLlamaIndex\u6e90\u4ee3\u7801\u6df1\u5ea6\u89e3\u6790\uff084\u7ae0\uff09\n\n| \u7ae0\u8282 | \u6807\u9898 | \u5185\u5bb9\u8981\u70b9 |\n|:----:|------|----------|\n| 54 | LlamaIndex\u6838\u5fc3\u67b6\u6784\u5256\u6790 | Node/Document\u62bd\u8c61\u5c42\u6e90\u4ee3\u7801\u3001ServiceContext\u6f14\u8fdb\u5230Settings\u3001\u7d22\u5f15\u57fa\u7c7b\u7ee7\u627f\u4f53\u7cfb |\n| 55 | \u7d22\u5f15\u4e0e\u68c0\u7d22\u7cfb\u7edf\u6e90\u4ee3\u7801 | VectorStoreIndex\u5b9e\u73b0\u3001PropertyGraphIndex\uff082024.5\uff09\u3001\u68c0\u7d22\u5668\u63a5\u53e3\u8bbe\u8ba1\u6a21\u5f0f |\n| 56 | Workflows\u4e8b\u4ef6\u9a71\u52a8\u67b6\u6784 | Step\u5b9a\u4e49\u673a\u5236\u3001\u4e8b\u4ef6\u6d41\u6e90\u4ee3\u7801\u3001\u5f02\u6b65\u6267\u884c\u5f15\u64ce\u3001\u72b6\u6001\u6301\u4e45\u5316\u5b9e\u73b0 |\n| 57 | AgentWorkflow\u4e0e\u5de5\u5177\u96c6\u6210 | 2025\u667a\u80fd\u4f53\u5de5\u4f5c\u6d41\u6e90\u4ee3\u7801\u3001Function Calling\u96c6\u6210\u3001\u591a\u667a\u80fd\u4f53\u7f16\u6392\u5185\u90e8\u673a\u5236 |\n\n#### \u56de\u590d58-60\uff1a\u6846\u67b6\u63d0\u793a\u8bcd\u9006\u5411\u5de5\u7a0b\uff083\u7ae0\uff09\n\n| \u7ae0\u8282 | \u6807\u9898 | \u5185\u5bb9\u8981\u70b9 |\n|:----:|------|----------|\n| 58 | LlamaIndex\u9ed8\u8ba4\u63d0\u793a\u8bcd\u6a21\u677f | \u6458\u8981\u751f\u6210\u3001\u95ee\u7b54\u3001\u7ed3\u6784\u5316\u8f93\u51fa\u3001Refine\u7b49\u6838\u5fc3\u63d0\u793a\u8bcd\u9006\u5411\u5206\u6790 |\n| 59 | LangChain/LangGraph\u63d0\u793a\u8bcd | Agent\u63d0\u793a\u8bcd\u3001Router\u63d0\u793a\u8bcd\u3001Memory\u63d0\u793a\u8bcd\u6a21\u677f\u89e3\u6790 |\n| 60 | GraphRAG\u63d0\u793a\u8bcd\u9006\u5411\u5de5\u7a0b | \u5b9e\u4f53\u62bd\u53d6\u3001\u5173\u7cfb\u62bd\u53d6\u3001\u793e\u533a\u6458\u8981\u3001\u7b54\u6848\u751f\u6210\u56db\u5927\u63d0\u793a\u8bcd\u6df1\u5ea6\u5256\u6790 |\n\n#### \u56de\u590d61-63\uff1a\u672a\u8986\u76d6\u4f01\u4e1a\u6846\u67b6\uff083\u7ae0\uff09\n\n| \u7ae0\u8282 | \u6807\u9898 | \u5185\u5bb9\u8981\u70b9 |\n|:----:|------|----------|\n| 61 | Haystack 2.0\u67b6\u6784\u6df1\u5ea6\u89e3\u6790 | Pipeline\u8bbe\u8ba1\u7406\u5ff5\u3001\u7ec4\u4ef6\u5316\u67b6\u6784\u3001\u4e0eLlamaIndex\u5bf9\u6bd4\u3001\u751f\u4ea7\u7ea7\u7279\u6027 |\n| 62 | Microsoft Semantic Kernel | \u4f01\u4e1a\u7ea7RAG\u96c6\u6210\u3001Planner\u67b6\u6784\u3001\u4e0eAzure\u751f\u6001\u534f\u540c\u3001C#/.NET\u5b9e\u73b0 |\n| 63 | RAGFlow\u4e0eDify\u5bf9\u6bd4\u5206\u6790 | \u5f00\u6e90RAG\u5e73\u53f0\u6e90\u4ee3\u7801\u5bf9\u6bd4\u3001UI/\u5de5\u4f5c\u6d41\u5f15\u64ce\u3001\u90e8\u7f72\u67b6\u6784\u5dee\u5f02 |\n\n#### \u56de\u590d64-66\uff1a\u6846\u67b6\u4e92\u64cd\u4f5c\u4e0e\u96c6\u6210\uff083\u7ae0\uff09\n\n| \u7ae0\u8282 | \u6807\u9898 | \u5185\u5bb9\u8981\u70b9 |\n|:----:|------|----------|\n| 64 | LlamaIndex + LangChain\u96c6\u6210 | \u53cc\u6846\u67b6\u534f\u540c\u6a21\u5f0f\u3001\u7ec4\u4ef6\u4e92\u6362\u3001\u6700\u4f73\u5b9e\u8df5 |\n| 65 | DSPy\u4e0eRAG\u6846\u67b6\u8054\u5408\u4f18\u5316 | DSPy\u7f16\u8bd1LlamaIndex/LangChain\u7ba1\u9053\u3001Optimizer\u96c6\u6210 |\n| 66 | MCP\u534f\u8bae\u4e0e\u6846\u67b6\u7edf\u4e00\u63a5\u5165 | MCP Server\u5f00\u53d1\u3001\u591a\u6846\u67b6\u5de5\u5177\u66b4\u9732\u3001Claude Code\u96c6\u6210 |\n\n---\n\n### \u4e0eVol5/Vol6\u7684\u8854\u63a5\u8c03\u6574\n\n| \u5377\u6b21 | \u539f\u89c4\u5212 | \u8c03\u6574\u540e |\n|:----:|--------|--------|\n| Vol4 | 54-73\uff0820\u7ae0\uff09 | **54-66\uff0813\u7ae0\uff09\u6e90\u4ee3\u7801\u5256\u6790** |\n| Vol5 | 74-85\uff0812\u7ae0\uff09\u63d0\u793a\u5de5\u7a0b | 67-78\uff0812\u7ae0\uff09\u63d0\u793a\u5de5\u7a0b\uff08\u7f16\u53f7\u524d\u79fb\uff09 |\n| Vol6 | 86-100\uff0815\u7ae0\uff09\u5de5\u7a0b\u5b9e\u8df5 | 79-93\uff0815\u7ae0\uff09\u5de5\u7a0b\u5b9e\u8df5\uff08\u7f16\u53f7\u524d\u79fb\uff09 |\n\n**\u603b\u7ae0\u8282\u6570**\uff1a93\u7ae0\uff08\u539f100\u7ae0\uff0c\u7cbe\u7b807\u7ae0\u907f\u514d\u91cd\u590d\uff09\n\n---\n\n\u8fd9\u4e2a\u4fee\u8ba2\u89c4\u5212\u662f\u5426\u7b26\u5408\u60a8\u7684\u9884\u671f\uff1f\u786e\u8ba4\u540e\u6211\u7acb\u5373\u542f\u52a8Vol4\u6df1\u5ea6\u7814\u7a76\u3002",
+    "citations": []
+  }
+]
+
+================================================================================
+
+Human:
+Content:
+[
+  {
+    "start_timestamp": "2026-01-11T04:47:56.952257Z",
+    "stop_timestamp": "2026-01-11T04:47:56.952257Z",
+    "flags": null,
+    "type": "text",
+    "text": "\u53ef\u4ee5\uff0c\u628a\u8fd9\u4e2a\u89c4\u5212\u5148\u5199\u5165\u6587\u4ef6\u3002\u7136\u540e\u7acb\u5373\u542f\u52a8Vol4\u6df1\u5ea6\u7814\u7a76\u3002",
+    "citations": []
+  }
+]
+
+================================================================================
+
+Assistant:
+Content:
+[
+  {
+    "start_timestamp": "2026-01-11T04:47:58.407972Z",
+    "stop_timestamp": "2026-01-11T04:47:58.407972Z",
+    "flags": null,
+    "type": "text",
+    "text": "\n\n",
+    "citations": []
+  },
+  {
+    "start_timestamp": "2026-01-11T04:47:58.407972Z",
+    "stop_timestamp": "2026-01-11T04:47:59.948552Z",
+    "flags": null,
+    "type": "thinking",
+    "thinking": "\u7528\u6237\u786e\u8ba4\u4e86Vol4\u7684\u4fee\u8ba2\u89c4\u5212\uff08\u65b9\u6848A\uff09\uff0c\u8981\u6c42\u6211\uff1a\n1. \u5148\u5c06\u89c4\u5212\u5199\u5165\u6587\u4ef6\n2. \u7136\u540e\u7acb\u5373\u542f\u52a8Vol4\u6df1\u5ea6\u7814\u7a76\n\n\u6211\u9700\u8981\uff1a\n1. \u521b\u5efaVol4\u4fee\u8ba2\u89c4\u5212\u6587\u4ef6\n2. \u542f\u52a8\u6df1\u5ea6\u7814\u7a76\u4efb\u52a1\n\n\u8ba9\u6211\u5148\u521b\u5efa\u89c4\u5212\u6587\u4ef6\uff0c\u7136\u540e\u542f\u52a8\u7814\u7a76\u3002",
+    "summaries": [
+      {
+        "summary": "\u89c4\u5212\u5316\u6587\u4ef6\u5e76\u542f\u52a8\u6df1\u5ea6\u7814\u7a76\u4efb\u52a1\u3002"
+      }
+    ],
+    "cut_off": false,
+    "alternative_display_type": null
+  },
+  {
+    "start_timestamp": "2026-01-11T04:48:00.265673Z",
+    "stop_timestamp": "2026-01-11T04:48:01.473796Z",
+    "flags": null,
+    "type": "tool_use",
+    "name": "view",
+    "input": {
+      "path": "/mnt/user-data/outputs/aurolaok",
+      "description": "\u67e5\u770b\u8f93\u51fa\u76ee\u5f55\u7ed3\u6784\uff0c\u786e\u5b9a\u89c4\u5212\u6587\u4ef6\u5b58\u653e\u4f4d\u7f6e"
+    },
+    "message": "\u67e5\u770b\u8f93\u51fa\u76ee\u5f55\u7ed3\u6784\uff0c\u786e\u5b9a\u89c4\u5212\u6587\u4ef6\u5b58\u653e\u4f4d\u7f6e",
+    "integration_name": null,
+    "integration_icon_url": null,
+    "context": null,
+    "display_content": {
+      "type": "text",
+      "text": "\u67e5\u770b\u8f93\u51fa\u76ee\u5f55\u7ed3\u6784\uff0c\u786e\u5b9a\u89c4\u5212\u6587\u4ef6\u5b58\u653e\u4f4d\u7f6e"
+    },
+    "approval_options": null,
+    "approval_key": null
+  },
+  {
+    "start_timestamp": null,
+    "stop_timestamp": null,
+    "flags": null,
+    "type": "tool_result",
+    "name": "view",
+    "content": [
+      {
+        "type": "text",
+        "text": "Here are the files and directories up to 2 levels deep in /mnt/user-data/outputs/aurolaok, excluding hidden items and node_modules:\n1.6M\t/mnt/user-data/outputs/aurolaok\n1.6M\t/mnt/user-data/outputs/aurolaok/docs\n1.6M\t/mnt/user-data/outputs/aurolaok/docs/survey\n",
+        "uuid": "e4b413aa-8e88-40d1-92f6-db16bc1ec666"
+      }
+    ],
+    "is_error": false,
+    "structured_content": null,
+    "meta": null,
+    "message": null,
+    "integration_name": null,
+    "integration_icon_url": null,
+    "display_content": {
+      "type": "json_block",
+      "json_block": "{\"language\": \"text\", \"code\": \"1.6M\\t/mnt/user-data/outputs/aurolaok\\n1.6M\\t/mnt/user-data/outputs/aurolaok/docs\\n1.6M\\t/mnt/user-data/outputs/aurolaok/docs/survey\\n\", \"filename\": \"/mnt/user-data/outputs/aurolaok\"}"
+    }
+  },
+  {
+    "start_timestamp": "2026-01-11T04:48:14.401898Z",
+    "stop_timestamp": "2026-01-11T04:48:14.797665Z",
+    "flags": null,
+    "type": "thinking",
+    "thinking": "\u6211\u9700\u8981\u67e5\u770b\u66f4\u591a\u5c42\u7ea7\u4e86\u89e3\u76ee\u5f55\u7ed3\u6784",
+    "summaries": [],
+    "cut_off": false,
+    "alternative_display_type": null
+  },
+  {
+    "start_timestamp": "2026-01-11T04:48:15.124370Z",
+    "stop_timestamp": "2026-01-11T04:48:15.705710Z",
+    "flags": null,
+    "type": "tool_use",
+    "name": "bash_tool",
+    "input": {
+      "command": "find /mnt/user-data/outputs/aurolaok -type d | head -30",
+      "description": "\u67e5\u770b\u5b8c\u6574\u76ee\u5f55\u7ed3\u6784"
+    },
+    "message": "\u67e5\u770b\u5b8c\u6574\u76ee\u5f55\u7ed3\u6784",
+    "integration_name": null,
+    "integration_icon_url": null,
+    "context": null,
+    "display_content": {
+      "type": "json_block",
+      "json_block": "{\"language\": \"bash\", \"code\": \"find /mnt/user-data/outputs/aurolaok -type d | head -30\"}"
+    },
+    "approval_options": null,
+    "approval_key": null
+  },
+  {
+    "start_timestamp": null,
+    "stop_timestamp": null,
+    "flags": null,
+    "type": "tool_result",
+    "name": "bash_tool",
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"returncode\":0,\"stdout\":\"/mnt/user-data/outputs/aurolaok\\n/mnt/user-data/outputs/aurolaok/docs\\n/mnt/user-data/outputs/aurolaok/docs/survey\\n/mnt/user-data/outputs/aurolaok/docs/survey/vol1\\n/mnt/user-data/outputs/aurolaok/docs/survey/vol1/_research\\n/mnt/user-data/outputs/aurolaok/docs/survey/vol1/ch01_\u7814\u7a76\u80cc\u666f\u4e0e\u95ee\u9898\u5b9a\u4e49\\n/mnt/user-data/outputs/aurolaok/docs/survey/vol1/ch01_\u7814\u7a76\u80cc\u666f\u4e0e\u95ee\u9898\u5b9a\u4e49/_research\\n/mnt/user-data/outputs/aurolaok/docs/survey/vol1/ch01_\u7814\u7a76\u80cc\u666f\u4e0e\u95ee\u9898\u5b9a\u4e49/{_research,_sources,sections}\\n/mnt/user-data/outputs/aurolaok/docs/survey/vol1/ch02_\u7814\u7a76\u65b9\u6cd5\u8bba\\n/mnt/user-data/outputs/aurolaok/docs/survey/vol1/ch02_\u7814\u7a76\u65b9\u6cd5\u8bba/_research\\n/mnt/user-data/outputs/aurolaok/docs/survey/vol1/ch02_\u7814\u7a76\u65b9\u6cd5\u8bba/sections\\n/mnt/user-data/outputs/aurolaok/docs/survey/vol1/ch03_\u5f62\u5f0f\u8bed\u4e49\u5b66\\n/mnt/user-data/outputs/aurolaok/docs/survey/vol1/ch03_\u5f62\u5f0f\u8bed\u4e49\u5b66/_research\\n/mnt/user-data/outputs/aurolaok/docs/survey/vol1/ch04_\u5206\u5e03\u5f0f\u8bed\u4e49\u5b66\\n/mnt/user-data/outputs/aurolaok/docs/survey/vol1/ch04_\u5206\u5e03\u5f0f\u8bed\u4e49\u5b66/_research\\n/mnt/user-data/outputs/aurolaok/docs/survey/vol1/ch05_\u5f62\u5f0f\u4e0e\u5206\u5e03\u5f0f\u878d\u5408\\n/mnt/user-data/outputs/aurolaok/docs/survey/vol1/ch05_\u5f62\u5f0f\u4e0e\u5206\u5e03\u5f0f\u878d\u5408/_research\\n/mnt/user-data/outputs/aurolaok/docs/survey/vol1/ch06_\u683c\u83b1\u65af\u4f1a\u8bdd\u542b\u4e49\\n/mnt/user-data/outputs/aurolaok/docs/survey/vol1/ch06_\u683c\u83b1\u65af\u4f1a\u8bdd\u542b\u4e49/_research\\n/mnt/user-data/outputs/aurolaok/docs/survey/vol1/ch07_\u8a00\u8bed\u884c\u4e3a\u7406\u8bba\\n/mnt/user-data/outputs/aurolaok/docs/survey/vol1/ch07_\u8a00\u8bed\u884c\u4e3a\u7406\u8bba/_research\\n/mnt/user-data/outputs/aurolaok/docs/survey/vol1/ch08_\u5173\u8054\u7406\u8bba\\n/mnt/user-data/outputs/aurolaok/docs/survey/vol1/ch08_\u5173\u8054\u7406\u8bba/_research\\n/mnt/user-data/outputs/aurolaok/docs/survey/vol1/ch09_\u4fee\u8f9e\u7ed3\u6784\u7406\u8bba\\n/mnt/user-data/outputs/aurolaok/docs/survey/vol1/ch09_\u4fee\u8f9e\u7ed3\u6784\u7406\u8bba/_research\\n/mnt/user-data/outputs/aurolaok/docs/survey/vol1/ch10_\u56fe\u5c14\u654f\u8bba\u8bc1\u6a21\u578b\\n/mnt/user-data/outputs/aurolaok/docs/survey/vol1/ch10_\u56fe\u5c14\u654f\u8bba\u8bc1\u6a21\u578b/_research\\n/mnt/user-data/outputs/aurolaok/docs/survey/vol1/ch11_\u6846\u67b6\u8bed\u4e49\u5b66\\n/mnt/user-data/outputs/aurolaok/docs/survey/vol1/ch11_\u6846\u67b6\u8bed\u4e49\u5b66/_research\\n/mnt/user-data/outputs/aurolaok/docs/survey/vol1/ch12_\u6982\u5ff5\u9690\u55bb\u7406\u8bba\\n\",\"stderr\":\"\"}",
+        "uuid": "7f23d4d8-ede5-47b2-b33c-d5e7c0a4c55e"
+      }
+    ],
+    "is_error": false,
+    "structured_content": null,
+    "meta": null,
+    "message": null,
+    "integration_name": null,
+    "integration_icon_url": null,
+    "display_content": {
+      "type": "json_block",
+      "json_block": "{\"returncode\":0,\"stdout\":\"/mnt/user-data/outputs/aurolaok\\n/mnt/user-data/outputs/aurolaok/docs\\n/mnt/user-data/outputs/aurolaok/docs/survey\\n/mnt/user-data/outputs/aurolaok/docs/survey/vol1\\n/mnt/user-data/outputs/aurolaok/docs/survey/vol1/_research\\n/mnt/user-data/outputs/aurolaok/docs/survey/vol1/ch01_\u7814\u7a76\u80cc\u666f\u4e0e\u95ee\u9898\u5b9a\u4e49\\n/mnt/user-data/outputs/aurolaok/docs/survey/vol1/ch01_\u7814\u7a76\u80cc\u666f\u4e0e\u95ee\u9898\u5b9a\u4e49/_research\\n/mnt/user-data/outputs/aurolaok/docs/survey/vol1/ch01_\u7814\u7a76\u80cc\u666f\u4e0e\u95ee\u9898\u5b9a\u4e49/{_research,_sources,sections}\\n/mnt/user-data/outputs/aurolaok/docs/survey/vol1/ch02_\u7814\u7a76\u65b9\u6cd5\u8bba\\n/mnt/user-data/outputs/aurolaok/docs/survey/vol1/ch02_\u7814\u7a76\u65b9\u6cd5\u8bba/_research\\n/mnt/user-data/outputs/aurolaok/docs/survey/vol1/ch02_\u7814\u7a76\u65b9\u6cd5\u8bba/sections\\n/mnt/user-data/outputs/aurolaok/docs/survey/vol1/ch03_\u5f62\u5f0f\u8bed\u4e49\u5b66\\n/mnt/user-data/outputs/aurolaok/docs/survey/vol1/ch03_\u5f62\u5f0f\u8bed\u4e49\u5b66/_research\\n/mnt/user-data/outputs/aurolaok/docs/survey/vol1/ch04_\u5206\u5e03\u5f0f\u8bed\u4e49\u5b66\\n/mnt/user-data/outputs/aurolaok/docs/survey/vol1/ch04_\u5206\u5e03\u5f0f\u8bed\u4e49\u5b66/_research\\n/mnt/user-data/outputs/aurolaok/docs/survey/vol1/ch05_\u5f62\u5f0f\u4e0e\u5206\u5e03\u5f0f\u878d\u5408\\n/mnt/user-data/outputs/aurolaok/docs/survey/vol1/ch05_\u5f62\u5f0f\u4e0e\u5206\u5e03\u5f0f\u878d\u5408/_research\\n/mnt/user-data/outputs/aurolaok/docs/survey/vol1/ch06_\u683c\u83b1\u65af\u4f1a\u8bdd\u542b\u4e49\\n/mnt/user-data/outputs/aurolaok/docs/survey/vol1/ch06_\u683c\u83b1\u65af\u4f1a\u8bdd\u542b\u4e49/_research\\n/mnt/user-data/outputs/aurolaok/docs/survey/vol1/ch07_\u8a00\u8bed\u884c\u4e3a\u7406\u8bba\\n/mnt/user-data/outputs/aurolaok/docs/survey/vol1/ch07_\u8a00\u8bed\u884c\u4e3a\u7406\u8bba/_research\\n/mnt/user-data/outputs/aurolaok/docs/survey/vol1/ch08_\u5173\u8054\u7406\u8bba\\n/mnt/user-data/outputs/aurolaok/docs/survey/vol1/ch08_\u5173\u8054\u7406\u8bba/_research\\n/mnt/user-data/outputs/aurolaok/docs/survey/vol1/ch09_\u4fee\u8f9e\u7ed3\u6784\u7406\u8bba\\n/mnt/user-data/outputs/aurolaok/docs/survey/vol1/ch09_\u4fee\u8f9e\u7ed3\u6784\u7406\u8bba/_research\\n/mnt/user-data/outputs/aurolaok/docs/survey/vol1/ch10_\u56fe\u5c14\u654f\u8bba\u8bc1\u6a21\u578b\\n/mnt/user-data/outputs/aurolaok/docs/survey/vol1/ch10_\u56fe\u5c14\u654f\u8bba\u8bc1\u6a21\u578b/_research\\n/mnt/user-data/outputs/aurolaok/docs/survey/vol1/ch11_\u6846\u67b6\u8bed\u4e49\u5b66\\n/mnt/user-data/outputs/aurolaok/docs/survey/vol1/ch11_\u6846\u67b6\u8bed\u4e49\u5b66/_research\\n/mnt/user-data/outputs/aurolaok/docs/survey/vol1/ch12_\u6982\u5ff5\u9690\u55bb\u7406\u8bba\\n\",\"stderr\":\"\"}"
+    }
+  },
+  {
+    "start_timestamp": "2026-01-11T04:48:18.057027Z",
+    "stop_timestamp": "2026-01-11T04:48:19.462357Z",
+    "flags": null,
+    "type": "thinking",
+    "thinking": "\u73b0\u5728\u6211\u770b\u5230\u4e86\u76ee\u5f55\u7ed3\u6784\u3002\u6211\u9700\u8981\uff1a\n1. \u5728 /mnt/user-data/outputs/aurolaok/docs/survey/ \u4e0b\u521b\u5efa vol4 \u76ee\u5f55\n2. \u521b\u5efa\u89c4\u5212\u6587\u4ef6\n3. \u7136\u540e\u542f\u52a8\u6df1\u5ea6\u7814\u7a76\n\n\u8ba9\u6211\u5148\u521b\u5efa\u76ee\u5f55\u548c\u89c4\u5212\u6587\u4ef6",
+    "summaries": [],
+    "cut_off": false,
+    "alternative_display_type": null
+  },
+  {
+    "start_timestamp": "2026-01-11T04:48:19.779810Z",
+    "stop_timestamp": "2026-01-11T04:48:20.360633Z",
+    "flags": null,
+    "type": "tool_use",
+    "name": "bash_tool",
+    "input": {
+      "command": "mkdir -p /mnt/user-data/outputs/aurolaok/docs/survey/vol4/_research",
+      "description": "\u521b\u5efaVol4\u76ee\u5f55\u7ed3\u6784"
+    },
+    "message": "\u521b\u5efaVol4\u76ee\u5f55\u7ed3\u6784",
+    "integration_name": null,
+    "integration_icon_url": null,
+    "context": null,
+    "display_content": {
+      "type": "json_block",
+      "json_block": "{\"language\": \"bash\", \"code\": \"mkdir -p /mnt/user-data/outputs/aurolaok/docs/survey/vol4/_research\"}"
+    },
+    "approval_options": null,
+    "approval_key": null
+  },
+  {
+    "start_timestamp": null,
+    "stop_timestamp": null,
+    "flags": null,
+    "type": "tool_result",
+    "name": "bash_tool",
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"returncode\":0,\"stdout\":\"\",\"stderr\":\"\"}",
+        "uuid": "8bb550d9-b176-48a0-863c-4a4d63429288"
+      }
+    ],
+    "is_error": false,
+    "structured_content": null,
+    "meta": null,
+    "message": null,
+    "integration_name": null,
+    "integration_icon_url": null,
+    "display_content": {
+      "type": "json_block",
+      "json_block": "{\"returncode\":0,\"stdout\":\"\",\"stderr\":\"\"}"
+    }
+  },
+  {
+    "start_timestamp": "2026-01-11T04:48:23.002783Z",
+    "stop_timestamp": "2026-01-11T04:48:23.291309Z",
+    "flags": null,
+    "type": "thinking",
+    "thinking": "Now I'll create the Vol4 planning document",
+    "summaries": [
+      {
+        "summary": "\u7b79\u5212Vol4\u6df1\u5ea6\u7814\u7a76\u6587\u6863\u67b6\u6784\u3002"
+      }
+    ],
+    "cut_off": false,
+    "alternative_display_type": null
+  },
+  {
+    "start_timestamp": "2026-01-11T04:48:23.570319Z",
+    "stop_timestamp": "2026-01-11T04:49:13.359725Z",
+    "flags": null,
+    "type": "tool_use",
+    "name": "create_file",
+    "input": {
+      "path": "/mnt/user-data/outputs/aurolaok/docs/survey/vol4/00_Vol4_\u4fee\u8ba2\u89c4\u5212_\u6e90\u4ee3\u7801\u7ea7\u6df1\u5ea6\u5256\u6790.md",
+      "file_text": "# \u7b2c\u56db\u5377\u4fee\u8ba2\u89c4\u5212\uff1a\u6e90\u4ee3\u7801\u7ea7\u6df1\u5ea6\u5256\u6790\n\n**\u4fee\u8ba2\u65e5\u671f**\uff1a2026-01-11  \n**\u4fee\u8ba2\u539f\u56e0**\uff1aVol3\u7814\u7a76\u5df2\u8986\u76d6\u539fVol4\u89c4\u5212\u4e2d60%\u4ee5\u4e0a\u5185\u5bb9\uff08GraphRAG\u3001DSPy\u3001LangGraph\u3001MemGPT\u3001\u8bc4\u4f30\u57fa\u51c6\uff09\uff0c\u9700\u91cd\u65b0\u5b9a\u4f4d\u907f\u514d\u91cd\u590d  \n**\u6838\u5fc3\u5b9a\u4f4d**\uff1a\u4ece\"\u529f\u80fd\u4ecb\u7ecd\"\u8f6c\u5411\"\u6e90\u4ee3\u7801\u7ea7\u5256\u6790\"\uff0c\u63d0\u4f9bVol3\u672a\u89e6\u53ca\u7684\u5b9e\u73b0\u7ec6\u8282\u89c6\u89d2\n\n---\n\n## \u4fee\u8ba2\u5bf9\u6bd4\n\n| \u5bf9\u6bd4\u9879 | \u539fVol4 | \u65b0Vol4 |\n|:------:|--------|--------|\n| \u7ae0\u8282\u8303\u56f4 | 54-73\uff0820\u7ae0\uff09 | **54-66\uff0813\u7ae0\uff09** |\n| \u5b57\u6570\u76ee\u6807 | 20\u4e07\u5b57 | **13\u4e07\u5b57** |\n| \u6838\u5fc3\u89c6\u89d2 | \u529f\u80fd\u4ecb\u7ecd+\u6e90\u4ee3\u7801\u6df7\u5408 | **\u7eaf\u6e90\u4ee3\u7801\u7ea7\u5256\u6790** |\n| \u4e0eVol3\u5173\u7cfb | \u5927\u91cf\u91cd\u53e0 | **\u4e92\u8865\uff1aVol3\u6982\u5ff5\u8c03\u7814 \u2192 Vol4\u5b9e\u73b0\u7ec6\u8282** |\n| \u72ec\u7279\u4ef7\u503c | \u4e0d\u660e\u786e | **\u63d0\u793a\u8bcd\u9006\u5411\u3001\u67b6\u6784\u5185\u6838\u3001\u6846\u67b6\u4e92\u64cd\u4f5c** |\n\n---\n\n## \u65b0Vol4\u7ae0\u8282\u89c4\u5212\uff0813\u7ae0\uff0c\u56de\u590d54-66\uff09\n\n### \u7b2c\u4e00\u90e8\u5206\uff1aLlamaIndex\u6e90\u4ee3\u7801\u6df1\u5ea6\u89e3\u6790\uff084\u7ae0\uff09\n\n#### \u7b2c54\u7ae0\uff1aLlamaIndex\u6838\u5fc3\u67b6\u6784\u5256\u6790\n- Node/Document\u62bd\u8c61\u5c42\u6e90\u4ee3\u7801\u5206\u6790\n- ServiceContext\u6f14\u8fdb\u5230Settings\u7684\u67b6\u6784\u53d8\u8fc1\n- \u7d22\u5f15\u57fa\u7c7b\u7ee7\u627f\u4f53\u7cfb\uff08BaseIndex \u2192 VectorStoreIndex/PropertyGraphIndex\uff09\n- IngestionPipeline\u6570\u636e\u6444\u5165\u7ba1\u9053\u6e90\u4ee3\u7801\n- \u4e0eLangChain\u67b6\u6784\u8bbe\u8ba1\u7406\u5ff5\u5bf9\u6bd4\n\n#### \u7b2c55\u7ae0\uff1a\u7d22\u5f15\u4e0e\u68c0\u7d22\u7cfb\u7edf\u6e90\u4ee3\u7801\n- VectorStoreIndex\u5b9e\u73b0\u7ec6\u8282\n- PropertyGraphIndex\uff082024.5\u65b0\u67b6\u6784\uff09\u6e90\u4ee3\u7801\n- \u68c0\u7d22\u5668\u63a5\u53e3\u8bbe\u8ba1\u6a21\u5f0f\uff08BaseRetriever\u7ee7\u627f\u4f53\u7cfb\uff09\n- \u6df7\u5408\u68c0\u7d22\u5b9e\u73b0\uff08BM25 + Vector\u878d\u5408\uff09\n- \u91cd\u6392\u5e8f\u5668\u96c6\u6210\u673a\u5236\uff08Cohere\u3001Cross-Encoder\uff09\n\n#### \u7b2c56\u7ae0\uff1aWorkflows\u4e8b\u4ef6\u9a71\u52a8\u67b6\u6784\n- Step\u5b9a\u4e49\u673a\u5236\u4e0e\u88c5\u9970\u5668\u5b9e\u73b0\n- \u4e8b\u4ef6\u6d41\uff08Event Flow\uff09\u6e90\u4ee3\u7801\u5256\u6790\n- \u5f02\u6b65\u6267\u884c\u5f15\u64ce\uff08asyncio\u96c6\u6210\uff09\n- \u72b6\u6001\u6301\u4e45\u5316\u5b9e\u73b0\uff08Checkpointing\uff09\n- \u4e0eLangGraph\u72b6\u6001\u673a\u5bf9\u6bd4\u5206\u6790\n\n#### \u7b2c57\u7ae0\uff1aAgentWorkflow\u4e0e\u5de5\u5177\u96c6\u6210\n- 2025\u667a\u80fd\u4f53\u5de5\u4f5c\u6d41\u6e90\u4ee3\u7801\n- Function Calling\u96c6\u6210\u673a\u5236\n- \u5de5\u5177\u6ce8\u518c\u4e0e\u8c03\u7528\u94fe\u8def\n- \u591a\u667a\u80fd\u4f53\u7f16\u6392\u5185\u90e8\u673a\u5236\n- Agentic Document Workflows\u5b9e\u73b0\n\n### \u7b2c\u4e8c\u90e8\u5206\uff1a\u6846\u67b6\u63d0\u793a\u8bcd\u9006\u5411\u5de5\u7a0b\uff083\u7ae0\uff09\n\n#### \u7b2c58\u7ae0\uff1aLlamaIndex\u9ed8\u8ba4\u63d0\u793a\u8bcd\u6a21\u677f\n- \u6458\u8981\u751f\u6210\u63d0\u793a\u8bcd\uff08TreeSummarize\u3001Refine\uff09\n- \u95ee\u7b54\u63d0\u793a\u8bcd\uff08SimpleQA\u3001CondenseQuestion\uff09\n- \u7ed3\u6784\u5316\u8f93\u51fa\u63d0\u793a\u8bcd\uff08Pydantic\u7a0b\u5e8f\uff09\n- \u68c0\u7d22\u8bc4\u4f30\u63d0\u793a\u8bcd\n- \u63d0\u793a\u8bcd\u6a21\u677f\u7684\u81ea\u5b9a\u4e49\u4e0e\u6269\u5c55\u673a\u5236\n\n#### \u7b2c59\u7ae0\uff1aLangChain/LangGraph\u63d0\u793a\u8bcd\n- Agent\u7cfb\u7edf\u63d0\u793a\u8bcd\uff08ReAct\u3001Plan-and-Execute\uff09\n- Router\u63d0\u793a\u8bcd\uff08\u8bed\u4e49\u8def\u7531\u3001\u6761\u4ef6\u5206\u652f\uff09\n- Memory\u63d0\u793a\u8bcd\uff08ConversationBuffer\u3001Summary\uff09\n- \u7ed3\u6784\u5316\u8f93\u51fa\u63d0\u793a\u8bcd\n- \u63d0\u793a\u8bcd\u4e0eRunnable\u63a5\u53e3\u7684\u96c6\u6210\n\n#### \u7b2c60\u7ae0\uff1aGraphRAG\u63d0\u793a\u8bcd\u9006\u5411\u5de5\u7a0b\n- \u5b9e\u4f53\u62bd\u53d6\u63d0\u793a\u8bcd\u5b8c\u6574\u89e3\u6790\uff08entity_extraction.txt\uff09\n- \u5173\u7cfb\u62bd\u53d6\u63d0\u793a\u8bcd\u6a21\u5f0f\uff08claim_extraction.txt\uff09\n- \u793e\u533a\u6458\u8981\u751f\u6210\u63d0\u793a\u8bcd\u8bbe\u8ba1\uff08summarize_descriptions.txt\uff09\n- \u7b54\u6848\u751f\u6210\u63d0\u793a\u8bcd\u4f18\u5316\uff08generate_response.txt\uff09\n- \u63d0\u793a\u8bcd\u8c03\u4f18\u5bf9\u8f93\u51fa\u8d28\u91cf\u7684\u5f71\u54cd\u5b9e\u9a8c\n\n### \u7b2c\u4e09\u90e8\u5206\uff1a\u672a\u8986\u76d6\u4f01\u4e1a\u6846\u67b6\uff083\u7ae0\uff09\n\n#### \u7b2c61\u7ae0\uff1aHaystack 2.0\u67b6\u6784\u6df1\u5ea6\u89e3\u6790\n- Pipeline\u8bbe\u8ba1\u7406\u5ff5\uff08\u58f0\u660e\u5f0f vs \u547d\u4ee4\u5f0f\uff09\n- \u7ec4\u4ef6\u5316\u67b6\u6784\uff08Component\u534f\u8bae\uff09\n- \u4e0eLlamaIndex/LangChain\u67b6\u6784\u5bf9\u6bd4\n- \u751f\u4ea7\u7ea7\u7279\u6027\uff08\u53ef\u89c2\u6d4b\u6027\u3001\u90e8\u7f72\uff09\n- Haystack 2.0\u8fc1\u79fb\u6307\u5357\u4e0e\u6700\u4f73\u5b9e\u8df5\n\n#### \u7b2c62\u7ae0\uff1aMicrosoft Semantic Kernel\n- \u4f01\u4e1a\u7ea7RAG\u96c6\u6210\u67b6\u6784\n- Planner\u67b6\u6784\uff08SequentialPlanner\u3001StepwisePlanner\uff09\n- \u4e0eAzure\u751f\u6001\u534f\u540c\uff08Azure AI Search\u3001Cosmos DB\uff09\n- C#/.NET\u5b9e\u73b0 vs Python SDK\n- Semantic Kernel + AutoGen\u6574\u5408\u8d8b\u52bf\n\n#### \u7b2c63\u7ae0\uff1aRAGFlow\u4e0eDify\u5bf9\u6bd4\u5206\u6790\n- \u5f00\u6e90RAG\u5e73\u53f0\u5b9a\u4f4d\u5dee\u5f02\n- \u6e90\u4ee3\u7801\u67b6\u6784\u5bf9\u6bd4\uff08\u540e\u7aef/\u524d\u7aef/\u5411\u91cf\u5b58\u50a8\uff09\n- UI/\u5de5\u4f5c\u6d41\u5f15\u64ce\u8bbe\u8ba1\n- \u90e8\u7f72\u67b6\u6784\u5dee\u5f02\uff08Docker\u3001Kubernetes\uff09\n- \u4f01\u4e1a\u7ea7\u529f\u80fd\u5bf9\u6bd4\uff08\u6743\u9650\u3001\u5ba1\u8ba1\u3001\u591a\u79df\u6237\uff09\n\n### \u7b2c\u56db\u90e8\u5206\uff1a\u6846\u67b6\u4e92\u64cd\u4f5c\u4e0e\u96c6\u6210\uff083\u7ae0\uff09\n\n#### \u7b2c64\u7ae0\uff1aLlamaIndex + LangChain\u96c6\u6210\n- \u53cc\u6846\u67b6\u534f\u540c\u6a21\u5f0f\u8bbe\u8ba1\n- LlamaIndex\u68c0\u7d22\u5668 \u2192 LangChain Tool\n- LangChain Agent \u2192 LlamaIndex\u7d22\u5f15\n- \u7ec4\u4ef6\u4e92\u6362\u6700\u4f73\u5b9e\u8df5\n- \u6027\u80fd\u4e0e\u7ef4\u62a4\u6027\u6743\u8861\n\n#### \u7b2c65\u7ae0\uff1aDSPy\u4e0eRAG\u6846\u67b6\u8054\u5408\u4f18\u5316\n- DSPy\u7f16\u8bd1LlamaIndex\u7ba1\u9053\n- DSPy\u7f16\u8bd1LangChain\u7ba1\u9053\n- Optimizer\u96c6\u6210\uff08BootstrapFewShot\u3001MIPROv2\uff09\n- \u7aef\u5230\u7aefRAG\u7cfb\u7edf\u7684\u58f0\u660e\u5f0f\u4f18\u5316\n- \u4f18\u5316\u524d\u540e\u6027\u80fd\u5bf9\u6bd4\u6848\u4f8b\n\n#### \u7b2c66\u7ae0\uff1aMCP\u534f\u8bae\u4e0e\u6846\u67b6\u7edf\u4e00\u63a5\u5165\n- MCP Server\u5f00\u53d1\u5b9e\u8df5\n- \u591a\u6846\u67b6\u5de5\u5177\u66b4\u9732\uff08LlamaIndex/LangChain/Haystack\uff09\n- Claude Code\u96c6\u6210\u6a21\u5f0f\n- \u8d44\u6e90/\u5de5\u5177/\u63d0\u793a\u4e09\u539f\u8bed\u7684RAG\u5e94\u7528\n- MCP\u751f\u6001\u4e0eA2A\u534f\u8bae\u5c55\u671b\n\n---\n\n## \u4e0e\u5176\u4ed6\u5377\u6b21\u7684\u8854\u63a5\n\n### \u7ae0\u8282\u7f16\u53f7\u8c03\u6574\n\n| \u5377\u6b21 | \u539f\u89c4\u5212 | \u8c03\u6574\u540e |\n|:----:|--------|--------|\n| Vol1 | 1-18\uff0818\u7ae0\uff09 | 1-18\uff08\u4e0d\u53d8\uff09 |\n| Vol2 | 19-38\uff0820\u7ae0\uff09 | 19-38\uff08\u4e0d\u53d8\uff09 |\n| Vol3 | 39-53\uff0815\u7ae0\uff09 | 39-53\uff08\u4e0d\u53d8\uff09 |\n| **Vol4** | 54-73\uff0820\u7ae0\uff09 | **54-66\uff0813\u7ae0\uff09** |\n| Vol5 | 74-85\uff0812\u7ae0\uff09 | **67-78\uff0812\u7ae0\uff09** |\n| Vol6 | 86-100\uff0815\u7ae0\uff09 | **79-93\uff0815\u7ae0\uff09** |\n\n### \u603b\u7ae0\u8282\u6570\n\n- **\u539f\u89c4\u5212**\uff1a100\u7ae0\n- **\u4fee\u8ba2\u540e**\uff1a93\u7ae0\uff08\u7cbe\u7b807\u7ae0\u907f\u514d\u91cd\u590d\uff09\n\n### Vol3 \u2192 Vol4\u8854\u63a5\n\n| Vol3\u5df2\u8986\u76d6 | Vol4\u6df1\u5316\u65b9\u5411 |\n|-----------|-------------|\n| GraphRAG\u67b6\u6784\u6982\u5ff5 | GraphRAG\u63d0\u793a\u8bcd\u9006\u5411\u5de5\u7a0b |\n| DSPy Signatures/Modules | DSPy\u4e0eRAG\u6846\u67b6\u8054\u5408\u4f18\u5316 |\n| LangGraph\u72b6\u6001\u673a\u6982\u5ff5 | LangGraph\u63d0\u793a\u8bcd\u6a21\u677f\u5206\u6790 |\n| MemGPT\u8bb0\u5fc6\u67b6\u6784 | \uff08\u79fb\u81f3Vol6\u5de5\u7a0b\u5b9e\u8df5\uff09 |\n| \u8bc4\u4f30\u57fa\u51c6RAGAS\u7b49 | \uff08\u5df2\u5b8c\u6210\uff0c\u4e0d\u518d\u91cd\u590d\uff09 |\n\n### Vol4 \u2192 Vol5\u8854\u63a5\n\n- Vol4\u7b2c58-60\u7ae0\uff08\u63d0\u793a\u8bcd\u9006\u5411\uff09\u4e3aVol5\uff08\u63d0\u793a\u5de5\u7a0b\u65b9\u6cd5\u8bba\uff09\u63d0\u4f9b\u5b9e\u8bc1\u57fa\u7840\n- Vol4\u6846\u67b6\u4e92\u64cd\u4f5c\u7ecf\u9a8c\u6307\u5bfcVol5\u63d0\u793a\u8bbe\u8ba1\u539f\u5219\n\n### Vol4 \u2192 Vol6\u8854\u63a5\n\n- Vol4\u6e90\u4ee3\u7801\u5206\u6790\u4e3aVol6\u5de5\u7a0b\u5b9e\u8df5\u63d0\u4f9b\u6280\u672f\u7ec6\u8282\n- Vol4 MCP\u96c6\u6210\uff08\u7b2c66\u7ae0\uff09\u76f4\u63a5\u8854\u63a5Vol6 Claude Code\u5de5\u4f5c\u6d41\n\n---\n\n## \u7814\u7a76\u8ba1\u5212\n\n### \u6279\u6b21\u5212\u5206\n\n| \u6279\u6b21 | \u7ae0\u8282 | \u4e3b\u9898 | \u9884\u8ba1\u65f6\u95f4 |\n|:----:|:----:|------|:--------:|\n| Vol4-01 | 54-57 | LlamaIndex\u6e90\u4ee3\u7801\u6df1\u5ea6\u89e3\u6790 | \u6df1\u5ea6\u7814\u7a76 |\n| Vol4-02 | 58-60 | \u6846\u67b6\u63d0\u793a\u8bcd\u9006\u5411\u5de5\u7a0b | \u6df1\u5ea6\u7814\u7a76 |\n| Vol4-03 | 61-63 | Haystack/Semantic Kernel/RAGFlow | \u6df1\u5ea6\u7814\u7a76 |\n| Vol4-04 | 64-66 | \u6846\u67b6\u4e92\u64cd\u4f5c\u4e0eMCP\u96c6\u6210 | \u6df1\u5ea6\u7814\u7a76 |\n\n### \u7814\u7a76\u91cd\u70b9\n\n1. **\u6e90\u4ee3\u7801\u7ea7\u5206\u6790**\uff1a\u4e0d\u4ec5\u63cf\u8ff0\u529f\u80fd\uff0c\u66f4\u8981\u5256\u6790\u5b9e\u73b0\u673a\u5236\n2. **\u63d0\u793a\u8bcd\u9006\u5411**\uff1a\u63d0\u53d6\u3001\u5206\u6790\u3001\u5bf9\u6bd4\u5404\u6846\u67b6\u9ed8\u8ba4\u63d0\u793a\u8bcd\n3. **\u67b6\u6784\u5bf9\u6bd4**\uff1a\u540c\u7c7b\u6846\u67b6\u7684\u8bbe\u8ba1\u7406\u5ff5\u4e0e\u5b9e\u73b0\u5dee\u5f02\n4. **\u4e92\u64cd\u4f5c\u5b9e\u8df5**\uff1a\u591a\u6846\u67b6\u534f\u540c\u7684\u771f\u5b9e\u573a\u666f\u4e0e\u89e3\u51b3\u65b9\u6848\n\n---\n\n## \u7248\u672c\u5386\u53f2\n\n- v1.0 (2026-01-08)\uff1a\u539f\u59cb\u89c4\u5212\uff0c54-73\u7ae0\n- **v2.0 (2026-01-11)**\uff1a\u4fee\u8ba2\u7248\uff0c54-66\u7ae0\uff0c\u6e90\u4ee3\u7801\u7ea7\u6df1\u5ea6\u5256\u6790\u5b9a\u4f4d\n",
+      "description": "\u521b\u5efaVol4\u4fee\u8ba2\u7248\u89c4\u5212\u6587\u4ef6"
+    },
+    "message": "\u521b\u5efaVol4\u4fee\u8ba2\u7248\u89c4\u5212\u6587\u4ef6",
+    "integration_name": null,
+    "integration_icon_url": null,
+    "context": null,
+    "display_content": {
+      "type": "json_block",
+      "json_block": "{\"language\": \"markdown\", \"code\": \"# \\u7b2c\\u56db\\u5377\\u4fee\\u8ba2\\u89c4\\u5212\\uff1a\\u6e90\\u4ee3\\u7801\\u7ea7\\u6df1\\u5ea6\\u5256\\u6790\\n\\n**\\u4fee\\u8ba2\\u65e5\\u671f**\\uff1a2026-01-11  \\n**\\u4fee\\u8ba2\\u539f\\u56e0**\\uff1aVol3\\u7814\\u7a76\\u5df2\\u8986\\u76d6\\u539fVol4\\u89c4\\u5212\\u4e2d60%\\u4ee5\\u4e0a\\u5185\\u5bb9\\uff08GraphRAG\\u3001DSPy\\u3001LangGraph\\u3001MemGPT\\u3001\\u8bc4\\u4f30\\u57fa\\u51c6\\uff09\\uff0c\\u9700\\u91cd\\u65b0\\u5b9a\\u4f4d\\u907f\\u514d\\u91cd\\u590d  \\n**\\u6838\\u5fc3\\u5b9a\\u4f4d**\\uff1a\\u4ece\\\"\\u529f\\u80fd\\u4ecb\\u7ecd\\\"\\u8f6c\\u5411\\\"\\u6e90\\u4ee3\\u7801\\u7ea7\\u5256\\u6790\\\"\\uff0c\\u63d0\\u4f9bVol3\\u672a\\u89e6\\u53ca\\u7684\\u5b9e\\u73b0\\u7ec6\\u8282\\u89c6\\u89d2\\n\\n---\\n\\n## \\u4fee\\u8ba2\\u5bf9\\u6bd4\\n\\n| \\u5bf9\\u6bd4\\u9879 | \\u539fVol4 | \\u65b0Vol4 |\\n|:------:|--------|--------|\\n| \\u7ae0\\u8282\\u8303\\u56f4 | 54-73\\uff0820\\u7ae0\\uff09 | **54-66\\uff0813\\u7ae0\\uff09** |\\n| \\u5b57\\u6570\\u76ee\\u6807 | 20\\u4e07\\u5b57 | **13\\u4e07\\u5b57** |\\n| \\u6838\\u5fc3\\u89c6\\u89d2 | \\u529f\\u80fd\\u4ecb\\u7ecd+\\u6e90\\u4ee3\\u7801\\u6df7\\u5408 | **\\u7eaf\\u6e90\\u4ee3\\u7801\\u7ea7\\u5256\\u6790** |\\n| \\u4e0eVol3\\u5173\\u7cfb | \\u5927\\u91cf\\u91cd\\u53e0 | **\\u4e92\\u8865\\uff1aVol3\\u6982\\u5ff5\\u8c03\\u7814 \\u2192 Vol4\\u5b9e\\u73b0\\u7ec6\\u8282** |\\n| \\u72ec\\u7279\\u4ef7\\u503c | \\u4e0d\\u660e\\u786e | **\\u63d0\\u793a\\u8bcd\\u9006\\u5411\\u3001\\u67b6\\u6784\\u5185\\u6838\\u3001\\u6846\\u67b6\\u4e92\\u64cd\\u4f5c** |\\n\\n---\\n\\n## \\u65b0Vol4\\u7ae0\\u8282\\u89c4\\u5212\\uff0813\\u7ae0\\uff0c\\u56de\\u590d54-66\\uff09\\n\\n### \\u7b2c\\u4e00\\u90e8\\u5206\\uff1aLlamaIndex\\u6e90\\u4ee3\\u7801\\u6df1\\u5ea6\\u89e3\\u6790\\uff084\\u7ae0\\uff09\\n\\n#### \\u7b2c54\\u7ae0\\uff1aLlamaIndex\\u6838\\u5fc3\\u67b6\\u6784\\u5256\\u6790\\n- Node/Document\\u62bd\\u8c61\\u5c42\\u6e90\\u4ee3\\u7801\\u5206\\u6790\\n- ServiceContext\\u6f14\\u8fdb\\u5230Settings\\u7684\\u67b6\\u6784\\u53d8\\u8fc1\\n- \\u7d22\\u5f15\\u57fa\\u7c7b\\u7ee7\\u627f\\u4f53\\u7cfb\\uff08BaseIndex \\u2192 VectorStoreIndex/PropertyGraphIndex\\uff09\\n- IngestionPipeline\\u6570\\u636e\\u6444\\u5165\\u7ba1\\u9053\\u6e90\\u4ee3\\u7801\\n- \\u4e0eLangChain\\u67b6\\u6784\\u8bbe\\u8ba1\\u7406\\u5ff5\\u5bf9\\u6bd4\\n\\n#### \\u7b2c55\\u7ae0\\uff1a\\u7d22\\u5f15\\u4e0e\\u68c0\\u7d22\\u7cfb\\u7edf\\u6e90\\u4ee3\\u7801\\n- VectorStoreIndex\\u5b9e\\u73b0\\u7ec6\\u8282\\n- PropertyGraphIndex\\uff082024.5\\u65b0\\u67b6\\u6784\\uff09\\u6e90\\u4ee3\\u7801\\n- \\u68c0\\u7d22\\u5668\\u63a5\\u53e3\\u8bbe\\u8ba1\\u6a21\\u5f0f\\uff08BaseRetriever\\u7ee7\\u627f\\u4f53\\u7cfb\\uff09\\n- \\u6df7\\u5408\\u68c0\\u7d22\\u5b9e\\u73b0\\uff08BM25 + Vector\\u878d\\u5408\\uff09\\n- \\u91cd\\u6392\\u5e8f\\u5668\\u96c6\\u6210\\u673a\\u5236\\uff08Cohere\\u3001Cross-Encoder\\uff09\\n\\n#### \\u7b2c56\\u7ae0\\uff1aWorkflows\\u4e8b\\u4ef6\\u9a71\\u52a8\\u67b6\\u6784\\n- Step\\u5b9a\\u4e49\\u673a\\u5236\\u4e0e\\u88c5\\u9970\\u5668\\u5b9e\\u73b0\\n- \\u4e8b\\u4ef6\\u6d41\\uff08Event Flow\\uff09\\u6e90\\u4ee3\\u7801\\u5256\\u6790\\n- \\u5f02\\u6b65\\u6267\\u884c\\u5f15\\u64ce\\uff08asyncio\\u96c6\\u6210\\uff09\\n- \\u72b6\\u6001\\u6301\\u4e45\\u5316\\u5b9e\\u73b0\\uff08Checkpointing\\uff09\\n- \\u4e0eLangGraph\\u72b6\\u6001\\u673a\\u5bf9\\u6bd4\\u5206\\u6790\\n\\n#### \\u7b2c57\\u7ae0\\uff1aAgentWorkflow\\u4e0e\\u5de5\\u5177\\u96c6\\u6210\\n- 2025\\u667a\\u80fd\\u4f53\\u5de5\\u4f5c\\u6d41\\u6e90\\u4ee3\\u7801\\n- Function Calling\\u96c6\\u6210\\u673a\\u5236\\n- \\u5de5\\u5177\\u6ce8\\u518c\\u4e0e\\u8c03\\u7528\\u94fe\\u8def\\n- \\u591a\\u667a\\u80fd\\u4f53\\u7f16\\u6392\\u5185\\u90e8\\u673a\\u5236\\n- Agentic Document Workflows\\u5b9e\\u73b0\\n\\n### \\u7b2c\\u4e8c\\u90e8\\u5206\\uff1a\\u6846\\u67b6\\u63d0\\u793a\\u8bcd\\u9006\\u5411\\u5de5\\u7a0b\\uff083\\u7ae0\\uff09\\n\\n#### \\u7b2c58\\u7ae0\\uff1aLlamaIndex\\u9ed8\\u8ba4\\u63d0\\u793a\\u8bcd\\u6a21\\u677f\\n- \\u6458\\u8981\\u751f\\u6210\\u63d0\\u793a\\u8bcd\\uff08TreeSummarize\\u3001Refine\\uff09\\n- \\u95ee\\u7b54\\u63d0\\u793a\\u8bcd\\uff08SimpleQA\\u3001CondenseQuestion\\uff09\\n- \\u7ed3\\u6784\\u5316\\u8f93\\u51fa\\u63d0\\u793a\\u8bcd\\uff08Pydantic\\u7a0b\\u5e8f\\uff09\\n- \\u68c0\\u7d22\\u8bc4\\u4f30\\u63d0\\u793a\\u8bcd\\n- \\u63d0\\u793a\\u8bcd\\u6a21\\u677f\\u7684\\u81ea\\u5b9a\\u4e49\\u4e0e\\u6269\\u5c55\\u673a\\u5236\\n\\n#### \\u7b2c59\\u7ae0\\uff1aLangChain/LangGraph\\u63d0\\u793a\\u8bcd\\n- Agent\\u7cfb\\u7edf\\u63d0\\u793a\\u8bcd\\uff08ReAct\\u3001Plan-and-Execute\\uff09\\n- Router\\u63d0\\u793a\\u8bcd\\uff08\\u8bed\\u4e49\\u8def\\u7531\\u3001\\u6761\\u4ef6\\u5206\\u652f\\uff09\\n- Memory\\u63d0\\u793a\\u8bcd\\uff08ConversationBuffer\\u3001Summary\\uff09\\n- \\u7ed3\\u6784\\u5316\\u8f93\\u51fa\\u63d0\\u793a\\u8bcd\\n- \\u63d0\\u793a\\u8bcd\\u4e0eRunnable\\u63a5\\u53e3\\u7684\\u96c6\\u6210\\n\\n#### \\u7b2c60\\u7ae0\\uff1aGraphRAG\\u63d0\\u793a\\u8bcd\\u9006\\u5411\\u5de5\\u7a0b\\n- \\u5b9e\\u4f53\\u62bd\\u53d6\\u63d0\\u793a\\u8bcd\\u5b8c\\u6574\\u89e3\\u6790\\uff08entity_extraction.txt\\uff09\\n- \\u5173\\u7cfb\\u62bd\\u53d6\\u63d0\\u793a\\u8bcd\\u6a21\\u5f0f\\uff08claim_extraction.txt\\uff09\\n- \\u793e\\u533a\\u6458\\u8981\\u751f\\u6210\\u63d0\\u793a\\u8bcd\\u8bbe\\u8ba1\\uff08summarize_descriptions.txt\\uff09\\n- \\u7b54\\u6848\\u751f\\u6210\\u63d0\\u793a\\u8bcd\\u4f18\\u5316\\uff08generate_response.txt\\uff09\\n- \\u63d0\\u793a\\u8bcd\\u8c03\\u4f18\\u5bf9\\u8f93\\u51fa\\u8d28\\u91cf\\u7684\\u5f71\\u54cd\\u5b9e\\u9a8c\\n\\n### \\u7b2c\\u4e09\\u90e8\\u5206\\uff1a\\u672a\\u8986\\u76d6\\u4f01\\u4e1a\\u6846\\u67b6\\uff083\\u7ae0\\uff09\\n\\n#### \\u7b2c61\\u7ae0\\uff1aHaystack 2.0\\u67b6\\u6784\\u6df1\\u5ea6\\u89e3\\u6790\\n- Pipeline\\u8bbe\\u8ba1\\u7406\\u5ff5\\uff08\\u58f0\\u660e\\u5f0f vs \\u547d\\u4ee4\\u5f0f\\uff09\\n- \\u7ec4\\u4ef6\\u5316\\u67b6\\u6784\\uff08Component\\u534f\\u8bae\\uff09\\n- \\u4e0eLlamaIndex/LangChain\\u67b6\\u6784\\u5bf9\\u6bd4\\n- \\u751f\\u4ea7\\u7ea7\\u7279\\u6027\\uff08\\u53ef\\u89c2\\u6d4b\\u6027\\u3001\\u90e8\\u7f72\\uff09\\n- Haystack 2.0\\u8fc1\\u79fb\\u6307\\u5357\\u4e0e\\u6700\\u4f73\\u5b9e\\u8df5\\n\\n#### \\u7b2c62\\u7ae0\\uff1aMicrosoft Semantic Kernel\\n- \\u4f01\\u4e1a\\u7ea7RAG\\u96c6\\u6210\\u67b6\\u6784\\n- Planner\\u67b6\\u6784\\uff08SequentialPlanner\\u3001StepwisePlanner\\uff09\\n- \\u4e0eAzure\\u751f\\u6001\\u534f\\u540c\\uff08Azure AI Search\\u3001Cosmos DB\\uff09\\n- C#/.NET\\u5b9e\\u73b0 vs Python SDK\\n- Semantic Kernel + AutoGen\\u6574\\u5408\\u8d8b\\u52bf\\n\\n#### \\u7b2c63\\u7ae0\\uff1aRAGFlow\\u4e0eDify\\u5bf9\\u6bd4\\u5206\\u6790\\n- \\u5f00\\u6e90RAG\\u5e73\\u53f0\\u5b9a\\u4f4d\\u5dee\\u5f02\\n- \\u6e90\\u4ee3\\u7801\\u67b6\\u6784\\u5bf9\\u6bd4\\uff08\\u540e\\u7aef/\\u524d\\u7aef/\\u5411\\u91cf\\u5b58\\u50a8\\uff09\\n- UI/\\u5de5\\u4f5c\\u6d41\\u5f15\\u64ce\\u8bbe\\u8ba1\\n- \\u90e8\\u7f72\\u67b6\\u6784\\u5dee\\u5f02\\uff08Docker\\u3001Kubernetes\\uff09\\n- \\u4f01\\u4e1a\\u7ea7\\u529f\\u80fd\\u5bf9\\u6bd4\\uff08\\u6743\\u9650\\u3001\\u5ba1\\u8ba1\\u3001\\u591a\\u79df\\u6237\\uff09\\n\\n### \\u7b2c\\u56db\\u90e8\\u5206\\uff1a\\u6846\\u67b6\\u4e92\\u64cd\\u4f5c\\u4e0e\\u96c6\\u6210\\uff083\\u7ae0\\uff09\\n\\n#### \\u7b2c64\\u7ae0\\uff1aLlamaIndex + LangChain\\u96c6\\u6210\\n- \\u53cc\\u6846\\u67b6\\u534f\\u540c\\u6a21\\u5f0f\\u8bbe\\u8ba1\\n- LlamaIndex\\u68c0\\u7d22\\u5668 \\u2192 LangChain Tool\\n- LangChain Agent \\u2192 LlamaIndex\\u7d22\\u5f15\\n- \\u7ec4\\u4ef6\\u4e92\\u6362\\u6700\\u4f73\\u5b9e\\u8df5\\n- \\u6027\\u80fd\\u4e0e\\u7ef4\\u62a4\\u6027\\u6743\\u8861\\n\\n#### \\u7b2c65\\u7ae0\\uff1aDSPy\\u4e0eRAG\\u6846\\u67b6\\u8054\\u5408\\u4f18\\u5316\\n- DSPy\\u7f16\\u8bd1LlamaIndex\\u7ba1\\u9053\\n- DSPy\\u7f16\\u8bd1LangChain\\u7ba1\\u9053\\n- Optimizer\\u96c6\\u6210\\uff08BootstrapFewShot\\u3001MIPROv2\\uff09\\n- \\u7aef\\u5230\\u7aefRAG\\u7cfb\\u7edf\\u7684\\u58f0\\u660e\\u5f0f\\u4f18\\u5316\\n- \\u4f18\\u5316\\u524d\\u540e\\u6027\\u80fd\\u5bf9\\u6bd4\\u6848\\u4f8b\\n\\n#### \\u7b2c66\\u7ae0\\uff1aMCP\\u534f\\u8bae\\u4e0e\\u6846\\u67b6\\u7edf\\u4e00\\u63a5\\u5165\\n- MCP Server\\u5f00\\u53d1\\u5b9e\\u8df5\\n- \\u591a\\u6846\\u67b6\\u5de5\\u5177\\u66b4\\u9732\\uff08LlamaIndex/LangChain/Haystack\\uff09\\n- Claude Code\\u96c6\\u6210\\u6a21\\u5f0f\\n- \\u8d44\\u6e90/\\u5de5\\u5177/\\u63d0\\u793a\\u4e09\\u539f\\u8bed\\u7684RAG\\u5e94\\u7528\\n- MCP\\u751f\\u6001\\u4e0eA2A\\u534f\\u8bae\\u5c55\\u671b\\n\\n---\\n\\n## \\u4e0e\\u5176\\u4ed6\\u5377\\u6b21\\u7684\\u8854\\u63a5\\n\\n### \\u7ae0\\u8282\\u7f16\\u53f7\\u8c03\\u6574\\n\\n| \\u5377\\u6b21 | \\u539f\\u89c4\\u5212 | \\u8c03\\u6574\\u540e |\\n|:----:|--------|--------|\\n| Vol1 | 1-18\\uff0818\\u7ae0\\uff09 | 1-18\\uff08\\u4e0d\\u53d8\\uff09 |\\n| Vol2 | 19-38\\uff0820\\u7ae0\\uff09 | 19-38\\uff08\\u4e0d\\u53d8\\uff09 |\\n| Vol3 | 39-53\\uff0815\\u7ae0\\uff09 | 39-53\\uff08\\u4e0d\\u53d8\\uff09 |\\n| **Vol4** | 54-73\\uff0820\\u7ae0\\uff09 | **54-66\\uff0813\\u7ae0\\uff09** |\\n| Vol5 | 74-85\\uff0812\\u7ae0\\uff09 | **67-78\\uff0812\\u7ae0\\uff09** |\\n| Vol6 | 86-100\\uff0815\\u7ae0\\uff09 | **79-93\\uff0815\\u7ae0\\uff09** |\\n\\n### \\u603b\\u7ae0\\u8282\\u6570\\n\\n- **\\u539f\\u89c4\\u5212**\\uff1a100\\u7ae0\\n- **\\u4fee\\u8ba2\\u540e**\\uff1a93\\u7ae0\\uff08\\u7cbe\\u7b807\\u7ae0\\u907f\\u514d\\u91cd\\u590d\\uff09\\n\\n### Vol3 \\u2192 Vol4\\u8854\\u63a5\\n\\n| Vol3\\u5df2\\u8986\\u76d6 | Vol4\\u6df1\\u5316\\u65b9\\u5411 |\\n|-----------|-------------|\\n| GraphRAG\\u67b6\\u6784\\u6982\\u5ff5 | GraphRAG\\u63d0\\u793a\\u8bcd\\u9006\\u5411\\u5de5\\u7a0b |\\n| DSPy Signatures/Modules | DSPy\\u4e0eRAG\\u6846\\u67b6\\u8054\\u5408\\u4f18\\u5316 |\\n| LangGraph\\u72b6\\u6001\\u673a\\u6982\\u5ff5 | LangGraph\\u63d0\\u793a\\u8bcd\\u6a21\\u677f\\u5206\\u6790 |\\n| MemGPT\\u8bb0\\u5fc6\\u67b6\\u6784 | \\uff08\\u79fb\\u81f3Vol6\\u5de5\\u7a0b\\u5b9e\\u8df5\\uff09 |\\n| \\u8bc4\\u4f30\\u57fa\\u51c6RAGAS\\u7b49 | \\uff08\\u5df2\\u5b8c\\u6210\\uff0c\\u4e0d\\u518d\\u91cd\\u590d\\uff09 |\\n\\n### Vol4 \\u2192 Vol5\\u8854\\u63a5\\n\\n- Vol4\\u7b2c58-60\\u7ae0\\uff08\\u63d0\\u793a\\u8bcd\\u9006\\u5411\\uff09\\u4e3aVol5\\uff08\\u63d0\\u793a\\u5de5\\u7a0b\\u65b9\\u6cd5\\u8bba\\uff09\\u63d0\\u4f9b\\u5b9e\\u8bc1\\u57fa\\u7840\\n- Vol4\\u6846\\u67b6\\u4e92\\u64cd\\u4f5c\\u7ecf\\u9a8c\\u6307\\u5bfcVol5\\u63d0\\u793a\\u8bbe\\u8ba1\\u539f\\u5219\\n\\n### Vol4 \\u2192 Vol6\\u8854\\u63a5\\n\\n- Vol4\\u6e90\\u4ee3\\u7801\\u5206\\u6790\\u4e3aVol6\\u5de5\\u7a0b\\u5b9e\\u8df5\\u63d0\\u4f9b\\u6280\\u672f\\u7ec6\\u8282\\n- Vol4 MCP\\u96c6\\u6210\\uff08\\u7b2c66\\u7ae0\\uff09\\u76f4\\u63a5\\u8854\\u63a5Vol6 Claude Code\\u5de5\\u4f5c\\u6d41\\n\\n---\\n\\n## \\u7814\\u7a76\\u8ba1\\u5212\\n\\n### \\u6279\\u6b21\\u5212\\u5206\\n\\n| \\u6279\\u6b21 | \\u7ae0\\u8282 | \\u4e3b\\u9898 | \\u9884\\u8ba1\\u65f6\\u95f4 |\\n|:----:|:----:|------|:--------:|\\n| Vol4-01 | 54-57 | LlamaIndex\\u6e90\\u4ee3\\u7801\\u6df1\\u5ea6\\u89e3\\u6790 | \\u6df1\\u5ea6\\u7814\\u7a76 |\\n| Vol4-02 | 58-60 | \\u6846\\u67b6\\u63d0\\u793a\\u8bcd\\u9006\\u5411\\u5de5\\u7a0b | \\u6df1\\u5ea6\\u7814\\u7a76 |\\n| Vol4-03 | 61-63 | Haystack/Semantic Kernel/RAGFlow | \\u6df1\\u5ea6\\u7814\\u7a76 |\\n| Vol4-04 | 64-66 | \\u6846\\u67b6\\u4e92\\u64cd\\u4f5c\\u4e0eMCP\\u96c6\\u6210 | \\u6df1\\u5ea6\\u7814\\u7a76 |\\n\\n### \\u7814\\u7a76\\u91cd\\u70b9\\n\\n1. **\\u6e90\\u4ee3\\u7801\\u7ea7\\u5206\\u6790**\\uff1a\\u4e0d\\u4ec5\\u63cf\\u8ff0\\u529f\\u80fd\\uff0c\\u66f4\\u8981\\u5256\\u6790\\u5b9e\\u73b0\\u673a\\u5236\\n2. **\\u63d0\\u793a\\u8bcd\\u9006\\u5411**\\uff1a\\u63d0\\u53d6\\u3001\\u5206\\u6790\\u3001\\u5bf9\\u6bd4\\u5404\\u6846\\u67b6\\u9ed8\\u8ba4\\u63d0\\u793a\\u8bcd\\n3. **\\u67b6\\u6784\\u5bf9\\u6bd4**\\uff1a\\u540c\\u7c7b\\u6846\\u67b6\\u7684\\u8bbe\\u8ba1\\u7406\\u5ff5\\u4e0e\\u5b9e\\u73b0\\u5dee\\u5f02\\n4. **\\u4e92\\u64cd\\u4f5c\\u5b9e\\u8df5**\\uff1a\\u591a\\u6846\\u67b6\\u534f\\u540c\\u7684\\u771f\\u5b9e\\u573a\\u666f\\u4e0e\\u89e3\\u51b3\\u65b9\\u6848\\n\\n---\\n\\n## \\u7248\\u672c\\u5386\\u53f2\\n\\n- v1.0 (2026-01-08)\\uff1a\\u539f\\u59cb\\u89c4\\u5212\\uff0c54-73\\u7ae0\\n- **v2.0 (2026-01-11)**\\uff1a\\u4fee\\u8ba2\\u7248\\uff0c54-66\\u7ae0\\uff0c\\u6e90\\u4ee3\\u7801\\u7ea7\\u6df1\\u5ea6\\u5256\\u6790\\u5b9a\\u4f4d\\n\", \"filename\": \"/mnt/user-data/outputs/aurolaok/docs/survey/vol4/00_Vol4_\\u4fee\\u8ba2\\u89c4\\u5212_\\u6e90\\u4ee3\\u7801\\u7ea7\\u6df1\\u5ea6\\u5256\\u6790.md\"}"
+    },
+    "approval_options": null,
+    "approval_key": null
+  },
+  {
+    "start_timestamp": null,
+    "stop_timestamp": null,
+    "flags": null,
+    "type": "tool_result",
+    "name": "create_file",
+    "content": [
+      {
+        "type": "text",
+        "text": "File created successfully: /mnt/user-data/outputs/aurolaok/docs/survey/vol4/00_Vol4_\u4fee\u8ba2\u89c4\u5212_\u6e90\u4ee3\u7801\u7ea7\u6df1\u5ea6\u5256\u6790.md",
+        "uuid": "d1e0ef9c-90b2-4c1a-af37-5955c7de7e05"
+      }
+    ],
+    "is_error": false,
+    "structured_content": null,
+    "meta": null,
+    "message": null,
+    "integration_name": null,
+    "integration_icon_url": null,
+    "display_content": {
+      "type": "text",
+      "text": "File created successfully: /mnt/user-data/outputs/aurolaok/docs/survey/vol4/00_Vol4_\u4fee\u8ba2\u89c4\u5212_\u6e90\u4ee3\u7801\u7ea7\u6df1\u5ea6\u5256\u6790.md"
+    }
+  },
+  {
+    "start_timestamp": "2026-01-11T04:49:15.737226Z",
+    "stop_timestamp": "2026-01-11T04:49:16.824385Z",
+    "flags": null,
+    "type": "thinking",
+    "thinking": "\u89c4\u5212\u6587\u4ef6\u5df2\u521b\u5efa\u3002\u73b0\u5728\u542f\u52a8Vol4\u6df1\u5ea6\u7814\u7a76\u3002\u6211\u5c06\u5206\u6279\u8fdb\u884c\uff0c\u9996\u5148\u662fVol4-01\uff08Ch54-57\uff1aLlamaIndex\u6e90\u4ee3\u7801\u6df1\u5ea6\u89e3\u6790\uff09\u3002",
+    "summaries": [
+      {
+        "summary": "\u89c4\u5212\u5df2\u4fdd\u5b58\uff0c\u542f\u52a8\u6df1\u5ea6\u7814\u7a76\u9879\u76ee\u7b2c\u4e00\u9636\u6bb5\u3002"
+      }
+    ],
+    "cut_off": false,
+    "alternative_display_type": null
+  },
+  {
+    "start_timestamp": "2026-01-11T04:49:16.876974Z",
+    "stop_timestamp": "2026-01-11T04:49:17.251582Z",
+    "flags": null,
+    "type": "text",
+    "text": "\u89c4\u5212\u6587\u4ef6\u5df2\u4fdd\u5b58\u3002\u73b0\u5728\u542f\u52a8Vol4-01\u6df1\u5ea6\u7814\u7a76\uff08Ch54-57\uff1aLlamaIndex\u6e90\u4ee3\u7801\u6df1\u5ea6\u89e3\u6790\uff09\u3002",
+    "citations": []
+  },
+  {
+    "start_timestamp": "2026-01-11T04:49:17.618197Z",
+    "stop_timestamp": "2026-01-11T04:49:48.668523Z",
+    "flags": null,
+    "type": "tool_use",
+    "name": "launch_extended_search_task",
+    "input": {
+      "command": "\u6df1\u5ea6\u7814\u7a76\u4efb\u52a1\uff1aRAG\u4e0e\u9690\u6027\u8bed\u4e49\u5904\u7406\u7efc\u8ff0 - \u7b2c\u56db\u5377\u7b2c\u4e00\u6279\u7814\u7a76\u62a5\u544a\uff08Vol4-01\uff09\n\n**\u6838\u5fc3\u5b9a\u4f4d**\uff1a\u6e90\u4ee3\u7801\u7ea7\u6df1\u5ea6\u5256\u6790\uff0c\u4e0d\u4ec5\u63cf\u8ff0\u529f\u80fd\uff0c\u66f4\u8981\u5256\u6790\u5b9e\u73b0\u673a\u5236\n\n**\u7814\u7a76\u8303\u56f4**\uff1a\u7b2c54-57\u7ae0\uff08LlamaIndex\u6e90\u4ee3\u7801\u6df1\u5ea6\u89e3\u6790\uff09\n\n---\n\n## \u7b2c54\u7ae0\uff1aLlamaIndex\u6838\u5fc3\u67b6\u6784\u5256\u6790\n\n### \u7814\u7a76\u76ee\u6807\n1. **Node/Document\u62bd\u8c61\u5c42\u6e90\u4ee3\u7801\u5206\u6790**\n   - BaseNode\u3001TextNode\u3001ImageNode\u7c7b\u5c42\u6b21\u7ed3\u6784\n   - NodeRelationship\u679a\u4e3e\u4e0e\u8282\u70b9\u5173\u7cfb\u5efa\u6a21\n   - \u5143\u6570\u636e\uff08metadata\uff09\u7ba1\u7406\u673a\u5236\n   - \u8282\u70b9ID\u751f\u6210\u4e0e\u54c8\u5e0c\u7b56\u7565\n\n2. **ServiceContext\u5230Settings\u7684\u67b6\u6784\u6f14\u8fdb**\n   - ServiceContext\uff08\u5df2\u5f03\u7528\uff09\u7684\u8bbe\u8ba1\u95ee\u9898\n   - Settings\u5355\u4f8b\u6a21\u5f0f\u7684\u5f15\u5165\u52a8\u673a\n   - \u5168\u5c40\u914d\u7f6e vs \u5c40\u90e8\u8986\u76d6\u673a\u5236\n   - LLM/Embedding/Callback\u7684\u6ce8\u5165\u6a21\u5f0f\n\n3. **\u7d22\u5f15\u57fa\u7c7b\u7ee7\u627f\u4f53\u7cfb**\n   - BaseIndex\u62bd\u8c61\u57fa\u7c7b\u8bbe\u8ba1\n   - VectorStoreIndex\u7ee7\u627f\u5b9e\u73b0\n   - PropertyGraphIndex\uff082024.5\uff09\u67b6\u6784\n   - SummaryIndex\u3001TreeIndex\u7b49\u53d8\u4f53\n   - \u7d22\u5f15\u6784\u5efa\u4e0e\u6301\u4e45\u5316\u673a\u5236\n\n4. **IngestionPipeline\u6570\u636e\u6444\u5165\u7ba1\u9053**\n   - Pipeline\u8bbe\u8ba1\u6a21\u5f0f\n   - Transformation\u62bd\u8c61\uff08SentenceSplitter\u3001NodeParser\u7b49\uff09\n   - \u7f13\u5b58\u673a\u5236\u4e0e\u589e\u91cf\u66f4\u65b0\n   - \u5e76\u884c\u5904\u7406\u5b9e\u73b0\n\n5. **\u4e0eLangChain\u67b6\u6784\u5bf9\u6bd4**\n   - \u8bbe\u8ba1\u7406\u5ff5\u5dee\u5f02\uff08\u6570\u636e\u4f18\u5148 vs \u94fe\u4f18\u5148\uff09\n   - \u62bd\u8c61\u5c42\u6b21\u5bf9\u6bd4\n   - \u6269\u5c55\u673a\u5236\u5dee\u5f02\n\n---\n\n## \u7b2c55\u7ae0\uff1a\u7d22\u5f15\u4e0e\u68c0\u7d22\u7cfb\u7edf\u6e90\u4ee3\u7801\n\n### \u7814\u7a76\u76ee\u6807\n1. **VectorStoreIndex\u5b9e\u73b0\u7ec6\u8282**\n   - \u7d22\u5f15\u6784\u5efa\u6d41\u7a0b\u6e90\u4ee3\u7801\n   - \u5411\u91cf\u5b58\u50a8\u540e\u7aef\u62bd\u8c61\uff08VectorStore\u63a5\u53e3\uff09\n   - \u76f8\u4f3c\u5ea6\u8ba1\u7b97\u5b9e\u73b0\n   - \u6279\u91cf\u63d2\u5165\u4e0e\u66f4\u65b0\u673a\u5236\n\n2. **PropertyGraphIndex\u6e90\u4ee3\u7801**\n   - 2024.5\u65b0\u67b6\u6784\u8bbe\u8ba1\u52a8\u673a\n   - \u56fe\u5b58\u50a8\u540e\u7aef\uff08Neo4j\u3001Nebula\u3001FalkorDB\uff09\n   - \u5b9e\u4f53/\u5173\u7cfb\u62bd\u53d6\u5668\uff08LLMPathExtractor\u3001SchemaLLMPathExtractor\uff09\n   - \u56fe\u68c0\u7d22\u5668\u5b9e\u73b0\uff08PGRetriever\uff09\n\n3. **\u68c0\u7d22\u5668\u63a5\u53e3\u8bbe\u8ba1\u6a21\u5f0f**\n   - BaseRetriever\u62bd\u8c61\u57fa\u7c7b\n   - VectorIndexRetriever\u5b9e\u73b0\n   - RouterRetriever\u8def\u7531\u68c0\u7d22\u5668\n   - RecursiveRetriever\u9012\u5f52\u68c0\u7d22\n   - AutoMergingRetriever\u81ea\u52a8\u5408\u5e76\n\n4. **\u6df7\u5408\u68c0\u7d22\u5b9e\u73b0**\n   - BM25 + Vector\u878d\u5408\u7b56\u7565\n   - QueryFusionRetriever\u6e90\u4ee3\u7801\n   - \u5206\u6570\u5f52\u4e00\u5316\u4e0e\u878d\u5408\u6743\u91cd\n\n5. **\u91cd\u6392\u5e8f\u5668\u96c6\u6210\u673a\u5236**\n   - NodePostprocessor\u63a5\u53e3\n   - CohereRerank\u96c6\u6210\n   - SentenceTransformerRerank\n   - LLMRerank\uff08LLM-based\u91cd\u6392\u5e8f\uff09\n\n---\n\n## \u7b2c56\u7ae0\uff1aWorkflows\u4e8b\u4ef6\u9a71\u52a8\u67b6\u6784\n\n### \u7814\u7a76\u76ee\u6807\n1. **Workflows\u67b6\u6784\u80cc\u666f**\n   - 2024.8\u5f15\u5165\u52a8\u673a\uff08\u66ff\u4ee3Query Pipeline\uff09\n   - \u4e0eLangGraph\u7684\u8bbe\u8ba1\u5bf9\u6bd4\n   - \u4e8b\u4ef6\u9a71\u52a8 vs \u94fe\u5f0f\u8c03\u7528\n\n2. **Step\u5b9a\u4e49\u673a\u5236**\n   - @step\u88c5\u9970\u5668\u5b9e\u73b0\n   - StartEvent\u3001StopEvent\n   - \u81ea\u5b9a\u4e49Event\u7c7b\u578b\n   - \u8f93\u5165/\u8f93\u51fa\u7c7b\u578b\u6ce8\u89e3\n\n3. **\u4e8b\u4ef6\u6d41\u6e90\u4ee3\u7801\u5256\u6790**\n   - Workflow\u7c7b\u6838\u5fc3\u5b9e\u73b0\n   - \u4e8b\u4ef6\u5206\u53d1\u673a\u5236\n   - \u6761\u4ef6\u5206\u652f\uff08send_event\uff09\n   - \u5faa\u73af\u4e0e\u8fed\u4ee3\u63a7\u5236\n\n4. **\u5f02\u6b65\u6267\u884c\u5f15\u64ce**\n   - asyncio\u96c6\u6210\n   - \u5e76\u53d1Step\u6267\u884c\n   - \u8d85\u65f6\u4e0e\u53d6\u6d88\u673a\u5236\n   - \u9519\u8bef\u5904\u7406\u4e0e\u91cd\u8bd5\n\n5. **\u72b6\u6001\u6301\u4e45\u5316\u5b9e\u73b0**\n   - Context\u5bf9\u8c61\n   - Checkpointing\u673a\u5236\n   - \u4e0eLangGraph Checkpointing\u5bf9\u6bd4\n   - Human-in-the-Loop\u96c6\u6210\n\n---\n\n## \u7b2c57\u7ae0\uff1aAgentWorkflow\u4e0e\u5de5\u5177\u96c6\u6210\n\n### \u7814\u7a76\u76ee\u6807\n1. **AgentWorkflow\u6e90\u4ee3\u7801**\n   - 2025\u667a\u80fd\u4f53\u5de5\u4f5c\u6d41\u67b6\u6784\n   - \u4e0e\u6807\u51c6Workflow\u7684\u5dee\u5f02\n   - Agent\u5faa\u73af\u5b9e\u73b0\n\n2. **Function Calling\u96c6\u6210**\n   - FunctionTool\u5c01\u88c5\n   - ToolSpec\u62bd\u8c61\n   - \u5de5\u5177\u63cf\u8ff0\u751f\u6210\n   - \u53c2\u6570\u9a8c\u8bc1\u673a\u5236\n\n3. **\u5de5\u5177\u6ce8\u518c\u4e0e\u8c03\u7528\u94fe\u8def**\n   - ToolRegistry\u7ba1\u7406\n   - \u5de5\u5177\u9009\u62e9\u7b56\u7565\n   - \u8c03\u7528\u7ed3\u679c\u5904\u7406\n   - \u9519\u8bef\u6062\u590d\u673a\u5236\n\n4. **\u591a\u667a\u80fd\u4f53\u7f16\u6392**\n   - AgentRunner\u5b9e\u73b0\n   - \u591aAgent\u534f\u8c03\u673a\u5236\n   - \u6d88\u606f\u4f20\u9012\u534f\u8bae\n   - \u72b6\u6001\u5171\u4eab\u7b56\u7565\n\n5. **Agentic Document Workflows**\n   - \u6587\u6863\u5904\u7406\u667a\u80fd\u4f53\n   - \u7d22\u5f15\u3001\u68c0\u7d22\u3001\u751f\u6210\u7684\u667a\u80fd\u4f53\u5316\n   - \u4e0e\u4f20\u7edfRAG\u7ba1\u9053\u5bf9\u6bd4\n\n---\n\n## \u7814\u7a76\u8981\u6c42\n\n### \u6587\u732e\u4e0e\u8d44\u6e90\u4f18\u5148\u7ea7\n1. **\u5b98\u65b9\u6e90\u4ee3\u7801**\uff1agithub.com/run-llama/llama_index\uff08\u4f18\u5148\u7ea7\u6700\u9ad8\uff09\n2. **\u5b98\u65b9\u6587\u6863**\uff1adocs.llamaindex.ai\n3. **\u7248\u672c\u66f4\u65b0\u65e5\u5fd7**\uff1aGitHub Releases\u3001Changelog\n4. **\u5b98\u65b9\u535a\u5ba2**\uff1ablog.llamaindex.ai\n5. **\u4f5c\u8005\u8bbf\u8c08/\u6f14\u8bb2**\uff1aJerry Liu\u3001Logan Markewich\u7684\u6280\u672f\u5206\u4eab\n\n### \u5fc5\u987b\u5305\u542b\u7684\u5185\u5bb9\n- \u5173\u952e\u7c7b/\u51fd\u6570\u7684\u6e90\u4ee3\u7801\u8def\u5f84\uff08\u5982 llama_index/core/indices/base.py\uff09\n- \u8bbe\u8ba1\u6a21\u5f0f\u8bc6\u522b\uff08\u5de5\u5382\u3001\u7b56\u7565\u3001\u89c2\u5bdf\u8005\u7b49\uff09\n- \u7248\u672c\u6f14\u8fdb\u65f6\u95f4\u7ebf\uff08\u7279\u522b\u662f\u91cd\u5927\u67b6\u6784\u53d8\u66f4\uff09\n- \u4e0e\u5176\u4ed6\u6846\u67b6\u7684\u67b6\u6784\u5bf9\u6bd4\n- \u6027\u80fd\u8003\u91cf\u4e0e\u4f18\u5316\u7b56\u7565\n\n### \u8f93\u51fa\u683c\u5f0f\u8981\u6c42\n- \u6309\u7ae0\u8282\u7ec4\u7ec7\uff08Ch54\u3001Ch55\u3001Ch56\u3001Ch57\uff09\n- \u63d0\u4f9b\u7c7b\u7ee7\u627f\u56fe/\u8c03\u7528\u94fe\u8def\u63cf\u8ff0\n- \u533a\u5206\"\u7a33\u5b9aAPI\"\u548c\"\u5185\u90e8\u5b9e\u73b0\"\n- \u6807\u6ce8LlamaIndex\u7248\u672c\uff08\u5f53\u524d\u6700\u65b0\u7248\u672c\u53f7\uff09\n\n### \u7279\u522b\u5173\u6ce8\n- 2024-2025\u5e74\u7684\u67b6\u6784\u53d8\u66f4\uff08ServiceContext \u2192 Settings\u3001Query Pipeline \u2192 Workflows\uff09\n- PropertyGraphIndex\u7684\u8bbe\u8ba1\u521b\u65b0\n- AgentWorkflow\u7684\u6700\u65b0\u53d1\u5c55\n- \u4e0eLangGraph\u7684\u7ade\u4e89\u6027\u8bbe\u8ba1\u5dee\u5f02"
+    },
+    "message": "launch_extended_search_task",
+    "integration_name": null,
+    "integration_icon_url": null,
+    "context": null,
+    "display_content": null,
+    "approval_options": null,
+    "approval_key": null
+  },
+  {
+    "start_timestamp": null,
+    "stop_timestamp": null,
+    "flags": null,
+    "type": "tool_result",
+    "name": "launch_extended_search_task",
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"task_id\": \"wf-c2e6e906-6594-4a8b-b5dd-9aeaa774ae66\"}",
+        "uuid": "2bed0d17-6352-4de9-bc5f-a7a5f4092e61"
+      }
+    ],
+    "is_error": false,
+    "structured_content": null,
+    "meta": null,
+    "message": null,
+    "integration_name": null,
+    "integration_icon_url": null,
+    "display_content": null
+  },
+  {
+    "start_timestamp": "2026-01-11T04:49:49.246505Z",
+    "stop_timestamp": "2026-01-11T04:49:49.246505Z",
+    "flags": null,
+    "type": "text",
+    "text": "",
+    "citations": []
+  },
+  {
+    "start_timestamp": null,
+    "stop_timestamp": null,
+    "flags": null,
+    "type": "text",
+    "text": "\u60a8\u7684LlamaIndex\u6e90\u4ee3\u7801\u6df1\u5ea6\u5256\u6790\u62a5\u544a\u5df2\u5b8c\u6210\u3002\u62a5\u544a\u6db5\u76d6\u4e862024-2025\u5e74\u6846\u67b6\u4eceRAG\u5230Agent-First\u7684\u67b6\u6784\u6f14\u8fdb\uff0c\u5305\u62ec\uff1aNode/Document\u6570\u636e\u6a21\u578b\u3001ServiceContext\u5230Settings\u7684\u914d\u7f6e\u91cd\u6784\u3001VectorStoreIndex\u4e0ePropertyGraphIndex\u7d22\u5f15\u4f53\u7cfb\u3001\u6df7\u5408\u68c0\u7d22\u4e0e\u91cd\u6392\u5e8f\u673a\u5236\u3001Workflows\u4e8b\u4ef6\u9a71\u52a8\u67b6\u6784\uff0c\u4ee5\u53caAgentWorkflow\u591a\u667a\u80fd\u4f53\u7f16\u6392\u3002\u62a5\u544a\u8fd8\u5305\u542b\u4e0eLangChain/LangGraph\u7684\u8bbe\u8ba1\u54f2\u5b66\u5bf9\u6bd4\u3001\u5173\u952e\u6e90\u7801\u8def\u5f84\u901f\u67e5\u8868\u548c\u8bbe\u8ba1\u6a21\u5f0f\u603b\u7ed3\u3002",
+    "citations": []
+  },
+  {
+    "start_timestamp": null,
+    "stop_timestamp": null,
+    "flags": null,
+    "type": "tool_use",
+    "name": "artifacts",
+    "input": {
+      "id": "compass_artifact_wf-c2e6e906-6594-4a8b-b5dd-9aeaa774ae66_text/markdown",
+      "type": "text/markdown",
+      "title": "LlamaIndex Source Code Deep Dive: RAG and Agent-First Architecture Evolution 2024-2025",
+      "source": "c",
+      "command": "create",
+      "content": "# LlamaIndex\u6e90\u4ee3\u7801\u6df1\u5ea6\u5256\u6790\uff1aRAG\u4e0e\u9690\u6027\u8bed\u4e49\u5904\u7406\u7efc\u8ff0\uff08Vol4-01\uff09\n\n**\u6838\u5fc3\u53d1\u73b0**\uff1aLlamaIndex\u57282024-2025\u5e74\u7ecf\u5386\u4e86\u4eceRAG\u6846\u67b6\u5230**Agent-First\u6846\u67b6**\u7684\u6839\u672c\u6027\u8f6c\u578b\u3002\u67b6\u6784\u6f14\u8fdb\u9075\u5faa\u4e09\u6761\u4e3b\u7ebf\uff1aServiceContext\u2192Settings\u7684\u914d\u7f6e\u7b80\u5316\u3001Query Pipeline\u2192Workflows\u7684\u4e8b\u4ef6\u9a71\u52a8\u91cd\u6784\u3001\u4ee5\u53caPropertyGraphIndex\u548cAgentWorkflow\u7684\u521b\u65b0\u5f15\u5165\u3002\u5f53\u524d\u6700\u65b0\u7a33\u5b9a\u7248\u672c\u4e3a**v0.12.x**\uff082025\u5e741\u6708\uff09\uff0c\u6838\u5fc3\u5305`llama-index-core`\u5df2\u5b8c\u6210\u6a21\u5757\u5316\u62c6\u5206\uff0c\u652f\u6301**300+\u72ec\u7acb\u96c6\u6210\u5305**\u3002\n\n---\n\n## \u7b2c54\u7ae0\uff1aLlamaIndex\u6838\u5fc3\u67b6\u6784\u5256\u6790\n\n### Node/Document\u62bd\u8c61\u5c42\u6784\u5efa\u4e86RAG\u7684\u6570\u636e\u57fa\u77f3\n\nLlamaIndex\u7684\u6570\u636e\u6a21\u578b\u4ee5`BaseNode`\u4e3a\u6838\u5fc3\uff0c\u6784\u5efa\u4e86\u4e00\u5957\u652f\u6301\u591a\u6a21\u6001\u3001\u5c42\u6b21\u5316\u5173\u7cfb\u7684\u8282\u70b9\u4f53\u7cfb\u3002\u6e90\u4ee3\u7801\u4f4d\u4e8e`llama-index-core/llama_index/core/schema.py`\uff0c\u7c7b\u7ee7\u627f\u4f53\u7cfb\u5982\u4e0b\uff1a\n\n```\nBaseComponent (Pydantic BaseModel)\n    \u2514\u2500\u2500 TransformComponent (\u62bd\u8c61\u8f6c\u6362\u7ec4\u4ef6)\n    \u2514\u2500\u2500 BaseNode (\u62bd\u8c61\u57fa\u8282\u70b9)\n            \u251c\u2500\u2500 Node (\u591a\u6a21\u6001\u8282\u70b9 - \u65b0\u67b6\u6784)\n            \u2502     \u2514\u2500\u2500 Document (\u6587\u6863\u7c7b)\n            \u2502           \u2514\u2500\u2500 ImageDocument\n            \u2514\u2500\u2500 TextNode (\u6587\u672c\u8282\u70b9 - \u5411\u540e\u517c\u5bb9)\n                    \u251c\u2500\u2500 ImageNode\n                    \u2514\u2500\u2500 IndexNode\n```\n\n**\u8282\u70b9ID\u751f\u6210\u91c7\u7528UUID\u7b56\u7565**\uff0c\u9ed8\u8ba4\u4f7f\u7528`uuid.uuid4()`\u751f\u6210\u552f\u4e00\u6807\u8bc6\u7b26\u3002\u54c8\u5e0c\u8ba1\u7b97\u5219\u57fa\u4e8e\u5185\u5bb9\u548c\u5143\u6570\u636e\u7684SHA-256\u6458\u8981\uff0c`TextNode.hash`\u5c5e\u6027\u901a\u8fc7`sha256(str(self.text) + str(self.metadata))`\u5b9e\u73b0\u5185\u5bb9\u6307\u7eb9\u3002\u8fd9\u4e00\u8bbe\u8ba1\u652f\u6301IngestionPipeline\u7684**\u589e\u91cf\u66f4\u65b0\u68c0\u6d4b**\u2014\u2014\u5f53\u6587\u6863\u5185\u5bb9\u53d8\u5316\u65f6\u54c8\u5e0c\u6539\u53d8\uff0c\u89e6\u53d1\u91cd\u65b0\u5904\u7406\u3002\n\n\u8282\u70b9\u5173\u7cfb\u901a\u8fc7`NodeRelationship`\u679a\u4e3e\u5efa\u6a21\uff0c\u652f\u6301\u4e94\u79cd\u5173\u7cfb\u7c7b\u578b\uff1a**SOURCE**\uff08\u6e90\u6587\u6863\uff09\u3001**PREVIOUS/NEXT**\uff08\u524d\u540e\u5e8f\u8282\u70b9\uff09\u3001**PARENT/CHILD**\uff08\u5c42\u6b21\u7ed3\u6784\uff09\u3002\u8fd9\u79cd\u8bbe\u8ba1\u4f7f\u5f97`AutoMergingRetriever`\u548c`RecursiveRetriever`\u80fd\u591f\u5728\u68c0\u7d22\u65f6\u904d\u5386\u8282\u70b9\u56fe\u7ed3\u6784\u3002\u5143\u6570\u636e\u7ba1\u7406\u673a\u5236\u63d0\u4f9b\u4e86\u7ec6\u7c92\u5ea6\u63a7\u5236\uff0c`excluded_embed_metadata_keys`\u548c`excluded_llm_metadata_keys`\u5206\u522b\u63a7\u5236\u5d4c\u5165\u548cLLM\u63a8\u7406\u65f6\u5305\u542b\u7684\u5143\u6570\u636e\u5b57\u6bb5\u3002\n\n### ServiceContext\u5230Settings\u7684\u67b6\u6784\u6f14\u8fdb\u89e3\u51b3\u4e86\u914d\u7f6e\u75db\u70b9\n\n**\u7248\u672c\u65f6\u95f4\u7ebf**\uff1av0.10.0\uff082024.02\uff09\u5f15\u5165Settings\u5355\u4f8b\u5e76\u6807\u8bb0ServiceContext\u5f03\u7528\uff1bv0.11.0\uff082024.08\uff09\u5b8c\u5168\u79fb\u9664ServiceContext\uff0c\u4f7f\u7528\u4f1a\u76f4\u63a5\u62a5\u9519\u3002\n\nServiceContext\u7684\u6838\u5fc3\u95ee\u9898\u5728\u4e8e**\u5f3a\u5236\u52a0\u8f7d**\u548c**\u4f7f\u7528\u4e0d\u4e00\u81f4**\u3002\u521b\u5efaServiceContext\u65f6\u4f1a\u52a0\u8f7d\u6240\u6709\u7ec4\u4ef6\u5230\u5185\u5b58\uff08LLM\u3001Embedding\u6a21\u578b\u3001NodeParser\u7b49\uff09\uff0c\u5373\u4f7f\u540e\u7eed\u672a\u4f7f\u7528\uff1b\u540c\u65f6\u6846\u67b6\u5185\u90e8\u8bb8\u591a\u6a21\u5757\u672a\u6b63\u786e\u4f20\u9012ServiceContext\uff0c\u5bfc\u81f4\u914d\u7f6e\u5931\u6548\u3002Settings\u5355\u4f8b\u6a21\u5f0f\uff08\u6e90\u7801\u8def\u5f84`llama-index-core/llama_index/core/settings.py`\uff09\u901a\u8fc7**\u61d2\u52a0\u8f7d**\u89e3\u51b3\u4e86\u8fd9\u4e9b\u95ee\u9898\uff1a\n\n```python\nfrom llama_index.core import Settings\n\n# \u5168\u5c40\u914d\u7f6e - \u5c5e\u6027\u4ec5\u5728\u5b9e\u9645\u4f7f\u7528\u65f6\u52a0\u8f7d\nSettings.llm = OpenAI(model=\"gpt-4\")\nSettings.embed_model = OpenAIEmbedding(model=\"text-embedding-3-small\")\nSettings.node_parser = SentenceSplitter(chunk_size=512, chunk_overlap=20)\n\n# \u5c40\u90e8\u8986\u76d6 - \u76f4\u63a5\u4f20\u53c2\u4f18\u5148\u7ea7\u9ad8\u4e8e\u5168\u5c40\u914d\u7f6e\nindex = VectorStoreIndex.from_documents(documents, embed_model=local_embed_model)\n```\n\n**\u6ce8\u5165\u4f18\u5148\u7ea7**\uff1a\u5c40\u90e8\u53c2\u6570 > \u5168\u5c40Settings > \u9ed8\u8ba4\u503c\u3002\u8fd9\u79cd\u8bbe\u8ba1\u5b9e\u73b0\u4e86\"\u4e00\u6b21\u914d\u7f6e\uff0c\u5168\u6846\u67b6\u751f\u6548\"\u7684\u5f00\u53d1\u4f53\u9a8c\uff0c\u540c\u65f6\u4fdd\u7559\u4e86\u7cbe\u7ec6\u63a7\u5236\u80fd\u529b\u3002\n\n### \u7d22\u5f15\u57fa\u7c7b\u7ee7\u627f\u4f53\u7cfb\u652f\u6491\u591a\u6837\u5316\u68c0\u7d22\u7b56\u7565\n\n`BaseIndex`\uff08\u6e90\u7801`llama-index-core/llama_index/core/indices/base.py`\uff09\u4f5c\u4e3a\u6cdb\u578b\u62bd\u8c61\u57fa\u7c7b\uff0c\u5b9a\u4e49\u4e86\u7d22\u5f15\u7684\u6838\u5fc3\u5951\u7ea6\uff1a\n\n```python\nclass BaseIndex(Generic[IS], ABC):\n    index_struct_cls: Type[IS]  # \u7d22\u5f15\u7ed3\u6784\u7c7b\u578b\u53c2\u6570\n    \n    @abstractmethod\n    def _build_index_from_nodes(self, nodes: Sequence[BaseNode]) -> IS: ...\n    \n    @abstractmethod\n    def _insert(self, nodes: Sequence[BaseNode], **kwargs): ...\n    \n    @abstractmethod\n    def _delete_node(self, node_id: str, **kwargs): ...\n```\n\n\u7ee7\u627f\u4f53\u7cfb\u8986\u76d6\u516d\u7c7b\u7d22\u5f15\uff1a**VectorStoreIndex**\uff08\u5411\u91cf\u5b58\u50a8\uff09\u3001**PropertyGraphIndex**\uff08\u5c5e\u6027\u56fe\uff0c2024.06\uff09\u3001**SummaryIndex**\uff08\u6458\u8981\u7d22\u5f15\uff0c\u539fListIndex\uff09\u3001**TreeIndex**\uff08\u6811\u5f62\u7d22\u5f15\uff09\u3001**KeywordTableIndex**\uff08\u5173\u952e\u8bcd\u8868\uff09\u3001**DocumentSummaryIndex**\uff08\u6587\u6863\u6458\u8981\uff09\u3002\u6bcf\u79cd\u7d22\u5f15\u5bf9\u5e94\u4e0d\u540c\u7684\u68c0\u7d22\u8bed\u4e49\u2014\u2014\u5411\u91cf\u7d22\u5f15\u64c5\u957f\u8bed\u4e49\u76f8\u4f3c\u6027\uff0c\u5173\u952e\u8bcd\u7d22\u5f15\u652f\u6301\u7cbe\u786e\u5339\u914d\uff0c\u56fe\u7d22\u5f15\u5b9e\u73b0\u5173\u7cfb\u63a8\u7406\u3002\n\n**\u6301\u4e45\u5316\u673a\u5236**\u7edf\u4e00\u901a\u8fc7`StorageContext`\u7ba1\u7406\uff0c\u652f\u6301\u672c\u5730JSON\u3001\u5411\u91cf\u6570\u636e\u5e93\u3001\u56fe\u6570\u636e\u5e93\u7b49\u591a\u79cd\u540e\u7aef\u3002\n\n### IngestionPipeline\u5b9e\u73b0\u4e86\u53ef\u7f13\u5b58\u7684\u6570\u636e\u6444\u5165\u6d41\u6c34\u7ebf\n\n\u6e90\u7801\u8def\u5f84`llama-index-core/llama_index/core/ingestion/pipeline.py`\uff0c\u91c7\u7528**\u7ba1\u9053\u8fc7\u6ee4\u5668\u6a21\u5f0f**\uff1a\n\n```python\npipeline = IngestionPipeline(\n    transformations=[\n        SentenceSplitter(chunk_size=512, chunk_overlap=20),\n        TitleExtractor(),\n        OpenAIEmbedding(),\n    ],\n    cache=IngestionCache(cache=RedisCache.from_host_and_port(\"127.0.0.1\", 6379)),\n    docstore=SimpleDocumentStore(),  # \u542f\u7528\u6587\u6863\u53bb\u91cd\n)\nnodes = pipeline.run(documents=documents, num_workers=4)\n```\n\n**\u7f13\u5b58\u7b56\u7565**\u4e3a\u6bcf\u4e2a`(node, transformation)`\u7ec4\u5408\u751f\u6210\u552f\u4e00\u54c8\u5e0c\uff0c\u91cd\u590d\u8fd0\u884c\u65f6\u76f4\u63a5\u4ece\u7f13\u5b58\u83b7\u53d6\u7ed3\u679c\u3002`DocstoreStrategy`\u679a\u4e3e\u652f\u6301\u4e09\u79cd\u53bb\u91cd\u6a21\u5f0f\uff1a**UPSERTS**\uff08\u66f4\u65b0\u6216\u63d2\u5165\uff09\u3001**DUPLICATES_ONLY**\uff08\u4ec5\u5904\u7406\u91cd\u590d\uff09\u3001**UPSERTS_AND_DELETE**\uff08\u66f4\u65b0+\u5220\u9664\uff09\u3002\u5e76\u884c\u5904\u7406\u901a\u8fc7`ProcessPoolExecutor`\u5b9e\u73b0\u8fdb\u7a0b\u7ea7\u5e76\u884c\uff0c`num_workers`\u53c2\u6570\u63a7\u5236\u5e76\u53d1\u5ea6\u3002\n\n### LlamaIndex\u4e0eLangChain\u7684\u67b6\u6784\u54f2\u5b66\u5206\u91ce\n\n| \u7ef4\u5ea6 | LlamaIndex | LangChain |\n|------|-----------|-----------|\n| **\u6838\u5fc3\u7406\u5ff5** | Data-First\uff08\u6570\u636e\u4f18\u5148\uff09 | Chain-First\uff08\u94fe\u4f18\u5148\uff09 |\n| **\u6838\u5fc3\u62bd\u8c61** | Documents \u2192 Nodes \u2192 Indices \u2192 Query Engines | Prompts \u2192 LLMs \u2192 Chains \u2192 Agents |\n| **RAG\u652f\u6301** | \u4e00\u6d41\u516c\u6c11\uff0c\u4e13\u4e3aRAG\u8bbe\u8ba1 | \u652f\u6301\u4f46\u975e\u6838\u5fc3 |\n| **\u7d22\u5f15\u6df1\u5ea6** | \u4e13\u7528\u7d22\u5f15\u7c7b\u578b\uff0c\u6df1\u5ea6\u5d4c\u5165\u8282\u70b9\u5173\u7cfb | \u7edf\u4e00VectorStore\u63a5\u53e3\uff0c\u8f83\u6d45\u62bd\u8c61 |\n| **\u6269\u5c55\u70b9** | TransformComponent\u3001NodeParser\u3001BaseRetriever | Chain\u3001Tool\u3001Agent |\n| **Agent\u6846\u67b6** | Workflows\uff08\u4e8b\u4ef6\u9a71\u52a8\uff09 | LangGraph\uff08\u56fe\u7ed3\u6784\uff09 |\n\n\u4e24\u8005\u53ef\u4e92\u8865\u4f7f\u7528\uff1aLlamaIndex\u8d1f\u8d23\u7d22\u5f15\u548c\u68c0\u7d22\u4f18\u5316\uff0cLangChain\u8d1f\u8d23\u5de5\u4f5c\u6d41\u7f16\u6392\u3002\u901a\u8fc7`retriever.as_langchain_retriever()`\u9002\u914d\u5668\u53ef\u65e0\u7f1d\u96c6\u6210\u3002\n\n---\n\n## \u7b2c55\u7ae0\uff1a\u7d22\u5f15\u4e0e\u68c0\u7d22\u7cfb\u7edf\u6e90\u4ee3\u7801\n\n### VectorStoreIndex\u7684\u6784\u5efa\u6d41\u7a0b\u4e0e\u6279\u5904\u7406\u4f18\u5316\n\n\u6e90\u7801\u8def\u5f84`llama-index-core/llama_index/core/indices/vector_store/base.py`\uff0c\u6784\u5efa\u6d41\u7a0b\u5206\u56db\u6b65\uff1aDocument\u5206\u5757\u2192\u5411\u91cf\u5d4c\u5165\u751f\u6210\u2192\u6279\u91cf\u5904\u7406\u2192\u5b58\u50a8\u7d22\u5f15\u3002**\u9ed8\u8ba4\u6279\u5904\u7406\u5927\u5c0f\u4e3a2048\u8282\u70b9**\uff0c\u53ef\u901a\u8fc7`insert_batch_size`\u53c2\u6570\u8c03\u6574\u4ee5\u9002\u5e94\u5185\u5b58\u7ea6\u675f\u3002\n\n\u5411\u91cf\u5b58\u50a8\u540e\u7aef\u62bd\u8c61\u91c7\u7528**\u7ec4\u5408\u4f18\u4e8e\u7ee7\u627f**\u8bbe\u8ba1\uff0c`BasePydanticVectorStore`\u5b9a\u4e49\u4e09\u4e2a\u6838\u5fc3\u65b9\u6cd5\uff1a`add()`\u6dfb\u52a0\u8282\u70b9\u3001`delete()`\u5220\u9664\u8282\u70b9\u3001`query()`\u6267\u884c\u67e5\u8be2\u3002\u76ee\u524d\u652f\u6301**20+\u5411\u91cf\u5b58\u50a8\u540e\u7aef**\uff1aPinecone\u3001Qdrant\u3001Milvus\u3001Chroma\u3001Elasticsearch\u3001Weaviate\u7b49\u3002\u76f8\u4f3c\u5ea6\u8ba1\u7b97\u652f\u6301\u4f59\u5f26\u76f8\u4f3c\u5ea6\u3001\u5185\u79ef\u3001MMR\uff08\u6700\u5927\u8fb9\u9645\u76f8\u5173\u6027\uff09\uff0c`VectorStoreQuery.mode`\u53c2\u6570\u63a7\u5236\u68c0\u7d22\u6a21\u5f0f\u3002\n\n### PropertyGraphIndex\u5f00\u521b\u4e86\u77e5\u8bc6\u56fe\u8c31RAG\u65b0\u8303\u5f0f\n\n**2024\u5e745\u6708\u53d1\u5e03**\uff0c\u6e90\u7801\u8def\u5f84`llama-index-core/llama_index/core/indices/property_graph/base.py`\u3002\u76f8\u6bd4\u65e7\u7248KnowledgeGraphIndex\u7684\u7b80\u5355\u4e09\u5143\u7ec4\u8868\u793a\uff0cPropertyGraphIndex\u5f15\u5165\u4e86\u5b8c\u6574\u7684**\u6807\u7b7e\u5c5e\u6027\u56fe\u6a21\u578b**\uff1a\n\n- **\u8282\u70b9\u6807\u7b7e**\uff1aPerson\u3001Organization\u3001Location\u7b49\u7c7b\u578b\n- **\u8282\u70b9\u5c5e\u6027**\uff1a\u51fa\u751f\u65e5\u671f\u3001\u6210\u7acb\u65f6\u95f4\u7b49\u7ed3\u6784\u5316\u6570\u636e\n- **\u5173\u7cfb\u5c5e\u6027**\uff1a\u5173\u7cfb\u6743\u91cd\u3001\u65f6\u95f4\u6233\u7b49\u5143\u4fe1\u606f\n- **\u5411\u91cf\u5d4c\u5165**\uff1a\u5b9e\u4f53\u548c\u5173\u7cfb\u5747\u53ef\u5d4c\u5165\u5411\u91cf\u7a7a\u95f4\n\n**\u5b9e\u4f53/\u5173\u7cfb\u62bd\u53d6\u5668**\u63d0\u4f9b\u56db\u79cd\u6a21\u5f0f\uff1a\n\n| \u62bd\u53d6\u5668 | \u7279\u70b9 | \u9002\u7528\u573a\u666f |\n|--------|------|----------|\n| **SimpleLLMPathExtractor** | \u81ea\u7531\u5f62\u5f0f(entity1, relation, entity2) | \u63a2\u7d22\u6027\u5206\u6790 |\n| **SchemaLLMPathExtractor** | Schema\u7ea6\u675f\u7684\u7ed3\u6784\u5316\u62bd\u53d6 | \u751f\u4ea7\u73af\u5883 |\n| **ImplicitPathExtractor** | \u65e0\u9700LLM\uff0c\u89e3\u6790\u8282\u70b9relationships | \u9ad8\u6548\u6279\u5904\u7406 |\n| **DynamicLLMPathExtractor** | \u52a8\u6001\u63a8\u65ad\u5b9e\u4f53\u7c7b\u578b | \u6df7\u5408\u573a\u666f |\n\n**\u56fe\u68c0\u7d22\u5668**\u540c\u6837\u6a21\u5757\u5316\uff1a`LLMSynonymRetriever`\uff08\u5173\u952e\u8bcd/\u540c\u4e49\u8bcd\uff09\u3001`VectorContextRetriever`\uff08\u5411\u91cf\u76f8\u4f3c\u5ea6\uff09\u3001`TextToCypherRetriever`\uff08\u81ea\u7136\u8bed\u8a00\u8f6cCypher\uff09\u3001`CypherTemplateRetriever`\uff08\u6a21\u677f\u586b\u5145\uff09\u3002\u652f\u6301Neo4j\u3001Nebula\u3001FalkorDB\u7b49\u56fe\u6570\u636e\u5e93\u540e\u7aef\u3002\n\n### BaseRetriever\u63a5\u53e3\u8bbe\u8ba1\u5b9e\u73b0\u4e86\u68c0\u7d22\u7b56\u7565\u7684\u7075\u6d3b\u7ec4\u5408\n\n\u6e90\u7801\u8def\u5f84`llama-index-core/llama_index/core/base/base_retriever.py`\uff0c\u6838\u5fc3\u65b9\u6cd5\u7b7e\u540d\uff1a\n\n```python\nclass BaseRetriever(PromptMixin, DispatcherSpanMixin):\n    def retrieve(str_or_query_bundle: QueryType) -> List[NodeWithScore]: ...\n    def _retrieve(self, query_bundle: QueryBundle) -> List[NodeWithScore]: ...  # \u5b50\u7c7b\u5b9e\u73b0\n    async def aretrieve(str_or_query_bundle: QueryType) -> List[NodeWithScore]: ...\n```\n\n**\u4e94\u79cd\u5173\u952e\u68c0\u7d22\u5668\u5b9e\u73b0**\uff1a\n\n1. **VectorIndexRetriever**\uff1a\u6807\u51c6\u5411\u91cf\u76f8\u4f3c\u5ea6\u68c0\u7d22\uff0c`similarity_top_k`\u63a7\u5236\u8fd4\u56de\u6570\u91cf\n2. **RouterRetriever**\uff1a\u4f7f\u7528LLM\u52a8\u6001\u9009\u62e9\u6700\u9002\u5408\u7684\u68c0\u7d22\u5668\uff0c\u652f\u6301`select_multi=True`\u805a\u5408\u591a\u4e2a\u7ed3\u679c\n3. **RecursiveRetriever**\uff1a\u5c42\u6b21\u5316\u6570\u636e\u7684\u9012\u5f52\u68c0\u7d22\uff0c\u53ef\u94fe\u63a5SQL/Pandas\u67e5\u8be2\u5f15\u64ce\n4. **AutoMergingRetriever**\uff1a\u68c0\u7d22\u53f6\u5b50\u8282\u70b9\u540e\u81ea\u52a8\u5408\u5e76\u4e3a\u7236\u8282\u70b9\u4e0a\u4e0b\u6587\n5. **QueryFusionRetriever**\uff1a\u591a\u68c0\u7d22\u5668\u7ed3\u679c\u878d\u5408\uff0c\u652f\u6301\u67e5\u8be2\u53d8\u4f53\u751f\u6210\n\n### \u6df7\u5408\u68c0\u7d22\u901a\u8fc7\u5012\u6570\u6392\u540d\u878d\u5408\u5b9e\u73b0\u6700\u4f73\u53ec\u56de\n\n\u6e90\u7801\u8def\u5f84`llama-index-core/llama_index/core/retrievers/fusion_retriever.py`\uff0c\u6838\u5fc3\u7b97\u6cd5\u4e3a**Reciprocal Rank Fusion (RRF)**\uff1a\n\n```python\ndef reciprocal_rank_fusion(results_list, k=60):\n    fused_scores = {}\n    for results in results_list:\n        for rank, node in enumerate(results):\n            fused_scores[node.id] = fused_scores.get(node.id, 0) + 1.0 / (rank + k)\n    return sorted(fused_scores.items(), key=lambda x: x[1], reverse=True)\n```\n\n\u53c2\u6570`k`\u63a7\u5236\u5f02\u5e38\u6392\u540d\u7684\u5f71\u54cd\uff0c\u9ed8\u8ba460\u3002\u878d\u5408\u6a21\u5f0f\u652f\u6301`reciprocal_rerank`\uff08RRF\uff09\u3001`simple`\uff08\u7b80\u5355\u5408\u5e76\uff09\u3001`dist_based`\uff08\u57fa\u4e8e\u5206\u5e03\uff09\u3002\u5178\u578b\u914d\u7f6e\u4e3aBM25+Vector\u6df7\u5408\uff1a\u521d\u59cb\u68c0\u7d22`similarity_top_k=10-20`\uff0c\u901a\u8fc7\u91cd\u6392\u5e8f\u5668\u7b5b\u9009\u5230\u6700\u7ec82-5\u4e2a\u7ed3\u679c\u3002\n\n### \u91cd\u6392\u5e8f\u5668\u901a\u8fc7NodePostprocessor\u63a5\u53e3\u5b9e\u73b0\u5373\u63d2\u5373\u7528\n\n\u6e90\u7801\u8def\u5f84`llama-index-core/llama_index/core/postprocessor/`\uff0c\u63d0\u4f9b\u7edf\u4e00\u63a5\u53e3`postprocess_nodes(nodes, query_bundle)`\u3002\u4e3b\u8981\u5b9e\u73b0\u5305\u62ec\uff1a\n\n| \u91cd\u6392\u5e8f\u5668 | \u673a\u5236 | \u6027\u80fd\u7279\u70b9 |\n|----------|------|----------|\n| **CohereRerank** | Cohere API\u8bed\u4e49\u8bc4\u4f30 | \u9ad8\u8d28\u91cf\uff0c\u9700API\u8c03\u7528 |\n| **SentenceTransformerRerank** | CrossEncoder\u672c\u5730\u63a8\u7406 | \u5e73\u8861\u901f\u5ea6\u4e0e\u51c6\u786e\u5ea6 |\n| **LLMRerank** | LLM\u6279\u91cf\u8bc4\u4f30\u76f8\u5173\u6027 | \u6700\u9ad8\u8d28\u91cf\uff0c\u6210\u672c\u9ad8 |\n| **ColbertRerank** | ColBERT v2 token\u7ea7\u76f8\u4f3c\u5ea6 | \u7ec6\u7c92\u5ea6\u5339\u914d |\n\n\u5176\u4ed6\u540e\u5904\u7406\u5668\u5305\u62ec`SimilarityPostprocessor`\uff08\u9608\u503c\u8fc7\u6ee4\uff09\u3001`LongContextReorder`\uff08\u957f\u4e0a\u4e0b\u6587\u4f18\u5316\uff09\u3001`TimeWeightedPostprocessor`\uff08\u65f6\u95f4\u52a0\u6743\uff09\u7b49\u3002\n\n---\n\n## \u7b2c56\u7ae0\uff1aWorkflows\u4e8b\u4ef6\u9a71\u52a8\u67b6\u6784\n\n### 2024\u5e748\u6708Workflows\u53d1\u5e03\u89e3\u51b3\u4e86DAG\u67b6\u6784\u7684\u6839\u672c\u5c40\u9650\n\nLlamaIndex\u57282024\u5e74\u521d\u5f15\u5165Query Pipelines\u4f5c\u4e3a\u58f0\u660e\u5f0f\u7f16\u6392API\uff0c\u4f46\u5728\u6dfb\u52a0\u5faa\u73af\u652f\u6301\u65f6\u9047\u5230**DAG\u4e0d\u53ef\u903e\u8d8a\u7684\u9650\u5236**\uff1a\u6709\u5411\u65e0\u73af\u56fe\u7684\"\u65e0\u73af\"\u7279\u6027\u4f7f\u5176\u65e0\u6cd5\u539f\u751f\u652f\u6301Agent\u5faa\u73af\u573a\u666f\u3002\u6b64\u5916\uff0c\u8fb9\u903b\u8f91\u590d\u6742\u3001\u6570\u636e\u4f20\u9012\u56f0\u96be\u3001\u5f00\u53d1\u4f53\u9a8c\u4e0d\u81ea\u7136\u7b49\u95ee\u9898\u4fc3\u4f7f\u56e2\u961f\u91cd\u65b0\u8bbe\u8ba1\u3002\n\n**2024\u5e748\u6708\u6b63\u5f0f\u53d1\u5e03Workflows**\uff0c\u91c7\u7528\u4e8b\u4ef6\u9a71\u52a8\u67b6\u6784\u66ff\u4ee3\u56fe\u904d\u5386\u3002\u6838\u5fc3\u5dee\u5f02\u5728\u4e8e**\u63a7\u5236\u6743\u8f6c\u79fb**\uff1aDAG\u4e2d\u6846\u67b6\u51b3\u5b9a\u4e0b\u4e00\u4e2a\u7ec4\u4ef6\u548c\u6570\u636e\u4f20\u9012\uff08\"\u9ed1\u76d2\"\u95ee\u9898\uff09\uff0cWorkflows\u4e2d\u5f00\u53d1\u8005\u901a\u8fc7\u4e8b\u4ef6\u53d1\u5c04\u5b8c\u5168\u63a7\u5236\u6267\u884c\u6d41\u7a0b\u3002\n\n### @step\u88c5\u9970\u5668\u901a\u8fc7\u7c7b\u578b\u6ce8\u89e3\u5b9e\u73b0\u81ea\u52a8\u8def\u7531\n\n\u6e90\u7801\u4f4d\u4e8e`workflows/decorators.py`\uff0c\u88c5\u9970\u5668\u7b7e\u540d\uff1a\n\n```python\ndef step(\n    func: Callable | None = None,\n    *,\n    workflow: Type[\"Workflow\"] | None = None,\n    num_workers: int = 4,\n    retry_policy: RetryPolicy | None = None,\n) -> StepFunction\n```\n\n**\u6838\u5fc3\u529f\u80fd**\u5305\u62ec\uff1a\u7b7e\u540d\u68c0\u67e5\uff08\u63a8\u65ad\u8f93\u5165/\u8f93\u51fa\u4e8b\u4ef6\u7c7b\u578b\uff09\u3001Context\u53c2\u6570\u68c0\u6d4b\u3001\u8d44\u6e90\u6ce8\u5165\uff08\u901a\u8fc7`typing.Annotated`\uff09\u3001\u8fd0\u884c\u524d\u9a8c\u8bc1\u3002\u4e24\u79cd\u4f7f\u7528\u65b9\u5f0f\uff1a\n\n```python\n# \u7c7b\u65b9\u6cd5\u65b9\u5f0f - \u81ea\u52a8\u5173\u8054\u5230Workflow\nclass MyFlow(Workflow):\n    @step\n    async def start(self, ev: StartEvent) -> StopEvent:\n        return StopEvent(result=\"done\")\n\n# \u81ea\u7531\u51fd\u6570\u65b9\u5f0f - \u9700\u663e\u5f0f\u6307\u5b9aworkflow\n@step(workflow=MyWorkflow)\nasync def generate(ev: StartEvent) -> NextEvent: ...\n```\n\n**StartEvent**\u6807\u8bc6\u5165\u53e3\u70b9\uff0c\u53ef\u643a\u5e26\u4efb\u610f\u5c5e\u6027\uff1b**StopEvent**\u89e6\u53d1\u7acb\u5373\u505c\u6b62\u5e76\u901a\u8fc7`result`\u53c2\u6570\u8fd4\u56de\u503c\u3002\u81ea\u5b9a\u4e49\u4e8b\u4ef6\u57fa\u4e8ePydantic\u6a21\u578b\uff0c\u4e8b\u4ef6\u7c7b\u578b\u540c\u65f6\u5b9a\u4e49\u8def\u7531\u5173\u7cfb\u548c\u4f20\u9012\u6570\u636e\u3002\n\n### \u4e8b\u4ef6\u6d41\u901a\u8fc7asyncio\u961f\u5217\u5b9e\u73b0\u5e76\u53d1\u5206\u53d1\n\nWorkflow\u7c7b\u6838\u5fc3\u5b9e\u73b0\uff08\u6e90\u7801`workflows/workflow.py`\uff09\u57fa\u4e8easyncio\u961f\u5217\u67b6\u6784\uff1a\u6bcf\u4e2astep\u4f5c\u4e3aasync\u51fd\u6570\u4ece\u961f\u5217\u6d88\u8d39\u4e8b\u4ef6\uff0c\u53d1\u5c04\u7684\u65b0\u4e8b\u4ef6\u653e\u5165\u5176\u4ed6\u961f\u5217\u4f9b\u540e\u7eedstep\u5904\u7406\u3002\u8fd0\u884c\u6d41\u7a0b\uff1a`run()` \u2192 \u5173\u952e\u5b57\u53c2\u6570\u6253\u5305\u4e3aStartEvent \u2192 \u5206\u53d1\u5230\u8ba2\u9605steps \u2192 \u5904\u7406\u5e76\u53d1\u5c04\u65b0\u4e8b\u4ef6 \u2192 \u68c0\u6d4bStopEvent\u9000\u51fa\u3002\n\n**\u6761\u4ef6\u5206\u652f**\u901a\u8fc7`Context.send_event()`\u5b9e\u73b0\uff0c\u652f\u6301\u5411\u961f\u5217\u53d1\u9001\u591a\u4e2a\u4e8b\u4ef6\u89e6\u53d1\u5e76\u884c\u5206\u652f\u3002**\u5faa\u73af\u63a7\u5236**\u901a\u8fc7\u4e8b\u4ef6\u7c7b\u578b\u7684Union\u5b9e\u73b0\uff1a\n\n```python\n@step\nasync def extract(self, ev: StartEvent | ValidationErrorEvent) -> StopEvent | ExtractionDone:\n    if isinstance(ev, ValidationErrorEvent):\n        # \u5904\u7406\u9a8c\u8bc1\u9519\u8bef\uff0c\u53ef\u80fd\u89e6\u53d1\u91cd\u8bd5\u5faa\u73af\n```\n\n`collect_events()`\u65b9\u6cd5\u652f\u6301\u6536\u96c6\u6a21\u5f0f\uff0c\u7b49\u5f85\u6307\u5b9a\u6570\u91cf\u7684\u4e8b\u4ef6\u540e\u7ee7\u7eed\u6267\u884c\u3002\n\n### \u72b6\u6001\u6301\u4e45\u5316\u4e0eHuman-in-the-Loop\u96c6\u6210\n\n**Context\u5bf9\u8c61**\u652f\u6301\u7c7b\u578b\u5316\u72b6\u6001\u6a21\u578b\uff1a\n\n```python\nclass RunState(BaseModel):\n    num_runs: int = Field(default=0)\n\n@step\nasync def start(self, ctx: Context[RunState], ev: StartEvent) -> MyEvent:\n    async with ctx.store.edit_state() as state:\n        state.num_runs += 1\n```\n\n**WorkflowCheckpointer**\u63d0\u4f9b\u68c0\u67e5\u70b9\u673a\u5236\uff0c\u8bb0\u5f55`ctx_state`\uff08\u5b8c\u6574\u72b6\u6001\u5feb\u7167\uff09\u3001`queues`\uff08\u4e8b\u4ef6\u961f\u5217\uff09\u3001`broker_log`\uff08\u5df2\u5904\u7406\u4e8b\u4ef6\uff09\u3001`in_progress`\uff08\u8fdb\u884c\u4e2dstep\uff09\u3002\u901a\u8fc7`workflow.run_from(checkpoint)`\u53ef\u4ece\u4efb\u610f\u68c0\u67e5\u70b9\u6062\u590d\u6267\u884c\u3002\n\n**HITL\u96c6\u6210**\u901a\u8fc7\u5185\u7f6e\u4e8b\u4ef6\u7c7b\u578b\u5b9e\u73b0\uff1a\n\n```python\nresponse = await ctx.wait_for_event(\n    waiter_event=InputRequiredEvent(prefix=\"Confirm?\"),\n    event_type=HumanResponseEvent\n)\n```\n\nContext\u652f\u6301\u5e8f\u5217\u5316\uff08`JsonSerializer`/`JsonPickleSerializer`\uff09\uff0c\u9002\u7528\u4e8e\u957f\u65f6\u95f4\u7b49\u5f85\u573a\u666f\u4e0b\u7684\u72b6\u6001\u6301\u4e45\u5316\u3002\n\n### Workflows\u4e0eLangGraph\u7684\u8bbe\u8ba1\u54f2\u5b66\u5bf9\u6bd4\n\n| \u7279\u6027 | LlamaIndex Workflows | LangGraph |\n|------|---------------------|-----------|\n| **\u7f16\u7a0b\u8303\u5f0f** | \u4e8b\u4ef6\u9a71\u52a8 + @step + Context API | \u56fe/\u72b6\u6001\u673a\uff0c\u8fd0\u7b97\u7b26\u91cd\u8f7d |\n| **\u72b6\u6001\u7ba1\u7406** | \u663e\u5f0fContext store\uff0c\u9ed8\u8ba4\u65e0\u72b6\u6001 | \u9690\u5f0f\u5168\u5c40\u56fe\u72b6\u6001 |\n| **\u5faa\u73af\u652f\u6301** | \u4e8b\u4ef6\u53d1\u5c04\u81ea\u7136\u5b9e\u73b0 | \u663e\u5f0f\u8fb9\u5b9a\u4e49 |\n| **\u7c7b\u578b\u5b89\u5168** | Pydantic\u4e8b\u4ef6\uff0c\u5f3a\u7c7b\u578b\u6ce8\u89e3 | \u8f83\u5f31\u7c7b\u578b\u5b9a\u4e49 |\n| **Checkpointing** | \u5f00\u53d1\u52a0\u901f\u5668\uff0c\u975e\u5f3a\u5236 | \u5185\u7f6e\u65f6\u95f4\u65c5\u884c\u8bed\u4e49 |\n| **API\u7a33\u5b9a\u6027** | \u76f8\u5bf9\u7a33\u5b9a | \u9891\u7e41Breaking changes |\n\nLlamaIndex\u91c7\u7528\"clean Python\"\u65b9\u5f0f\uff0c\u65e0\u8fd0\u7b97\u7b26\u6280\u5de7\uff1bLangGraph\u4f7f\u7528`|`\u7ba1\u9053\u7ec4\u5408\u548c\u81ea\u5b9a\u4e49\u72b6\u6001\u8f6c\u6362\u3002\n\n---\n\n## \u7b2c57\u7ae0\uff1aAgentWorkflow\u4e0e\u5de5\u5177\u96c6\u6210\n\n### AgentWorkflow\u6784\u5efa\u4e862025\u5e74Agent-First\u67b6\u6784\u7684\u6838\u5fc3\n\n\u6e90\u7801\u8def\u5f84`llama_index/core/agent/workflow/`\uff0cAgent\u7c7b\u5c42\u6b21\u7ed3\u6784\uff1a\n\n```\nBaseWorkflowAgent (\u57fa\u7c7b)\n    \u251c\u2500\u2500 FunctionAgent (\u51fd\u6570\u8c03\u7528Agent - OpenAI Function Calling)\n    \u251c\u2500\u2500 ReActAgent (ReAct\u63a8\u7406Agent - \u601d\u8003-\u884c\u52a8\u5faa\u73af)\n    \u2514\u2500\u2500 CodeActAgent (\u4ee3\u7801\u6267\u884cAgent - Python\u4ee3\u7801\u751f\u6210)\n```\n\n**AgentWorkflow vs \u6807\u51c6Workflow**\u7684\u6838\u5fc3\u5dee\u5f02\uff1a\n\n| \u7279\u6027 | \u6807\u51c6Workflow | AgentWorkflow |\n|------|-------------|---------------|\n| \u62bd\u8c61\u7ea7\u522b | \u4f4e\u7ea7\u4e8b\u4ef6\u9a71\u52a8 | \u9ad8\u7ea7Agent\u7f16\u6392 |\n| LLM\u96c6\u6210 | \u624b\u52a8\u5b9e\u73b0 | \u5185\u7f6e\u5de5\u5177\u8c03\u7528/\u63a8\u7406 |\n| \u72b6\u6001\u7ba1\u7406 | \u624b\u52a8Context | \u81ea\u52a8state/memory |\n| \u591aAgent | \u9700\u81ea\u5b9a\u4e49 | \u5185\u7f6ehandoff\u673a\u5236 |\n\nAgent\u5faa\u73af\u5b9e\u73b0\u9075\u5faa\u56fa\u5b9a\u6d41\u7a0b\uff1a`init_run()` \u2192 `setup_agent()` \u2192 `run_agent_step()` \u2192 `parse_agent_output()` \u2192 \u6709tool_calls\u5219`call_tool()` \u2192 \u65e0\u5219\u8fd4\u56deStopEvent\u3002\n\n### FunctionTool\u901a\u8fc7\u7c7b\u578b\u63a8\u65ad\u5b9e\u73b0\u96f6\u914d\u7f6e\u5de5\u5177\u5c01\u88c5\n\n\u6e90\u7801\u8def\u5f84`llama_index/core/tools/function_tool.py`\uff0c**\u81ea\u52a8\u7c7b\u578b\u63a8\u65ad\u673a\u5236**\uff1a\n\n- \u51fd\u6570\u540d \u2192 \u5de5\u5177\u540d\u79f0\n- Docstring \u2192 \u5de5\u5177\u63cf\u8ff0\n- \u7c7b\u578b\u6ce8\u89e3 \u2192 \u53c2\u6570Schema\n- `Annotated[type, \"description\"]` \u2192 \u53c2\u6570\u63cf\u8ff0\n\n```python\ndef wolfram_alpha_query(self, query: str):\n    \"\"\"Make a query to wolfram alpha about a mathematical problem.\n    Args:\n        query (str): The query to be passed to wolfram alpha.\n    \"\"\"\n# \u81ea\u52a8\u8f6c\u6362\u4e3aOpenAI Function\u683c\u5f0f\n```\n\n**ToolSpec**\u63d0\u4f9b\u5de5\u5177\u7ec4\u5c01\u88c5\uff0c`spec_functions`\u5217\u8868\u5b9a\u4e49\u8981\u5bfc\u51fa\u7684\u51fd\u6570\uff0c`to_tool_list()`\u65b9\u6cd5\u6279\u91cf\u8f6c\u6362\u3002**\u53c2\u6570\u9a8c\u8bc1**\u5728`BaseWorkflowAgent.validate_tools()`\u4e2d\u81ea\u52a8\u5c06\u975eBaseTool\u5bf9\u8c61\u8f6c\u6362\u4e3aFunctionTool\uff0c\u5e76\u7981\u6b62\u4f7f\u7528\u4fdd\u7559\u540d\u79f0\"handoff\"\u3002\n\n### \u591a\u667a\u80fd\u4f53\u7f16\u6392\u901a\u8fc7handoff\u673a\u5236\u5b9e\u73b0Agent\u5207\u6362\n\n```python\nagent_workflow = AgentWorkflow(\n    agents=[research_agent, write_agent, review_agent],\n    root_agent=\"ResearchAgent\",\n    initial_state={\"research_notes\": {}},\n)\n```\n\n**Handoff\u5b9e\u73b0**\uff08\u6e90\u7801\u7b2c230-249\u884c\uff09\uff1a\n\n```python\nasync def handoff(ctx: Context, to_agent: str, reason: str) -> str:\n    await ctx.store.set(\"next_agent\", to_agent)\n    return f\"Handed off to {to_agent} because: {reason}\"\n```\n\n`can_handoff_to`\u5c5e\u6027\u5b9a\u4e49Agent\u53ef\u5207\u6362\u7684\u76ee\u6807\u5217\u8868\u3002**\u5de5\u5177\u83b7\u53d6**\uff08`get_tools()`\uff09\u5408\u5e76\u9759\u6001\u5de5\u5177\u3001\u52a8\u6001\u68c0\u7d22\u5de5\u5177\uff08tool_retriever\uff09\u548chandoff\u5de5\u5177\u3002**\u9519\u8bef\u6062\u590d**\u901a\u8fc7try-except\u6355\u83b7\u5de5\u5177\u8c03\u7528\u5f02\u5e38\uff0c\u5305\u88c5\u4e3a`ToolOutput(is_error=True)`\u8fd4\u56de\u7ed9LLM\u91cd\u8bd5\u3002\n\n**\u4e09\u79cd\u7f16\u6392\u6a21\u5f0f**\uff1a\n\n1. **AgentWorkflow**\uff1a\u5185\u7f6ehandoff\uff0c\u5f00\u7bb1\u5373\u7528\n2. **Orchestrator\u6a21\u5f0f**\uff1aAgent\u4f5c\u4e3a\u5de5\u5177\u66b4\u9732\u7ed9\u4e2d\u5fc3\u63a7\u5236\u5668\n3. **Custom Planner**\uff1aXML/JSON\u8ba1\u5212+\u547d\u4ee4\u5f0f\u6267\u884c\n\n### Agentic Document Workflows\u5f00\u521b\u4e86\u6587\u6863\u5904\u7406\u667a\u80fd\u4f53\u5316\n\n**ADW**\u662f2025\u5e74LlamaIndex\u63a8\u51fa\u7684\u65b0\u8303\u5f0f\uff0c\u5c06\u6587\u6863\u5904\u7406\u4ece\u5355\u6b21\u95ee\u7b54\u5347\u7ea7\u4e3a\u591a\u6b65\u9aa4\u667a\u80fd\u5de5\u4f5c\u6d41\uff1a\n\n```\n\u4f20\u7edfRAG: \u6587\u6863 \u2192 \u7d22\u5f15 \u2192 \u68c0\u7d22 \u2192 \u751f\u6210\nADW: \u6587\u6863 \u2192 \u89e3\u6790Agent \u2192 \u72b6\u6001Agent \u2192 \u68c0\u7d22Agent \u2192 \u751f\u6210Agent \u2192 \u884c\u52a8Agent\n```\n\n**\u6838\u5fc3\u80fd\u529b**\uff1a\u8de8\u6b65\u9aa4\u72b6\u6001\u7ef4\u62a4\u3001\u4e1a\u52a1\u89c4\u5219\u5e94\u7528\u3001\u7ec4\u4ef6\u534f\u8c03\u3001\u884c\u52a8\u89e6\u53d1\u3002\u5178\u578b\u7528\u4f8b\u5305\u62ec\u5408\u540c\u5ba1\u67e5\uff08\u63d0\u53d6\u6761\u6b3e\u2192\u9a8c\u8bc1\u5408\u89c4\u2192\u6807\u8bb0\u98ce\u9669\uff09\u3001\u53d1\u7968\u5904\u7406\uff08OCR\u89e3\u6790\u2192\u6570\u636e\u9a8c\u8bc1\u2192ERP\u5199\u5165\uff09\u7b49\u9700\u8981\u591a\u6b65\u9aa4\u51b3\u7b56\u7684\u573a\u666f\u3002\n\n---\n\n## \u67b6\u6784\u6f14\u8fdb\u65f6\u95f4\u7ebf\u4e0e\u8bbe\u8ba1\u6a21\u5f0f\u603b\u7ed3\n\n### 2024-2025\u5173\u952e\u7248\u672c\u53d8\u66f4\n\n| \u65f6\u95f4 | \u7248\u672c | \u91cd\u5927\u53d8\u66f4 |\n|------|------|----------|\n| 2024.02 | v0.10.0 | Settings\u5f15\u5165\uff0cServiceContext\u5f03\u7528\uff0c\u5305\u7ed3\u6784\u91cd\u7ec4 |\n| 2024.05 | v0.10.x | PropertyGraphIndex\u53d1\u5e03 |\n| 2024.08 | v0.11.0 | Workflows\u5f15\u5165\uff0cServiceContext\u5b8c\u5168\u79fb\u9664\uff0c\u6838\u5fc3\u5305\u4f53\u79ef\u51cf\u5c1142% |\n| 2024.11 | v0.12.x | Node\u591a\u6a21\u6001\u8d44\u6e90\u652f\u6301\u589e\u5f3a |\n| 2025.01 | v0.14.x | \u79fb\u9664\u5e9f\u5f03agent\u7c7b\uff0cQueryPipeline\u5e9f\u5f03\uff0cllama-index-workflows\u6210\u4e3a\u6838\u5fc3\u4f9d\u8d56 |\n\n### \u8bbe\u8ba1\u6a21\u5f0f\u8bc6\u522b\n\n| \u8bbe\u8ba1\u6a21\u5f0f | \u5e94\u7528\u573a\u666f | \u6e90\u7801\u4f4d\u7f6e |\n|----------|----------|----------|\n| **\u5355\u4f8b\u6a21\u5f0f** | Settings\u5168\u5c40\u914d\u7f6e | `core/settings.py` |\n| **\u5de5\u5382\u6a21\u5f0f** | `VectorStoreIndex.from_documents()` | `indices/vector_store/base.py` |\n| **\u7b56\u7565\u6a21\u5f0f** | TransformComponent\u8f6c\u6362\u7b56\u7565 | `core/schema.py` |\n| **\u6a21\u677f\u65b9\u6cd5** | BaseIndex\u62bd\u8c61\u57fa\u7c7b | `indices/base.py` |\n| **\u7ba1\u9053\u8fc7\u6ee4\u5668** | IngestionPipeline\u6570\u636e\u6d41 | `ingestion/pipeline.py` |\n| **\u53d1\u5e03-\u8ba2\u9605** | Workflows\u4e8b\u4ef6\u9a71\u52a8 | `workflow/workflow.py` |\n| **\u7ec4\u5408\u6a21\u5f0f** | Node\u5173\u7cfb\u6811\u7ed3\u6784 | `core/schema.py` |\n\n### \u5173\u952e\u6e90\u4ee3\u7801\u8def\u5f84\u901f\u67e5\n\n| \u7ec4\u4ef6 | \u8def\u5f84 |\n|------|------|\n| Schema/Node\u5b9a\u4e49 | `llama-index-core/llama_index/core/schema.py` |\n| Settings\u914d\u7f6e | `llama-index-core/llama_index/core/settings.py` |\n| BaseIndex | `llama-index-core/llama_index/core/indices/base.py` |\n| VectorStoreIndex | `llama-index-core/llama_index/core/indices/vector_store/base.py` |\n| PropertyGraphIndex | `llama-index-core/llama_index/core/indices/property_graph/base.py` |\n| BaseRetriever | `llama-index-core/llama_index/core/base/base_retriever.py` |\n| QueryFusionRetriever | `llama-index-core/llama_index/core/retrievers/fusion_retriever.py` |\n| Workflow | `workflows/workflow.py` \u6216 `llama_index/core/workflow/` |\n| AgentWorkflow | `llama_index/core/agent/workflow/multi_agent_workflow.py` |\n| FunctionTool | `llama_index/core/tools/function_tool.py` |\n\n---\n\n## \u7ed3\u8bba\uff1a\u4eceRAG\u6846\u67b6\u5230Agent-First\u5e73\u53f0\u7684\u6f14\u8fdb\n\nLlamaIndex\u57282024-2025\u5e74\u5b8c\u6210\u4e86\u4e09\u91cd\u8f6c\u578b\uff1a**\u914d\u7f6e\u73b0\u4ee3\u5316**\uff08ServiceContext\u2192Settings\u7684\u61d2\u52a0\u8f7d\u5355\u4f8b\uff09\u3001**\u7f16\u6392\u8303\u5f0f\u8f6c\u6362**\uff08DAG\u2192Workflows\u7684\u4e8b\u4ef6\u9a71\u52a8\uff09\u3001**\u80fd\u529b\u8fb9\u754c\u62d3\u5c55**\uff08RAG\u2192Agent-First\u7684\u667a\u80fd\u4f53\u5316\uff09\u3002\n\nPropertyGraphIndex\u89e3\u51b3\u4e86\u4f20\u7edf\u77e5\u8bc6\u56fe\u8c31RAG\u7684Schema\u50f5\u5316\u95ee\u9898\uff0c\u901a\u8fc7\u6807\u7b7e\u5c5e\u6027\u56fe\u6a21\u578b\u5b9e\u73b0\u4e86\u66f4\u4e30\u5bcc\u7684\u5173\u7cfb\u5efa\u6a21\u3002Workflows\u67b6\u6784\u5c06\u63a7\u5236\u6743\u4ece\u6846\u67b6\u8f6c\u79fb\u5230\u5f00\u53d1\u8005\uff0c\u4f7f\u590d\u6742AI\u5e94\u7528\u6784\u5efa\u66f4\u52a0\u76f4\u89c2\u3002AgentWorkflow\u901a\u8fc7\u5185\u7f6ehandoff\u673a\u5236\u548cFunctionTool\u81ea\u52a8\u7c7b\u578b\u63a8\u65ad\uff0c\u5927\u5e45\u964d\u4f4e\u4e86\u591a\u667a\u80fd\u4f53\u7cfb\u7edf\u7684\u5f00\u53d1\u95e8\u69db\u3002\n\n\u4e0eLangChain/LangGraph\u7684\u7ade\u4e89\u6027\u5dee\u5f02\u5728\u4e8e\uff1aLlamaIndex\u575a\u6301**Data-First**\u7406\u5ff5\uff0c\u5728\u7d22\u5f15\u3001\u68c0\u7d22\u3001\u91cd\u6392\u5e8f\u7b49RAG\u6838\u5fc3\u73af\u8282\u63d0\u4f9b\u66f4\u6df1\u5ea6\u7684\u4f18\u5316\uff0c\u540c\u65f6\u901a\u8fc7Workflows\u63d0\u4f9b\u4e0eLangGraph\u529f\u80fd\u5bf9\u7b49\u4f46\u66f4\"Pythonic\"\u7684Agent\u7f16\u6392\u80fd\u529b\u3002\u4e24\u8005\u7684\u6700\u4f73\u5b9e\u8df5\u662f**\u4e92\u8865\u4f7f\u7528**\uff1aLlamaIndex\u8d1f\u8d23\u6570\u636e\u5c42\uff0cLangChain\u8d1f\u8d23\u5e94\u7528\u5c42\u7f16\u6392\u3002\n\n**\u7a33\u5b9aAPI**\uff1aBaseNode\u3001Document\u3001TextNode\u3001VectorStoreIndex\u3001PropertyGraphIndex\u3001Settings\u3001IngestionPipeline\u3001Workflow\u3001AgentWorkflow\u3001FunctionTool\n\n**\u5185\u90e8\u5b9e\u73b0**\uff08\u53ef\u80fd\u53d8\u66f4\uff09\uff1aIndexStruct\u3001IndexDict\u3001_build_index_from_nodes\u3001workflow\u5185\u90e8\u4e8b\u4ef6\u5206\u53d1\u673a\u5236",
+      "language": null,
+      "md_citations": [
+        {
+          "url": "https://github.com/run-llama/llama_index",
+          "uuid": "d3acce34-ce8b-422c-9e4c-2c32d1bd715d",
+          "title": "GitHub",
+          "sources": [
+            {
+              "url": "https://github.com/run-llama/llama_index",
+              "uuid": "d3acce34-ce8b-422c-9e4c-2c32d1bd715d",
+              "title": "GitHub - run-llama/llama_index: LlamaIndex is the leading framework for building LLM-powered agents over your data.",
+              "source": "GitHub",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=github.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "d3acce34-ce8b-422c-9e4c-2c32d1bd715d",
+            "source": "GitHub",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=github.com",
+            "preview_title": "GitHub - run-llama/llama_index: LlamaIndex is the leading framework for building LLM-powered agents over your data."
+          },
+          "end_index": 295,
+          "start_index": 279,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://huggingface.co/llamaindex",
+          "uuid": "796c3591-7db6-4e9a-a223-6345590e1ca8",
+          "title": "Hugging Face",
+          "sources": [
+            {
+              "url": "https://huggingface.co/llamaindex",
+              "uuid": "796c3591-7db6-4e9a-a223-6345590e1ca8",
+              "title": "llamaindex (LlamaIndex)",
+              "source": "Hugging Face",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=huggingface.co",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "796c3591-7db6-4e9a-a223-6345590e1ca8",
+            "source": "Hugging Face",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=huggingface.co",
+            "preview_title": "llamaindex (LlamaIndex)"
+          },
+          "end_index": 295,
+          "start_index": 279,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://github.com/run-llama/llama_index/discussions/8541",
+          "uuid": "4aef0209-bc89-4246-8b86-083d1e2a1320",
+          "title": "GitHub",
+          "sources": [
+            {
+              "url": "https://github.com/run-llama/llama_index/discussions/8541",
+              "uuid": "4aef0209-bc89-4246-8b86-083d1e2a1320",
+              "title": "Is it necessary to store all `node_id` in `baseindex` by index_struct \u00b7 run-llama/llama_index \u00b7 Discussion #8541",
+              "source": "GitHub",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=github.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "4aef0209-bc89-4246-8b86-083d1e2a1320",
+            "source": "GitHub",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=github.com",
+            "preview_title": "Is it necessary to store all `node_id` in `baseindex` by index_struct \u00b7 run-llama/llama_index \u00b7 Discussion #8541"
+          },
+          "end_index": 413,
+          "start_index": 361,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://docs.llamaindex.ai/en/stable/api_reference/schema/",
+          "uuid": "3dc75763-3e8d-4048-b5ae-7f9d82f59889",
+          "title": "llamaindex",
+          "sources": [
+            {
+              "url": "https://docs.llamaindex.ai/en/stable/api_reference/schema/",
+              "uuid": "3dc75763-3e8d-4048-b5ae-7f9d82f59889",
+              "title": "Index",
+              "source": "llamaindex",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=llamaindex.ai",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "3dc75763-3e8d-4048-b5ae-7f9d82f59889",
+            "source": "llamaindex",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=llamaindex.ai",
+            "preview_title": "Index"
+          },
+          "end_index": 845,
+          "start_index": 800,
+          "origin_tool_name": "web_fetch"
+        },
+        {
+          "url": "https://docs.llamaindex.ai/en/stable/api_reference/schema/",
+          "uuid": "2328d7d1-02e2-4f0c-8d2c-e375090e8e5e",
+          "title": "llamaindex",
+          "sources": [
+            {
+              "url": "https://docs.llamaindex.ai/en/stable/api_reference/schema/",
+              "uuid": "2328d7d1-02e2-4f0c-8d2c-e375090e8e5e",
+              "title": "Index",
+              "source": "llamaindex",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=llamaindex.ai",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "2328d7d1-02e2-4f0c-8d2c-e375090e8e5e",
+            "source": "llamaindex",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=llamaindex.ai",
+            "preview_title": "Index"
+          },
+          "end_index": 1100,
+          "start_index": 998,
+          "origin_tool_name": "web_fetch"
+        },
+        {
+          "url": "https://wentao.site/llama_index/",
+          "uuid": "f0dd647b-05e4-4ba9-af22-13e32bcab541",
+          "title": "Wentao's Blog",
+          "sources": [
+            {
+              "url": "https://wentao.site/llama_index/",
+              "uuid": "f0dd647b-05e4-4ba9-af22-13e32bcab541",
+              "title": "Llama_index Source Code Analysis(1) - Wentao's Blog",
+              "source": "Wentao's Blog",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=wentao.site",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "f0dd647b-05e4-4ba9-af22-13e32bcab541",
+            "source": "Wentao's Blog",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=wentao.site",
+            "preview_title": "Llama_index Source Code Analysis(1) - Wentao's Blog"
+          },
+          "end_index": 1100,
+          "start_index": 998,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://github.com/run-llama/llama_index/blob/main/llama-index-core/llama_index/core/node_parser/interface.py",
+          "uuid": "ddcf97f6-4901-40c6-9991-9bfbe6a69c0d",
+          "title": "GitHub",
+          "sources": [
+            {
+              "url": "https://github.com/run-llama/llama_index/blob/main/llama-index-core/llama_index/core/node_parser/interface.py",
+              "uuid": "ddcf97f6-4901-40c6-9991-9bfbe6a69c0d",
+              "title": "llama_index/llama-index-core/llama_index/core/node_parser/interface.py at main \u00b7 run-llama/llama_index",
+              "source": "GitHub",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=github.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "ddcf97f6-4901-40c6-9991-9bfbe6a69c0d",
+            "source": "GitHub",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=github.com",
+            "preview_title": "llama_index/llama-index-core/llama_index/core/node_parser/interface.py at main \u00b7 run-llama/llama_index"
+          },
+          "end_index": 1100,
+          "start_index": 998,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://docs.llamaindex.ai/en/stable/api_reference/schema/",
+          "uuid": "b26792c0-8377-4af0-b7d4-8190efecc956",
+          "title": "llamaindex",
+          "sources": [
+            {
+              "url": "https://docs.llamaindex.ai/en/stable/api_reference/schema/",
+              "uuid": "b26792c0-8377-4af0-b7d4-8190efecc956",
+              "title": "Index",
+              "source": "llamaindex",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=llamaindex.ai",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "b26792c0-8377-4af0-b7d4-8190efecc956",
+            "source": "llamaindex",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=llamaindex.ai",
+            "preview_title": "Index"
+          },
+          "end_index": 1260,
+          "start_index": 1163,
+          "origin_tool_name": "web_fetch"
+        },
+        {
+          "url": "https://docs.llamaindex.ai/en/stable/api_reference/schema/",
+          "uuid": "1f030772-5f28-4d0f-b6ea-4bfdc9e858b0",
+          "title": "LlamaIndex",
+          "sources": [
+            {
+              "url": "https://docs.llamaindex.ai/en/stable/api_reference/schema/",
+              "uuid": "1f030772-5f28-4d0f-b6ea-4bfdc9e858b0",
+              "title": "Index - LlamaIndex",
+              "source": "LlamaIndex",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=llamaindex.ai",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "1f030772-5f28-4d0f-b6ea-4bfdc9e858b0",
+            "source": "LlamaIndex",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=llamaindex.ai",
+            "preview_title": "Index - LlamaIndex"
+          },
+          "end_index": 1260,
+          "start_index": 1163,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://docs.llamaindex.ai/en/stable/module_guides/supporting_modules/service_context_migration/",
+          "uuid": "eb04c50e-9fa5-42e1-83c5-9e997f16c0ed",
+          "title": "llamaindex",
+          "sources": [
+            {
+              "url": "https://docs.llamaindex.ai/en/stable/module_guides/supporting_modules/service_context_migration/",
+              "uuid": "eb04c50e-9fa5-42e1-83c5-9e997f16c0ed",
+              "title": "Migrating from ServiceContext to Settings",
+              "source": "llamaindex",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=llamaindex.ai",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "eb04c50e-9fa5-42e1-83c5-9e997f16c0ed",
+            "source": "llamaindex",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=llamaindex.ai",
+            "preview_title": "Migrating from ServiceContext to Settings"
+          },
+          "end_index": 1404,
+          "start_index": 1303,
+          "origin_tool_name": "web_fetch"
+        },
+        {
+          "url": "https://www.llamaindex.ai/blog/introducing-llamaindex-0-11",
+          "uuid": "eef37c03-ba13-4576-8fc3-b331fd8da200",
+          "title": "LlamaIndex",
+          "sources": [
+            {
+              "url": "https://www.llamaindex.ai/blog/introducing-llamaindex-0-11",
+              "uuid": "eef37c03-ba13-4576-8fc3-b331fd8da200",
+              "title": "Introducing LlamaIndex 0.11",
+              "source": "LlamaIndex",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=llamaindex.ai",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "eef37c03-ba13-4576-8fc3-b331fd8da200",
+            "source": "LlamaIndex",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=llamaindex.ai",
+            "preview_title": "Introducing LlamaIndex 0.11"
+          },
+          "end_index": 1404,
+          "start_index": 1303,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://docs.llamaindex.ai/en/stable/module_guides/supporting_modules/service_context_migration/",
+          "uuid": "2194591f-a29d-4afa-bb1d-4deeb3193ab7",
+          "title": "LlamaIndex",
+          "sources": [
+            {
+              "url": "https://docs.llamaindex.ai/en/stable/module_guides/supporting_modules/service_context_migration/",
+              "uuid": "2194591f-a29d-4afa-bb1d-4deeb3193ab7",
+              "title": "Migrating from ServiceContext to Settings | LlamaIndex Python Documentation",
+              "source": "LlamaIndex",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=llamaindex.ai",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "2194591f-a29d-4afa-bb1d-4deeb3193ab7",
+            "source": "LlamaIndex",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=llamaindex.ai",
+            "preview_title": "Migrating from ServiceContext to Settings | LlamaIndex Python Documentation"
+          },
+          "end_index": 1511,
+          "start_index": 1446,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://docs.llamaindex.ai/en/stable/module_guides/supporting_modules/service_context_migration/",
+          "uuid": "b4d6e868-b1c7-43bb-b0a0-fd74e8668a37",
+          "title": "llamaindex",
+          "sources": [
+            {
+              "url": "https://docs.llamaindex.ai/en/stable/module_guides/supporting_modules/service_context_migration/",
+              "uuid": "b4d6e868-b1c7-43bb-b0a0-fd74e8668a37",
+              "title": "Migrating from ServiceContext to Settings",
+              "source": "llamaindex",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=llamaindex.ai",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "b4d6e868-b1c7-43bb-b0a0-fd74e8668a37",
+            "source": "llamaindex",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=llamaindex.ai",
+            "preview_title": "Migrating from ServiceContext to Settings"
+          },
+          "end_index": 1630,
+          "start_index": 1406,
+          "origin_tool_name": "web_fetch"
+        },
+        {
+          "url": "https://github.com/run-llama/llama_index/discussions/8541",
+          "uuid": "67428a6c-6366-4f54-86b6-00bf2406f8bf",
+          "title": "GitHub",
+          "sources": [
+            {
+              "url": "https://github.com/run-llama/llama_index/discussions/8541",
+              "uuid": "67428a6c-6366-4f54-86b6-00bf2406f8bf",
+              "title": "Is it necessary to store all `node_id` in `baseindex` by index_struct \u00b7 run-llama/llama_index \u00b7 Discussion #8541",
+              "source": "GitHub",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=github.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "67428a6c-6366-4f54-86b6-00bf2406f8bf",
+            "source": "GitHub",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=github.com",
+            "preview_title": "Is it necessary to store all `node_id` in `baseindex` by index_struct \u00b7 run-llama/llama_index \u00b7 Discussion #8541"
+          },
+          "end_index": 2177,
+          "start_index": 2091,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://github.com/run-llama/llama_index/blob/main/llama-index-core/llama_index/core/indices/vector_store/base.py",
+          "uuid": "4cd97d5b-ecbb-412a-8c0c-509fe14b5a63",
+          "title": "GitHub",
+          "sources": [
+            {
+              "url": "https://github.com/run-llama/llama_index/blob/main/llama-index-core/llama_index/core/indices/vector_store/base.py",
+              "uuid": "4cd97d5b-ecbb-412a-8c0c-509fe14b5a63",
+              "title": "llama_index/llama-index-core/llama_index/core/indices/vector_store/base.py at main \u00b7 run-llama/llama_index",
+              "source": "GitHub",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=github.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "4cd97d5b-ecbb-412a-8c0c-509fe14b5a63",
+            "source": "GitHub",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=github.com",
+            "preview_title": "llama_index/llama-index-core/llama_index/core/indices/vector_store/base.py at main \u00b7 run-llama/llama_index"
+          },
+          "end_index": 4236,
+          "start_index": 4167,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://github.com/run-llama/llama_index/blob/main/docs/docs/module_guides/indexing/vector_store_index.md",
+          "uuid": "9f402075-3fe6-4ce7-b49f-c3da4a92466e",
+          "title": "GitHub",
+          "sources": [
+            {
+              "url": "https://github.com/run-llama/llama_index/blob/main/docs/docs/module_guides/indexing/vector_store_index.md",
+              "uuid": "9f402075-3fe6-4ce7-b49f-c3da4a92466e",
+              "title": "llama_index/docs/docs/module_guides/indexing/vector_store_index.md at main \u00b7 run-llama/llama_index",
+              "source": "GitHub",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=github.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "9f402075-3fe6-4ce7-b49f-c3da4a92466e",
+            "source": "GitHub",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=github.com",
+            "preview_title": "llama_index/docs/docs/module_guides/indexing/vector_store_index.md at main \u00b7 run-llama/llama_index"
+          },
+          "end_index": 4325,
+          "start_index": 4272,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://docs.llamaindex.ai/en/stable/api_reference/retrievers/",
+          "uuid": "ac1ff5ed-1b73-4150-ad2d-65b56a9214c2",
+          "title": "LlamaIndex",
+          "sources": [
+            {
+              "url": "https://docs.llamaindex.ai/en/stable/api_reference/retrievers/",
+              "uuid": "ac1ff5ed-1b73-4150-ad2d-65b56a9214c2",
+              "title": "Index - LlamaIndex",
+              "source": "LlamaIndex",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=llamaindex.ai",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "ac1ff5ed-1b73-4150-ad2d-65b56a9214c2",
+            "source": "LlamaIndex",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=llamaindex.ai",
+            "preview_title": "Index - LlamaIndex"
+          },
+          "end_index": 5463,
+          "start_index": 5400,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://developers.llamaindex.ai/python/llamaagents/workflows/",
+          "uuid": "6cc9479d-e8ee-44bb-a91b-5e12f709100a",
+          "title": "Llamaindex",
+          "sources": [
+            {
+              "url": "https://developers.llamaindex.ai/python/llamaagents/workflows/",
+              "uuid": "6cc9479d-e8ee-44bb-a91b-5e12f709100a",
+              "title": "Introduction | LlamaIndex Python Documentation",
+              "source": "Llamaindex",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=llamaindex.ai",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "6cc9479d-e8ee-44bb-a91b-5e12f709100a",
+            "source": "Llamaindex",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=llamaindex.ai",
+            "preview_title": "Introduction | LlamaIndex Python Documentation"
+          },
+          "end_index": 7416,
+          "start_index": 7280,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://developers.llamaindex.ai/python/workflows-api-reference/decorators/",
+          "uuid": "41bc2e4a-ed80-454b-8ad2-d953c6ae6faa",
+          "title": "llamaindex",
+          "sources": [
+            {
+              "url": "https://developers.llamaindex.ai/python/workflows-api-reference/decorators/",
+              "uuid": "41bc2e4a-ed80-454b-8ad2-d953c6ae6faa",
+              "title": "Decorators",
+              "source": "llamaindex",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=llamaindex.ai",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "41bc2e4a-ed80-454b-8ad2-d953c6ae6faa",
+            "source": "llamaindex",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=llamaindex.ai",
+            "preview_title": "Decorators"
+          },
+          "end_index": 7869,
+          "start_index": 7795,
+          "origin_tool_name": "web_fetch"
+        },
+        {
+          "url": "https://docs.llamaindex.ai/en/stable/module_guides/workflow/",
+          "uuid": "86ef0972-f732-43c7-94cd-c821a2cef947",
+          "title": "llamaindex",
+          "sources": [
+            {
+              "url": "https://docs.llamaindex.ai/en/stable/module_guides/workflow/",
+              "uuid": "86ef0972-f732-43c7-94cd-c821a2cef947",
+              "title": "Introduction",
+              "source": "llamaindex",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=llamaindex.ai",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "86ef0972-f732-43c7-94cd-c821a2cef947",
+            "source": "llamaindex",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=llamaindex.ai",
+            "preview_title": "Introduction"
+          },
+          "end_index": 8217,
+          "start_index": 8153,
+          "origin_tool_name": "web_fetch"
+        },
+        {
+          "url": "https://www.zenml.io/blog/llamaindex-vs-langchain",
+          "uuid": "2d194e02-4271-4d68-ab96-dce3011edfa9",
+          "title": "ZenML",
+          "sources": [
+            {
+              "url": "https://www.zenml.io/blog/llamaindex-vs-langchain",
+              "uuid": "2d194e02-4271-4d68-ab96-dce3011edfa9",
+              "title": "LlamaIndex vs LangChain: Which Framework Is Best for Agentic AI Workflows? - ZenML Blog",
+              "source": "ZenML",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=zenml.io",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "2d194e02-4271-4d68-ab96-dce3011edfa9",
+            "source": "ZenML",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=zenml.io",
+            "preview_title": "LlamaIndex vs LangChain: Which Framework Is Best for Agentic AI Workflows? - ZenML Blog"
+          },
+          "end_index": 8253,
+          "start_index": 8217,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://github.com/run-llama/workflows-py",
+          "uuid": "5ad208f8-370e-43e7-9437-8db5bce5575e",
+          "title": "GitHub",
+          "sources": [
+            {
+              "url": "https://github.com/run-llama/workflows-py",
+              "uuid": "5ad208f8-370e-43e7-9437-8db5bce5575e",
+              "title": "GitHub - run-llama/workflows-py: Workflows are an event-driven, async-first, step-based way to control the execution flow of AI applications like agents.",
+              "source": "GitHub",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=github.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "5ad208f8-370e-43e7-9437-8db5bce5575e",
+            "source": "GitHub",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=github.com",
+            "preview_title": "GitHub - run-llama/workflows-py: Workflows are an event-driven, async-first, step-based way to control the execution flow of AI applications like agents."
+          },
+          "end_index": 8380,
+          "start_index": 8281,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://developers.llamaindex.ai/python/examples/workflow/workflows_cookbook/",
+          "uuid": "ba47d7c9-ef41-4b92-aba9-f0de89141ed3",
+          "title": "Llamaindex",
+          "sources": [
+            {
+              "url": "https://developers.llamaindex.ai/python/examples/workflow/workflows_cookbook/",
+              "uuid": "ba47d7c9-ef41-4b92-aba9-f0de89141ed3",
+              "title": "Workflows cookbook: walking through all features of Workflows | LlamaIndex Python Documentation",
+              "source": "Llamaindex",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=llamaindex.ai",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "ba47d7c9-ef41-4b92-aba9-f0de89141ed3",
+            "source": "Llamaindex",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=llamaindex.ai",
+            "preview_title": "Workflows cookbook: walking through all features of Workflows | LlamaIndex Python Documentation"
+          },
+          "end_index": 8762,
+          "start_index": 8720,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://docs.llamaindex.ai/en/stable/examples/workflow/checkpointing_workflows/",
+          "uuid": "5e27a2dd-7b84-407b-a704-6b42a6acadd8",
+          "title": "LlamaIndex",
+          "sources": [
+            {
+              "url": "https://docs.llamaindex.ai/en/stable/examples/workflow/checkpointing_workflows/",
+              "uuid": "5e27a2dd-7b84-407b-a704-6b42a6acadd8",
+              "title": "Checkpointing Workflow Runs - LlamaIndex",
+              "source": "LlamaIndex",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=llamaindex.ai",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "5e27a2dd-7b84-407b-a704-6b42a6acadd8",
+            "source": "LlamaIndex",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=llamaindex.ai",
+            "preview_title": "Checkpointing Workflow Runs - LlamaIndex"
+          },
+          "end_index": 9168,
+          "start_index": 9056,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://docs.llamaindex.ai/en/stable/examples/agent/agent_workflow_basic/",
+          "uuid": "d0b04882-f4ff-4912-8121-239ce9621759",
+          "title": "LlamaIndex",
+          "sources": [
+            {
+              "url": "https://docs.llamaindex.ai/en/stable/examples/agent/agent_workflow_basic/",
+              "uuid": "d0b04882-f4ff-4912-8121-239ce9621759",
+              "title": "FunctionAgent / AgentWorkflow Basic Introduction | LlamaIndex Python Documentation",
+              "source": "LlamaIndex",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=llamaindex.ai",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "d0b04882-f4ff-4912-8121-239ce9621759",
+            "source": "LlamaIndex",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=llamaindex.ai",
+            "preview_title": "FunctionAgent / AgentWorkflow Basic Introduction | LlamaIndex Python Documentation"
+          },
+          "end_index": 9454,
+          "start_index": 9382,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://medium.com/@pedroazevedo6/langgraph-vs-llamaindex-workflows-for-building-agents-the-final-no-bs-guide-2025-11445ef6fadc",
+          "uuid": "8acf8c7c-85d5-43ad-8bfb-fc8976fa4a75",
+          "title": "Medium",
+          "sources": [
+            {
+              "url": "https://medium.com/@pedroazevedo6/langgraph-vs-llamaindex-workflows-for-building-agents-the-final-no-bs-guide-2025-11445ef6fadc",
+              "uuid": "8acf8c7c-85d5-43ad-8bfb-fc8976fa4a75",
+              "title": "LangGraph vs. LlamaIndex Workflows for Building Agents \u2014The Final no BS Guide (2025) | by Pedro Azevedo | Medium",
+              "source": "Medium",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=medium.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "8acf8c7c-85d5-43ad-8bfb-fc8976fa4a75",
+            "source": "Medium",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=medium.com",
+            "preview_title": "LangGraph vs. LlamaIndex Workflows for Building Agents \u2014The Final no BS Guide (2025) | by Pedro Azevedo | Medium"
+          },
+          "end_index": 9901,
+          "start_index": 9838,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://www.leanware.co/insights/langgraph-vs-llamaindex",
+          "uuid": "5e86bc49-049a-4021-a0a8-1c43d93dc974",
+          "title": "Leanware",
+          "sources": [
+            {
+              "url": "https://www.leanware.co/insights/langgraph-vs-llamaindex",
+              "uuid": "5e86bc49-049a-4021-a0a8-1c43d93dc974",
+              "title": "LangGraph vs LlamaIndex: Comprehensive Comparison & Guide",
+              "source": "Leanware",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=leanware.co",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "5e86bc49-049a-4021-a0a8-1c43d93dc974",
+            "source": "Leanware",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=leanware.co",
+            "preview_title": "LangGraph vs LlamaIndex: Comprehensive Comparison & Guide"
+          },
+          "end_index": 14321,
+          "start_index": 14184,
+          "origin_tool_name": "web_search"
+        }
+      ],
+      "version_uuid": "9654156b-f777-4076-a9f6-f57cbe0dce2e"
+    },
+    "message": null,
+    "integration_name": null,
+    "integration_icon_url": null,
+    "context": null,
+    "display_content": null,
+    "approval_options": null,
+    "approval_key": null
+  },
+  {
+    "start_timestamp": null,
+    "stop_timestamp": null,
+    "flags": null,
+    "type": "tool_result",
+    "name": "artifacts",
+    "content": [
+      {
+        "type": "text",
+        "text": "OK",
+        "uuid": "29c46dca-783c-4313-8082-603625bf918a"
+      }
+    ],
+    "is_error": false,
+    "structured_content": null,
+    "meta": null,
+    "message": null,
+    "integration_name": null,
+    "integration_icon_url": null,
+    "display_content": null
+  }
+]

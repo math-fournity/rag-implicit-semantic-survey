@@ -1,0 +1,1696 @@
+Assistant:
+Content:
+[
+  {
+    "start_timestamp": "2026-01-11T08:30:45.464025Z",
+    "stop_timestamp": "2026-01-11T08:30:45.464025Z",
+    "flags": null,
+    "type": "text",
+    "text": "\n\n",
+    "citations": []
+  },
+  {
+    "start_timestamp": "2026-01-11T08:30:45.464025Z",
+    "stop_timestamp": "2026-01-11T08:30:50.028221Z",
+    "flags": null,
+    "type": "thinking",
+    "thinking": "The user wants me to continue the Vol4-04 research that was interrupted. Looking at the context, I was in the middle of doing web searches for the Vol4-04 deep research report covering Ch64-66 on framework interoperability and MCP integration.\n\nI've already gathered substantial information from my web searches on:\n1. LlamaIndex + LangChain integration\n2. DSPy integration with RAG frameworks\n3. MCP protocol and framework integration\n\nSince this is a continuation of research that was already in progress (not a new research request), and the user explicitly says \"\u7ee7\u7eed\u7814\u7a76\" (continue the research), I should continue with the deep research task. The research topic is already clear from the context - Vol4-04 covering Ch64-66: Framework Interoperability and MCP Integration.\n\nLet me launch the extended search task to complete this research.",
+    "summaries": [
+      {
+        "summary": "\u601d\u8003\u5982\u4f55\u7ee7\u7eed\u4e4b\u524d\u4e2d\u65ad\u7684\u7814\u7a76\u5de5\u4f5c"
+      },
+      {
+        "summary": "\u91cd\u542fVol4-04\u7814\u7a76\uff0c\u6316\u6398\u6846\u67b6\u4e92\u64cd\u4f5c\u6027\u4e0eMCP\u96c6\u6210\u3002"
+      },
+      {
+        "summary": "\u7ee7\u7eed\u641c\u96c6Vol4-04\u7814\u7a76\u8d44\u6599\u4e2d\u3002"
+      },
+      {
+        "summary": "\u91cd\u542f\u4e86\u4e2d\u65ad\u7684\u6846\u67b6\u4e92\u64cd\u4f5c\u6027\u7814\u7a76\u4efb\u52a1\u3002"
+      }
+    ],
+    "cut_off": false,
+    "alternative_display_type": null
+  },
+  {
+    "start_timestamp": "2026-01-11T08:30:50.028621Z",
+    "stop_timestamp": "2026-01-11T08:30:50.909182Z",
+    "flags": null,
+    "type": "text",
+    "text": "\u7ee7\u7eedVol4-04\u6df1\u5ea6\u7814\u7a76\uff08Ch64-66\uff1a\u6846\u67b6\u4e92\u64cd\u4f5c\u4e0eMCP\u96c6\u6210\uff09\u3002\u6211\u5df2\u7ecf\u6536\u96c6\u4e86\u4e00\u4e9b\u521d\u6b65\u4fe1\u606f\uff0c\u73b0\u5728\u542f\u52a8\u5b8c\u6574\u7684\u6df1\u5ea6\u7814\u7a76\u4efb\u52a1\u3002",
+    "citations": []
+  },
+  {
+    "start_timestamp": "2026-01-11T08:30:51.059517Z",
+    "stop_timestamp": "2026-01-11T08:31:10.678673Z",
+    "flags": null,
+    "type": "tool_use",
+    "name": "launch_extended_search_task",
+    "input": {
+      "command": "Vol4-04\u6df1\u5ea6\u7814\u7a76\u4efb\u52a1\uff1aRAG\u6846\u67b6\u4e92\u64cd\u4f5c\u4e0eMCP\u534f\u8bae\u96c6\u6210\uff08Ch64-66\uff09\n\n\u7814\u7a76\u76ee\u6807\uff1a\u5b8c\u6210\u7b2c\u56db\u5377\u6700\u540e\u4e09\u7ae0\u7684\u6e90\u4ee3\u7801\u7ea7\u6df1\u5ea6\u5256\u6790\uff0c\u805a\u7126\u6846\u67b6\u4e92\u64cd\u4f5c\u6027\u548cMCP\u534f\u8bae\u7edf\u4e00\u63a5\u5165\u3002\n\n\u7b2c64\u7ae0\uff1aLlamaIndex + LangChain\u53cc\u6846\u67b6\u96c6\u6210\n1. LlamaIndex\u68c0\u7d22\u5668\u4f5c\u4e3aLangChain\u5de5\u5177\u7684\u96c6\u6210\u6a21\u5f0f\n   - LlamaIndexRetriever\u548cLlamaIndexGraphRetriever\u9002\u914d\u5668\u6e90\u4ee3\u7801\u5206\u6790\n   - as_langchain_retriever()\u65b9\u6cd5\u5b9e\u73b0\u673a\u5236\n   - to_langchain_tool()\u5de5\u5177\u8f6c\u6362\u63a5\u53e3\n2. \u53cc\u6846\u67b6\u534f\u540c\u7684\u6700\u4f73\u5b9e\u8df5\n   - LlamaIndex\u8d1f\u8d23\u7d22\u5f15/\u68c0\u7d22 + LangChain\u8d1f\u8d23Agent\u7f16\u6392\u7684\u5206\u5de5\u6a21\u5f0f\n   - \u6570\u636e\u683c\u5f0f\u8f6c\u6362\uff08Document\u5bf9\u8c61\u4e92\u8f6c\uff09\n   - \u72b6\u6001\u7ba1\u7406\u548c\u4e0a\u4e0b\u6587\u4f20\u9012\n3. \u5b9e\u9645\u4ee3\u7801\u793a\u4f8b\u548c\u6027\u80fd\u5bf9\u6bd4\n   - Agentic RAG\u7cfb\u7edf\u4e2d\u7684\u53cc\u6846\u67b6\u7ec4\u5408\n   - \u68c0\u7d22\u901f\u5ea6\u548c\u51c6\u786e\u7387\u57fa\u51c6\u6d4b\u8bd5\n\n\u7b2c65\u7ae0\uff1aDSPy\u4e0eRAG\u6846\u67b6\u8054\u5408\u4f18\u5316\n1. DSPy\u7f16\u7a0b\u5f0f\u63d0\u793a\u4f18\u5316\u6838\u5fc3\u6982\u5ff5\n   - Signatures/Modules/Predictors\u67b6\u6784\n   - MIPROv2/COPRO/GEPA/SIMBA\u4f18\u5316\u5668\u5bf9\u6bd4\n   - BootstrapFewShot\u548cBootstrapFinetune\u673a\u5236\n2. DSPy + LlamaIndex\u96c6\u6210\n   - optimize_prompts()\u51fd\u6570\u4e0eQuery Pipeline\n   - DSPyPromptTemplate\u8bed\u6cd5\u79fb\u690d\n   - \u5b98\u65b9cookbook: dspy_llamaindex_rag.ipynb\u5206\u6790\n3. DSPy + Haystack\u96c6\u6210\n   - DSPy\u6a21\u5757\u5305\u88c5Haystack Pipeline\u7ec4\u4ef6\n   - \u6df7\u5408\u5ea6\u91cf\u5b9a\u4e49\u548c\u8bad\u7ec3\u96c6\u6784\u5efa\n4. \u5b9e\u9645\u4f18\u5316\u6548\u679c\n   - RAG\u7cfb\u7edf\u4ece53%\u219261%\u7684\u8d28\u91cf\u63d0\u5347\u6848\u4f8b\n   - ReAct Agent\u4ece24%\u219251%\u7684\u51c6\u786e\u7387\u63d0\u5347\n   - \u4f18\u5316\u6210\u672c\u548c\u65f6\u95f4\u4f30\u7b97\n\n\u7b2c66\u7ae0\uff1aMCP\u534f\u8bae\u4e0e\u6846\u67b6\u7edf\u4e00\u63a5\u5165\n1. Model Context Protocol\u67b6\u6784\u6df1\u5ea6\u89e3\u6790\n   - MCP\u89c4\u8303\u6f14\u8fdb\uff082024.11\u53d1\u5e03 \u2192 2025.06\u66f4\u65b0 \u2192 2025.12\u6350\u8d60\u7ed9Linux Foundation\uff09\n   - \u4e09\u5927\u80fd\u529b\uff1aTools\uff08\u5de5\u5177\uff09\u3001Resources\uff08\u8d44\u6e90\uff09\u3001Prompts\uff08\u63d0\u793a\u6a21\u677f\uff09\n   - \u4f20\u8f93\u534f\u8bae\uff1astdio\u3001HTTP+SSE\u3001Streamable HTTP\n   - JSON-RPC 2.0\u6d88\u606f\u683c\u5f0f\n2. MCP SDK\u5f00\u53d1\u5b9e\u8df5\n   - Python SDK (mcp, FastMCP 2.0)\n   - TypeScript SDK (@modelcontextprotocol/sdk)\n   - \u5de5\u5177\u6ce8\u518c\u3001\u8d44\u6e90\u66b4\u9732\u3001\u63d0\u793a\u6a21\u677f\u5b9a\u4e49\n   - OAuth 2.1\u8ba4\u8bc1\u548c\u5b89\u5168\u6700\u4f73\u5b9e\u8df5\n3. MCP\u4e0eRAG\u6846\u67b6\u96c6\u6210\n   - LlamaIndex MCP ToolSpec\u96c6\u6210\n   - LangChain langchain-mcp-adapters\u9002\u914d\u5668\n   - Semantic Kernel MCP\u63d2\u4ef6\u652f\u6301\n   - Haystack MCP\u7ec4\u4ef6\n4. MCP\u751f\u6001\u7cfb\u7edf\u73b0\u72b6\n   - 16,000+ MCP\u670d\u52a1\u5668\u7edf\u8ba1\n   - \u4e3b\u8981\u91c7\u7528\u8005\uff1aClaude Desktop\u3001Cursor\u3001VS Code\u3001OpenAI ChatGPT\n   - \u4f01\u4e1a\u7ea7\u90e8\u7f72\u6a21\u5f0f\u548c\u5b89\u5168\u8003\u91cf\n5. MCP\u4e0e\u73b0\u6709\u5de5\u5177\u8c03\u7528\u673a\u5236\u5bf9\u6bd4\n   - vs OpenAI Function Calling\n   - vs LangChain Tools\n   - vs Agent\u6846\u67b6\u539f\u751f\u5de5\u5177\n\n\u7814\u7a76\u8981\u6c42\uff1a\n- \u6e90\u4ee3\u7801\u7ea7\u5206\u6790\uff0c\u5f15\u7528\u5177\u4f53\u6587\u4ef6\u8def\u5f84\u548c\u51fd\u6570\u7b7e\u540d\n- \u5305\u542b\u53ef\u8fd0\u884c\u7684\u4ee3\u7801\u793a\u4f8b\n- \u63d0\u4f9b\u6846\u67b6\u9009\u578b\u548c\u96c6\u6210\u51b3\u7b56\u77e9\u9635\n- \u8bc6\u522b2025\u5e74\u4e92\u64cd\u4f5c\u6027\u8d8b\u52bf\u548c\u6700\u4f73\u5b9e\u8df5"
+    },
+    "message": "launch_extended_search_task",
+    "integration_name": null,
+    "integration_icon_url": null,
+    "context": null,
+    "display_content": null,
+    "approval_options": null,
+    "approval_key": null
+  },
+  {
+    "start_timestamp": null,
+    "stop_timestamp": null,
+    "flags": null,
+    "type": "tool_result",
+    "name": "launch_extended_search_task",
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"task_id\": \"wf-ce9299c3-ef88-4380-ae31-01edba89162b\"}",
+        "uuid": "4ae11757-38e6-4456-ae1a-b953cda2b13a"
+      }
+    ],
+    "is_error": false,
+    "structured_content": null,
+    "meta": null,
+    "message": null,
+    "integration_name": null,
+    "integration_icon_url": null,
+    "display_content": null
+  },
+  {
+    "start_timestamp": "2026-01-11T08:31:10.900945Z",
+    "stop_timestamp": "2026-01-11T08:31:10.900945Z",
+    "flags": null,
+    "type": "text",
+    "text": "",
+    "citations": []
+  },
+  {
+    "start_timestamp": null,
+    "stop_timestamp": null,
+    "flags": null,
+    "type": "text",
+    "text": "Your RAG framework interoperability and MCP protocol analysis report is ready. It covers LlamaIndex + LangChain dual-framework integration with adapter source code analysis, DSPy programmatic prompt optimization with optimizer selection guidelines, and MCP protocol unified access patterns across major frameworks. The report includes performance benchmarks, code examples, framework selection decision matrices, and 2025 ecosystem trends following MCP's donation to Linux Foundation.",
+    "citations": []
+  },
+  {
+    "start_timestamp": null,
+    "stop_timestamp": null,
+    "flags": null,
+    "type": "tool_use",
+    "name": "artifacts",
+    "input": {
+      "id": "compass_artifact_wf-ce9299c3-ef88-4380-ae31-01edba89162b_text/markdown",
+      "type": "text/markdown",
+      "title": "RAG Framework Interoperability and MCP Protocol Unified Integration: Deep Analysis",
+      "source": "c",
+      "command": "create",
+      "content": "# RAG\u6846\u67b6\u4e92\u64cd\u4f5c\u4e0eMCP\u534f\u8bae\u7edf\u4e00\u63a5\u5165\u6df1\u5ea6\u5256\u6790\n\n**2025\u5e74AI Agent\u751f\u6001\u6b63\u5728\u7ecf\u5386\u6807\u51c6\u5316\u9769\u547d\u3002** LlamaIndex\u4e0eLangChain\u7684\u6df1\u5ea6\u96c6\u6210\u3001DSPy\u7684\u7a0b\u5e8f\u5316\u63d0\u793a\u4f18\u5316\u3001\u4ee5\u53caMCP\u534f\u8bae\u7684\u884c\u4e1a\u7edf\u4e00\uff0c\u5171\u540c\u6784\u5efa\u4e86\u73b0\u4ee3RAG\u7cfb\u7edf\u7684\u4e09\u5927\u6280\u672f\u652f\u67f1\u3002\u672c\u62a5\u544a\u57fa\u4e8e\u6e90\u4ee3\u7801\u7ea7\u5206\u6790\uff0c\u63ed\u793a\u8fd9\u4e9b\u6280\u672f\u7684\u6838\u5fc3\u5b9e\u73b0\u673a\u5236\u4e0e\u6700\u4f73\u5b9e\u8df5\u3002\n\n---\n\n## \u7b2c64\u7ae0\uff1aLlamaIndex + LangChain\u53cc\u6846\u67b6\u96c6\u6210\n\n### \u9002\u914d\u5668\u6e90\u4ee3\u7801\u67b6\u6784\u89e3\u6790\n\n\u53cc\u6846\u67b6\u96c6\u6210\u7684\u6838\u5fc3\u5728\u4e8e**LlamaIndexRetriever\u9002\u914d\u5668**\uff0c\u4f4d\u4e8e`langchain_community/retrievers/llama_index.py`\u3002\u8be5\u9002\u914d\u5668\u901a\u8fc7\u7ee7\u627fLangChain\u7684`BaseRetriever`\u57fa\u7c7b\uff0c\u5c06LlamaIndex\u7684\u68c0\u7d22\u80fd\u529b\u65e0\u7f1d\u6865\u63a5\u5230LangChain\u751f\u6001\uff1a\n\n```python\n# \u6587\u4ef6\u8def\u5f84: langchain_community/retrievers/llama_index.py\nclass LlamaIndexRetriever(BaseRetriever):\n    \"\"\"LlamaIndex\u68c0\u7d22\u5668\u9002\u914d\u5668\uff0c\u5b9e\u73b0Document\u5bf9\u8c61\u81ea\u52a8\u8f6c\u6362\"\"\"\n    \n    index: Any  # LlamaIndex\u7d22\u5f15\u5b9e\u4f8b\n    query_kwargs: Dict = Field(default_factory=dict)\n\n    def _get_relevant_documents(\n        self, query: str, *, run_manager: CallbackManagerForRetrieverRun\n    ) -> List[Document]:\n        index = cast(BaseGPTIndex, self.index)\n        response = index.query(query, **self.query_kwargs)\n        \n        # \u5173\u952e\u8f6c\u6362\u903b\u8f91\uff1aLlamaIndex Node \u2192 LangChain Document\n        docs = []\n        for source_node in response.source_nodes:\n            metadata = source_node.metadata or {}\n            docs.append(\n                Document(page_content=source_node.get_content(), metadata=metadata)\n            )\n        return docs\n```\n\n**LlamaIndexGraphRetriever**\u5219\u4e13\u95e8\u5904\u7406\u56fe\u7ed3\u6784\u6570\u636e\uff0c\u901a\u8fc7`ComposableGraph`\u652f\u6301\u591a\u7d22\u5f15\u7ec4\u5408\u67e5\u8be2\uff0c\u5173\u952e\u5dee\u5f02\u5728\u4e8e\u6ce8\u5165`response_mode=\"no_text\"`\u914d\u7f6e\u4ee5\u4f18\u5316\u68c0\u7d22\u6027\u80fd\u3002\n\n### to_langchain_tool()\u8f6c\u6362\u63a5\u53e3\u5b9e\u73b0\n\nLlamaIndex\u4fa7\u7684\u5de5\u5177\u8f6c\u6362\u63a5\u53e3\u4f4d\u4e8e`llama-index-core/llama_index/core/tools/types.py`\uff0c\u63d0\u4f9b\u53cc\u5411\u6865\u63a5\u80fd\u529b\uff1a\n\n```python\n# \u6587\u4ef6\u8def\u5f84: llama-index-core/llama_index/core/tools/types.py\nclass BaseTool:\n    def to_langchain_tool(self, **langchain_tool_kwargs: Any) -> Tool:\n        \"\"\"\u8f6c\u6362\u4e3aLangChain\u6807\u51c6Tool\u683c\u5f0f\"\"\"\n        return Tool(\n            name=self._metadata.name,\n            description=self._metadata.description,\n            func=self.__call__,\n            **langchain_tool_kwargs,\n        )\n    \n    def to_langchain_structured_tool(self, **kwargs: Any) -> StructuredTool:\n        \"\"\"\u8f6c\u6362\u4e3aStructuredTool\uff0c\u4fdd\u7559\u5b8c\u6574\u53c2\u6570Schema\"\"\"\n        return StructuredTool(\n            name=self._metadata.name,\n            description=self._metadata.description,\n            func=self.__call__,\n            args_schema=self._metadata.fn_schema,  # Pydantic\u6a21\u578b\n            **kwargs,\n        )\n```\n\n**QueryEngineTool**\uff08`llama-index-core/llama_index/core/tools/query_engine.py`\uff09\u662f\u6700\u5e38\u7528\u7684\u5305\u88c5\u5668\uff0c\u5c06\u4efb\u610f`BaseQueryEngine`\u5c01\u88c5\u4e3aAgent\u53ef\u8c03\u7528\u7684\u5de5\u5177\u3002\n\n### \u53cc\u6846\u67b6\u534f\u540c\u7684\u6700\u4f73\u5b9e\u8df5\u6a21\u5f0f\n\n\u63a8\u8350\u67b6\u6784\u91c7\u7528**LlamaIndex\u8d1f\u8d23\u6570\u636e\u5c42 + LangChain\u8d1f\u8d23\u7f16\u6392\u5c42**\u7684\u5206\u5de5\uff1a\n\n```python\n# \u5b8c\u6574Agentic RAG\u7cfb\u7edf\u793a\u4f8b\nfrom llama_index.core import VectorStoreIndex, SimpleDirectoryReader\nfrom llama_index.core.tools import QueryEngineTool, ToolMetadata\nfrom langchain.agents import create_tool_calling_agent, AgentExecutor\nfrom langchain_openai import ChatOpenAI\n\n# Step 1: LlamaIndex\u6784\u5efa\u7d22\u5f15\uff08\u6570\u636e\u5c42\uff09\ndocuments = SimpleDirectoryReader(\"./financial_reports\").load_data()\nindex = VectorStoreIndex.from_documents(documents)\nquery_engine = index.as_query_engine(similarity_top_k=3)\n\n# Step 2: \u521b\u5efaQueryEngineTool\nquery_tools = [\n    QueryEngineTool(\n        query_engine=query_engine,\n        metadata=ToolMetadata(\n            name=\"financial_search\",\n            description=\"\u641c\u7d22\u516c\u53f8\u8d22\u52a1\u62a5\u544a\u548c\u5e74\u62a5\u6570\u636e\"\n        ),\n    ),\n]\n\n# Step 3: \u8f6c\u6362\u4e3aLangChain\u5de5\u5177\nlangchain_tools = [t.to_langchain_tool() for t in query_tools]\n\n# Step 4: LangChain Agent\u7f16\u6392\uff08\u7f16\u6392\u5c42\uff09\nllm = ChatOpenAI(model=\"gpt-4o\", temperature=0)\nagent = create_tool_calling_agent(llm, langchain_tools, prompt)\nexecutor = AgentExecutor(agent=agent, tools=langchain_tools, verbose=True)\n```\n\n### \u6027\u80fd\u57fa\u51c6\u4e0e\u6846\u67b6\u9009\u578b\n\n**2025\u5e74RAG\u6846\u67b6\u6027\u80fd\u5bf9\u6bd4**\uff08\u57fa\u4e8e100\u67e5\u8be2\u00d7100\u6b21\u8fd0\u884c\u7684\u57fa\u51c6\u6d4b\u8bd5\uff09\uff1a\n\n| \u6846\u67b6 | \u6846\u67b6\u5f00\u9500 | \u5e73\u5747Token\u6d88\u8017 | \u68c0\u7d22\u901f\u5ea6 |\n|------|---------|--------------|---------|\n| **DSPy** | ~3.53ms | ~2,030 | \u6700\u4f4e\u5f00\u9500 |\n| **Haystack** | ~5.9ms | ~1,570 | Token\u6700\u4f18 |\n| **LlamaIndex** | ~6ms | ~1,600 | \u68c0\u7d22\u6700\u4f18 |\n| **LangChain** | ~10ms | ~2,400 | \u751f\u6001\u6700\u5168 |\n| **LangGraph** | ~14ms | ~2,030 | \u72b6\u6001\u56fe\u5f3a |\n\n\u5b9e\u9645\u6d4b\u8bd5\u8868\u660e\uff0c\u53cc\u6846\u67b6\u7ec4\u5408\u53ef\u5b9e\u73b0**50%\u54cd\u5e94\u65f6\u95f4\u63d0\u5347**\u2014\u2014LlamaIndex\u7684\u4f18\u5316\u7d22\u5f15\u7b56\u7565\u5e26\u6765**2-5\u500d\u67e5\u8be2\u52a0\u901f**\uff0c\u800cLangChain\u7684Agent\u7f16\u6392\u80fd\u529b\u63d0\u4f9b\u590d\u6742\u63a8\u7406\u652f\u6301\u3002\n\n---\n\n## \u7b2c65\u7ae0\uff1aDSPy\u4e0eRAG\u6846\u67b6\u8054\u5408\u4f18\u5316\n\n### DSPy\u6838\u5fc3\u67b6\u6784\u4e09\u5c42\u62bd\u8c61\n\nDSPy\u901a\u8fc7**\u58f0\u660e\u5f0f\u7f16\u7a0b**\u53d6\u4ee3\u624b\u5de5Prompt\u5de5\u7a0b\uff0c\u5176\u67b6\u6784\u5305\u542b\u4e09\u4e2a\u6838\u5fc3\u62bd\u8c61\uff1a\n\n**Signatures\uff08\u7b7e\u540d\uff09** \u5b9a\u4e49\u8f93\u5165\u8f93\u51fa\u8bed\u4e49\uff0c\u81ea\u52a8\u751f\u6210\u63d0\u793a\u6a21\u677f\uff1a\n\n```python\n# \u5185\u8054\u7b7e\u540d\n\"question -> answer\"\n\n# \u7c7b\u7b7e\u540d\uff08\u63a8\u8350\u751f\u4ea7\u4f7f\u7528\uff09\nclass GenerateAnswer(dspy.Signature):\n    \"\"\"\u57fa\u4e8e\u4e0a\u4e0b\u6587\u56de\u7b54\u95ee\u9898\uff0c\u7b54\u6848\u5e94\u7b80\u6d01\u51c6\u786e\u3002\"\"\"\n    context = dspy.InputField(desc=\"\u53ef\u80fd\u5305\u542b\u76f8\u5173\u4e8b\u5b9e\")\n    question = dspy.InputField()\n    answer = dspy.OutputField(desc=\"\u7b80\u77ed\u7cbe\u786e\u7684\u7b54\u6848\")\n```\n\n**Modules\uff08\u6a21\u5757\uff09** \u5c01\u88c5\u4e0d\u540c\u63d0\u793a\u6280\u672f\uff1a\n\n| \u6a21\u5757 | \u529f\u80fd | \u9002\u7528\u573a\u666f |\n|------|------|---------|\n| `dspy.Predict` | \u57fa\u7840\u9884\u6d4b\u5668 | \u7b80\u5355\u4efb\u52a1 |\n| `dspy.ChainOfThought` | \u94fe\u5f0f\u601d\u8003\u63a8\u7406 | \u590d\u6742\u63a8\u7406 |\n| `dspy.ReAct` | \u5de5\u5177\u4f7f\u7528Agent | \u4ea4\u4e92\u4efb\u52a1 |\n| `dspy.ProgramOfThought` | \u751f\u6210\u4ee3\u7801\u6267\u884c | \u8ba1\u7b97\u4efb\u52a1 |\n| `dspy.MultiChainComparison` | \u591a\u8def\u5f84\u6bd4\u8f83 | \u9ad8\u53ef\u9760\u6027 |\n\n**RAG\u6a21\u5757\u6807\u51c6\u5b9e\u73b0**\uff1a\n\n```python\nclass RAG(dspy.Module):\n    def __init__(self, num_passages=3):\n        super().__init__()\n        self.retrieve = dspy.Retrieve(k=num_passages)\n        self.respond = dspy.ChainOfThought('context, question -> response')\n\n    def forward(self, question):\n        context = self.retrieve(question).passages\n        return self.respond(context=context, question=question)\n```\n\n### \u4f18\u5316\u5668\u6df1\u5ea6\u5bf9\u6bd4\u4e0e\u9009\u578b\u6307\u5357\n\n**MIPROv2\uff08Multi-Stage Instruction Prompt Optimization\uff09** \u662f\u5f53\u524d\u6700\u5f3a\u901a\u7528\u4f18\u5316\u5668\uff0c\u91c7\u7528\u4e09\u9636\u6bb5\u6d41\u7a0b\uff1a\n1. **Bootstrapping\u9636\u6bb5**\uff1a\u6536\u96c6\u9ad8\u5206\u6267\u884c\u8f68\u8ff9\n2. **Grounded Proposal\u9636\u6bb5**\uff1a\u751f\u6210\u6570\u636e\u611f\u77e5\u7684\u6307\u4ee4\u5019\u9009\n3. **Bayesian Search\u9636\u6bb5**\uff1a\u4f18\u5316\u6307\u4ee4+\u793a\u4f8b\u7ec4\u5408\n\n```python\nfrom dspy.teleprompt import MIPROv2\n\nteleprompter = MIPROv2(\n    metric=your_metric,\n    auto=\"medium\"  # light: ~$1.5/20min, medium: ~$3/40min, heavy: ~$10/2h\n)\noptimized = teleprompter.compile(RAG(), trainset=trainset)\n```\n\n**GEPA\uff08Genetic-Pareto\uff09** \u662f2025\u5e747\u6708\u53d1\u5e03\u7684\u6700\u65b0\u4f18\u5316\u5668\uff0c\u901a\u8fc7**\u53cd\u601d\u5f0f\u63d0\u793a\u8fdb\u5316**\u5b9e\u73b0\u7a81\u7834\u6027\u63d0\u5347\uff1a\n\n```python\noptimizer = dspy.GEPA(\n    metric=your_metric,\n    reflection_lm=dspy.LM(\"gpt-4o\"),  # \u7528\u4e8e\u53cd\u601d\u7684LM\n    auto=\"light\"\n)\n```\n\nGEPA\u7ef4\u62a4Pareto\u524d\u6cbf\u7684\u4e92\u8865\u7b56\u7565\u6c60\uff0c\u5229\u7528\u6587\u672c\u53cd\u9988\u5feb\u901f\u6539\u8fdb\uff0c\u5b9e\u9a8c\u8868\u660e**\u6bd4GRPO\u9ad810-20%**\uff0c\u4e14\u4ec5\u9700**1/35\u7684rollouts**\u3002\n\n**\u4f18\u5316\u5668\u9009\u578b\u51b3\u7b56\u77e9\u9635**\uff1a\n\n| \u573a\u666f | \u63a8\u8350\u4f18\u5316\u5668 | \u6570\u636e\u9700\u6c42 | \u6210\u672c\u4f30\u7b97 |\n|------|----------|---------|---------|\n| \u5feb\u901f\u539f\u578b\uff08<20\u6837\u672c\uff09 | BootstrapFewShot | ~10\u4f8b | $0.10-0.50 |\n| \u4e2d\u7b49\u89c4\u6a21\uff0850-100\u6837\u672c\uff09 | MIPROv2 (light) | ~50\u4f8b | ~$1.50 |\n| \u751f\u4ea7\u4f18\u5316\uff08200+\u6837\u672c\uff09 | MIPROv2 (heavy) | 200+\u4f8b | $5-20 |\n| \u9700\u8981\u5feb\u901f\u8fed\u4ee3 | GEPA | 20-50\u4f8b | $1-3 |\n| \u6a21\u578b\u84b8\u998f | BootstrapFinetune | 500+\u4f8b | \u6309Provider |\n\n### DSPy + LlamaIndex/Haystack\u96c6\u6210\u6a21\u5f0f\n\n**LlamaIndex\u96c6\u6210**\u901a\u8fc7`optimize_prompts()`\u51fd\u6570\u5b9e\u73b0Query Pipeline\u4f18\u5316\uff1a\n\n```python\nfrom llama_index.core.evaluation import BatchEvalRunner\n\n# DSPy\u6a21\u5757\u5305\u88c5LlamaIndex\u68c0\u7d22\u5668\nclass RAGWithLlamaIndex(dspy.Module):\n    def __init__(self, llama_index):\n        super().__init__()\n        self.index = llama_index\n        self.generate = dspy.ChainOfThought(GenerateAnswer)\n    \n    def forward(self, question):\n        # \u4f7f\u7528LlamaIndex\u8fdb\u884c\u68c0\u7d22\n        response = self.index.as_query_engine().query(question)\n        context = [node.text for node in response.source_nodes]\n        return self.generate(context=context, question=question)\n```\n\n**Haystack\u96c6\u6210**\u91c7\u7528\u6df7\u5408\u5ea6\u91cf\u5b9a\u4e49\u6a21\u5f0f\uff1a\n\n```python\nfrom haystack.components.evaluators import SASEvaluator\n\nsas_evaluator = SASEvaluator()\nsas_evaluator.warm_up()\n\ndef mixed_metric(example, pred, trace=None):\n    # \u8bed\u4e49\u76f8\u4f3c\u5ea6\uff08\u6b63\u786e\u6027\uff09\n    semantic_score = sas_evaluator.run(\n        ground_truth_answers=[example.answer], \n        predicted_answers=[pred.answer]\n    )[\"score\"]\n    \n    # \u7b80\u6d01\u6027\u60e9\u7f5a\n    n_words = len(pred.answer.split())\n    brevity_penalty = min(0.5, max(0, 0.025 * (n_words - 20)))\n    \n    return semantic_score - brevity_penalty\n```\n\n### \u5b9e\u8bc1\u4f18\u5316\u6548\u679c\u6c47\u603b\n\n| \u4efb\u52a1 | \u4f18\u5316\u524d | \u4f18\u5316\u540e | \u63d0\u5347\u5e45\u5ea6 | \u4f18\u5316\u5668 |\n|------|-------|-------|---------|-------|\n| Tech QA (StackExchange) | 53% | 61% | +15% | MIPROv2 |\n| PubMed QA (Haystack) | 48.8% | 69.0% | +41% | BootstrapFewShot |\n| HotPotQA ReAct Agent | 24% | 51% | +112% | MIPROv2 |\n| MATH Benchmark | 67% | 93% | +39% | GEPA |\n| Banking77\u5206\u7c7b | 66% | 87% | +32% | BootstrapFinetune |\n\n---\n\n## \u7b2c66\u7ae0\uff1aMCP\u534f\u8bae\u4e0e\u6846\u67b6\u7edf\u4e00\u63a5\u5165\n\n### MCP\u89c4\u8303\u6f14\u8fdb\u4e0e\u67b6\u6784\u6df1\u5ea6\u89e3\u6790\n\n**Model Context Protocol\uff08MCP\uff09** \u662fAnthropic\u4e8e2024\u5e7411\u6708\u53d1\u5e03\u7684\u5f00\u653e\u6807\u51c6\uff0c\u5728\u4ec5\u4e00\u5e74\u65f6\u95f4\u5185\u5b9e\u73b0\u4e86\u884c\u4e1a\u7edf\u4e00\uff1a\n\n| \u65f6\u95f4\u8282\u70b9 | \u91cc\u7a0b\u7891\u4e8b\u4ef6 |\n|---------|----------|\n| 2024\u5e7411\u6708 | Anthropic\u5f00\u6e90\u53d1\u5e03MCP |\n| 2025\u5e743\u6708 | OpenAI ChatGPT\u5168\u9762\u96c6\u6210 |\n| 2025\u5e744\u6708 | Google Gemini\u786e\u8ba4\u652f\u6301 |\n| 2025\u5e746\u6708 | \u89c4\u8303\u7248\u672c2025-06-18\u53d1\u5e03 |\n| 2025\u5e7412\u67089\u65e5 | **\u6350\u8d60\u7ed9Linux Foundation AAIF** |\n\n**\u4e09\u5927\u6838\u5fc3\u80fd\u529b\uff08Primitives\uff09**\uff1a\n\n1. **Tools\uff08\u5de5\u5177\uff09**\uff1a\u5141\u8bb8LLM\u6267\u884c\u64cd\u4f5c\uff0c\u7c7b\u4f3cPOST\u7aef\u70b9\n2. **Resources\uff08\u8d44\u6e90\uff09**\uff1a\u53ea\u8bfb\u6570\u636e\u6e90\uff0c\u7c7b\u4f3cGET\u7aef\u70b9\uff0c\u652f\u6301URI\u5bfb\u5740\uff08`file://`, `db://`\uff09\n3. **Prompts\uff08\u63d0\u793a\u6a21\u677f\uff09**\uff1a\u53ef\u590d\u7528\u7684\u4ea4\u4e92\u6a21\u677f\uff0c\u652f\u6301\u52a8\u6001\u53c2\u6570\n\n**\u4f20\u8f93\u534f\u8bae\u5bf9\u6bd4**\uff1a\n\n| \u534f\u8bae | \u9002\u7528\u573a\u666f | \u7279\u70b9 |\n|------|---------|------|\n| **stdio** | \u672c\u5730\u96c6\u6210 | \u6362\u884c\u5206\u9694JSON\uff0cServer\u901a\u8fc7stdin/stdout\u901a\u4fe1 |\n| **HTTP+SSE** | \u65e7\u7248\u8fdc\u7a0b | POST\u8bf7\u6c42+SSE\u54cd\u5e94\u6d41\uff08\u5df2\u5e9f\u5f03\uff09 |\n| **Streamable HTTP** | **\u751f\u4ea7\u63a8\u8350** | \u5355\u7aef\u70b9\u901a\u4fe1\uff0c\u652f\u6301\u6279\u91cf\u8bf7\u6c42\u548c\u4f1a\u8bdd\u7ba1\u7406 |\n\n**JSON-RPC 2.0\u6d88\u606f\u683c\u5f0f**\uff1a\n\n```json\n// \u8bf7\u6c42\u793a\u4f8b\n{\n  \"jsonrpc\": \"2.0\",\n  \"id\": 1,\n  \"method\": \"tools/call\",\n  \"params\": {\n    \"name\": \"search_documents\",\n    \"arguments\": {\"query\": \"quarterly revenue\"}\n  }\n}\n\n// \u54cd\u5e94\u793a\u4f8b\n{\n  \"jsonrpc\": \"2.0\",\n  \"id\": 1,\n  \"result\": {\n    \"content\": [{\"type\": \"text\", \"text\": \"Q3 revenue was $2.5B...\"}]\n  }\n}\n```\n\n### MCP SDK\u5f00\u53d1\u5b9e\u8df5\n\n**Python SDK\uff08FastMCP\u5185\u7f6e\u4e8e\u5b98\u65b9mcp\u5305\uff09**\uff1a\n\n```python\nfrom mcp.server.fastmcp import FastMCP\n\nmcp = FastMCP(name=\"RAG Server\")\n\n# \u5de5\u5177\u6ce8\u518c\n@mcp.tool()\ndef search_documents(query: str, top_k: int = 5) -> list[dict]:\n    \"\"\"\u641c\u7d22\u6587\u6863\u5e93\u5e76\u8fd4\u56de\u76f8\u5173\u6bb5\u843d\"\"\"\n    return vector_store.search(query, top_k=top_k)\n\n# \u8d44\u6e90\u66b4\u9732\n@mcp.resource(\"docs://{doc_id}\")\ndef get_document(doc_id: str) -> dict:\n    \"\"\"\u83b7\u53d6\u6307\u5b9a\u6587\u6863\u7684\u5b8c\u6574\u5185\u5bb9\"\"\"\n    return document_store.get(doc_id)\n\n# \u63d0\u793a\u6a21\u677f\n@mcp.prompt()\ndef analysis_prompt(topic: str) -> str:\n    return f\"\u8bf7\u5bf9\u4ee5\u4e0b\u4e3b\u9898\u8fdb\u884c\u6df1\u5ea6\u5206\u6790\uff1a{topic}\"\n\nif __name__ == \"__main__\":\n    mcp.run()\n```\n\n**TypeScript SDK**\uff1a\n\n```typescript\nimport { McpServer } from \"@modelcontextprotocol/sdk/server/mcp.js\";\nimport { z } from \"zod\";\n\nconst server = new McpServer({ name: \"rag-server\", version: \"1.0.0\" });\n\nserver.registerTool(\n  \"search_documents\",\n  {\n    description: \"\u641c\u7d22\u6587\u6863\u5e93\",\n    inputSchema: {\n      query: z.string().describe(\"\u641c\u7d22\u67e5\u8be2\"),\n      top_k: z.number().default(5),\n    },\n  },\n  async ({ query, top_k }) => ({\n    content: [{ type: \"text\", text: JSON.stringify(results) }],\n  })\n);\n```\n\n**OAuth 2.1\u8ba4\u8bc1\u914d\u7f6e**\uff082025\u5e743\u6708\u89c4\u8303\u66f4\u65b0\uff09\uff1a\n\n```python\nfrom mcp.client.auth import OAuthClientProvider, OAuthClientMetadata\n\noauth_provider = OAuthClientProvider(\n    server_url=\"https://mcp-server.example.com\",\n    client_metadata=OAuthClientMetadata(\n        client_name=\"Enterprise RAG Client\",\n        redirect_uris=[\"http://localhost:8080/callback\"]\n    ),\n    storage=TokenStorage()  # \u5b9e\u73b0token\u6301\u4e45\u5316\n)\n```\n\n### \u56db\u5927RAG\u6846\u67b6MCP\u96c6\u6210\u5bf9\u6bd4\n\n**LlamaIndex MCP ToolSpec**\uff08`llama-index-tools-mcp` v0.4.3\uff09\uff1a\n\n```python\nfrom llama_index.tools.mcp import BasicMCPClient, McpToolSpec\nfrom llama_index.core.agent.workflow import FunctionAgent\n\n# \u8fde\u63a5MCP\u670d\u52a1\u5668\nmcp_client = BasicMCPClient(\"http://localhost:8000/sse\")\nmcp_spec = McpToolSpec(\n    client=mcp_client,\n    allowed_tools=[\"search_documents\", \"get_document\"],\n    include_resources=True\n)\n\n# \u83b7\u53d6\u5de5\u5177\u5e76\u521b\u5efaAgent\ntools = await mcp_spec.to_tool_list_async()\nagent = FunctionAgent(llm=OpenAI(model=\"gpt-4o\"), tools=tools)\n```\n\n**LangChain MCP Adapters**\uff08`langchain-mcp-adapters` v0.1.13\uff09\uff1a\n\n```python\nfrom langchain_mcp_adapters.client import MultiServerMCPClient\nfrom langgraph.prebuilt import create_react_agent\n\nclient = MultiServerMCPClient({\n    \"rag_server\": {\n        \"url\": \"http://localhost:8000/mcp\",\n        \"transport\": \"streamable_http\",\n        \"headers\": {\"Authorization\": f\"Bearer {token}\"}\n    },\n    \"local_tools\": {\n        \"command\": \"python\",\n        \"args\": [\"local_server.py\"],\n        \"transport\": \"stdio\"\n    }\n})\n\ntools = await client.get_tools()\nagent = create_react_agent(\"openai:gpt-4.1\", tools)\n```\n\n**Semantic Kernel MCP\u63d2\u4ef6**\uff1a\n\n```python\nfrom semantic_kernel import Kernel\nfrom semantic_kernel.connectors.mcp import MCPStdioPlugin, MCPSsePlugin\n\nasync with MCPSsePlugin(\n    name=\"RAGTools\",\n    description=\"RAG Document Tools\",\n    url=\"http://localhost:8080\",\n) as plugin:\n    kernel = Kernel()\n    kernel.add_plugin(plugin)\n```\n\n**Haystack MCPToolset**\uff1a\n\n```python\nfrom haystack_integrations.tools.mcp import MCPToolset, StreamableHttpServerInfo\n\ntoolset = MCPToolset(\n    server_info=StreamableHttpServerInfo(url=\"http://localhost:8000/mcp\"),\n    tool_names=[\"search_documents\"],\n    connection_timeout=10.0,\n    invocation_timeout=60.0\n)\n\nagent = Agent(chat_generator=OpenAIChatGenerator(), tools=toolset)\n```\n\n### MCP\u4e0e\u73b0\u6709\u673a\u5236\u5bf9\u6bd4\u5206\u6790\n\n| \u7279\u6027 | MCP | OpenAI Function Calling | LangChain Tools |\n|------|-----|------------------------|-----------------|\n| **\u53ef\u79fb\u690d\u6027** | \u2705 \u6a21\u578b\u65e0\u5173 | \u274c OpenAI\u4e13\u5c5e | \u26a0\ufe0f \u6846\u67b6\u7ed1\u5b9a |\n| **\u52a8\u6001\u53d1\u73b0** | \u2705 \u8fd0\u884c\u65f6\u53d1\u73b0 | \u274c \u9759\u6001\u5b9a\u4e49 | \u274c \u9759\u6001\u5bfc\u5165 |\n| **\u8d44\u6e90+\u63d0\u793a** | \u2705 \u539f\u751f\u652f\u6301 | \u274c \u4ec5\u5de5\u5177 | \u274c \u4ec5\u5de5\u5177 |\n| **\u51ed\u8bc1\u9694\u79bb** | \u2705 \u670d\u52a1\u7aef\u7ba1\u7406 | \u274c \u5e94\u7528\u7ba1\u7406 | \u274c \u5e94\u7528\u7ba1\u7406 |\n| **\u8de8\u5e94\u7528\u590d\u7528** | \u2705 \u4e00\u6b21\u6784\u5efa\u5168\u5e73\u53f0\u7528 | \u274c \u6309\u5e94\u7528\u5b9e\u73b0 | \u274c \u6309\u6846\u67b6\u5b9e\u73b0 |\n| **\u751f\u6001\u89c4\u6a21** | 10,000+ Server | \u6210\u719f | \u5e7f\u6cdb |\n\n### MCP\u751f\u6001\u7cfb\u7edf\u73b0\u72b6\u4e0e\u4f01\u4e1a\u90e8\u7f72\n\n**\u91c7\u7528\u7edf\u8ba1\uff08\u622a\u81f32025\u5e7412\u6708\uff09**\uff1a\n- **\u6d3b\u8dc3MCP Server**\uff1a10,000+\n- **\u6708SDK\u4e0b\u8f7d\u91cf**\uff1a9,700\u4e07+\n- **MCP Client**\uff1a300+\n\n**\u4e3b\u8981\u91c7\u7528\u8005**\uff1a\n- **AI\u5e73\u53f0**\uff1aClaude Desktop\u3001OpenAI ChatGPT\u3001Google Gemini\u3001Microsoft Copilot\n- **\u5f00\u53d1\u5de5\u5177**\uff1aCursor\u3001VS Code\u3001Windsurf\n- **\u4e91\u670d\u52a1**\uff1aAWS Bedrock\u3001Google Cloud\u3001Azure\u3001Cloudflare\n\n**Agentic AI Foundation\uff08AAIF\uff09\u521b\u59cb\u6210\u5458**\uff1a\n- **Platinum**\uff1aAWS\u3001Anthropic\u3001Block\u3001Bloomberg\u3001Cloudflare\u3001Google\u3001Microsoft\u3001OpenAI\n- **\u521b\u59cb\u9879\u76ee**\uff1aMCP\uff08Anthropic\uff09\u3001Goose\uff08Block\uff09\u3001AGENTS.md\uff08OpenAI\uff09\n\n---\n\n## \u6846\u67b6\u9009\u578b\u4e0e\u96c6\u6210\u51b3\u7b56\u77e9\u9635\n\n| \u9700\u6c42\u573a\u666f | \u63a8\u8350\u65b9\u6848 | \u5173\u952e\u8003\u91cf |\n|---------|---------|---------|\n| **\u7eafRAG\u68c0\u7d22** | LlamaIndex\u5355\u6846\u67b6 | \u6700\u4f18\u68c0\u7d22\u6027\u80fd\uff0c160+\u6570\u636e\u8fde\u63a5\u5668 |\n| **\u590d\u6742Agent\u7f16\u6392** | LangChain/LangGraph | \u72b6\u6001\u56fe\u3001\u8bb0\u5fc6\u3001\u591a\u6b65\u63a8\u7406 |\n| **\u4f01\u4e1a\u7ea7RAG\u7cfb\u7edf** | LlamaIndex + LangChain\u7ec4\u5408 | \u68c0\u7d22+\u7f16\u6392\u5206\u5c42\uff0c50%\u6027\u80fd\u63d0\u5347 |\n| **\u63d0\u793a\u81ea\u52a8\u4f18\u5316** | DSPy + \u4efb\u610fRAG\u6846\u67b6 | 15-40%\u8d28\u91cf\u63d0\u5347\uff0c$1-5\u6210\u672c |\n| **\u8de8\u5e94\u7528\u5de5\u5177\u6807\u51c6\u5316** | MCP\u534f\u8bae | \u4e00\u6b21\u6784\u5efa\uff0c\u5168\u5e73\u53f0\u590d\u7528 |\n| **\u591a\u6a21\u578b\u652f\u6301** | MCP + \u6846\u67b6\u9002\u914d\u5668 | \u6a21\u578b\u65e0\u5173\uff0c\u52a8\u6001\u5de5\u5177\u53d1\u73b0 |\n\n## 2025\u5e74\u4e92\u64cd\u4f5c\u6027\u8d8b\u52bf\n\n1. **MCP\u6210\u4e3a\u4e8b\u5b9e\u6807\u51c6**\uff1aLinux Foundation\u6cbb\u7406\u786e\u4fdd\u957f\u671f\u7a33\u5b9a\uff0c\u7c7b\u4f3cHTTP\u4e4b\u4e8eWeb\n2. **\u6846\u67b6\u878d\u5408\u52a0\u901f**\uff1aLlamaIndex/LangChain\u8fb9\u754c\u6a21\u7cca\uff0cDSPy\u4f18\u5316\u6210\u4e3a\u6807\u914d\n3. **\u58f0\u660e\u5f0f>\u547d\u4ee4\u5f0f**\uff1aDSPy\u98ce\u683c\u7684\u7b7e\u540d\u5b9a\u4e49\u66ff\u4ee3\u624b\u5de5Prompt\u5de5\u7a0b\n4. **\u5b89\u5168\u524d\u7f6e**\uff1aOAuth 2.1\u3001\u5de5\u5177\u6743\u9650\u63a7\u5236\u6210\u4e3aMCP\u90e8\u7f72\u5fc5\u9009\u9879\n5. **Agentic\u751f\u6001\u7edf\u4e00**\uff1aAAIF\u4e0b\u7684MCP\u3001Goose\u3001AGENTS.md\u6784\u5efaAgent\u57fa\u7840\u8bbe\u65bd\n\n---\n\n## \u7ed3\u8bba\n\nRAG\u6846\u67b6\u4e92\u64cd\u4f5c\u5df2\u4ece\"\u6280\u672f\u9009\u578b\"\u6f14\u53d8\u4e3a\"\u751f\u6001\u7b56\u7565\"\u3002**LlamaIndex + LangChain\u53cc\u6846\u67b6\u7ec4\u5408**\u89e3\u51b3\u4e86\u68c0\u7d22\u4e0e\u7f16\u6392\u7684\u804c\u8d23\u5206\u79bb\uff0c**DSPy\u7a0b\u5e8f\u5316\u4f18\u5316**\u5c06Prompt\u5de5\u7a0b\u4ece\u624b\u5de5\u827a\u672f\u8f6c\u53d8\u4e3a\u53ef\u91cf\u5316\u5de5\u7a0b\uff0c\u800c**MCP\u534f\u8bae**\u5219\u4e3aAI\u5de5\u5177\u8c03\u7528\u5efa\u7acb\u4e86\u7c7b\u4f3cHTTP\u7684\u884c\u4e1a\u6807\u51c6\u3002\n\n\u5bf9\u4e8e2025\u5e74\u7684\u4f01\u4e1aRAG\u7cfb\u7edf\u5efa\u8bbe\uff0c\u63a8\u8350\u91c7\u7528**\u5206\u5c42\u67b6\u6784**\uff1a\u6570\u636e\u5c42\u4f7f\u7528LlamaIndex\uff0c\u7f16\u6392\u5c42\u4f7f\u7528LangChain\uff0c\u4f18\u5316\u5c42\u5f15\u5165DSPy\uff0c\u63a5\u53e3\u5c42\u901a\u8fc7MCP\u5b9e\u73b0\u6807\u51c6\u5316\u3002\u8fd9\u4e00\u67b6\u6784\u7ec4\u5408\u53ef\u5b9e\u73b0**50%+\u6027\u80fd\u63d0\u5347**\u3001**15-40%\u8d28\u91cf\u6539\u8fdb**\uff0c\u540c\u65f6\u786e\u4fdd\u8de8\u5e73\u53f0\u53ef\u79fb\u690d\u6027\u548c\u957f\u671f\u6280\u672f\u6f14\u8fdb\u7684\u7075\u6d3b\u6027\u3002",
+      "language": null,
+      "md_citations": [
+        {
+          "url": "https://milvus.io/ai-quick-reference/how-do-i-integrate-llamaindex-with-other-libraries-like-langchain-and-haystack",
+          "uuid": "9ebe7c6e-d6a6-4f62-8e7b-2efd9f6ad767",
+          "title": "Milvus",
+          "sources": [
+            {
+              "url": "https://milvus.io/ai-quick-reference/how-do-i-integrate-llamaindex-with-other-libraries-like-langchain-and-haystack",
+              "uuid": "9ebe7c6e-d6a6-4f62-8e7b-2efd9f6ad767",
+              "title": "How do I integrate LlamaIndex with other libraries like LangChain and Haystack?",
+              "source": "Milvus",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=milvus.io",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "9ebe7c6e-d6a6-4f62-8e7b-2efd9f6ad767",
+            "source": "Milvus",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=milvus.io",
+            "preview_title": "How do I integrate LlamaIndex with other libraries like LangChain and Haystack?"
+          },
+          "end_index": 306,
+          "start_index": 219,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://api.python.langchain.com/en/latest/retrievers/langchain_community.retrievers.llama_index.LlamaIndexRetriever.html",
+          "uuid": "2b70c04c-0d0a-4d15-a2bc-ebc2edbc7aa0",
+          "title": "LangChain",
+          "sources": [
+            {
+              "url": "https://api.python.langchain.com/en/latest/retrievers/langchain_community.retrievers.llama_index.LlamaIndexRetriever.html",
+              "uuid": "2b70c04c-0d0a-4d15-a2bc-ebc2edbc7aa0",
+              "title": "langchain_community.retrievers.llama_index.LlamaIndexRetriever \u2014 \ud83e\udd9c\ud83d\udd17 LangChain 0.2.17",
+              "source": "LangChain",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=langchain.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "2b70c04c-0d0a-4d15-a2bc-ebc2edbc7aa0",
+            "source": "LangChain",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=langchain.com",
+            "preview_title": "langchain_community.retrievers.llama_index.LlamaIndexRetriever \u2014 \ud83e\udd9c\ud83d\udd17 LangChain 0.2.17"
+          },
+          "end_index": 375,
+          "start_index": 306,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://api.python.langchain.com/en/latest/_modules/langchain_community/retrievers/llama_index.html",
+          "uuid": "291f650c-058c-4661-b5da-78445ff25c1c",
+          "title": "LangChain",
+          "sources": [
+            {
+              "url": "https://api.python.langchain.com/en/latest/_modules/langchain_community/retrievers/llama_index.html",
+              "uuid": "291f650c-058c-4661-b5da-78445ff25c1c",
+              "title": "Source code for langchain_community.retrievers.llama_index",
+              "source": "LangChain",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=langchain.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "291f650c-058c-4661-b5da-78445ff25c1c",
+            "source": "LangChain",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=langchain.com",
+            "preview_title": "Source code for langchain_community.retrievers.llama_index"
+          },
+          "end_index": 1296,
+          "start_index": 1185,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://api.python.langchain.com/en/latest/_modules/langchain_community/retrievers/llama_index.html",
+          "uuid": "7e247ce5-4ab9-4d0d-bbe6-73d32deffeeb",
+          "title": "LangChain",
+          "sources": [
+            {
+              "url": "https://api.python.langchain.com/en/latest/_modules/langchain_community/retrievers/llama_index.html",
+              "uuid": "7e247ce5-4ab9-4d0d-bbe6-73d32deffeeb",
+              "title": "langchain_community.retrievers.llama_index \u2014 \ud83e\udd9c\ud83d\udd17 LangChain 0.2.17",
+              "source": "LangChain",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=langchain.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "7e247ce5-4ab9-4d0d-bbe6-73d32deffeeb",
+            "source": "LangChain",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=langchain.com",
+            "preview_title": "langchain_community.retrievers.llama_index \u2014 \ud83e\udd9c\ud83d\udd17 LangChain 0.2.17"
+          },
+          "end_index": 1296,
+          "start_index": 1185,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://developers.llamaindex.ai/python/framework-api-reference/tools/function/",
+          "uuid": "849d5933-97dd-4ef8-ad72-2c912ee38a32",
+          "title": "Llamaindex",
+          "sources": [
+            {
+              "url": "https://developers.llamaindex.ai/python/framework-api-reference/tools/function/",
+              "uuid": "849d5933-97dd-4ef8-ad72-2c912ee38a32",
+              "title": "Function - LlamaIndex",
+              "source": "Llamaindex",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=llamaindex.ai",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "849d5933-97dd-4ef8-ad72-2c912ee38a32",
+            "source": "Llamaindex",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=llamaindex.ai",
+            "preview_title": "Function - LlamaIndex"
+          },
+          "end_index": 1409,
+          "start_index": 1329,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://github.com/run-llama/llama_index/blob/main/llama-index-core/llama_index/core/tools/query_engine.py",
+          "uuid": "fa025cd1-5169-43bc-a90e-0355dcaba892",
+          "title": "GitHub",
+          "sources": [
+            {
+              "url": "https://github.com/run-llama/llama_index/blob/main/llama-index-core/llama_index/core/tools/query_engine.py",
+              "uuid": "fa025cd1-5169-43bc-a90e-0355dcaba892",
+              "title": "llama_index/llama-index-core/llama_index/core/tools/query_engine.py at main \u00b7 run-llama/llama_index",
+              "source": "GitHub",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=github.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "fa025cd1-5169-43bc-a90e-0355dcaba892",
+            "source": "GitHub",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=github.com",
+            "preview_title": "llama_index/llama-index-core/llama_index/core/tools/query_engine.py at main \u00b7 run-llama/llama_index"
+          },
+          "end_index": 2293,
+          "start_index": 2171,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://www.databasemart.com/blog/langchain-vs-llamaindex",
+          "uuid": "54ba4335-02e5-41c8-83c8-afa2c2667c9d",
+          "title": "Database Mart",
+          "sources": [
+            {
+              "url": "https://www.databasemart.com/blog/langchain-vs-llamaindex",
+              "uuid": "54ba4335-02e5-41c8-83c8-afa2c2667c9d",
+              "title": "LangChain vs LlamaIndex (2025) \u2013 Which One is Better?",
+              "source": "Database Mart",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=databasemart.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "54ba4335-02e5-41c8-83c8-afa2c2667c9d",
+            "source": "Database Mart",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=databasemart.com",
+            "preview_title": "LangChain vs LlamaIndex (2025) \u2013 Which One is Better?"
+          },
+          "end_index": 2359,
+          "start_index": 2313,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://research.aimultiple.com/rag-frameworks/",
+          "uuid": "f83f1b4b-16b0-4db7-999c-adb98fcb811f",
+          "title": "AIMultiple",
+          "sources": [
+            {
+              "url": "https://research.aimultiple.com/rag-frameworks/",
+              "uuid": "f83f1b4b-16b0-4db7-999c-adb98fcb811f",
+              "title": "RAG Frameworks: LangChain vs LangGraph vs LlamaIndex vs Haystack vs DSPy",
+              "source": "AIMultiple",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=aimultiple.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "f83f1b4b-16b0-4db7-999c-adb98fcb811f",
+            "source": "AIMultiple",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=aimultiple.com",
+            "preview_title": "RAG Frameworks: LangChain vs LangGraph vs LlamaIndex vs Haystack vs DSPy"
+          },
+          "end_index": 3730,
+          "start_index": 3402,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://medium.com/decoded-by-datacast/llamaindex-vs-langchain-which-should-you-use-for-rag-pipelines-in-2025-f5a12a5d32b6",
+          "uuid": "33830920-40cb-4b41-9ac1-78730c28f335",
+          "title": "Medium",
+          "sources": [
+            {
+              "url": "https://medium.com/decoded-by-datacast/llamaindex-vs-langchain-which-should-you-use-for-rag-pipelines-in-2025-f5a12a5d32b6",
+              "uuid": "33830920-40cb-4b41-9ac1-78730c28f335",
+              "title": "LlamaIndex vs. LangChain \u2014 Which Should You Use for RAG Pipelines in 2025? | by Satyam Mishra | Decoded By Datacast | Medium",
+              "source": "Medium",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=medium.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "33830920-40cb-4b41-9ac1-78730c28f335",
+            "source": "Medium",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=medium.com",
+            "preview_title": "LlamaIndex vs. LangChain \u2014 Which Should You Use for RAG Pipelines in 2025? | by Satyam Mishra | Decoded By Datacast | Medium"
+          },
+          "end_index": 3823,
+          "start_index": 3732,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://mcp.so/",
+          "uuid": "77234b04-d43a-4e57-b582-124076af1b7c",
+          "title": "MCP",
+          "sources": [
+            {
+              "url": "https://mcp.so/",
+              "uuid": "77234b04-d43a-4e57-b582-124076af1b7c",
+              "title": "MCP Servers",
+              "source": "MCP",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=mcp.so",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "77234b04-d43a-4e57-b582-124076af1b7c",
+            "source": "MCP",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=mcp.so",
+            "preview_title": "MCP Servers"
+          },
+          "end_index": 7566,
+          "start_index": 7507,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://www.thoughtworks.com/en-us/insights/blog/generative-ai/model-context-protocol-beneath-hype",
+          "uuid": "dceafa1c-2b83-46c6-8b22-a1d1f62b6ac6",
+          "title": "Thoughtworks",
+          "sources": [
+            {
+              "url": "https://www.thoughtworks.com/en-us/insights/blog/generative-ai/model-context-protocol-beneath-hype",
+              "uuid": "dceafa1c-2b83-46c6-8b22-a1d1f62b6ac6",
+              "title": "The Model Context Protocol: Getting beneath the hype | Thoughtworks United States",
+              "source": "Thoughtworks",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=thoughtworks.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "dceafa1c-2b83-46c6-8b22-a1d1f62b6ac6",
+            "source": "Thoughtworks",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=thoughtworks.com",
+            "preview_title": "The Model Context Protocol: Getting beneath the hype | Thoughtworks United States"
+          },
+          "end_index": 7581,
+          "start_index": 7507,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://dev.to/amrendrav/the-mcp-revolution-how-one-protocol-solved-ais-biggest-integration-problem-part-1-of-2-1n0g",
+          "uuid": "167e05d8-f110-414b-b022-cdd568d0ceac",
+          "title": "DEV Community",
+          "sources": [
+            {
+              "url": "https://dev.to/amrendrav/the-mcp-revolution-how-one-protocol-solved-ais-biggest-integration-problem-part-1-of-2-1n0g",
+              "uuid": "167e05d8-f110-414b-b022-cdd568d0ceac",
+              "title": "The MCP Revolution: How One Protocol Solved AI's Biggest Integration Problem (Part 1 of 2) - DEV Community",
+              "source": "DEV Community",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=dev.to",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "167e05d8-f110-414b-b022-cdd568d0ceac",
+            "source": "DEV Community",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=dev.to",
+            "preview_title": "The MCP Revolution: How One Protocol Solved AI's Biggest Integration Problem (Part 1 of 2) - DEV Community"
+          },
+          "end_index": 7652,
+          "start_index": 7636,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://www.latent.space/p/why-mcp-won",
+          "uuid": "723fc0c7-404a-447e-9f2b-1bb01f1dc314",
+          "title": "Substack",
+          "sources": [
+            {
+              "url": "https://www.latent.space/p/why-mcp-won",
+              "uuid": "723fc0c7-404a-447e-9f2b-1bb01f1dc314",
+              "title": "Why MCP Won - Latent.Space",
+              "source": "Substack",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=latent.space",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "723fc0c7-404a-447e-9f2b-1bb01f1dc314",
+            "source": "Substack",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=latent.space",
+            "preview_title": "Why MCP Won - Latent.Space"
+          },
+          "end_index": 7685,
+          "start_index": 7657,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://dev.to/amrendrav/the-mcp-revolution-how-one-protocol-solved-ais-biggest-integration-problem-part-1-of-2-1n0g",
+          "uuid": "ab911838-74b0-481c-8e17-eefcc47c03c0",
+          "title": "DEV Community",
+          "sources": [
+            {
+              "url": "https://dev.to/amrendrav/the-mcp-revolution-how-one-protocol-solved-ais-biggest-integration-problem-part-1-of-2-1n0g",
+              "uuid": "ab911838-74b0-481c-8e17-eefcc47c03c0",
+              "title": "The MCP Revolution: How One Protocol Solved AI's Biggest Integration Problem (Part 1 of 2) - DEV Community",
+              "source": "DEV Community",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=dev.to",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "ab911838-74b0-481c-8e17-eefcc47c03c0",
+            "source": "DEV Community",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=dev.to",
+            "preview_title": "The MCP Revolution: How One Protocol Solved AI's Biggest Integration Problem (Part 1 of 2) - DEV Community"
+          },
+          "end_index": 7685,
+          "start_index": 7667,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://www.latent.space/p/why-mcp-won",
+          "uuid": "3a328bcf-ea44-4670-be9e-7bc95de4bad6",
+          "title": "Substack",
+          "sources": [
+            {
+              "url": "https://www.latent.space/p/why-mcp-won",
+              "uuid": "3a328bcf-ea44-4670-be9e-7bc95de4bad6",
+              "title": "Why MCP Won - Latent.Space",
+              "source": "Substack",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=latent.space",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "3a328bcf-ea44-4670-be9e-7bc95de4bad6",
+            "source": "Substack",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=latent.space",
+            "preview_title": "Why MCP Won - Latent.Space"
+          },
+          "end_index": 7717,
+          "start_index": 7690,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://dev.to/amrendrav/the-mcp-revolution-how-one-protocol-solved-ais-biggest-integration-problem-part-1-of-2-1n0g",
+          "uuid": "3f8f4d9d-1eb5-46e8-a736-9ca642950852",
+          "title": "DEV Community",
+          "sources": [
+            {
+              "url": "https://dev.to/amrendrav/the-mcp-revolution-how-one-protocol-solved-ais-biggest-integration-problem-part-1-of-2-1n0g",
+              "uuid": "3f8f4d9d-1eb5-46e8-a736-9ca642950852",
+              "title": "The MCP Revolution: How One Protocol Solved AI's Biggest Integration Problem (Part 1 of 2) - DEV Community",
+              "source": "DEV Community",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=dev.to",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "3f8f4d9d-1eb5-46e8-a736-9ca642950852",
+            "source": "DEV Community",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=dev.to",
+            "preview_title": "The MCP Revolution: How One Protocol Solved AI's Biggest Integration Problem (Part 1 of 2) - DEV Community"
+          },
+          "end_index": 7717,
+          "start_index": 7700,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation",
+          "uuid": "aec1be81-3632-4921-8301-b5a6a1c9a4a8",
+          "title": "Anthropic",
+          "sources": [
+            {
+              "url": "https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation",
+              "uuid": "aec1be81-3632-4921-8301-b5a6a1c9a4a8",
+              "title": "Anthropic",
+              "source": "Anthropic",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=anthropic.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "aec1be81-3632-4921-8301-b5a6a1c9a4a8",
+            "source": "Anthropic",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=anthropic.com",
+            "preview_title": "Anthropic"
+          },
+          "end_index": 7794,
+          "start_index": 7766,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://mcp.so/",
+          "uuid": "61362b47-3703-4a09-a567-cc8252e44ae5",
+          "title": "MCP",
+          "sources": [
+            {
+              "url": "https://mcp.so/",
+              "uuid": "61362b47-3703-4a09-a567-cc8252e44ae5",
+              "title": "MCP Servers",
+              "source": "MCP",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=mcp.so",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "61362b47-3703-4a09-a567-cc8252e44ae5",
+            "source": "MCP",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=mcp.so",
+            "preview_title": "MCP Servers"
+          },
+          "end_index": 7958,
+          "start_index": 7823,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://humanloop.com/blog/mcp",
+          "uuid": "16250d94-c759-4f11-9ede-087d22d8f904",
+          "title": "Humanloop",
+          "sources": [
+            {
+              "url": "https://humanloop.com/blog/mcp",
+              "uuid": "16250d94-c759-4f11-9ede-087d22d8f904",
+              "title": "Model Context Protocol (MCP) Explained",
+              "source": "Humanloop",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=humanloop.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "16250d94-c759-4f11-9ede-087d22d8f904",
+            "source": "Humanloop",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=humanloop.com",
+            "preview_title": "Model Context Protocol (MCP) Explained"
+          },
+          "end_index": 7958,
+          "start_index": 7823,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://medium.com/@yagmur.sahin/building-mcp-servers-architecture-transports-and-the-modern-way-to-connect-mcp-clients-cef042d80384",
+          "uuid": "b9ea4457-765c-42bb-85e0-bd8b3c853e11",
+          "title": "Medium",
+          "sources": [
+            {
+              "url": "https://medium.com/@yagmur.sahin/building-mcp-servers-architecture-transports-and-the-modern-way-to-connect-mcp-clients-cef042d80384",
+              "uuid": "b9ea4457-765c-42bb-85e0-bd8b3c853e11",
+              "title": "Building MCP Servers: Architecture, Transports, and the Modern Way to Connect MCP Clients | by YAGMUR SAHIN | Medium",
+              "source": "Medium",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=medium.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "b9ea4457-765c-42bb-85e0-bd8b3c853e11",
+            "source": "Medium",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=medium.com",
+            "preview_title": "Building MCP Servers: Architecture, Transports, and the Modern Way to Connect MCP Clients | by YAGMUR SAHIN | Medium"
+          },
+          "end_index": 8070,
+          "start_index": 8020,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://medium.com/@yagmur.sahin/building-mcp-servers-architecture-transports-and-the-modern-way-to-connect-mcp-clients-cef042d80384",
+          "uuid": "d6814c0c-f372-4ac2-b072-fc2a32bc865f",
+          "title": "Medium",
+          "sources": [
+            {
+              "url": "https://medium.com/@yagmur.sahin/building-mcp-servers-architecture-transports-and-the-modern-way-to-connect-mcp-clients-cef042d80384",
+              "uuid": "d6814c0c-f372-4ac2-b072-fc2a32bc865f",
+              "title": "Building MCP Servers: Architecture, Transports, and the Modern Way to Connect MCP Clients | by YAGMUR SAHIN | Medium",
+              "source": "Medium",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=medium.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "d6814c0c-f372-4ac2-b072-fc2a32bc865f",
+            "source": "Medium",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=medium.com",
+            "preview_title": "Building MCP Servers: Architecture, Transports, and the Modern Way to Connect MCP Clients | by YAGMUR SAHIN | Medium"
+          },
+          "end_index": 8170,
+          "start_index": 8120,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://modelcontextprotocol.io/specification/2025-06-18/server/tools",
+          "uuid": "2e625770-73ae-4f79-bb07-3f7f7ac49ff8",
+          "title": "Model Context Protocol",
+          "sources": [
+            {
+              "url": "https://modelcontextprotocol.io/specification/2025-06-18/server/tools",
+              "uuid": "2e625770-73ae-4f79-bb07-3f7f7ac49ff8",
+              "title": "Tools - Model Context Protocol",
+              "source": "Model Context Protocol",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=modelcontextprotocol.io",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "2e625770-73ae-4f79-bb07-3f7f7ac49ff8",
+            "source": "Model Context Protocol",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=modelcontextprotocol.io",
+            "preview_title": "Tools - Model Context Protocol"
+          },
+          "end_index": 8195,
+          "start_index": 8174,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://auth0.com/blog/an-introduction-to-mcp-and-authorization/",
+          "uuid": "70d42182-1120-47bc-a7b3-19130be14fe1",
+          "title": "Auth0",
+          "sources": [
+            {
+              "url": "https://auth0.com/blog/an-introduction-to-mcp-and-authorization/",
+              "uuid": "70d42182-1120-47bc-a7b3-19130be14fe1",
+              "title": "An Introduction to MCP and Authorization | Auth0",
+              "source": "Auth0",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=auth0.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "70d42182-1120-47bc-a7b3-19130be14fe1",
+            "source": "Auth0",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=auth0.com",
+            "preview_title": "An Introduction to MCP and Authorization | Auth0"
+          },
+          "end_index": 9611,
+          "start_index": 9598,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://developers.llamaindex.ai/python/examples/tools/mcp/",
+          "uuid": "d56b1793-b8a5-40cb-9ed5-61416693e136",
+          "title": "llamaindex",
+          "sources": [
+            {
+              "url": "https://developers.llamaindex.ai/python/examples/tools/mcp/",
+              "uuid": "d56b1793-b8a5-40cb-9ed5-61416693e136",
+              "title": "LlamaIndex + MCP Usage",
+              "source": "llamaindex",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=llamaindex.ai",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "d56b1793-b8a5-40cb-9ed5-61416693e136",
+            "source": "llamaindex",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=llamaindex.ai",
+            "preview_title": "LlamaIndex + MCP Usage"
+          },
+          "end_index": 10058,
+          "start_index": 9998,
+          "origin_tool_name": "web_fetch"
+        },
+        {
+          "url": "https://medium.com/@pedroazevedo6/build-llamaindex-agents-with-mcp-connector-69df32d95508",
+          "uuid": "42abf9f8-0c2f-4a1c-b613-915cf1509c4c",
+          "title": "Medium",
+          "sources": [
+            {
+              "url": "https://medium.com/@pedroazevedo6/build-llamaindex-agents-with-mcp-connector-69df32d95508",
+              "uuid": "42abf9f8-0c2f-4a1c-b613-915cf1509c4c",
+              "title": "Build LLamaIndex Agents with MCP Connector | by Pedro Azevedo | Medium",
+              "source": "Medium",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=medium.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "42abf9f8-0c2f-4a1c-b613-915cf1509c4c",
+            "source": "Medium",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=medium.com",
+            "preview_title": "Build LLamaIndex Agents with MCP Connector | by Pedro Azevedo | Medium"
+          },
+          "end_index": 10517,
+          "start_index": 9998,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://github.com/langchain-ai/langchain-mcp-adapters",
+          "uuid": "b3ca2e9e-6571-4b6a-8668-451779dadca9",
+          "title": "github",
+          "sources": [
+            {
+              "url": "https://github.com/langchain-ai/langchain-mcp-adapters",
+              "uuid": "b3ca2e9e-6571-4b6a-8668-451779dadca9",
+              "title": "GitHub - langchain-ai/langchain-mcp-adapters: LangChain \ud83d\udd0c MCP",
+              "source": "github",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=github.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "b3ca2e9e-6571-4b6a-8668-451779dadca9",
+            "source": "github",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=github.com",
+            "preview_title": "GitHub - langchain-ai/langchain-mcp-adapters: LangChain \ud83d\udd0c MCP"
+          },
+          "end_index": 10580,
+          "start_index": 10519,
+          "origin_tool_name": "web_fetch"
+        },
+        {
+          "url": "https://guptadeepak.com/the-complete-guide-to-model-context-protocol-mcp-enterprise-adoption-market-trends-and-implementation-strategies/",
+          "uuid": "6b2c43b8-10ca-4397-9718-b83c8d620aff",
+          "title": "Gupta Deepak",
+          "sources": [
+            {
+              "url": "https://guptadeepak.com/the-complete-guide-to-model-context-protocol-mcp-enterprise-adoption-market-trends-and-implementation-strategies/",
+              "uuid": "6b2c43b8-10ca-4397-9718-b83c8d620aff",
+              "title": "Model Context Protocol (MCP) Guide: Enterprise Adoption 2025",
+              "source": "Gupta Deepak",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=guptadeepak.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "6b2c43b8-10ca-4397-9718-b83c8d620aff",
+            "source": "Gupta Deepak",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=guptadeepak.com",
+            "preview_title": "Model Context Protocol (MCP) Guide: Enterprise Adoption 2025"
+          },
+          "end_index": 12337,
+          "start_index": 12318,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://www.ibm.com/think/topics/llamaindex-vs-langchain",
+          "uuid": "4592cf29-5d0d-42ae-a31d-961bcc3cfa92",
+          "title": "IBM",
+          "sources": [
+            {
+              "url": "https://www.ibm.com/think/topics/llamaindex-vs-langchain",
+              "uuid": "4592cf29-5d0d-42ae-a31d-961bcc3cfa92",
+              "title": "Llamaindex vs Langchain: What's the difference? | IBM",
+              "source": "IBM",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=ibm.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "4592cf29-5d0d-42ae-a31d-961bcc3cfa92",
+            "source": "IBM",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=ibm.com",
+            "preview_title": "Llamaindex vs Langchain: What's the difference? | IBM"
+          },
+          "end_index": 12809,
+          "start_index": 12793,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://gradientflow.com/model-context-protocol-what-you-need-to-know/",
+          "uuid": "2f6f7bf6-8271-4b91-ab65-4719130f62de",
+          "title": "Gradient Flow",
+          "sources": [
+            {
+              "url": "https://gradientflow.com/model-context-protocol-what-you-need-to-know/",
+              "uuid": "2f6f7bf6-8271-4b91-ab65-4719130f62de",
+              "title": "Model Context Protocol: What You Need To Know - Gradient Flow",
+              "source": "Gradient Flow",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=gradientflow.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "2f6f7bf6-8271-4b91-ab65-4719130f62de",
+            "source": "Gradient Flow",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=gradientflow.com",
+            "preview_title": "Model Context Protocol: What You Need To Know - Gradient Flow"
+          },
+          "end_index": 13130,
+          "start_index": 13077,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://medium.com/@yagmur.sahin/building-mcp-servers-architecture-transports-and-the-modern-way-to-connect-mcp-clients-cef042d80384",
+          "uuid": "9508a68d-5b49-4196-8a1d-9f5702f639d5",
+          "title": "Medium",
+          "sources": [
+            {
+              "url": "https://medium.com/@yagmur.sahin/building-mcp-servers-architecture-transports-and-the-modern-way-to-connect-mcp-clients-cef042d80384",
+              "uuid": "9508a68d-5b49-4196-8a1d-9f5702f639d5",
+              "title": "Building MCP Servers: Architecture, Transports, and the Modern Way to Connect MCP Clients | by YAGMUR SAHIN | Medium",
+              "source": "Medium",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=medium.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "9508a68d-5b49-4196-8a1d-9f5702f639d5",
+            "source": "Medium",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=medium.com",
+            "preview_title": "Building MCP Servers: Architecture, Transports, and the Modern Way to Connect MCP Clients | by YAGMUR SAHIN | Medium"
+          },
+          "end_index": 13258,
+          "start_index": 13232,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://milvus.io/ai-quick-reference/how-do-i-integrate-llamaindex-with-other-libraries-like-langchain-and-haystack",
+          "uuid": "7a57d249-23e6-457e-8f87-e492814b8a51",
+          "title": "Milvus",
+          "sources": [
+            {
+              "url": "https://milvus.io/ai-quick-reference/how-do-i-integrate-llamaindex-with-other-libraries-like-langchain-and-haystack",
+              "uuid": "7a57d249-23e6-457e-8f87-e492814b8a51",
+              "title": "How do I integrate LlamaIndex with other libraries like LangChain and Haystack?",
+              "source": "Milvus",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=milvus.io",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "7a57d249-23e6-457e-8f87-e492814b8a51",
+            "source": "Milvus",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=milvus.io",
+            "preview_title": "How do I integrate LlamaIndex with other libraries like LangChain and Haystack?"
+          },
+          "end_index": 13401,
+          "start_index": 13354,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://gradientflow.com/model-context-protocol-what-you-need-to-know/",
+          "uuid": "b87b9dee-8c37-4a76-a968-197885114546",
+          "title": "Gradient Flow",
+          "sources": [
+            {
+              "url": "https://gradientflow.com/model-context-protocol-what-you-need-to-know/",
+              "uuid": "b87b9dee-8c37-4a76-a968-197885114546",
+              "title": "Model Context Protocol: What You Need To Know - Gradient Flow",
+              "source": "Gradient Flow",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=gradientflow.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "b87b9dee-8c37-4a76-a968-197885114546",
+            "source": "Gradient Flow",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=gradientflow.com",
+            "preview_title": "Model Context Protocol: What You Need To Know - Gradient Flow"
+          },
+          "end_index": 13468,
+          "start_index": 13436,
+          "origin_tool_name": "web_search"
+        }
+      ],
+      "version_uuid": "a0acef40-2e90-4d2d-b655-d21d02f32f59"
+    },
+    "message": null,
+    "integration_name": null,
+    "integration_icon_url": null,
+    "context": null,
+    "display_content": null,
+    "approval_options": null,
+    "approval_key": null
+  },
+  {
+    "start_timestamp": null,
+    "stop_timestamp": null,
+    "flags": null,
+    "type": "tool_result",
+    "name": "artifacts",
+    "content": [
+      {
+        "type": "text",
+        "text": "OK",
+        "uuid": "7b0f1638-4f85-45d1-86dd-49a1ae5a74e5"
+      }
+    ],
+    "is_error": false,
+    "structured_content": null,
+    "meta": null,
+    "message": null,
+    "integration_name": null,
+    "integration_icon_url": null,
+    "display_content": null
+  }
+]
+
+================================================================================
+
+Human:
+Content:
+[
+  {
+    "start_timestamp": "2026-01-11T08:40:53.657660Z",
+    "stop_timestamp": "2026-01-11T08:40:53.657660Z",
+    "flags": null,
+    "type": "text",
+    "text": "\u6240\u6709\u6df1\u5ea6\u7814\u7a76\u90fd\u505a\u5b8c\u4e86\u5417\uff1f\u5982\u679c\u8fd8\u6709Vol4\u7684\u7ae0\u8282\u9700\u8981\u6df1\u5ea6\u7814\u7a76\uff0c\u8bf7\u7ee7\u7eed\u3002",
+    "citations": []
+  }
+]
+
+================================================================================
+
+Assistant:
+Content:
+[
+  {
+    "start_timestamp": "2026-01-11T08:40:57.036446Z",
+    "stop_timestamp": "2026-01-11T08:40:57.036446Z",
+    "flags": null,
+    "type": "text",
+    "text": "\n\n",
+    "citations": []
+  },
+  {
+    "start_timestamp": "2026-01-11T08:40:57.036446Z",
+    "stop_timestamp": "2026-01-11T08:41:01.948569Z",
+    "flags": null,
+    "type": "thinking",
+    "thinking": "\u7528\u6237\u95ee\u7684\u662fVol4\u7684\u6df1\u5ea6\u7814\u7a76\u662f\u5426\u90fd\u505a\u5b8c\u4e86\u3002\u8ba9\u6211\u56de\u987e\u4e00\u4e0bVol4\u7684\u89c4\u5212\uff1a\n\nVol4\u89c4\u5212\uff08Ch54-66\uff0c\u517113\u7ae0\uff09\uff1a\n- Vol4-01: Ch54-57 LlamaIndex\u6e90\u4ee3\u7801\u6df1\u5ea6\u5256\u6790 \u2705 \u5df2\u5b8c\u6210\n- Vol4-02: Ch58-60 \u6846\u67b6\u63d0\u793a\u8bcd\u9006\u5411\u5de5\u7a0b \u2705 \u5df2\u5b8c\u6210\n- Vol4-03: Ch61-63 \u4f01\u4e1a\u7ea7RAG\u6846\u67b6\u6df1\u5ea6\u5256\u6790 \u2705 \u5df2\u5b8c\u6210\n- Vol4-04: Ch64-66 \u6846\u67b6\u4e92\u64cd\u4f5c\u4e0eMCP\u96c6\u6210 \u2705 \u521a\u521a\u5b8c\u6210\n\n\u6240\u4ee5Vol4\u76844\u4e2a\u6279\u6b21\u7814\u7a76\u5df2\u7ecf\u5168\u90e8\u5b8c\u6210\u4e86\uff01\u6211\u9700\u8981\uff1a\n1. \u786e\u8ba4Vol4\u5df2\u5168\u90e8\u5b8c\u6210\n2. \u628aVol4-04\u7684\u7814\u7a76\u62a5\u544a\u4fdd\u5b58\u5230\u6587\u4ef6\n3. \u66f4\u65b0\u7d22\u5f15\u6587\u4ef6\n4. \u544a\u77e5\u7528\u6237\u6574\u4f53\u8fdb\u5ea6\n\n\u4e0d\u9700\u8981\u518d\u542f\u52a8\u6df1\u5ea6\u7814\u7a76\u4e86\uff0c\u56e0\u4e3aVol4\u5df2\u7ecf\u5b8c\u6210\u3002",
+    "summaries": [
+      {
+        "summary": "\u601d\u8003\u662f\u5426\u5b8c\u6210\u4e86\u6240\u6709\u6df1\u5ea6\u7814\u7a76\uff0c\u4ee5\u53ca\u662f\u5426\u9700\u8981\u7ee7\u7eed\u8fdb\u884cVol4\u7ae0\u8282\u7684\u6df1\u5ea6\u7814\u7a76"
+      },
+      {
+        "summary": "\u786e\u8ba4Vol4\u5168\u90e8\u5b8c\u6210\uff0c\u51c6\u5907\u603b\u7ed3\u7814\u7a76\u6210\u679c\u3002"
+      },
+      {
+        "summary": "\u786e\u8ba4Vol4\u5168\u90e8\u5b8c\u6210\uff0c\u65e0\u9700\u7ee7\u7eed\u6df1\u5ea6\u7814\u7a76\u3002"
+      }
+    ],
+    "cut_off": false,
+    "alternative_display_type": null
+  },
+  {
+    "start_timestamp": "2026-01-11T08:41:02.111329Z",
+    "stop_timestamp": "2026-01-11T08:41:02.740645Z",
+    "flags": null,
+    "type": "text",
+    "text": "Vol4\u7684\u56db\u4e2a\u7814\u7a76\u6279\u6b21\u5df2\u7ecf\u5168\u90e8\u5b8c\u6210\uff01\u8ba9\u6211\u628a\u521a\u5b8c\u6210\u7684Vol4-04\u7814\u7a76\u62a5\u544a\u4fdd\u5b58\u5230\u6587\u4ef6\uff0c\u5e76\u66f4\u65b0\u7d22\u5f15\u3002",
+    "citations": []
+  },
+  {
+    "start_timestamp": "2026-01-11T08:41:03.051544Z",
+    "stop_timestamp": "2026-01-11T08:42:59.468777Z",
+    "flags": null,
+    "type": "tool_use",
+    "name": "create_file",
+    "input": {
+      "path": "/mnt/user-data/outputs/aurolaok/docs/survey/vol4/_research/\u6df1\u5ea6\u7814\u7a76\u62a5\u544a_Ch64-66_\u6846\u67b6\u4e92\u64cd\u4f5c\u4e0eMCP\u96c6\u6210_20260111.md",
+      "file_text": "# RAG\u6846\u67b6\u4e92\u64cd\u4f5c\u4e0eMCP\u534f\u8bae\u7edf\u4e00\u63a5\u5165\u6df1\u5ea6\u5256\u6790\n\n**Vol4-04 | \u7b2c64-66\u7ae0 | \u6846\u67b6\u4e92\u64cd\u4f5c\u4e0eMCP\u534f\u8bae\u96c6\u6210**\n\n**\u7814\u7a76\u6279\u6b21**\uff1aVol4-04  \n**\u8986\u76d6\u7ae0\u8282**\uff1aCh64-66  \n**\u7814\u7a76\u65e5\u671f**\uff1a2026-01-11  \n**\u6838\u5fc3\u4e3b\u9898**\uff1a\u6846\u67b6\u4e92\u64cd\u4f5c\u4e0eMCP\u534f\u8bae\u7edf\u4e00\u63a5\u5165\n\n---\n\n**2025\u5e74AI Agent\u751f\u6001\u6b63\u5728\u7ecf\u5386\u6807\u51c6\u5316\u9769\u547d\u3002** LlamaIndex\u4e0eLangChain\u7684\u6df1\u5ea6\u96c6\u6210\u3001DSPy\u7684\u7a0b\u5e8f\u5316\u63d0\u793a\u4f18\u5316\u3001\u4ee5\u53caMCP\u534f\u8bae\u7684\u884c\u4e1a\u7edf\u4e00\uff0c\u5171\u540c\u6784\u5efa\u4e86\u73b0\u4ee3RAG\u7cfb\u7edf\u7684\u4e09\u5927\u6280\u672f\u652f\u67f1\u3002\u672c\u62a5\u544a\u57fa\u4e8e\u6e90\u4ee3\u7801\u7ea7\u5206\u6790\uff0c\u63ed\u793a\u8fd9\u4e9b\u6280\u672f\u7684\u6838\u5fc3\u5b9e\u73b0\u673a\u5236\u4e0e\u6700\u4f73\u5b9e\u8df5\u3002\n\n---\n\n## \u7b2c64\u7ae0\uff1aLlamaIndex + LangChain\u53cc\u6846\u67b6\u96c6\u6210\n\n### \u9002\u914d\u5668\u6e90\u4ee3\u7801\u67b6\u6784\u89e3\u6790\n\n\u53cc\u6846\u67b6\u96c6\u6210\u7684\u6838\u5fc3\u5728\u4e8e**LlamaIndexRetriever\u9002\u914d\u5668**\uff0c\u4f4d\u4e8e`langchain_community/retrievers/llama_index.py`\u3002\u8be5\u9002\u914d\u5668\u901a\u8fc7\u7ee7\u627fLangChain\u7684`BaseRetriever`\u57fa\u7c7b\uff0c\u5c06LlamaIndex\u7684\u68c0\u7d22\u80fd\u529b\u65e0\u7f1d\u6865\u63a5\u5230LangChain\u751f\u6001\uff1a\n\n```python\n# \u6587\u4ef6\u8def\u5f84: langchain_community/retrievers/llama_index.py\nclass LlamaIndexRetriever(BaseRetriever):\n    \"\"\"LlamaIndex\u68c0\u7d22\u5668\u9002\u914d\u5668\uff0c\u5b9e\u73b0Document\u5bf9\u8c61\u81ea\u52a8\u8f6c\u6362\"\"\"\n    \n    index: Any  # LlamaIndex\u7d22\u5f15\u5b9e\u4f8b\n    query_kwargs: Dict = Field(default_factory=dict)\n\n    def _get_relevant_documents(\n        self, query: str, *, run_manager: CallbackManagerForRetrieverRun\n    ) -> List[Document]:\n        index = cast(BaseGPTIndex, self.index)\n        response = index.query(query, **self.query_kwargs)\n        \n        # \u5173\u952e\u8f6c\u6362\u903b\u8f91\uff1aLlamaIndex Node \u2192 LangChain Document\n        docs = []\n        for source_node in response.source_nodes:\n            metadata = source_node.metadata or {}\n            docs.append(\n                Document(page_content=source_node.get_content(), metadata=metadata)\n            )\n        return docs\n```\n\n**LlamaIndexGraphRetriever**\u5219\u4e13\u95e8\u5904\u7406\u56fe\u7ed3\u6784\u6570\u636e\uff0c\u901a\u8fc7`ComposableGraph`\u652f\u6301\u591a\u7d22\u5f15\u7ec4\u5408\u67e5\u8be2\uff0c\u5173\u952e\u5dee\u5f02\u5728\u4e8e\u6ce8\u5165`response_mode=\"no_text\"`\u914d\u7f6e\u4ee5\u4f18\u5316\u68c0\u7d22\u6027\u80fd\u3002\n\n### to_langchain_tool()\u8f6c\u6362\u63a5\u53e3\u5b9e\u73b0\n\nLlamaIndex\u4fa7\u7684\u5de5\u5177\u8f6c\u6362\u63a5\u53e3\u4f4d\u4e8e`llama-index-core/llama_index/core/tools/types.py`\uff0c\u63d0\u4f9b\u53cc\u5411\u6865\u63a5\u80fd\u529b\uff1a\n\n```python\n# \u6587\u4ef6\u8def\u5f84: llama-index-core/llama_index/core/tools/types.py\nclass BaseTool:\n    def to_langchain_tool(self, **langchain_tool_kwargs: Any) -> Tool:\n        \"\"\"\u8f6c\u6362\u4e3aLangChain\u6807\u51c6Tool\u683c\u5f0f\"\"\"\n        return Tool(\n            name=self._metadata.name,\n            description=self._metadata.description,\n            func=self.__call__,\n            **langchain_tool_kwargs,\n        )\n    \n    def to_langchain_structured_tool(self, **kwargs: Any) -> StructuredTool:\n        \"\"\"\u8f6c\u6362\u4e3aStructuredTool\uff0c\u4fdd\u7559\u5b8c\u6574\u53c2\u6570Schema\"\"\"\n        return StructuredTool(\n            name=self._metadata.name,\n            description=self._metadata.description,\n            func=self.__call__,\n            args_schema=self._metadata.fn_schema,  # Pydantic\u6a21\u578b\n            **kwargs,\n        )\n```\n\n**QueryEngineTool**\uff08`llama-index-core/llama_index/core/tools/query_engine.py`\uff09\u662f\u6700\u5e38\u7528\u7684\u5305\u88c5\u5668\uff0c\u5c06\u4efb\u610f`BaseQueryEngine`\u5c01\u88c5\u4e3aAgent\u53ef\u8c03\u7528\u7684\u5de5\u5177\u3002\n\n### \u53cc\u6846\u67b6\u534f\u540c\u7684\u6700\u4f73\u5b9e\u8df5\u6a21\u5f0f\n\n\u63a8\u8350\u67b6\u6784\u91c7\u7528**LlamaIndex\u8d1f\u8d23\u6570\u636e\u5c42 + LangChain\u8d1f\u8d23\u7f16\u6392\u5c42**\u7684\u5206\u5de5\uff1a\n\n```python\n# \u5b8c\u6574Agentic RAG\u7cfb\u7edf\u793a\u4f8b\nfrom llama_index.core import VectorStoreIndex, SimpleDirectoryReader\nfrom llama_index.core.tools import QueryEngineTool, ToolMetadata\nfrom langchain.agents import create_tool_calling_agent, AgentExecutor\nfrom langchain_openai import ChatOpenAI\n\n# Step 1: LlamaIndex\u6784\u5efa\u7d22\u5f15\uff08\u6570\u636e\u5c42\uff09\ndocuments = SimpleDirectoryReader(\"./financial_reports\").load_data()\nindex = VectorStoreIndex.from_documents(documents)\nquery_engine = index.as_query_engine(similarity_top_k=3)\n\n# Step 2: \u521b\u5efaQueryEngineTool\nquery_tools = [\n    QueryEngineTool(\n        query_engine=query_engine,\n        metadata=ToolMetadata(\n            name=\"financial_search\",\n            description=\"\u641c\u7d22\u516c\u53f8\u8d22\u52a1\u62a5\u544a\u548c\u5e74\u62a5\u6570\u636e\"\n        ),\n    ),\n]\n\n# Step 3: \u8f6c\u6362\u4e3aLangChain\u5de5\u5177\nlangchain_tools = [t.to_langchain_tool() for t in query_tools]\n\n# Step 4: LangChain Agent\u7f16\u6392\uff08\u7f16\u6392\u5c42\uff09\nllm = ChatOpenAI(model=\"gpt-4o\", temperature=0)\nagent = create_tool_calling_agent(llm, langchain_tools, prompt)\nexecutor = AgentExecutor(agent=agent, tools=langchain_tools, verbose=True)\n```\n\n### \u6027\u80fd\u57fa\u51c6\u4e0e\u6846\u67b6\u9009\u578b\n\n**2025\u5e74RAG\u6846\u67b6\u6027\u80fd\u5bf9\u6bd4**\uff08\u57fa\u4e8e100\u67e5\u8be2\u00d7100\u6b21\u8fd0\u884c\u7684\u57fa\u51c6\u6d4b\u8bd5\uff09\uff1a\n\n| \u6846\u67b6 | \u6846\u67b6\u5f00\u9500 | \u5e73\u5747Token\u6d88\u8017 | \u68c0\u7d22\u901f\u5ea6 |\n|------|---------|--------------|---------|\n| **DSPy** | ~3.53ms | ~2,030 | \u6700\u4f4e\u5f00\u9500 |\n| **Haystack** | ~5.9ms | ~1,570 | Token\u6700\u4f18 |\n| **LlamaIndex** | ~6ms | ~1,600 | \u68c0\u7d22\u6700\u4f18 |\n| **LangChain** | ~10ms | ~2,400 | \u751f\u6001\u6700\u5168 |\n| **LangGraph** | ~14ms | ~2,030 | \u72b6\u6001\u56fe\u5f3a |\n\n\u5b9e\u9645\u6d4b\u8bd5\u8868\u660e\uff0c\u53cc\u6846\u67b6\u7ec4\u5408\u53ef\u5b9e\u73b0**50%\u54cd\u5e94\u65f6\u95f4\u63d0\u5347**\u2014\u2014LlamaIndex\u7684\u4f18\u5316\u7d22\u5f15\u7b56\u7565\u5e26\u6765**2-5\u500d\u67e5\u8be2\u52a0\u901f**\uff0c\u800cLangChain\u7684Agent\u7f16\u6392\u80fd\u529b\u63d0\u4f9b\u590d\u6742\u63a8\u7406\u652f\u6301\u3002\n\n---\n\n## \u7b2c65\u7ae0\uff1aDSPy\u4e0eRAG\u6846\u67b6\u8054\u5408\u4f18\u5316\n\n### DSPy\u6838\u5fc3\u67b6\u6784\u4e09\u5c42\u62bd\u8c61\n\nDSPy\u901a\u8fc7**\u58f0\u660e\u5f0f\u7f16\u7a0b**\u53d6\u4ee3\u624b\u5de5Prompt\u5de5\u7a0b\uff0c\u5176\u67b6\u6784\u5305\u542b\u4e09\u4e2a\u6838\u5fc3\u62bd\u8c61\uff1a\n\n**Signatures\uff08\u7b7e\u540d\uff09** \u5b9a\u4e49\u8f93\u5165\u8f93\u51fa\u8bed\u4e49\uff0c\u81ea\u52a8\u751f\u6210\u63d0\u793a\u6a21\u677f\uff1a\n\n```python\n# \u5185\u8054\u7b7e\u540d\n\"question -> answer\"\n\n# \u7c7b\u7b7e\u540d\uff08\u63a8\u8350\u751f\u4ea7\u4f7f\u7528\uff09\nclass GenerateAnswer(dspy.Signature):\n    \"\"\"\u57fa\u4e8e\u4e0a\u4e0b\u6587\u56de\u7b54\u95ee\u9898\uff0c\u7b54\u6848\u5e94\u7b80\u6d01\u51c6\u786e\u3002\"\"\"\n    context = dspy.InputField(desc=\"\u53ef\u80fd\u5305\u542b\u76f8\u5173\u4e8b\u5b9e\")\n    question = dspy.InputField()\n    answer = dspy.OutputField(desc=\"\u7b80\u77ed\u7cbe\u786e\u7684\u7b54\u6848\")\n```\n\n**Modules\uff08\u6a21\u5757\uff09** \u5c01\u88c5\u4e0d\u540c\u63d0\u793a\u6280\u672f\uff1a\n\n| \u6a21\u5757 | \u529f\u80fd | \u9002\u7528\u573a\u666f |\n|------|------|---------|\n| `dspy.Predict` | \u57fa\u7840\u9884\u6d4b\u5668 | \u7b80\u5355\u4efb\u52a1 |\n| `dspy.ChainOfThought` | \u94fe\u5f0f\u601d\u8003\u63a8\u7406 | \u590d\u6742\u63a8\u7406 |\n| `dspy.ReAct` | \u5de5\u5177\u4f7f\u7528Agent | \u4ea4\u4e92\u4efb\u52a1 |\n| `dspy.ProgramOfThought` | \u751f\u6210\u4ee3\u7801\u6267\u884c | \u8ba1\u7b97\u4efb\u52a1 |\n| `dspy.MultiChainComparison` | \u591a\u8def\u5f84\u6bd4\u8f83 | \u9ad8\u53ef\u9760\u6027 |\n\n**RAG\u6a21\u5757\u6807\u51c6\u5b9e\u73b0**\uff1a\n\n```python\nclass RAG(dspy.Module):\n    def __init__(self, num_passages=3):\n        super().__init__()\n        self.retrieve = dspy.Retrieve(k=num_passages)\n        self.respond = dspy.ChainOfThought('context, question -> response')\n\n    def forward(self, question):\n        context = self.retrieve(question).passages\n        return self.respond(context=context, question=question)\n```\n\n### \u4f18\u5316\u5668\u6df1\u5ea6\u5bf9\u6bd4\u4e0e\u9009\u578b\u6307\u5357\n\n**MIPROv2\uff08Multi-Stage Instruction Prompt Optimization\uff09** \u662f\u5f53\u524d\u6700\u5f3a\u901a\u7528\u4f18\u5316\u5668\uff0c\u91c7\u7528\u4e09\u9636\u6bb5\u6d41\u7a0b\uff1a\n1. **Bootstrapping\u9636\u6bb5**\uff1a\u6536\u96c6\u9ad8\u5206\u6267\u884c\u8f68\u8ff9\n2. **Grounded Proposal\u9636\u6bb5**\uff1a\u751f\u6210\u6570\u636e\u611f\u77e5\u7684\u6307\u4ee4\u5019\u9009\n3. **Bayesian Search\u9636\u6bb5**\uff1a\u4f18\u5316\u6307\u4ee4+\u793a\u4f8b\u7ec4\u5408\n\n```python\nfrom dspy.teleprompt import MIPROv2\n\nteleprompter = MIPROv2(\n    metric=your_metric,\n    auto=\"medium\"  # light: ~$1.5/20min, medium: ~$3/40min, heavy: ~$10/2h\n)\noptimized = teleprompter.compile(RAG(), trainset=trainset)\n```\n\n**GEPA\uff08Genetic-Pareto\uff09** \u662f2025\u5e747\u6708\u53d1\u5e03\u7684\u6700\u65b0\u4f18\u5316\u5668\uff0c\u901a\u8fc7**\u53cd\u601d\u5f0f\u63d0\u793a\u8fdb\u5316**\u5b9e\u73b0\u7a81\u7834\u6027\u63d0\u5347\uff1a\n\n```python\noptimizer = dspy.GEPA(\n    metric=your_metric,\n    reflection_lm=dspy.LM(\"gpt-4o\"),  # \u7528\u4e8e\u53cd\u601d\u7684LM\n    auto=\"light\"\n)\n```\n\nGEPA\u7ef4\u62a4Pareto\u524d\u6cbf\u7684\u4e92\u8865\u7b56\u7565\u6c60\uff0c\u5229\u7528\u6587\u672c\u53cd\u9988\u5feb\u901f\u6539\u8fdb\uff0c\u5b9e\u9a8c\u8868\u660e**\u6bd4GRPO\u9ad810-20%**\uff0c\u4e14\u4ec5\u9700**1/35\u7684rollouts**\u3002\n\n**\u4f18\u5316\u5668\u9009\u578b\u51b3\u7b56\u77e9\u9635**\uff1a\n\n| \u573a\u666f | \u63a8\u8350\u4f18\u5316\u5668 | \u6570\u636e\u9700\u6c42 | \u6210\u672c\u4f30\u7b97 |\n|------|----------|---------|---------|\n| \u5feb\u901f\u539f\u578b\uff08<20\u6837\u672c\uff09 | BootstrapFewShot | ~10\u4f8b | $0.10-0.50 |\n| \u4e2d\u7b49\u89c4\u6a21\uff0850-100\u6837\u672c\uff09 | MIPROv2 (light) | ~50\u4f8b | ~$1.50 |\n| \u751f\u4ea7\u4f18\u5316\uff08200+\u6837\u672c\uff09 | MIPROv2 (heavy) | 200+\u4f8b | $5-20 |\n| \u9700\u8981\u5feb\u901f\u8fed\u4ee3 | GEPA | 20-50\u4f8b | $1-3 |\n| \u6a21\u578b\u84b8\u998f | BootstrapFinetune | 500+\u4f8b | \u6309Provider |\n\n### DSPy + LlamaIndex/Haystack\u96c6\u6210\u6a21\u5f0f\n\n**LlamaIndex\u96c6\u6210**\u901a\u8fc7`optimize_prompts()`\u51fd\u6570\u5b9e\u73b0Query Pipeline\u4f18\u5316\uff1a\n\n```python\nfrom llama_index.core.evaluation import BatchEvalRunner\n\n# DSPy\u6a21\u5757\u5305\u88c5LlamaIndex\u68c0\u7d22\u5668\nclass RAGWithLlamaIndex(dspy.Module):\n    def __init__(self, llama_index):\n        super().__init__()\n        self.index = llama_index\n        self.generate = dspy.ChainOfThought(GenerateAnswer)\n    \n    def forward(self, question):\n        # \u4f7f\u7528LlamaIndex\u8fdb\u884c\u68c0\u7d22\n        response = self.index.as_query_engine().query(question)\n        context = [node.text for node in response.source_nodes]\n        return self.generate(context=context, question=question)\n```\n\n**Haystack\u96c6\u6210**\u91c7\u7528\u6df7\u5408\u5ea6\u91cf\u5b9a\u4e49\u6a21\u5f0f\uff1a\n\n```python\nfrom haystack.components.evaluators import SASEvaluator\n\nsas_evaluator = SASEvaluator()\nsas_evaluator.warm_up()\n\ndef mixed_metric(example, pred, trace=None):\n    # \u8bed\u4e49\u76f8\u4f3c\u5ea6\uff08\u6b63\u786e\u6027\uff09\n    semantic_score = sas_evaluator.run(\n        ground_truth_answers=[example.answer], \n        predicted_answers=[pred.answer]\n    )[\"score\"]\n    \n    # \u7b80\u6d01\u6027\u60e9\u7f5a\n    n_words = len(pred.answer.split())\n    brevity_penalty = min(0.5, max(0, 0.025 * (n_words - 20)))\n    \n    return semantic_score - brevity_penalty\n```\n\n### \u5b9e\u8bc1\u4f18\u5316\u6548\u679c\u6c47\u603b\n\n| \u4efb\u52a1 | \u4f18\u5316\u524d | \u4f18\u5316\u540e | \u63d0\u5347\u5e45\u5ea6 | \u4f18\u5316\u5668 |\n|------|-------|-------|---------|-------|\n| Tech QA (StackExchange) | 53% | 61% | +15% | MIPROv2 |\n| PubMed QA (Haystack) | 48.8% | 69.0% | +41% | BootstrapFewShot |\n| HotPotQA ReAct Agent | 24% | 51% | +112% | MIPROv2 |\n| MATH Benchmark | 67% | 93% | +39% | GEPA |\n| Banking77\u5206\u7c7b | 66% | 87% | +32% | BootstrapFinetune |\n\n---\n\n## \u7b2c66\u7ae0\uff1aMCP\u534f\u8bae\u4e0e\u6846\u67b6\u7edf\u4e00\u63a5\u5165\n\n### MCP\u89c4\u8303\u6f14\u8fdb\u4e0e\u67b6\u6784\u6df1\u5ea6\u89e3\u6790\n\n**Model Context Protocol\uff08MCP\uff09** \u662fAnthropic\u4e8e2024\u5e7411\u6708\u53d1\u5e03\u7684\u5f00\u653e\u6807\u51c6\uff0c\u5728\u4ec5\u4e00\u5e74\u65f6\u95f4\u5185\u5b9e\u73b0\u4e86\u884c\u4e1a\u7edf\u4e00\uff1a\n\n| \u65f6\u95f4\u8282\u70b9 | \u91cc\u7a0b\u7891\u4e8b\u4ef6 |\n|---------|----------|\n| 2024\u5e7411\u6708 | Anthropic\u5f00\u6e90\u53d1\u5e03MCP |\n| 2025\u5e743\u6708 | OpenAI ChatGPT\u5168\u9762\u96c6\u6210 |\n| 2025\u5e744\u6708 | Google Gemini\u786e\u8ba4\u652f\u6301 |\n| 2025\u5e746\u6708 | \u89c4\u8303\u7248\u672c2025-06-18\u53d1\u5e03 |\n| 2025\u5e7412\u67089\u65e5 | **\u6350\u8d60\u7ed9Linux Foundation AAIF** |\n\n**\u4e09\u5927\u6838\u5fc3\u80fd\u529b\uff08Primitives\uff09**\uff1a\n\n1. **Tools\uff08\u5de5\u5177\uff09**\uff1a\u5141\u8bb8LLM\u6267\u884c\u64cd\u4f5c\uff0c\u7c7b\u4f3cPOST\u7aef\u70b9\n2. **Resources\uff08\u8d44\u6e90\uff09**\uff1a\u53ea\u8bfb\u6570\u636e\u6e90\uff0c\u7c7b\u4f3cGET\u7aef\u70b9\uff0c\u652f\u6301URI\u5bfb\u5740\uff08`file://`, `db://`\uff09\n3. **Prompts\uff08\u63d0\u793a\u6a21\u677f\uff09**\uff1a\u53ef\u590d\u7528\u7684\u4ea4\u4e92\u6a21\u677f\uff0c\u652f\u6301\u52a8\u6001\u53c2\u6570\n\n**\u4f20\u8f93\u534f\u8bae\u5bf9\u6bd4**\uff1a\n\n| \u534f\u8bae | \u9002\u7528\u573a\u666f | \u7279\u70b9 |\n|------|---------|------|\n| **stdio** | \u672c\u5730\u96c6\u6210 | \u6362\u884c\u5206\u9694JSON\uff0cServer\u901a\u8fc7stdin/stdout\u901a\u4fe1 |\n| **HTTP+SSE** | \u65e7\u7248\u8fdc\u7a0b | POST\u8bf7\u6c42+SSE\u54cd\u5e94\u6d41\uff08\u5df2\u5e9f\u5f03\uff09 |\n| **Streamable HTTP** | **\u751f\u4ea7\u63a8\u8350** | \u5355\u7aef\u70b9\u901a\u4fe1\uff0c\u652f\u6301\u6279\u91cf\u8bf7\u6c42\u548c\u4f1a\u8bdd\u7ba1\u7406 |\n\n**JSON-RPC 2.0\u6d88\u606f\u683c\u5f0f**\uff1a\n\n```json\n// \u8bf7\u6c42\u793a\u4f8b\n{\n  \"jsonrpc\": \"2.0\",\n  \"id\": 1,\n  \"method\": \"tools/call\",\n  \"params\": {\n    \"name\": \"search_documents\",\n    \"arguments\": {\"query\": \"quarterly revenue\"}\n  }\n}\n\n// \u54cd\u5e94\u793a\u4f8b\n{\n  \"jsonrpc\": \"2.0\",\n  \"id\": 1,\n  \"result\": {\n    \"content\": [{\"type\": \"text\", \"text\": \"Q3 revenue was $2.5B...\"}]\n  }\n}\n```\n\n### MCP SDK\u5f00\u53d1\u5b9e\u8df5\n\n**Python SDK\uff08FastMCP\u5185\u7f6e\u4e8e\u5b98\u65b9mcp\u5305\uff09**\uff1a\n\n```python\nfrom mcp.server.fastmcp import FastMCP\n\nmcp = FastMCP(name=\"RAG Server\")\n\n# \u5de5\u5177\u6ce8\u518c\n@mcp.tool()\ndef search_documents(query: str, top_k: int = 5) -> list[dict]:\n    \"\"\"\u641c\u7d22\u6587\u6863\u5e93\u5e76\u8fd4\u56de\u76f8\u5173\u6bb5\u843d\"\"\"\n    return vector_store.search(query, top_k=top_k)\n\n# \u8d44\u6e90\u66b4\u9732\n@mcp.resource(\"docs://{doc_id}\")\ndef get_document(doc_id: str) -> dict:\n    \"\"\"\u83b7\u53d6\u6307\u5b9a\u6587\u6863\u7684\u5b8c\u6574\u5185\u5bb9\"\"\"\n    return document_store.get(doc_id)\n\n# \u63d0\u793a\u6a21\u677f\n@mcp.prompt()\ndef analysis_prompt(topic: str) -> str:\n    return f\"\u8bf7\u5bf9\u4ee5\u4e0b\u4e3b\u9898\u8fdb\u884c\u6df1\u5ea6\u5206\u6790\uff1a{topic}\"\n\nif __name__ == \"__main__\":\n    mcp.run()\n```\n\n**TypeScript SDK**\uff1a\n\n```typescript\nimport { McpServer } from \"@modelcontextprotocol/sdk/server/mcp.js\";\nimport { z } from \"zod\";\n\nconst server = new McpServer({ name: \"rag-server\", version: \"1.0.0\" });\n\nserver.registerTool(\n  \"search_documents\",\n  {\n    description: \"\u641c\u7d22\u6587\u6863\u5e93\",\n    inputSchema: {\n      query: z.string().describe(\"\u641c\u7d22\u67e5\u8be2\"),\n      top_k: z.number().default(5),\n    },\n  },\n  async ({ query, top_k }) => ({\n    content: [{ type: \"text\", text: JSON.stringify(results) }],\n  })\n);\n```\n\n**OAuth 2.1\u8ba4\u8bc1\u914d\u7f6e**\uff082025\u5e743\u6708\u89c4\u8303\u66f4\u65b0\uff09\uff1a\n\n```python\nfrom mcp.client.auth import OAuthClientProvider, OAuthClientMetadata\n\noauth_provider = OAuthClientProvider(\n    server_url=\"https://mcp-server.example.com\",\n    client_metadata=OAuthClientMetadata(\n        client_name=\"Enterprise RAG Client\",\n        redirect_uris=[\"http://localhost:8080/callback\"]\n    ),\n    storage=TokenStorage()  # \u5b9e\u73b0token\u6301\u4e45\u5316\n)\n```\n\n### \u56db\u5927RAG\u6846\u67b6MCP\u96c6\u6210\u5bf9\u6bd4\n\n**LlamaIndex MCP ToolSpec**\uff08`llama-index-tools-mcp` v0.4.3\uff09\uff1a\n\n```python\nfrom llama_index.tools.mcp import BasicMCPClient, McpToolSpec\nfrom llama_index.core.agent.workflow import FunctionAgent\n\n# \u8fde\u63a5MCP\u670d\u52a1\u5668\nmcp_client = BasicMCPClient(\"http://localhost:8000/sse\")\nmcp_spec = McpToolSpec(\n    client=mcp_client,\n    allowed_tools=[\"search_documents\", \"get_document\"],\n    include_resources=True\n)\n\n# \u83b7\u53d6\u5de5\u5177\u5e76\u521b\u5efaAgent\ntools = await mcp_spec.to_tool_list_async()\nagent = FunctionAgent(llm=OpenAI(model=\"gpt-4o\"), tools=tools)\n```\n\n**LangChain MCP Adapters**\uff08`langchain-mcp-adapters` v0.1.13\uff09\uff1a\n\n```python\nfrom langchain_mcp_adapters.client import MultiServerMCPClient\nfrom langgraph.prebuilt import create_react_agent\n\nclient = MultiServerMCPClient({\n    \"rag_server\": {\n        \"url\": \"http://localhost:8000/mcp\",\n        \"transport\": \"streamable_http\",\n        \"headers\": {\"Authorization\": f\"Bearer {token}\"}\n    },\n    \"local_tools\": {\n        \"command\": \"python\",\n        \"args\": [\"local_server.py\"],\n        \"transport\": \"stdio\"\n    }\n})\n\ntools = await client.get_tools()\nagent = create_react_agent(\"openai:gpt-4.1\", tools)\n```\n\n**Semantic Kernel MCP\u63d2\u4ef6**\uff1a\n\n```python\nfrom semantic_kernel import Kernel\nfrom semantic_kernel.connectors.mcp import MCPStdioPlugin, MCPSsePlugin\n\nasync with MCPSsePlugin(\n    name=\"RAGTools\",\n    description=\"RAG Document Tools\",\n    url=\"http://localhost:8080\",\n) as plugin:\n    kernel = Kernel()\n    kernel.add_plugin(plugin)\n```\n\n**Haystack MCPToolset**\uff1a\n\n```python\nfrom haystack_integrations.tools.mcp import MCPToolset, StreamableHttpServerInfo\n\ntoolset = MCPToolset(\n    server_info=StreamableHttpServerInfo(url=\"http://localhost:8000/mcp\"),\n    tool_names=[\"search_documents\"],\n    connection_timeout=10.0,\n    invocation_timeout=60.0\n)\n\nagent = Agent(chat_generator=OpenAIChatGenerator(), tools=toolset)\n```\n\n### MCP\u4e0e\u73b0\u6709\u673a\u5236\u5bf9\u6bd4\u5206\u6790\n\n| \u7279\u6027 | MCP | OpenAI Function Calling | LangChain Tools |\n|------|-----|------------------------|-----------------|\n| **\u53ef\u79fb\u690d\u6027** | \u2705 \u6a21\u578b\u65e0\u5173 | \u274c OpenAI\u4e13\u5c5e | \u26a0\ufe0f \u6846\u67b6\u7ed1\u5b9a |\n| **\u52a8\u6001\u53d1\u73b0** | \u2705 \u8fd0\u884c\u65f6\u53d1\u73b0 | \u274c \u9759\u6001\u5b9a\u4e49 | \u274c \u9759\u6001\u5bfc\u5165 |\n| **\u8d44\u6e90+\u63d0\u793a** | \u2705 \u539f\u751f\u652f\u6301 | \u274c \u4ec5\u5de5\u5177 | \u274c \u4ec5\u5de5\u5177 |\n| **\u51ed\u8bc1\u9694\u79bb** | \u2705 \u670d\u52a1\u7aef\u7ba1\u7406 | \u274c \u5e94\u7528\u7ba1\u7406 | \u274c \u5e94\u7528\u7ba1\u7406 |\n| **\u8de8\u5e94\u7528\u590d\u7528** | \u2705 \u4e00\u6b21\u6784\u5efa\u5168\u5e73\u53f0\u7528 | \u274c \u6309\u5e94\u7528\u5b9e\u73b0 | \u274c \u6309\u6846\u67b6\u5b9e\u73b0 |\n| **\u751f\u6001\u89c4\u6a21** | 10,000+ Server | \u6210\u719f | \u5e7f\u6cdb |\n\n### MCP\u751f\u6001\u7cfb\u7edf\u73b0\u72b6\u4e0e\u4f01\u4e1a\u90e8\u7f72\n\n**\u91c7\u7528\u7edf\u8ba1\uff08\u622a\u81f32025\u5e7412\u6708\uff09**\uff1a\n- **\u6d3b\u8dc3MCP Server**\uff1a10,000+\n- **\u6708SDK\u4e0b\u8f7d\u91cf**\uff1a9,700\u4e07+\n- **MCP Client**\uff1a300+\n\n**\u4e3b\u8981\u91c7\u7528\u8005**\uff1a\n- **AI\u5e73\u53f0**\uff1aClaude Desktop\u3001OpenAI ChatGPT\u3001Google Gemini\u3001Microsoft Copilot\n- **\u5f00\u53d1\u5de5\u5177**\uff1aCursor\u3001VS Code\u3001Windsurf\n- **\u4e91\u670d\u52a1**\uff1aAWS Bedrock\u3001Google Cloud\u3001Azure\u3001Cloudflare\n\n**Agentic AI Foundation\uff08AAIF\uff09\u521b\u59cb\u6210\u5458**\uff1a\n- **Platinum**\uff1aAWS\u3001Anthropic\u3001Block\u3001Bloomberg\u3001Cloudflare\u3001Google\u3001Microsoft\u3001OpenAI\n- **\u521b\u59cb\u9879\u76ee**\uff1aMCP\uff08Anthropic\uff09\u3001Goose\uff08Block\uff09\u3001AGENTS.md\uff08OpenAI\uff09\n\n---\n\n## \u6846\u67b6\u9009\u578b\u4e0e\u96c6\u6210\u51b3\u7b56\u77e9\u9635\n\n| \u9700\u6c42\u573a\u666f | \u63a8\u8350\u65b9\u6848 | \u5173\u952e\u8003\u91cf |\n|---------|---------|---------|\n| **\u7eafRAG\u68c0\u7d22** | LlamaIndex\u5355\u6846\u67b6 | \u6700\u4f18\u68c0\u7d22\u6027\u80fd\uff0c160+\u6570\u636e\u8fde\u63a5\u5668 |\n| **\u590d\u6742Agent\u7f16\u6392** | LangChain/LangGraph | \u72b6\u6001\u56fe\u3001\u8bb0\u5fc6\u3001\u591a\u6b65\u63a8\u7406 |\n| **\u4f01\u4e1a\u7ea7RAG\u7cfb\u7edf** | LlamaIndex + LangChain\u7ec4\u5408 | \u68c0\u7d22+\u7f16\u6392\u5206\u5c42\uff0c50%\u6027\u80fd\u63d0\u5347 |\n| **\u63d0\u793a\u81ea\u52a8\u4f18\u5316** | DSPy + \u4efb\u610fRAG\u6846\u67b6 | 15-40%\u8d28\u91cf\u63d0\u5347\uff0c$1-5\u6210\u672c |\n| **\u8de8\u5e94\u7528\u5de5\u5177\u6807\u51c6\u5316** | MCP\u534f\u8bae | \u4e00\u6b21\u6784\u5efa\uff0c\u5168\u5e73\u53f0\u590d\u7528 |\n| **\u591a\u6a21\u578b\u652f\u6301** | MCP + \u6846\u67b6\u9002\u914d\u5668 | \u6a21\u578b\u65e0\u5173\uff0c\u52a8\u6001\u5de5\u5177\u53d1\u73b0 |\n\n---\n\n## 2025\u5e74\u4e92\u64cd\u4f5c\u6027\u8d8b\u52bf\n\n1. **MCP\u6210\u4e3a\u4e8b\u5b9e\u6807\u51c6**\uff1aLinux Foundation\u6cbb\u7406\u786e\u4fdd\u957f\u671f\u7a33\u5b9a\uff0c\u7c7b\u4f3cHTTP\u4e4b\u4e8eWeb\n2. **\u6846\u67b6\u878d\u5408\u52a0\u901f**\uff1aLlamaIndex/LangChain\u8fb9\u754c\u6a21\u7cca\uff0cDSPy\u4f18\u5316\u6210\u4e3a\u6807\u914d\n3. **\u58f0\u660e\u5f0f>\u547d\u4ee4\u5f0f**\uff1aDSPy\u98ce\u683c\u7684\u7b7e\u540d\u5b9a\u4e49\u66ff\u4ee3\u624b\u5de5Prompt\u5de5\u7a0b\n4. **\u5b89\u5168\u524d\u7f6e**\uff1aOAuth 2.1\u3001\u5de5\u5177\u6743\u9650\u63a7\u5236\u6210\u4e3aMCP\u90e8\u7f72\u5fc5\u9009\u9879\n5. **Agentic\u751f\u6001\u7edf\u4e00**\uff1aAAIF\u4e0b\u7684MCP\u3001Goose\u3001AGENTS.md\u6784\u5efaAgent\u57fa\u7840\u8bbe\u65bd\n\n---\n\n## \u5173\u952e\u6e90\u4ee3\u7801\u8def\u5f84\u901f\u67e5\n\n| \u7ec4\u4ef6 | \u8def\u5f84 |\n|------|------|\n| LlamaIndexRetriever | `langchain_community/retrievers/llama_index.py` |\n| to_langchain_tool() | `llama-index-core/llama_index/core/tools/types.py` |\n| QueryEngineTool | `llama-index-core/llama_index/core/tools/query_engine.py` |\n| DSPy MIPROv2 | `dspy/teleprompt/mipro_optimizer_v2.py` |\n| DSPy GEPA | `dspy/teleprompt/gepa.py` |\n| LlamaIndex MCP | `llama-index-tools-mcp/llama_index/tools/mcp/` |\n| LangChain MCP | `langchain-mcp-adapters/langchain_mcp_adapters/` |\n| MCP Python SDK | `mcp/server/fastmcp.py` |\n| MCP TypeScript SDK | `@modelcontextprotocol/sdk/server/mcp.js` |\n\n---\n\n## \u7ed3\u8bba\n\nRAG\u6846\u67b6\u4e92\u64cd\u4f5c\u5df2\u4ece\"\u6280\u672f\u9009\u578b\"\u6f14\u53d8\u4e3a\"\u751f\u6001\u7b56\u7565\"\u3002**LlamaIndex + LangChain\u53cc\u6846\u67b6\u7ec4\u5408**\u89e3\u51b3\u4e86\u68c0\u7d22\u4e0e\u7f16\u6392\u7684\u804c\u8d23\u5206\u79bb\uff0c**DSPy\u7a0b\u5e8f\u5316\u4f18\u5316**\u5c06Prompt\u5de5\u7a0b\u4ece\u624b\u5de5\u827a\u672f\u8f6c\u53d8\u4e3a\u53ef\u91cf\u5316\u5de5\u7a0b\uff0c\u800c**MCP\u534f\u8bae**\u5219\u4e3aAI\u5de5\u5177\u8c03\u7528\u5efa\u7acb\u4e86\u7c7b\u4f3cHTTP\u7684\u884c\u4e1a\u6807\u51c6\u3002\n\n\u5bf9\u4e8e2025\u5e74\u7684\u4f01\u4e1aRAG\u7cfb\u7edf\u5efa\u8bbe\uff0c\u63a8\u8350\u91c7\u7528**\u5206\u5c42\u67b6\u6784**\uff1a\u6570\u636e\u5c42\u4f7f\u7528LlamaIndex\uff0c\u7f16\u6392\u5c42\u4f7f\u7528LangChain\uff0c\u4f18\u5316\u5c42\u5f15\u5165DSPy\uff0c\u63a5\u53e3\u5c42\u901a\u8fc7MCP\u5b9e\u73b0\u6807\u51c6\u5316\u3002\u8fd9\u4e00\u67b6\u6784\u7ec4\u5408\u53ef\u5b9e\u73b0**50%+\u6027\u80fd\u63d0\u5347**\u3001**15-40%\u8d28\u91cf\u6539\u8fdb**\uff0c\u540c\u65f6\u786e\u4fdd\u8de8\u5e73\u53f0\u53ef\u79fb\u690d\u6027\u548c\u957f\u671f\u6280\u672f\u6f14\u8fdb\u7684\u7075\u6d3b\u6027\u3002\n",
+      "description": "\u4fdd\u5b58Vol4-04 \u6846\u67b6\u4e92\u64cd\u4f5c\u4e0eMCP\u96c6\u6210\u6df1\u5ea6\u7814\u7a76\u62a5\u544a"
+    },
+    "message": "\u4fdd\u5b58Vol4-04 \u6846\u67b6\u4e92\u64cd\u4f5c\u4e0eMCP\u96c6\u6210\u6df1\u5ea6\u7814\u7a76\u62a5\u544a",
+    "integration_name": null,
+    "integration_icon_url": null,
+    "context": null,
+    "display_content": {
+      "type": "json_block",
+      "json_block": "{\"language\": \"markdown\", \"code\": \"# RAG\\u6846\\u67b6\\u4e92\\u64cd\\u4f5c\\u4e0eMCP\\u534f\\u8bae\\u7edf\\u4e00\\u63a5\\u5165\\u6df1\\u5ea6\\u5256\\u6790\\n\\n**Vol4-04 | \\u7b2c64-66\\u7ae0 | \\u6846\\u67b6\\u4e92\\u64cd\\u4f5c\\u4e0eMCP\\u534f\\u8bae\\u96c6\\u6210**\\n\\n**\\u7814\\u7a76\\u6279\\u6b21**\\uff1aVol4-04  \\n**\\u8986\\u76d6\\u7ae0\\u8282**\\uff1aCh64-66  \\n**\\u7814\\u7a76\\u65e5\\u671f**\\uff1a2026-01-11  \\n**\\u6838\\u5fc3\\u4e3b\\u9898**\\uff1a\\u6846\\u67b6\\u4e92\\u64cd\\u4f5c\\u4e0eMCP\\u534f\\u8bae\\u7edf\\u4e00\\u63a5\\u5165\\n\\n---\\n\\n**2025\\u5e74AI Agent\\u751f\\u6001\\u6b63\\u5728\\u7ecf\\u5386\\u6807\\u51c6\\u5316\\u9769\\u547d\\u3002** LlamaIndex\\u4e0eLangChain\\u7684\\u6df1\\u5ea6\\u96c6\\u6210\\u3001DSPy\\u7684\\u7a0b\\u5e8f\\u5316\\u63d0\\u793a\\u4f18\\u5316\\u3001\\u4ee5\\u53caMCP\\u534f\\u8bae\\u7684\\u884c\\u4e1a\\u7edf\\u4e00\\uff0c\\u5171\\u540c\\u6784\\u5efa\\u4e86\\u73b0\\u4ee3RAG\\u7cfb\\u7edf\\u7684\\u4e09\\u5927\\u6280\\u672f\\u652f\\u67f1\\u3002\\u672c\\u62a5\\u544a\\u57fa\\u4e8e\\u6e90\\u4ee3\\u7801\\u7ea7\\u5206\\u6790\\uff0c\\u63ed\\u793a\\u8fd9\\u4e9b\\u6280\\u672f\\u7684\\u6838\\u5fc3\\u5b9e\\u73b0\\u673a\\u5236\\u4e0e\\u6700\\u4f73\\u5b9e\\u8df5\\u3002\\n\\n---\\n\\n## \\u7b2c64\\u7ae0\\uff1aLlamaIndex + LangChain\\u53cc\\u6846\\u67b6\\u96c6\\u6210\\n\\n### \\u9002\\u914d\\u5668\\u6e90\\u4ee3\\u7801\\u67b6\\u6784\\u89e3\\u6790\\n\\n\\u53cc\\u6846\\u67b6\\u96c6\\u6210\\u7684\\u6838\\u5fc3\\u5728\\u4e8e**LlamaIndexRetriever\\u9002\\u914d\\u5668**\\uff0c\\u4f4d\\u4e8e`langchain_community/retrievers/llama_index.py`\\u3002\\u8be5\\u9002\\u914d\\u5668\\u901a\\u8fc7\\u7ee7\\u627fLangChain\\u7684`BaseRetriever`\\u57fa\\u7c7b\\uff0c\\u5c06LlamaIndex\\u7684\\u68c0\\u7d22\\u80fd\\u529b\\u65e0\\u7f1d\\u6865\\u63a5\\u5230LangChain\\u751f\\u6001\\uff1a\\n\\n```python\\n# \\u6587\\u4ef6\\u8def\\u5f84: langchain_community/retrievers/llama_index.py\\nclass LlamaIndexRetriever(BaseRetriever):\\n    \\\"\\\"\\\"LlamaIndex\\u68c0\\u7d22\\u5668\\u9002\\u914d\\u5668\\uff0c\\u5b9e\\u73b0Document\\u5bf9\\u8c61\\u81ea\\u52a8\\u8f6c\\u6362\\\"\\\"\\\"\\n    \\n    index: Any  # LlamaIndex\\u7d22\\u5f15\\u5b9e\\u4f8b\\n    query_kwargs: Dict = Field(default_factory=dict)\\n\\n    def _get_relevant_documents(\\n        self, query: str, *, run_manager: CallbackManagerForRetrieverRun\\n    ) -> List[Document]:\\n        index = cast(BaseGPTIndex, self.index)\\n        response = index.query(query, **self.query_kwargs)\\n        \\n        # \\u5173\\u952e\\u8f6c\\u6362\\u903b\\u8f91\\uff1aLlamaIndex Node \\u2192 LangChain Document\\n        docs = []\\n        for source_node in response.source_nodes:\\n            metadata = source_node.metadata or {}\\n            docs.append(\\n                Document(page_content=source_node.get_content(), metadata=metadata)\\n            )\\n        return docs\\n```\\n\\n**LlamaIndexGraphRetriever**\\u5219\\u4e13\\u95e8\\u5904\\u7406\\u56fe\\u7ed3\\u6784\\u6570\\u636e\\uff0c\\u901a\\u8fc7`ComposableGraph`\\u652f\\u6301\\u591a\\u7d22\\u5f15\\u7ec4\\u5408\\u67e5\\u8be2\\uff0c\\u5173\\u952e\\u5dee\\u5f02\\u5728\\u4e8e\\u6ce8\\u5165`response_mode=\\\"no_text\\\"`\\u914d\\u7f6e\\u4ee5\\u4f18\\u5316\\u68c0\\u7d22\\u6027\\u80fd\\u3002\\n\\n### to_langchain_tool()\\u8f6c\\u6362\\u63a5\\u53e3\\u5b9e\\u73b0\\n\\nLlamaIndex\\u4fa7\\u7684\\u5de5\\u5177\\u8f6c\\u6362\\u63a5\\u53e3\\u4f4d\\u4e8e`llama-index-core/llama_index/core/tools/types.py`\\uff0c\\u63d0\\u4f9b\\u53cc\\u5411\\u6865\\u63a5\\u80fd\\u529b\\uff1a\\n\\n```python\\n# \\u6587\\u4ef6\\u8def\\u5f84: llama-index-core/llama_index/core/tools/types.py\\nclass BaseTool:\\n    def to_langchain_tool(self, **langchain_tool_kwargs: Any) -> Tool:\\n        \\\"\\\"\\\"\\u8f6c\\u6362\\u4e3aLangChain\\u6807\\u51c6Tool\\u683c\\u5f0f\\\"\\\"\\\"\\n        return Tool(\\n            name=self._metadata.name,\\n            description=self._metadata.description,\\n            func=self.__call__,\\n            **langchain_tool_kwargs,\\n        )\\n    \\n    def to_langchain_structured_tool(self, **kwargs: Any) -> StructuredTool:\\n        \\\"\\\"\\\"\\u8f6c\\u6362\\u4e3aStructuredTool\\uff0c\\u4fdd\\u7559\\u5b8c\\u6574\\u53c2\\u6570Schema\\\"\\\"\\\"\\n        return StructuredTool(\\n            name=self._metadata.name,\\n            description=self._metadata.description,\\n            func=self.__call__,\\n            args_schema=self._metadata.fn_schema,  # Pydantic\\u6a21\\u578b\\n            **kwargs,\\n        )\\n```\\n\\n**QueryEngineTool**\\uff08`llama-index-core/llama_index/core/tools/query_engine.py`\\uff09\\u662f\\u6700\\u5e38\\u7528\\u7684\\u5305\\u88c5\\u5668\\uff0c\\u5c06\\u4efb\\u610f`BaseQueryEngine`\\u5c01\\u88c5\\u4e3aAgent\\u53ef\\u8c03\\u7528\\u7684\\u5de5\\u5177\\u3002\\n\\n### \\u53cc\\u6846\\u67b6\\u534f\\u540c\\u7684\\u6700\\u4f73\\u5b9e\\u8df5\\u6a21\\u5f0f\\n\\n\\u63a8\\u8350\\u67b6\\u6784\\u91c7\\u7528**LlamaIndex\\u8d1f\\u8d23\\u6570\\u636e\\u5c42 + LangChain\\u8d1f\\u8d23\\u7f16\\u6392\\u5c42**\\u7684\\u5206\\u5de5\\uff1a\\n\\n```python\\n# \\u5b8c\\u6574Agentic RAG\\u7cfb\\u7edf\\u793a\\u4f8b\\nfrom llama_index.core import VectorStoreIndex, SimpleDirectoryReader\\nfrom llama_index.core.tools import QueryEngineTool, ToolMetadata\\nfrom langchain.agents import create_tool_calling_agent, AgentExecutor\\nfrom langchain_openai import ChatOpenAI\\n\\n# Step 1: LlamaIndex\\u6784\\u5efa\\u7d22\\u5f15\\uff08\\u6570\\u636e\\u5c42\\uff09\\ndocuments = SimpleDirectoryReader(\\\"./financial_reports\\\").load_data()\\nindex = VectorStoreIndex.from_documents(documents)\\nquery_engine = index.as_query_engine(similarity_top_k=3)\\n\\n# Step 2: \\u521b\\u5efaQueryEngineTool\\nquery_tools = [\\n    QueryEngineTool(\\n        query_engine=query_engine,\\n        metadata=ToolMetadata(\\n            name=\\\"financial_search\\\",\\n            description=\\\"\\u641c\\u7d22\\u516c\\u53f8\\u8d22\\u52a1\\u62a5\\u544a\\u548c\\u5e74\\u62a5\\u6570\\u636e\\\"\\n        ),\\n    ),\\n]\\n\\n# Step 3: \\u8f6c\\u6362\\u4e3aLangChain\\u5de5\\u5177\\nlangchain_tools = [t.to_langchain_tool() for t in query_tools]\\n\\n# Step 4: LangChain Agent\\u7f16\\u6392\\uff08\\u7f16\\u6392\\u5c42\\uff09\\nllm = ChatOpenAI(model=\\\"gpt-4o\\\", temperature=0)\\nagent = create_tool_calling_agent(llm, langchain_tools, prompt)\\nexecutor = AgentExecutor(agent=agent, tools=langchain_tools, verbose=True)\\n```\\n\\n### \\u6027\\u80fd\\u57fa\\u51c6\\u4e0e\\u6846\\u67b6\\u9009\\u578b\\n\\n**2025\\u5e74RAG\\u6846\\u67b6\\u6027\\u80fd\\u5bf9\\u6bd4**\\uff08\\u57fa\\u4e8e100\\u67e5\\u8be2\\u00d7100\\u6b21\\u8fd0\\u884c\\u7684\\u57fa\\u51c6\\u6d4b\\u8bd5\\uff09\\uff1a\\n\\n| \\u6846\\u67b6 | \\u6846\\u67b6\\u5f00\\u9500 | \\u5e73\\u5747Token\\u6d88\\u8017 | \\u68c0\\u7d22\\u901f\\u5ea6 |\\n|------|---------|--------------|---------|\\n| **DSPy** | ~3.53ms | ~2,030 | \\u6700\\u4f4e\\u5f00\\u9500 |\\n| **Haystack** | ~5.9ms | ~1,570 | Token\\u6700\\u4f18 |\\n| **LlamaIndex** | ~6ms | ~1,600 | \\u68c0\\u7d22\\u6700\\u4f18 |\\n| **LangChain** | ~10ms | ~2,400 | \\u751f\\u6001\\u6700\\u5168 |\\n| **LangGraph** | ~14ms | ~2,030 | \\u72b6\\u6001\\u56fe\\u5f3a |\\n\\n\\u5b9e\\u9645\\u6d4b\\u8bd5\\u8868\\u660e\\uff0c\\u53cc\\u6846\\u67b6\\u7ec4\\u5408\\u53ef\\u5b9e\\u73b0**50%\\u54cd\\u5e94\\u65f6\\u95f4\\u63d0\\u5347**\\u2014\\u2014LlamaIndex\\u7684\\u4f18\\u5316\\u7d22\\u5f15\\u7b56\\u7565\\u5e26\\u6765**2-5\\u500d\\u67e5\\u8be2\\u52a0\\u901f**\\uff0c\\u800cLangChain\\u7684Agent\\u7f16\\u6392\\u80fd\\u529b\\u63d0\\u4f9b\\u590d\\u6742\\u63a8\\u7406\\u652f\\u6301\\u3002\\n\\n---\\n\\n## \\u7b2c65\\u7ae0\\uff1aDSPy\\u4e0eRAG\\u6846\\u67b6\\u8054\\u5408\\u4f18\\u5316\\n\\n### DSPy\\u6838\\u5fc3\\u67b6\\u6784\\u4e09\\u5c42\\u62bd\\u8c61\\n\\nDSPy\\u901a\\u8fc7**\\u58f0\\u660e\\u5f0f\\u7f16\\u7a0b**\\u53d6\\u4ee3\\u624b\\u5de5Prompt\\u5de5\\u7a0b\\uff0c\\u5176\\u67b6\\u6784\\u5305\\u542b\\u4e09\\u4e2a\\u6838\\u5fc3\\u62bd\\u8c61\\uff1a\\n\\n**Signatures\\uff08\\u7b7e\\u540d\\uff09** \\u5b9a\\u4e49\\u8f93\\u5165\\u8f93\\u51fa\\u8bed\\u4e49\\uff0c\\u81ea\\u52a8\\u751f\\u6210\\u63d0\\u793a\\u6a21\\u677f\\uff1a\\n\\n```python\\n# \\u5185\\u8054\\u7b7e\\u540d\\n\\\"question -> answer\\\"\\n\\n# \\u7c7b\\u7b7e\\u540d\\uff08\\u63a8\\u8350\\u751f\\u4ea7\\u4f7f\\u7528\\uff09\\nclass GenerateAnswer(dspy.Signature):\\n    \\\"\\\"\\\"\\u57fa\\u4e8e\\u4e0a\\u4e0b\\u6587\\u56de\\u7b54\\u95ee\\u9898\\uff0c\\u7b54\\u6848\\u5e94\\u7b80\\u6d01\\u51c6\\u786e\\u3002\\\"\\\"\\\"\\n    context = dspy.InputField(desc=\\\"\\u53ef\\u80fd\\u5305\\u542b\\u76f8\\u5173\\u4e8b\\u5b9e\\\")\\n    question = dspy.InputField()\\n    answer = dspy.OutputField(desc=\\\"\\u7b80\\u77ed\\u7cbe\\u786e\\u7684\\u7b54\\u6848\\\")\\n```\\n\\n**Modules\\uff08\\u6a21\\u5757\\uff09** \\u5c01\\u88c5\\u4e0d\\u540c\\u63d0\\u793a\\u6280\\u672f\\uff1a\\n\\n| \\u6a21\\u5757 | \\u529f\\u80fd | \\u9002\\u7528\\u573a\\u666f |\\n|------|------|---------|\\n| `dspy.Predict` | \\u57fa\\u7840\\u9884\\u6d4b\\u5668 | \\u7b80\\u5355\\u4efb\\u52a1 |\\n| `dspy.ChainOfThought` | \\u94fe\\u5f0f\\u601d\\u8003\\u63a8\\u7406 | \\u590d\\u6742\\u63a8\\u7406 |\\n| `dspy.ReAct` | \\u5de5\\u5177\\u4f7f\\u7528Agent | \\u4ea4\\u4e92\\u4efb\\u52a1 |\\n| `dspy.ProgramOfThought` | \\u751f\\u6210\\u4ee3\\u7801\\u6267\\u884c | \\u8ba1\\u7b97\\u4efb\\u52a1 |\\n| `dspy.MultiChainComparison` | \\u591a\\u8def\\u5f84\\u6bd4\\u8f83 | \\u9ad8\\u53ef\\u9760\\u6027 |\\n\\n**RAG\\u6a21\\u5757\\u6807\\u51c6\\u5b9e\\u73b0**\\uff1a\\n\\n```python\\nclass RAG(dspy.Module):\\n    def __init__(self, num_passages=3):\\n        super().__init__()\\n        self.retrieve = dspy.Retrieve(k=num_passages)\\n        self.respond = dspy.ChainOfThought('context, question -> response')\\n\\n    def forward(self, question):\\n        context = self.retrieve(question).passages\\n        return self.respond(context=context, question=question)\\n```\\n\\n### \\u4f18\\u5316\\u5668\\u6df1\\u5ea6\\u5bf9\\u6bd4\\u4e0e\\u9009\\u578b\\u6307\\u5357\\n\\n**MIPROv2\\uff08Multi-Stage Instruction Prompt Optimization\\uff09** \\u662f\\u5f53\\u524d\\u6700\\u5f3a\\u901a\\u7528\\u4f18\\u5316\\u5668\\uff0c\\u91c7\\u7528\\u4e09\\u9636\\u6bb5\\u6d41\\u7a0b\\uff1a\\n1. **Bootstrapping\\u9636\\u6bb5**\\uff1a\\u6536\\u96c6\\u9ad8\\u5206\\u6267\\u884c\\u8f68\\u8ff9\\n2. **Grounded Proposal\\u9636\\u6bb5**\\uff1a\\u751f\\u6210\\u6570\\u636e\\u611f\\u77e5\\u7684\\u6307\\u4ee4\\u5019\\u9009\\n3. **Bayesian Search\\u9636\\u6bb5**\\uff1a\\u4f18\\u5316\\u6307\\u4ee4+\\u793a\\u4f8b\\u7ec4\\u5408\\n\\n```python\\nfrom dspy.teleprompt import MIPROv2\\n\\nteleprompter = MIPROv2(\\n    metric=your_metric,\\n    auto=\\\"medium\\\"  # light: ~$1.5/20min, medium: ~$3/40min, heavy: ~$10/2h\\n)\\noptimized = teleprompter.compile(RAG(), trainset=trainset)\\n```\\n\\n**GEPA\\uff08Genetic-Pareto\\uff09** \\u662f2025\\u5e747\\u6708\\u53d1\\u5e03\\u7684\\u6700\\u65b0\\u4f18\\u5316\\u5668\\uff0c\\u901a\\u8fc7**\\u53cd\\u601d\\u5f0f\\u63d0\\u793a\\u8fdb\\u5316**\\u5b9e\\u73b0\\u7a81\\u7834\\u6027\\u63d0\\u5347\\uff1a\\n\\n```python\\noptimizer = dspy.GEPA(\\n    metric=your_metric,\\n    reflection_lm=dspy.LM(\\\"gpt-4o\\\"),  # \\u7528\\u4e8e\\u53cd\\u601d\\u7684LM\\n    auto=\\\"light\\\"\\n)\\n```\\n\\nGEPA\\u7ef4\\u62a4Pareto\\u524d\\u6cbf\\u7684\\u4e92\\u8865\\u7b56\\u7565\\u6c60\\uff0c\\u5229\\u7528\\u6587\\u672c\\u53cd\\u9988\\u5feb\\u901f\\u6539\\u8fdb\\uff0c\\u5b9e\\u9a8c\\u8868\\u660e**\\u6bd4GRPO\\u9ad810-20%**\\uff0c\\u4e14\\u4ec5\\u9700**1/35\\u7684rollouts**\\u3002\\n\\n**\\u4f18\\u5316\\u5668\\u9009\\u578b\\u51b3\\u7b56\\u77e9\\u9635**\\uff1a\\n\\n| \\u573a\\u666f | \\u63a8\\u8350\\u4f18\\u5316\\u5668 | \\u6570\\u636e\\u9700\\u6c42 | \\u6210\\u672c\\u4f30\\u7b97 |\\n|------|----------|---------|---------|\\n| \\u5feb\\u901f\\u539f\\u578b\\uff08<20\\u6837\\u672c\\uff09 | BootstrapFewShot | ~10\\u4f8b | $0.10-0.50 |\\n| \\u4e2d\\u7b49\\u89c4\\u6a21\\uff0850-100\\u6837\\u672c\\uff09 | MIPROv2 (light) | ~50\\u4f8b | ~$1.50 |\\n| \\u751f\\u4ea7\\u4f18\\u5316\\uff08200+\\u6837\\u672c\\uff09 | MIPROv2 (heavy) | 200+\\u4f8b | $5-20 |\\n| \\u9700\\u8981\\u5feb\\u901f\\u8fed\\u4ee3 | GEPA | 20-50\\u4f8b | $1-3 |\\n| \\u6a21\\u578b\\u84b8\\u998f | BootstrapFinetune | 500+\\u4f8b | \\u6309Provider |\\n\\n### DSPy + LlamaIndex/Haystack\\u96c6\\u6210\\u6a21\\u5f0f\\n\\n**LlamaIndex\\u96c6\\u6210**\\u901a\\u8fc7`optimize_prompts()`\\u51fd\\u6570\\u5b9e\\u73b0Query Pipeline\\u4f18\\u5316\\uff1a\\n\\n```python\\nfrom llama_index.core.evaluation import BatchEvalRunner\\n\\n# DSPy\\u6a21\\u5757\\u5305\\u88c5LlamaIndex\\u68c0\\u7d22\\u5668\\nclass RAGWithLlamaIndex(dspy.Module):\\n    def __init__(self, llama_index):\\n        super().__init__()\\n        self.index = llama_index\\n        self.generate = dspy.ChainOfThought(GenerateAnswer)\\n    \\n    def forward(self, question):\\n        # \\u4f7f\\u7528LlamaIndex\\u8fdb\\u884c\\u68c0\\u7d22\\n        response = self.index.as_query_engine().query(question)\\n        context = [node.text for node in response.source_nodes]\\n        return self.generate(context=context, question=question)\\n```\\n\\n**Haystack\\u96c6\\u6210**\\u91c7\\u7528\\u6df7\\u5408\\u5ea6\\u91cf\\u5b9a\\u4e49\\u6a21\\u5f0f\\uff1a\\n\\n```python\\nfrom haystack.components.evaluators import SASEvaluator\\n\\nsas_evaluator = SASEvaluator()\\nsas_evaluator.warm_up()\\n\\ndef mixed_metric(example, pred, trace=None):\\n    # \\u8bed\\u4e49\\u76f8\\u4f3c\\u5ea6\\uff08\\u6b63\\u786e\\u6027\\uff09\\n    semantic_score = sas_evaluator.run(\\n        ground_truth_answers=[example.answer], \\n        predicted_answers=[pred.answer]\\n    )[\\\"score\\\"]\\n    \\n    # \\u7b80\\u6d01\\u6027\\u60e9\\u7f5a\\n    n_words = len(pred.answer.split())\\n    brevity_penalty = min(0.5, max(0, 0.025 * (n_words - 20)))\\n    \\n    return semantic_score - brevity_penalty\\n```\\n\\n### \\u5b9e\\u8bc1\\u4f18\\u5316\\u6548\\u679c\\u6c47\\u603b\\n\\n| \\u4efb\\u52a1 | \\u4f18\\u5316\\u524d | \\u4f18\\u5316\\u540e | \\u63d0\\u5347\\u5e45\\u5ea6 | \\u4f18\\u5316\\u5668 |\\n|------|-------|-------|---------|-------|\\n| Tech QA (StackExchange) | 53% | 61% | +15% | MIPROv2 |\\n| PubMed QA (Haystack) | 48.8% | 69.0% | +41% | BootstrapFewShot |\\n| HotPotQA ReAct Agent | 24% | 51% | +112% | MIPROv2 |\\n| MATH Benchmark | 67% | 93% | +39% | GEPA |\\n| Banking77\\u5206\\u7c7b | 66% | 87% | +32% | BootstrapFinetune |\\n\\n---\\n\\n## \\u7b2c66\\u7ae0\\uff1aMCP\\u534f\\u8bae\\u4e0e\\u6846\\u67b6\\u7edf\\u4e00\\u63a5\\u5165\\n\\n### MCP\\u89c4\\u8303\\u6f14\\u8fdb\\u4e0e\\u67b6\\u6784\\u6df1\\u5ea6\\u89e3\\u6790\\n\\n**Model Context Protocol\\uff08MCP\\uff09** \\u662fAnthropic\\u4e8e2024\\u5e7411\\u6708\\u53d1\\u5e03\\u7684\\u5f00\\u653e\\u6807\\u51c6\\uff0c\\u5728\\u4ec5\\u4e00\\u5e74\\u65f6\\u95f4\\u5185\\u5b9e\\u73b0\\u4e86\\u884c\\u4e1a\\u7edf\\u4e00\\uff1a\\n\\n| \\u65f6\\u95f4\\u8282\\u70b9 | \\u91cc\\u7a0b\\u7891\\u4e8b\\u4ef6 |\\n|---------|----------|\\n| 2024\\u5e7411\\u6708 | Anthropic\\u5f00\\u6e90\\u53d1\\u5e03MCP |\\n| 2025\\u5e743\\u6708 | OpenAI ChatGPT\\u5168\\u9762\\u96c6\\u6210 |\\n| 2025\\u5e744\\u6708 | Google Gemini\\u786e\\u8ba4\\u652f\\u6301 |\\n| 2025\\u5e746\\u6708 | \\u89c4\\u8303\\u7248\\u672c2025-06-18\\u53d1\\u5e03 |\\n| 2025\\u5e7412\\u67089\\u65e5 | **\\u6350\\u8d60\\u7ed9Linux Foundation AAIF** |\\n\\n**\\u4e09\\u5927\\u6838\\u5fc3\\u80fd\\u529b\\uff08Primitives\\uff09**\\uff1a\\n\\n1. **Tools\\uff08\\u5de5\\u5177\\uff09**\\uff1a\\u5141\\u8bb8LLM\\u6267\\u884c\\u64cd\\u4f5c\\uff0c\\u7c7b\\u4f3cPOST\\u7aef\\u70b9\\n2. **Resources\\uff08\\u8d44\\u6e90\\uff09**\\uff1a\\u53ea\\u8bfb\\u6570\\u636e\\u6e90\\uff0c\\u7c7b\\u4f3cGET\\u7aef\\u70b9\\uff0c\\u652f\\u6301URI\\u5bfb\\u5740\\uff08`file://`, `db://`\\uff09\\n3. **Prompts\\uff08\\u63d0\\u793a\\u6a21\\u677f\\uff09**\\uff1a\\u53ef\\u590d\\u7528\\u7684\\u4ea4\\u4e92\\u6a21\\u677f\\uff0c\\u652f\\u6301\\u52a8\\u6001\\u53c2\\u6570\\n\\n**\\u4f20\\u8f93\\u534f\\u8bae\\u5bf9\\u6bd4**\\uff1a\\n\\n| \\u534f\\u8bae | \\u9002\\u7528\\u573a\\u666f | \\u7279\\u70b9 |\\n|------|---------|------|\\n| **stdio** | \\u672c\\u5730\\u96c6\\u6210 | \\u6362\\u884c\\u5206\\u9694JSON\\uff0cServer\\u901a\\u8fc7stdin/stdout\\u901a\\u4fe1 |\\n| **HTTP+SSE** | \\u65e7\\u7248\\u8fdc\\u7a0b | POST\\u8bf7\\u6c42+SSE\\u54cd\\u5e94\\u6d41\\uff08\\u5df2\\u5e9f\\u5f03\\uff09 |\\n| **Streamable HTTP** | **\\u751f\\u4ea7\\u63a8\\u8350** | \\u5355\\u7aef\\u70b9\\u901a\\u4fe1\\uff0c\\u652f\\u6301\\u6279\\u91cf\\u8bf7\\u6c42\\u548c\\u4f1a\\u8bdd\\u7ba1\\u7406 |\\n\\n**JSON-RPC 2.0\\u6d88\\u606f\\u683c\\u5f0f**\\uff1a\\n\\n```json\\n// \\u8bf7\\u6c42\\u793a\\u4f8b\\n{\\n  \\\"jsonrpc\\\": \\\"2.0\\\",\\n  \\\"id\\\": 1,\\n  \\\"method\\\": \\\"tools/call\\\",\\n  \\\"params\\\": {\\n    \\\"name\\\": \\\"search_documents\\\",\\n    \\\"arguments\\\": {\\\"query\\\": \\\"quarterly revenue\\\"}\\n  }\\n}\\n\\n// \\u54cd\\u5e94\\u793a\\u4f8b\\n{\\n  \\\"jsonrpc\\\": \\\"2.0\\\",\\n  \\\"id\\\": 1,\\n  \\\"result\\\": {\\n    \\\"content\\\": [{\\\"type\\\": \\\"text\\\", \\\"text\\\": \\\"Q3 revenue was $2.5B...\\\"}]\\n  }\\n}\\n```\\n\\n### MCP SDK\\u5f00\\u53d1\\u5b9e\\u8df5\\n\\n**Python SDK\\uff08FastMCP\\u5185\\u7f6e\\u4e8e\\u5b98\\u65b9mcp\\u5305\\uff09**\\uff1a\\n\\n```python\\nfrom mcp.server.fastmcp import FastMCP\\n\\nmcp = FastMCP(name=\\\"RAG Server\\\")\\n\\n# \\u5de5\\u5177\\u6ce8\\u518c\\n@mcp.tool()\\ndef search_documents(query: str, top_k: int = 5) -> list[dict]:\\n    \\\"\\\"\\\"\\u641c\\u7d22\\u6587\\u6863\\u5e93\\u5e76\\u8fd4\\u56de\\u76f8\\u5173\\u6bb5\\u843d\\\"\\\"\\\"\\n    return vector_store.search(query, top_k=top_k)\\n\\n# \\u8d44\\u6e90\\u66b4\\u9732\\n@mcp.resource(\\\"docs://{doc_id}\\\")\\ndef get_document(doc_id: str) -> dict:\\n    \\\"\\\"\\\"\\u83b7\\u53d6\\u6307\\u5b9a\\u6587\\u6863\\u7684\\u5b8c\\u6574\\u5185\\u5bb9\\\"\\\"\\\"\\n    return document_store.get(doc_id)\\n\\n# \\u63d0\\u793a\\u6a21\\u677f\\n@mcp.prompt()\\ndef analysis_prompt(topic: str) -> str:\\n    return f\\\"\\u8bf7\\u5bf9\\u4ee5\\u4e0b\\u4e3b\\u9898\\u8fdb\\u884c\\u6df1\\u5ea6\\u5206\\u6790\\uff1a{topic}\\\"\\n\\nif __name__ == \\\"__main__\\\":\\n    mcp.run()\\n```\\n\\n**TypeScript SDK**\\uff1a\\n\\n```typescript\\nimport { McpServer } from \\\"@modelcontextprotocol/sdk/server/mcp.js\\\";\\nimport { z } from \\\"zod\\\";\\n\\nconst server = new McpServer({ name: \\\"rag-server\\\", version: \\\"1.0.0\\\" });\\n\\nserver.registerTool(\\n  \\\"search_documents\\\",\\n  {\\n    description: \\\"\\u641c\\u7d22\\u6587\\u6863\\u5e93\\\",\\n    inputSchema: {\\n      query: z.string().describe(\\\"\\u641c\\u7d22\\u67e5\\u8be2\\\"),\\n      top_k: z.number().default(5),\\n    },\\n  },\\n  async ({ query, top_k }) => ({\\n    content: [{ type: \\\"text\\\", text: JSON.stringify(results) }],\\n  })\\n);\\n```\\n\\n**OAuth 2.1\\u8ba4\\u8bc1\\u914d\\u7f6e**\\uff082025\\u5e743\\u6708\\u89c4\\u8303\\u66f4\\u65b0\\uff09\\uff1a\\n\\n```python\\nfrom mcp.client.auth import OAuthClientProvider, OAuthClientMetadata\\n\\noauth_provider = OAuthClientProvider(\\n    server_url=\\\"https://mcp-server.example.com\\\",\\n    client_metadata=OAuthClientMetadata(\\n        client_name=\\\"Enterprise RAG Client\\\",\\n        redirect_uris=[\\\"http://localhost:8080/callback\\\"]\\n    ),\\n    storage=TokenStorage()  # \\u5b9e\\u73b0token\\u6301\\u4e45\\u5316\\n)\\n```\\n\\n### \\u56db\\u5927RAG\\u6846\\u67b6MCP\\u96c6\\u6210\\u5bf9\\u6bd4\\n\\n**LlamaIndex MCP ToolSpec**\\uff08`llama-index-tools-mcp` v0.4.3\\uff09\\uff1a\\n\\n```python\\nfrom llama_index.tools.mcp import BasicMCPClient, McpToolSpec\\nfrom llama_index.core.agent.workflow import FunctionAgent\\n\\n# \\u8fde\\u63a5MCP\\u670d\\u52a1\\u5668\\nmcp_client = BasicMCPClient(\\\"http://localhost:8000/sse\\\")\\nmcp_spec = McpToolSpec(\\n    client=mcp_client,\\n    allowed_tools=[\\\"search_documents\\\", \\\"get_document\\\"],\\n    include_resources=True\\n)\\n\\n# \\u83b7\\u53d6\\u5de5\\u5177\\u5e76\\u521b\\u5efaAgent\\ntools = await mcp_spec.to_tool_list_async()\\nagent = FunctionAgent(llm=OpenAI(model=\\\"gpt-4o\\\"), tools=tools)\\n```\\n\\n**LangChain MCP Adapters**\\uff08`langchain-mcp-adapters` v0.1.13\\uff09\\uff1a\\n\\n```python\\nfrom langchain_mcp_adapters.client import MultiServerMCPClient\\nfrom langgraph.prebuilt import create_react_agent\\n\\nclient = MultiServerMCPClient({\\n    \\\"rag_server\\\": {\\n        \\\"url\\\": \\\"http://localhost:8000/mcp\\\",\\n        \\\"transport\\\": \\\"streamable_http\\\",\\n        \\\"headers\\\": {\\\"Authorization\\\": f\\\"Bearer {token}\\\"}\\n    },\\n    \\\"local_tools\\\": {\\n        \\\"command\\\": \\\"python\\\",\\n        \\\"args\\\": [\\\"local_server.py\\\"],\\n        \\\"transport\\\": \\\"stdio\\\"\\n    }\\n})\\n\\ntools = await client.get_tools()\\nagent = create_react_agent(\\\"openai:gpt-4.1\\\", tools)\\n```\\n\\n**Semantic Kernel MCP\\u63d2\\u4ef6**\\uff1a\\n\\n```python\\nfrom semantic_kernel import Kernel\\nfrom semantic_kernel.connectors.mcp import MCPStdioPlugin, MCPSsePlugin\\n\\nasync with MCPSsePlugin(\\n    name=\\\"RAGTools\\\",\\n    description=\\\"RAG Document Tools\\\",\\n    url=\\\"http://localhost:8080\\\",\\n) as plugin:\\n    kernel = Kernel()\\n    kernel.add_plugin(plugin)\\n```\\n\\n**Haystack MCPToolset**\\uff1a\\n\\n```python\\nfrom haystack_integrations.tools.mcp import MCPToolset, StreamableHttpServerInfo\\n\\ntoolset = MCPToolset(\\n    server_info=StreamableHttpServerInfo(url=\\\"http://localhost:8000/mcp\\\"),\\n    tool_names=[\\\"search_documents\\\"],\\n    connection_timeout=10.0,\\n    invocation_timeout=60.0\\n)\\n\\nagent = Agent(chat_generator=OpenAIChatGenerator(), tools=toolset)\\n```\\n\\n### MCP\\u4e0e\\u73b0\\u6709\\u673a\\u5236\\u5bf9\\u6bd4\\u5206\\u6790\\n\\n| \\u7279\\u6027 | MCP | OpenAI Function Calling | LangChain Tools |\\n|------|-----|------------------------|-----------------|\\n| **\\u53ef\\u79fb\\u690d\\u6027** | \\u2705 \\u6a21\\u578b\\u65e0\\u5173 | \\u274c OpenAI\\u4e13\\u5c5e | \\u26a0\\ufe0f \\u6846\\u67b6\\u7ed1\\u5b9a |\\n| **\\u52a8\\u6001\\u53d1\\u73b0** | \\u2705 \\u8fd0\\u884c\\u65f6\\u53d1\\u73b0 | \\u274c \\u9759\\u6001\\u5b9a\\u4e49 | \\u274c \\u9759\\u6001\\u5bfc\\u5165 |\\n| **\\u8d44\\u6e90+\\u63d0\\u793a** | \\u2705 \\u539f\\u751f\\u652f\\u6301 | \\u274c \\u4ec5\\u5de5\\u5177 | \\u274c \\u4ec5\\u5de5\\u5177 |\\n| **\\u51ed\\u8bc1\\u9694\\u79bb** | \\u2705 \\u670d\\u52a1\\u7aef\\u7ba1\\u7406 | \\u274c \\u5e94\\u7528\\u7ba1\\u7406 | \\u274c \\u5e94\\u7528\\u7ba1\\u7406 |\\n| **\\u8de8\\u5e94\\u7528\\u590d\\u7528** | \\u2705 \\u4e00\\u6b21\\u6784\\u5efa\\u5168\\u5e73\\u53f0\\u7528 | \\u274c \\u6309\\u5e94\\u7528\\u5b9e\\u73b0 | \\u274c \\u6309\\u6846\\u67b6\\u5b9e\\u73b0 |\\n| **\\u751f\\u6001\\u89c4\\u6a21** | 10,000+ Server | \\u6210\\u719f | \\u5e7f\\u6cdb |\\n\\n### MCP\\u751f\\u6001\\u7cfb\\u7edf\\u73b0\\u72b6\\u4e0e\\u4f01\\u4e1a\\u90e8\\u7f72\\n\\n**\\u91c7\\u7528\\u7edf\\u8ba1\\uff08\\u622a\\u81f32025\\u5e7412\\u6708\\uff09**\\uff1a\\n- **\\u6d3b\\u8dc3MCP Server**\\uff1a10,000+\\n- **\\u6708SDK\\u4e0b\\u8f7d\\u91cf**\\uff1a9,700\\u4e07+\\n- **MCP Client**\\uff1a300+\\n\\n**\\u4e3b\\u8981\\u91c7\\u7528\\u8005**\\uff1a\\n- **AI\\u5e73\\u53f0**\\uff1aClaude Desktop\\u3001OpenAI ChatGPT\\u3001Google Gemini\\u3001Microsoft Copilot\\n- **\\u5f00\\u53d1\\u5de5\\u5177**\\uff1aCursor\\u3001VS Code\\u3001Windsurf\\n- **\\u4e91\\u670d\\u52a1**\\uff1aAWS Bedrock\\u3001Google Cloud\\u3001Azure\\u3001Cloudflare\\n\\n**Agentic AI Foundation\\uff08AAIF\\uff09\\u521b\\u59cb\\u6210\\u5458**\\uff1a\\n- **Platinum**\\uff1aAWS\\u3001Anthropic\\u3001Block\\u3001Bloomberg\\u3001Cloudflare\\u3001Google\\u3001Microsoft\\u3001OpenAI\\n- **\\u521b\\u59cb\\u9879\\u76ee**\\uff1aMCP\\uff08Anthropic\\uff09\\u3001Goose\\uff08Block\\uff09\\u3001AGENTS.md\\uff08OpenAI\\uff09\\n\\n---\\n\\n## \\u6846\\u67b6\\u9009\\u578b\\u4e0e\\u96c6\\u6210\\u51b3\\u7b56\\u77e9\\u9635\\n\\n| \\u9700\\u6c42\\u573a\\u666f | \\u63a8\\u8350\\u65b9\\u6848 | \\u5173\\u952e\\u8003\\u91cf |\\n|---------|---------|---------|\\n| **\\u7eafRAG\\u68c0\\u7d22** | LlamaIndex\\u5355\\u6846\\u67b6 | \\u6700\\u4f18\\u68c0\\u7d22\\u6027\\u80fd\\uff0c160+\\u6570\\u636e\\u8fde\\u63a5\\u5668 |\\n| **\\u590d\\u6742Agent\\u7f16\\u6392** | LangChain/LangGraph | \\u72b6\\u6001\\u56fe\\u3001\\u8bb0\\u5fc6\\u3001\\u591a\\u6b65\\u63a8\\u7406 |\\n| **\\u4f01\\u4e1a\\u7ea7RAG\\u7cfb\\u7edf** | LlamaIndex + LangChain\\u7ec4\\u5408 | \\u68c0\\u7d22+\\u7f16\\u6392\\u5206\\u5c42\\uff0c50%\\u6027\\u80fd\\u63d0\\u5347 |\\n| **\\u63d0\\u793a\\u81ea\\u52a8\\u4f18\\u5316** | DSPy + \\u4efb\\u610fRAG\\u6846\\u67b6 | 15-40%\\u8d28\\u91cf\\u63d0\\u5347\\uff0c$1-5\\u6210\\u672c |\\n| **\\u8de8\\u5e94\\u7528\\u5de5\\u5177\\u6807\\u51c6\\u5316** | MCP\\u534f\\u8bae | \\u4e00\\u6b21\\u6784\\u5efa\\uff0c\\u5168\\u5e73\\u53f0\\u590d\\u7528 |\\n| **\\u591a\\u6a21\\u578b\\u652f\\u6301** | MCP + \\u6846\\u67b6\\u9002\\u914d\\u5668 | \\u6a21\\u578b\\u65e0\\u5173\\uff0c\\u52a8\\u6001\\u5de5\\u5177\\u53d1\\u73b0 |\\n\\n---\\n\\n## 2025\\u5e74\\u4e92\\u64cd\\u4f5c\\u6027\\u8d8b\\u52bf\\n\\n1. **MCP\\u6210\\u4e3a\\u4e8b\\u5b9e\\u6807\\u51c6**\\uff1aLinux Foundation\\u6cbb\\u7406\\u786e\\u4fdd\\u957f\\u671f\\u7a33\\u5b9a\\uff0c\\u7c7b\\u4f3cHTTP\\u4e4b\\u4e8eWeb\\n2. **\\u6846\\u67b6\\u878d\\u5408\\u52a0\\u901f**\\uff1aLlamaIndex/LangChain\\u8fb9\\u754c\\u6a21\\u7cca\\uff0cDSPy\\u4f18\\u5316\\u6210\\u4e3a\\u6807\\u914d\\n3. **\\u58f0\\u660e\\u5f0f>\\u547d\\u4ee4\\u5f0f**\\uff1aDSPy\\u98ce\\u683c\\u7684\\u7b7e\\u540d\\u5b9a\\u4e49\\u66ff\\u4ee3\\u624b\\u5de5Prompt\\u5de5\\u7a0b\\n4. **\\u5b89\\u5168\\u524d\\u7f6e**\\uff1aOAuth 2.1\\u3001\\u5de5\\u5177\\u6743\\u9650\\u63a7\\u5236\\u6210\\u4e3aMCP\\u90e8\\u7f72\\u5fc5\\u9009\\u9879\\n5. **Agentic\\u751f\\u6001\\u7edf\\u4e00**\\uff1aAAIF\\u4e0b\\u7684MCP\\u3001Goose\\u3001AGENTS.md\\u6784\\u5efaAgent\\u57fa\\u7840\\u8bbe\\u65bd\\n\\n---\\n\\n## \\u5173\\u952e\\u6e90\\u4ee3\\u7801\\u8def\\u5f84\\u901f\\u67e5\\n\\n| \\u7ec4\\u4ef6 | \\u8def\\u5f84 |\\n|------|------|\\n| LlamaIndexRetriever | `langchain_community/retrievers/llama_index.py` |\\n| to_langchain_tool() | `llama-index-core/llama_index/core/tools/types.py` |\\n| QueryEngineTool | `llama-index-core/llama_index/core/tools/query_engine.py` |\\n| DSPy MIPROv2 | `dspy/teleprompt/mipro_optimizer_v2.py` |\\n| DSPy GEPA | `dspy/teleprompt/gepa.py` |\\n| LlamaIndex MCP | `llama-index-tools-mcp/llama_index/tools/mcp/` |\\n| LangChain MCP | `langchain-mcp-adapters/langchain_mcp_adapters/` |\\n| MCP Python SDK | `mcp/server/fastmcp.py` |\\n| MCP TypeScript SDK | `@modelcontextprotocol/sdk/server/mcp.js` |\\n\\n---\\n\\n## \\u7ed3\\u8bba\\n\\nRAG\\u6846\\u67b6\\u4e92\\u64cd\\u4f5c\\u5df2\\u4ece\\\"\\u6280\\u672f\\u9009\\u578b\\\"\\u6f14\\u53d8\\u4e3a\\\"\\u751f\\u6001\\u7b56\\u7565\\\"\\u3002**LlamaIndex + LangChain\\u53cc\\u6846\\u67b6\\u7ec4\\u5408**\\u89e3\\u51b3\\u4e86\\u68c0\\u7d22\\u4e0e\\u7f16\\u6392\\u7684\\u804c\\u8d23\\u5206\\u79bb\\uff0c**DSPy\\u7a0b\\u5e8f\\u5316\\u4f18\\u5316**\\u5c06Prompt\\u5de5\\u7a0b\\u4ece\\u624b\\u5de5\\u827a\\u672f\\u8f6c\\u53d8\\u4e3a\\u53ef\\u91cf\\u5316\\u5de5\\u7a0b\\uff0c\\u800c**MCP\\u534f\\u8bae**\\u5219\\u4e3aAI\\u5de5\\u5177\\u8c03\\u7528\\u5efa\\u7acb\\u4e86\\u7c7b\\u4f3cHTTP\\u7684\\u884c\\u4e1a\\u6807\\u51c6\\u3002\\n\\n\\u5bf9\\u4e8e2025\\u5e74\\u7684\\u4f01\\u4e1aRAG\\u7cfb\\u7edf\\u5efa\\u8bbe\\uff0c\\u63a8\\u8350\\u91c7\\u7528**\\u5206\\u5c42\\u67b6\\u6784**\\uff1a\\u6570\\u636e\\u5c42\\u4f7f\\u7528LlamaIndex\\uff0c\\u7f16\\u6392\\u5c42\\u4f7f\\u7528LangChain\\uff0c\\u4f18\\u5316\\u5c42\\u5f15\\u5165DSPy\\uff0c\\u63a5\\u53e3\\u5c42\\u901a\\u8fc7MCP\\u5b9e\\u73b0\\u6807\\u51c6\\u5316\\u3002\\u8fd9\\u4e00\\u67b6\\u6784\\u7ec4\\u5408\\u53ef\\u5b9e\\u73b0**50%+\\u6027\\u80fd\\u63d0\\u5347**\\u3001**15-40%\\u8d28\\u91cf\\u6539\\u8fdb**\\uff0c\\u540c\\u65f6\\u786e\\u4fdd\\u8de8\\u5e73\\u53f0\\u53ef\\u79fb\\u690d\\u6027\\u548c\\u957f\\u671f\\u6280\\u672f\\u6f14\\u8fdb\\u7684\\u7075\\u6d3b\\u6027\\u3002\\n\", \"filename\": \"/mnt/user-data/outputs/aurolaok/docs/survey/vol4/_research/\\u6df1\\u5ea6\\u7814\\u7a76\\u62a5\\u544a_Ch64-66_\\u6846\\u67b6\\u4e92\\u64cd\\u4f5c\\u4e0eMCP\\u96c6\\u6210_20260111.md\"}"
+    },
+    "approval_options": null,
+    "approval_key": null
+  },
+  {
+    "start_timestamp": null,
+    "stop_timestamp": null,
+    "flags": null,
+    "type": "tool_result",
+    "name": "create_file",
+    "content": [
+      {
+        "type": "text",
+        "text": "File created successfully: /mnt/user-data/outputs/aurolaok/docs/survey/vol4/_research/\u6df1\u5ea6\u7814\u7a76\u62a5\u544a_Ch64-66_\u6846\u67b6\u4e92\u64cd\u4f5c\u4e0eMCP\u96c6\u6210_20260111.md",
+        "uuid": "d60ae002-b15b-49d5-9c49-481e7628b23b"
+      }
+    ],
+    "is_error": false,
+    "structured_content": null,
+    "meta": null,
+    "message": null,
+    "integration_name": null,
+    "integration_icon_url": null,
+    "display_content": {
+      "type": "text",
+      "text": "File created successfully: /mnt/user-data/outputs/aurolaok/docs/survey/vol4/_research/\u6df1\u5ea6\u7814\u7a76\u62a5\u544a_Ch64-66_\u6846\u67b6\u4e92\u64cd\u4f5c\u4e0eMCP\u96c6\u6210_20260111.md"
+    }
+  }
+]
+
+================================================================================
+
+Assistant:
+Content:
+[
+  {
+    "start_timestamp": "2026-01-11T08:45:20.425575Z",
+    "stop_timestamp": "2026-01-11T08:45:20.425575Z",
+    "flags": null,
+    "type": "text",
+    "text": "\n\n",
+    "citations": []
+  },
+  {
+    "start_timestamp": "2026-01-11T08:45:20.425575Z",
+    "stop_timestamp": "2026-01-11T08:45:24.771640Z",
+    "flags": null,
+    "type": "thinking",
+    "thinking": "Let me check the status of Vol4 research. Based on the transcript summary and what I've done:\n\nVol4 was restructured to cover Ch54-66 (13 chapters total):\n- Vol4-01 (Ch54-57): LlamaIndex\u6e90\u4ee3\u7801\u6df1\u5ea6\u5256\u6790 \u2705 \u5b8c\u6210\n- Vol4-02 (Ch58-60): \u6846\u67b6\u63d0\u793a\u8bcd\u9006\u5411\u5de5\u7a0b \u2705 \u5b8c\u6210\n- Vol4-03 (Ch61-63): \u4f01\u4e1a\u7ea7RAG\u6846\u67b6\u6df1\u5ea6\u5256\u6790 \u2705 \u5b8c\u6210\n- Vol4-04 (Ch64-66): \u6846\u67b6\u4e92\u64cd\u4f5c\u4e0eMCP\u96c6\u6210 \u2705 \u521a\u521a\u5b8c\u6210\n\nSo all 4 batches of Vol4 are now complete! That covers all 13 chapters (Ch54-66).\n\nLet me update the research index file and confirm completion status.",
+    "summaries": [
+      {
+        "summary": "\u601d\u8003\u662f\u5426\u5b8c\u6210\u4e86\u6240\u6709\u6df1\u5ea6\u7814\u7a76\uff0c\u4ee5\u53ca\u662f\u5426\u9700\u8981\u7ee7\u7eed\u8fdb\u884cVol4\u7ae0\u8282\u7684\u6df1\u5ea6\u7814\u7a76"
+      },
+      {
+        "summary": "\u6838\u67e5Vol4\u7814\u7a76\u8fdb\u5ea6\u4e0e\u7ae0\u8282\u5b8c\u6210\u72b6\u6001\u3002"
+      },
+      {
+        "summary": "\u9a8c\u8bc1\u4e86\u5168\u90e8\u56db\u4e2aVol4\u6279\u6b21\u5df2\u5b8c\u6210\u3002"
+      }
+    ],
+    "cut_off": false,
+    "alternative_display_type": null
+  },
+  {
+    "start_timestamp": "2026-01-11T08:45:24.772020Z",
+    "stop_timestamp": "2026-01-11T08:45:25.452670Z",
+    "flags": null,
+    "type": "text",
+    "text": "Vol4\u7684\u5168\u90e8\u56db\u4e2a\u7814\u7a76\u6279\u6b21\u5df2\u7ecf\u5b8c\u6210\uff01\u8ba9\u6211\u66f4\u65b0\u7814\u7a76\u62a5\u544a\u7d22\u5f15\u5e76\u786e\u8ba4\u5b8c\u6210\u72b6\u6001\u3002",
+    "citations": []
+  },
+  {
+    "start_timestamp": "2026-01-11T08:45:25.514088Z",
+    "stop_timestamp": "2026-01-11T08:45:31.459323Z",
+    "flags": null,
+    "type": "tool_use",
+    "name": "str_replace",
+    "input": {
+      "path": "/mnt/user-data/outputs/aurolaok/docs/survey/vol4/_research/00_\u7814\u7a76\u62a5\u544a\u7d22\u5f15.md",
+      "new_str": "# Vol4 \u6df1\u5ea6\u7814\u7a76\u62a5\u544a\u7d22\u5f15\n\n**\u5377\u56db\u4e3b\u9898**\uff1a\u6e90\u4ee3\u7801\u7ea7\u6df1\u5ea6\u5256\u6790  \n**\u7ae0\u8282\u8303\u56f4**\uff1aCh54-66\uff0813\u7ae0\uff09  \n**\u7814\u7a76\u72b6\u6001**\uff1a\u2705 \u5168\u90e8\u5b8c\u6210\n\n---\n\n## \u7814\u7a76\u6279\u6b21\u6982\u89c8\n\n| \u6279\u6b21 | \u7ae0\u8282 | \u4e3b\u9898 | \u72b6\u6001 | \u5b8c\u6210\u65e5\u671f |\n|------|------|------|------|---------|\n| Vol4-01 | Ch54-57 | LlamaIndex\u6e90\u4ee3\u7801\u6df1\u5ea6\u5256\u6790 | \u2705 \u5b8c\u6210 | 2026-01-11 |\n| Vol4-02 | Ch58-60 | \u6846\u67b6\u63d0\u793a\u8bcd\u9006\u5411\u5de5\u7a0b | \u2705 \u5b8c\u6210 | 2026-01-11 |\n| Vol4-03 | Ch61-63 | \u4f01\u4e1a\u7ea7RAG\u6846\u67b6\u6df1\u5ea6\u5256\u6790 | \u2705 \u5b8c\u6210 | 2026-01-11 |\n| Vol4-04 | Ch64-66 | \u6846\u67b6\u4e92\u64cd\u4f5c\u4e0eMCP\u96c6\u6210 | \u2705 \u5b8c\u6210 | 2026-01-11 |",
+      "old_str": "# Vol4 \u6df1\u5ea6\u7814\u7a76\u62a5\u544a\u7d22\u5f15\n\n**\u5377\u56db\u4e3b\u9898**\uff1a\u6e90\u4ee3\u7801\u7ea7\u6df1\u5ea6\u5256\u6790  \n**\u7ae0\u8282\u8303\u56f4**\uff1aCh54-66\uff0813\u7ae0\uff09  \n**\u7814\u7a76\u72b6\u6001**\uff1a\u8fdb\u884c\u4e2d\n\n---\n\n## \u7814\u7a76\u6279\u6b21\u6982\u89c8\n\n| \u6279\u6b21 | \u7ae0\u8282 | \u4e3b\u9898 | \u72b6\u6001 | \u5b8c\u6210\u65e5\u671f |\n|------|------|------|------|---------|\n| Vol4-01 | Ch54-57 | LlamaIndex\u6e90\u4ee3\u7801\u6df1\u5ea6\u5256\u6790 | \u2705 \u5b8c\u6210 | 2026-01-11 |\n| Vol4-02 | Ch58-60 | \u6846\u67b6\u63d0\u793a\u8bcd\u9006\u5411\u5de5\u7a0b | \u2705 \u5b8c\u6210 | 2026-01-11 |\n| Vol4-03 | Ch61-63 | \u4f01\u4e1a\u7ea7RAG\u6846\u67b6\u6df1\u5ea6\u5256\u6790 | \u2705 \u5b8c\u6210 | 2026-01-11 |\n| Vol4-04 | Ch64-66 | \u6846\u67b6\u4e92\u64cd\u4f5c\u4e0eMCP\u96c6\u6210 | \ud83d\udd04 \u5f85\u542f\u52a8 | - |",
+      "description": "\u66f4\u65b0Vol4\u7814\u7a76\u62a5\u544a\u7d22\u5f15\uff0c\u6dfb\u52a0Vol4-04"
+    },
+    "message": "\u66f4\u65b0Vol4\u7814\u7a76\u62a5\u544a\u7d22\u5f15\uff0c\u6dfb\u52a0Vol4-04",
+    "integration_name": null,
+    "integration_icon_url": null,
+    "context": null,
+    "display_content": {
+      "type": "text",
+      "text": "\u66f4\u65b0Vol4\u7814\u7a76\u62a5\u544a\u7d22\u5f15\uff0c\u6dfb\u52a0Vol4-04"
+    },
+    "approval_options": null,
+    "approval_key": null
+  },
+  {
+    "start_timestamp": null,
+    "stop_timestamp": null,
+    "flags": null,
+    "type": "tool_result",
+    "name": "str_replace",
+    "content": [
+      {
+        "type": "text",
+        "text": "String to replace not found in file",
+        "uuid": "dd126e14-afec-4351-9da0-62137c519dd7"
+      }
+    ],
+    "is_error": true,
+    "structured_content": null,
+    "meta": null,
+    "message": null,
+    "integration_name": null,
+    "integration_icon_url": null,
+    "display_content": {
+      "type": "text",
+      "text": "String to replace not found in file"
+    }
+  },
+  {
+    "start_timestamp": "2026-01-11T08:45:34.819002Z",
+    "stop_timestamp": "2026-01-11T08:45:35.171323Z",
+    "flags": null,
+    "type": "thinking",
+    "thinking": "Let me check the current content of the index file.",
+    "summaries": [
+      {
+        "summary": "\u68c0\u7d22\u7d22\u5f15\u6587\u4ef6\u5185\u5bb9\u4ee5\u8bc4\u4f30\u7814\u7a76\u8fdb\u5ea6\u3002"
+      }
+    ],
+    "cut_off": false,
+    "alternative_display_type": null
+  },
+  {
+    "start_timestamp": "2026-01-11T08:45:35.424440Z",
+    "stop_timestamp": "2026-01-11T08:45:36.164633Z",
+    "flags": null,
+    "type": "tool_use",
+    "name": "view",
+    "input": {
+      "path": "/mnt/user-data/outputs/aurolaok/docs/survey/vol4/_research/00_\u7814\u7a76\u62a5\u544a\u7d22\u5f15.md",
+      "description": "\u67e5\u770b\u5f53\u524dVol4\u7814\u7a76\u62a5\u544a\u7d22\u5f15\u5185\u5bb9"
+    },
+    "message": "\u67e5\u770b\u5f53\u524dVol4\u7814\u7a76\u62a5\u544a\u7d22\u5f15\u5185\u5bb9",
+    "integration_name": null,
+    "integration_icon_url": null,
+    "context": null,
+    "display_content": {
+      "type": "text",
+      "text": "\u67e5\u770b\u5f53\u524dVol4\u7814\u7a76\u62a5\u544a\u7d22\u5f15\u5185\u5bb9"
+    },
+    "approval_options": null,
+    "approval_key": null
+  },
+  {
+    "start_timestamp": null,
+    "stop_timestamp": null,
+    "flags": null,
+    "type": "tool_result",
+    "name": "view",
+    "content": [
+      {
+        "type": "text",
+        "text": "Here's the content of /mnt/user-data/outputs/aurolaok/docs/survey/vol4/_research/00_\u7814\u7a76\u62a5\u544a\u7d22\u5f15.md with line numbers:\n     1\t# Vol4 \u7814\u7a76\u62a5\u544a\u7d22\u5f15\n     2\t\n     3\t**\u5377\u6b21**\uff1a\u7b2c\u56db\u5377 - \u6e90\u4ee3\u7801\u7ea7\u6df1\u5ea6\u5256\u6790  \n     4\t**\u7ae0\u8282\u8303\u56f4**\uff1aCh54-66  \n     5\t**\u7814\u7a76\u72b6\u6001**\uff1a\u8fdb\u884c\u4e2d\uff083/4\u6279\u6b21\u5b8c\u6210\uff09  \n     6\t**\u66f4\u65b0\u65e5\u671f**\uff1a2026-01-11\n     7\t\n     8\t---\n     9\t\n    10\t## \u5df2\u5b8c\u6210\u7814\u7a76\u62a5\u544a\n    11\t\n    12\t### Vol4-01\uff1aLlamaIndex\u6e90\u4ee3\u7801\u6df1\u5ea6\u89e3\u6790\uff08Ch54-57\uff09\n    13\t- **\u6587\u4ef6**\uff1a`\u6df1\u5ea6\u7814\u7a76\u62a5\u544a_Ch54-57_LlamaIndex\u6e90\u4ee3\u7801\u6df1\u5ea6\u5256\u6790_20260111.md`\n    14\t- **\u6838\u5fc3\u5185\u5bb9**\uff1a\n    15\t  - Ch54\uff1aLlamaIndex\u6838\u5fc3\u67b6\u6784\u5256\u6790\uff08Node/Document\u62bd\u8c61\u5c42\u3001ServiceContext\u2192Settings\u6f14\u8fdb\u3001\u7d22\u5f15\u57fa\u7c7b\u7ee7\u627f\u4f53\u7cfb\uff09\n    16\t  - Ch55\uff1a\u7d22\u5f15\u4e0e\u68c0\u7d22\u7cfb\u7edf\u6e90\u4ee3\u7801\uff08VectorStoreIndex\u3001PropertyGraphIndex\u3001BaseRetriever\u63a5\u53e3\u3001\u6df7\u5408\u68c0\u7d22RRF\uff09\n    17\t  - Ch56\uff1aWorkflows\u4e8b\u4ef6\u9a71\u52a8\u67b6\u6784\uff08@step\u88c5\u9970\u5668\u3001\u4e8b\u4ef6\u6d41\u3001\u72b6\u6001\u6301\u4e45\u5316\u3001\u4e0eLangGraph\u5bf9\u6bd4\uff09\n    18\t  - Ch57\uff1aAgentWorkflow\u4e0e\u5de5\u5177\u96c6\u6210\uff08FunctionTool\u3001\u591a\u667a\u80fd\u4f53\u7f16\u6392handoff\u673a\u5236\u3001Agentic Document Workflows\uff09\n    19\t\n    20\t### Vol4-02\uff1a\u6846\u67b6\u63d0\u793a\u8bcd\u9006\u5411\u5de5\u7a0b\uff08Ch58-60\uff09\n    21\t- **\u6587\u4ef6**\uff1a`\u6df1\u5ea6\u7814\u7a76\u62a5\u544a_Ch58-60_\u6846\u67b6\u63d0\u793a\u8bcd\u9006\u5411\u5de5\u7a0b_20260111.md`\n    22\t- **\u6838\u5fc3\u5185\u5bb9**\uff1a\n    23\t  - Ch58\uff1aLlamaIndex\u9ed8\u8ba4\u63d0\u793a\u8bcd\u6a21\u677f\uff08TreeSummarize\u3001Refine\u3001CondenseQuestion\u3001\u8bc4\u4f30\u63d0\u793a\u8bcd\u3001PromptSelector\u673a\u5236\uff09\n    24\t  - Ch59\uff1aLangChain/LangGraph\u63d0\u793a\u8bcd\uff08ReAct Agent\u3001Router\u3001Memory\u3001RAG\u56db\u79cd\u7ec4\u5408\u6a21\u5f0f\u3001Hub\u751f\u6001\uff09\n    25\t  - Ch60\uff1aGraphRAG\u63d0\u793a\u8bcd\u9006\u5411\u5de5\u7a0b\uff08\u5b9e\u4f53\u62bd\u53d6\u3001\u58f0\u660e\u62bd\u53d6\u3001\u793e\u533a\u6458\u8981\u3001Local/Global/DRIFT\u67e5\u8be2\u3001\u81ea\u52a8\u8c03\u4f18\uff09\n    26\t\n    27\t### Vol4-03\uff1a\u4f01\u4e1a\u7ea7RAG\u6846\u67b6\u6df1\u5ea6\u5256\u6790\uff08Ch61-63\uff09\n    28\t- **\u6587\u4ef6**\uff1a`\u6df1\u5ea6\u7814\u7a76\u62a5\u544a_Ch61-63_\u4f01\u4e1a\u7ea7RAG\u6846\u67b6\u6df1\u5ea6\u5256\u6790_20260111.md`\n    29\t- **\u6838\u5fc3\u5185\u5bb9**\uff1a\n    30\t  - Ch61\uff1aHaystack 2.0\u67b6\u6784\u6df1\u5ea6\u89e3\u6790\uff08@component\u88c5\u9970\u5668\u3001Pipeline\u6267\u884c\u5f15\u64ce\u3001RAG\u7ec4\u4ef6\u751f\u6001\u3001Hayhooks\u90e8\u7f72\uff09\n    31\t  - Ch62\uff1aMicrosoft Semantic Kernel\uff08Kernel/Functions/Plugins\u67b6\u6784\u3001Planner\u5f03\u7528\u3001AutoGen\u5408\u5e76\u3001Microsoft Agent Framework\uff09\n    32\t  - Ch63\uff1aRAGFlow\u4e0eDify\u5bf9\u6bd4\u5206\u6790\uff08DeepDoc\u5f15\u64ce\u3001Infinity\u5411\u91cf\u6570\u636e\u5e93\u3001Dify\u5de5\u4f5c\u6d41\u3001\u9009\u578b\u51b3\u7b56\u77e9\u9635\uff09\n    33\t\n    34\t---\n    35\t\n    36\t## \u5f85\u5b8c\u6210\u7814\u7a76\u62a5\u544a\n    37\t\n    38\t### Vol4-04\uff1a\u6846\u67b6\u4e92\u64cd\u4f5c\u4e0eMCP\u96c6\u6210\uff08Ch64-66\uff09\n    39\t- **\u8ba1\u5212\u5185\u5bb9**\uff1a\n    40\t  - Ch64\uff1aLlamaIndex + LangChain\u96c6\u6210\uff08\u53cc\u6846\u67b6\u534f\u540c\u6a21\u5f0f\u3001\u7ec4\u4ef6\u4e92\u6362\u3001\u6700\u4f73\u5b9e\u8df5\uff09\n    41\t  - Ch65\uff1aDSPy\u4e0eRAG\u6846\u67b6\u8054\u5408\u4f18\u5316\uff08DSPy\u7f16\u8bd1LlamaIndex/LangChain\u7ba1\u9053\u3001Optimizer\u96c6\u6210\uff09\n    42\t  - Ch66\uff1aMCP\u534f\u8bae\u4e0e\u6846\u67b6\u7edf\u4e00\u63a5\u5165\uff08MCP Server\u5f00\u53d1\u3001\u591a\u6846\u67b6\u5de5\u5177\u66b4\u9732\u3001Claude Code\u96c6\u6210\uff09\n    43\t\n    44\t---\n    45\t\n    46\t## \u7814\u7a76\u7edf\u8ba1\n    47\t\n    48\t| \u6279\u6b21 | \u7ae0\u8282 | \u72b6\u6001 | \u5b8c\u6210\u65e5\u671f |\n    49\t|:----:|:----:|:----:|:--------:|\n    50\t| Vol4-01 | Ch54-57 | \u2705 \u5df2\u5b8c\u6210 | 2026-01-11 |\n    51\t| Vol4-02 | Ch58-60 | \u2705 \u5df2\u5b8c\u6210 | 2026-01-11 |\n    52\t| Vol4-03 | Ch61-63 | \u2705 \u5df2\u5b8c\u6210 | 2026-01-11 |\n    53\t| Vol4-04 | Ch64-66 | \u23f3 \u5f85\u542f\u52a8 | - |\n    54\t\n    55\t**\u603b\u8fdb\u5ea6**\uff1a9/13\u7ae0\u5b8c\u6210\uff0869%\uff09\n    56\t",
+        "uuid": "512c6d20-f114-42aa-b093-d95f3813447a"
+      }
+    ],
+    "is_error": false,
+    "structured_content": null,
+    "meta": null,
+    "message": null,
+    "integration_name": null,
+    "integration_icon_url": null,
+    "display_content": {
+      "type": "json_block",
+      "json_block": "{\"language\": \"markdown\", \"code\": \"# Vol4 \\u7814\\u7a76\\u62a5\\u544a\\u7d22\\u5f15\\n\\n**\\u5377\\u6b21**\\uff1a\\u7b2c\\u56db\\u5377 - \\u6e90\\u4ee3\\u7801\\u7ea7\\u6df1\\u5ea6\\u5256\\u6790  \\n**\\u7ae0\\u8282\\u8303\\u56f4**\\uff1aCh54-66  \\n**\\u7814\\u7a76\\u72b6\\u6001**\\uff1a\\u8fdb\\u884c\\u4e2d\\uff083/4\\u6279\\u6b21\\u5b8c\\u6210\\uff09  \\n**\\u66f4\\u65b0\\u65e5\\u671f**\\uff1a2026-01-11\\n\\n---\\n\\n## \\u5df2\\u5b8c\\u6210\\u7814\\u7a76\\u62a5\\u544a\\n\\n### Vol4-01\\uff1aLlamaIndex\\u6e90\\u4ee3\\u7801\\u6df1\\u5ea6\\u89e3\\u6790\\uff08Ch54-57\\uff09\\n- **\\u6587\\u4ef6**\\uff1a`\\u6df1\\u5ea6\\u7814\\u7a76\\u62a5\\u544a_Ch54-57_LlamaIndex\\u6e90\\u4ee3\\u7801\\u6df1\\u5ea6\\u5256\\u6790_20260111.md`\\n- **\\u6838\\u5fc3\\u5185\\u5bb9**\\uff1a\\n  - Ch54\\uff1aLlamaIndex\\u6838\\u5fc3\\u67b6\\u6784\\u5256\\u6790\\uff08Node/Document\\u62bd\\u8c61\\u5c42\\u3001ServiceContext\\u2192Settings\\u6f14\\u8fdb\\u3001\\u7d22\\u5f15\\u57fa\\u7c7b\\u7ee7\\u627f\\u4f53\\u7cfb\\uff09\\n  - Ch55\\uff1a\\u7d22\\u5f15\\u4e0e\\u68c0\\u7d22\\u7cfb\\u7edf\\u6e90\\u4ee3\\u7801\\uff08VectorStoreIndex\\u3001PropertyGraphIndex\\u3001BaseRetriever\\u63a5\\u53e3\\u3001\\u6df7\\u5408\\u68c0\\u7d22RRF\\uff09\\n  - Ch56\\uff1aWorkflows\\u4e8b\\u4ef6\\u9a71\\u52a8\\u67b6\\u6784\\uff08@step\\u88c5\\u9970\\u5668\\u3001\\u4e8b\\u4ef6\\u6d41\\u3001\\u72b6\\u6001\\u6301\\u4e45\\u5316\\u3001\\u4e0eLangGraph\\u5bf9\\u6bd4\\uff09\\n  - Ch57\\uff1aAgentWorkflow\\u4e0e\\u5de5\\u5177\\u96c6\\u6210\\uff08FunctionTool\\u3001\\u591a\\u667a\\u80fd\\u4f53\\u7f16\\u6392handoff\\u673a\\u5236\\u3001Agentic Document Workflows\\uff09\\n\\n### Vol4-02\\uff1a\\u6846\\u67b6\\u63d0\\u793a\\u8bcd\\u9006\\u5411\\u5de5\\u7a0b\\uff08Ch58-60\\uff09\\n- **\\u6587\\u4ef6**\\uff1a`\\u6df1\\u5ea6\\u7814\\u7a76\\u62a5\\u544a_Ch58-60_\\u6846\\u67b6\\u63d0\\u793a\\u8bcd\\u9006\\u5411\\u5de5\\u7a0b_20260111.md`\\n- **\\u6838\\u5fc3\\u5185\\u5bb9**\\uff1a\\n  - Ch58\\uff1aLlamaIndex\\u9ed8\\u8ba4\\u63d0\\u793a\\u8bcd\\u6a21\\u677f\\uff08TreeSummarize\\u3001Refine\\u3001CondenseQuestion\\u3001\\u8bc4\\u4f30\\u63d0\\u793a\\u8bcd\\u3001PromptSelector\\u673a\\u5236\\uff09\\n  - Ch59\\uff1aLangChain/LangGraph\\u63d0\\u793a\\u8bcd\\uff08ReAct Agent\\u3001Router\\u3001Memory\\u3001RAG\\u56db\\u79cd\\u7ec4\\u5408\\u6a21\\u5f0f\\u3001Hub\\u751f\\u6001\\uff09\\n  - Ch60\\uff1aGraphRAG\\u63d0\\u793a\\u8bcd\\u9006\\u5411\\u5de5\\u7a0b\\uff08\\u5b9e\\u4f53\\u62bd\\u53d6\\u3001\\u58f0\\u660e\\u62bd\\u53d6\\u3001\\u793e\\u533a\\u6458\\u8981\\u3001Local/Global/DRIFT\\u67e5\\u8be2\\u3001\\u81ea\\u52a8\\u8c03\\u4f18\\uff09\\n\\n### Vol4-03\\uff1a\\u4f01\\u4e1a\\u7ea7RAG\\u6846\\u67b6\\u6df1\\u5ea6\\u5256\\u6790\\uff08Ch61-63\\uff09\\n- **\\u6587\\u4ef6**\\uff1a`\\u6df1\\u5ea6\\u7814\\u7a76\\u62a5\\u544a_Ch61-63_\\u4f01\\u4e1a\\u7ea7RAG\\u6846\\u67b6\\u6df1\\u5ea6\\u5256\\u6790_20260111.md`\\n- **\\u6838\\u5fc3\\u5185\\u5bb9**\\uff1a\\n  - Ch61\\uff1aHaystack 2.0\\u67b6\\u6784\\u6df1\\u5ea6\\u89e3\\u6790\\uff08@component\\u88c5\\u9970\\u5668\\u3001Pipeline\\u6267\\u884c\\u5f15\\u64ce\\u3001RAG\\u7ec4\\u4ef6\\u751f\\u6001\\u3001Hayhooks\\u90e8\\u7f72\\uff09\\n  - Ch62\\uff1aMicrosoft Semantic Kernel\\uff08Kernel/Functions/Plugins\\u67b6\\u6784\\u3001Planner\\u5f03\\u7528\\u3001AutoGen\\u5408\\u5e76\\u3001Microsoft Agent Framework\\uff09\\n  - Ch63\\uff1aRAGFlow\\u4e0eDify\\u5bf9\\u6bd4\\u5206\\u6790\\uff08DeepDoc\\u5f15\\u64ce\\u3001Infinity\\u5411\\u91cf\\u6570\\u636e\\u5e93\\u3001Dify\\u5de5\\u4f5c\\u6d41\\u3001\\u9009\\u578b\\u51b3\\u7b56\\u77e9\\u9635\\uff09\\n\\n---\\n\\n## \\u5f85\\u5b8c\\u6210\\u7814\\u7a76\\u62a5\\u544a\\n\\n### Vol4-04\\uff1a\\u6846\\u67b6\\u4e92\\u64cd\\u4f5c\\u4e0eMCP\\u96c6\\u6210\\uff08Ch64-66\\uff09\\n- **\\u8ba1\\u5212\\u5185\\u5bb9**\\uff1a\\n  - Ch64\\uff1aLlamaIndex + LangChain\\u96c6\\u6210\\uff08\\u53cc\\u6846\\u67b6\\u534f\\u540c\\u6a21\\u5f0f\\u3001\\u7ec4\\u4ef6\\u4e92\\u6362\\u3001\\u6700\\u4f73\\u5b9e\\u8df5\\uff09\\n  - Ch65\\uff1aDSPy\\u4e0eRAG\\u6846\\u67b6\\u8054\\u5408\\u4f18\\u5316\\uff08DSPy\\u7f16\\u8bd1LlamaIndex/LangChain\\u7ba1\\u9053\\u3001Optimizer\\u96c6\\u6210\\uff09\\n  - Ch66\\uff1aMCP\\u534f\\u8bae\\u4e0e\\u6846\\u67b6\\u7edf\\u4e00\\u63a5\\u5165\\uff08MCP Server\\u5f00\\u53d1\\u3001\\u591a\\u6846\\u67b6\\u5de5\\u5177\\u66b4\\u9732\\u3001Claude Code\\u96c6\\u6210\\uff09\\n\\n---\\n\\n## \\u7814\\u7a76\\u7edf\\u8ba1\\n\\n| \\u6279\\u6b21 | \\u7ae0\\u8282 | \\u72b6\\u6001 | \\u5b8c\\u6210\\u65e5\\u671f |\\n|:----:|:----:|:----:|:--------:|\\n| Vol4-01 | Ch54-57 | \\u2705 \\u5df2\\u5b8c\\u6210 | 2026-01-11 |\\n| Vol4-02 | Ch58-60 | \\u2705 \\u5df2\\u5b8c\\u6210 | 2026-01-11 |\\n| Vol4-03 | Ch61-63 | \\u2705 \\u5df2\\u5b8c\\u6210 | 2026-01-11 |\\n| Vol4-04 | Ch64-66 | \\u23f3 \\u5f85\\u542f\\u52a8 | - |\\n\\n**\\u603b\\u8fdb\\u5ea6**\\uff1a9/13\\u7ae0\\u5b8c\\u6210\\uff0869%\\uff09\\n\", \"filename\": \"/mnt/user-data/outputs/aurolaok/docs/survey/vol4/_research/00_\\u7814\\u7a76\\u62a5\\u544a\\u7d22\\u5f15.md\"}"
+    }
+  },
+  {
+    "start_timestamp": "2026-01-11T08:45:39.437456Z",
+    "stop_timestamp": "2026-01-11T08:45:40.294618Z",
+    "flags": null,
+    "type": "thinking",
+    "thinking": "Now I need to update the index file to reflect that Vol4-04 is complete. Let me update it properly.",
+    "summaries": [
+      {
+        "summary": "\u66f4\u65b0\u7d22\u5f15\u6587\u4ef6\u4ee5\u6807\u8bb0Vol4-04\u5b8c\u6210\u3002"
+      }
+    ],
+    "cut_off": false,
+    "alternative_display_type": null
+  },
+  {
+    "start_timestamp": "2026-01-11T08:45:40.304692Z",
+    "stop_timestamp": "2026-01-11T08:45:41.887021Z",
+    "flags": null,
+    "type": "tool_use",
+    "name": "str_replace",
+    "input": {
+      "path": "/mnt/user-data/outputs/aurolaok/docs/survey/vol4/_research/00_\u7814\u7a76\u62a5\u544a\u7d22\u5f15.md",
+      "new_str": "**\u7814\u7a76\u72b6\u6001**\uff1a\u2705 \u5168\u90e8\u5b8c\u6210\uff084/4\u6279\u6b21\u5b8c\u6210\uff09  ",
+      "old_str": "**\u7814\u7a76\u72b6\u6001**\uff1a\u8fdb\u884c\u4e2d\uff083/4\u6279\u6b21\u5b8c\u6210\uff09  ",
+      "description": "\u66f4\u65b0Vol4\u7d22\u5f15 - \u4fee\u6539\u72b6\u6001\u4e3a\u5168\u90e8\u5b8c\u6210"
+    },
+    "message": "\u66f4\u65b0Vol4\u7d22\u5f15 - \u4fee\u6539\u72b6\u6001\u4e3a\u5168\u90e8\u5b8c\u6210",
+    "integration_name": null,
+    "integration_icon_url": null,
+    "context": null,
+    "display_content": {
+      "type": "text",
+      "text": "\u66f4\u65b0Vol4\u7d22\u5f15 - \u4fee\u6539\u72b6\u6001\u4e3a\u5168\u90e8\u5b8c\u6210"
+    },
+    "approval_options": null,
+    "approval_key": null
+  },
+  {
+    "start_timestamp": null,
+    "stop_timestamp": null,
+    "flags": null,
+    "type": "tool_result",
+    "name": "str_replace",
+    "content": [
+      {
+        "type": "text",
+        "text": "Successfully replaced string in /mnt/user-data/outputs/aurolaok/docs/survey/vol4/_research/00_\u7814\u7a76\u62a5\u544a\u7d22\u5f15.md",
+        "uuid": "2aa1cca8-774f-4d32-a2bd-ed879bbf8c41"
+      }
+    ],
+    "is_error": false,
+    "structured_content": null,
+    "meta": null,
+    "message": null,
+    "integration_name": null,
+    "integration_icon_url": null,
+    "display_content": {
+      "type": "text",
+      "text": "Successfully replaced string in /mnt/user-data/outputs/aurolaok/docs/survey/vol4/_research/00_\u7814\u7a76\u62a5\u544a\u7d22\u5f15.md"
+    }
+  },
+  {
+    "start_timestamp": "2026-01-11T08:45:44.805502Z",
+    "stop_timestamp": "2026-01-11T08:45:45.474977Z",
+    "flags": null,
+    "type": "thinking",
+    "thinking": "Now let me update the Vol4-04 section and the statistics at the bottom.",
+    "summaries": [
+      {
+        "summary": "\u51c6\u5907\u66f4\u65b0Vol4-04\u7ae0\u8282\u548c\u7edf\u8ba1\u6570\u636e\u3002"
+      }
+    ],
+    "cut_off": false,
+    "alternative_display_type": null
+  },
+  {
+    "start_timestamp": "2026-01-11T08:45:45.545163Z",
+    "stop_timestamp": "2026-01-11T08:45:52.311650Z",
+    "flags": null,
+    "type": "tool_use",
+    "name": "str_replace",
+    "input": {
+      "path": "/mnt/user-data/outputs/aurolaok/docs/survey/vol4/_research/00_\u7814\u7a76\u62a5\u544a\u7d22\u5f15.md",
+      "new_str": "---\n\n## \u5f85\u5b8c\u6210\u7814\u7a76\u62a5\u544a\n\n\uff08\u65e0 - \u5168\u90e8\u5b8c\u6210\uff09\n\n---\n\n### Vol4-04\uff1a\u6846\u67b6\u4e92\u64cd\u4f5c\u4e0eMCP\u96c6\u6210\uff08Ch64-66\uff09\n- **\u6587\u4ef6**\uff1a`\u6df1\u5ea6\u7814\u7a76\u62a5\u544a_Ch64-66_\u6846\u67b6\u4e92\u64cd\u4f5c\u4e0eMCP\u96c6\u6210_20260111.md`\n- **\u6838\u5fc3\u5185\u5bb9**\uff1a\n  - Ch64\uff1aLlamaIndex + LangChain\u53cc\u6846\u67b6\u96c6\u6210\uff08LlamaIndexRetriever\u9002\u914d\u5668\u6e90\u7801\u3001to_langchain_tool()\u8f6c\u6362\u63a5\u53e3\u3001\u53cc\u6846\u67b6\u534f\u540c\u6700\u4f73\u5b9e\u8df5\u3001\u6027\u80fd\u57fa\u51c6\u5bf9\u6bd4\uff09\n  - Ch65\uff1aDSPy\u4e0eRAG\u6846\u67b6\u8054\u5408\u4f18\u5316\uff08Signatures/Modules/Predictors\u67b6\u6784\u3001MIPROv2/GEPA\u4f18\u5316\u5668\u5bf9\u6bd4\u3001DSPy+LlamaIndex/Haystack\u96c6\u6210\u3001\u5b9e\u8bc1\u4f18\u5316\u6548\u679c15-112%\u63d0\u5347\uff09\n  - Ch66\uff1aMCP\u534f\u8bae\u4e0e\u6846\u67b6\u7edf\u4e00\u63a5\u5165\uff08MCP\u89c4\u8303\u6f14\u8fdb2024.11\u21922025.12 AAIF\u3001Tools/Resources/Prompts\u4e09\u5927\u80fd\u529b\u3001\u56db\u5927\u6846\u67b6MCP\u96c6\u6210\u5bf9\u6bd4\u3001\u751f\u6001\u7cfb\u7edf10,000+ Server\uff09",
+      "old_str": "---\n\n## \u5f85\u5b8c\u6210\u7814\u7a76\u62a5\u544a\n\n### Vol4-04\uff1a\u6846\u67b6\u4e92\u64cd\u4f5c\u4e0eMCP\u96c6\u6210\uff08Ch64-66\uff09\n- **\u8ba1\u5212\u5185\u5bb9**\uff1a\n  - Ch64\uff1aLlamaIndex + LangChain\u96c6\u6210\uff08\u53cc\u6846\u67b6\u534f\u540c\u6a21\u5f0f\u3001\u7ec4\u4ef6\u4e92\u6362\u3001\u6700\u4f73\u5b9e\u8df5\uff09\n  - Ch65\uff1aDSPy\u4e0eRAG\u6846\u67b6\u8054\u5408\u4f18\u5316\uff08DSPy\u7f16\u8bd1LlamaIndex/LangChain\u7ba1\u9053\u3001Optimizer\u96c6\u6210\uff09\n  - Ch66\uff1aMCP\u534f\u8bae\u4e0e\u6846\u67b6\u7edf\u4e00\u63a5\u5165\uff08MCP Server\u5f00\u53d1\u3001\u591a\u6846\u67b6\u5de5\u5177\u66b4\u9732\u3001Claude Code\u96c6\u6210\uff09",
+      "description": "\u66f4\u65b0Vol4-04\u4e3a\u5df2\u5b8c\u6210\u72b6\u6001"
+    },
+    "message": "\u66f4\u65b0Vol4-04\u4e3a\u5df2\u5b8c\u6210\u72b6\u6001",
+    "integration_name": null,
+    "integration_icon_url": null,
+    "context": null,
+    "display_content": {
+      "type": "text",
+      "text": "\u66f4\u65b0Vol4-04\u4e3a\u5df2\u5b8c\u6210\u72b6\u6001"
+    },
+    "approval_options": null,
+    "approval_key": null
+  },
+  {
+    "start_timestamp": null,
+    "stop_timestamp": null,
+    "flags": null,
+    "type": "tool_result",
+    "name": "str_replace",
+    "content": [
+      {
+        "type": "text",
+        "text": "Successfully replaced string in /mnt/user-data/outputs/aurolaok/docs/survey/vol4/_research/00_\u7814\u7a76\u62a5\u544a\u7d22\u5f15.md",
+        "uuid": "1b7dcd33-3c00-44a4-b11c-5a00f814d25f"
+      }
+    ],
+    "is_error": false,
+    "structured_content": null,
+    "meta": null,
+    "message": null,
+    "integration_name": null,
+    "integration_icon_url": null,
+    "display_content": {
+      "type": "text",
+      "text": "Successfully replaced string in /mnt/user-data/outputs/aurolaok/docs/survey/vol4/_research/00_\u7814\u7a76\u62a5\u544a\u7d22\u5f15.md"
+    }
+  },
+  {
+    "start_timestamp": "2026-01-11T08:45:55.437523Z",
+    "stop_timestamp": "2026-01-11T08:45:56.070757Z",
+    "flags": null,
+    "type": "thinking",
+    "thinking": "Now let me update the statistics table at the bottom.",
+    "summaries": [
+      {
+        "summary": "\u51c6\u5907\u66f4\u65b0\u7edf\u8ba1\u6570\u636e\u8868\u683c\u3002"
+      }
+    ],
+    "cut_off": false,
+    "alternative_display_type": null
+  },
+  {
+    "start_timestamp": "2026-01-11T08:45:56.073282Z",
+    "stop_timestamp": "2026-01-11T08:46:06.206474Z",
+    "flags": null,
+    "type": "tool_use",
+    "name": "str_replace",
+    "input": {
+      "path": "/mnt/user-data/outputs/aurolaok/docs/survey/vol4/_research/00_\u7814\u7a76\u62a5\u544a\u7d22\u5f15.md",
+      "new_str": "## \u7814\u7a76\u7edf\u8ba1\n\n| \u6279\u6b21 | \u7ae0\u8282 | \u72b6\u6001 | \u5b8c\u6210\u65e5\u671f |\n|:----:|:----:|:----:|:--------:|\n| Vol4-01 | Ch54-57 | \u2705 \u5df2\u5b8c\u6210 | 2026-01-11 |\n| Vol4-02 | Ch58-60 | \u2705 \u5df2\u5b8c\u6210 | 2026-01-11 |\n| Vol4-03 | Ch61-63 | \u2705 \u5df2\u5b8c\u6210 | 2026-01-11 |\n| Vol4-04 | Ch64-66 | \u2705 \u5df2\u5b8c\u6210 | 2026-01-11 |\n\n**\u603b\u8fdb\u5ea6**\uff1a13/13\u7ae0\u5b8c\u6210\uff08100%\uff09\u2705\n\n---\n\n## \u6838\u5fc3\u53d1\u73b0\u6c47\u603b\n\n### Vol4-01 \u6838\u5fc3\u6d1e\u5bdf\n- LlamaIndex\u57282024-2025\u5e74\u5b8c\u6210\u4eceRAG\u6846\u67b6\u5230Agent-First\u5e73\u53f0\u7684\u4e09\u91cd\u8f6c\u578b\n- Workflows\u4e8b\u4ef6\u9a71\u52a8\u67b6\u6784\u53d6\u4ee3Query Pipeline\u6210\u4e3a\u4e3b\u63a8\u7f16\u6392\u65b9\u5f0f\n- AgentWorkflow\u901a\u8fc7handoff\u673a\u5236\u5b9e\u73b0\u591a\u667a\u80fd\u4f53\u534f\u4f5c\n\n### Vol4-02 \u6838\u5fc3\u6d1e\u5bdf\n- \u4e09\u5927\u6846\u67b6\u63d0\u793a\u8bcd\u8bbe\u8ba1\u4f53\u73b0\u622a\u7136\u4e0d\u540c\u7684\u54f2\u5b66\n- LlamaIndex\uff1a\u4e0a\u4e0b\u6587\u53d7\u9650\u56de\u7b54\uff0c\u4e25\u683c\u5e7b\u89c9\u63a7\u5236\n- LangChain\uff1a\u6a21\u5757\u5316\u53ef\u7ec4\u5408\uff0cHub\u751f\u6001\u5171\u4eab\n- GraphRAG\uff1a\u7ed3\u6784\u5316\u4fe1\u606f\u62bd\u53d6\uff0c\u793e\u533a\u6458\u8981\u5c42\u7ea7\n\n### Vol4-03 \u6838\u5fc3\u6d1e\u5bdf\n- Haystack 2.0\uff1a\u4eceDAG\u5347\u7ea7\u4e3a\u6709\u5411\u56fe\uff0c@component\u88c5\u9970\u5668\u5b9e\u73b0\u534f\u8bae\u4f18\u4e8e\u7ee7\u627f\n- Semantic Kernel\uff1a\u4e0eAutoGen\u5408\u5e76\u4e3aMicrosoft Agent Framework\n- RAGFlow vs Dify\uff1a\u6df1\u5ea6\u6587\u6863\u7406\u89e3 vs \u5168\u6808\u5e94\u7528\u5e73\u53f0\u7684\u5dee\u5f02\u5316\u5b9a\u4f4d\n\n### Vol4-04 \u6838\u5fc3\u6d1e\u5bdf\n- \u53cc\u6846\u67b6\u7ec4\u5408\u53ef\u5b9e\u73b050%\u54cd\u5e94\u65f6\u95f4\u63d0\u5347\n- DSPy\u4f18\u5316\u53ef\u5e26\u676515-112%\u8d28\u91cf\u63d0\u5347\n- MCP\u534f\u8bae\u6210\u4e3aAI\u5de5\u5177\u8c03\u7528\u7684\u4e8b\u5b9e\u6807\u51c6\uff0c2025.12\u6350\u8d60\u7ed9Linux Foundation",
+      "old_str": "## \u7814\u7a76\u7edf\u8ba1\n\n| \u6279\u6b21 | \u7ae0\u8282 | \u72b6\u6001 | \u5b8c\u6210\u65e5\u671f |\n|:----:|:----:|:----:|:--------:|\n| Vol4-01 | Ch54-57 | \u2705 \u5df2\u5b8c\u6210 | 2026-01-11 |\n| Vol4-02 | Ch58-60 | \u2705 \u5df2\u5b8c\u6210 | 2026-01-11 |\n| Vol4-03 | Ch61-63 | \u2705 \u5df2\u5b8c\u6210 | 2026-01-11 |\n| Vol4-04 | Ch64-66 | \u23f3 \u5f85\u542f\u52a8 | - |\n\n**\u603b\u8fdb\u5ea6**\uff1a9/13\u7ae0\u5b8c\u6210\uff0869%\uff09",
+      "description": "\u66f4\u65b0Vol4\u7814\u7a76\u7edf\u8ba1\u8868"
+    },
+    "message": "\u66f4\u65b0Vol4\u7814\u7a76\u7edf\u8ba1\u8868",
+    "integration_name": null,
+    "integration_icon_url": null,
+    "context": null,
+    "display_content": {
+      "type": "text",
+      "text": "\u66f4\u65b0Vol4\u7814\u7a76\u7edf\u8ba1\u8868"
+    },
+    "approval_options": null,
+    "approval_key": null
+  },
+  {
+    "start_timestamp": null,
+    "stop_timestamp": null,
+    "flags": null,
+    "type": "tool_result",
+    "name": "str_replace",
+    "content": [
+      {
+        "type": "text",
+        "text": "Successfully replaced string in /mnt/user-data/outputs/aurolaok/docs/survey/vol4/_research/00_\u7814\u7a76\u62a5\u544a\u7d22\u5f15.md",
+        "uuid": "80ccf1ce-2c02-4369-8532-46da3c6a555b"
+      }
+    ],
+    "is_error": false,
+    "structured_content": null,
+    "meta": null,
+    "message": null,
+    "integration_name": null,
+    "integration_icon_url": null,
+    "display_content": {
+      "type": "text",
+      "text": "Successfully replaced string in /mnt/user-data/outputs/aurolaok/docs/survey/vol4/_research/00_\u7814\u7a76\u62a5\u544a\u7d22\u5f15.md"
+    }
+  },
+  {
+    "start_timestamp": "2026-01-11T08:46:09.331745Z",
+    "stop_timestamp": "2026-01-11T08:46:10.042937Z",
+    "flags": null,
+    "type": "thinking",
+    "thinking": "Good, now let me view the updated file to confirm it looks correct.",
+    "summaries": [],
+    "cut_off": false,
+    "alternative_display_type": null
+  },
+  {
+    "start_timestamp": "2026-01-11T08:46:10.080099Z",
+    "stop_timestamp": "2026-01-11T08:46:10.618417Z",
+    "flags": null,
+    "type": "tool_use",
+    "name": "view",
+    "input": {
+      "path": "/mnt/user-data/outputs/aurolaok/docs/survey/vol4/_research/00_\u7814\u7a76\u62a5\u544a\u7d22\u5f15.md",
+      "description": "\u786e\u8ba4Vol4\u7814\u7a76\u62a5\u544a\u7d22\u5f15\u66f4\u65b0\u6b63\u786e"
+    },
+    "message": "\u786e\u8ba4Vol4\u7814\u7a76\u62a5\u544a\u7d22\u5f15\u66f4\u65b0\u6b63\u786e",
+    "integration_name": null,
+    "integration_icon_url": null,
+    "context": null,
+    "display_content": {
+      "type": "text",
+      "text": "\u786e\u8ba4Vol4\u7814\u7a76\u62a5\u544a\u7d22\u5f15\u66f4\u65b0\u6b63\u786e"
+    },
+    "approval_options": null,
+    "approval_key": null
+  },
+  {
+    "start_timestamp": null,
+    "stop_timestamp": null,
+    "flags": null,
+    "type": "tool_result",
+    "name": "view",
+    "content": [
+      {
+        "type": "text",
+        "text": "Here's the content of /mnt/user-data/outputs/aurolaok/docs/survey/vol4/_research/00_\u7814\u7a76\u62a5\u544a\u7d22\u5f15.md with line numbers:\n     1\t# Vol4 \u7814\u7a76\u62a5\u544a\u7d22\u5f15\n     2\t\n     3\t**\u5377\u6b21**\uff1a\u7b2c\u56db\u5377 - \u6e90\u4ee3\u7801\u7ea7\u6df1\u5ea6\u5256\u6790  \n     4\t**\u7ae0\u8282\u8303\u56f4**\uff1aCh54-66  \n     5\t**\u7814\u7a76\u72b6\u6001**\uff1a\u2705 \u5168\u90e8\u5b8c\u6210\uff084/4\u6279\u6b21\u5b8c\u6210\uff09  \n     6\t**\u66f4\u65b0\u65e5\u671f**\uff1a2026-01-11\n     7\t\n     8\t---\n     9\t\n    10\t## \u5df2\u5b8c\u6210\u7814\u7a76\u62a5\u544a\n    11\t\n    12\t### Vol4-01\uff1aLlamaIndex\u6e90\u4ee3\u7801\u6df1\u5ea6\u89e3\u6790\uff08Ch54-57\uff09\n    13\t- **\u6587\u4ef6**\uff1a`\u6df1\u5ea6\u7814\u7a76\u62a5\u544a_Ch54-57_LlamaIndex\u6e90\u4ee3\u7801\u6df1\u5ea6\u5256\u6790_20260111.md`\n    14\t- **\u6838\u5fc3\u5185\u5bb9**\uff1a\n    15\t  - Ch54\uff1aLlamaIndex\u6838\u5fc3\u67b6\u6784\u5256\u6790\uff08Node/Document\u62bd\u8c61\u5c42\u3001ServiceContext\u2192Settings\u6f14\u8fdb\u3001\u7d22\u5f15\u57fa\u7c7b\u7ee7\u627f\u4f53\u7cfb\uff09\n    16\t  - Ch55\uff1a\u7d22\u5f15\u4e0e\u68c0\u7d22\u7cfb\u7edf\u6e90\u4ee3\u7801\uff08VectorStoreIndex\u3001PropertyGraphIndex\u3001BaseRetriever\u63a5\u53e3\u3001\u6df7\u5408\u68c0\u7d22RRF\uff09\n    17\t  - Ch56\uff1aWorkflows\u4e8b\u4ef6\u9a71\u52a8\u67b6\u6784\uff08@step\u88c5\u9970\u5668\u3001\u4e8b\u4ef6\u6d41\u3001\u72b6\u6001\u6301\u4e45\u5316\u3001\u4e0eLangGraph\u5bf9\u6bd4\uff09\n    18\t  - Ch57\uff1aAgentWorkflow\u4e0e\u5de5\u5177\u96c6\u6210\uff08FunctionTool\u3001\u591a\u667a\u80fd\u4f53\u7f16\u6392handoff\u673a\u5236\u3001Agentic Document Workflows\uff09\n    19\t\n    20\t### Vol4-02\uff1a\u6846\u67b6\u63d0\u793a\u8bcd\u9006\u5411\u5de5\u7a0b\uff08Ch58-60\uff09\n    21\t- **\u6587\u4ef6**\uff1a`\u6df1\u5ea6\u7814\u7a76\u62a5\u544a_Ch58-60_\u6846\u67b6\u63d0\u793a\u8bcd\u9006\u5411\u5de5\u7a0b_20260111.md`\n    22\t- **\u6838\u5fc3\u5185\u5bb9**\uff1a\n    23\t  - Ch58\uff1aLlamaIndex\u9ed8\u8ba4\u63d0\u793a\u8bcd\u6a21\u677f\uff08TreeSummarize\u3001Refine\u3001CondenseQuestion\u3001\u8bc4\u4f30\u63d0\u793a\u8bcd\u3001PromptSelector\u673a\u5236\uff09\n    24\t  - Ch59\uff1aLangChain/LangGraph\u63d0\u793a\u8bcd\uff08ReAct Agent\u3001Router\u3001Memory\u3001RAG\u56db\u79cd\u7ec4\u5408\u6a21\u5f0f\u3001Hub\u751f\u6001\uff09\n    25\t  - Ch60\uff1aGraphRAG\u63d0\u793a\u8bcd\u9006\u5411\u5de5\u7a0b\uff08\u5b9e\u4f53\u62bd\u53d6\u3001\u58f0\u660e\u62bd\u53d6\u3001\u793e\u533a\u6458\u8981\u3001Local/Global/DRIFT\u67e5\u8be2\u3001\u81ea\u52a8\u8c03\u4f18\uff09\n    26\t\n    27\t### Vol4-03\uff1a\u4f01\u4e1a\u7ea7RAG\u6846\u67b6\u6df1\u5ea6\u5256\u6790\uff08Ch61-63\uff09\n    28\t- **\u6587\u4ef6**\uff1a`\u6df1\u5ea6\u7814\u7a76\u62a5\u544a_Ch61-63_\u4f01\u4e1a\u7ea7RAG\u6846\u67b6\u6df1\u5ea6\u5256\u6790_20260111.md`\n    29\t- **\u6838\u5fc3\u5185\u5bb9**\uff1a\n    30\t  - Ch61\uff1aHaystack 2.0\u67b6\u6784\u6df1\u5ea6\u89e3\u6790\uff08@component\u88c5\u9970\u5668\u3001Pipeline\u6267\u884c\u5f15\u64ce\u3001RAG\u7ec4\u4ef6\u751f\u6001\u3001Hayhooks\u90e8\u7f72\uff09\n    31\t  - Ch62\uff1aMicrosoft Semantic Kernel\uff08Kernel/Functions/Plugins\u67b6\u6784\u3001Planner\u5f03\u7528\u3001AutoGen\u5408\u5e76\u3001Microsoft Agent Framework\uff09\n    32\t  - Ch63\uff1aRAGFlow\u4e0eDify\u5bf9\u6bd4\u5206\u6790\uff08DeepDoc\u5f15\u64ce\u3001Infinity\u5411\u91cf\u6570\u636e\u5e93\u3001Dify\u5de5\u4f5c\u6d41\u3001\u9009\u578b\u51b3\u7b56\u77e9\u9635\uff09\n    33\t\n    34\t---\n    35\t\n    36\t## \u5f85\u5b8c\u6210\u7814\u7a76\u62a5\u544a\n    37\t\n    38\t\uff08\u65e0 - \u5168\u90e8\u5b8c\u6210\uff09\n    39\t\n    40\t---\n    41\t\n    42\t### Vol4-04\uff1a\u6846\u67b6\u4e92\u64cd\u4f5c\u4e0eMCP\u96c6\u6210\uff08Ch64-66\uff09\n    43\t- **\u6587\u4ef6**\uff1a`\u6df1\u5ea6\u7814\u7a76\u62a5\u544a_Ch64-66_\u6846\u67b6\u4e92\u64cd\u4f5c\u4e0eMCP\u96c6\u6210_20260111.md`\n    44\t- **\u6838\u5fc3\u5185\u5bb9**\uff1a\n    45\t  - Ch64\uff1aLlamaIndex + LangChain\u53cc\u6846\u67b6\u96c6\u6210\uff08LlamaIndexRetriever\u9002\u914d\u5668\u6e90\u7801\u3001to_langchain_tool()\u8f6c\u6362\u63a5\u53e3\u3001\u53cc\u6846\u67b6\u534f\u540c\u6700\u4f73\u5b9e\u8df5\u3001\u6027\u80fd\u57fa\u51c6\u5bf9\u6bd4\uff09\n    46\t  - Ch65\uff1aDSPy\u4e0eRAG\u6846\u67b6\u8054\u5408\u4f18\u5316\uff08Signatures/Modules/Predictors\u67b6\u6784\u3001MIPROv2/GEPA\u4f18\u5316\u5668\u5bf9\u6bd4\u3001DSPy+LlamaIndex/Haystack\u96c6\u6210\u3001\u5b9e\u8bc1\u4f18\u5316\u6548\u679c15-112%\u63d0\u5347\uff09\n    47\t  - Ch66\uff1aMCP\u534f\u8bae\u4e0e\u6846\u67b6\u7edf\u4e00\u63a5\u5165\uff08MCP\u89c4\u8303\u6f14\u8fdb2024.11\u21922025.12 AAIF\u3001Tools/Resources/Prompts\u4e09\u5927\u80fd\u529b\u3001\u56db\u5927\u6846\u67b6MCP\u96c6\u6210\u5bf9\u6bd4\u3001\u751f\u6001\u7cfb\u7edf10,000+ Server\uff09\n    48\t\n    49\t---\n    50\t\n    51\t## \u7814\u7a76\u7edf\u8ba1\n    52\t\n    53\t| \u6279\u6b21 | \u7ae0\u8282 | \u72b6\u6001 | \u5b8c\u6210\u65e5\u671f |\n    54\t|:----:|:----:|:----:|:--------:|\n    55\t| Vol4-01 | Ch54-57 | \u2705 \u5df2\u5b8c\u6210 | 2026-01-11 |\n    56\t| Vol4-02 | Ch58-60 | \u2705 \u5df2\u5b8c\u6210 | 2026-01-11 |\n    57\t| Vol4-03 | Ch61-63 | \u2705 \u5df2\u5b8c\u6210 | 2026-01-11 |\n    58\t| Vol4-04 | Ch64-66 | \u2705 \u5df2\u5b8c\u6210 | 2026-01-11 |\n    59\t\n    60\t**\u603b\u8fdb\u5ea6**\uff1a13/13\u7ae0\u5b8c\u6210\uff08100%\uff09\u2705\n    61\t\n    62\t---\n    63\t\n    64\t## \u6838\u5fc3\u53d1\u73b0\u6c47\u603b\n    65\t\n    66\t### Vol4-01 \u6838\u5fc3\u6d1e\u5bdf\n    67\t- LlamaIndex\u57282024-2025\u5e74\u5b8c\u6210\u4eceRAG\u6846\u67b6\u5230Agent-First\u5e73\u53f0\u7684\u4e09\u91cd\u8f6c\u578b\n    68\t- Workflows\u4e8b\u4ef6\u9a71\u52a8\u67b6\u6784\u53d6\u4ee3Query Pipeline\u6210\u4e3a\u4e3b\u63a8\u7f16\u6392\u65b9\u5f0f\n    69\t- AgentWorkflow\u901a\u8fc7handoff\u673a\u5236\u5b9e\u73b0\u591a\u667a\u80fd\u4f53\u534f\u4f5c\n    70\t\n    71\t### Vol4-02 \u6838\u5fc3\u6d1e\u5bdf\n    72\t- \u4e09\u5927\u6846\u67b6\u63d0\u793a\u8bcd\u8bbe\u8ba1\u4f53\u73b0\u622a\u7136\u4e0d\u540c\u7684\u54f2\u5b66\n    73\t- LlamaIndex\uff1a\u4e0a\u4e0b\u6587\u53d7\u9650\u56de\u7b54\uff0c\u4e25\u683c\u5e7b\u89c9\u63a7\u5236\n    74\t- LangChain\uff1a\u6a21\u5757\u5316\u53ef\u7ec4\u5408\uff0cHub\u751f\u6001\u5171\u4eab\n    75\t- GraphRAG\uff1a\u7ed3\u6784\u5316\u4fe1\u606f\u62bd\u53d6\uff0c\u793e\u533a\u6458\u8981\u5c42\u7ea7\n    76\t\n    77\t### Vol4-03 \u6838\u5fc3\u6d1e\u5bdf\n    78\t- Haystack 2.0\uff1a\u4eceDAG\u5347\u7ea7\u4e3a\u6709\u5411\u56fe\uff0c@component\u88c5\u9970\u5668\u5b9e\u73b0\u534f\u8bae\u4f18\u4e8e\u7ee7\u627f\n    79\t- Semantic Kernel\uff1a\u4e0eAutoGen\u5408\u5e76\u4e3aMicrosoft Agent Framework\n    80\t- RAGFlow vs Dify\uff1a\u6df1\u5ea6\u6587\u6863\u7406\u89e3 vs \u5168\u6808\u5e94\u7528\u5e73\u53f0\u7684\u5dee\u5f02\u5316\u5b9a\u4f4d\n    81\t\n    82\t### Vol4-04 \u6838\u5fc3\u6d1e\u5bdf\n    83\t- \u53cc\u6846\u67b6\u7ec4\u5408\u53ef\u5b9e\u73b050%\u54cd\u5e94\u65f6\u95f4\u63d0\u5347\n    84\t- DSPy\u4f18\u5316\u53ef\u5e26\u676515-112%\u8d28\u91cf\u63d0\u5347\n    85\t- MCP\u534f\u8bae\u6210\u4e3aAI\u5de5\u5177\u8c03\u7528\u7684\u4e8b\u5b9e\u6807\u51c6\uff0c2025.12\u6350\u8d60\u7ed9Linux Foundation\n    86\t",
+        "uuid": "ff30d301-0bf4-45a3-980c-4395f94ba533"
+      }
+    ],
+    "is_error": false,
+    "structured_content": null,
+    "meta": null,
+    "message": null,
+    "integration_name": null,
+    "integration_icon_url": null,
+    "display_content": {
+      "type": "json_block",
+      "json_block": "{\"language\": \"markdown\", \"code\": \"# Vol4 \\u7814\\u7a76\\u62a5\\u544a\\u7d22\\u5f15\\n\\n**\\u5377\\u6b21**\\uff1a\\u7b2c\\u56db\\u5377 - \\u6e90\\u4ee3\\u7801\\u7ea7\\u6df1\\u5ea6\\u5256\\u6790  \\n**\\u7ae0\\u8282\\u8303\\u56f4**\\uff1aCh54-66  \\n**\\u7814\\u7a76\\u72b6\\u6001**\\uff1a\\u2705 \\u5168\\u90e8\\u5b8c\\u6210\\uff084/4\\u6279\\u6b21\\u5b8c\\u6210\\uff09  \\n**\\u66f4\\u65b0\\u65e5\\u671f**\\uff1a2026-01-11\\n\\n---\\n\\n## \\u5df2\\u5b8c\\u6210\\u7814\\u7a76\\u62a5\\u544a\\n\\n### Vol4-01\\uff1aLlamaIndex\\u6e90\\u4ee3\\u7801\\u6df1\\u5ea6\\u89e3\\u6790\\uff08Ch54-57\\uff09\\n- **\\u6587\\u4ef6**\\uff1a`\\u6df1\\u5ea6\\u7814\\u7a76\\u62a5\\u544a_Ch54-57_LlamaIndex\\u6e90\\u4ee3\\u7801\\u6df1\\u5ea6\\u5256\\u6790_20260111.md`\\n- **\\u6838\\u5fc3\\u5185\\u5bb9**\\uff1a\\n  - Ch54\\uff1aLlamaIndex\\u6838\\u5fc3\\u67b6\\u6784\\u5256\\u6790\\uff08Node/Document\\u62bd\\u8c61\\u5c42\\u3001ServiceContext\\u2192Settings\\u6f14\\u8fdb\\u3001\\u7d22\\u5f15\\u57fa\\u7c7b\\u7ee7\\u627f\\u4f53\\u7cfb\\uff09\\n  - Ch55\\uff1a\\u7d22\\u5f15\\u4e0e\\u68c0\\u7d22\\u7cfb\\u7edf\\u6e90\\u4ee3\\u7801\\uff08VectorStoreIndex\\u3001PropertyGraphIndex\\u3001BaseRetriever\\u63a5\\u53e3\\u3001\\u6df7\\u5408\\u68c0\\u7d22RRF\\uff09\\n  - Ch56\\uff1aWorkflows\\u4e8b\\u4ef6\\u9a71\\u52a8\\u67b6\\u6784\\uff08@step\\u88c5\\u9970\\u5668\\u3001\\u4e8b\\u4ef6\\u6d41\\u3001\\u72b6\\u6001\\u6301\\u4e45\\u5316\\u3001\\u4e0eLangGraph\\u5bf9\\u6bd4\\uff09\\n  - Ch57\\uff1aAgentWorkflow\\u4e0e\\u5de5\\u5177\\u96c6\\u6210\\uff08FunctionTool\\u3001\\u591a\\u667a\\u80fd\\u4f53\\u7f16\\u6392handoff\\u673a\\u5236\\u3001Agentic Document Workflows\\uff09\\n\\n### Vol4-02\\uff1a\\u6846\\u67b6\\u63d0\\u793a\\u8bcd\\u9006\\u5411\\u5de5\\u7a0b\\uff08Ch58-60\\uff09\\n- **\\u6587\\u4ef6**\\uff1a`\\u6df1\\u5ea6\\u7814\\u7a76\\u62a5\\u544a_Ch58-60_\\u6846\\u67b6\\u63d0\\u793a\\u8bcd\\u9006\\u5411\\u5de5\\u7a0b_20260111.md`\\n- **\\u6838\\u5fc3\\u5185\\u5bb9**\\uff1a\\n  - Ch58\\uff1aLlamaIndex\\u9ed8\\u8ba4\\u63d0\\u793a\\u8bcd\\u6a21\\u677f\\uff08TreeSummarize\\u3001Refine\\u3001CondenseQuestion\\u3001\\u8bc4\\u4f30\\u63d0\\u793a\\u8bcd\\u3001PromptSelector\\u673a\\u5236\\uff09\\n  - Ch59\\uff1aLangChain/LangGraph\\u63d0\\u793a\\u8bcd\\uff08ReAct Agent\\u3001Router\\u3001Memory\\u3001RAG\\u56db\\u79cd\\u7ec4\\u5408\\u6a21\\u5f0f\\u3001Hub\\u751f\\u6001\\uff09\\n  - Ch60\\uff1aGraphRAG\\u63d0\\u793a\\u8bcd\\u9006\\u5411\\u5de5\\u7a0b\\uff08\\u5b9e\\u4f53\\u62bd\\u53d6\\u3001\\u58f0\\u660e\\u62bd\\u53d6\\u3001\\u793e\\u533a\\u6458\\u8981\\u3001Local/Global/DRIFT\\u67e5\\u8be2\\u3001\\u81ea\\u52a8\\u8c03\\u4f18\\uff09\\n\\n### Vol4-03\\uff1a\\u4f01\\u4e1a\\u7ea7RAG\\u6846\\u67b6\\u6df1\\u5ea6\\u5256\\u6790\\uff08Ch61-63\\uff09\\n- **\\u6587\\u4ef6**\\uff1a`\\u6df1\\u5ea6\\u7814\\u7a76\\u62a5\\u544a_Ch61-63_\\u4f01\\u4e1a\\u7ea7RAG\\u6846\\u67b6\\u6df1\\u5ea6\\u5256\\u6790_20260111.md`\\n- **\\u6838\\u5fc3\\u5185\\u5bb9**\\uff1a\\n  - Ch61\\uff1aHaystack 2.0\\u67b6\\u6784\\u6df1\\u5ea6\\u89e3\\u6790\\uff08@component\\u88c5\\u9970\\u5668\\u3001Pipeline\\u6267\\u884c\\u5f15\\u64ce\\u3001RAG\\u7ec4\\u4ef6\\u751f\\u6001\\u3001Hayhooks\\u90e8\\u7f72\\uff09\\n  - Ch62\\uff1aMicrosoft Semantic Kernel\\uff08Kernel/Functions/Plugins\\u67b6\\u6784\\u3001Planner\\u5f03\\u7528\\u3001AutoGen\\u5408\\u5e76\\u3001Microsoft Agent Framework\\uff09\\n  - Ch63\\uff1aRAGFlow\\u4e0eDify\\u5bf9\\u6bd4\\u5206\\u6790\\uff08DeepDoc\\u5f15\\u64ce\\u3001Infinity\\u5411\\u91cf\\u6570\\u636e\\u5e93\\u3001Dify\\u5de5\\u4f5c\\u6d41\\u3001\\u9009\\u578b\\u51b3\\u7b56\\u77e9\\u9635\\uff09\\n\\n---\\n\\n## \\u5f85\\u5b8c\\u6210\\u7814\\u7a76\\u62a5\\u544a\\n\\n\\uff08\\u65e0 - \\u5168\\u90e8\\u5b8c\\u6210\\uff09\\n\\n---\\n\\n### Vol4-04\\uff1a\\u6846\\u67b6\\u4e92\\u64cd\\u4f5c\\u4e0eMCP\\u96c6\\u6210\\uff08Ch64-66\\uff09\\n- **\\u6587\\u4ef6**\\uff1a`\\u6df1\\u5ea6\\u7814\\u7a76\\u62a5\\u544a_Ch64-66_\\u6846\\u67b6\\u4e92\\u64cd\\u4f5c\\u4e0eMCP\\u96c6\\u6210_20260111.md`\\n- **\\u6838\\u5fc3\\u5185\\u5bb9**\\uff1a\\n  - Ch64\\uff1aLlamaIndex + LangChain\\u53cc\\u6846\\u67b6\\u96c6\\u6210\\uff08LlamaIndexRetriever\\u9002\\u914d\\u5668\\u6e90\\u7801\\u3001to_langchain_tool()\\u8f6c\\u6362\\u63a5\\u53e3\\u3001\\u53cc\\u6846\\u67b6\\u534f\\u540c\\u6700\\u4f73\\u5b9e\\u8df5\\u3001\\u6027\\u80fd\\u57fa\\u51c6\\u5bf9\\u6bd4\\uff09\\n  - Ch65\\uff1aDSPy\\u4e0eRAG\\u6846\\u67b6\\u8054\\u5408\\u4f18\\u5316\\uff08Signatures/Modules/Predictors\\u67b6\\u6784\\u3001MIPROv2/GEPA\\u4f18\\u5316\\u5668\\u5bf9\\u6bd4\\u3001DSPy+LlamaIndex/Haystack\\u96c6\\u6210\\u3001\\u5b9e\\u8bc1\\u4f18\\u5316\\u6548\\u679c15-112%\\u63d0\\u5347\\uff09\\n  - Ch66\\uff1aMCP\\u534f\\u8bae\\u4e0e\\u6846\\u67b6\\u7edf\\u4e00\\u63a5\\u5165\\uff08MCP\\u89c4\\u8303\\u6f14\\u8fdb2024.11\\u21922025.12 AAIF\\u3001Tools/Resources/Prompts\\u4e09\\u5927\\u80fd\\u529b\\u3001\\u56db\\u5927\\u6846\\u67b6MCP\\u96c6\\u6210\\u5bf9\\u6bd4\\u3001\\u751f\\u6001\\u7cfb\\u7edf10,000+ Server\\uff09\\n\\n---\\n\\n## \\u7814\\u7a76\\u7edf\\u8ba1\\n\\n| \\u6279\\u6b21 | \\u7ae0\\u8282 | \\u72b6\\u6001 | \\u5b8c\\u6210\\u65e5\\u671f |\\n|:----:|:----:|:----:|:--------:|\\n| Vol4-01 | Ch54-57 | \\u2705 \\u5df2\\u5b8c\\u6210 | 2026-01-11 |\\n| Vol4-02 | Ch58-60 | \\u2705 \\u5df2\\u5b8c\\u6210 | 2026-01-11 |\\n| Vol4-03 | Ch61-63 | \\u2705 \\u5df2\\u5b8c\\u6210 | 2026-01-11 |\\n| Vol4-04 | Ch64-66 | \\u2705 \\u5df2\\u5b8c\\u6210 | 2026-01-11 |\\n\\n**\\u603b\\u8fdb\\u5ea6**\\uff1a13/13\\u7ae0\\u5b8c\\u6210\\uff08100%\\uff09\\u2705\\n\\n---\\n\\n## \\u6838\\u5fc3\\u53d1\\u73b0\\u6c47\\u603b\\n\\n### Vol4-01 \\u6838\\u5fc3\\u6d1e\\u5bdf\\n- LlamaIndex\\u57282024-2025\\u5e74\\u5b8c\\u6210\\u4eceRAG\\u6846\\u67b6\\u5230Agent-First\\u5e73\\u53f0\\u7684\\u4e09\\u91cd\\u8f6c\\u578b\\n- Workflows\\u4e8b\\u4ef6\\u9a71\\u52a8\\u67b6\\u6784\\u53d6\\u4ee3Query Pipeline\\u6210\\u4e3a\\u4e3b\\u63a8\\u7f16\\u6392\\u65b9\\u5f0f\\n- AgentWorkflow\\u901a\\u8fc7handoff\\u673a\\u5236\\u5b9e\\u73b0\\u591a\\u667a\\u80fd\\u4f53\\u534f\\u4f5c\\n\\n### Vol4-02 \\u6838\\u5fc3\\u6d1e\\u5bdf\\n- \\u4e09\\u5927\\u6846\\u67b6\\u63d0\\u793a\\u8bcd\\u8bbe\\u8ba1\\u4f53\\u73b0\\u622a\\u7136\\u4e0d\\u540c\\u7684\\u54f2\\u5b66\\n- LlamaIndex\\uff1a\\u4e0a\\u4e0b\\u6587\\u53d7\\u9650\\u56de\\u7b54\\uff0c\\u4e25\\u683c\\u5e7b\\u89c9\\u63a7\\u5236\\n- LangChain\\uff1a\\u6a21\\u5757\\u5316\\u53ef\\u7ec4\\u5408\\uff0cHub\\u751f\\u6001\\u5171\\u4eab\\n- GraphRAG\\uff1a\\u7ed3\\u6784\\u5316\\u4fe1\\u606f\\u62bd\\u53d6\\uff0c\\u793e\\u533a\\u6458\\u8981\\u5c42\\u7ea7\\n\\n### Vol4-03 \\u6838\\u5fc3\\u6d1e\\u5bdf\\n- Haystack 2.0\\uff1a\\u4eceDAG\\u5347\\u7ea7\\u4e3a\\u6709\\u5411\\u56fe\\uff0c@component\\u88c5\\u9970\\u5668\\u5b9e\\u73b0\\u534f\\u8bae\\u4f18\\u4e8e\\u7ee7\\u627f\\n- Semantic Kernel\\uff1a\\u4e0eAutoGen\\u5408\\u5e76\\u4e3aMicrosoft Agent Framework\\n- RAGFlow vs Dify\\uff1a\\u6df1\\u5ea6\\u6587\\u6863\\u7406\\u89e3 vs \\u5168\\u6808\\u5e94\\u7528\\u5e73\\u53f0\\u7684\\u5dee\\u5f02\\u5316\\u5b9a\\u4f4d\\n\\n### Vol4-04 \\u6838\\u5fc3\\u6d1e\\u5bdf\\n- \\u53cc\\u6846\\u67b6\\u7ec4\\u5408\\u53ef\\u5b9e\\u73b050%\\u54cd\\u5e94\\u65f6\\u95f4\\u63d0\\u5347\\n- DSPy\\u4f18\\u5316\\u53ef\\u5e26\\u676515-112%\\u8d28\\u91cf\\u63d0\\u5347\\n- MCP\\u534f\\u8bae\\u6210\\u4e3aAI\\u5de5\\u5177\\u8c03\\u7528\\u7684\\u4e8b\\u5b9e\\u6807\\u51c6\\uff0c2025.12\\u6350\\u8d60\\u7ed9Linux Foundation\\n\", \"filename\": \"/mnt/user-data/outputs/aurolaok/docs/survey/vol4/_research/00_\\u7814\\u7a76\\u62a5\\u544a\\u7d22\\u5f15.md\"}"
+    }
+  },
+  {
+    "start_timestamp": "2026-01-11T08:46:14.299092Z",
+    "stop_timestamp": "2026-01-11T08:46:15.400953Z",
+    "flags": null,
+    "type": "thinking",
+    "thinking": "The index is updated. Let me also fix the format - Vol4-04 should be in the \"\u5df2\u5b8c\u6210\u7814\u7a76\u62a5\u544a\" section, not after \"\u5f85\u5b8c\u6210\". Let me fix this.",
+    "summaries": [
+      {
+        "summary": "\u91cd\u65b0\u6574\u7406\u4e86\u7d22\u5f15\u5e76\u8c03\u6574\u4e86\u7ae0\u8282\u5206\u7c7b\u3002"
+      }
+    ],
+    "cut_off": false,
+    "alternative_display_type": null
+  },
+  {
+    "start_timestamp": "2026-01-11T08:46:15.520035Z",
+    "stop_timestamp": "2026-01-11T08:46:23.310756Z",
+    "flags": null,
+    "type": "tool_use",
+    "name": "str_replace",
+    "input": {
+      "path": "/mnt/user-data/outputs/aurolaok/docs/survey/vol4/_research/00_\u7814\u7a76\u62a5\u544a\u7d22\u5f15.md",
+      "new_str": "### Vol4-03\uff1a\u4f01\u4e1a\u7ea7RAG\u6846\u67b6\u6df1\u5ea6\u5256\u6790\uff08Ch61-63\uff09\n- **\u6587\u4ef6**\uff1a`\u6df1\u5ea6\u7814\u7a76\u62a5\u544a_Ch61-63_\u4f01\u4e1a\u7ea7RAG\u6846\u67b6\u6df1\u5ea6\u5256\u6790_20260111.md`\n- **\u6838\u5fc3\u5185\u5bb9**\uff1a\n  - Ch61\uff1aHaystack 2.0\u67b6\u6784\u6df1\u5ea6\u89e3\u6790\uff08@component\u88c5\u9970\u5668\u3001Pipeline\u6267\u884c\u5f15\u64ce\u3001RAG\u7ec4\u4ef6\u751f\u6001\u3001Hayhooks\u90e8\u7f72\uff09\n  - Ch62\uff1aMicrosoft Semantic Kernel\uff08Kernel/Functions/Plugins\u67b6\u6784\u3001Planner\u5f03\u7528\u3001AutoGen\u5408\u5e76\u3001Microsoft Agent Framework\uff09\n  - Ch63\uff1aRAGFlow\u4e0eDify\u5bf9\u6bd4\u5206\u6790\uff08DeepDoc\u5f15\u64ce\u3001Infinity\u5411\u91cf\u6570\u636e\u5e93\u3001Dify\u5de5\u4f5c\u6d41\u3001\u9009\u578b\u51b3\u7b56\u77e9\u9635\uff09\n\n### Vol4-04\uff1a\u6846\u67b6\u4e92\u64cd\u4f5c\u4e0eMCP\u96c6\u6210\uff08Ch64-66\uff09\n- **\u6587\u4ef6**\uff1a`\u6df1\u5ea6\u7814\u7a76\u62a5\u544a_Ch64-66_\u6846\u67b6\u4e92\u64cd\u4f5c\u4e0eMCP\u96c6\u6210_20260111.md`\n- **\u6838\u5fc3\u5185\u5bb9**\uff1a\n  - Ch64\uff1aLlamaIndex + LangChain\u53cc\u6846\u67b6\u96c6\u6210\uff08LlamaIndexRetriever\u9002\u914d\u5668\u6e90\u7801\u3001to_langchain_tool()\u8f6c\u6362\u63a5\u53e3\u3001\u53cc\u6846\u67b6\u534f\u540c\u6700\u4f73\u5b9e\u8df5\u3001\u6027\u80fd\u57fa\u51c6\u5bf9\u6bd4\uff09\n  - Ch65\uff1aDSPy\u4e0eRAG\u6846\u67b6\u8054\u5408\u4f18\u5316\uff08Signatures/Modules/Predictors\u67b6\u6784\u3001MIPROv2/GEPA\u4f18\u5316\u5668\u5bf9\u6bd4\u3001DSPy+LlamaIndex/Haystack\u96c6\u6210\u3001\u5b9e\u8bc1\u4f18\u5316\u6548\u679c15-112%\u63d0\u5347\uff09\n  - Ch66\uff1aMCP\u534f\u8bae\u4e0e\u6846\u67b6\u7edf\u4e00\u63a5\u5165\uff08MCP\u89c4\u8303\u6f14\u8fdb2024.11\u21922025.12 AAIF\u3001Tools/Resources/Prompts\u4e09\u5927\u80fd\u529b\u3001\u56db\u5927\u6846\u67b6MCP\u96c6\u6210\u5bf9\u6bd4\u3001\u751f\u6001\u7cfb\u7edf10,000+ Server\uff09\n\n---\n\n## \u7814\u7a76\u7edf\u8ba1",
+      "old_str": "### Vol4-03\uff1a\u4f01\u4e1a\u7ea7RAG\u6846\u67b6\u6df1\u5ea6\u5256\u6790\uff08Ch61-63\uff09\n- **\u6587\u4ef6**\uff1a`\u6df1\u5ea6\u7814\u7a76\u62a5\u544a_Ch61-63_\u4f01\u4e1a\u7ea7RAG\u6846\u67b6\u6df1\u5ea6\u5256\u6790_20260111.md`\n- **\u6838\u5fc3\u5185\u5bb9**\uff1a\n  - Ch61\uff1aHaystack 2.0\u67b6\u6784\u6df1\u5ea6\u89e3\u6790\uff08@component\u88c5\u9970\u5668\u3001Pipeline\u6267\u884c\u5f15\u64ce\u3001RAG\u7ec4\u4ef6\u751f\u6001\u3001Hayhooks\u90e8\u7f72\uff09\n  - Ch62\uff1aMicrosoft Semantic Kernel\uff08Kernel/Functions/Plugins\u67b6\u6784\u3001Planner\u5f03\u7528\u3001AutoGen\u5408\u5e76\u3001Microsoft Agent Framework\uff09\n  - Ch63\uff1aRAGFlow\u4e0eDify\u5bf9\u6bd4\u5206\u6790\uff08DeepDoc\u5f15\u64ce\u3001Infinity\u5411\u91cf\u6570\u636e\u5e93\u3001Dify\u5de5\u4f5c\u6d41\u3001\u9009\u578b\u51b3\u7b56\u77e9\u9635\uff09\n\n---\n\n## \u5f85\u5b8c\u6210\u7814\u7a76\u62a5\u544a\n\n\uff08\u65e0 - \u5168\u90e8\u5b8c\u6210\uff09\n\n---\n\n### Vol4-04\uff1a\u6846\u67b6\u4e92\u64cd\u4f5c\u4e0eMCP\u96c6\u6210\uff08Ch64-66\uff09\n- **\u6587\u4ef6**\uff1a`\u6df1\u5ea6\u7814\u7a76\u62a5\u544a_Ch64-66_\u6846\u67b6\u4e92\u64cd\u4f5c\u4e0eMCP\u96c6\u6210_20260111.md`\n- **\u6838\u5fc3\u5185\u5bb9**\uff1a\n  - Ch64\uff1aLlamaIndex + LangChain\u53cc\u6846\u67b6\u96c6\u6210\uff08LlamaIndexRetriever\u9002\u914d\u5668\u6e90\u7801\u3001to_langchain_tool()\u8f6c\u6362\u63a5\u53e3\u3001\u53cc\u6846\u67b6\u534f\u540c\u6700\u4f73\u5b9e\u8df5\u3001\u6027\u80fd\u57fa\u51c6\u5bf9\u6bd4\uff09\n  - Ch65\uff1aDSPy\u4e0eRAG\u6846\u67b6\u8054\u5408\u4f18\u5316\uff08Signatures/Modules/Predictors\u67b6\u6784\u3001MIPROv2/GEPA\u4f18\u5316\u5668\u5bf9\u6bd4\u3001DSPy+LlamaIndex/Haystack\u96c6\u6210\u3001\u5b9e\u8bc1\u4f18\u5316\u6548\u679c15-112%\u63d0\u5347\uff09\n  - Ch66\uff1aMCP\u534f\u8bae\u4e0e\u6846\u67b6\u7edf\u4e00\u63a5\u5165\uff08MCP\u89c4\u8303\u6f14\u8fdb2024.11\u21922025.12 AAIF\u3001Tools/Resources/Prompts\u4e09\u5927\u80fd\u529b\u3001\u56db\u5927\u6846\u67b6MCP\u96c6\u6210\u5bf9\u6bd4\u3001\u751f\u6001\u7cfb\u7edf10,000+ Server\uff09\n\n---\n\n## \u7814\u7a76\u7edf\u8ba1",
+      "description": "\u4fee\u6b63Vol4-04\u4f4d\u7f6e\u5230\u5df2\u5b8c\u6210\u533a\u57df"
+    },
+    "message": "\u4fee\u6b63Vol4-04\u4f4d\u7f6e\u5230\u5df2\u5b8c\u6210\u533a\u57df",
+    "integration_name": null,
+    "integration_icon_url": null,
+    "context": null,
+    "display_content": {
+      "type": "text",
+      "text": "\u4fee\u6b63Vol4-04\u4f4d\u7f6e\u5230\u5df2\u5b8c\u6210\u533a\u57df"
+    },
+    "approval_options": null,
+    "approval_key": null
+  },
+  {
+    "start_timestamp": null,
+    "stop_timestamp": null,
+    "flags": null,
+    "type": "tool_result",
+    "name": "str_replace",
+    "content": [
+      {
+        "type": "text",
+        "text": "Successfully replaced string in /mnt/user-data/outputs/aurolaok/docs/survey/vol4/_research/00_\u7814\u7a76\u62a5\u544a\u7d22\u5f15.md",
+        "uuid": "d42d1341-98d7-4b81-bf23-27c4f364b841"
+      }
+    ],
+    "is_error": false,
+    "structured_content": null,
+    "meta": null,
+    "message": null,
+    "integration_name": null,
+    "integration_icon_url": null,
+    "display_content": {
+      "type": "text",
+      "text": "Successfully replaced string in /mnt/user-data/outputs/aurolaok/docs/survey/vol4/_research/00_\u7814\u7a76\u62a5\u544a\u7d22\u5f15.md"
+    }
+  },
+  {
+    "start_timestamp": "2026-01-11T08:46:26.469306Z",
+    "stop_timestamp": "2026-01-11T08:46:27.171688Z",
+    "flags": null,
+    "type": "thinking",
+    "thinking": "Good. Now let me list all the files in the Vol4 research directory to confirm everything is there.",
+    "summaries": [],
+    "cut_off": false,
+    "alternative_display_type": null
+  },
+  {
+    "start_timestamp": "2026-01-11T08:46:27.372256Z",
+    "stop_timestamp": "2026-01-11T08:46:27.914894Z",
+    "flags": null,
+    "type": "tool_use",
+    "name": "bash_tool",
+    "input": {
+      "command": "ls -la /mnt/user-data/outputs/aurolaok/docs/survey/vol4/_research/",
+      "description": "\u5217\u51faVol4\u7814\u7a76\u76ee\u5f55\u6240\u6709\u6587\u4ef6"
+    },
+    "message": "\u5217\u51faVol4\u7814\u7a76\u76ee\u5f55\u6240\u6709\u6587\u4ef6",
+    "integration_name": null,
+    "integration_icon_url": null,
+    "context": null,
+    "display_content": {
+      "type": "json_block",
+      "json_block": "{\"language\": \"bash\", \"code\": \"ls -la /mnt/user-data/outputs/aurolaok/docs/survey/vol4/_research/\"}"
+    },
+    "approval_options": null,
+    "approval_key": null
+  },
+  {
+    "start_timestamp": null,
+    "stop_timestamp": null,
+    "flags": null,
+    "type": "tool_result",
+    "name": "bash_tool",
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"returncode\":0,\"stdout\":\"total 82\\ndrwxr-xr-x 1 999 root     0 Jan 11 08:43 .\\ndrwxr-xr-x 1 999 root     0 Jan 11 04:48 ..\\n-rw-r--r-- 1 999 root  3981 Jan 11 08:43 00_\u7814\u7a76\u62a5\u544a\u7d22\u5f15.md\\n-rw-r--r-- 1 999 root 21933 Jan 11 08:43 \u6df1\u5ea6\u7814\u7a76\u62a5\u544a_Ch54-57_LlamaIndex\u6e90\u4ee3\u7801\u6df1\u5ea6\u5256\u6790_20260111.md\\n-rw-r--r-- 1 999 root 20747 Jan 11 08:43 \u6df1\u5ea6\u7814\u7a76\u62a5\u544a_Ch58-60_\u6846\u67b6\u63d0\u793a\u8bcd\u9006\u5411\u5de5\u7a0b_20260111.md\\n-rw-r--r-- 1 999 root 17940 Jan 11 08:43 \u6df1\u5ea6\u7814\u7a76\u62a5\u544a_Ch61-63_\u4f01\u4e1a\u7ea7RAG\u6846\u67b6\u6df1\u5ea6\u5256\u6790_20260111.md\\n-rw-r--r-- 1 999 root 18374 Jan 11 08:43 \u6df1\u5ea6\u7814\u7a76\u62a5\u544a_Ch64-66_\u6846\u67b6\u4e92\u64cd\u4f5c\u4e0eMCP\u96c6\u6210_20260111.md\\n\",\"stderr\":\"\"}",
+        "uuid": "60fb73b7-2a9a-4eca-a960-b0eecceac61b"
+      }
+    ],
+    "is_error": false,
+    "structured_content": null,
+    "meta": null,
+    "message": null,
+    "integration_name": null,
+    "integration_icon_url": null,
+    "display_content": {
+      "type": "json_block",
+      "json_block": "{\"returncode\":0,\"stdout\":\"total 82\\ndrwxr-xr-x 1 999 root     0 Jan 11 08:43 .\\ndrwxr-xr-x 1 999 root     0 Jan 11 04:48 ..\\n-rw-r--r-- 1 999 root  3981 Jan 11 08:43 00_\u7814\u7a76\u62a5\u544a\u7d22\u5f15.md\\n-rw-r--r-- 1 999 root 21933 Jan 11 08:43 \u6df1\u5ea6\u7814\u7a76\u62a5\u544a_Ch54-57_LlamaIndex\u6e90\u4ee3\u7801\u6df1\u5ea6\u5256\u6790_20260111.md\\n-rw-r--r-- 1 999 root 20747 Jan 11 08:43 \u6df1\u5ea6\u7814\u7a76\u62a5\u544a_Ch58-60_\u6846\u67b6\u63d0\u793a\u8bcd\u9006\u5411\u5de5\u7a0b_20260111.md\\n-rw-r--r-- 1 999 root 17940 Jan 11 08:43 \u6df1\u5ea6\u7814\u7a76\u62a5\u544a_Ch61-63_\u4f01\u4e1a\u7ea7RAG\u6846\u67b6\u6df1\u5ea6\u5256\u6790_20260111.md\\n-rw-r--r-- 1 999 root 18374 Jan 11 08:43 \u6df1\u5ea6\u7814\u7a76\u62a5\u544a_Ch64-66_\u6846\u67b6\u4e92\u64cd\u4f5c\u4e0eMCP\u96c6\u6210_20260111.md\\n\",\"stderr\":\"\"}"
+    }
+  },
+  {
+    "start_timestamp": "2026-01-11T08:46:30.960340Z",
+    "stop_timestamp": "2026-01-11T08:46:32.029878Z",
+    "flags": null,
+    "type": "thinking",
+    "thinking": "All 4 research reports plus the index file are present. Let me now create a summary of the entire project status to give the user a comprehensive view of what has been completed.",
+    "summaries": [
+      {
+        "summary": "\u76d8\u70b9\u4e86\u6240\u6709\u7814\u7a76\u62a5\u544a\u5e76\u51c6\u5907\u7efc\u5408\u603b\u7ed3\u3002"
+      }
+    ],
+    "cut_off": false,
+    "alternative_display_type": null
+  },
+  {
+    "start_timestamp": "2026-01-11T08:46:32.190973Z",
+    "stop_timestamp": "2026-01-11T08:46:34.080496Z",
+    "flags": null,
+    "type": "tool_use",
+    "name": "bash_tool",
+    "input": {
+      "command": "echo \"=== Vol4 \u7814\u7a76\u62a5\u544a\u5b8c\u6210\u72b6\u6001 ===\" && echo \"\" && find /mnt/user-data/outputs/aurolaok/docs/survey/vol4/_research/ -name \"*.md\" -exec wc -c {} \\; | sort -n && echo \"\" && echo \"=== \u5168\u9879\u76ee\u6587\u4ef6\u7edf\u8ba1 ===\" && find /mnt/user-data/outputs/aurolaok/docs/survey/ -name \"*.md\" 2>/dev/null | wc -l && echo \"\u4e2aMarkdown\u6587\u4ef6\"",
+      "description": "\u7edf\u8ba1Vol4\u7814\u7a76\u62a5\u544a\u548c\u5168\u9879\u76ee\u6587\u4ef6"
+    },
+    "message": "\u7edf\u8ba1Vol4\u7814\u7a76\u62a5\u544a\u548c\u5168\u9879\u76ee\u6587\u4ef6",
+    "integration_name": null,
+    "integration_icon_url": null,
+    "context": null,
+    "display_content": {
+      "type": "json_block",
+      "json_block": "{\"language\": \"bash\", \"code\": \"echo \\\"=== Vol4 \\u7814\\u7a76\\u62a5\\u544a\\u5b8c\\u6210\\u72b6\\u6001 ===\\\" && echo \\\"\\\" && find /mnt/user-data/outputs/aurolaok/docs/survey/vol4/_research/ -name \\\"*.md\\\" -exec wc -c {} \\\\; | sort -n && echo \\\"\\\" && echo \\\"=== \\u5168\\u9879\\u76ee\\u6587\\u4ef6\\u7edf\\u8ba1 ===\\\" && find /mnt/user-data/outputs/aurolaok/docs/survey/ -name \\\"*.md\\\" 2>/dev/null | wc -l && echo \\\"\\u4e2aMarkdown\\u6587\\u4ef6\\\"\"}"
+    },
+    "approval_options": null,
+    "approval_key": null
+  },
+  {
+    "start_timestamp": null,
+    "stop_timestamp": null,
+    "flags": null,
+    "type": "tool_result",
+    "name": "bash_tool",
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"returncode\":0,\"stdout\":\"=== Vol4 \u7814\u7a76\u62a5\u544a\u5b8c\u6210\u72b6\u6001 ===\\n\\n3981 /mnt/user-data/outputs/aurolaok/docs/survey/vol4/_research/00_\u7814\u7a76\u62a5\u544a\u7d22\u5f15.md\\n17940 /mnt/user-data/outputs/aurolaok/docs/survey/vol4/_research/\u6df1\u5ea6\u7814\u7a76\u62a5\u544a_Ch61-63_\u4f01\u4e1a\u7ea7RAG\u6846\u67b6\u6df1\u5ea6\u5256\u6790_20260111.md\\n18374 /mnt/user-data/outputs/aurolaok/docs/survey/vol4/_research/\u6df1\u5ea6\u7814\u7a76\u62a5\u544a_Ch64-66_\u6846\u67b6\u4e92\u64cd\u4f5c\u4e0eMCP\u96c6\u6210_20260111.md\\n20747 /mnt/user-data/outputs/aurolaok/docs/survey/vol4/_research/\u6df1\u5ea6\u7814\u7a76\u62a5\u544a_Ch58-60_\u6846\u67b6\u63d0\u793a\u8bcd\u9006\u5411\u5de5\u7a0b_20260111.md\\n21933 /mnt/user-data/outputs/aurolaok/docs/survey/vol4/_research/\u6df1\u5ea6\u7814\u7a76\u62a5\u544a_Ch54-57_LlamaIndex\u6e90\u4ee3\u7801\u6df1\u5ea6\u5256\u6790_20260111.md\\n\\n=== \u5168\u9879\u76ee\u6587\u4ef6\u7edf\u8ba1 ===\\n102\\n\u4e2aMarkdown\u6587\u4ef6\\n\",\"stderr\":\"\"}",
+        "uuid": "cf35634b-c207-4ee4-831c-9cccdf28e468"
+      }
+    ],
+    "is_error": false,
+    "structured_content": null,
+    "meta": null,
+    "message": null,
+    "integration_name": null,
+    "integration_icon_url": null,
+    "display_content": {
+      "type": "json_block",
+      "json_block": "{\"returncode\":0,\"stdout\":\"=== Vol4 \u7814\u7a76\u62a5\u544a\u5b8c\u6210\u72b6\u6001 ===\\n\\n3981 /mnt/user-data/outputs/aurolaok/docs/survey/vol4/_research/00_\u7814\u7a76\u62a5\u544a\u7d22\u5f15.md\\n17940 /mnt/user-data/outputs/aurolaok/docs/survey/vol4/_research/\u6df1\u5ea6\u7814\u7a76\u62a5\u544a_Ch61-63_\u4f01\u4e1a\u7ea7RAG\u6846\u67b6\u6df1\u5ea6\u5256\u6790_20260111.md\\n18374 /mnt/user-data/outputs/aurolaok/docs/survey/vol4/_research/\u6df1\u5ea6\u7814\u7a76\u62a5\u544a_Ch64-66_\u6846\u67b6\u4e92\u64cd\u4f5c\u4e0eMCP\u96c6\u6210_20260111.md\\n20747 /mnt/user-data/outputs/aurolaok/docs/survey/vol4/_research/\u6df1\u5ea6\u7814\u7a76\u62a5\u544a_Ch58-60_\u6846\u67b6\u63d0\u793a\u8bcd\u9006\u5411\u5de5\u7a0b_20260111.md\\n21933 /mnt/user-data/outputs/aurolaok/docs/survey/vol4/_research/\u6df1\u5ea6\u7814\u7a76\u62a5\u544a_Ch54-57_LlamaIndex\u6e90\u4ee3\u7801\u6df1\u5ea6\u5256\u6790_20260111.md\\n\\n=== \u5168\u9879\u76ee\u6587\u4ef6\u7edf\u8ba1 ===\\n102\\n\u4e2aMarkdown\u6587\u4ef6\\n\",\"stderr\":\"\"}"
+    }
+  },
+  {
+    "start_timestamp": "2026-01-11T08:46:45.855479Z",
+    "stop_timestamp": "2026-01-11T08:46:46.368279Z",
+    "flags": null,
+    "type": "thinking",
+    "thinking": "All Vol4 research is complete. Let me provide a final summary to the user.",
+    "summaries": [
+      {
+        "summary": "Vol4\u7814\u7a76\u5df2\u7ae3\u5de5\uff0c\u51c6\u5907\u4ea4\u4ed8\u603b\u7ed3\u3002"
+      }
+    ],
+    "cut_off": false,
+    "alternative_display_type": null
+  },
+  {
+    "start_timestamp": "2026-01-11T08:46:46.384030Z",
+    "stop_timestamp": "2026-01-11T08:46:53.676197Z",
+    "flags": null,
+    "type": "text",
+    "text": "---\n\n## \u2705 Vol4\u6df1\u5ea6\u7814\u7a76\u5168\u90e8\u5b8c\u6210\uff01\n\n**Vol4\uff08\u6e90\u4ee3\u7801\u7ea7\u6df1\u5ea6\u5256\u6790\uff09** \u7684\u5168\u90e8\u56db\u4e2a\u7814\u7a76\u6279\u6b21\u5df2\u7ecf\u5b8c\u6210\uff0c\u8986\u76d6Ch54-66\u517113\u7ae0\uff1a\n\n| \u6279\u6b21 | \u7ae0\u8282 | \u4e3b\u9898 | \u6587\u4ef6\u5927\u5c0f |\n|------|------|------|---------|\n| Vol4-01 | Ch54-57 | LlamaIndex\u6e90\u4ee3\u7801\u6df1\u5ea6\u5256\u6790 | 21.9KB |\n| Vol4-02 | Ch58-60 | \u6846\u67b6\u63d0\u793a\u8bcd\u9006\u5411\u5de5\u7a0b | 20.7KB |\n| Vol4-03 | Ch61-63 | \u4f01\u4e1a\u7ea7RAG\u6846\u67b6\u6df1\u5ea6\u5256\u6790 | 17.9KB |\n| Vol4-04 | Ch64-66 | \u6846\u67b6\u4e92\u64cd\u4f5c\u4e0eMCP\u96c6\u6210 | 18.4KB |\n\n---\n\n### \u9879\u76ee\u6574\u4f53\u8fdb\u5ea6\u6c47\u603b\n\n| \u5377\u6b21 | \u7ae0\u8282\u8303\u56f4 | \u72b6\u6001 | \u5b8c\u6210\u5ea6 |\n|------|---------|------|--------|\n| **Vol1** | Ch1-18 | \u2705 \u5b66\u672f\u7248\u5b8c\u6210 | 100% |\n| **Vol2** | Ch19-28 | \u2705 \u6df1\u5ea6\u7814\u7a76\u5b8c\u6210 | 100% |\n| **Vol3** | Ch29-43 | \u2705 \u6df1\u5ea6\u7814\u7a76\u5b8c\u6210 | 100% |\n| **Vol4** | Ch54-66 | \u2705 \u6df1\u5ea6\u7814\u7a76\u5b8c\u6210 | 100% |\n\n**\u603b\u8ba1**\uff1a66\u7ae0\u5b8c\u6210 / 93\u7ae0\u89c4\u5212\uff0871%\uff09\n\n---\n\n### \u5269\u4f59\u5de5\u4f5c\n\n\u6839\u636e\u9879\u76ee\u89c4\u5212\uff0c\u540e\u7eed\u5377\u6b21\u4e3a\uff1a\n- **Vol5**\uff08Ch67-78\uff09\uff1a\u884c\u4e1a\u5782\u76f4\u5e94\u7528\u4e0e\u6848\u4f8b\u7814\u7a76\n- **Vol6**\uff08Ch79-87\uff09\uff1a\u90e8\u7f72\u4e0e\u8fd0\u7ef4\n- **Vol7**\uff08Ch88-93\uff09\uff1a\u672a\u6765\u5c55\u671b\n\n\u662f\u5426\u9700\u8981\u7ee7\u7eed\u542f\u52a8Vol5\u7684\u6df1\u5ea6\u7814\u7a76\uff0c\u6216\u8005\u5148\u6253\u5305\u5f53\u524d\u5df2\u5b8c\u6210\u7684\u6240\u6709\u5185\u5bb9\uff1f",
+    "citations": []
+  }
+]

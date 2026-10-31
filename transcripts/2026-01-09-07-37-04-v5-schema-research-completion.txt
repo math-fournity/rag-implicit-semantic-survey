@@ -1,0 +1,1893 @@
+Assistant:
+Content:
+[
+  {
+    "start_timestamp": "2026-01-09T05:38:13.607255Z",
+    "stop_timestamp": "2026-01-09T05:38:13.607255Z",
+    "flags": null,
+    "type": "text",
+    "text": "\n\n",
+    "citations": []
+  },
+  {
+    "start_timestamp": "2026-01-09T05:38:13.607255Z",
+    "stop_timestamp": "2026-01-09T05:38:24.426108Z",
+    "flags": null,
+    "type": "thinking",
+    "thinking": "\u7528\u6237\u5e0c\u671b\u6211\u57fa\u4e8ev5 Schema\u4e2d\u7684\u65b0\u5173\u952e\u8bcd\u542f\u52a8Research\u8fc7\u7a0b\u3002\u8ba9\u6211\u5206\u6790v5 Schema\u4e2d\u6709\u54ea\u4e9b\u65b0\u589e\u7684\u3001\u503c\u5f97\u6df1\u5165\u7814\u7a76\u7684\u5173\u952e\u8bcd\u548c\u4e3b\u9898\uff1a\n\n\u4ece\u4e24\u4efd\u5ba1\u8ba1\u62a5\u544a\u4e2d\u8bc6\u522b\u7684P0\u9057\u6f0f\uff0c\u4ee5\u53cav5\u65b0\u589e\u5185\u5bb9\uff1a\n\n1. **\u77e5\u8bc6\u5d4c\u5165\u6280\u672f\u8def\u7ebf**\uff1a\n   - \u589e\u91cf\u9884\u8bad\u7ec3 (Continued Pre-training)\n   - \u707e\u96be\u6027\u9057\u5fd8 (Catastrophic Forgetting)\n   - SFT\u662f\u6559\"\u89c4\u77e9\"\u800c\u975e\"\u77e5\u8bc6\"\n   - LoRA/PEFT\n   - \u6a21\u578b\u7f16\u8f91 ROME/MEMIT\n\n2. **\u8d85\u957f\u6587\u6863\u5904\u7406**\uff1a\n   - Map-Reduce\u9012\u5f52\u6458\u8981\n   - Parent-Child Indexing\n   - HierarchicalNodeParser (LlamaIndex)\n   - Top-Down Drill-Down\n\n3. **\u9690\u6027\u8bed\u4e49\u63d0\u53d6\u65b9\u6cd5\u8bba**\uff1a\n   - \u53cc\u8f68\u63d0\u53d6\u7b56\u7565 (Dual-Track Extraction)\n   - \u5b66\u672f\u672f\u8bed\u6fc0\u6d3b\u4e13\u5bb6\u6743\u91cd\n   - \u501f\u7528\u6807\u6ce8\u6307\u5357 (Annotation Guidelines)\n   - NLI/RTE\u5b66\u672f\u6570\u636e\u96c6 (SNLI, MultiNLI, Atomic)\n\n4. **Prompt\u5de5\u7a0b**\uff1a\n   - GraphRAG Entity Extraction Prompt\u5b9a\u5236\n   - Fabric Prompt\u5e93 (danielmiessler/fabric)\n   - \u516b\u6846\u67b6\u5206\u5c42\u5904\u7406 (Layer 1/2/3)\n\n\u8fd9\u4e2a\u7814\u7a76\u4efb\u52a1\u975e\u5e38\u660e\u786e\uff0c\u7528\u6237\u60f3\u8981\u57fa\u4e8ev5 Schema\u7684\u65b0\u5173\u952e\u8bcd\u83b7\u53d6\u6700\u65b0\u4fe1\u606f\u3002\u6211\u5e94\u8be5\u76f4\u63a5\u542f\u52a8\u7814\u7a76\uff0c\u4e0d\u9700\u8981\u592a\u591a\u6f84\u6e05\u95ee\u9898\uff0c\u56e0\u4e3a\u76ee\u6807\u5f88\u6e05\u6670\u3002\n\n\u7528\u6237\u7684\u610f\u56fe\u5f88\u660e\u786e\u2014\u2014\u57fa\u4e8ev5 Schema\u7684\u65b0\u5173\u952e\u8bcd\u8fdb\u884c\u8865\u5145\u7814\u7a76\u3002\u6211\u5e94\u8be5\u76f4\u63a5\u542f\u52a8\uff0c\u628a\u91cd\u70b9\u653e\u5728\u5ba1\u8ba1\u62a5\u544a\u4e2d\u9057\u6f0f\u7684\u5185\u5bb9\u548cv5\u65b0\u589e\u7684\u6280\u672f\u65b9\u5411\u4e0a\uff0c\u4f18\u5148\u8986\u76d6\u77e5\u8bc6\u5d4c\u5165\u3001\u8d85\u957f\u6587\u6863\u5904\u7406\u548c\u9690\u6027\u8bed\u4e49\u63d0\u53d6\u8fd9\u4e09\u4e2a\u6838\u5fc3\u9886\u57df\u3002",
+    "summaries": [
+      {
+        "summary": "\u601d\u8003\u5982\u4f55\u901a\u8fc7\u65b0\u5173\u952e\u8bcd\u6269\u5c55\u7814\u7a76\u4ee5\u83b7\u53d6\u65b0\u4fe1\u606f"
+      },
+      {
+        "summary": "\u5206\u6790v5\u67b6\u6784\u65b0\u589e\u5173\u952e\u8bcd\uff0c\u542f\u52a8\u6df1\u5ea6\u7814\u7a76\u6d41\u7a0b\u3002"
+      },
+      {
+        "summary": "\u8bc6\u522b\u4e86\u65b0\u5173\u952e\u8bcd\uff0c\u51c6\u5907\u542f\u52a8\u6df1\u5ea6\u7814\u7a76\u6d41\u7a0b\u3002"
+      }
+    ],
+    "cut_off": false,
+    "alternative_display_type": null
+  },
+  {
+    "start_timestamp": "2026-01-09T05:38:23.673648Z",
+    "stop_timestamp": "2026-01-09T05:38:27.270915Z",
+    "flags": null,
+    "type": "text",
+    "text": "\u660e\u767d\u3002v5 Schema\u5f15\u5165\u4e86\u591a\u4e2a\u65b0\u5173\u952e\u8bcd\uff0c\u9700\u8981\u8865\u5145\u7814\u7a76\u3002\u8ba9\u6211\u786e\u8ba4\u51e0\u4e2a\u8981\u70b9\uff1a\n\n1. **\u7814\u7a76\u6df1\u5ea6\u4f18\u5148\u7ea7**\uff1a\u662f\u5426\u805a\u7126\u4e8e\u4e24\u4efd\u5ba1\u8ba1\u7684P0\u9057\u6f0f\uff08\u5982\u53cc\u8f68\u63d0\u53d6\u3001\u5b66\u672f\u672f\u8bed\u6fc0\u6d3b\u539f\u7406\u3001ROME/MEMIT\u6a21\u578b\u7f16\u8f91\u3001Fabric Prompt\u5e93\uff09\uff0c\u8fd8\u662f\u5168\u9762\u8986\u76d6\u6240\u6709\u65b0\u589e\u6982\u5ff5\uff1f\n\n2. **\u5b66\u672f vs \u5de5\u7a0b**\uff1a\u662f\u5426\u4fa7\u91cd\u6700\u65b0\u5b66\u672f\u8bba\u6587\uff08\u5982NLI/RTE\u3001Argumentation Mining\u76842024-2025\u8fdb\u5c55\uff09\uff0c\u8fd8\u662f\u5de5\u7a0b\u5b9e\u8df5\uff08\u5982LlamaIndex HierarchicalNodeParser\u7684\u5177\u4f53\u7528\u6cd5\uff09\uff1f\n\n3. **\u4e2d\u6587\u8d44\u6e90**\uff1a\u662f\u5426\u9700\u8981\u7279\u522b\u5173\u6ce8\u4e2d\u6587\u5b66\u672f\u754c\u5728\u9690\u6027\u8bed\u4e49\u63d0\u53d6\u65b9\u9762\u7684\u7814\u7a76\uff1f",
+    "citations": []
+  }
+]
+
+================================================================================
+
+Human:
+Content:
+[
+  {
+    "start_timestamp": "2026-01-09T06:00:28.530428Z",
+    "stop_timestamp": "2026-01-09T06:00:28.530428Z",
+    "flags": null,
+    "type": "text",
+    "text": "1\u3001\u5168\u9762\u8986\u76d6\u6240\u6709\u65b0\u589e\u6982\u5ff5\u30022\u3001\u6700\u65b0\u5b66\u672f\u8bba\u6587+\u5de5\u7a0b\u5b9e\u8df5\u30023\u3001\u5f53\u7136\u5e94\u8be5\u52a0\u5f3a\uff0c\u6ce8\u610f\u662f\u52a0\u5f3a\u4e2d\u6587\u5b66\u672f\u754c\u5728\u9690\u6027\u8bed\u4e49\u63d0\u53d6\u65b9\u9762\u7684\u7814\u7a76\uff0c\u56e0\u4e3a\u6211\u7684\u77e5\u8bc6\u5e93\u4e3b\u8981\u662f\u4e2d\u6587\u5185\u5bb9\u3002\u4f46\u662f\u8bed\u8a00\u4e5f\u6709\u5171\u901a\u6027\u3002",
+    "citations": []
+  }
+]
+
+================================================================================
+
+Assistant:
+Content:
+[
+  {
+    "start_timestamp": "2026-01-09T06:00:31.241217Z",
+    "stop_timestamp": "2026-01-09T06:00:31.241217Z",
+    "flags": null,
+    "type": "text",
+    "text": "\n\n",
+    "citations": []
+  },
+  {
+    "start_timestamp": "2026-01-09T06:00:31.241217Z",
+    "stop_timestamp": "2026-01-09T06:00:40.430079Z",
+    "flags": null,
+    "type": "thinking",
+    "thinking": "\u7528\u6237\u8981\u6c42\u8fdb\u884c\u5168\u9762\u7684Research\uff0c\u8986\u76d6v5 Schema\u4e2d\u6240\u6709\u65b0\u589e\u6982\u5ff5\uff0c\u5305\u62ec\uff1a\n1. \u6700\u65b0\u5b66\u672f\u8bba\u6587+\u5de5\u7a0b\u5b9e\u8df5\n2. \u52a0\u5f3a\u4e2d\u6587\u5b66\u672f\u754c\u5728\u9690\u6027\u8bed\u4e49\u63d0\u53d6\u65b9\u9762\u7684\u7814\u7a76\n\n\u8fd9\u662f\u4e00\u4e2a\u975e\u5e38\u660e\u786e\u7684\u7814\u7a76\u4efb\u52a1\uff0c\u8303\u56f4\u6e05\u6670\u3002\u8ba9\u6211\u6574\u7406\u9700\u8981\u7814\u7a76\u7684\u5173\u952e\u8bcd\uff1a\n\n\u4ecev5 Schema\u65b0\u589e\u5185\u5bb9\u6765\u770b\uff0c\u4e3b\u8981\u7814\u7a76\u9886\u57df\u5305\u62ec\uff1a\n\n**\u77e5\u8bc6\u5d4c\u5165\u6280\u672f\u8def\u7ebf\uff08\u7b2c\u4e8c\u8282\uff09**\uff1a\n- \u589e\u91cf\u9884\u8bad\u7ec3 (Continued Pre-training)\n- \u707e\u96be\u6027\u9057\u5fd8 (Catastrophic Forgetting)\n- SFT vs \u77e5\u8bc6\u6ce8\u5165\n- LoRA/PEFT\n- \u6a21\u578b\u7f16\u8f91 ROME/MEMIT\n- Context Caching\n\n**\u8d85\u957f\u6587\u6863\u5904\u7406\uff08\u7b2c\u56db\u8282\uff09**\uff1a\n- Map-Reduce\u9012\u5f52\u6458\u8981\n- Parent-Child Indexing\n- LlamaIndex HierarchicalNodeParser\n- Top-Down Drill-Down\u68c0\u7d22\u6a21\u5f0f\n\n**\u9690\u6027\u8bed\u4e49\u63d0\u53d6\uff08\u7b2c\u5341\u8282\uff09**\uff1a\n- \u53cc\u8f68\u63d0\u53d6\u7b56\u7565\n- \u5b66\u672f\u672f\u8bed\u6fc0\u6d3bLLM\u4e13\u5bb6\u6743\u91cd\n- \u516b\u6846\u67b6\u5206\u5c42\u5904\u7406\n- NLI/RTE\n- \u9690\u6027\u8bba\u5143\u63d0\u53d6 (iSRL)\n- \u8bba\u8fa9\u6316\u6398 (Argumentation Mining)\n- Fabric Prompt\u5e93\n\n**\u4e2d\u6587\u9690\u6027\u8bed\u4e49\u7814\u7a76**\uff1a\n- \u4e2d\u6587NLI/RTE\u6570\u636e\u96c6\n- \u4e2d\u6587\u8bba\u8fa9\u6316\u6398\n- \u4e2d\u6587\u8bed\u7528\u63a8\u7406\n- \u4e2d\u6587\u5e38\u8bc6\u63a8\u7406\n\n\u8fd9\u4e2a\u4efb\u52a1\u975e\u5e38\u660e\u786e\uff0c\u4e0d\u9700\u8981\u518d\u95ee\u6f84\u6e05\u95ee\u9898\u3002\n\n\u73b0\u5728\u5f00\u59cb\u6267\u884cresearch\u4efb\u52a1\u3002",
+    "summaries": [
+      {
+        "summary": "\u601d\u8003\u5982\u4f55\u5168\u9762\u6574\u5408\u65b0\u6982\u5ff5\u3001\u5b66\u672f\u8bba\u6587\u4e0e\u5de5\u7a0b\u5b9e\u8df5\uff0c\u5f3a\u5316\u4e2d\u6587\u9690\u6027\u8bed\u4e49\u63d0\u53d6\u7814\u7a76"
+      },
+      {
+        "summary": "\u68b3\u7406v5\u67b6\u6784\u65b0\u589e\u6982\u5ff5\u4e0e\u77e5\u8bc6\u5d4c\u5165\u6280\u672f\u8def\u7ebf\u3002"
+      },
+      {
+        "summary": "\u6574\u7406v5\u67b6\u6784\u5173\u952e\u7814\u7a76\u9886\u57df\u4e0e\u77e5\u8bc6\u5d4c\u5165\u6280\u672f\u8def\u7ebf\u3002"
+      },
+      {
+        "summary": "\u7ec4\u7ec7\u4e86\u591a\u9886\u57df\u7814\u7a76\u6846\u67b6\uff0c\u91cd\u70b9\u5f3a\u5316\u4e2d\u6587\u9690\u6027\u8bed\u4e49\u63d0\u53d6\u7814\u7a76\u3002"
+      }
+    ],
+    "cut_off": false,
+    "alternative_display_type": null
+  },
+  {
+    "start_timestamp": "2026-01-09T06:00:39.947346Z",
+    "stop_timestamp": "2026-01-09T06:00:40.629621Z",
+    "flags": null,
+    "type": "text",
+    "text": "\u597d\u7684\uff0c\u8fd9\u662f\u4e00\u4e2a\u975e\u5e38\u5168\u9762\u7684\u7814\u7a76\u4efb\u52a1\u3002\u6211\u5c06\u7acb\u5373\u542f\u52a8\u6df1\u5ea6\u7814\u7a76\uff0c\u8986\u76d6v5 Schema\u4e2d\u6240\u6709\u65b0\u589e\u6982\u5ff5\u3002",
+    "citations": []
+  },
+  {
+    "start_timestamp": "2026-01-09T06:00:40.891460Z",
+    "stop_timestamp": "2026-01-09T06:01:14.049779Z",
+    "flags": null,
+    "type": "tool_use",
+    "name": "launch_extended_search_task",
+    "input": {
+      "command": "\u9488\u5bf9RAG\u7efc\u8ff0\u8bba\u6587\u7b2c\u4e00\u7ae0v5 Schema\u7684\u5168\u9762\u8865\u5145\u7814\u7a76\uff0c\u8986\u76d6\u4ee5\u4e0b\u6240\u6709\u65b0\u589e\u6982\u5ff5\uff0c\u8981\u6c42\u540c\u65f6\u6536\u96c6\u6700\u65b0\u5b66\u672f\u8bba\u6587\uff082024-2025\uff09\u548c\u5de5\u7a0b\u5b9e\u8df5\uff0c\u5e76\u7279\u522b\u52a0\u5f3a\u4e2d\u6587\u5b66\u672f\u754c\u5728\u9690\u6027\u8bed\u4e49\u63d0\u53d6\u65b9\u9762\u7684\u7814\u7a76\u3002\n\n## \u7814\u7a76\u9886\u57df\u4e00\uff1a\u77e5\u8bc6\u5d4c\u5165\u6280\u672f\u8def\u7ebf\n\n1. **\u589e\u91cf\u9884\u8bad\u7ec3 (Continued Pre-training / Domain-Adaptive Pre-training)**\n   - \u6700\u65b0\u5b66\u672f\u8fdb\u5c55\uff082024-2025\uff09\n   - \u707e\u96be\u6027\u9057\u5fd8 (Catastrophic Forgetting) \u7684\u7f13\u89e3\u65b9\u6cd5\n   - Replay Data\u6df7\u5408\u7b56\u7565\u7684\u6700\u4f73\u5b9e\u8df5\n\n2. **SFT vs \u77e5\u8bc6\u6ce8\u5165**\n   - \u5b66\u672f\u754c\u5bf9\"SFT\u662f\u6559\u89c4\u77e9\u800c\u975e\u77e5\u8bc6\"\u8fd9\u4e00\u89c2\u70b9\u7684\u9a8c\u8bc1\n   - SFT\u5728\u77e5\u8bc6\u5185\u5316\u65b9\u9762\u7684\u5c40\u9650\u6027\u7814\u7a76\n\n3. **LoRA/PEFT\u53c2\u6570\u9ad8\u6548\u5fae\u8c03**\n   - 2024-2025\u6700\u65b0\u53d8\u4f53\uff08\u5982QLoRA\u3001DoRA\u7b49\uff09\n   - \u6a21\u5757\u5316\u77e5\u8bc6\u6ce8\u5165\u7684\u5b66\u672f\u7814\u7a76\n\n4. **\u6a21\u578b\u7f16\u8f91 (Knowledge Editing)**\n   - ROME / MEMIT \u6700\u65b0\u8fdb\u5c55\n   - \u5176\u4ed6\u77e5\u8bc6\u7f16\u8f91\u6280\u672f\uff08MEND, SERAC\u7b49\uff09\n   - \u5de5\u4e1a\u5e94\u7528\u73b0\u72b6\u4e0e\u5c40\u9650\n\n5. **Long Context + Context Caching**\n   - Gemini 1.5 / Claude 3 \u8d85\u957f\u4e0a\u4e0b\u6587\u6280\u672f\u539f\u7406\n   - Context Caching / KV Cache\u4f18\u5316\n   - Prompt Caching\u5546\u4e1a\u5b9e\u8df5\n\n## \u7814\u7a76\u9886\u57df\u4e8c\uff1a\u8d85\u957f\u6587\u6863\u4e0e\u5927\u89c4\u6a21\u77e5\u8bc6\u5e93\u5904\u7406\n\n1. **Map-Reduce\u9012\u5f52\u6458\u8981\u7b56\u7565**\n   - \u5b66\u672f\u8bba\u6587\u4e2d\u7684Multi-hop\u6458\u8981\u6280\u672f\n   - \u5de5\u7a0b\u5b9e\u8df5\uff1aLangChain/LlamaIndex\u7684\u5b9e\u73b0\n\n2. **\u7236\u5b50\u7d22\u5f15\u67b6\u6784 (Parent-Child Indexing)**\n   - LlamaIndex HierarchicalNodeParser\u5177\u4f53\u7528\u6cd5\n   - LlamaIndex SummaryIndex\u5b9e\u73b0\n   - \u6700\u4f73\u5b9e\u8df5\u6848\u4f8b\n\n3. **\u7ed3\u6784\u5316\u5bfc\u822a\u68c0\u7d22**\n   - Top-Down Drill-Down\u68c0\u7d22\u6a21\u5f0f\n   - GraphRAG\u7684\u5c42\u7ea7\u68c0\u7d22\u673a\u5236\n   - \"\u53ea\u8bfb\u6700\u5173\u952e\u76840.1%\"\u539f\u7406\u7684\u5b66\u672f\u89e3\u91ca\n\n## \u7814\u7a76\u9886\u57df\u4e09\uff1a\u9690\u6027\u8bed\u4e49\u63d0\u53d6\uff08\u91cd\u70b9\uff09\n\n1. **\u53cc\u8f68\u63d0\u53d6\u7b56\u7565**\n   - \u663e\u6027\u5b9e\u4f53\u63d0\u53d6 vs \u9690\u6027\u8bed\u4e49\u63a8\u65ad\u7684\u5b66\u672f\u533a\u5206\n   - \u76f8\u5173\u8bba\u6587\u548c\u65b9\u6cd5\u8bba\n\n2. **\u5b66\u672f\u672f\u8bed\u6fc0\u6d3bLLM\u4e13\u5bb6\u6743\u91cd**\n   - In-context learning\u4e2d\u672f\u8bed\u9009\u62e9\u7684\u5f71\u54cd\n   - \u5b66\u672f\u672f\u8bed\u4f5c\u4e3a\"\u5492\u8bed\"\u6fc0\u6d3b\u4e13\u5bb6\u795e\u7ecf\u5143\u7684\u7406\u8bba\u57fa\u7840\n\n3. **\u516b\u5927\u7406\u8bba\u6846\u67b6\u5728NLP\u4e2d\u7684\u5e94\u7528**\n   - RST (\u4fee\u8f9e\u7ed3\u6784\u7406\u8bba) \u5728LLM\u65f6\u4ee3\u7684\u6700\u65b0\u5e94\u7528\n   - Toulmin\u8bba\u8bc1\u6a21\u578b\u7684\u8ba1\u7b97\u5b9e\u73b0\n   - FrameNet\u4e0eLLM\u7684\u7ed3\u5408\n   - \u6982\u5ff5\u9690\u55bb\u7406\u8bba(CMT)\u7684\u8ba1\u7b97\u5316\n   - Labov\u53d9\u4e8b\u7ed3\u6784\u5728\u5bf9\u8bdd\u5206\u6790\u4e2d\u7684\u5e94\u7528\n   - \u4f1a\u8bdd\u5206\u6790(CA)\u7684NLP\u5b9e\u73b0\n   - \u5e03\u9c81\u59c6\u5206\u7c7b\u6cd5\u5728\u77e5\u8bc6\u5206\u7ea7\u4e2d\u7684\u5e94\u7528\n\n4. **\u9690\u6027\u8bed\u4e49\u7684\u5b66\u672f\u7814\u7a76\u65b9\u5411**\n   - \u81ea\u7136\u8bed\u8a00\u63a8\u7406 (NLI) 2024-2025\u6700\u65b0\u8fdb\u5c55\n   - \u6587\u672c\u8574\u6db5 (RTE) \u6700\u65b0\u7814\u7a76\n   - \u9690\u6027\u8bba\u5143\u63d0\u53d6 (Implicit Semantic Role Labeling)\n   - \u8bba\u8fa9\u6316\u6398 (Argumentation Mining) \u6700\u65b0\u65b9\u6cd5\n   - \u8bed\u7528\u63a8\u7406 (Pragmatic Inference) \u7814\u7a76\u73b0\u72b6\n   - \u5e38\u8bc6\u63a8\u7406 (Commonsense Reasoning) \u4e0eCOMET/ATOMIC\n\n5. **\u6807\u6ce8\u6307\u5357\u501f\u7528\u6280\u5de7**\n   - SNLI, MultiNLI, Atomic\u7b49\u6570\u636e\u96c6\u7684Annotation Guidelines\n   - \u5982\u4f55\u5c06\u6807\u6ce8\u89c4\u5219\u8f6c\u5316\u4e3aLLM Prompt\n\n## \u7814\u7a76\u9886\u57df\u56db\uff1a\u4e2d\u6587\u9690\u6027\u8bed\u4e49\u63d0\u53d6\u7814\u7a76\uff08\u7279\u522b\u52a0\u5f3a\uff09\n\n1. **\u4e2d\u6587NLI/RTE\u6570\u636e\u96c6\u4e0e\u7814\u7a76**\n   - CMNLI\u3001OCNLI\u7b49\u4e2d\u6587\u6570\u636e\u96c6\n   - \u4e2d\u6587\u6587\u672c\u8574\u6db5\u7684\u7279\u6b8a\u6311\u6218\n\n2. **\u4e2d\u6587\u8bba\u8fa9\u6316\u6398**\n   - \u4e2d\u6587\u8bba\u8fa9\u7ed3\u6784\u7684\u7279\u70b9\n   - \u4e2d\u6587\u8bba\u8fa9\u6316\u6398\u6570\u636e\u96c6\u548c\u65b9\u6cd5\n\n3. **\u4e2d\u6587\u8bed\u7528\u63a8\u7406**\n   - \u4e2d\u6587\u4f1a\u8bdd\u542b\u4e49\u7814\u7a76\n   - \u4e2d\u6587\u8bed\u7528\u5b66\u5728NLP\u4e2d\u7684\u5e94\u7528\n\n4. **\u4e2d\u6587\u5e38\u8bc6\u63a8\u7406**\n   - \u4e2d\u6587\u5e38\u8bc6\u77e5\u8bc6\u5e93\uff08\u5982CN-DBpedia\u3001HowNet\uff09\n   - \u4e2d\u6587\u5e38\u8bc6\u63a8\u7406\u6570\u636e\u96c6\n\n5. **\u4e2d\u6587\u9690\u6027\u8bed\u4e49\u63d0\u53d6\u7684\u5b66\u672f\u8bba\u6587**\n   - CCL\u3001COLING\u3001ACL\u7b49\u4f1a\u8bae\u4e0a\u7684\u4e2d\u6587\u76f8\u5173\u8bba\u6587\n   - \u4e2d\u56fd\u5b66\u8005\u5728\u8be5\u9886\u57df\u7684\u4ee3\u8868\u6027\u5de5\u4f5c\n\n## \u7814\u7a76\u9886\u57df\u4e94\uff1a\u5de5\u7a0b\u5b9e\u8df5\u8d44\u6e90\n\n1. **Fabric Prompt\u5e93**\n   - danielmiessler/fabric\u9879\u76ee\u8be6\u89e3\n   - extract_wisdom\u3001analyze_claims\u7b49\u6a21\u5f0f\u7684\u5177\u4f53Prompt\n\n2. **GraphRAG Entity Extraction Prompt**\n   - Microsoft GraphRAG\u7684prompt_tune\u76ee\u5f55\n   - \u5b9a\u5236Entity Extraction\u7684\u6700\u4f73\u5b9e\u8df5\n\n3. **Anthropic Cookbook**\n   - Contextual Retrieval\u76f8\u5173Prompt\u6a21\u677f\n   - \u5176\u4ed6RAG\u76f8\u5173\u6700\u4f73\u5b9e\u8df5\n\n4. **LlamaIndex\u9ad8\u7ea7\u7ec4\u4ef6**\n   - HierarchicalNodeParser\u8be6\u7ec6\u6587\u6863\n   - SummaryIndex\u4f7f\u7528\u6307\u5357\n   - Parent-Child Retriever\u914d\u7f6e\n\n\u8bf7\u63d0\u4f9b\uff1a\n- \u6bcf\u4e2a\u9886\u57df\u7684\u6700\u65b0\u5b66\u672f\u8bba\u6587\uff08\u4f18\u51482024-2025\uff0c\u542barXiv\u9884\u5370\u672c\uff09\n- \u5177\u4f53\u7684GitHub\u4ed3\u5e93\u94fe\u63a5\u548c\u4ee3\u7801\u793a\u4f8b\n- \u4e2d\u6587\u5b66\u672f\u8d44\u6e90\uff08\u671f\u520a\u8bba\u6587\u3001\u4f1a\u8bae\u8bba\u6587\u3001\u5b66\u8005\uff09\n- \u53ef\u76f4\u63a5\u4f7f\u7528\u7684Prompt\u6a21\u677f\u6216\u4ee3\u7801\u7247\u6bb5"
+    },
+    "message": "launch_extended_search_task",
+    "integration_name": null,
+    "integration_icon_url": null,
+    "context": null,
+    "display_content": null,
+    "approval_options": null,
+    "approval_key": null
+  },
+  {
+    "start_timestamp": null,
+    "stop_timestamp": null,
+    "flags": null,
+    "type": "tool_result",
+    "name": "launch_extended_search_task",
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"task_id\": \"wf-9c85c5a4-56ef-4d2c-b7d7-35578a028ced\"}",
+        "uuid": "e79693bb-d0f9-4c75-8e19-ef3d6fc47428"
+      }
+    ],
+    "is_error": false,
+    "structured_content": null,
+    "message": null,
+    "integration_name": null,
+    "integration_icon_url": null,
+    "display_content": null
+  },
+  {
+    "start_timestamp": "2026-01-09T06:01:14.330492Z",
+    "stop_timestamp": "2026-01-09T06:01:14.330492Z",
+    "flags": null,
+    "type": "text",
+    "text": "",
+    "citations": []
+  },
+  {
+    "start_timestamp": null,
+    "stop_timestamp": null,
+    "flags": null,
+    "type": "text",
+    "text": "Your RAG comprehensive research report is ready. It covers five major areas: knowledge embedding techniques (CPT, SFT, LoRA/DoRA variants, model editing), long document processing (Map-Reduce, GraphRAG, Late Chunking), implicit semantic extraction theories (RST, Toulmin, FrameNet), Chinese NLI resources (OCNLI, ORCHID, SwordsmanImp), and engineering practice resources with prompt templates. The report includes 2024-2025 academic papers, GitHub repositories, and practical implementation guidance.",
+    "citations": []
+  },
+  {
+    "start_timestamp": null,
+    "stop_timestamp": null,
+    "flags": null,
+    "type": "tool_use",
+    "name": "artifacts",
+    "input": {
+      "id": "compass_artifact_wf-9c85c5a4-56ef-4d2c-b7d7-35578a028ced_text/markdown",
+      "type": "text/markdown",
+      "title": "RAG\u7efc\u8ff0\u8bba\u6587v5 Schema\u5168\u9762\u8865\u5145\u7814\u7a76\u62a5\u544a",
+      "source": "c",
+      "command": "create",
+      "content": "# RAG\u7efc\u8ff0\u8bba\u6587v5 Schema\u5168\u9762\u8865\u5145\u7814\u7a76\u62a5\u544a\n\n\u9690\u6027\u8bed\u4e49\u63d0\u53d6\u4e0e\u77e5\u8bc6\u5d4c\u5165\u6280\u672f\u6b63\u5728\u7ecf\u5386\u91cd\u5927\u8303\u5f0f\u8f6c\u53d8\u30022024-2025\u5e74\u7684\u7814\u7a76\u8868\u660e\uff0c**\u4f20\u7edfSFT\u65e0\u6cd5\u4e0eRAG\u5728\u77e5\u8bc6\u6ce8\u5165\u65b9\u9762\u7ade\u4e89**\uff08EMNLP 2024\uff09\uff0c\u800c**\u8d85\u957f\u4e0a\u4e0b\u6587\u6280\u672f\uff0810M+ tokens\uff09\u6b63\u5728\u6a21\u7ccaRAG\u8fb9\u754c**\u3002\u4e2d\u6587\u9690\u6027\u8bed\u4e49\u7814\u7a76\u867d\u8d44\u6e90\u76f8\u5bf9\u532e\u4e4f\uff0c\u4f46OCNLI\u3001ORCHID\u7b49\u539f\u751f\u6570\u636e\u96c6\u6b63\u5728\u586b\u8865\u8fd9\u4e00\u7a7a\u767d\u3002\u672c\u62a5\u544a\u7cfb\u7edf\u68b3\u7406\u4e94\u5927\u7814\u7a76\u9886\u57df\u7684\u6700\u65b0\u5b66\u672f\u8fdb\u5c55\u548c\u5de5\u7a0b\u5b9e\u8df5\u8d44\u6e90\u3002\n\n---\n\n## \u4e00\u3001\u77e5\u8bc6\u5d4c\u5165\u6280\u672f\u8def\u7ebf\uff1a\u4ece\u9884\u8bad\u7ec3\u5230\u6a21\u578b\u7f16\u8f91\n\n### \u589e\u91cf\u9884\u8bad\u7ec3\u4e0e\u707e\u96be\u6027\u9057\u5fd8\u7f13\u89e3\n\n\u9886\u57df\u81ea\u9002\u5e94\u9884\u8bad\u7ec3\uff08DAPT\uff09\u57282024-2025\u5e74\u53d6\u5f97\u663e\u8457\u8fdb\u5c55\u3002ICLR 2024\u7814\u7a76\u53d1\u73b0\uff0c**\u76f4\u63a5\u5728\u539f\u59cb\u9886\u57df\u8bed\u6599\u4e0a\u7ee7\u7eed\u9884\u8bad\u7ec3\u4f1a\u635f\u5bb3\u6a21\u578b\u7684prompting\u80fd\u529b**\uff0c\u56e0\u6b64\u63d0\u51fa\u901a\u8fc7\u9605\u8bfb\u7406\u89e3\u4efb\u52a1\u589e\u5f3a\u7684\u65b9\u6cd5\u3002ACM Computing Surveys 2025\u7684\u7efc\u8ff0\u6307\u51fa\uff0c**Replay\u7b56\u7565\u662f\u6700\u4e3b\u6d41\u7684\u9057\u5fd8\u7f13\u89e3\u65b9\u6cd5**\uff0822/41\u7814\u7a76\u91c7\u7528\uff09\uff0c\u6df7\u5408\u6bd4\u4f8b\u5982GeoGalactica\u91c7\u7528**8:1:1**\uff08\u9886\u57df\u6570\u636e:ArXiv:Code\uff09\u3002\n\n\u6838\u5fc3\u7f13\u89e3\u65b9\u6cd5\u5305\u62ec\uff1a\n- **Replay/Rehearsal**\uff1a\u5b58\u50a8\u7ea65%\u5386\u53f2\u6570\u636e\u4e0e\u65b0\u6570\u636e\u6df7\u5408\u8bad\u7ec3\n- **Self-Synthesized Rehearsal (ACL 2024)**\uff1a\u4f7f\u7528LLM\u81ea\u8eab\u751f\u6210\u5408\u6210\u6570\u636e\u8fdb\u884crehearsal\n- **Importance-aware Soft-masking**\uff1a\u6839\u636e\u53c2\u6570\u5bf9\u901a\u7528\u77e5\u8bc6\u7684\u91cd\u8981\u6027\u8c03\u8282\u68af\u5ea6\u66f4\u65b0\n- **Memory Decoder**\uff1a\u63d0\u4f9b\u6a21\u578b\u65e0\u5173\u7684\u9886\u57df\u9002\u5e94\u65b9\u6848\n\n\u5173\u952e\u8bba\u6587\uff1a\n| \u8bba\u6587 | \u53d1\u8868 | \u6838\u5fc3\u8d21\u732e |\n|------|------|----------|\n| Don't Stop Pretraining | ACL 2020 | \u5960\u57fa\u6027DAPT/TAPT\u7814\u7a76 |\n| Adapting LLMs via Reading Comprehension | ICLR 2024 | \u9605\u8bfb\u7406\u89e3\u589e\u5f3a\u7684DAPT |\n| ChipNeMo | NVIDIA 2024 | \u5de5\u4e1a\u7ea7\u82af\u7247\u8bbe\u8ba1\u9886\u57dfDAPT |\n| Self-Synthesized Rehearsal | ACL 2024 | SSR\u6846\u67b6\u7f13\u89e3\u9057\u5fd8 |\n\n### SFT vs \u77e5\u8bc6\u6ce8\u5165\u7684\u5b66\u672f\u9a8c\u8bc1\n\n**LIMA\uff08NeurIPS 2023\uff09**\u63d0\u51fa\u7684\"\u8868\u9762\u5bf9\u9f50\u5047\u8bbe\"\u5df2\u83b7\u5e7f\u6cdb\u9a8c\u8bc1\uff1a\u6a21\u578b\u77e5\u8bc6\u51e0\u4e4e\u5b8c\u5168\u5728\u9884\u8bad\u7ec3\u9636\u6bb5\u5b66\u4e60\uff0c**\u540e\u8bad\u7ec3\u4e3b\u8981\u5173\u4e8e\u98ce\u683c\u800c\u975e\u80fd\u529b**\u3002EMNLP 2024\u7814\u7a76\u8fdb\u4e00\u6b65\u8bc1\u5b9e\uff1a**\u5fae\u8c03\u65e0\u6cd5\u4e0eRAG\u7ade\u4e89**\uff0c\u4f46\u4f7f\u7528\u591a\u6b21paraphrase\u7684\u5fae\u8c03\u4ecd\u80fd\u63d0\u4f9b\u663e\u8457\u63d0\u5347\u3002\n\nSFT\u7684\u771f\u6b63\u4ef7\u503c\u5728\u4e8e**\u51c6\u5907\u6a21\u578b\u8fdb\u884c\u65b0\u77e5\u8bc6\u7684\u63a8\u7406**\uff08arXiv 2024\uff09\uff0c\u800c\u975e\u6ce8\u5165\u77e5\u8bc6\u672c\u8eab\u3002Microsoft\u7814\u7a76\u53d1\u73b0\uff0c**fact-based scaling\u6bd4token-based scaling\u66f4\u80fd\u4fdd\u8bc1\u77e5\u8bc6\u8986\u76d6\u7684\u5747\u5300\u6027**\u3002\u65b0\u5174\u65b9\u6cd5\u5982Prompt Distillation\uff08PD\uff09\u6bd4SFT\u66f4\u6570\u636e\u9ad8\u6548\uff0c10\u500d\u4ee5\u4e0b\u8bad\u7ec3\u95ee\u9898\u5373\u53ef\u5339\u914dSFT\u6027\u80fd\u3002\n\n### LoRA/PEFT 2024-2025\u6700\u65b0\u53d8\u4f53\n\n**DoRA\uff08ICML 2024 Oral\uff0c1.5%\u63a5\u53d7\u7387\uff09**\u6210\u4e3a\u6700\u91cd\u8981\u7a81\u7834\uff0c\u901a\u8fc7\u5c06\u6743\u91cd\u5206\u89e3\u4e3amagnitude\u548cdirection\u4e24\u4e2a\u7ec4\u4ef6\u5206\u522b\u5fae\u8c03\uff0c\u5728LLaMA 7B/13B\u4e0a\u8d85\u8d8aLoRA **+3.7/+1.0**\u5206\u3002\n\n| \u65b9\u6cd5 | \u5185\u5b58\u6548\u7387 | \u6027\u80fd | \u7279\u70b9 |\n|------|----------|------|------|\n| LoRA | \u4e2d\u7b49 | \u826f\u597d | \u5e73\u8861\u5404\u65b9\u9762 |\n| QLoRA | \u6781\u9ad8 | \u7565\u4f4e | 4-bit\u91cf\u5316\uff0c\u5355GPU\u8bad\u7ec365B |\n| **DoRA** | \u4e2d\u7b49 | **\u6700\u4f73** | \u72ec\u7acb\u8c03\u6574magnitude/direction |\n| **QDoRA** | \u6781\u9ad8 | \u63a5\u8fd1DoRA | \"2025\u5e74PEFT\u65b0\u6807\u51c6\" |\n\n\u5f00\u6e90\u5b9e\u73b0\uff1a**Hugging Face PEFT**\uff08github.com/huggingface/peft\uff09\u3001**LlamaFactory**\uff08github.com/hiyouga/LLaMA-Factory\uff0c\u7edf\u4e00100+\u6a21\u578b\u9ad8\u6548\u5fae\u8c03\uff09\u3002\n\n### \u6a21\u578b\u7f16\u8f91\u7684\u53ef\u6269\u5c55\u6027\u56f0\u5883\n\n**ROME**\u901a\u8fc7causal tracing\u5b9a\u4f4d\u77e5\u8bc6\u5b58\u50a8\u4f4d\u7f6e\uff0c\u4f46**\u8fde\u7eed\u7f16\u8f9110\u6b21\u540e\u6027\u80fd\u5feb\u901f\u4e0b\u964d**\u3002**MEMIT\uff08ICLR 2023\uff09**\u652f\u6301\u8de8\u591a\u5c42\u6279\u91cf\u7f16\u8f91\uff0c40\u6b21\u7f16\u8f91\u540e\u4ecd\u4fdd\u6301\u7a33\u5b9a\uff0c\u4f46\u77e5\u8bc6\u8870\u51cf\u95ee\u9898\u4ecd\u672a\u89e3\u51b3\u3002**NeurIPS 2024\u7684WISE**\u63d0\u51fa\u6301\u7eed\u77e5\u8bc6\u7f16\u8f91\u4efb\u52a1\uff0c\u9996\u6b21\u7cfb\u7edf\u6027\u89e3\u51b3\u7ec8\u8eab\u6a21\u578b\u7f16\u8f91\u95ee\u9898\u3002\n\n**EasyEdit\uff08ACL 2024 System Demo\uff09**\u6210\u4e3a\u6700\u5168\u9762\u7684\u77e5\u8bc6\u7f16\u8f91\u6846\u67b6\uff0c\u652f\u6301ROME\u3001MEMIT\u3001MEND\u3001SERAC\u3001GRACE\u3001IKE\u7b49\u65b9\u6cd5\uff0c\u5df2\u652f\u6301Llama3-8B\u3001Mistral-7B\u7b49\u6700\u65b0\u6a21\u578b\u3002\u94fe\u63a5\uff1agithub.com/zjunlp/EasyEdit\n\n### \u8d85\u957f\u4e0a\u4e0b\u6587\u4e0ePrompt Caching\n\nGemini 1.5\u652f\u6301**10M tokens\u4e0a\u4e0b\u6587**\uff08107\u5c0f\u65f6\u97f3\u9891\uff09\uff0c\u901a\u8fc7**MoE\u67b6\u6784**\u9009\u62e9\u6027\u6fc0\u6d3b\u76f8\u5173\u4e13\u5bb6\u7f51\u7edc\uff0cNeedle In A Haystack\u6d4b\u8bd5\u8fbe**99%\u68c0\u7d22\u51c6\u786e\u7387**\u3002\n\nPrompt Caching\u5546\u4e1a\u5b9e\u8df5\u5bf9\u6bd4\uff1a\n| \u63d0\u4f9b\u5546 | \u65b9\u6848 | \u6210\u672c\u8282\u7701 | TTL |\n|--------|------|----------|-----|\n| **Anthropic** | \u663e\u5f0fcache_control | \u8bfb\u53d6-90%\uff0c\u5199\u5165+25% | 5\u5206\u949f |\n| **OpenAI** | \u81ea\u52a8\u7f13\u5b58 | -50% | \u81ea\u52a8 |\n| **Gemini** | \u9690\u5f0f+\u663e\u5f0f | -75% | 1\u5c0f\u65f6 |\n\n---\n\n## \u4e8c\u3001\u8d85\u957f\u6587\u6863\u5904\u7406\uff1a\u4eceMap-Reduce\u5230GraphRAG\n\n### Map-Reduce\u9012\u5f52\u6458\u8981\u7b56\u7565\n\n**BooookScore\uff08ICLR 2024\uff09**\u7cfb\u7edf\u8bc4\u4f30\u4e66\u7c4d\u7ea7\u6458\u8981\uff0c\u53d1\u73b0**\u5c42\u7ea7\u5408\u5e76\u4ea7\u751f\u66f4\u8fde\u8d2f\u7684\u6458\u8981**\uff0889.4 vs 82.1\u5206\uff09\uff0c\u800c\u589e\u91cf\u66f4\u65b0\u4ea7\u751f\u66f4\u8be6\u7ec6\u4f46\u8fde\u8d2f\u6027\u8f83\u4f4e\u7684\u7ed3\u679c\u3002\u5bf9\u4e8e88K+ tokens\u4e0a\u4e0b\u6587\u6a21\u578b\uff0cClaude 2\u7684\u589e\u91cf\u66f4\u65b0\u7b56\u7565\u6548\u679c\u6700\u4f73\u3002\n\nLangChain\u5b9e\u73b0\u6838\u5fc3\u4ee3\u7801\uff1a\n```python\nfrom langchain.chains import MapReduceDocumentsChain, ReduceDocumentsChain\nmap_reduce_chain = MapReduceDocumentsChain(\n    llm_chain=map_chain,\n    reduce_documents_chain=reduce_documents_chain,\n    document_variable_name=\"docs\"\n)\n# Chunk size\u5efa\u8bae\uff1a1500-3000 tokens\uff0c10-20%\u91cd\u53e0\n```\n\n### \u7236\u5b50\u7d22\u5f15\u67b6\u6784\u7684\u5de5\u7a0b\u5b9e\u8df5\n\nLlamaIndex **HierarchicalNodeParser**\u652f\u6301\u591a\u7ea7\u5c42\u6b21\uff08\u59822048\u2192512\u2192128 tokens\uff09\uff0c\u914d\u5408**AutoMergingRetriever**\u5b9e\u73b0\u667a\u80fd\u5408\u5e76\u2014\u2014\u5f53**50%\u4ee5\u4e0a\u5b50\u8282\u70b9\u88ab\u68c0\u7d22\u65f6\u81ea\u52a8\u8fd4\u56de\u7236\u8282\u70b9**\uff0c\u63d0\u4f9b\u66f4\u5b8c\u6574\u4e0a\u4e0b\u6587\u3002\n\n```python\nnode_parser = HierarchicalNodeParser.from_defaults(\n    chunk_sizes=[2048, 512, 128]  # \u4e09\u7ea7\u5c42\u6b21\n)\nretriever = AutoMergingRetriever(\n    base_retriever, storage_context, \n    simple_ratio_thresh=0.5  # \u5408\u5e76\u9608\u503c\n)\n```\n\n### GraphRAG\u5c42\u7ea7\u68c0\u7d22\u673a\u5236\n\nMicrosoft GraphRAG\uff08arXiv:2404.16130\uff09\u901a\u8fc7**Leiden\u5c42\u7ea7\u805a\u7c7b**\u6784\u5efa\u793e\u533a\u6458\u8981\uff0c\u5b9e\u73b0\"\u53ea\u8bfb\u6700\u5173\u952e\u76840.1%\"\uff1a\n1. \u6587\u6863\u5206\u5757\u751f\u6210TextUnits\n2. \u56fe\u62bd\u53d6\u5f97\u5230Entities + Relationships\n3. \u793e\u533a\u68c0\u6d4b\u5f62\u6210\u5c42\u7ea7\u793e\u533a\n4. \u751f\u6210Community Reports\u7528\u4e8eGlobal Search\n\n\u5728\u7efc\u5408\u6027\u548c\u591a\u6837\u6027\u6307\u6807\u4e0a\uff0cGraphRAG\u5bf9Naive RAG\u8fbe**70-80%\u80dc\u7387**\uff0cToken\u6210\u672c\u964d\u81f3**2-70%**\uff08\u6309\u5c42\u7ea7\uff09\u3002\n\n### Late Chunking\u65b0\u65b9\u6cd5\n\n**Jina AI\uff08arXiv:2409.04701\uff09**\u63d0\u51faLate Chunking\uff1a\u5148\u5168\u6587\u5d4c\u5165\u518d\u5728token\u5c42\u9762\u5206\u5757\uff0c\u4fdd\u7559\u8de8chunk\u4e0a\u4e0b\u6587\u3002\u5728\"the city\" vs \"Berlin\"\u76f8\u4f3c\u5ea6\u6d4b\u8bd5\u4e2d\uff0c\u4ece\u4f20\u7edf\u65b9\u6cd5\u7684**70-75%\u63d0\u5347\u81f382-84%**\u3002\n\n---\n\n## \u4e09\u3001\u9690\u6027\u8bed\u4e49\u63d0\u53d6\uff1a\u4ece\u7406\u8bba\u6846\u67b6\u5230\u5b9e\u8df5\u5e94\u7528\n\n### \u53cc\u8f68\u63d0\u53d6\u7b56\u7565\u7684\u5b66\u672f\u533a\u5206\n\n\u663e\u6027\u5b9e\u4f53\u63d0\u53d6\u4f9d\u8d56\u8868\u5c42\u8bcd\u6c47\u7ebf\u7d22\uff0c\u800c\u9690\u6027\u8bed\u4e49\u63a8\u65ad\u9700\u8981\u8bed\u7528\u63a8\u7406\u548c\u5e38\u8bc6\u77e5\u8bc6\u3002arXiv:2501.00330\u63d0\u51fa**LUSAR\u65b9\u6cd5**\uff0c\u5229\u7528listwise\u65b9\u6cd5\u514b\u670dMLLMs\u5728\u9690\u6027\u8bed\u4e49\u4fe1\u606f\u63d0\u53d6\u4e2d\u7684\u5c40\u9650\u6027\uff0c\u8fbe\u5230**77%+\u7cbe\u5ea6**\u3002\n\n### \u516b\u5927\u7406\u8bba\u6846\u67b6\u5728LLM\u65f6\u4ee3\u7684\u5e94\u7528\n\n**RST\u4fee\u8f9e\u7ed3\u6784\u7406\u8bba**\uff1aEACL 2024\u4f7f\u7528Llama 2 70B + QLoRA\u5b9e\u73b0SOTA RST\u89e3\u6790\u3002**DISRetrieval\uff08arXiv:2506.06313\uff09**\u9996\u6b21\u7cfb\u7edf\u6027\u5229\u7528RST\u589e\u5f3a\u957f\u6587\u6863\u95ee\u7b54\u3002\u5de5\u5177\uff1agithub.com/nttcslab-nlp/RSTParser_EACL24\n\n**Toulmin\u8bba\u8bc1\u6a21\u578b**\uff1aACL 2024\u8bc1\u660eToulmin\u7406\u8bba\u5f15\u7528\u4ea7\u751f\u6700\u9ad8\u96f6\u6837\u672c\u8bba\u8bc1\u89e3\u91ca\u6210\u529f\u7387\u3002\u516d\u8981\u7d20\uff08Claim\u3001Data\u3001Warrant\u3001Backing\u3001Qualifier\u3001Rebuttal\uff09\u53ef\u901a\u8fc7\u7ed3\u6784\u5316prompt\u63d0\u53d6\u3002\n\n**FrameNet\u6846\u67b6\u8bed\u4e49**\uff1a**FS-RAG\uff08arXiv:2406.16167\uff09**\u5229\u7528FrameNet\u6846\u67b6\u5173\u7cfb\u8fdb\u884cRAG\u68c0\u7d22\uff0c\u663e\u8457\u63d0\u5347\u53ec\u56de\u7387\u3002ACL 2025\u7684*SEM\u7814\u7a76\u4f7f\u7528LoRA\u5c06\u6846\u67b6\u8bed\u4e49\u6ce8\u5165LLM\uff0c\u5b9e\u73b0\u96f6\u6837\u672c\u8bed\u4e49\u89d2\u8272\u6807\u6ce8\u3002\n\n**\u6982\u5ff5\u9690\u55bb\u7406\u8bba\uff08CMT\uff09**\uff1aarXiv:2502.01901\u5c06CMT\u4f5c\u4e3aLLM\u63d0\u793a\u6846\u67b6\uff0c\u5229\u7528\u9690\u55bb\u6620\u5c04\u589e\u5f3a\u62bd\u8c61\u63a8\u7406\u80fd\u529b\u3002\n\n### \u81ea\u7136\u8bed\u8a00\u63a8\u74062024-2025\u8fdb\u5c55\n\n**Implied NLI\uff08INLI\uff09**\u6570\u636e\u96c6\u63ed\u793a\u73b0\u6709\u6a21\u578b\u5728\u9690\u5f0f\u8574\u6db5\u4e0a\u8868\u73b0**\u63a5\u8fd1\u968f\u673a**\uff0c\u8fd9\u662f\u91cd\u8981\u74f6\u9888\u3002arXiv:2505.21011\u53d1\u73b0LLM\u5229\u7528\u8bcd\u9891\u504f\u5dee\u8fdb\u884cNLI\u63a8\u7406\uff0cfine-tuning\u4f1a\u52a0\u5267\u6b64\u95ee\u9898\u3002\n\n**COMET-ATOMIC 2020**\u63d0\u4f9b1.33M\u5e38\u8bc6\u63a8\u7406\u5143\u7ec4\uff0cBART\u6a21\u578b\u8d85\u8d8aGPT-3\u8fbe**12\u4e2a\u70b9**\u3002\u5f00\u6e90\uff1agithub.com/atcbosselut/comet-commonsense\n\n### \u6807\u6ce8\u6307\u5357\u5230Prompt\u7684\u8f6c\u5316\u6280\u5de7\n\nSNLI\u6807\u6ce8\u53d1\u73b0\u7684\u4f2a\u5f71\u89c4\u5f8b\u53ef\u6307\u5bfcprompt\u8bbe\u8ba1\uff1a\u5426\u5b9a\u8bcd\u9884\u793acontradiction\uff0c\u4fee\u9970\u8bed\u9884\u793aneutral\u3002\u8f6c\u5316\u793a\u4f8b\uff1a\n```\n\u4f60\u662fNLI\u4e13\u5bb6\u3002\u5224\u65ad\u5047\u8bbe\u76f8\u5bf9\u4e8e\u524d\u63d0\u662f\uff1a\n- entailment\uff08\u524d\u63d0\u4e3a\u771f\u5219\u5047\u8bbe\u5fc5\u7136\u4e3a\u771f\uff09\n- contradiction\uff08\u524d\u63d0\u4e3a\u771f\u5219\u5047\u8bbe\u5fc5\u7136\u4e3a\u5047\uff09  \n- neutral\uff08\u65e0\u6cd5\u786e\u5b9a\uff09\n```\n\n---\n\n## \u56db\u3001\u4e2d\u6587\u9690\u6027\u8bed\u4e49\u63d0\u53d6\u7814\u7a76\u73b0\u72b6\n\n### \u4e2d\u6587NLI\u6570\u636e\u96c6\u751f\u6001\n\n**OCNLI\uff08EMNLP 2020 Findings\uff09**\u662f\u9996\u4e2a\u975e\u7ffb\u8bd1\u7684\u539f\u751f\u4e2d\u6587NLI\u6570\u636e\u96c6\uff0c\u7ea656,000\u4e2a\u53e5\u5bf9\uff0c\u7531\u8bed\u8a00\u5b66\u4e13\u4e1a\u6bcd\u8bed\u8005\u6807\u6ce8\u3002\u4e0e\u7ffb\u8bd1\u6570\u636e\u96c6\uff08\u5982CMNLI\uff09\u76f8\u6bd4\uff0c\u80fd\u66f4\u597d\u6355\u6349\u539f\u751f\u4e2d\u6587\u8868\u8fbe\u4e60\u60ef\u3002\n\n**CLUE Benchmark**\uff08github.com/CLUEbenchmark/CLUE\uff09\u662f\u4e2d\u6587\u7248GLUE\uff0c\u8986\u76d6214G\u6587\u672c\u3001\u7ea6760\u4ebf\u4e2d\u6587\u8bcd\u8bed\uff0c\u5305\u542b9\u79cd\u4efb\u52a1\u3002\n\n\u4e2d\u6587\u6587\u672c\u8574\u6db5\u7684\u7279\u6b8a\u6311\u6218\uff1a**\u610f\u5408\u578b\u8bed\u8a00**\u4f9d\u8d56\u8bed\u5883\u7406\u89e3\u9690\u542b\u610f\u4e49\uff0c\u5b57\u8bcd\u65e0\u5206\u9694\u7b26\u5f71\u54cd\u5206\u8bcd\uff0c\u8c61\u5f62\u6587\u5b57\u7279\u6027\u4f7f\u5b57\u5f62\u643a\u5e26\u8bed\u4e49\u4fe1\u606f\u3002\n\n### \u4e2d\u6587\u8bba\u8fa9\u6316\u6398\u6570\u636e\u96c6\n\n**ORCHID\uff08EMNLP 2023\uff09**\u662f\u9996\u4e2a\u4e2d\u6587\u8bba\u8fa9\u5bf9\u8bdd\u6570\u636e\u96c6\uff0c\u542b1,218\u573a\u771f\u5b9e\u8fa9\u8bba\u300114,133\u6761\u5b8c\u6574\u6807\u6ce8\u8bdd\u8bed\uff0c\u652f\u6301\u76ee\u6807\u65e0\u5173\u7acb\u573a\u68c0\u6d4b\u3002**C-MTCSD\uff08WWW 2025\uff09**\u662f\u6700\u5927\u7684\u4e2d\u6587\u591a\u8f6e\u5bf9\u8bdd\u7acb\u573a\u68c0\u6d4b\u6570\u636e\u96c6\uff0c24,264\u6761\u6807\u6ce8\u5b9e\u4f8b\u3002\n\n\u4e2d\u6587\u8bba\u8fa9\u7279\u70b9\uff1a\u610f\u5408\u6027\u5f3a\u4f7f\u903b\u8f91\u5173\u7cfb\u5e38\u9690\u542b\uff0c\u4fee\u8f9e\u624b\u6cd5\u4e30\u5bcc\uff08\u6bd4\u55bb\u3001\u53cd\u95ee\uff09\uff0c\u9700\u5904\u7406\u9690\u5f0f\u76ee\u6807\u5f15\u7528\u548c\u590d\u6742\u5171\u6307\u6d88\u89e3\u3002\n\n### \u4e2d\u6587\u8bed\u7528\u63a8\u7406\u7a81\u7834\n\n**SwordsmanImp\uff08CCL 2024\uff09**\u662f\u9996\u4e2a\u4e2d\u6587\u591a\u8f6e\u5bf9\u8bdd\u4f1a\u8bdd\u542b\u4e49\u6570\u636e\u96c6\uff0c\u6570\u636e\u6765\u81ea\u300a\u6b66\u6797\u5916\u4f20\u300b\u5bf9\u8bdd\uff0c\u5305\u542b\u8fdd\u53cd\u683c\u83b1\u65af\u51c6\u5219\uff08Gricean maxims\uff09\u6807\u6ce8\u3002\u4ee3\u7801\uff1agithub.com/sjtu-compling/llm-pragmatics\n\n### \u4e2d\u6587\u5e38\u8bc6\u77e5\u8bc6\u5e93\n\n| \u77e5\u8bc6\u5e93 | \u673a\u6784 | \u89c4\u6a21 |\n|--------|------|------|\n| **CN-DBpedia** | \u590d\u65e6\u5927\u5b66 | 1600\u4e07+\u5b9e\u4f53\uff0c2.2\u4ebf+\u5173\u7cfb |\n| **HowNet/OpenHowNet** | \u4e2d\u79d1\u9662/\u6e05\u534e | 223,767\u4e2a\u6982\u5ff5\uff0c\u4e49\u539f\u6807\u6ce8 |\n| **XLore** | \u6e05\u534e\u5927\u5b66 | 246\u4e07\u6982\u5ff5\uff0c1600\u4e07\u5b9e\u4f53 |\n\n**CHARM**\u662f\u9996\u4e2a\u5168\u9762\u8bc4\u4f30LLM\u4e2d\u6587\u5e38\u8bc6\u63a8\u7406\u80fd\u529b\u7684\u57fa\u51c6\uff0c\u8986\u76d6\u4e2d\u56fd\u5386\u53f2\u3001\u4f20\u7edf\u6587\u5316\u3001\u65e5\u5e38\u4e60\u4fd7\u7b49\u7279\u5b9a\u5e38\u8bc6\u3002\n\n### \u4ee3\u8868\u6027\u7814\u7a76\u56e2\u961f\n\n- **\u6e05\u534eTHUNLP**\uff08\u5b59\u8302\u677e\u3001\u5218\u77e5\u8fdc\uff09\uff1aOpenHowNet\u3001THULAC\n- **\u54c8\u5de5\u5927SCIR**\uff1aLTP\u5e73\u53f0\uff08CoNLL 2009\u7b2c\u4e00\uff09\n- **\u590d\u65e6\u77e5\u8bc6\u5de5\u573a**\uff1aCN-DBpedia\n- **\u4e0a\u6d77\u4ea4\u5927\u8ba1\u7b97\u8bed\u8a00\u5b66**\uff1aLLM\u8bed\u7528\u80fd\u529b\u8bc4\u4f30\n\n---\n\n## \u4e94\u3001\u5de5\u7a0b\u5b9e\u8df5\u8d44\u6e90\u4e0ePrompt\u6a21\u677f\n\n### Fabric Extract Wisdom\u5b8c\u6574\u6a21\u677f\n\n```markdown\n# IDENTITY AND PURPOSE\nYou extract surprising, insightful, and interesting information from text content...\n\n# STEPS\n- Extract a summary of the content in 25 words (SUMMARY)\n- Extract 20-50 most surprising ideas (IDEAS) - exactly 16 words each\n- Extract 10-20 best insights (INSIGHTS) - exactly 16 words each\n- Extract 15-30 quotes with speaker attribution (QUOTES)\n- Extract 15-30 personal habits mentioned (HABITS)\n- Extract 15-30 valid facts about the world (FACTS)\n- Extract all references to writing, art, tools (REFERENCES)\n- Extract ONE-SENTENCE TAKEAWAY in 15 words\n- Extract 15-30 recommendations (RECOMMENDATIONS)\n```\n\nGitHub\uff1agithub.com/danielmiessler/Fabric\n\n### GraphRAG Entity Extraction\u6838\u5fc3Prompt\n\n```python\nENTITY_RELATIONSHIPS_GENERATION_PROMPT = \"\"\"\n-Goal-\nGiven a text document, identify all entities of types [{entity_types}] \nand all relationships among identified entities.\n\n-Steps-\n1. For each entity extract: entity_name, entity_type, entity_description\n   Format: (\"entity\"{tuple_delimiter}<name>{tuple_delimiter}<type>{tuple_delimiter}<description>)\n\n2. For each related pair extract: source_entity, target_entity, \n   relationship_description, relationship_strength (1-10)\n   Format: (\"relationship\"{tuple_delimiter}<source>{tuple_delimiter}<target>\n            {tuple_delimiter}<description>{tuple_delimiter}<strength>)\n\"\"\"\n```\n\nGitHub\uff1agithub.com/microsoft/graphrag\n\n### Anthropic Contextual Retrieval Prompt\n\n```xml\n<document>{{WHOLE_DOCUMENT}}</document>\nHere is the chunk we want to situate within the whole document\n<chunk>{{CHUNK_CONTENT}}</chunk>\nPlease give a short succinct context to situate this chunk within \nthe overall document for improving search retrieval.\nAnswer only with the succinct context and nothing else.\n```\n\n\u6027\u80fd\u63d0\u5347\uff1aContextual Embeddings + BM25 + Reranking\u53ef\u5c06\u68c0\u7d22\u5931\u8d25\u7387\u4ece**5.7%\u964d\u81f31.9%**\uff08\u964d\u4f4e67%\uff09\u3002\n\n### RAG Fusion\u6838\u5fc3\u7b97\u6cd5\n\n```python\ndef reciprocal_rank_fusion(results: list[list], k: int = 60):\n    \"\"\"RRF\u7b97\u6cd5\uff1ascore = 1 / (k + rank)\"\"\"\n    fused_scores = defaultdict(int)\n    for docs in results:\n        for rank, doc in enumerate(docs, start=1):\n            fused_scores[dumps(doc)] += 1 / (k + rank)\n    return sorted(fused_scores.items(), key=lambda x: x[1], reverse=True)\n```\n\n### HyDE\u5047\u8bbe\u6587\u6863\u5d4c\u5165\n\n```python\nHYDE_PROMPT = \"\"\"Given a question, generate a detailed paragraph \nthat answers it, as if from a relevant document.\nQuestion: {question}\nGenerated Document:\"\"\"\n\n# \u751f\u6210\u591a\u4e2a\u5047\u8bbe\u6587\u6863 \u2192 \u5d4c\u5165 \u2192 \u5e73\u5747\u5411\u91cf \u2192 \u76f8\u4f3c\u6027\u68c0\u7d22\n```\n\n---\n\n## \u5173\u952e\u8d44\u6e90\u6c47\u603b\n\n### \u5b66\u672f\u8bba\u6587\uff082024-2025\uff09\n\n| \u9886\u57df | \u8bba\u6587 | \u94fe\u63a5 |\n|------|------|------|\n| \u589e\u91cf\u9884\u8bad\u7ec3 | Self-Synthesized Rehearsal | aclanthology.org/2024.acl-long.77 |\n| SFT vs \u77e5\u8bc6 | Fine-Tuning or Retrieval | aclanthology.org/2024.emnlp-main.15 |\n| DoRA | Weight-Decomposed LoRA | arxiv.org/abs/2402.09353 |\n| GraphRAG | Local to Global | arxiv.org/abs/2404.16130 |\n| Late Chunking | Contextual Chunk Embeddings | arxiv.org/abs/2409.04701 |\n| RST+LLM | RST Parsing with LLMs | arxiv.org/abs/2403.05065 |\n| \u9690\u6027\u8bed\u4e49 | LUSAR for MLLMs | arxiv.org/abs/2501.00330 |\n| \u4e2d\u6587NLI | OCNLI | aclanthology.org/2020.findings-emnlp.314 |\n\n### GitHub\u4ed3\u5e93\n\n| \u9879\u76ee | \u94fe\u63a5 |\n|------|------|\n| EasyEdit\uff08\u77e5\u8bc6\u7f16\u8f91\uff09 | github.com/zjunlp/EasyEdit |\n| LlamaIndex | github.com/run-llama/llama_index |\n| GraphRAG | github.com/microsoft/graphrag |\n| Fabric | github.com/danielmiessler/Fabric |\n| COMET | github.com/atcbosselut/comet-commonsense |\n| OpenHowNet | github.com/thunlp/OpenHowNet |\n| \u54c8\u5de5\u5927LTP | github.com/HIT-SCIR/ltp |\n| CLUE Benchmark | github.com/CLUEbenchmark/CLUE |\n\n---\n\n## \u7ed3\u8bba\uff1a\u7814\u7a76\u8d8b\u52bf\u4e0e\u5b9e\u8df5\u5efa\u8bae\n\n**\u6df7\u5408\u65b9\u6cd5\u6210\u4e3a\u4e3b\u6d41**\uff1aCPT + SFT + RAG\u7684\u7ec4\u5408\u7b56\u7565\u4f18\u4e8e\u5355\u4e00\u65b9\u6cd5\u3002QDoRA\u7b49\u91cf\u5316+\u9ad8\u6548\u65b9\u6cd5\u6b63\u6210\u4e3a\"2025\u5e74PEFT\u65b0\u6807\u51c6\"\u3002**10M+ tokens\u8d85\u957f\u4e0a\u4e0b\u6587**\u6b63\u5728\u91cd\u65b0\u5b9a\u4e49RAG\u8fb9\u754c\u2014\u2014\u90e8\u5206\u573a\u666f\u4e0b\u76f4\u63a5\u8f93\u5165\u5168\u6587\u6863\u53ef\u80fd\u4f18\u4e8e\u4f20\u7edf\u68c0\u7d22\u3002\n\n**\u9690\u6027\u8bed\u4e49\u63d0\u53d6\u662f\u5173\u952e\u74f6\u9888**\uff1a\u73b0\u6709\u6a21\u578b\u5728\u9690\u5f0f\u8574\u6db5\uff08implied entailment\uff09\u4e0a\u8868\u73b0\u63a5\u8fd1\u968f\u673a\uff0cRST\u3001Toulmin\u3001FrameNet\u7b49\u7ecf\u5178\u7406\u8bba\u6846\u67b6\u901a\u8fc7prompt engineering\u53ef\u6709\u6548\u6fc0\u6d3b\u76f8\u5173\u63a8\u7406\u80fd\u529b\u3002\n\n**\u4e2d\u6587\u8d44\u6e90\u5efa\u8bbe\u52a0\u901f**\uff1aOCNLI\u3001ORCHID\u3001SwordsmanImp\u7b49\u539f\u751f\u6570\u636e\u96c6\u6b63\u5728\u586b\u8865\u7a7a\u767d\uff0c\u4f46\u4e0e\u82f1\u6587\u76f8\u6bd4\u4ecd\u5b58\u5728\u663e\u8457\u5dee\u8ddd\u3002\u610f\u5408\u578b\u8bed\u8a00\u7279\u6027\u4f7f\u4e2d\u6587\u9690\u6027\u8bed\u4e49\u63d0\u53d6\u9762\u4e34\u72ec\u7279\u6311\u6218\uff0c\u9700\u8981\u66f4\u591a\u9488\u5bf9\u6027\u7814\u7a76\u3002\n\n**\u5de5\u7a0b\u5b9e\u8df5\u5efa\u8bae**\uff1a\n1. \u6587\u6863\u5904\u7406\u91c7\u7528Late Chunking + HierarchicalNodeParser\u7ec4\u5408\n2. \u68c0\u7d22\u589e\u5f3a\u4f7f\u7528Contextual Retrieval + BM25 + Reranking\uff08\u53ef\u964d\u4f4e67%\u5931\u8d25\u7387\uff09\n3. \u5168\u5c40\u6458\u8981\u573a\u666f\u4f18\u5148\u8003\u8651GraphRAG Global Search\n4. \u77e5\u8bc6\u66f4\u65b0\u573a\u666f\u8bc4\u4f30EasyEdit\u6846\u67b6\u800c\u975e\u91cd\u65b0\u5fae\u8c03",
+      "language": null,
+      "md_citations": [
+        {
+          "url": "https://iclr.cc/media/iclr-2024/Slides/17426.pdf",
+          "uuid": "7c6ca356-7f35-41ae-b0b4-584a2baae959",
+          "title": "ICLR",
+          "sources": [
+            {
+              "url": "https://iclr.cc/media/iclr-2024/Slides/17426.pdf",
+              "uuid": "7c6ca356-7f35-41ae-b0b4-584a2baae959",
+              "title": "Adapting Large Language Models via Reading Comprehension",
+              "source": "ICLR",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=iclr.cc",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "7c6ca356-7f35-41ae-b0b4-584a2baae959",
+            "source": "ICLR",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=iclr.cc",
+            "preview_title": "Adapting Large Language Models via Reading Comprehension"
+          },
+          "end_index": 364,
+          "start_index": 295,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://aclanthology.org/2024.acl-long.77/",
+          "uuid": "6d8c446a-e63a-4ca8-8a5c-71951943dd5e",
+          "title": "ACL Anthology",
+          "sources": [
+            {
+              "url": "https://aclanthology.org/2024.acl-long.77/",
+              "uuid": "6d8c446a-e63a-4ca8-8a5c-71951943dd5e",
+              "title": "Mitigating Catastrophic Forgetting in Large Language Models with Self-Synthesized Rehearsal - ACL Anthology",
+              "source": "ACL Anthology",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=aclanthology.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "6d8c446a-e63a-4ca8-8a5c-71951943dd5e",
+            "source": "ACL Anthology",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=aclanthology.org",
+            "preview_title": "Mitigating Catastrophic Forgetting in Large Language Models with Self-Synthesized Rehearsal - ACL Anthology"
+          },
+          "end_index": 598,
+          "start_index": 574,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://www.emergentmind.com/topics/domain-adaptive-pre-training-dapt",
+          "uuid": "7ef8c0e3-a18c-46f7-9ccd-87ef108355f8",
+          "title": "Emergent Mind",
+          "sources": [
+            {
+              "url": "https://www.emergentmind.com/topics/domain-adaptive-pre-training-dapt",
+              "uuid": "7ef8c0e3-a18c-46f7-9ccd-87ef108355f8",
+              "title": "Domain-Adaptive Pre-Training (DAPT)",
+              "source": "Emergent Mind",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=emergentmind.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "7ef8c0e3-a18c-46f7-9ccd-87ef108355f8",
+            "source": "Emergent Mind",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=emergentmind.com",
+            "preview_title": "Domain-Adaptive Pre-Training (DAPT)"
+          },
+          "end_index": 654,
+          "start_index": 601,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://www.semanticscholar.org/paper/LIMA:-Less-Is-More-for-Alignment-Zhou-Liu/546d0624adfc6e18fb87d8cc77e7705bb9ea7445",
+          "uuid": "75093d99-8fcd-40cc-950e-f13b605675df",
+          "title": "Semantic Scholar",
+          "sources": [
+            {
+              "url": "https://www.semanticscholar.org/paper/LIMA:-Less-Is-More-for-Alignment-Zhou-Liu/546d0624adfc6e18fb87d8cc77e7705bb9ea7445",
+              "uuid": "75093d99-8fcd-40cc-950e-f13b605675df",
+              "title": "[PDF] LIMA: Less Is More for Alignment | Semantic Scholar",
+              "source": "Semantic Scholar",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=semanticscholar.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "75093d99-8fcd-40cc-950e-f13b605675df",
+            "source": "Semantic Scholar",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=semanticscholar.org",
+            "preview_title": "[PDF] LIMA: Less Is More for Alignment | Semantic Scholar"
+          },
+          "end_index": 1063,
+          "start_index": 1028,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2312.05934",
+          "uuid": "88d1a8c4-0736-491b-ba42-c7b50cb06f76",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/pdf/2312.05934",
+              "uuid": "88d1a8c4-0736-491b-ba42-c7b50cb06f76",
+              "title": "Fine-Tuning or Retrieval? Comparing Knowledge Injection in LLMs",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "88d1a8c4-0736-491b-ba42-c7b50cb06f76",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "Fine-Tuning or Retrieval? Comparing Knowledge Injection in LLMs"
+          },
+          "end_index": 1123,
+          "start_index": 1063,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/html/2410.03717v1",
+          "uuid": "fa273ebb-8856-45ac-bef8-216b7bc4480f",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/html/2410.03717v1",
+              "uuid": "fa273ebb-8856-45ac-bef8-216b7bc4480f",
+              "title": "Revisiting the Superficial Alignment Hypothesis",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "fa273ebb-8856-45ac-bef8-216b7bc4480f",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "Revisiting the Superficial Alignment Hypothesis"
+          },
+          "end_index": 1152,
+          "start_index": 1125,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://zilliz.com/blog/knowledge-injection-in-llms-fine-tuning-and-rag",
+          "uuid": "2a027073-2f58-49c8-976f-f3628d763ffc",
+          "title": "Zilliz",
+          "sources": [
+            {
+              "url": "https://zilliz.com/blog/knowledge-injection-in-llms-fine-tuning-and-rag",
+              "uuid": "2a027073-2f58-49c8-976f-f3628d763ffc",
+              "title": "Knowledge Injection in LLMs: Fine-Tuning vs. RAG - Zilliz blog",
+              "source": "Zilliz",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=zilliz.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "2a027073-2f58-49c8-976f-f3628d763ffc",
+            "source": "Zilliz",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=zilliz.com",
+            "preview_title": "Knowledge Injection in LLMs: Fine-Tuning vs. RAG - Zilliz blog"
+          },
+          "end_index": 1173,
+          "start_index": 1125,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/abs/2404.00213",
+          "uuid": "6a38a54d-41d7-4ea6-b75b-889f2d16b3ee",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/abs/2404.00213",
+              "uuid": "6a38a54d-41d7-4ea6-b75b-889f2d16b3ee",
+              "title": "[2404.00213] Injecting New Knowledge into Large Language Models via Supervised Fine-Tuning",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "6a38a54d-41d7-4ea6-b75b-889f2d16b3ee",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "[2404.00213] Injecting New Knowledge into Large Language Models via Supervised Fine-Tuning"
+          },
+          "end_index": 1242,
+          "start_index": 1173,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://www.microsoft.com/en-us/research/publication/injecting-new-knowledge-into-large-language-models-via-supervised-fine-tuning/",
+          "uuid": "9d2a2abc-5f31-445c-bc48-96fe6fdab4be",
+          "title": "Microsoft",
+          "sources": [
+            {
+              "url": "https://www.microsoft.com/en-us/research/publication/injecting-new-knowledge-into-large-language-models-via-supervised-fine-tuning/",
+              "uuid": "9d2a2abc-5f31-445c-bc48-96fe6fdab4be",
+              "title": "Injecting New Knowledge into Large Language Models via Supervised Fine-Tuning - Microsoft Research",
+              "source": "Microsoft",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=microsoft.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "9d2a2abc-5f31-445c-bc48-96fe6fdab4be",
+            "source": "Microsoft",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=microsoft.com",
+            "preview_title": "Injecting New Knowledge into Large Language Models via Supervised Fine-Tuning - Microsoft Research"
+          },
+          "end_index": 1242,
+          "start_index": 1173,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/html/2412.14964v2",
+          "uuid": "c918879f-6727-49de-b405-a3b305379076",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/html/2412.14964v2",
+              "uuid": "c918879f-6727-49de-b405-a3b305379076",
+              "title": "Efficient Knowledge Injection in LLMs via Self-Distillation",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "c918879f-6727-49de-b405-a3b305379076",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "Efficient Knowledge Injection in LLMs via Self-Distillation"
+          },
+          "end_index": 1299,
+          "start_index": 1242,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://medium.com/@AntonioVFranco/qdora-explained-the-new-peft-standard-for-2025-5cf59afeb6ba",
+          "uuid": "a6635d50-b72e-45be-a0e5-59dc246181b9",
+          "title": "Medium",
+          "sources": [
+            {
+              "url": "https://medium.com/@AntonioVFranco/qdora-explained-the-new-peft-standard-for-2025-5cf59afeb6ba",
+              "uuid": "a6635d50-b72e-45be-a0e5-59dc246181b9",
+              "title": "QDoRA Explained: The New PEFT Standard for 2025 | by Antonio V. Franco | Nov, 2025 | Medium",
+              "source": "Medium",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=medium.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "a6635d50-b72e-45be-a0e5-59dc246181b9",
+            "source": "Medium",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=medium.com",
+            "preview_title": "QDoRA Explained: The New PEFT Standard for 2025 | by Antonio V. Franco | Nov, 2025 | Medium"
+          },
+          "end_index": 1406,
+          "start_index": 1330,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://developer.nvidia.com/blog/introducing-dora-a-high-performing-alternative-to-lora-for-fine-tuning/",
+          "uuid": "28a8049b-0af2-40e7-962a-64355fe547fb",
+          "title": "NVIDIA Developer",
+          "sources": [
+            {
+              "url": "https://developer.nvidia.com/blog/introducing-dora-a-high-performing-alternative-to-lora-for-fine-tuning/",
+              "uuid": "28a8049b-0af2-40e7-962a-64355fe547fb",
+              "title": "Introducing DoRA, a High-Performing Alternative to LoRA for Fine-Tuning | NVIDIA Technical Blog",
+              "source": "NVIDIA Developer",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=nvidia.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "28a8049b-0af2-40e7-962a-64355fe547fb",
+            "source": "NVIDIA Developer",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=nvidia.com",
+            "preview_title": "Introducing DoRA, a High-Performing Alternative to LoRA for Fine-Tuning | NVIDIA Technical Blog"
+          },
+          "end_index": 1442,
+          "start_index": 1330,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://medium.com/@abhi-84/lora-qlora-dora-rslora-the-complete-guide-to-7-production-ready-fine-tuning-variants-283ff3e574a3",
+          "uuid": "3dc26ba0-1724-4c9c-977c-dc9062afbce2",
+          "title": "Medium",
+          "sources": [
+            {
+              "url": "https://medium.com/@abhi-84/lora-qlora-dora-rslora-the-complete-guide-to-7-production-ready-fine-tuning-variants-283ff3e574a3",
+              "uuid": "3dc26ba0-1724-4c9c-977c-dc9062afbce2",
+              "title": "LoRA, QLoRA, DoRA & rsLoRA: The Complete Guide to 7 Production-Ready Fine-Tuning Variants | by Abhishek Kumar Srivastava | Dec, 2025 | Medium",
+              "source": "Medium",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=medium.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "3dc26ba0-1724-4c9c-977c-dc9062afbce2",
+            "source": "Medium",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=medium.com",
+            "preview_title": "LoRA, QLoRA, DoRA & rsLoRA: The Complete Guide to 7 Production-Ready Fine-Tuning Variants | by Abhishek Kumar Srivastava | Dec, 2025 | Medium"
+          },
+          "end_index": 1566,
+          "start_index": 1531,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://medium.com/@techsachin/exploring-pitfalls-of-knowledge-editing-in-large-language-models-a0ab043909d0",
+          "uuid": "ff644fae-cd85-49f0-adb8-0e3f4b259d8b",
+          "title": "Medium",
+          "sources": [
+            {
+              "url": "https://medium.com/@techsachin/exploring-pitfalls-of-knowledge-editing-in-large-language-models-a0ab043909d0",
+              "uuid": "ff644fae-cd85-49f0-adb8-0e3f4b259d8b",
+              "title": "Exploring Pitfalls of Knowledge Editing in Large Language Models | by SACHIN KUMAR | Medium",
+              "source": "Medium",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=medium.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "ff644fae-cd85-49f0-adb8-0e3f4b259d8b",
+            "source": "Medium",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=medium.com",
+            "preview_title": "Exploring Pitfalls of Knowledge Editing in Large Language Models | by SACHIN KUMAR | Medium"
+          },
+          "end_index": 1862,
+          "start_index": 1807,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://github.com/zjunlp/EasyEdit",
+          "uuid": "6abd0d21-22c5-46df-bbf9-704698d90790",
+          "title": "GitHub",
+          "sources": [
+            {
+              "url": "https://github.com/zjunlp/EasyEdit",
+              "uuid": "6abd0d21-22c5-46df-bbf9-704698d90790",
+              "title": "GitHub - zjunlp/EasyEdit: [ACL 2024] An Easy-to-use Knowledge Editing Framework for LLMs.",
+              "source": "GitHub",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=github.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "6abd0d21-22c5-46df-bbf9-704698d90790",
+            "source": "GitHub",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=github.com",
+            "preview_title": "GitHub - zjunlp/EasyEdit: [ACL 2024] An Easy-to-use Knowledge Editing Framework for LLMs."
+          },
+          "end_index": 2077,
+          "start_index": 1964,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/html/2403.05530v2",
+          "uuid": "b6a29ded-7ae5-4bda-813c-b60636eb713c",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/html/2403.05530v2",
+              "uuid": "b6a29ded-7ae5-4bda-813c-b60636eb713c",
+              "title": "Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "b6a29ded-7ae5-4bda-813c-b60636eb713c",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context"
+          },
+          "end_index": 2196,
+          "start_index": 2134,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://blog.google/technology/ai/google-gemini-next-generation-model-february-2024/",
+          "uuid": "cd8ba723-203e-40b3-ae45-d5ee156aba7e",
+          "title": "Google",
+          "sources": [
+            {
+              "url": "https://blog.google/technology/ai/google-gemini-next-generation-model-february-2024/",
+              "uuid": "cd8ba723-203e-40b3-ae45-d5ee156aba7e",
+              "title": "Introducing Gemini 1.5, Google's next-generation AI model",
+              "source": "Google",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=blog.google",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "cd8ba723-203e-40b3-ae45-d5ee156aba7e",
+            "source": "Google",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=blog.google",
+            "preview_title": "Introducing Gemini 1.5, Google's next-generation AI model"
+          },
+          "end_index": 2232,
+          "start_index": 2196,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://www.aimodels.fyi/papers/arxiv/gemini-15-unlocking-multimodal-understanding-across-millions",
+          "uuid": "61f3b046-2d1f-42f4-9809-77bd3031c719",
+          "title": "AI Models",
+          "sources": [
+            {
+              "url": "https://www.aimodels.fyi/papers/arxiv/gemini-15-unlocking-multimodal-understanding-across-millions",
+              "uuid": "61f3b046-2d1f-42f4-9809-77bd3031c719",
+              "title": "Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context | AI Research Paper Details",
+              "source": "AI Models",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=aimodels.fyi",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "61f3b046-2d1f-42f4-9809-77bd3031c719",
+            "source": "AI Models",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=aimodels.fyi",
+            "preview_title": "Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context | AI Research Paper Details"
+          },
+          "end_index": 2232,
+          "start_index": 2196,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://www.prompthub.us/blog/prompt-caching-with-openai-anthropic-and-google-models",
+          "uuid": "088f22b0-bce3-4131-8956-87e8480f97f9",
+          "title": "Prompt Hub",
+          "sources": [
+            {
+              "url": "https://www.prompthub.us/blog/prompt-caching-with-openai-anthropic-and-google-models",
+              "uuid": "088f22b0-bce3-4131-8956-87e8480f97f9",
+              "title": "PromptHub Blog: Prompt Caching with OpenAI, Anthropic, and Google Models",
+              "source": "Prompt Hub",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=prompthub.us",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "088f22b0-bce3-4131-8956-87e8480f97f9",
+            "source": "Prompt Hub",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=prompthub.us",
+            "preview_title": "PromptHub Blog: Prompt Caching with OpenAI, Anthropic, and Google Models"
+          },
+          "end_index": 2372,
+          "start_index": 2319,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://developers.googleblog.com/en/gemini-2-5-models-now-support-implicit-caching/",
+          "uuid": "c503abc6-b854-46b0-abea-a4b3faa19770",
+          "title": "Google Developers",
+          "sources": [
+            {
+              "url": "https://developers.googleblog.com/en/gemini-2-5-models-now-support-implicit-caching/",
+              "uuid": "c503abc6-b854-46b0-abea-a4b3faa19770",
+              "title": "Gemini 2.5 Models now support implicit caching - Google Developers Blog",
+              "source": "Google Developers",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=googleblog.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "c503abc6-b854-46b0-abea-a4b3faa19770",
+            "source": "Google Developers",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=googleblog.com",
+            "preview_title": "Gemini 2.5 Models now support implicit caching - Google Developers Blog"
+          },
+          "end_index": 2442,
+          "start_index": 2411,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/abs/2310.00785",
+          "uuid": "8967e47d-692f-47e2-a09c-0f7d295c6799",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/abs/2310.00785",
+              "uuid": "8967e47d-692f-47e2-a09c-0f7d295c6799",
+              "title": "[2310.00785] BooookScore: A systematic exploration of book-length summarization in the era of LLMs",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "8967e47d-692f-47e2-a09c-0f7d295c6799",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "[2310.00785] BooookScore: A systematic exploration of book-length summarization in the era of LLMs"
+          },
+          "end_index": 2543,
+          "start_index": 2507,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://iclr.cc/virtual/2024/oral/19789",
+          "uuid": "e0d390b6-a622-4ef9-b334-d0c77b549869",
+          "title": "ICLR",
+          "sources": [
+            {
+              "url": "https://iclr.cc/virtual/2024/oral/19789",
+              "uuid": "e0d390b6-a622-4ef9-b334-d0c77b549869",
+              "title": "ICLR 2024 BooookScore: A systematic exploration of book-length summarization in the era of LLMs Oral",
+              "source": "ICLR",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=iclr.cc",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "e0d390b6-a622-4ef9-b334-d0c77b549869",
+            "source": "ICLR",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=iclr.cc",
+            "preview_title": "ICLR 2024 BooookScore: A systematic exploration of book-length summarization in the era of LLMs Oral"
+          },
+          "end_index": 2543,
+          "start_index": 2507,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://openreview.net/pdf?id=7Ttk3RzDeu",
+          "uuid": "8f7bf102-e212-493a-91d5-69874461c81e",
+          "title": "OpenReview",
+          "sources": [
+            {
+              "url": "https://openreview.net/pdf?id=7Ttk3RzDeu",
+              "uuid": "8f7bf102-e212-493a-91d5-69874461c81e",
+              "title": "Published as a conference paper at ICLR 2024 BOOOOKSCORE:",
+              "source": "OpenReview",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=openreview.net",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "8f7bf102-e212-493a-91d5-69874461c81e",
+            "source": "OpenReview",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=openreview.net",
+            "preview_title": "Published as a conference paper at ICLR 2024 BOOOOKSCORE:"
+          },
+          "end_index": 2562,
+          "start_index": 2545,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://openreview.net/pdf?id=7Ttk3RzDeu",
+          "uuid": "a3925e9e-2c40-4c7e-b8c4-d034a8b48115",
+          "title": "OpenReview",
+          "sources": [
+            {
+              "url": "https://openreview.net/pdf?id=7Ttk3RzDeu",
+              "uuid": "a3925e9e-2c40-4c7e-b8c4-d034a8b48115",
+              "title": "Published as a conference paper at ICLR 2024 BOOOOKSCORE:",
+              "source": "OpenReview",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=openreview.net",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "a3925e9e-2c40-4c7e-b8c4-d034a8b48115",
+            "source": "OpenReview",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=openreview.net",
+            "preview_title": "Published as a conference paper at ICLR 2024 BOOOOKSCORE:"
+          },
+          "end_index": 2597,
+          "start_index": 2578,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/html/2310.00785v4",
+          "uuid": "11fdf565-2866-43fc-934f-c06afe6b53aa",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/html/2310.00785v4",
+              "uuid": "11fdf565-2866-43fc-934f-c06afe6b53aa",
+              "title": "BooookScore: A systematic exploration of book-length summarization in the era of LLMs",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "11fdf565-2866-43fc-934f-c06afe6b53aa",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "BooookScore: A systematic exploration of book-length summarization in the era of LLMs"
+          },
+          "end_index": 2597,
+          "start_index": 2545,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://openreview.net/pdf?id=7Ttk3RzDeu",
+          "uuid": "b3d61a0a-e44e-4791-a4cc-902db7e88c14",
+          "title": "OpenReview",
+          "sources": [
+            {
+              "url": "https://openreview.net/pdf?id=7Ttk3RzDeu",
+              "uuid": "b3d61a0a-e44e-4791-a4cc-902db7e88c14",
+              "title": "Published as a conference paper at ICLR 2024 BOOOOKSCORE:",
+              "source": "OpenReview",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=openreview.net",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "b3d61a0a-e44e-4791-a4cc-902db7e88c14",
+            "source": "OpenReview",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=openreview.net",
+            "preview_title": "Published as a conference paper at ICLR 2024 BOOOOKSCORE:"
+          },
+          "end_index": 2636,
+          "start_index": 2597,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://hackmd.io/@VitasLu/SyJxFQ_BA",
+          "uuid": "b3ac2b3d-0829-485c-9e5b-e5db4504c6d4",
+          "title": "HackMD",
+          "sources": [
+            {
+              "url": "https://hackmd.io/@VitasLu/SyJxFQ_BA",
+              "uuid": "b3ac2b3d-0829-485c-9e5b-e5db4504c6d4",
+              "title": "BooookScore: A systematic exploration of book-length summarization in the era of LLMs - HackMD",
+              "source": "HackMD",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=hackmd.io",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "b3ac2b3d-0829-485c-9e5b-e5db4504c6d4",
+            "source": "HackMD",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=hackmd.io",
+            "preview_title": "BooookScore: A systematic exploration of book-length summarization in the era of LLMs - HackMD"
+          },
+          "end_index": 2636,
+          "start_index": 2616,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://nvidia.github.io/GenerativeAIExamples/0.5.0/notebooks/04_llamaindex_hier_node_parser.html",
+          "uuid": "d35bf465-7517-4306-8ac5-78350596802b",
+          "title": "GitHub",
+          "sources": [
+            {
+              "url": "https://nvidia.github.io/GenerativeAIExamples/0.5.0/notebooks/04_llamaindex_hier_node_parser.html",
+              "uuid": "d35bf465-7517-4306-8ac5-78350596802b",
+              "title": "Advanced Q&A with LlamaIndex \u2014 NVIDIA Generative AI Examples 0.5.0 documentation",
+              "source": "GitHub",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=github.io",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "d35bf465-7517-4306-8ac5-78350596802b",
+            "source": "GitHub",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=github.io",
+            "preview_title": "Advanced Q&A with LlamaIndex \u2014 NVIDIA Generative AI Examples 0.5.0 documentation"
+          },
+          "end_index": 3093,
+          "start_index": 2959,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://docs.llamaindex.ai/en/stable/module_guides/loading/node_parsers/modules/",
+          "uuid": "c5a84369-b1e3-49d7-bc43-2d3182a376aa",
+          "title": "LlamaIndex",
+          "sources": [
+            {
+              "url": "https://docs.llamaindex.ai/en/stable/module_guides/loading/node_parsers/modules/",
+              "uuid": "c5a84369-b1e3-49d7-bc43-2d3182a376aa",
+              "title": "Node Parser Modules | LlamaIndex Python Documentation",
+              "source": "LlamaIndex",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=llamaindex.ai",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "c5a84369-b1e3-49d7-bc43-2d3182a376aa",
+            "source": "LlamaIndex",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=llamaindex.ai",
+            "preview_title": "Node Parser Modules | LlamaIndex Python Documentation"
+          },
+          "end_index": 3093,
+          "start_index": 2959,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://developers.llamaindex.ai/python/framework/module_guides/loading/node_parsers/modules/",
+          "uuid": "742ef7b9-a7d5-4b04-bab6-963f8e57578c",
+          "title": "Llamaindex",
+          "sources": [
+            {
+              "url": "https://developers.llamaindex.ai/python/framework/module_guides/loading/node_parsers/modules/",
+              "uuid": "742ef7b9-a7d5-4b04-bab6-963f8e57578c",
+              "title": "Node Parser Modules | LlamaIndex Python Documentation",
+              "source": "Llamaindex",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=llamaindex.ai",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "742ef7b9-a7d5-4b04-bab6-963f8e57578c",
+            "source": "Llamaindex",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=llamaindex.ai",
+            "preview_title": "Node Parser Modules | LlamaIndex Python Documentation"
+          },
+          "end_index": 3093,
+          "start_index": 2959,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://microsoft.github.io/graphrag/",
+          "uuid": "c598df49-c28c-4147-b11d-725961033a1a",
+          "title": "GitHub",
+          "sources": [
+            {
+              "url": "https://microsoft.github.io/graphrag/",
+              "uuid": "c598df49-c28c-4147-b11d-725961033a1a",
+              "title": "Welcome - GraphRAG",
+              "source": "GitHub",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=github.io",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "c598df49-c28c-4147-b11d-725961033a1a",
+            "source": "GitHub",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=github.io",
+            "preview_title": "Welcome - GraphRAG"
+          },
+          "end_index": 3371,
+          "start_index": 3335,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/html/2404.16130v2",
+          "uuid": "d636b580-0a48-4ff1-b318-d3bd6e839ec1",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/html/2404.16130v2",
+              "uuid": "d636b580-0a48-4ff1-b318-d3bd6e839ec1",
+              "title": "From Local to Global: A GraphRAG Approach to Query-Focused Summarization",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "d636b580-0a48-4ff1-b318-d3bd6e839ec1",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "From Local to Global: A GraphRAG Approach to Query-Focused Summarization"
+          },
+          "end_index": 3394,
+          "start_index": 3335,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://microsoft.github.io/graphrag/",
+          "uuid": "c1a3fd01-6d9b-4428-a3e4-f636c99fec6a",
+          "title": "GitHub",
+          "sources": [
+            {
+              "url": "https://microsoft.github.io/graphrag/",
+              "uuid": "c1a3fd01-6d9b-4428-a3e4-f636c99fec6a",
+              "title": "Welcome - GraphRAG",
+              "source": "GitHub",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=github.io",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "c1a3fd01-6d9b-4428-a3e4-f636c99fec6a",
+            "source": "GitHub",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=github.io",
+            "preview_title": "Welcome - GraphRAG"
+          },
+          "end_index": 3428,
+          "start_index": 3413,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://microsoft.github.io/graphrag/index/default_dataflow/",
+          "uuid": "3170710b-42a4-457c-8718-3697266832c5",
+          "title": "GitHub",
+          "sources": [
+            {
+              "url": "https://microsoft.github.io/graphrag/index/default_dataflow/",
+              "uuid": "3170710b-42a4-457c-8718-3697266832c5",
+              "title": "Dataflow - GraphRAG",
+              "source": "GitHub",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=github.io",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "3170710b-42a4-457c-8718-3697266832c5",
+            "source": "GitHub",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=github.io",
+            "preview_title": "Dataflow - GraphRAG"
+          },
+          "end_index": 3461,
+          "start_index": 3432,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://medium.com/@EleventhHourEnthusiast/paper-review-graph-rag-90257aa62464",
+          "uuid": "f4e6a814-e065-4396-9175-7096f7f14035",
+          "title": "Medium",
+          "sources": [
+            {
+              "url": "https://medium.com/@EleventhHourEnthusiast/paper-review-graph-rag-90257aa62464",
+              "uuid": "f4e6a814-e065-4396-9175-7096f7f14035",
+              "title": "From Local to Global: A Graph RAG Approach to Query-Focused Summarization | by Eleventh Hour Enthusiast | Medium",
+              "source": "Medium",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=medium.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "f4e6a814-e065-4396-9175-7096f7f14035",
+            "source": "Medium",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=medium.com",
+            "preview_title": "From Local to Global: A Graph RAG Approach to Query-Focused Summarization | by Eleventh Hour Enthusiast | Medium"
+          },
+          "end_index": 3513,
+          "start_index": 3479,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://microsoft.github.io/graphrag/index/default_dataflow/",
+          "uuid": "f98f7e55-bd7e-4451-a9fa-eb35acd91f43",
+          "title": "GitHub",
+          "sources": [
+            {
+              "url": "https://microsoft.github.io/graphrag/index/default_dataflow/",
+              "uuid": "f98f7e55-bd7e-4451-a9fa-eb35acd91f43",
+              "title": "Dataflow - GraphRAG",
+              "source": "GitHub",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=github.io",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "f98f7e55-bd7e-4451-a9fa-eb35acd91f43",
+            "source": "GitHub",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=github.io",
+            "preview_title": "Dataflow - GraphRAG"
+          },
+          "end_index": 3513,
+          "start_index": 3479,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://medium.com/@EleventhHourEnthusiast/paper-review-graph-rag-90257aa62464",
+          "uuid": "316369db-0481-4287-a6d4-3ad5843a18bb",
+          "title": "Medium",
+          "sources": [
+            {
+              "url": "https://medium.com/@EleventhHourEnthusiast/paper-review-graph-rag-90257aa62464",
+              "uuid": "316369db-0481-4287-a6d4-3ad5843a18bb",
+              "title": "From Local to Global: A Graph RAG Approach to Query-Focused Summarization | by Eleventh Hour Enthusiast | Medium",
+              "source": "Medium",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=medium.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "316369db-0481-4287-a6d4-3ad5843a18bb",
+            "source": "Medium",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=medium.com",
+            "preview_title": "From Local to Global: A Graph RAG Approach to Query-Focused Summarization | by Eleventh Hour Enthusiast | Medium"
+          },
+          "end_index": 3559,
+          "start_index": 3515,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/abs/2409.04701",
+          "uuid": "e5f8817d-7e19-467a-9b61-ec5e07ee4a04",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/abs/2409.04701",
+              "uuid": "e5f8817d-7e19-467a-9b61-ec5e07ee4a04",
+              "title": "[2409.04701] Late Chunking: Contextual Chunk Embeddings Using Long-Context Embedding Models",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "e5f8817d-7e19-467a-9b61-ec5e07ee4a04",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "[2409.04701] Late Chunking: Contextual Chunk Embeddings Using Long-Context Embedding Models"
+          },
+          "end_index": 3681,
+          "start_index": 3607,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://www.datacamp.com/tutorial/late-chunking",
+          "uuid": "a371c9a0-45b7-4711-ac3d-d1a8c38aae4c",
+          "title": "DataCamp",
+          "sources": [
+            {
+              "url": "https://www.datacamp.com/tutorial/late-chunking",
+              "uuid": "a371c9a0-45b7-4711-ac3d-d1a8c38aae4c",
+              "title": "Late Chunking for RAG: Implementation With Jina AI | DataCamp",
+              "source": "DataCamp",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=datacamp.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "a371c9a0-45b7-4711-ac3d-d1a8c38aae4c",
+            "source": "DataCamp",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=datacamp.com",
+            "preview_title": "Late Chunking for RAG: Implementation With Jina AI | DataCamp"
+          },
+          "end_index": 3737,
+          "start_index": 3681,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://aclanthology.org/2024.eacl-long.171/",
+          "uuid": "181c9d55-6d33-4503-9ea9-15ed1de991a7",
+          "title": "ACL Anthology",
+          "sources": [
+            {
+              "url": "https://aclanthology.org/2024.eacl-long.171/",
+              "uuid": "181c9d55-6d33-4503-9ea9-15ed1de991a7",
+              "title": "Can we obtain significant success in RST discourse parsing by using Large Language Models? - ACL Anthology",
+              "source": "ACL Anthology",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=aclanthology.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "181c9d55-6d33-4503-9ea9-15ed1de991a7",
+            "source": "ACL Anthology",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=aclanthology.org",
+            "preview_title": "Can we obtain significant success in RST discourse parsing by using Large Language Models? - ACL Anthology"
+          },
+          "end_index": 3978,
+          "start_index": 3933,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://aclanthology.org/2020.findings-emnlp.314/",
+          "uuid": "386d6d56-a598-4b02-a174-d608b62f4a29",
+          "title": "ACL Anthology",
+          "sources": [
+            {
+              "url": "https://aclanthology.org/2020.findings-emnlp.314/",
+              "uuid": "386d6d56-a598-4b02-a174-d608b62f4a29",
+              "title": "OCNLI: Original Chinese Natural Language Inference - ACL Anthology",
+              "source": "ACL Anthology",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=aclanthology.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "386d6d56-a598-4b02-a174-d608b62f4a29",
+            "source": "ACL Anthology",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=aclanthology.org",
+            "preview_title": "OCNLI: Original Chinese Natural Language Inference - ACL Anthology"
+          },
+          "end_index": 4909,
+          "start_index": 4838,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://blog.csdn.net/zephyr_wang/article/details/114028253",
+          "uuid": "a1aac170-827a-493a-a82a-bf107ba7d4df",
+          "title": "CSDN",
+          "sources": [
+            {
+              "url": "https://blog.csdn.net/zephyr_wang/article/details/114028253",
+              "uuid": "a1aac170-827a-493a-a82a-bf107ba7d4df",
+              "title": "CLUE\uff1a\u4e2d\u6587\u8bed\u8a00\u7406\u89e3\u6d4b\u8bc4\u57fa\u51c6\u53caNLP\u4e2d\u6587\u6570\u636e\u96c6_clue\u6570\u636e\u96c6-CSDN\u535a\u5ba2",
+              "source": "CSDN",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=csdn.net",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "a1aac170-827a-493a-a82a-bf107ba7d4df",
+            "source": "CSDN",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=csdn.net",
+            "preview_title": "CLUE\uff1a\u4e2d\u6587\u8bed\u8a00\u7406\u89e3\u6d4b\u8bc4\u57fa\u51c6\u53caNLP\u4e2d\u6587\u6570\u636e\u96c6_clue\u6570\u636e\u96c6-CSDN\u535a\u5ba2"
+          },
+          "end_index": 5026,
+          "start_index": 4942,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/html/2410.13667",
+          "uuid": "053c6eef-1f60-4b92-a2e5-7c3a527bf33d",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/html/2410.13667",
+              "uuid": "053c6eef-1f60-4b92-a2e5-7c3a527bf33d",
+              "title": "OrChiD: A Chinese Debate Corpus for Target-Independent Stance Detection and Argumentative Dialogue Summarization",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "053c6eef-1f60-4b92-a2e5-7c3a527bf33d",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "OrChiD: A Chinese Debate Corpus for Target-Independent Stance Detection and Argumentative Dialogue Summarization"
+          },
+          "end_index": 5178,
+          "start_index": 5104,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/html/2504.09958",
+          "uuid": "60a52d0e-9a8a-4b84-ac57-11da96e6c189",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/html/2504.09958",
+              "uuid": "60a52d0e-9a8a-4b84-ac57-11da96e6c189",
+              "title": "C-MTCSD: A Chinese Multi-Turn Conversational Stance Detection Dataset",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "60a52d0e-9a8a-4b84-ac57-11da96e6c189",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "C-MTCSD: A Chinese Multi-Turn Conversational Stance Detection Dataset"
+          },
+          "end_index": 5227,
+          "start_index": 5176,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://link.springer.com/chapter/10.1007/978-981-97-8367-0_24",
+          "uuid": "c2113cd7-4e8d-4c25-bf1d-a7c56688f540",
+          "title": "Springer",
+          "sources": [
+            {
+              "url": "https://link.springer.com/chapter/10.1007/978-981-97-8367-0_24",
+              "uuid": "c2113cd7-4e8d-4c25-bf1d-a7c56688f540",
+              "title": "Do Large Language Models Understand Conversational Implicature \u2013 A Case Study with a Chinese Sitcom | Springer Nature Link (formerly SpringerLink)",
+              "source": "Springer",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=springer.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "c2113cd7-4e8d-4c25-bf1d-a7c56688f540",
+            "source": "Springer",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=springer.com",
+            "preview_title": "Do Large Language Models Understand Conversational Implicature \u2013 A Case Study with a Chinese Sitcom | Springer Nature Link (formerly SpringerLink)"
+          },
+          "end_index": 5380,
+          "start_index": 5296,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://www.esensoft.com/industry-news/dx-7902.html",
+          "uuid": "fc6b12b4-7c93-41c6-b5da-23738d41d498",
+          "title": "Esensoft",
+          "sources": [
+            {
+              "url": "https://www.esensoft.com/industry-news/dx-7902.html",
+              "uuid": "fc6b12b4-7c93-41c6-b5da-23738d41d498",
+              "title": "\u5410\u8840\u6574\u7406\uff0112\u79cd\u901a\u7528\u77e5\u8bc6\u56fe\u8c31\u9879\u76ee\u7b80\u4ecb_\u4ebf\u4fe1\u534e\u8fb0-\u5927\u6570\u636e\u5206\u6790\u3001\u6570\u636e\u6cbb\u7406\u3001\u5546\u4e1a\u667a\u80fdBI\u5de5\u5177\u4e0e\u670d\u52a1\u63d0\u4f9b\u5546",
+              "source": "Esensoft",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=esensoft.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "fc6b12b4-7c93-41c6-b5da-23738d41d498",
+            "source": "Esensoft",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=esensoft.com",
+            "preview_title": "\u5410\u8840\u6574\u7406\uff0112\u79cd\u901a\u7528\u77e5\u8bc6\u56fe\u8c31\u9879\u76ee\u7b80\u4ecb_\u4ebf\u4fe1\u534e\u8fb0-\u5927\u6570\u636e\u5206\u6790\u3001\u6570\u636e\u6cbb\u7406\u3001\u5546\u4e1a\u667a\u80fdBI\u5de5\u5177\u4e0e\u670d\u52a1\u63d0\u4f9b\u5546"
+          },
+          "end_index": 5522,
+          "start_index": 5506,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://www.jiqizhixin.com/articles/2019-02-01-10",
+          "uuid": "671ed359-7b1c-4b04-8e61-9bd1d0323ac0",
+          "title": "Jiqizhixin",
+          "sources": [
+            {
+              "url": "https://www.jiqizhixin.com/articles/2019-02-01-10",
+              "uuid": "671ed359-7b1c-4b04-8e61-9bd1d0323ac0",
+              "title": "HowNet\u77e5\u8bc6\u7cfb\u7edf\u5171\u540c\u53d1\u660e\u4eba\u8463\u5f3a\uff1aTHUKC\u8bed\u8a00\u4e0e\u5e38\u8bc6\u77e5\u8bc6\u5e93\u2014\u2014OpenHowNet | \u673a\u5668\u4e4b\u5fc3",
+              "source": "Jiqizhixin",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=jiqizhixin.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "671ed359-7b1c-4b04-8e61-9bd1d0323ac0",
+            "source": "Jiqizhixin",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=jiqizhixin.com",
+            "preview_title": "HowNet\u77e5\u8bc6\u7cfb\u7edf\u5171\u540c\u53d1\u660e\u4eba\u8463\u5f3a\uff1aTHUKC\u8bed\u8a00\u4e0e\u5e38\u8bc6\u77e5\u8bc6\u5e93\u2014\u2014OpenHowNet | \u673a\u5668\u4e4b\u5fc3"
+          },
+          "end_index": 5575,
+          "start_index": 5560,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://www.esensoft.com/industry-news/dx-7902.html",
+          "uuid": "9f4016bb-7f56-4eb3-8744-cd5d530b4a19",
+          "title": "Esensoft",
+          "sources": [
+            {
+              "url": "https://www.esensoft.com/industry-news/dx-7902.html",
+              "uuid": "9f4016bb-7f56-4eb3-8744-cd5d530b4a19",
+              "title": "\u5410\u8840\u6574\u7406\uff0112\u79cd\u901a\u7528\u77e5\u8bc6\u56fe\u8c31\u9879\u76ee\u7b80\u4ecb_\u4ebf\u4fe1\u534e\u8fb0-\u5927\u6570\u636e\u5206\u6790\u3001\u6570\u636e\u6cbb\u7406\u3001\u5546\u4e1a\u667a\u80fdBI\u5de5\u5177\u4e0e\u670d\u52a1\u63d0\u4f9b\u5546",
+              "source": "Esensoft",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=esensoft.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "9f4016bb-7f56-4eb3-8744-cd5d530b4a19",
+            "source": "Esensoft",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=esensoft.com",
+            "preview_title": "\u5410\u8840\u6574\u7406\uff0112\u79cd\u901a\u7528\u77e5\u8bc6\u56fe\u8c31\u9879\u76ee\u7b80\u4ecb_\u4ebf\u4fe1\u534e\u8fb0-\u5927\u6570\u636e\u5206\u6790\u3001\u6570\u636e\u6cbb\u7406\u3001\u5546\u4e1a\u667a\u80fdBI\u5de5\u5177\u4e0e\u670d\u52a1\u63d0\u4f9b\u5546"
+          },
+          "end_index": 5613,
+          "start_index": 5599,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://nlp.csai.tsinghua.edu.cn/news/372/",
+          "uuid": "9efa0629-3095-4792-ab27-331a6da9afe8",
+          "title": "Tsinghua",
+          "sources": [
+            {
+              "url": "https://nlp.csai.tsinghua.edu.cn/news/372/",
+              "uuid": "9efa0629-3095-4792-ab27-331a6da9afe8",
+              "title": "\u6211\u7ec4NLP\u7cfb\u5217\u5f00\u6e90\u5de5\u5177\u5728GitHub\u83b7\u5f97\u5173\u6ce8\u8d85\u8fc71\u4e07\u661f\u6807 - THUNLP",
+              "source": "Tsinghua",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=tsinghua.edu.cn",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "9efa0629-3095-4792-ab27-331a6da9afe8",
+            "source": "Tsinghua",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=tsinghua.edu.cn",
+            "preview_title": "\u6211\u7ec4NLP\u7cfb\u5217\u5f00\u6e90\u5de5\u5177\u5728GitHub\u83b7\u5f97\u5173\u6ce8\u8d85\u8fc71\u4e07\u661f\u6807 - THUNLP"
+          },
+          "end_index": 5726,
+          "start_index": 5687,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://www.ltp-cloud.com/",
+          "uuid": "d2e5b7d1-0a96-44aa-9dfd-f984c34638aa",
+          "title": "Ltp-cloud",
+          "sources": [
+            {
+              "url": "https://www.ltp-cloud.com/",
+              "uuid": "d2e5b7d1-0a96-44aa-9dfd-f984c34638aa",
+              "title": "\u8bed\u8a00\u4e91\uff08\u8bed\u8a00\u6280\u672f\u5e73\u53f0\u4e91 LTP-Cloud\uff09",
+              "source": "Ltp-cloud",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=ltp-cloud.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "d2e5b7d1-0a96-44aa-9dfd-f984c34638aa",
+            "source": "Ltp-cloud",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=ltp-cloud.com",
+            "preview_title": "\u8bed\u8a00\u4e91\uff08\u8bed\u8a00\u6280\u672f\u5e73\u53f0\u4e91 LTP-Cloud\uff09"
+          },
+          "end_index": 5760,
+          "start_index": 5729,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_wisdom/system.md",
+          "uuid": "38ec59e1-355f-43f1-9175-bff535166550",
+          "title": "GitHub",
+          "sources": [
+            {
+              "url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_wisdom/system.md",
+              "uuid": "38ec59e1-355f-43f1-9175-bff535166550",
+              "title": "Fabric/data/patterns/extract_wisdom/system.md at main \u00b7 danielmiessler/Fabric",
+              "source": "GitHub",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=github.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "38ec59e1-355f-43f1-9175-bff535166550",
+            "source": "GitHub",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=github.com",
+            "preview_title": "Fabric/data/patterns/extract_wisdom/system.md at main \u00b7 danielmiessler/Fabric"
+          },
+          "end_index": 6509,
+          "start_index": 5870,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://github.com/microsoft/graphrag/blob/main/graphrag/prompt_tune/prompt/entity_relationship.py",
+          "uuid": "dfe651e5-d783-4113-9391-d185a1fd95e4",
+          "title": "GitHub",
+          "sources": [
+            {
+              "url": "https://github.com/microsoft/graphrag/blob/main/graphrag/prompt_tune/prompt/entity_relationship.py",
+              "uuid": "dfe651e5-d783-4113-9391-d185a1fd95e4",
+              "title": "graphrag/graphrag/prompt_tune/prompt/entity_relationship.py at main \u00b7 microsoft/graphrag",
+              "source": "GitHub",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=github.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "dfe651e5-d783-4113-9391-d185a1fd95e4",
+            "source": "GitHub",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=github.com",
+            "preview_title": "graphrag/graphrag/prompt_tune/prompt/entity_relationship.py at main \u00b7 microsoft/graphrag"
+          },
+          "end_index": 7234,
+          "start_index": 6592,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://python.useinstructor.com/blog/2024/09/26/implementing-anthropics-contextual-retrieval-with-async-processing/",
+          "uuid": "8c932241-1b55-41d9-9081-abcad9287457",
+          "title": "Instructor",
+          "sources": [
+            {
+              "url": "https://python.useinstructor.com/blog/2024/09/26/implementing-anthropics-contextual-retrieval-with-async-processing/",
+              "uuid": "8c932241-1b55-41d9-9081-abcad9287457",
+              "title": "Implementing Anthropic's Contextual Retrieval with Async Processing - Instructor",
+              "source": "Instructor",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=useinstructor.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "8c932241-1b55-41d9-9081-abcad9287457",
+            "source": "Instructor",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=useinstructor.com",
+            "preview_title": "Implementing Anthropic's Contextual Retrieval with Async Processing - Instructor"
+          },
+          "end_index": 7639,
+          "start_index": 7317,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://www.anthropic.com/news/contextual-retrieval",
+          "uuid": "d378f536-da40-46dc-a570-069847927265",
+          "title": "Anthropic",
+          "sources": [
+            {
+              "url": "https://www.anthropic.com/news/contextual-retrieval",
+              "uuid": "d378f536-da40-46dc-a570-069847927265",
+              "title": "Introducing Contextual Retrieval \\ Anthropic",
+              "source": "Anthropic",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=anthropic.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "d378f536-da40-46dc-a570-069847927265",
+            "source": "Anthropic",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=anthropic.com",
+            "preview_title": "Introducing Contextual Retrieval \\ Anthropic"
+          },
+          "end_index": 7716,
+          "start_index": 7641,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://www.datacamp.com/tutorial/late-chunking",
+          "uuid": "193ac058-7ccd-4c73-aeaf-e42ba2975e99",
+          "title": "DataCamp",
+          "sources": [
+            {
+              "url": "https://www.datacamp.com/tutorial/late-chunking",
+              "uuid": "193ac058-7ccd-4c73-aeaf-e42ba2975e99",
+              "title": "Late Chunking for RAG: Implementation With Jina AI | DataCamp",
+              "source": "DataCamp",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=datacamp.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "193ac058-7ccd-4c73-aeaf-e42ba2975e99",
+            "source": "DataCamp",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=datacamp.com",
+            "preview_title": "Late Chunking for RAG: Implementation With Jina AI | DataCamp"
+          },
+          "end_index": 9764,
+          "start_index": 9718,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://www.anthropic.com/news/contextual-retrieval",
+          "uuid": "27777a0e-24e3-458a-8417-5148c7e4838c",
+          "title": "Anthropic",
+          "sources": [
+            {
+              "url": "https://www.anthropic.com/news/contextual-retrieval",
+              "uuid": "27777a0e-24e3-458a-8417-5148c7e4838c",
+              "title": "Introducing Contextual Retrieval \\ Anthropic",
+              "source": "Anthropic",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=anthropic.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "27777a0e-24e3-458a-8417-5148c7e4838c",
+            "source": "Anthropic",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=anthropic.com",
+            "preview_title": "Introducing Contextual Retrieval \\ Anthropic"
+          },
+          "end_index": 9824,
+          "start_index": 9768,
+          "origin_tool_name": "web_search"
+        }
+      ],
+      "version_uuid": "63946191-64d3-4fc0-9fe5-56fd915149de"
+    },
+    "message": null,
+    "integration_name": null,
+    "integration_icon_url": null,
+    "context": null,
+    "display_content": null,
+    "approval_options": null,
+    "approval_key": null
+  },
+  {
+    "start_timestamp": null,
+    "stop_timestamp": null,
+    "flags": null,
+    "type": "tool_result",
+    "name": "artifacts",
+    "content": [
+      {
+        "type": "text",
+        "text": "OK",
+        "uuid": "443c9444-a222-4925-ac62-14bd2735847a"
+      }
+    ],
+    "is_error": false,
+    "structured_content": null,
+    "message": null,
+    "integration_name": null,
+    "integration_icon_url": null,
+    "display_content": null
+  }
+]
+
+================================================================================
+
+Human:
+Content:
+[
+  {
+    "start_timestamp": "2026-01-09T07:19:05.615341Z",
+    "stop_timestamp": "2026-01-09T07:19:05.615341Z",
+    "flags": null,
+    "type": "text",
+    "text": "\u4e3a\u4ec0\u4e48\u4f60\u7684v4\u7684Schema\u597d\u50cf\u548cv5\u7684Schema\u7684\u5f62\u5f0f\u4e0d\u540c\u5462\uff1f",
+    "citations": []
+  }
+]
+
+================================================================================
+
+Assistant:
+Content:
+[
+  {
+    "start_timestamp": "2026-01-09T07:19:10.215408Z",
+    "stop_timestamp": "2026-01-09T07:19:13.463573Z",
+    "flags": null,
+    "type": "thinking",
+    "thinking": "\u7528\u6237\u6307\u51fav4\u548cv5\u7684Schema\u5f62\u5f0f\u4e0d\u540c\u3002\u8ba9\u6211\u56de\u987e\u4e00\u4e0b\uff1a\n\nv4 Schema\u6587\u4ef6\u8def\u5f84\uff1a/mnt/user-data/outputs/aurolaok/docs/survey/vol1/01_\u7b2c\u56db\u7248Schema.md\nv5 Schema\u6587\u4ef6\u8def\u5f84\uff1a/mnt/user-data/outputs/aurolaok/docs/survey/vol1/01_\u7b2c\u4e94\u7248Schema.md\n\n\u7528\u6237\u7684\u95ee\u9898\u662f\u5173\u4e8e\u683c\u5f0f\u4e00\u81f4\u6027\u7684\u3002\u8ba9\u6211\u68c0\u67e5\u4e24\u4e2a\u6587\u4ef6\u7684\u7ed3\u6784\u662f\u5426\u4e00\u81f4\u3002\n\n\u5b9e\u9645\u4e0a\uff0c\u6211\u5728\u521b\u5efav5 Schema\u65f6\uff0c\u5e94\u8be5\u4fdd\u6301\u4e0ev4\u76f8\u540c\u7684\u683c\u5f0f\u7ed3\u6784\uff0c\u4f46\u53ef\u80fd\u5728\u67d0\u4e9b\u65b9\u9762\u6709\u6240\u4e0d\u540c\u3002\u8ba9\u6211\u67e5\u770b\u4e24\u4e2a\u6587\u4ef6\u6765\u6bd4\u8f83\u3002",
+    "summaries": [
+      {
+        "summary": "\u601d\u8003 OpenAPI v4 \u548c v5 Schema \u683c\u5f0f\u5dee\u5f02\u7684\u539f\u56e0"
+      },
+      {
+        "summary": "\u5ba1\u89c6\u4e24\u7248Schema\u7ed3\u6784\u5dee\u5f02\u5e76\u8c03\u6574\u683c\u5f0f\u4e00\u81f4\u6027\u3002"
+      },
+      {
+        "summary": "\u8bc6\u522b\u4e86\u7248\u672c\u5dee\u5f02\uff0c\u51c6\u5907\u6bd4\u8f83\u4e24\u4e2aSchema\u6587\u4ef6\u7684\u7ed3\u6784\u4e00\u81f4\u6027\u3002"
+      }
+    ],
+    "cut_off": false,
+    "alternative_display_type": null
+  },
+  {
+    "start_timestamp": "2026-01-09T07:19:13.619228Z",
+    "stop_timestamp": "2026-01-09T07:19:13.899474Z",
+    "flags": null,
+    "type": "text",
+    "text": "\u60a8\u8bf4\u5f97\u5bf9\uff0c\u8ba9\u6211\u68c0\u67e5\u4e00\u4e0b\u4e24\u4e2aSchema\u6587\u4ef6\u7684\u683c\u5f0f\u5dee\u5f02\uff1a",
+    "citations": []
+  },
+  {
+    "start_timestamp": "2026-01-09T07:19:14.089963Z",
+    "stop_timestamp": "2026-01-09T07:19:15.078178Z",
+    "flags": null,
+    "type": "tool_use",
+    "name": "view",
+    "input": {
+      "path": "/mnt/user-data/outputs/aurolaok/docs/survey/vol1/01_\u7b2c\u56db\u7248Schema.md",
+      "view_range": [
+        1,
+        100
+      ],
+      "description": "\u67e5\u770bv4 Schema\u7684\u683c\u5f0f\u7ed3\u6784"
+    },
+    "message": "\u67e5\u770bv4 Schema\u7684\u683c\u5f0f\u7ed3\u6784",
+    "integration_name": null,
+    "integration_icon_url": null,
+    "context": null,
+    "display_content": {
+      "type": "text",
+      "text": "\u67e5\u770bv4 Schema\u7684\u683c\u5f0f\u7ed3\u6784"
+    },
+    "approval_options": null,
+    "approval_key": null
+  },
+  {
+    "start_timestamp": null,
+    "stop_timestamp": null,
+    "flags": null,
+    "type": "tool_result",
+    "name": "view",
+    "content": [
+      {
+        "type": "text",
+        "text": "Here's the content of /mnt/user-data/outputs/aurolaok/docs/survey/vol1/01_\u7b2c\u56db\u7248Schema.md (which has 372 lines total) with view_range=(1, 100):\n     1\t# \u7b2c\u56db\u7248\u7b2c\u4e00\u7ae0 Schema\n     2\t\n     3\t**\u6587\u6863\u540d\u79f0**: 01_\u7814\u7a76\u80cc\u666f\u4e0e\u95ee\u9898\u5b9a\u4e49_v4.md  \n     4\t**\u8bbe\u8ba1\u65e5\u671f**: 2026-01-09  \n     5\t**\u8bbe\u8ba1\u4f9d\u636e**: \u6cd5\u8bc1\u5f0f\u5ba1\u8ba1\u62a5\u544a\uff08\u5bf9\u6bd4\u7528\u623718\u95ee18\u7b54\u6587\u6863\uff09  \n     6\t\n     7\t---\n     8\t\n     9\t## \u6574\u4f53\u7ed3\u6784\n    10\t\n    11\t```\n    12\t\u7b2c\u4e00\u7ae0 \u7814\u7a76\u80cc\u666f\u4e0e\u95ee\u9898\u5b9a\u4e49\n    13\t\u2502\n    14\t\u251c\u2500\u2500 \u6458\u8981\n    15\t\u2502\n    16\t\u251c\u2500\u2500 \u4e00\u3001\u5f15\u8a00\uff1a\u4ece\u53c2\u6570\u5316\u77e5\u8bc6\u5230\u68c0\u7d22\u589e\u5f3a [\u4fdd\u7559v3]\n    17\t\u2502   \u251c\u2500\u2500 1.1 \u5927\u8bed\u8a00\u6a21\u578b\u7684\u77e5\u8bc6\u56f0\u5883\n    18\t\u2502   \u2502   \u251c\u2500\u2500 \u77e5\u8bc6\u622a\u6b62\u95ee\u9898\n    19\t\u2502   \u2502   \u251c\u2500\u2500 \u5e7b\u89c9\u95ee\u9898\n    20\t\u2502   \u2502   \u2514\u2500\u2500 \u77e5\u8bc6\u66f4\u65b0\u6210\u672c\n    21\t\u2502   \u251c\u2500\u2500 1.2 RAG\u8303\u5f0f\u7684\u8bde\u751f\uff1aLewis et al. (2020)\n    22\t\u2502   \u2514\u2500\u2500 1.3 RAG\u4e4b\u524d\u7684\u63a2\u7d22\uff1aREALM\u3001DPR\u3001ORQA\n    23\t\u2502\n    24\t\u251c\u2500\u2500 \u4e8c\u3001RAG\u6280\u672f\u6f14\u8fdb\uff1a\u4eceNaive\u5230Agentic\uff082020-2025\uff09[\u4fdd\u7559v3]\n    25\t\u2502   \u251c\u2500\u2500 2.1 RAG\u53d1\u5c55\u9636\u6bb5\u5212\u5206\uff08\u4e94\u9636\u6bb5\u8868\uff09\n    26\t\u2502   \u251c\u2500\u2500 2.2 Naive RAG\uff1a\u6734\u7d20\u8303\u5f0f\u7684\u5c40\u9650\n    27\t\u2502   \u251c\u2500\u2500 2.3 Advanced RAG\uff1a\u6280\u672f\u4f18\u5316\u7684\u79ef\u7d2f\n    28\t\u2502   \u2502   \u251c\u2500\u2500 \u67e5\u8be2\u4f18\u5316\uff08HyDE\u7b49\uff09\n    29\t\u2502   \u2502   \u251c\u2500\u2500 \u5206\u5757\u7b56\u7565\n    30\t\u2502   \u2502   \u251c\u2500\u2500 \u68c0\u7d22\u589e\u5f3a\n    31\t\u2502   \u2502   \u2514\u2500\u2500 Contextual Retrieval\n    32\t\u2502   \u251c\u2500\u2500 2.4 Modular RAG\uff1a\u53ef\u7ec4\u5408\u7684\u7cfb\u7edf\u67b6\u6784\n    33\t\u2502   \u251c\u2500\u2500 2.5 Graph RAG\uff1a\u77e5\u8bc6\u56fe\u8c31\u589e\u5f3a\n    34\t\u2502   \u2514\u2500\u2500 2.6 Agentic RAG\uff1a\u667a\u80fd\u4f53\u9a71\u52a8\u7684\u8303\u5f0f\u8f6c\u53d8\n    35\t\u2502       \u251c\u2500\u2500 \u8fed\u4ee3\u68c0\u7d22\u4e0e\u63a8\u7406\n    36\t\u2502       \u251c\u2500\u2500 \u81ea\u6211\u53cd\u601d\uff08Self-RAG\uff09\n    37\t\u2502       \u251c\u2500\u2500 \u5de5\u5177\u8c03\u7528\n    38\t\u2502       \u251c\u2500\u2500 \u591a\u667a\u80fd\u4f53\u534f\u4f5c\n    39\t\u2502       \u2514\u2500\u2500 System 1/System 2\u8ba4\u77e5\u67b6\u6784\n    40\t\u2502\n    41\t\u251c\u2500\u2500 \u4e09\u3001RAG\u7684\u56db\u5927\u6838\u5fc3\u6311\u6218 [\u4fdd\u7559v3]\n    42\t\u2502   \u251c\u2500\u2500 3.1 \u5e7b\u89c9\u95ee\u9898\n    43\t\u2502   \u251c\u2500\u2500 3.2 \u77e5\u8bc6\u66f4\u65b0\u4e0e\u65f6\u6548\u6027\n    44\t\u2502   \u251c\u2500\u2500 3.3 \u68c0\u7d22\u8d28\u91cf\u4e0e\u76f8\u5173\u6027\n    45\t\u2502   \u2514\u2500\u2500 3.4 \u9690\u6027\u8bed\u4e49\u5904\u7406\u2014\u2014\u88ab\u5ffd\u89c6\u7684\u6838\u5fc3\u95ee\u9898 \u2605\n    46\t\u2502       \u251c\u2500\u2500 \u8bed\u7528\u542b\u4e49\uff08Grice\u4f1a\u8bdd\u542b\u4e49\u3001PUB\u57fa\u51c6\uff09\n    47\t\u2502       \u251c\u2500\u2500 \u7bc7\u7ae0\u7ed3\u6784\uff08RST\uff09\n    48\t\u2502       \u251c\u2500\u2500 \u8bba\u8bc1\u7ed3\u6784\uff08\u56fe\u5c14\u654f\u3001\u7701\u7565\u4e09\u6bb5\u8bba\uff09\n    49\t\u2502       \u2514\u2500\u2500 \u5e38\u8bc6\u63a8\u7406\uff08ATOMIC 2020\uff09\n    50\t\u2502\n    51\t\u251c\u2500\u2500 \u56db\u3001\u8ba4\u77e5\u589e\u5f3aRAG\uff1a15\u4e2a\u7406\u8bba\u6846\u67b6 [\u4fdd\u7559v3]\n    52\t\u2502   \u251c\u2500\u2500 4.1 \u7406\u8bba\u6846\u67b6\u7684\u4e09\u5c42\u67b6\u6784\uff08\u603b\u8868\uff09\n    53\t\u2502   \u251c\u2500\u2500 4.2 \u7b2c\u4e00\u5c42\uff1a\u8bed\u4e49\u4e0e\u8bed\u7528\u57fa\u7840\uff083\u4e2a\u7406\u8bba\uff09\n    54\t\u2502   \u2502   \u251c\u2500\u2500 \u5f62\u5f0f\u8bed\u4e49\u5b66\n    55\t\u2502   \u2502   \u251c\u2500\u2500 \u5206\u5e03\u5f0f\u8bed\u4e49\u5b66\n    56\t\u2502   \u2502   \u2514\u2500\u2500 \u8bed\u7528\u5b66\u4e09\u8bba\uff08Grice/Austin-Searle/\u5173\u8054\u7406\u8bba\uff09\n    57\t\u2502   \u251c\u2500\u2500 4.3 \u7b2c\u4e8c\u5c42\uff1a\u7bc7\u7ae0\u4e0e\u8bba\u8bc1\u7ed3\u6784\uff086\u4e2a\u7406\u8bba\uff09\n    58\t\u2502   \u2502   \u251c\u2500\u2500 \u4fee\u8f9e\u7ed3\u6784\u7406\u8bba\uff08RST\uff09\n    59\t\u2502   \u2502   \u251c\u2500\u2500 \u56fe\u5c14\u654f\u8bba\u8bc1\u6a21\u578b\n    60\t\u2502   \u2502   \u251c\u2500\u2500 \u6846\u67b6\u8bed\u4e49\u5b66\uff08FrameNet\uff09\n    61\t\u2502   \u2502   \u251c\u2500\u2500 \u6982\u5ff5\u9690\u55bb\u7406\u8bba\n    62\t\u2502   \u2502   \u251c\u2500\u2500 \u53d9\u4e8b\u7ed3\u6784\u7406\u8bba\uff08Labov/\u811a\u672c\u7406\u8bba\uff09\n    63\t\u2502   \u2502   \u2514\u2500\u2500 \u4f1a\u8bdd\u5206\u6790\n    64\t\u2502   \u251c\u2500\u2500 4.4 \u7b2c\u4e09\u5c42\uff1a\u8ba4\u77e5\u79d1\u5b66\u89c6\u89d2\uff086\u4e2a\u7406\u8bba\uff09\n    65\t\u2502   \u2502   \u251c\u2500\u2500 \u8ba4\u77e5\u8d1f\u8377\u7406\u8bba\n    66\t\u2502   \u2502   \u251c\u2500\u2500 \u4fe1\u606f\u89c5\u98df\u7406\u8bba\n    67\t\u2502   \u2502   \u251c\u2500\u2500 \u60c5\u5883\u6a21\u578b\u7406\u8bba\n    68\t\u2502   \u2502   \u251c\u2500\u2500 \u5171\u540c\u57fa\u7840\u7406\u8bba\n    69\t\u2502   \u2502   \u251c\u2500\u2500 \u5177\u8eab\u8ba4\u77e5\u7406\u8bba\n    70\t\u2502   \u2502   \u2514\u2500\u2500 \u8ba4\u8bc6\u8b66\u89c9\u7406\u8bba\n    71\t\u2502   \u251c\u2500\u2500 4.5 \u8865\u5145\u7406\u8bba\uff1a\u5e03\u9c81\u59c6\u8ba4\u77e5\u5206\u7c7b\u5b66\n    72\t\u2502   \u2514\u2500\u2500 4.6 \u7406\u8bba\u6846\u67b6\u7684\u7efc\u5408\u5e94\u7528\uff1a\"Aurola\u8fc7\u7a0b\"\n    73\t\u2502       \u251c\u2500\u2500 \u6838\u5fc3\u601d\u60f3\uff1a\"\u628a\u4e66\u8bfb\u539a\"\n    74\t\u2502       \u251c\u2500\u2500 \u5165\u5e93\u7aef\u6269\u5c55\uff08Document Expansion\uff09\n    75\t\u2502       \u251c\u2500\u2500 \u68c0\u7d22\u7aef\u53d1\u6563\uff08Query Expansion via Essay\uff09\n    76\t\u2502       \u251c\u2500\u2500 \u6620\u5c04\u5206\u6790\uff08Mapping Analysis\uff09\n    77\t\u2502       \u2514\u2500\u2500 \u5b66\u672f\u5bf9\u5e94\u7269\u8868\uff08HyDE/RAPTOR/Self-RAG/Contextual Retrieval\uff09\n    78\t\u2502\n    79\t\u251c\u2500\u2500 \u4e94\u3001\u5f00\u6e90\u751f\u6001\u5168\u666f\u56fe [\u2605 \u65b0\u589e\u677f\u5757]\n    80\t\u2502   \u2502\n    81\t\u2502   \u251c\u2500\u2500 5.1 \u6838\u5fc3RAG\u6846\u67b6\u4ee3\u7801\u7ea7\u5206\u6790\n    82\t\u2502   \u2502   \u251c\u2500\u2500 5.1.1 LangChain\u751f\u6001\uff08120k stars\uff09\n    83\t\u2502   \u2502   \u2502   \u251c\u2500\u2500 \u67b6\u6784\uff1aCore/Community/LangGraph/LangServe\n    84\t\u2502   \u2502   \u2502   \u251c\u2500\u2500 LCEL\u8bbe\u8ba1\u7406\u5ff5\n    85\t\u2502   \u2502   \u2502   \u251c\u2500\u2500 \u5185\u7f6eRAG\u7ec4\u4ef6\u6df1\u5ea6\u5206\u6790\n    86\t\u2502   \u2502   \u2502   \u251c\u2500\u2500 \u9ed8\u8ba4\u63d0\u793a\u8bcd\u6a21\u677f\u9006\u5411\n    87\t\u2502   \u2502   \u2502   \u251c\u2500\u2500 LangSmith\u5546\u4e1a\u8fb9\u754c\n    88\t\u2502   \u2502   \u2502   \u2514\u2500\u2500 \u793e\u533a\u4e89\u8bae\u4e0e\u5c40\u9650\u6027\n    89\t\u2502   \u2502   \u2502\n    90\t\u2502   \u2502   \u251c\u2500\u2500 5.1.2 LlamaIndex\u751f\u6001\uff0846k stars\uff09\n    91\t\u2502   \u2502   \u2502   \u251c\u2500\u2500 \u6838\u5fc3Index Types\u8bbe\u8ba1\n    92\t\u2502   \u2502   \u2502   \u251c\u2500\u2500 Query Engine vs Chat Engine\n    93\t\u2502   \u2502   \u2502   \u251c\u2500\u2500 Ingestion Pipeline\u5b9e\u73b0\n    94\t\u2502   \u2502   \u2502   \u251c\u2500\u2500 \u9ed8\u8ba4\u53c2\u6570\u914d\u7f6e\n    95\t\u2502   \u2502   \u2502   \u251c\u2500\u2500 LlamaCloud\u5546\u4e1a\u8fb9\u754c\n    96\t\u2502   \u2502   \u2502   \u2514\u2500\u2500 \u4e0eLangChain\u5b9a\u4f4d\u5bf9\u6bd4\n    97\t\u2502   \u2502   \u2502\n    98\t\u2502   \u2502   \u251c\u2500\u2500 5.1.3 DSPy\uff0831k stars\uff09\n    99\t\u2502   \u2502   \u2502   \u251c\u2500\u2500 \u58f0\u660e\u5f0f\u63d0\u793a\u7f16\u7a0b\u8303\u5f0f\n   100\t\u2502   \u2502   \u2502   \u251c\u2500\u2500 Signature/Module/Optimizer\u67b6\u6784\n",
+        "uuid": "4ec7e9c4-4724-4244-9478-ee8349784226"
+      }
+    ],
+    "is_error": false,
+    "structured_content": null,
+    "message": null,
+    "integration_name": null,
+    "integration_icon_url": null,
+    "display_content": {
+      "type": "json_block",
+      "json_block": "{\"language\": \"markdown\", \"code\": \"# \\u7b2c\\u56db\\u7248\\u7b2c\\u4e00\\u7ae0 Schema\\n\\n**\\u6587\\u6863\\u540d\\u79f0**: 01_\\u7814\\u7a76\\u80cc\\u666f\\u4e0e\\u95ee\\u9898\\u5b9a\\u4e49_v4.md  \\n**\\u8bbe\\u8ba1\\u65e5\\u671f**: 2026-01-09  \\n**\\u8bbe\\u8ba1\\u4f9d\\u636e**: \\u6cd5\\u8bc1\\u5f0f\\u5ba1\\u8ba1\\u62a5\\u544a\\uff08\\u5bf9\\u6bd4\\u7528\\u623718\\u95ee18\\u7b54\\u6587\\u6863\\uff09  \\n\\n---\\n\\n## \\u6574\\u4f53\\u7ed3\\u6784\\n\\n```\\n\\u7b2c\\u4e00\\u7ae0 \\u7814\\u7a76\\u80cc\\u666f\\u4e0e\\u95ee\\u9898\\u5b9a\\u4e49\\n\\u2502\\n\\u251c\\u2500\\u2500 \\u6458\\u8981\\n\\u2502\\n\\u251c\\u2500\\u2500 \\u4e00\\u3001\\u5f15\\u8a00\\uff1a\\u4ece\\u53c2\\u6570\\u5316\\u77e5\\u8bc6\\u5230\\u68c0\\u7d22\\u589e\\u5f3a [\\u4fdd\\u7559v3]\\n\\u2502   \\u251c\\u2500\\u2500 1.1 \\u5927\\u8bed\\u8a00\\u6a21\\u578b\\u7684\\u77e5\\u8bc6\\u56f0\\u5883\\n\\u2502   \\u2502   \\u251c\\u2500\\u2500 \\u77e5\\u8bc6\\u622a\\u6b62\\u95ee\\u9898\\n\\u2502   \\u2502   \\u251c\\u2500\\u2500 \\u5e7b\\u89c9\\u95ee\\u9898\\n\\u2502   \\u2502   \\u2514\\u2500\\u2500 \\u77e5\\u8bc6\\u66f4\\u65b0\\u6210\\u672c\\n\\u2502   \\u251c\\u2500\\u2500 1.2 RAG\\u8303\\u5f0f\\u7684\\u8bde\\u751f\\uff1aLewis et al. (2020)\\n\\u2502   \\u2514\\u2500\\u2500 1.3 RAG\\u4e4b\\u524d\\u7684\\u63a2\\u7d22\\uff1aREALM\\u3001DPR\\u3001ORQA\\n\\u2502\\n\\u251c\\u2500\\u2500 \\u4e8c\\u3001RAG\\u6280\\u672f\\u6f14\\u8fdb\\uff1a\\u4eceNaive\\u5230Agentic\\uff082020-2025\\uff09[\\u4fdd\\u7559v3]\\n\\u2502   \\u251c\\u2500\\u2500 2.1 RAG\\u53d1\\u5c55\\u9636\\u6bb5\\u5212\\u5206\\uff08\\u4e94\\u9636\\u6bb5\\u8868\\uff09\\n\\u2502   \\u251c\\u2500\\u2500 2.2 Naive RAG\\uff1a\\u6734\\u7d20\\u8303\\u5f0f\\u7684\\u5c40\\u9650\\n\\u2502   \\u251c\\u2500\\u2500 2.3 Advanced RAG\\uff1a\\u6280\\u672f\\u4f18\\u5316\\u7684\\u79ef\\u7d2f\\n\\u2502   \\u2502   \\u251c\\u2500\\u2500 \\u67e5\\u8be2\\u4f18\\u5316\\uff08HyDE\\u7b49\\uff09\\n\\u2502   \\u2502   \\u251c\\u2500\\u2500 \\u5206\\u5757\\u7b56\\u7565\\n\\u2502   \\u2502   \\u251c\\u2500\\u2500 \\u68c0\\u7d22\\u589e\\u5f3a\\n\\u2502   \\u2502   \\u2514\\u2500\\u2500 Contextual Retrieval\\n\\u2502   \\u251c\\u2500\\u2500 2.4 Modular RAG\\uff1a\\u53ef\\u7ec4\\u5408\\u7684\\u7cfb\\u7edf\\u67b6\\u6784\\n\\u2502   \\u251c\\u2500\\u2500 2.5 Graph RAG\\uff1a\\u77e5\\u8bc6\\u56fe\\u8c31\\u589e\\u5f3a\\n\\u2502   \\u2514\\u2500\\u2500 2.6 Agentic RAG\\uff1a\\u667a\\u80fd\\u4f53\\u9a71\\u52a8\\u7684\\u8303\\u5f0f\\u8f6c\\u53d8\\n\\u2502       \\u251c\\u2500\\u2500 \\u8fed\\u4ee3\\u68c0\\u7d22\\u4e0e\\u63a8\\u7406\\n\\u2502       \\u251c\\u2500\\u2500 \\u81ea\\u6211\\u53cd\\u601d\\uff08Self-RAG\\uff09\\n\\u2502       \\u251c\\u2500\\u2500 \\u5de5\\u5177\\u8c03\\u7528\\n\\u2502       \\u251c\\u2500\\u2500 \\u591a\\u667a\\u80fd\\u4f53\\u534f\\u4f5c\\n\\u2502       \\u2514\\u2500\\u2500 System 1/System 2\\u8ba4\\u77e5\\u67b6\\u6784\\n\\u2502\\n\\u251c\\u2500\\u2500 \\u4e09\\u3001RAG\\u7684\\u56db\\u5927\\u6838\\u5fc3\\u6311\\u6218 [\\u4fdd\\u7559v3]\\n\\u2502   \\u251c\\u2500\\u2500 3.1 \\u5e7b\\u89c9\\u95ee\\u9898\\n\\u2502   \\u251c\\u2500\\u2500 3.2 \\u77e5\\u8bc6\\u66f4\\u65b0\\u4e0e\\u65f6\\u6548\\u6027\\n\\u2502   \\u251c\\u2500\\u2500 3.3 \\u68c0\\u7d22\\u8d28\\u91cf\\u4e0e\\u76f8\\u5173\\u6027\\n\\u2502   \\u2514\\u2500\\u2500 3.4 \\u9690\\u6027\\u8bed\\u4e49\\u5904\\u7406\\u2014\\u2014\\u88ab\\u5ffd\\u89c6\\u7684\\u6838\\u5fc3\\u95ee\\u9898 \\u2605\\n\\u2502       \\u251c\\u2500\\u2500 \\u8bed\\u7528\\u542b\\u4e49\\uff08Grice\\u4f1a\\u8bdd\\u542b\\u4e49\\u3001PUB\\u57fa\\u51c6\\uff09\\n\\u2502       \\u251c\\u2500\\u2500 \\u7bc7\\u7ae0\\u7ed3\\u6784\\uff08RST\\uff09\\n\\u2502       \\u251c\\u2500\\u2500 \\u8bba\\u8bc1\\u7ed3\\u6784\\uff08\\u56fe\\u5c14\\u654f\\u3001\\u7701\\u7565\\u4e09\\u6bb5\\u8bba\\uff09\\n\\u2502       \\u2514\\u2500\\u2500 \\u5e38\\u8bc6\\u63a8\\u7406\\uff08ATOMIC 2020\\uff09\\n\\u2502\\n\\u251c\\u2500\\u2500 \\u56db\\u3001\\u8ba4\\u77e5\\u589e\\u5f3aRAG\\uff1a15\\u4e2a\\u7406\\u8bba\\u6846\\u67b6 [\\u4fdd\\u7559v3]\\n\\u2502   \\u251c\\u2500\\u2500 4.1 \\u7406\\u8bba\\u6846\\u67b6\\u7684\\u4e09\\u5c42\\u67b6\\u6784\\uff08\\u603b\\u8868\\uff09\\n\\u2502   \\u251c\\u2500\\u2500 4.2 \\u7b2c\\u4e00\\u5c42\\uff1a\\u8bed\\u4e49\\u4e0e\\u8bed\\u7528\\u57fa\\u7840\\uff083\\u4e2a\\u7406\\u8bba\\uff09\\n\\u2502   \\u2502   \\u251c\\u2500\\u2500 \\u5f62\\u5f0f\\u8bed\\u4e49\\u5b66\\n\\u2502   \\u2502   \\u251c\\u2500\\u2500 \\u5206\\u5e03\\u5f0f\\u8bed\\u4e49\\u5b66\\n\\u2502   \\u2502   \\u2514\\u2500\\u2500 \\u8bed\\u7528\\u5b66\\u4e09\\u8bba\\uff08Grice/Austin-Searle/\\u5173\\u8054\\u7406\\u8bba\\uff09\\n\\u2502   \\u251c\\u2500\\u2500 4.3 \\u7b2c\\u4e8c\\u5c42\\uff1a\\u7bc7\\u7ae0\\u4e0e\\u8bba\\u8bc1\\u7ed3\\u6784\\uff086\\u4e2a\\u7406\\u8bba\\uff09\\n\\u2502   \\u2502   \\u251c\\u2500\\u2500 \\u4fee\\u8f9e\\u7ed3\\u6784\\u7406\\u8bba\\uff08RST\\uff09\\n\\u2502   \\u2502   \\u251c\\u2500\\u2500 \\u56fe\\u5c14\\u654f\\u8bba\\u8bc1\\u6a21\\u578b\\n\\u2502   \\u2502   \\u251c\\u2500\\u2500 \\u6846\\u67b6\\u8bed\\u4e49\\u5b66\\uff08FrameNet\\uff09\\n\\u2502   \\u2502   \\u251c\\u2500\\u2500 \\u6982\\u5ff5\\u9690\\u55bb\\u7406\\u8bba\\n\\u2502   \\u2502   \\u251c\\u2500\\u2500 \\u53d9\\u4e8b\\u7ed3\\u6784\\u7406\\u8bba\\uff08Labov/\\u811a\\u672c\\u7406\\u8bba\\uff09\\n\\u2502   \\u2502   \\u2514\\u2500\\u2500 \\u4f1a\\u8bdd\\u5206\\u6790\\n\\u2502   \\u251c\\u2500\\u2500 4.4 \\u7b2c\\u4e09\\u5c42\\uff1a\\u8ba4\\u77e5\\u79d1\\u5b66\\u89c6\\u89d2\\uff086\\u4e2a\\u7406\\u8bba\\uff09\\n\\u2502   \\u2502   \\u251c\\u2500\\u2500 \\u8ba4\\u77e5\\u8d1f\\u8377\\u7406\\u8bba\\n\\u2502   \\u2502   \\u251c\\u2500\\u2500 \\u4fe1\\u606f\\u89c5\\u98df\\u7406\\u8bba\\n\\u2502   \\u2502   \\u251c\\u2500\\u2500 \\u60c5\\u5883\\u6a21\\u578b\\u7406\\u8bba\\n\\u2502   \\u2502   \\u251c\\u2500\\u2500 \\u5171\\u540c\\u57fa\\u7840\\u7406\\u8bba\\n\\u2502   \\u2502   \\u251c\\u2500\\u2500 \\u5177\\u8eab\\u8ba4\\u77e5\\u7406\\u8bba\\n\\u2502   \\u2502   \\u2514\\u2500\\u2500 \\u8ba4\\u8bc6\\u8b66\\u89c9\\u7406\\u8bba\\n\\u2502   \\u251c\\u2500\\u2500 4.5 \\u8865\\u5145\\u7406\\u8bba\\uff1a\\u5e03\\u9c81\\u59c6\\u8ba4\\u77e5\\u5206\\u7c7b\\u5b66\\n\\u2502   \\u2514\\u2500\\u2500 4.6 \\u7406\\u8bba\\u6846\\u67b6\\u7684\\u7efc\\u5408\\u5e94\\u7528\\uff1a\\\"Aurola\\u8fc7\\u7a0b\\\"\\n\\u2502       \\u251c\\u2500\\u2500 \\u6838\\u5fc3\\u601d\\u60f3\\uff1a\\\"\\u628a\\u4e66\\u8bfb\\u539a\\\"\\n\\u2502       \\u251c\\u2500\\u2500 \\u5165\\u5e93\\u7aef\\u6269\\u5c55\\uff08Document Expansion\\uff09\\n\\u2502       \\u251c\\u2500\\u2500 \\u68c0\\u7d22\\u7aef\\u53d1\\u6563\\uff08Query Expansion via Essay\\uff09\\n\\u2502       \\u251c\\u2500\\u2500 \\u6620\\u5c04\\u5206\\u6790\\uff08Mapping Analysis\\uff09\\n\\u2502       \\u2514\\u2500\\u2500 \\u5b66\\u672f\\u5bf9\\u5e94\\u7269\\u8868\\uff08HyDE/RAPTOR/Self-RAG/Contextual Retrieval\\uff09\\n\\u2502\\n\\u251c\\u2500\\u2500 \\u4e94\\u3001\\u5f00\\u6e90\\u751f\\u6001\\u5168\\u666f\\u56fe [\\u2605 \\u65b0\\u589e\\u677f\\u5757]\\n\\u2502   \\u2502\\n\\u2502   \\u251c\\u2500\\u2500 5.1 \\u6838\\u5fc3RAG\\u6846\\u67b6\\u4ee3\\u7801\\u7ea7\\u5206\\u6790\\n\\u2502   \\u2502   \\u251c\\u2500\\u2500 5.1.1 LangChain\\u751f\\u6001\\uff08120k stars\\uff09\\n\\u2502   \\u2502   \\u2502   \\u251c\\u2500\\u2500 \\u67b6\\u6784\\uff1aCore/Community/LangGraph/LangServe\\n\\u2502   \\u2502   \\u2502   \\u251c\\u2500\\u2500 LCEL\\u8bbe\\u8ba1\\u7406\\u5ff5\\n\\u2502   \\u2502   \\u2502   \\u251c\\u2500\\u2500 \\u5185\\u7f6eRAG\\u7ec4\\u4ef6\\u6df1\\u5ea6\\u5206\\u6790\\n\\u2502   \\u2502   \\u2502   \\u251c\\u2500\\u2500 \\u9ed8\\u8ba4\\u63d0\\u793a\\u8bcd\\u6a21\\u677f\\u9006\\u5411\\n\\u2502   \\u2502   \\u2502   \\u251c\\u2500\\u2500 LangSmith\\u5546\\u4e1a\\u8fb9\\u754c\\n\\u2502   \\u2502   \\u2502   \\u2514\\u2500\\u2500 \\u793e\\u533a\\u4e89\\u8bae\\u4e0e\\u5c40\\u9650\\u6027\\n\\u2502   \\u2502   \\u2502\\n\\u2502   \\u2502   \\u251c\\u2500\\u2500 5.1.2 LlamaIndex\\u751f\\u6001\\uff0846k stars\\uff09\\n\\u2502   \\u2502   \\u2502   \\u251c\\u2500\\u2500 \\u6838\\u5fc3Index Types\\u8bbe\\u8ba1\\n\\u2502   \\u2502   \\u2502   \\u251c\\u2500\\u2500 Query Engine vs Chat Engine\\n\\u2502   \\u2502   \\u2502   \\u251c\\u2500\\u2500 Ingestion Pipeline\\u5b9e\\u73b0\\n\\u2502   \\u2502   \\u2502   \\u251c\\u2500\\u2500 \\u9ed8\\u8ba4\\u53c2\\u6570\\u914d\\u7f6e\\n\\u2502   \\u2502   \\u2502   \\u251c\\u2500\\u2500 LlamaCloud\\u5546\\u4e1a\\u8fb9\\u754c\\n\\u2502   \\u2502   \\u2502   \\u2514\\u2500\\u2500 \\u4e0eLangChain\\u5b9a\\u4f4d\\u5bf9\\u6bd4\\n\\u2502   \\u2502   \\u2502\\n\\u2502   \\u2502   \\u251c\\u2500\\u2500 5.1.3 DSPy\\uff0831k stars\\uff09\\n\\u2502   \\u2502   \\u2502   \\u251c\\u2500\\u2500 \\u58f0\\u660e\\u5f0f\\u63d0\\u793a\\u7f16\\u7a0b\\u8303\\u5f0f\\n\\u2502   \\u2502   \\u2502   \\u251c\\u2500\\u2500 Signature/Module/Optimizer\\u67b6\\u6784\\n\", \"filename\": \"/mnt/user-data/outputs/aurolaok/docs/survey/vol1/01_\\u7b2c\\u56db\\u7248Schema.md\"}"
+    }
+  },
+  {
+    "start_timestamp": "2026-01-09T07:19:22.210134Z",
+    "stop_timestamp": "2026-01-09T07:19:23.129155Z",
+    "flags": null,
+    "type": "thinking",
+    "thinking": "\u6211\u770b\u5230v4 Schema\u4f7f\u7528\u4e86\u6811\u72b6\u56fe\u7ed3\u6784\uff08\u251c\u2500\u2500 \u2502\uff09\u6765\u8868\u793a\u5c42\u7ea7\u5173\u7cfb\u3002\u8ba9\u6211\u67e5\u770bv5 Schema\u7684\u683c\u5f0f\u3002",
+    "summaries": [],
+    "cut_off": false,
+    "alternative_display_type": null
+  },
+  {
+    "start_timestamp": "2026-01-09T07:19:23.376639Z",
+    "stop_timestamp": "2026-01-09T07:19:23.970687Z",
+    "flags": null,
+    "type": "tool_use",
+    "name": "view",
+    "input": {
+      "path": "/mnt/user-data/outputs/aurolaok/docs/survey/vol1/01_\u7b2c\u4e94\u7248Schema.md",
+      "view_range": [
+        1,
+        100
+      ],
+      "description": "\u67e5\u770bv5 Schema\u7684\u683c\u5f0f\u7ed3\u6784"
+    },
+    "message": "\u67e5\u770bv5 Schema\u7684\u683c\u5f0f\u7ed3\u6784",
+    "integration_name": null,
+    "integration_icon_url": null,
+    "context": null,
+    "display_content": {
+      "type": "text",
+      "text": "\u67e5\u770bv5 Schema\u7684\u683c\u5f0f\u7ed3\u6784"
+    },
+    "approval_options": null,
+    "approval_key": null
+  },
+  {
+    "start_timestamp": null,
+    "stop_timestamp": null,
+    "flags": null,
+    "type": "tool_result",
+    "name": "view",
+    "content": [
+      {
+        "type": "text",
+        "text": "Here's the content of /mnt/user-data/outputs/aurolaok/docs/survey/vol1/01_\u7b2c\u4e94\u7248Schema.md (which has 464 lines total) with view_range=(1, 100):\n     1\t# \u7b2c\u4e94\u7248\u7b2c\u4e00\u7ae0 Schema\n     2\t\n     3\t**\u6587\u6863\u540d\u79f0**: 01_\u7814\u7a76\u80cc\u666f\u4e0e\u95ee\u9898\u5b9a\u4e49_v5.md  \n     4\t**\u8bbe\u8ba1\u65e5\u671f**: 2026-01-09  \n     5\t**\u8bbe\u8ba1\u4f9d\u636e**: \n     6\t- \u6cd5\u8bc1\u5f0f\u5ba1\u8ba1\u62a5\u544a\uff08\u4e00\uff09\uff1a\u300aAurola\u8fc7\u7a0b\u300b\u6587\u6863 vs v3\uff0861\u9879\uff0c\u8986\u76d6\u738729.5%\uff09\n     7\t- \u6cd5\u8bc1\u5f0f\u5ba1\u8ba1\u62a5\u544a\uff08\u4e8c\uff09\uff1a\u300a\u9690\u6027\u8bed\u4e49\u63d0\u53d6\u300b\u6587\u6863 vs v3\uff0870\u9879\uff0c\u8986\u76d6\u738734.3%\uff09\n     8\t\n     9\t---\n    10\t\n    11\t## \u8bbe\u8ba1\u539f\u5219\n    12\t\n    13\t### \u4e24\u4efd\u5ba1\u8ba1\u7684\u6838\u5fc3\u53d1\u73b0\n    14\t\n    15\t| \u5ba1\u8ba1\u6765\u6e90 | \u4e3b\u8981\u7f3a\u5931\u7c7b\u578b | \u6027\u8d28 |\n    16\t|----------|-------------|------|\n    17\t| \u300aAurola\u8fc7\u7a0b\u300b | \u5de5\u5177\u94fe\u3001MLX\u3001MCP\u3001GUI\u751f\u6001 | **\u5de5\u7a0b\u57fa\u7840\u8bbe\u65bd\u7f3a\u5931** |\n    18\t| \u300a\u9690\u6027\u8bed\u4e49\u63d0\u53d6\u300b | Prompt\u6a21\u677f\u3001\u5206\u5c42\u7b56\u7565\u3001\u5b9e\u64cd\u6307\u5357 | **\u65b9\u6cd5\u8bba\u5b9e\u64cd\u7f3a\u5931** |\n    19\t\n    20\t### v5\u8bbe\u8ba1\u76ee\u6807\n    21\t\n    22\t1. **\u8865\u9f50\u5de5\u7a0b\u57fa\u7840\u8bbe\u65bd**\uff1aMLX\u3001MCP\u3001\u5de5\u5177\u94fe\u751f\u6001\n    23\t2. **\u8865\u9f50\u65b9\u6cd5\u8bba\u5b9e\u64cd**\uff1aPrompt\u6a21\u677f\u3001\u5206\u5c42\u5904\u7406\u3001\u53cc\u8f68\u63d0\u53d6\n    24\t3. **\u5f3a\u5316\u7406\u8bba\u2192\u5b9e\u8df5\u6865\u6881**\uff1a\u5b66\u672f\u672f\u8bed\u6fc0\u6d3b\u539f\u7406\u3001\u6807\u6ce8\u6307\u5357\u501f\u7528\u6280\u5de7\n    25\t4. **\u4fdd\u6301\u7ed3\u6784\u6e05\u6670**\uff1a\u4e0d\u8d85\u8fc712\u8282\uff0c\u6bcf\u8282\u529f\u80fd\u660e\u786e\n    26\t\n    27\t---\n    28\t\n    29\t## \u7b2c\u4e94\u7248\u7ed3\u6784\uff0812\u8282\uff09\n    30\t\n    31\t```\n    32\t\u7b2c\u4e00\u7ae0 \u7814\u7a76\u80cc\u666f\u4e0e\u95ee\u9898\u5b9a\u4e49 (v5.0)\n    33\t\u2502\n    34\t\u251c\u2500\u2500 \u6458\u8981\n    35\t\u2502\n    36\t\u251c\u2500\u2500 \u4e00\u3001\u5f15\u8a00\uff1a\u4ece\u53c2\u6570\u5316\u77e5\u8bc6\u5230\u68c0\u7d22\u589e\u5f3a [\u4fdd\u7559v3]\n    37\t\u2502   \u251c\u2500\u2500 1.1 \u5927\u8bed\u8a00\u6a21\u578b\u7684\u77e5\u8bc6\u56f0\u5883\n    38\t\u2502   \u2502   \u251c\u2500\u2500 \u77e5\u8bc6\u622a\u6b62\u95ee\u9898\n    39\t\u2502   \u2502   \u251c\u2500\u2500 \u5e7b\u89c9\u95ee\u9898\n    40\t\u2502   \u2502   \u2514\u2500\u2500 \u77e5\u8bc6\u66f4\u65b0\u6210\u672c\n    41\t\u2502   \u251c\u2500\u2500 1.2 RAG\u8303\u5f0f\u7684\u8bde\u751f\uff1aLewis et al. (2020)\n    42\t\u2502   \u2514\u2500\u2500 1.3 RAG\u4e4b\u524d\u7684\u63a2\u7d22\uff1aREALM\u3001DPR\u3001ORQA\n    43\t\u2502\n    44\t\u251c\u2500\u2500 \u4e8c\u3001\u77e5\u8bc6\u5d4c\u5165\u7684\u6280\u672f\u8def\u7ebf\u5168\u666f [\u2605 \u65b0\u589e\u2014\u2014\u5ba1\u8ba1\u4e8cQ1]\n    45\t\u2502   \u2502\n    46\t\u2502   \u251c\u2500\u2500 2.1 \u53c2\u6570\u5316\u77e5\u8bc6 vs \u68c0\u7d22\u589e\u5f3a\uff1a\u672c\u8d28\u5bf9\u6bd4\n    47\t\u2502   \u2502   \u251c\u2500\u2500 \"\u95ed\u5377\u8003\u8bd5\" vs \"\u5f00\u5377\u8003\u8bd5\"\u6bd4\u55bb\n    48\t\u2502   \u2502   \u2514\u2500\u2500 \u5404\u81ea\u9002\u7528\u573a\u666f\n    49\t\u2502   \u2502\n    50\t\u2502   \u251c\u2500\u2500 2.2 \u77e5\u8bc6\u5d4c\u5165\u7684\u56db\u6761\u6280\u672f\u8def\u5f84\n    51\t\u2502   \u2502   \u251c\u2500\u2500 2.2.1 \u589e\u91cf\u9884\u8bad\u7ec3 (Continued Pre-training)\n    52\t\u2502   \u2502   \u2502   \u251c\u2500\u2500 \u539f\u7406\uff1a\u5728\u9886\u57df\u6570\u636e\u4e0a\u7ee7\u7eed\u9884\u8bad\u7ec3\n    53\t\u2502   \u2502   \u2502   \u251c\u2500\u2500 \u707e\u96be\u6027\u9057\u5fd8 (Catastrophic Forgetting)\n    54\t\u2502   \u2502   \u2502   \u2514\u2500\u2500 Replay Data\u6df7\u5408\u7b56\u7565\n    55\t\u2502   \u2502   \u2502\n    56\t\u2502   \u2502   \u251c\u2500\u2500 2.2.2 \u6709\u76d1\u7763\u5fae\u8c03 (SFT)\n    57\t\u2502   \u2502   \u2502   \u251c\u2500\u2500 **\u5173\u952e\u6d1e\u5bdf\uff1aSFT\u662f\u6559\"\u89c4\u77e9\"\u800c\u975e\"\u77e5\u8bc6\"**\n    58\t\u2502   \u2502   \u2502   \u251c\u2500\u2500 \u5e7b\u89c9\u98ce\u9669\n    59\t\u2502   \u2502   \u2502   \u2514\u2500\u2500 \u6700\u4f73\u5b9e\u8df5\uff1a\u6fc0\u6d3b\u800c\u975e\u704c\u8f93\n    60\t\u2502   \u2502   \u2502\n    61\t\u2502   \u2502   \u251c\u2500\u2500 2.2.3 \u53c2\u6570\u9ad8\u6548\u5fae\u8c03 (PEFT/LoRA)\n    62\t\u2502   \u2502   \u2502   \u251c\u2500\u2500 \u539f\u7406\uff1a\u51bb\u7ed3\u4e3b\u53c2\u6570\uff0c\u8bad\u7ec3\u65c1\u8def\u77e9\u9635\n    63\t\u2502   \u2502   \u2502   \u251c\u2500\u2500 \u6a21\u5757\u5316\u77e5\u8bc6\uff1a\u6cd5\u5f8bLoRA\u3001\u7f16\u7a0bLoRA\n    64\t\u2502   \u2502   \u2502   \u2514\u2500\u2500 \u6210\u672c\u4f18\u52bf\n    65\t\u2502   \u2502   \u2502\n    66\t\u2502   \u2502   \u2514\u2500\u2500 2.2.4 \u6a21\u578b\u7f16\u8f91 (Knowledge Editing)\n    67\t\u2502   \u2502       \u251c\u2500\u2500 ROME / MEMIT\u6280\u672f\n    68\t\u2502   \u2502       \u251c\u2500\u2500 \u7cbe\u51c6\u4fee\u6539\u7279\u5b9a\u77e5\u8bc6\n    69\t\u2502   \u2502       \u2514\u2500\u2500 \u5f53\u524d\u5c40\u9650\uff1a\u5b9e\u9a8c\u5ba4\u9636\u6bb5\n    70\t\u2502   \u2502\n    71\t\u2502   \u251c\u2500\u2500 2.3 \u6df7\u5408\u67b6\u6784\uff1a\u5de5\u4e1a\u754c\u7684\u7ec8\u6781\u65b9\u6848\n    72\t\u2502   \u2502   \u251c\u2500\u2500 \u7a33\u5b9a\u77e5\u8bc6 \u2192 \u589e\u91cf\u9884\u8bad\u7ec3\uff08\u957f\u671f\u8bb0\u5fc6\uff09\n    73\t\u2502   \u2502   \u251c\u2500\u2500 \u65f6\u6548\u77e5\u8bc6 \u2192 RAG\uff08\u77ed\u671f\u5de5\u4f5c\u8bb0\u5fc6\uff09\n    74\t\u2502   \u2502   \u2514\u2500\u2500 Long Context + Context Caching\u8d8b\u52bf\n    75\t\u2502   \u2502\n    76\t\u2502   \u2514\u2500\u2500 2.4 \u5fae\u8c03 vs RAG\uff1a\u6280\u672f\u8def\u7ebf\u51b3\u7b56\u6846\u67b6 [\u5ba1\u8ba1\u4e00Q4]\n    77\t\u2502       \u251c\u2500\u2500 \u5fae\u8c03\u2260\u77e5\u8bc6\u5185\u5316\n    78\t\u2502       \u251c\u2500\u2500 \u5fae\u8c03\u64c5\u957f vs \u4e0d\u64c5\u957f\n    79\t\u2502       \u251c\u2500\u2500 RAG + Long Context\u662f\u6b63\u786e\u89e3\u6cd5\n    80\t\u2502       \u2514\u2500\u2500 KV Cache / Prompt Caching\n    81\t\u2502\n    82\t\u251c\u2500\u2500 \u4e09\u3001RAG\u6280\u672f\u6f14\u8fdb\uff1a\u4eceNaive\u5230Agentic\uff082020-2025\uff09[\u4fdd\u7559v3\uff0c\u5fae\u8c03]\n    83\t\u2502   \u251c\u2500\u2500 3.1 RAG\u53d1\u5c55\u9636\u6bb5\u5212\u5206\uff08\u4e94\u9636\u6bb5\u8868\uff09\n    84\t\u2502   \u251c\u2500\u2500 3.2 Naive RAG\uff1a\u6734\u7d20\u8303\u5f0f\u7684\u5c40\u9650\n    85\t\u2502   \u251c\u2500\u2500 3.3 Advanced RAG\uff1a\u6280\u672f\u4f18\u5316\u7684\u79ef\u7d2f\n    86\t\u2502   \u2502   \u251c\u2500\u2500 \u67e5\u8be2\u4f18\u5316\uff08HyDE\u7b49\uff09\n    87\t\u2502   \u2502   \u251c\u2500\u2500 \u5206\u5757\u7b56\u7565\n    88\t\u2502   \u2502   \u251c\u2500\u2500 \u68c0\u7d22\u589e\u5f3a\n    89\t\u2502   \u2502   \u2514\u2500\u2500 Contextual Retrieval\n    90\t\u2502   \u251c\u2500\u2500 3.4 Modular RAG\uff1a\u53ef\u7ec4\u5408\u7684\u7cfb\u7edf\u67b6\u6784\n    91\t\u2502   \u251c\u2500\u2500 3.5 Graph RAG\uff1a\u77e5\u8bc6\u56fe\u8c31\u589e\u5f3a\n    92\t\u2502   \u2502   \u251c\u2500\u2500 Leiden\u7b97\u6cd5\u5c42\u7ea7\u805a\u7c7b\n    93\t\u2502   \u2502   \u251c\u2500\u2500 \u793e\u533a\u6458\u8981\u9884\u8ba1\u7b97\n    94\t\u2502   \u2502   \u2514\u2500\u2500 **\u4fe1\u606f\u5bc6\u5ea6\u538b\u7f29\u539f\u7406** [\u5ba1\u8ba1\u4e8cQ5\u8865\u5145]\n    95\t\u2502   \u2514\u2500\u2500 3.6 Agentic RAG\uff1a\u667a\u80fd\u4f53\u9a71\u52a8\u7684\u8303\u5f0f\u8f6c\u53d8\n    96\t\u2502       \u251c\u2500\u2500 \u8fed\u4ee3\u68c0\u7d22\u4e0e\u63a8\u7406\n    97\t\u2502       \u251c\u2500\u2500 \u81ea\u6211\u53cd\u601d\uff08Self-RAG\uff09\n    98\t\u2502       \u251c\u2500\u2500 \u5de5\u5177\u8c03\u7528\n    99\t\u2502       \u251c\u2500\u2500 \u591a\u667a\u80fd\u4f53\u534f\u4f5c\n   100\t\u2502       \u2514\u2500\u2500 System 1/System 2\u8ba4\u77e5\u67b6\u6784\n",
+        "uuid": "f5035fa0-49f8-4359-b813-b2f32bd6e6a1"
+      }
+    ],
+    "is_error": false,
+    "structured_content": null,
+    "message": null,
+    "integration_name": null,
+    "integration_icon_url": null,
+    "display_content": {
+      "type": "json_block",
+      "json_block": "{\"language\": \"markdown\", \"code\": \"# \\u7b2c\\u4e94\\u7248\\u7b2c\\u4e00\\u7ae0 Schema\\n\\n**\\u6587\\u6863\\u540d\\u79f0**: 01_\\u7814\\u7a76\\u80cc\\u666f\\u4e0e\\u95ee\\u9898\\u5b9a\\u4e49_v5.md  \\n**\\u8bbe\\u8ba1\\u65e5\\u671f**: 2026-01-09  \\n**\\u8bbe\\u8ba1\\u4f9d\\u636e**: \\n- \\u6cd5\\u8bc1\\u5f0f\\u5ba1\\u8ba1\\u62a5\\u544a\\uff08\\u4e00\\uff09\\uff1a\\u300aAurola\\u8fc7\\u7a0b\\u300b\\u6587\\u6863 vs v3\\uff0861\\u9879\\uff0c\\u8986\\u76d6\\u738729.5%\\uff09\\n- \\u6cd5\\u8bc1\\u5f0f\\u5ba1\\u8ba1\\u62a5\\u544a\\uff08\\u4e8c\\uff09\\uff1a\\u300a\\u9690\\u6027\\u8bed\\u4e49\\u63d0\\u53d6\\u300b\\u6587\\u6863 vs v3\\uff0870\\u9879\\uff0c\\u8986\\u76d6\\u738734.3%\\uff09\\n\\n---\\n\\n## \\u8bbe\\u8ba1\\u539f\\u5219\\n\\n### \\u4e24\\u4efd\\u5ba1\\u8ba1\\u7684\\u6838\\u5fc3\\u53d1\\u73b0\\n\\n| \\u5ba1\\u8ba1\\u6765\\u6e90 | \\u4e3b\\u8981\\u7f3a\\u5931\\u7c7b\\u578b | \\u6027\\u8d28 |\\n|----------|-------------|------|\\n| \\u300aAurola\\u8fc7\\u7a0b\\u300b | \\u5de5\\u5177\\u94fe\\u3001MLX\\u3001MCP\\u3001GUI\\u751f\\u6001 | **\\u5de5\\u7a0b\\u57fa\\u7840\\u8bbe\\u65bd\\u7f3a\\u5931** |\\n| \\u300a\\u9690\\u6027\\u8bed\\u4e49\\u63d0\\u53d6\\u300b | Prompt\\u6a21\\u677f\\u3001\\u5206\\u5c42\\u7b56\\u7565\\u3001\\u5b9e\\u64cd\\u6307\\u5357 | **\\u65b9\\u6cd5\\u8bba\\u5b9e\\u64cd\\u7f3a\\u5931** |\\n\\n### v5\\u8bbe\\u8ba1\\u76ee\\u6807\\n\\n1. **\\u8865\\u9f50\\u5de5\\u7a0b\\u57fa\\u7840\\u8bbe\\u65bd**\\uff1aMLX\\u3001MCP\\u3001\\u5de5\\u5177\\u94fe\\u751f\\u6001\\n2. **\\u8865\\u9f50\\u65b9\\u6cd5\\u8bba\\u5b9e\\u64cd**\\uff1aPrompt\\u6a21\\u677f\\u3001\\u5206\\u5c42\\u5904\\u7406\\u3001\\u53cc\\u8f68\\u63d0\\u53d6\\n3. **\\u5f3a\\u5316\\u7406\\u8bba\\u2192\\u5b9e\\u8df5\\u6865\\u6881**\\uff1a\\u5b66\\u672f\\u672f\\u8bed\\u6fc0\\u6d3b\\u539f\\u7406\\u3001\\u6807\\u6ce8\\u6307\\u5357\\u501f\\u7528\\u6280\\u5de7\\n4. **\\u4fdd\\u6301\\u7ed3\\u6784\\u6e05\\u6670**\\uff1a\\u4e0d\\u8d85\\u8fc712\\u8282\\uff0c\\u6bcf\\u8282\\u529f\\u80fd\\u660e\\u786e\\n\\n---\\n\\n## \\u7b2c\\u4e94\\u7248\\u7ed3\\u6784\\uff0812\\u8282\\uff09\\n\\n```\\n\\u7b2c\\u4e00\\u7ae0 \\u7814\\u7a76\\u80cc\\u666f\\u4e0e\\u95ee\\u9898\\u5b9a\\u4e49 (v5.0)\\n\\u2502\\n\\u251c\\u2500\\u2500 \\u6458\\u8981\\n\\u2502\\n\\u251c\\u2500\\u2500 \\u4e00\\u3001\\u5f15\\u8a00\\uff1a\\u4ece\\u53c2\\u6570\\u5316\\u77e5\\u8bc6\\u5230\\u68c0\\u7d22\\u589e\\u5f3a [\\u4fdd\\u7559v3]\\n\\u2502   \\u251c\\u2500\\u2500 1.1 \\u5927\\u8bed\\u8a00\\u6a21\\u578b\\u7684\\u77e5\\u8bc6\\u56f0\\u5883\\n\\u2502   \\u2502   \\u251c\\u2500\\u2500 \\u77e5\\u8bc6\\u622a\\u6b62\\u95ee\\u9898\\n\\u2502   \\u2502   \\u251c\\u2500\\u2500 \\u5e7b\\u89c9\\u95ee\\u9898\\n\\u2502   \\u2502   \\u2514\\u2500\\u2500 \\u77e5\\u8bc6\\u66f4\\u65b0\\u6210\\u672c\\n\\u2502   \\u251c\\u2500\\u2500 1.2 RAG\\u8303\\u5f0f\\u7684\\u8bde\\u751f\\uff1aLewis et al. (2020)\\n\\u2502   \\u2514\\u2500\\u2500 1.3 RAG\\u4e4b\\u524d\\u7684\\u63a2\\u7d22\\uff1aREALM\\u3001DPR\\u3001ORQA\\n\\u2502\\n\\u251c\\u2500\\u2500 \\u4e8c\\u3001\\u77e5\\u8bc6\\u5d4c\\u5165\\u7684\\u6280\\u672f\\u8def\\u7ebf\\u5168\\u666f [\\u2605 \\u65b0\\u589e\\u2014\\u2014\\u5ba1\\u8ba1\\u4e8cQ1]\\n\\u2502   \\u2502\\n\\u2502   \\u251c\\u2500\\u2500 2.1 \\u53c2\\u6570\\u5316\\u77e5\\u8bc6 vs \\u68c0\\u7d22\\u589e\\u5f3a\\uff1a\\u672c\\u8d28\\u5bf9\\u6bd4\\n\\u2502   \\u2502   \\u251c\\u2500\\u2500 \\\"\\u95ed\\u5377\\u8003\\u8bd5\\\" vs \\\"\\u5f00\\u5377\\u8003\\u8bd5\\\"\\u6bd4\\u55bb\\n\\u2502   \\u2502   \\u2514\\u2500\\u2500 \\u5404\\u81ea\\u9002\\u7528\\u573a\\u666f\\n\\u2502   \\u2502\\n\\u2502   \\u251c\\u2500\\u2500 2.2 \\u77e5\\u8bc6\\u5d4c\\u5165\\u7684\\u56db\\u6761\\u6280\\u672f\\u8def\\u5f84\\n\\u2502   \\u2502   \\u251c\\u2500\\u2500 2.2.1 \\u589e\\u91cf\\u9884\\u8bad\\u7ec3 (Continued Pre-training)\\n\\u2502   \\u2502   \\u2502   \\u251c\\u2500\\u2500 \\u539f\\u7406\\uff1a\\u5728\\u9886\\u57df\\u6570\\u636e\\u4e0a\\u7ee7\\u7eed\\u9884\\u8bad\\u7ec3\\n\\u2502   \\u2502   \\u2502   \\u251c\\u2500\\u2500 \\u707e\\u96be\\u6027\\u9057\\u5fd8 (Catastrophic Forgetting)\\n\\u2502   \\u2502   \\u2502   \\u2514\\u2500\\u2500 Replay Data\\u6df7\\u5408\\u7b56\\u7565\\n\\u2502   \\u2502   \\u2502\\n\\u2502   \\u2502   \\u251c\\u2500\\u2500 2.2.2 \\u6709\\u76d1\\u7763\\u5fae\\u8c03 (SFT)\\n\\u2502   \\u2502   \\u2502   \\u251c\\u2500\\u2500 **\\u5173\\u952e\\u6d1e\\u5bdf\\uff1aSFT\\u662f\\u6559\\\"\\u89c4\\u77e9\\\"\\u800c\\u975e\\\"\\u77e5\\u8bc6\\\"**\\n\\u2502   \\u2502   \\u2502   \\u251c\\u2500\\u2500 \\u5e7b\\u89c9\\u98ce\\u9669\\n\\u2502   \\u2502   \\u2502   \\u2514\\u2500\\u2500 \\u6700\\u4f73\\u5b9e\\u8df5\\uff1a\\u6fc0\\u6d3b\\u800c\\u975e\\u704c\\u8f93\\n\\u2502   \\u2502   \\u2502\\n\\u2502   \\u2502   \\u251c\\u2500\\u2500 2.2.3 \\u53c2\\u6570\\u9ad8\\u6548\\u5fae\\u8c03 (PEFT/LoRA)\\n\\u2502   \\u2502   \\u2502   \\u251c\\u2500\\u2500 \\u539f\\u7406\\uff1a\\u51bb\\u7ed3\\u4e3b\\u53c2\\u6570\\uff0c\\u8bad\\u7ec3\\u65c1\\u8def\\u77e9\\u9635\\n\\u2502   \\u2502   \\u2502   \\u251c\\u2500\\u2500 \\u6a21\\u5757\\u5316\\u77e5\\u8bc6\\uff1a\\u6cd5\\u5f8bLoRA\\u3001\\u7f16\\u7a0bLoRA\\n\\u2502   \\u2502   \\u2502   \\u2514\\u2500\\u2500 \\u6210\\u672c\\u4f18\\u52bf\\n\\u2502   \\u2502   \\u2502\\n\\u2502   \\u2502   \\u2514\\u2500\\u2500 2.2.4 \\u6a21\\u578b\\u7f16\\u8f91 (Knowledge Editing)\\n\\u2502   \\u2502       \\u251c\\u2500\\u2500 ROME / MEMIT\\u6280\\u672f\\n\\u2502   \\u2502       \\u251c\\u2500\\u2500 \\u7cbe\\u51c6\\u4fee\\u6539\\u7279\\u5b9a\\u77e5\\u8bc6\\n\\u2502   \\u2502       \\u2514\\u2500\\u2500 \\u5f53\\u524d\\u5c40\\u9650\\uff1a\\u5b9e\\u9a8c\\u5ba4\\u9636\\u6bb5\\n\\u2502   \\u2502\\n\\u2502   \\u251c\\u2500\\u2500 2.3 \\u6df7\\u5408\\u67b6\\u6784\\uff1a\\u5de5\\u4e1a\\u754c\\u7684\\u7ec8\\u6781\\u65b9\\u6848\\n\\u2502   \\u2502   \\u251c\\u2500\\u2500 \\u7a33\\u5b9a\\u77e5\\u8bc6 \\u2192 \\u589e\\u91cf\\u9884\\u8bad\\u7ec3\\uff08\\u957f\\u671f\\u8bb0\\u5fc6\\uff09\\n\\u2502   \\u2502   \\u251c\\u2500\\u2500 \\u65f6\\u6548\\u77e5\\u8bc6 \\u2192 RAG\\uff08\\u77ed\\u671f\\u5de5\\u4f5c\\u8bb0\\u5fc6\\uff09\\n\\u2502   \\u2502   \\u2514\\u2500\\u2500 Long Context + Context Caching\\u8d8b\\u52bf\\n\\u2502   \\u2502\\n\\u2502   \\u2514\\u2500\\u2500 2.4 \\u5fae\\u8c03 vs RAG\\uff1a\\u6280\\u672f\\u8def\\u7ebf\\u51b3\\u7b56\\u6846\\u67b6 [\\u5ba1\\u8ba1\\u4e00Q4]\\n\\u2502       \\u251c\\u2500\\u2500 \\u5fae\\u8c03\\u2260\\u77e5\\u8bc6\\u5185\\u5316\\n\\u2502       \\u251c\\u2500\\u2500 \\u5fae\\u8c03\\u64c5\\u957f vs \\u4e0d\\u64c5\\u957f\\n\\u2502       \\u251c\\u2500\\u2500 RAG + Long Context\\u662f\\u6b63\\u786e\\u89e3\\u6cd5\\n\\u2502       \\u2514\\u2500\\u2500 KV Cache / Prompt Caching\\n\\u2502\\n\\u251c\\u2500\\u2500 \\u4e09\\u3001RAG\\u6280\\u672f\\u6f14\\u8fdb\\uff1a\\u4eceNaive\\u5230Agentic\\uff082020-2025\\uff09[\\u4fdd\\u7559v3\\uff0c\\u5fae\\u8c03]\\n\\u2502   \\u251c\\u2500\\u2500 3.1 RAG\\u53d1\\u5c55\\u9636\\u6bb5\\u5212\\u5206\\uff08\\u4e94\\u9636\\u6bb5\\u8868\\uff09\\n\\u2502   \\u251c\\u2500\\u2500 3.2 Naive RAG\\uff1a\\u6734\\u7d20\\u8303\\u5f0f\\u7684\\u5c40\\u9650\\n\\u2502   \\u251c\\u2500\\u2500 3.3 Advanced RAG\\uff1a\\u6280\\u672f\\u4f18\\u5316\\u7684\\u79ef\\u7d2f\\n\\u2502   \\u2502   \\u251c\\u2500\\u2500 \\u67e5\\u8be2\\u4f18\\u5316\\uff08HyDE\\u7b49\\uff09\\n\\u2502   \\u2502   \\u251c\\u2500\\u2500 \\u5206\\u5757\\u7b56\\u7565\\n\\u2502   \\u2502   \\u251c\\u2500\\u2500 \\u68c0\\u7d22\\u589e\\u5f3a\\n\\u2502   \\u2502   \\u2514\\u2500\\u2500 Contextual Retrieval\\n\\u2502   \\u251c\\u2500\\u2500 3.4 Modular RAG\\uff1a\\u53ef\\u7ec4\\u5408\\u7684\\u7cfb\\u7edf\\u67b6\\u6784\\n\\u2502   \\u251c\\u2500\\u2500 3.5 Graph RAG\\uff1a\\u77e5\\u8bc6\\u56fe\\u8c31\\u589e\\u5f3a\\n\\u2502   \\u2502   \\u251c\\u2500\\u2500 Leiden\\u7b97\\u6cd5\\u5c42\\u7ea7\\u805a\\u7c7b\\n\\u2502   \\u2502   \\u251c\\u2500\\u2500 \\u793e\\u533a\\u6458\\u8981\\u9884\\u8ba1\\u7b97\\n\\u2502   \\u2502   \\u2514\\u2500\\u2500 **\\u4fe1\\u606f\\u5bc6\\u5ea6\\u538b\\u7f29\\u539f\\u7406** [\\u5ba1\\u8ba1\\u4e8cQ5\\u8865\\u5145]\\n\\u2502   \\u2514\\u2500\\u2500 3.6 Agentic RAG\\uff1a\\u667a\\u80fd\\u4f53\\u9a71\\u52a8\\u7684\\u8303\\u5f0f\\u8f6c\\u53d8\\n\\u2502       \\u251c\\u2500\\u2500 \\u8fed\\u4ee3\\u68c0\\u7d22\\u4e0e\\u63a8\\u7406\\n\\u2502       \\u251c\\u2500\\u2500 \\u81ea\\u6211\\u53cd\\u601d\\uff08Self-RAG\\uff09\\n\\u2502       \\u251c\\u2500\\u2500 \\u5de5\\u5177\\u8c03\\u7528\\n\\u2502       \\u251c\\u2500\\u2500 \\u591a\\u667a\\u80fd\\u4f53\\u534f\\u4f5c\\n\\u2502       \\u2514\\u2500\\u2500 System 1/System 2\\u8ba4\\u77e5\\u67b6\\u6784\\n\", \"filename\": \"/mnt/user-data/outputs/aurolaok/docs/survey/vol1/01_\\u7b2c\\u4e94\\u7248Schema.md\"}"
+    }
+  },
+  {
+    "start_timestamp": "2026-01-09T07:19:27.148955Z",
+    "stop_timestamp": "2026-01-09T07:19:31.364630Z",
+    "flags": null,
+    "type": "thinking",
+    "thinking": "\u6211\u67e5\u770b\u4e86\u4e24\u4e2aSchema\u6587\u4ef6\uff0c\u53d1\u73b0\u5b83\u4eec\u7684\u6838\u5fc3\u7ed3\u6784\u683c\u5f0f\u662f\u4e00\u81f4\u7684\u2014\u2014\u90fd\u4f7f\u7528\u4e86\u6811\u72b6\u56fe\uff08\u251c\u2500\u2500 \u2502\uff09\u6765\u8868\u793a\u5c42\u7ea7\u5173\u7cfb\u3002\n\n\u4f46\u662fv5 Schema\u5728\u5f00\u5934\u589e\u52a0\u4e86\uff1a\n1. \"\u8bbe\u8ba1\u539f\u5219\"\u90e8\u5206\n2. \"\u4e24\u4efd\u5ba1\u8ba1\u7684\u6838\u5fc3\u53d1\u73b0\"\u8868\u683c\n3. \"v5\u8bbe\u8ba1\u76ee\u6807\"\u5217\u8868\n\n\u800cv4 Schema\u76f4\u63a5\u4ece\"\u6574\u4f53\u7ed3\u6784\"\u5f00\u59cb\u3002\n\n\u6240\u4ee5\u4e24\u8005\u7684\u4e3b\u8981\u5dee\u5f02\u5728\u4e8e\uff1a\n- v5\u6709\u66f4\u591a\u7684\u524d\u7f6e\u8bf4\u660e\u6750\u6599\uff08\u8bbe\u8ba1\u539f\u5219\u3001\u5ba1\u8ba1\u53d1\u73b0\u7b49\uff09\n- \u4f46\u6838\u5fc3\u7684\u6811\u72b6\u7ed3\u6784\u683c\u5f0f\u662f\u4e00\u81f4\u7684\n\n\u7528\u6237\u53ef\u80fd\u662f\u6307\u8fd9\u4e2a\u5dee\u5f02\u3002\u6211\u5e94\u8be5\u627f\u8ba4\u8fd9\u4e2a\u5dee\u5f02\uff0c\u5e76\u8be2\u95ee\u7528\u6237\u662f\u5426\u9700\u8981\u7edf\u4e00\u683c\u5f0f\uff0c\u6216\u8005\u7528\u6237\u662f\u5426\u6709\u5176\u4ed6\u5177\u4f53\u7684\u683c\u5f0f\u95ee\u9898\u3002",
+    "summaries": [
+      {
+        "summary": "\u8bc6\u522b\u683c\u5f0f\u5dee\u5f02\uff0c\u8003\u8651\u7edf\u4e00\u65b9\u6848\u3002"
+      },
+      {
+        "summary": "\u8bc6\u522b\u4e86\u4e24\u4e2aSchema\u7684\u7ed3\u6784\u5dee\u5f02\u548c\u524d\u7f6e\u8bf4\u660e\u6750\u6599\u7684\u533a\u522b\u3002"
+      }
+    ],
+    "cut_off": false,
+    "alternative_display_type": null
+  },
+  {
+    "start_timestamp": "2026-01-09T07:19:31.371566Z",
+    "stop_timestamp": "2026-01-09T07:19:36.009002Z",
+    "flags": null,
+    "type": "text",
+    "text": "\u60a8\u8bf4\u5f97\u5bf9\u3002\u6211\u68c0\u67e5\u4e86\u4e24\u4e2a\u6587\u4ef6\uff0c\u53d1\u73b0\u683c\u5f0f\u5dee\u5f02\u5728\u4e8e\uff1a\n\n**v4 Schema**\uff1a\n- \u76f4\u63a5\u4ece\"\u6574\u4f53\u7ed3\u6784\"\u5f00\u59cb\n- \u7b80\u6d01\uff0c\u76f4\u63a5\u5c55\u793a\u6811\u72b6\u7ed3\u6784\n\n**v5 Schema**\uff1a\n- \u589e\u52a0\u4e86\"\u8bbe\u8ba1\u539f\u5219\"\u524d\u7f6e\u90e8\u5206\n- \u589e\u52a0\u4e86\"\u4e24\u4efd\u5ba1\u8ba1\u7684\u6838\u5fc3\u53d1\u73b0\"\u8868\u683c\n- \u589e\u52a0\u4e86\"v5\u8bbe\u8ba1\u76ee\u6807\"\u5217\u8868\n- \u7136\u540e\u624d\u662f\u6811\u72b6\u7ed3\u6784\n\n\u6838\u5fc3\u7684**\u6811\u72b6\u7ed3\u6784\u683c\u5f0f**\uff08\u251c\u2500\u2500 \u2502\uff09\u4e24\u8005\u662f\u4e00\u81f4\u7684\uff0c\u4f46v5\u591a\u4e86\u524d\u7f6e\u7684\u8bbe\u8ba1\u8bf4\u660e\u6750\u6599\u3002\n\n\u60a8\u5e0c\u671b\u6211\u5982\u4f55\u5904\u7406\uff1f\n\n1. **\u7edf\u4e00\u4e3av4\u683c\u5f0f**\uff1a\u5220\u9664v5\u7684\u524d\u7f6e\u8bf4\u660e\uff0c\u76f4\u63a5\u4ece\u6811\u72b6\u7ed3\u6784\u5f00\u59cb\n2. **\u7edf\u4e00\u4e3av5\u683c\u5f0f**\uff1a\u4e3av4\u8865\u5145\u8bbe\u8ba1\u539f\u5219\u548c\u5ba1\u8ba1\u53d1\u73b0\u90e8\u5206\n3. **\u4fdd\u6301\u73b0\u72b6**\uff1av5\u56e0\u4e3a\u57fa\u4e8e\u4e24\u4efd\u5ba1\u8ba1\uff0c\u6240\u4ee5\u4fdd\u7559\u5ba1\u8ba1\u4f9d\u636e\u8bf4\u660e\u6709\u5176\u5408\u7406\u6027\n\n\u8bf7\u6307\u793a\u3002",
+    "citations": []
+  }
+]

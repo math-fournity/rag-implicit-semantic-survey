@@ -1,0 +1,1736 @@
+Assistant:
+Content:
+[
+  {
+    "start_timestamp": "2026-01-09T03:32:01.941355Z",
+    "stop_timestamp": "2026-01-09T03:32:01.941355Z",
+    "flags": null,
+    "type": "text",
+    "text": "\n",
+    "citations": []
+  },
+  {
+    "start_timestamp": "2026-01-09T03:32:01.941355Z",
+    "stop_timestamp": "2026-01-09T03:32:07.520298Z",
+    "flags": null,
+    "type": "thinking",
+    "thinking": "\u7528\u6237\u8981\u6c42\u6211\u542f\u52a8\u4e00\u6b21\u4e13\u95e8\u7684Research\uff0c\u805a\u7126\u4e8e\u9690\u6027\u8bed\u4e49\u63d0\u53d6\u7684\u5b66\u672f\u524d\u6cbf\uff0c\u9700\u8981\u8986\u76d6\u7684\u5e7f\u5ea6\u548c\u524d\u6cbf\u6027\u8d85\u8d8a\u4ed6\u7ed9\u51fa\u7684\u7d20\u6750\u3002\n\n\u4ed6\u7ed9\u51fa\u7684\u7d20\u6750\u5df2\u7ecf\u975e\u5e38\u6df1\u5165\uff0c\u5305\u542b\uff1a\n1. 8\u5927\u8bed\u8a00\u5b66/\u8ba4\u77e5\u79d1\u5b66\u6846\u67b6\uff08RST\u3001Illocutionary Force\u3001Frame Semantics\u3001Toulmin Model\u3001Conceptual Metaphor\u3001Labov's Narrative\u3001Conversation Analysis\u3001Bloom's Taxonomy\uff09\n2. Aurola\u8fc7\u7a0b\uff08\u628a\u4e66\u8bfb\u539a\u7684\u521b\u65b0\u6982\u5ff5\uff09\n3. HyDE\u3001RAPTOR\u3001Contextual Retrieval\u7b49\u6280\u672f\n4. NLI\u3001Argumentation Mining\u3001Pragmatic Inference\u7b49\u5b66\u672f\u65b9\u5411\n5. GraphRAG\u7684\u9690\u6027\u63d0\u53d6\u673a\u5236\n\n\u7528\u6237\u7684\u9700\u6c42\u975e\u5e38\u660e\u786e\uff1a\n- \u5fc5\u987b\u8d85\u8d8a\u4ed6\u7ed9\u51fa\u7684\u7d20\u6750\n- \u8986\u76d6\u5e7f\u5ea6\u548c\u524d\u6cbf\u6027\n- \u4e3a\u7b2c\u4e00\u7ae0\u91cd\u5199\u63d0\u4f9b\u7406\u8bba\u57fa\u7840\u7d20\u6750\n\n\u8fd9\u4e2a\u8bf7\u6c42\u8db3\u591f\u6e05\u6670\u548c\u8be6\u7ec6\uff0c\u6211\u5e94\u8be5\u76f4\u63a5\u542f\u52a8research\uff0c\u4e0d\u9700\u8981\u95eeclarifying questions\u3002\u56e0\u4e3a\uff1a\n1. \u7528\u6237\u5df2\u7ecf\u660e\u786e\u4e86\u7814\u7a76\u65b9\u5411\uff08\u9690\u6027\u8bed\u4e49\u63d0\u53d6\uff09\n2. \u7528\u6237\u5df2\u7ecf\u7ed9\u51fa\u4e86\u53c2\u7167\u7269\uff08\u4ed6\u7684\u4e24\u4efd\u6587\u6863\u7d20\u6750\uff09\n3. \u7528\u6237\u660e\u786e\u4e86\u76ee\u6807\uff08\u8d85\u8d8a\u73b0\u6709\u7d20\u6750\uff0c\u4e3a\u7b2c\u4e00\u7ae0\u91cd\u5199\u670d\u52a1\uff09\n\n\u6211\u5e94\u8be5\u76f4\u63a5\u4f7f\u7528launch_extended_search_task\u5de5\u5177\uff0c\u5e76\u4e14\u5728command\u53c2\u6570\u4e2d\u8be6\u7ec6\u63cf\u8ff0\u7814\u7a76\u4efb\u52a1\u3002",
+    "summaries": [
+      {
+        "summary": "\u601d\u8003\u5982\u4f55\u8bbe\u8ba1\u8d85\u8d8a\u73b0\u6709\u7d20\u6750\u7684\u524d\u6cbf\u7814\u7a76\u65b9\u6848"
+      },
+      {
+        "summary": "\u6b63\u5728\u6574\u5408\u516b\u5927\u6846\u67b6\u4e0e\u524d\u6cbf\u7406\u8bba\u6df1\u5316\u7814\u7a76\u3002"
+      },
+      {
+        "summary": "\u51b3\u5b9a\u542f\u52a8\u6df1\u5ea6\u7814\u7a76\u4efb\u52a1\u4ee5\u8d85\u8d8a\u73b0\u6709\u7d20\u6750\u8303\u56f4\u3002"
+      }
+    ],
+    "cut_off": false,
+    "alternative_display_type": null
+  },
+  {
+    "start_timestamp": "2026-01-09T03:32:07.644183Z",
+    "stop_timestamp": "2026-01-09T03:32:09.498108Z",
+    "flags": null,
+    "type": "text",
+    "text": "\u660e\u767d\u4e86\u3002\u8fd9\u4e2a\u65b9\u5411\u81f3\u5173\u91cd\u8981\u2014\u2014\u5b83\u6b63\u662f\u60a8\u7efc\u8ff0\u533a\u522b\u4e8eGao et al.\u3001Singh et al.\u7b49\u73b0\u6709\u7efc\u8ff0\u7684**\u6838\u5fc3\u5b66\u672f\u5b9a\u4f4d**\u3002\n\n\u6211\u73b0\u5728\u542f\u52a8\u6df1\u5ea6Research\uff0c\u76ee\u6807\u662f\u5728\u9690\u6027\u8bed\u4e49\u63d0\u53d6\u9886\u57df\u5b9e\u73b0\u5bf9\u60a8\u73b0\u6709\u7d20\u6750\u7684**\u5168\u9762\u8d85\u8d8a**\u3002",
+    "citations": []
+  },
+  {
+    "start_timestamp": "2026-01-09T03:32:09.753462Z",
+    "stop_timestamp": "2026-01-09T03:32:34.092901Z",
+    "flags": null,
+    "type": "tool_use",
+    "name": "launch_extended_search_task",
+    "input": {
+      "command": "\u4e3aRAG\u7efc\u8ff0\u7b2c\u4e00\u7ae0\u8fdb\u884c\u6df1\u5ea6\u5b66\u672f\u8c03\u7814\uff0c\u805a\u7126\u4e8e\"\u9690\u6027\u8bed\u4e49\u63d0\u53d6\"(Implicit Semantic Extraction)\u53ca\u5176\u5728LLM/RAG\u7cfb\u7edf\u4e2d\u7684\u5e94\u7528\u3002\u76ee\u6807\u662f\u8d85\u8d8a\u7528\u6237\u5df2\u6709\u7684\u7d20\u6750\u6df1\u5ea6\u548c\u5e7f\u5ea6\u3002\n\n\u7528\u6237\u5df2\u6709\u7d20\u6750\u5305\u542b\u4ee5\u4e0b8\u5927\u7406\u8bba\u6846\u67b6\uff0cResearch\u5fc5\u987b\u627e\u5230\u66f4\u591a\u3001\u66f4\u524d\u6cbf\u7684\u8865\u5145\uff1a\n1. RST (\u4fee\u8f9e\u7ed3\u6784\u7406\u8bba)\n2. Illocutionary Force (\u8a00\u5916\u4e4b\u529b/\u8a00\u8bed\u884c\u4e3a\u7406\u8bba)\n3. Frame Semantics (\u6846\u67b6\u8bed\u4e49\u5b66/FrameNet)\n4. Toulmin Model (\u56fe\u5c14\u654f\u8bba\u8bc1\u6a21\u578b)\n5. Conceptual Metaphor Theory (\u6982\u5ff5\u9690\u55bb\u7406\u8bba)\n6. Labov's Narrative Structure (\u62c9\u6ce2\u592b\u53d9\u4e8b\u7ed3\u6784)\n7. Conversation Analysis (\u4f1a\u8bdd\u5206\u6790)\n8. Bloom's Taxonomy (\u5e03\u9c81\u59c6\u8ba4\u77e5\u5206\u7c7b)\n\n**\u4e00\u3001\u9690\u6027\u8bed\u4e49\u63d0\u53d6\u7684\u5b66\u672f\u524d\u6cbf\uff082023-2025\uff09**\n\n1. \u81ea\u7136\u8bed\u8a00\u63a8\u7406\u4e0e\u6587\u672c\u8574\u542b\n- Natural Language Inference (NLI) \u6700\u65b0\u8fdb\u5c55\n- Textual Entailment / Recognizing Textual Entailment (RTE)\n- Abductive Reasoning (\u6eaf\u56e0\u63a8\u7406) \u5728LLM\u4e2d\u7684\u7814\u7a76\n- SNLI, MultiNLI, ANLI\u7b49\u6570\u636e\u96c6\u7684\u6700\u65b0benchmark\n- 2024-2025\u5e74\u9876\u4f1a\u8bba\u6587\uff08ACL\u3001EMNLP\u3001NAACL\u3001ICLR\uff09\n\n2. \u9690\u5f0f\u8bba\u5143\u63d0\u53d6\n- Implicit Semantic Role Labeling (iSRL)\n- Null Instantiation \u7814\u7a76\n- Implicit Argument Resolution\n- PropBank, NomBank\u4e2d\u7684\u9690\u5f0f\u8bba\u5143\u5904\u7406\n\n3. \u8bba\u8fa9\u6316\u6398 (Argumentation Mining)\n- Enthymeme Reconstruction (\u7701\u7565\u4e09\u6bb5\u8bba\u91cd\u6784)\n- Implicit Warrant Extraction\n- Claim-Evidence-Warrant \u7ed3\u6784\u63d0\u53d6\n- 2024-2025\u5e74\u8bba\u8fa9\u6316\u6398\u9876\u4f1a\u8bba\u6587\n\n4. \u8bed\u7528\u63a8\u7406\n- Conversational Implicature (\u4f1a\u8bdd\u542b\u4e49)\n- Grice's Maxims\u5728LLM\u4e2d\u7684\u5e94\u7528\u7814\u7a76\n- Indirect Speech Acts\u68c0\u6d4b\n- Sarcasm/Irony Detection\u6700\u65b0\u65b9\u6cd5\n- Scalar Implicature (\u6807\u91cf\u542b\u4e49)\n\n5. \u5e38\u8bc6\u63a8\u7406\n- Commonsense Reasoning\u6700\u65b0\u8fdb\u5c55\n- COMET, ATOMIC\u7b49\u5e38\u8bc6\u77e5\u8bc6\u5e93\n- Winograd Schema Challenge\n- \u7269\u7406\u5e38\u8bc6\u3001\u793e\u4f1a\u5e38\u8bc6\u5728RAG\u4e2d\u7684\u5e94\u7528\n\n**\u4e8c\u3001\u8bed\u8a00\u5b66\u7406\u8bba\u5728LLM/RAG\u4e2d\u7684\u5e94\u7528\u8bba\u6587**\n\n1. RST\u4e0eLLM\n- Discourse Parsing with LLMs\n- RST\u5728\u6587\u6863\u7406\u89e3\u4e2d\u7684\u6700\u65b0\u5e94\u7528\n- Discourse Relations for RAG\n\n2. \u8bed\u7528\u5b66\u4e0eLLM\n- Pragmatics Understanding Benchmark (PUB)\n- LLM\u7684\u8bed\u7528\u80fd\u529b\u8bc4\u4f30\n- Speech Act Classification with Transformers\n\n3. \u6846\u67b6\u8bed\u4e49\u5b66\u4e0e\u77e5\u8bc6\u8868\u793a\n- FrameNet\u4e0eKnowledge Graphs\u6574\u5408\n- Frame-based Information Extraction\n- Semantic Role Labeling\u6700\u65b0\u65b9\u6cd5\n\n4. \u8bba\u8bc1\u7406\u8bba\u4e0eLLM\u63a8\u7406\n- Toulmin-based Argument Mining\n- Computational Argumentation\u7efc\u8ff0\n- LLM\u5728\u8bba\u8fa9\u4efb\u52a1\u4e0a\u7684\u8868\u73b0\u8bc4\u4f30\n\n**\u4e09\u3001RAG\u4e2d\u7684\u8bed\u4e49\u589e\u5f3a\u6280\u672f\uff08\u5b66\u672f\u8bba\u6587\uff09**\n\n1. \u6587\u6863\u6269\u5c55\u6280\u672f\n- HyDE (Hypothetical Document Embeddings) \u5b8c\u6574\u5f15\u7528\u548c\u540e\u7eed\u6539\u8fdb\n- RAPTOR (Recursive Abstractive Processing for Tree-Organized Retrieval) \u5b8c\u6574\u5f15\u7528\n- Document Expansion for Dense Retrieval\n- Query Expansion\u6280\u672f\u6f14\u8fdb\n\n2. \u4e0a\u4e0b\u6587\u589e\u5f3a\n- Anthropic Contextual Retrieval\u7684\u5b66\u672f\u5206\u6790\n- Chunk Contextualization\u7814\u7a76\n- Parent-Child Indexing\u5b66\u672f\u57fa\u7840\n\n3. \u63a8\u7406\u589e\u5f3a\u68c0\u7d22\n- Reasoning-based Retrieval\n- Chain-of-Thought\u4e0eRAG\u7ed3\u5408\n- Multi-hop Reasoning in RAG\n\n**\u56db\u3001GraphRAG\u4e0e\u77e5\u8bc6\u56fe\u8c31\u7684\u9690\u6027\u8bed\u4e49**\n\n1. \u5b9e\u4f53\u4e0e\u5173\u7cfb\u7684\u9690\u5f0f\u63d0\u53d6\n- Implicit Relation Extraction\n- Zero-shot Relation Extraction\n- Knowledge Graph Completion\n\n2. \u793e\u533a\u68c0\u6d4b\u4e0e\u5c42\u7ea7\u6458\u8981\n- Leiden Algorithm\u5728NLP\u4e2d\u7684\u5e94\u7528\n- Hierarchical Summarization\u7814\u7a76\n- Community-based Knowledge Organization\n\n**\u4e94\u3001\u8de8\u5b66\u79d1\u89c6\u89d2**\n\n1. \u8ba4\u77e5\u79d1\u5b66\u4e0eRAG\n- \u8ba4\u77e5\u8d1f\u8377\u7406\u8bba (Cognitive Load Theory)\n- \u5de5\u4f5c\u8bb0\u5fc6\u6a21\u578b\u4e0e\u4e0a\u4e0b\u6587\u7a97\u53e3\n- \u53cc\u91cd\u7f16\u7801\u7406\u8bba (Dual Coding Theory)\n\n2. \u4fe1\u606f\u79d1\u5b66\n- Information Foraging Theory\n- Relevance Theory (\u5173\u8054\u7406\u8bba)\n- Information Scent\n\n3. \u5fc3\u7406\u8bed\u8a00\u5b66\n- Predictive Processing in Language\n- Discourse Comprehension Models\n- Mental Models Theory\n\n**\u516d\u3001\u4e2d\u6587NLP\u793e\u533a\u7684\u76f8\u5173\u5de5\u4f5c**\n\n1. \u4e2d\u6587\u9690\u5f0f\u8bed\u4e49\u7814\u7a76\n- \u4e2d\u6587\u9690\u5f0f\u7bc7\u7ae0\u5173\u7cfb\u8bc6\u522b\n- \u4e2d\u6587\u8bba\u8fa9\u6316\u6398\n- \u4e2d\u6587\u5e38\u8bc6\u63a8\u7406\u6570\u636e\u96c6\n\n**\u8f93\u51fa\u8981\u6c42**\uff1a\n- \u6240\u6709\u8bba\u6587\u5fc5\u987b\u63d0\u4f9b\u5b8c\u6574\u5f15\u7528\uff08\u4f5c\u8005\u3001\u5e74\u4efd\u3001\u6807\u9898\u3001venue\u3001arXiv ID/DOI\uff09\n- \u91cd\u70b9\u5173\u6ce82023-2025\u5e74\u7684\u6700\u65b0\u8fdb\u5c55\n- \u8bc6\u522b\u7528\u6237\u7d20\u6750\u4e2d\u672a\u8986\u76d6\u7684\u7406\u8bba\u6846\u67b6\u548c\u6280\u672f\n- \u7279\u522b\u5173\u6ce8\u8fd9\u4e9b\u6280\u672f\u5982\u4f55\u5e94\u7528\u4e8eRAG\u7cfb\u7edf\n- \u4e3a\"\u8ba4\u77e5\u589e\u5f3aRAG\"\u548c\"\u8bed\u8a00\u5b66\u5f15\u5bfc\u7684\u9690\u6027\u8bed\u4e49\u5904\u7406\"\u63d0\u4f9b\u5b66\u672f\u652f\u6491"
+    },
+    "message": "launch_extended_search_task",
+    "integration_name": null,
+    "integration_icon_url": null,
+    "context": null,
+    "display_content": null,
+    "approval_options": null,
+    "approval_key": null
+  },
+  {
+    "start_timestamp": null,
+    "stop_timestamp": null,
+    "flags": null,
+    "type": "tool_result",
+    "name": "launch_extended_search_task",
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"task_id\": \"wf-28d4e3c5-48b1-40d3-9c33-84c0b7619259\"}",
+        "uuid": "413cd0da-f8ef-43fd-b1ff-7e4d1229f97c"
+      }
+    ],
+    "is_error": false,
+    "structured_content": null,
+    "message": null,
+    "integration_name": null,
+    "integration_icon_url": null,
+    "display_content": null
+  },
+  {
+    "start_timestamp": "2026-01-09T03:32:34.336959Z",
+    "stop_timestamp": "2026-01-09T03:32:34.336959Z",
+    "flags": null,
+    "type": "text",
+    "text": "",
+    "citations": []
+  },
+  {
+    "start_timestamp": null,
+    "stop_timestamp": null,
+    "flags": null,
+    "type": "text",
+    "text": "\u60a8\u7684\u9690\u6027\u8bed\u4e49\u63d0\u53d6\u5b66\u672f\u524d\u6cbf\u62a5\u544a\u5df2\u5b8c\u6210\u3002\u62a5\u544a\u7efc\u8ff0\u4e8680+\u7bc72024-2025\u5e74\u524d\u6cbf\u8bba\u6587\uff0c\u6db5\u76d6\u81ea\u7136\u8bed\u8a00\u63a8\u7406\u4e0e\u6587\u672c\u8574\u542b\u3001\u9690\u5f0f\u8bba\u5143\u4e0e\u8bba\u8fa9\u6316\u6398\u3001\u8bed\u7528\u4e0e\u5e38\u8bc6\u63a8\u7406\u3001RAG\u8bed\u4e49\u589e\u5f3a\u6280\u672f\u3001GraphRAG\u4e0e\u77e5\u8bc6\u56fe\u8c31\u3001\u8bed\u8a00\u5b66\u7406\u8bba\u8ba1\u7b97\u5316\u5e94\u7528\uff0c\u4ee5\u53ca\u8ba4\u77e5\u79d1\u5b66\u8de8\u5b66\u79d1\u89c6\u89d2\u3002\u62a5\u544a\u8fd8\u8bc6\u522b\u51fa7\u4e2a\u60a8\u7d20\u6750\u672a\u8986\u76d6\u7684\u65b0\u7406\u8bba\u6846\u67b6\uff08\u5171\u540c\u57fa\u7840\u7406\u8bba\u3001\u5177\u8eab\u8ba4\u77e5\u3001\u4e2d\u5fc3\u7406\u8bba\u3001CCR\u3001\u60c5\u5883\u6a21\u578b\u3001\u8ba4\u8bc6\u8b66\u89c9\u3001\u811a\u672c\u7406\u8bba\uff09\uff0c\u5e76\u5305\u542b\u4e2d\u6587NLP\u793e\u533a\u7684\u4e13\u9879\u7814\u7a76\u7efc\u8ff0\u3002",
+    "citations": []
+  },
+  {
+    "start_timestamp": null,
+    "stop_timestamp": null,
+    "flags": null,
+    "type": "tool_use",
+    "name": "artifacts",
+    "input": {
+      "id": "compass_artifact_wf-28d4e3c5-48b1-40d3-9c33-84c0b7619259_text/markdown",
+      "type": "text/markdown",
+      "title": "Implicit Semantic Extraction in LLM and RAG Systems: Cognitive Enhancement and Linguistic Methods at the Academic Frontier",
+      "source": "c",
+      "command": "create",
+      "content": "# \u9690\u6027\u8bed\u4e49\u63d0\u53d6\u7684\u5b66\u672f\u524d\u6cbf\uff1aLLM/RAG\u7cfb\u7edf\u4e2d\u7684\u8ba4\u77e5\u589e\u5f3a\u4e0e\u8bed\u8a00\u5b66\u65b9\u6cd5\n\n\u9690\u6027\u8bed\u4e49\u63d0\u53d6(Implicit Semantic Extraction)\u6b63\u5728\u6210\u4e3aRAG\u7cfb\u7edf\u6f14\u8fdb\u7684\u6838\u5fc3\u6311\u6218\u30022024-2025\u5e74\u7684\u7814\u7a76\u8868\u660e\uff0c\u4f20\u7edf\u57fa\u4e8e\u5411\u91cf\u76f8\u4f3c\u5ea6\u7684\u68c0\u7d22\u65e0\u6cd5\u6355\u83b7\u6587\u672c\u4e2d\u672a\u660e\u786e\u8868\u8ff0\u7684\u8bed\u4e49\u5173\u7cfb\u2014\u2014\u5305\u62ec\u8a00\u5916\u4e4b\u610f\u3001\u7701\u7565\u8bba\u8bc1\u3001\u5e38\u8bc6\u63a8\u7406\u548c\u7bc7\u7ae0\u8854\u63a5\u3002\u672c\u62a5\u544a\u7efc\u8ff0\u4e86**\u8d85\u8fc780\u7bc7**\u524d\u6cbf\u8bba\u6587\uff0c\u4e3a\"\u8ba4\u77e5\u589e\u5f3aRAG\"\u548c\"\u8bed\u8a00\u5b66\u5f15\u5bfc\u7684\u9690\u6027\u8bed\u4e49\u5904\u7406\"\u63d0\u4f9b\u7cfb\u7edf\u6027\u5b66\u672f\u652f\u6491\uff0c\u5e76\u8bc6\u522b\u51fa**7\u4e2a\u7528\u6237\u7d20\u6750\u672a\u8986\u76d6\u7684\u65b0\u7406\u8bba\u6846\u67b6**\u3002\n\n---\n\n## \u4e00\u3001\u81ea\u7136\u8bed\u8a00\u63a8\u7406\u4e0e\u6587\u672c\u8574\u542b\u7684\u6700\u65b0\u8fdb\u5c55\n\nNLI\u7814\u7a76\u6b63\u4ece\u5355\u7eaf\u7684\u57fa\u51c6\u6d4b\u8bd5\u8f6c\u5411\u4e0eRAG\u7cfb\u7edf\u7684\u6df1\u5ea6\u6574\u5408\u3002**Madaan et al. (2024)** \u5728\"Lost in Inference\"\u7814\u7a76\u4e2d\u53d1\u73b0\uff0c\u5c3d\u7ba1LLM\u5728\u6807\u51c6NLI\u57fa\u51c6\u4e0a\u8868\u73b0\u4f18\u5f02\uff0c\u4f46\u5728ChaosNLI\u7b49\u4eba\u7c7b\u5224\u65ad\u5206\u5e03\u5bf9\u9f50\u6d4b\u8bd5\u4e2d\u4ecd\u5b58\u5728\u663e\u8457\u5dee\u8ddd\uff0c\u8868\u660eNLI\u4efb\u52a1\u4ecd\u80fd\u6709\u6548\u533a\u5206\u6a21\u578b\u7684\u8bed\u4e49\u7406\u89e3\u8d28\u91cf\u3002\n\n### \u6838\u5fc3\u8bba\u6587\u4e0e\u65b9\u6cd5\u7a81\u7834\n\n**ARAG\u6846\u67b6**\u76f4\u63a5\u5c06NLI\u4ee3\u7406\u96c6\u6210\u5230RAG\u6d41\u7a0b\u4e2d\uff0c\u5b9e\u73b0\u4e86\u8bed\u4e49\u5bf9\u9f50\u9a8c\u8bc1\uff1a\n- **\u5f15\u7528**: ARAG: Agentic Retrieval Augmented Generation for Personalized Recommendation. arXiv:2506.21931, 2024\n- **\u521b\u65b0\u70b9**: NLI Agent\u8bc4\u4f30\u5019\u9009\u6587\u6863\u4e0e\u63a8\u65ad\u7528\u6237\u610f\u56fe\u7684\u8bed\u4e49\u4e00\u81f4\u6027\n\n**\u6eaf\u56e0\u63a8\u7406(Abductive Reasoning)** \u53d6\u5f97\u91cd\u8981\u8fdb\u5c55\uff1a\n- **Zhao et al.**: \"UNcommonsense Reasoning: Abductive Reasoning about Uncommon Situations.\" *NAACL 2024*. \u521b\u5efa\u9488\u5bf9\u975e\u5178\u578b\u60c5\u5883\u7684\u6eaf\u56e0\u63a8\u7406\u57fa\u51c6\n- **Zhao et al.**: \"Abductive Commonsense Reasoning Exploiting Mutually Exclusive Explanations.\" *ACL 2023*, pp.14883-14896. DOI: 10.18653/v1/2023.acl-long.831. \u5229\u7528\u5bf9\u6bd4\u89e3\u91ca\u63d0\u5347\u6eaf\u56e0\u63a8\u7406\n- **Richardson et al.**: \"An Incomplete Loop: Deductive, Inductive, and Abductive Learning in Large Language Models.\" arXiv:2404.03028, 2024. \u63ed\u793aLLM\u5728\u4e09\u79cd\u63a8\u7406\u7c7b\u578b\u95f4\u7684\u4e0d\u5bf9\u79f0\u6027\n\n**\u795e\u7ecf\u7b26\u53f7\u878d\u5408\u65b9\u6cd5**\u83b7\u5f97EMNLP 2024\u6770\u51fa\u8bba\u6587\u5956\uff1a\n- **Quan et al.**: \"Verification and Refinement of Natural Language Explanations through LLM-Symbolic Theorem Proving.\" *EMNLP 2024*, pp.2933-2958. DOI: 10.18653/v1/2024.emnlp-main.172\n- \u63d0\u51faExplanation-Refiner\u6846\u67b6\uff0c\u4e3aNLI\u89e3\u91ca\u63d0\u4f9b\u5f62\u5f0f\u5316\u9a8c\u8bc1\u4fdd\u8bc1\n\n### \u63a8\u7406\u80fd\u529b\u589e\u5f3a\n\n**Morishita et al. (2024)** \u7684Additional Logic Training (ALT)\u65b9\u6cd5\u5728\u903b\u8f91\u63a8\u7406\u57fa\u51c6\u4e0a\u5b9e\u73b0**30\u70b9\u63d0\u5347**\uff1a\n- **\u5f15\u7528**: \"Enhancing Reasoning Capabilities of LLMs via Principled Synthetic Logic Corpus.\" *NeurIPS 2024*. arXiv:2411.12498\n- \u521b\u5efaFLD\u00d72\u8bed\u6599\u5e93\uff0c\u901a\u8fc7\u7a0b\u5e8f\u751f\u6210\u7684\u903b\u8f91\u6837\u672c\u589e\u5f3a\u63a8\u7406\n\n---\n\n## \u4e8c\u3001\u9690\u5f0f\u8bba\u5143\u4e0e\u8bba\u8fa9\u6316\u6398\u7684\u7a81\u7834\n\n### \u9690\u5f0f\u8bed\u4e49\u89d2\u8272\u6807\u6ce8(iSRL)\n\n**2025\u5e74\u6700\u65b0\u7efc\u8ff0**\u7cfb\u7edf\u68b3\u7406\u4e86\u9690\u5f0f\u8bba\u5143\u5904\u7406\u65b9\u6cd5\uff1a\n- **\u5f15\u7528**: \"Semantic Role Labeling: A Systematical Survey.\" arXiv:2502.08660v2, 2025\n- \u8986\u76d6**Null Instantiation (NI)** \u548c\u8de8\u53e5\u7bc7\u7ae0\u7ea7SRL\n- \u8bc4\u4f30ChatGPT\u3001Llama2\u5728SRL\u4efb\u52a1\u4e0a\u7684\u8868\u73b0\n\n**\u591a\u6a21\u6001\u9690\u5f0fSRL**\u53d6\u5f97\u7a81\u7834\uff1a\n- **Batra et al.**: \"Predicting Implicit Arguments in Procedural Video Instructions.\" arXiv:2505.21068, 2025\n- \u63d0\u51faImplicit-VidSRL\u6570\u636e\u96c6\u548ciSRL-Qwen2-VL\u6a21\u578b\n- \u9690\u5f0f\u8bba\u5143F1\u503c\u6bd4GPT-4o\u63d0\u5347**17%**\n\n### \u8bba\u8fa9\u6316\u6398\u4e2d\u7684\u7701\u7565\u4e09\u6bb5\u8bba\u91cd\u6784\n\n**\u7701\u7565\u4e09\u6bb5\u8bba(Enthymeme)** \u662f\u8bba\u8fa9\u4e2d\u7701\u7565\u9690\u542b\u524d\u63d0\u7684\u6838\u5fc3\u6311\u6218\uff1a\n- **Stahl et al.**: \"Mind the Gap: Automated Corpus Creation for Enthymeme Detection and Reconstruction in Learner Arguments.\" *Findings of EMNLP 2023*, pp.4703-4717. DOI: 10.18653/v1/2023.findings-emnlp.312. arXiv:2310.18098\n- \u521b\u5efa**40,089\u6761\u8bba\u8bc1\u5b9e\u4f8b**\u7528\u4e8e\u7701\u7565\u4e09\u6bb5\u8bba\u68c0\u6d4b\u4e0e\u91cd\u6784\u8bad\u7ec3\n\n**\u56fe\u5c14\u654f\u6a21\u578b\u7684\u96f6\u6837\u672c\u5e94\u7528**\u83b7\u5f97\u9a8c\u8bc1\uff1a\n- **Gupta et al.**: \"Harnessing Toulmin's Theory for Zero-shot Argument Explication.\" *ACL 2024 Long Papers*, pp.10259-10276. DOI: 10.18653/v1/2024.acl-long.552\n- \u4f7f\u7528\u56fe\u5c14\u654f\u672f\u8bed(claim, reason, warrant)\u7684\u96f6\u6837\u672c\u63d0\u793a\u5728\u6240\u6709\u6d4b\u8bd5\u6a21\u578b\u4e2d\u8fbe\u5230**\u6700\u9ad8\u6210\u529f\u7387**\n\n**\u6700\u65b0\u7efc\u8ff0(2025)** \u5168\u9762\u8986\u76d6LLM\u8bba\u8fa9\u6316\u6398\uff1a\n- **\u5f15\u7528**: \"Large Language Models in Argument Mining: A Survey.\" arXiv:2506.16383v3, 2025\n- \u63d0\u51fa\u6db5\u76d6\u63d0\u793a\u3001\u601d\u7ef4\u94fe\u3001\u68c0\u7d22\u589e\u5f3a\u7684\u8bba\u8fa9\u6316\u6398\u4efb\u52a1\u5206\u7c7b\u6cd5\n\n### \u9690\u5f0f\u8bba\u8bc1\u6316\u6398\u6838\u5fc3\u8bba\u6587\n\n- **Sviridova et al.**: \"Mining Implicit Arguments for Reasoning: A Survey.\" *Argument and Computation*, 2025. DOI: 10.1177/19462174251344764. **\u6700\u5168\u9762\u7684\u9690\u5f0f\u8bba\u8bc1\u63d0\u53d6\u7efc\u8ff0**\n- **Chen et al.**: \"Exploring the Potential of Large Language Models in Computational Argumentation.\" *ACL 2024*, pp.2309-2330. arXiv:2311.09022. \u6807\u51c6\u531614\u4e2a\u8bba\u8fa9\u6316\u6398\u6570\u636e\u96c6\n- **Habernal et al.**: \"The Argument Reasoning Comprehension Task.\" *NAACL 2018*, pp.1930-1940. arXiv:1708.01425. \u5efa\u7acb\u9690\u5f0fwarrant\u63d0\u53d6\u7684\u57fa\u51c6\u4efb\u52a1\n\n---\n\n## \u4e09\u3001\u8bed\u7528\u63a8\u7406\u4e0e\u5e38\u8bc6\u63a8\u7406\n\n### \u8bed\u7528\u7406\u89e3\u57fa\u51c6\u4e0e\u8bc4\u4f30\n\n**PUB\u57fa\u51c6**\u9996\u6b21\u7cfb\u7edf\u8bc4\u4f30LLM\u8bed\u7528\u80fd\u529b\uff1a\n- **Sravanthi et al.**: \"PUB: A Pragmatics Understanding Benchmark for Assessing LLMs' Pragmatics Capabilities.\" *Findings of ACL 2024*, pp.12075-12097. arXiv:2401.07078\n- \u6db5\u76d6**14\u9879\u4efb\u52a1**\u3001**28k\u6570\u636e\u70b9**\uff0c\u8986\u76d6\u4f1a\u8bdd\u542b\u4e49\u3001\u9884\u8bbe\u3001\u6307\u79f0\u3001\u6307\u793a\u8bed\n- \u63ed\u793a\u4eba\u7c7b(95%+)\u4e0eLLM\u95f4\u7684\u663e\u8457\u6027\u80fd\u5dee\u8ddd\n\n**Grice\u51c6\u5219\u7684LLM\u7814\u7a76**\uff1a\n- **Cho & Kim**: \"Pragmatic inference of scalar implicature by LLMs.\" *ACL 2024 SRW*, pp.10-20. DOI: 10.18653/v1/2024.acl-srw.2. \u7814\u7a76BERT/GPT-2\u5904\u7406\u6807\u91cf\u542b\u4e49\u7684\u5dee\u5f02\n- **Cong**: \"Manner implicatures in large language models.\" *Scientific Reports*, 14:27902, 2024. DOI: 10.1038/s41598-024-80571-3. \u53d1\u73b0LLM\u5bf9\u65b9\u5f0f\u51c6\u5219\u8fdd\u53cd\u7684\u5904\u7406\u4ecd\u4e0d\u7406\u60f3\n- **Yue et al.**: \"Do Large Language Models Understand Conversational Implicature?\" *CCL 2024*, pp.1270-1285. arXiv:2404.19509. GPT-4\u5728\u9009\u62e9\u9898\u4e0a\u8fbe\u523094%\u4eba\u7c7b\u6c34\u5e73\u51c6\u786e\u7387\n\n**\u8bbd\u523a\u68c0\u6d4b\u6700\u65b0\u65b9\u6cd5**\uff1a\n- **Wen & Liu**: \"A Transformer and Prototype-based Interpretable Model for Contextual Sarcasm Detection.\" arXiv:2503.11838, 2025. \u7ed3\u5408\u60c5\u611f\u539f\u578b\u7684\u53ef\u89e3\u91ca\u65b9\u6cd5\n- **Helal et al.**: \"A contextual-based approach for sarcasm detection.\" *Scientific Reports*, 14:15415, 2024. RoBERTa\u5728\u65b0\u95fb\u6807\u9898\u8fbe\u5230**99% F1**\n\n### \u5e38\u8bc6\u63a8\u7406\u6838\u5fc3\u8fdb\u5c55\n\n**\u53ef\u9a8c\u8bc1\u5e38\u8bc6\u63a8\u7406\u6846\u67b6**\uff1a\n- **Toroghi et al.**: \"Verifiable, Debuggable, and Repairable Commonsense Logical Reasoning via LLM-based Theory Resolution.\" *EMNLP 2024*, pp.6634-6652. DOI: 10.18653/v1/2024.emnlp-main.379\n- \u5c06LLM\u5e38\u8bc6\u4e0e\u53ef\u9a8c\u8bc1\u903b\u8f91\u63a8\u7406\u6574\u5408\uff0c\u652f\u6301\u8c03\u8bd5\u548c\u4fee\u590d\n\n**ATOMIC 2020\u77e5\u8bc6\u5e93**\uff1a\n- **Hwang et al.**: \"(COMET-)ATOMIC 2020: On Symbolic and Neural Commonsense Knowledge Graphs.\" *AAAI 2021*, pp.6384-6392\n- **133\u4e07\u5e38\u8bc6\u5143\u7ec4**\uff0c\u8986\u76d6\u793e\u4f1a\u3001\u7269\u7406\u3001\u4e8b\u4ef6\u77e5\u8bc6\uff1bCOMET\u751f\u6210\u8d28\u91cf\u8fbe77.5%\u4eba\u7c7b\u8bc4\u5206\n\n**Winograd Schema Challenge\u8fdb\u5c55**\uff1a\n- **Zahraei & Emami**: \"WSC+: Enhancing The Winograd Schema Challenge Using Tree-of-Experts.\" *EACL 2024*, pp.1650-1671. arXiv:2401.17703\n- GPT-4\u5728WSC+\u4e0a\u4ec5\u8fbe68.7%\uff0c\u4eba\u7c7b\u57fa\u51c6\u4e3a95.1%\n\n**\u5e38\u8bc6\u57fa\u51c6\u7efc\u8ff0**\uff1a\n- **Davis**: \"Benchmarks for Automated Commonsense Reasoning: A Survey.\" *ACM Computing Surveys*, 56(4), 2023. DOI: 10.1145/3615355\n- \u679a\u4e3e**139\u4e2a\u5e38\u8bc6\u57fa\u51c6**\uff1a102\u6587\u672c\u300118\u56fe\u50cf\u300112\u89c6\u9891\u30017\u7269\u7406\u6a21\u62df\n\n---\n\n## \u56db\u3001RAG\u8bed\u4e49\u589e\u5f3a\u6280\u672f\u7684\u5b66\u672f\u57fa\u7840\n\n### \u6587\u6863\u4e0e\u67e5\u8be2\u6269\u5c55\n\n**HyDE (Hypothetical Document Embeddings)** \u539f\u59cb\u8bba\u6587\uff1a\n- **Gao et al.**: \"Precise Zero-Shot Dense Retrieval without Relevance Labels.\" *ACL 2023*, pp.1762-1777. DOI: 10.18653/v1/2023.acl-long.99. arXiv:2212.10496\n- \u4f7f\u7528InstructGPT\u751f\u6210\u5047\u8bbe\u6587\u6863\uff0c\u5c06\u67e5\u8be2-\u6587\u6863\u5339\u914d\u8f6c\u5316\u4e3a\u6587\u6863-\u6587\u6863\u76f8\u4f3c\u5ea6\n\n**RAPTOR (Recursive Abstractive Processing)** \u539f\u59cb\u8bba\u6587\uff1a\n- **Sarthi et al.**: \"RAPTOR: Recursive Abstractive Processing for Tree-Organized Retrieval.\" *ICLR 2024*. arXiv:2401.18059\n- \u9012\u5f52\u805a\u7c7b\u548c\u6458\u8981\u6784\u5efa\u5c42\u7ea7\u6811\u7ed3\u6784\uff0c\u5728QuALITY\u57fa\u51c6\u4e0a\u5b9e\u73b0**20%\u7edd\u5bf9\u51c6\u786e\u7387\u63d0\u5347**\n\n**Anthropic Contextual Retrieval**\uff1a\n- **Anthropic**: \"Introducing Contextual Retrieval.\" Anthropic Blog, September 2024\n- \u4e3a\u6bcf\u4e2achunk\u6dfb\u52a0\u6587\u6863\u7ea7\u89e3\u91ca\u6027\u4e0a\u4e0b\u6587\uff0c\u68c0\u7d22\u5931\u8d25\u7387\u964d\u4f4e**49%**(\u7ed3\u5408\u91cd\u6392\u5e8f\u8fbe67%)\n\n### \u63a8\u7406\u589e\u5f3a\u68c0\u7d22\n\n**Self-RAG (\u81ea\u53cd\u601dRAG)**\uff1a\n- **Asai et al.**: \"Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection.\" *ICLR 2024*. arXiv:2310.11511\n- \u5f15\u5165Retrieve\u3001Relevance\u3001Support\u3001Utility\u56db\u79cd\u53cd\u601dtoken\uff0c\u4e8b\u5b9e\u9a8c\u8bc1\u51c6\u786e\u7387\u8fbe81%(ChatGPT\u4e3a71%)\n\n**IRCoT (\u4ea4\u9519\u68c0\u7d22\u4e0e\u601d\u7ef4\u94fe)**\uff1a\n- **Trivedi et al.**: \"Interleaving Retrieval with Chain-of-Thought Reasoning for Knowledge-Intensive Multi-Step Questions.\" *ACL 2023*, pp.10014-10037. DOI: 10.18653/v1/2023.acl-long.557. arXiv:2212.10509\n- \u68c0\u7d22\u63d0\u5347**21\u70b9**\uff0cQA\u63d0\u5347**15\u70b9**\n\n**\u591a\u8df3\u63a8\u7406RAG**\uff1a\n- **Tang & Yang**: \"MultiHop-RAG: Benchmarking Retrieval-Augmented Generation for Multi-Hop Queries.\" *COLM 2024*. arXiv:2401.15391. \u5305\u542b2,556\u6761\u8de82-4\u6587\u6863\u7684\u591a\u8df3\u67e5\u8be2\n- **Shi et al.**: \"Generate-then-Ground in Retrieval-Augmented Generation for Multi-hop Question Answering.\" *ACL 2024*, pp.7339-7353. DOI: 10.18653/v1/2024.acl-long.397. \u5148\u751f\u6210\u540e\u68c0\u7d22\u9a8c\u8bc1\u7684\u8303\u5f0f\u53cd\u8f6c\n- **Liu et al.**: \"HopRAG: Multi-Hop Reasoning for Logic-Aware Retrieval-Augmented Generation.\" arXiv:2502.12442, 2025. \u6784\u5efa\u903b\u8f91\u8fde\u63a5\u7684passage\u56fe\uff0c\u7b54\u6848\u6307\u6807\u63d0\u5347**76.78%**\n\n**CoT-RAG\u77e5\u8bc6\u56fe\u8c31\u9a71\u52a8**\uff1a\n- **Li et al.**: \"CoT-RAG: Integrating Chain of Thought and Retrieval-Augmented Generation.\" *Findings of EMNLP 2025*. arXiv:2504.13534\n- \u6bd4SOTA\u63d0\u5347**4.0%-44.3%\u51c6\u786e\u7387**\n\n---\n\n## \u4e94\u3001GraphRAG\u4e0e\u77e5\u8bc6\u56fe\u8c31\u7684\u9690\u6027\u8bed\u4e49\n\n### GraphRAG\u6838\u5fc3\u8bba\u6587\n\n- **Edge et al.**: \"From Local to Global: A Graph RAG Approach to Query-Focused Summarization.\" arXiv:2404.16130, Microsoft Research, 2024 (\u4fee\u8ba2\u81f32025\u5e742\u6708)\n- **\u6838\u5fc3\u65b9\u6cd5**: LLM\u5b9e\u4f53\u77e5\u8bc6\u56fe\u8c31\u63d0\u53d6 \u2192 Leiden\u7b97\u6cd5\u5c42\u7ea7\u793e\u533a\u68c0\u6d4b \u2192 \u793e\u533a\u9884\u6458\u8981 \u2192 Map-Reduce\u5168\u5c40\u7b54\u6848\u5408\u6210\n- \u901a\u8fc7\u5171\u4eab\u5c5e\u6027\"\u8fde\u63a5\u5206\u6563\u4fe1\u606f\u70b9\"\u2014\u2014\u8fd9\u6b63\u662f\u9690\u5f0f\u5173\u7cfb\u63d0\u53d6\u7684\u6838\u5fc3\n\n**Leiden\u7b97\u6cd5\u539f\u59cb\u8bba\u6587**\uff1a\n- **Traag et al.**: \"From Louvain to Leiden: Guaranteeing Well-Connected Communities.\" *Scientific Reports*, 9:5233, 2019. DOI: 10.1038/s41598-019-41695-z\n\n**\u5c42\u7ea7\u77e5\u8bc6RAG**\uff1a\n- **Huang et al.**: \"HiRAG: Retrieval-Augmented Generation with Hierarchical Knowledge.\" *Findings of EMNLP 2025*\n- \u9010\u5c42\u6784\u5efa\u5c42\u7ea7\u77e5\u8bc6\u56fe\u8c31\uff0c\u89e3\u51b3\u8bed\u4e49\u76f8\u4f3c\u5b9e\u4f53\u95f4\u7684\u7ed3\u6784\u8ddd\u79bb\u95ee\u9898\n\n### \u9690\u5f0f\u5173\u7cfb\u63d0\u53d6\n\n**\u96f6\u6837\u672c\u5173\u7cfb\u63d0\u53d6**\uff1a\n- **Liu et al.**: \"Unleashing the Power of Large Language Models in Zero-shot Relation Extraction via Self-Prompting.\" *Findings of EMNLP 2024*, pp.13147-13161. arXiv:2410.01154\n- \u4e09\u9636\u6bb5\u591a\u6837\u5316\uff1a\u5173\u7cfb\u540c\u4e49\u8bcd\u751f\u6210\u3001\u5b9e\u4f53\u8fc7\u6ee4\u3001\u53e5\u5b50\u91cd\u5199\n\n**\u9690\u5f0f\u4e8b\u4ef6\u8bba\u5143\u63d0\u53d6**\uff1a\n- **Sharif et al.**: \"Explicit, Implicit, and Scattered: Revisiting Event Extraction to Capture Complex Arguments.\" *EMNLP 2024*, pp.12061-12081\n- DiscourseEE\u6570\u636e\u96c6\uff1a**51.2%\u4e3a\u9690\u5f0f\u8bba\u5143**\u300117.4%\u4e3a\u5206\u6563\u8bba\u5143\n\n**\u6846\u67b6\u8bed\u4e49\u5b66\u4e0e\u77e5\u8bc6\u8868\u793a**\uff1a\n- **De Giorgis et al.**: \"ImageSchemaNet: A Framester Graph for Embodied Commonsense Knowledge.\" *Semantic Web Journal*, 2024. DOI: 10.3233/SW-223084\n- \u5c06\u8ba4\u77e5\u610f\u8c61\u56fe\u5f0f\u7406\u8bba\u5f62\u5f0f\u5316\u4e3aFramester\u77e5\u8bc6\u56fe\u8c31\u5c42\uff0c\u8fde\u63a5FrameNet\u3001VerbNet\u3001WordNet\u3001MetaNet\n\n---\n\n## \u516d\u3001\u8bed\u8a00\u5b66\u7406\u8bba\u5728LLM/RAG\u4e2d\u7684\u8ba1\u7b97\u5316\u5e94\u7528\n\n### RST\u4e0e\u7bc7\u7ae0\u5206\u6790\n\n**RST-LLM\u7bc7\u7ae0\u89e3\u6790**\uff1a\n- **Maekawa et al.**: \"Can we obtain significant success in RST discourse parsing by using Large Language Models?\" *EACL 2024*, pp.2803-2815. arXiv:2403.05065\n- \u9996\u6b21\u7cfb\u7edf\u63a2\u7d22Llama 2\u8fdb\u884cRST\u89e3\u6790\uff0c\u5728RST-DT\u3001Instr-DT\u3001GUM\u8bed\u6599\u5e93\u8fbe\u5230SOTA\n\n**SDRT\u589e\u91cf\u7bc7\u7ae0\u89e3\u6790**\uff1a\n- **Thompson et al.**: \"Llamipa: An Incremental Discourse Parser.\" *Findings of EMNLP 2024*, pp.6418-6430. arXiv:2406.18256\n- \u9996\u4e2a\u5728SDRT\u6807\u6ce8\u4e0a\u5fae\u8c03\u7684LLM\uff0c\u6355\u83b7\u8bdd\u8bed\u95f4\u7684\u7167\u5e94\u5173\u7cfb\u548c\u52a8\u6001\u8bed\u4e49\n\n**Discourse-RAG\u6846\u67b6**\uff08\u9884\u5370\u672c\uff09\uff1a\n- \u5c06RST\u7bc7\u7ae0\u7ed3\u6784\u6ce8\u5165RAG\u7cfb\u7edf\uff0c\u6784\u5efachunk\u5185RST\u6811\u548cchunk\u95f4\u4fee\u8f9e\u56fe\n- \u5728ASQA\u4e0a\u8fbe\u5230ROUGE-L **42.4**\u7684SOTA\n\n**\u9690\u5f0f\u7bc7\u7ae0\u5173\u7cfb\u8bc6\u522b**\uff1a\n- **Cai et al.**: \"Improving Implicit Discourse Relation Recognition with Semantics Confrontation.\" *LREC-COLING 2024*, pp.8828-8839. \u5728PDTB 2.0\u4e0aF1\u63d0\u53473.81%\n- **Long et al.**: \"Multi-Label Classification for Implicit Discourse Relation Recognition.\" *Findings of ACL 2024*, pp.8437-8451. \u9996\u6b21\u63a2\u7d22PDTB-3\u591a\u6807\u7b7e\u5206\u7c7b\n\n### \u8bed\u7528\u5b66\u4e0e\u8a00\u8bed\u884c\u4e3a\n\n**\u5bf9\u8bdd\u884c\u4e3a\u8bc6\u522b**\uff1a\n- **Witbaard et al.**: \"What Helps Transformers Recognize Conversational Structure?\" *TACL*, 2024. DOI: 10.1162/tacl_a_00420. \u5728SwDA\u548cMRDA\u8bed\u6599\u5e93\u8fbe\u5230SOTA\n- **Acosta et al.**: \"Applying Large Language Models to Enhance Dialogue and Communication Analysis.\" *IJAIED*, 2025. DOI: 10.1007/s40593-025-00479-5\n\n### \u6982\u5ff5\u9690\u55bb\u7406\u8bba\n\n- **Hicke & Kristensen-McLachlan**: \"SCIENCE IS EXPLORATION: Computational Frontiers for Conceptual Metaphor Theory.\" *CHR 2024*. arXiv:2410.08991. \u57fa\u4e8ePRAGGLEJAZ\u6307\u5357\u7684LLM\u6982\u5ff5\u9690\u55bb\u68c0\u6d4b\n- **Jia & Li**: \"Metaphor Detection with Context Enhancement and Curriculum Learning.\" *NAACL 2024*, pp.2726-2737. DOI: 10.18653/v1/2024.naacl-long.149\n\n---\n\n## \u4e03\u3001\u8de8\u5b66\u79d1\u89c6\u89d2\uff1a\u8ba4\u77e5\u79d1\u5b66\u4e0e\u4fe1\u606f\u79d1\u5b66\n\n### \u8ba4\u77e5\u8d1f\u8377\u7406\u8bba(Cognitive Load Theory)\u5e94\u7528\u4e8eRAG\n\n\u8fd9\u662f**\u7528\u6237\u7d20\u6750\u672a\u8986\u76d6**\u7684\u91cd\u8981\u7406\u8bba\u6846\u67b6\uff0c2025\u5e74\u51fa\u73b0\u591a\u7bc7\u5c06CLT\u5e94\u7528\u4e8eLLM\u7684\u8bba\u6587\uff1a\n\n**\u8ba4\u77e5\u5de5\u4f5c\u7a7a\u95f4\u6846\u67b6**\uff1a\n- **\u5f15\u7528**: \"Cognitive Workspace: Active Memory Management for LLMs.\" arXiv:2508.13171, 2025\n- \u501f\u9274Baddeley\u5de5\u4f5c\u8bb0\u5fc6\u6a21\u578b\u3001Clark\u5ef6\u5c55\u5fc3\u667a\u8bba\u3001Hutchins\u5206\u5e03\u5f0f\u8ba4\u77e5\u6846\u67b6\n- \u5b9e\u73b0**17-18%\u51c0\u6548\u7387\u63d0\u5347**\uff0c\u4ece\u88ab\u52a8\u68c0\u7d22\u8f6c\u5411\u4e3b\u52a8\u8bb0\u5fc6\u7ba1\u7406\n\n**\u8ba1\u7b97\u8ba4\u77e5\u8d1f\u8377\u7406\u8bba**\uff1a\n- **\u5f15\u7528**: \"Cognitive Load Limits in Large Language Models: Benchmarking.\" arXiv:2509.19517, 2025\n- \u5b9a\u4e49**Context Saturation**(\u5916\u5728\u8d1f\u8377)\u548c**Attentional Residue**(\u4efb\u52a1\u5207\u6362\u5e72\u6270)\u4e24\u79cd\u673a\u5236\n- \u89e3\u91caLLM\u63a8\u7406\u5931\u8d25\u548c\u5e7b\u89c9\u7684\u8ba4\u77e5\u8d1f\u8377\u539f\u56e0\n\n**\u8ba4\u77e5\u8d1f\u8377\u611f\u77e5\u63a8\u7406(CLAI)**\uff1a\n- **Zhang**: \"Cognitive Load-Aware Inference: A Neuro-Symbolic Framework for Optimizing Token Economy.\" arXiv:2507.00653, 2025\n- \u63a8\u7406\u6210\u672c\u964d\u4f4e**\u9ad8\u8fbe45%**\uff0c\u901a\u8fc7\u533a\u5206\u5185\u5728\u3001\u5916\u5728\u3001\u76f8\u5173\u8d1f\u8377\u4f18\u5316\u4e0a\u4e0b\u6587\n\n### \u4fe1\u606f\u89c5\u98df\u7406\u8bba(Information Foraging Theory)\n\n**InForage\u6846\u67b6**\u9996\u6b21\u5c06\u4fe1\u606f\u89c5\u98df\u7406\u8bba\u5f62\u5f0f\u5316\u4e3aRAG\u7684RL\u6846\u67b6\uff1a\n- **\u5f15\u7528**: \"InForage: Scent of Knowledge - Optimizing Search-Enhanced Reasoning with Information Foraging.\" arXiv:2505.09316, 2025\n- \u57fa\u4e8ePirolli & Card (1999)\u7684\u4fe1\u606f\u89c5\u98df\u7406\u8bba\uff0c\u5c06\u68c0\u7d22\u51b3\u7b56\u5efa\u6a21\u4e3a**\u4fe1\u606f\u6c14\u5473(information scent)** \u7684\u52a8\u6001\u4f18\u5316\n- \u5956\u52b1\u4e2d\u95f4\u68c0\u7d22\u8d28\u91cf\u800c\u975e\u4ec5\u6700\u7ec8\u7b54\u6848\n\n### \u9884\u6d4b\u52a0\u5de5\u7406\u8bba\u4e0e\u8bdd\u8bed\u7406\u89e3\n\n**Schrimpf et al.** \u7684\u91cc\u7a0b\u7891\u7814\u7a76\u8868\u660eTransformer\u9884\u6d4b**\u8fd1100%\u7684\u53ef\u89e3\u91ca\u795e\u7ecf\u54cd\u5e94\u65b9\u5dee**\uff1a\n- **\u5f15\u7528**: \"The Neural Architecture of Language: Integrative Modeling Converges on Predictive Processing.\" *PNAS*, 2021\n- \u4e3a\u5c06LLM\u56f0\u60d1\u5ea6\u4f5c\u4e3a\u68c0\u7d22\u76f8\u5173\u6027\u4fe1\u53f7\u63d0\u4f9b\u7406\u8bba\u652f\u6491\n\n**\u8bdd\u8bed\u7406\u89e3\u7684\u4e0b\u4e00\u53e5\u9884\u6d4b**\uff1a\n- **Yu et al.**: \"Predicting the Next Sentence (Not Word) in Large Language Models.\" *Science Advances*, 10, eadn7744, 2024\n- NSP\u9884\u8bad\u7ec3\u589e\u5f3a\u6a21\u578b-\u5927\u8111\u5bf9\u9f50\uff0c\u7279\u522b\u662f\u5728\u53f3\u534a\u7403\u548c\u591a\u9700\u6c42\u7f51\u7edc\n\n---\n\n## \u516b\u3001\u65b0\u7406\u8bba\u6846\u67b6\uff08\u8d85\u8d8a\u7528\u6237\u5df2\u67098\u4e2a\u6846\u67b6\uff09\n\n\u672c\u7814\u7a76\u8bc6\u522b\u51fa**7\u4e2a\u7528\u6237\u7d20\u6750\u672a\u8986\u76d6\u7684\u91cd\u8981\u7406\u8bba\u6846\u67b6**\uff0c\u53ef\u4e3a\u9690\u6027\u8bed\u4e49\u63d0\u53d6\u63d0\u4f9b\u65b0\u89c6\u89d2\uff1a\n\n### 1. \u5171\u540c\u57fa\u7840\u7406\u8bba(Common Ground / Conversational Grounding Theory)\n\n- **Shaikh et al.**: \"Grounding Gaps in Language Model Generations.\" *NAACL 2024*. DOI: 10.18653/v1/2024.naacl-long.348\n- **\u6838\u5fc3\u53d1\u73b0**: LLM\u751f\u6210\u7684\u4f1a\u8bdd\u57fa\u7840\u884c\u4e3a(\u6f84\u6e05\u3001\u786e\u8ba4)\u663e\u8457\u5c11\u4e8e\u4eba\u7c7b\u2014\u2014\u5b83\u4eec\"\u7b80\u5355\u5730\u5047\u8bbe\u5171\u540c\u57fa\u7840\"\n- **RAG\u5e94\u7528**: \u7cfb\u7edf\u5e94\u5efa\u6a21\u7528\u6237\u4e0e\u7cfb\u7edf\u95f4\u7684\u5171\u4eab\u7406\u89e3\uff0c\u5728\u54cd\u5e94\u4e2d\u6dfb\u52a0\u57fa\u7840\u884c\u4e3a\n\n### 2. \u5177\u8eab\u8ba4\u77e5\u7406\u8bba(Embodied/Grounded Cognition)\n\n- **Dove**: \"Symbol Ungrounding: What LLM Successes Reveal About Human Cognition.\" *Philosophical Transactions Royal Society B*, 2024 (PMC11529626)\n- **Xu et al.**: \"Large Language Models Without Grounding Recover Non-Sensorimotor but Not Sensorimotor Features.\" *Nature Human Behaviour*, 2025\n- **\u6838\u5fc3\u53d1\u73b0**: LLM\u5728\u611f\u89c9\u8fd0\u52a8\u8bed\u4e49\u7ef4\u5ea6\u4e0a\u4e0e\u4eba\u7c7b\u5bf9\u9f50\u6700\u5dee\uff1b\u89c6\u89c9\u8bad\u7ec3\u6539\u5584\u89c6\u89c9\u7ef4\u5ea6\u5bf9\u9f50\n- **RAG\u5e94\u7528**: \u5bf9\u6d89\u53ca\u5177\u8eab\u4f53\u9a8c\u7684\u9690\u6027\u8bed\u4e49\uff0c\u591a\u6a21\u6001RAG\u4f18\u4e8e\u7eaf\u6587\u672c\u68c0\u7d22\n\n### 3. \u4e2d\u5fc3\u7406\u8bba(Centering Theory)\n\n- **\u5f15\u7528**: \"Joint Modeling of Entities and Discourse Relations for Coherence Assessment.\" arXiv:2509.04182, 2025\n- **\u6838\u5fc3\u601d\u60f3**: \u8bdd\u8bed\u4e2d\u7684\u5b9e\u4f53\u7126\u70b9\u8f6c\u6362(backward-looking center, forward-looking center)\u5f71\u54cd\u8fde\u8d2f\u6027\n- **RAG\u5e94\u7528**: \u68c0\u7d22\u5e94\u8003\u8651\u5b9e\u4f53\u8fde\u8d2f\u6027\uff0c\u4fdd\u6301\u4e00\u81f4\u7684\u5b9e\u4f53\u6307\u79f0\n\n### 4. \u8ba4\u77e5\u8fde\u8d2f\u5173\u7cfb\u7406\u8bba(Cognitive approach to Coherence Relations, CCR)\n\n- **\u5f15\u7528**: \"Probing LLMs for Multilingual Discourse Generalization Through a Unified Label Set.\" arXiv:2503.10515, 2025\n- **\u6838\u5fc3\u601d\u60f3**: Sanders\u7684CCR\u5c06\u7bc7\u7ae0\u5173\u7cfb\u5f52\u7ea6\u4e3a5\u4e2a\u8ba4\u77e5\u53c2\u6570(\u56e0\u679c\u6027\u3001\u65f6\u5e8f\u6027\u3001\u6781\u6027\u7b49)\n- **RAG\u5e94\u7528**: \u53c2\u6570\u5316\u7684\u5173\u7cfb\u8868\u793a\u6bd4\u8868\u5c42\u8fde\u63a5\u8bcd\u66f4\u5177\u8de8\u9886\u57df\u901a\u7528\u6027\n\n### 5. \u60c5\u5883\u6a21\u578b\u7406\u8bba(Situation Model Theory / Event-Indexing Model)\n\n- **\u5960\u57fa\u6587\u732e**: Zwaan & Radvansky (1998) - Situation Models in Language Comprehension and Memory\n- **\u6838\u5fc3\u601d\u60f3**: \u8bfb\u8005\u6784\u5efa\u8ffd\u8e2a**\u65f6\u95f4\u3001\u7a7a\u95f4\u3001\u56e0\u679c\u3001\u52a8\u673a\u3001\u4e3b\u89d2**\u4e94\u4e2a\u7ef4\u5ea6\u7684\u5fc3\u7406\u6a21\u578b\n- **RAG\u5e94\u7528**: \u6309\u60c5\u5883\u6a21\u578b\u7ef4\u5ea6\u7d22\u5f15\u548c\u68c0\u7d22\uff0c\u800c\u975e\u4ec5\u8bcd\u6c47\u76f8\u4f3c\u5ea6\uff0c\u53ef\u6539\u5584\u9690\u5f0f\u65f6\u7a7a\u56e0\u679c\u8bed\u4e49\u5904\u7406\n\n### 6. \u8ba4\u8bc6\u8b66\u89c9\u7406\u8bba(Epistemic Vigilance Theory)\n\n- **\u5960\u57fa\u6587\u732e**: Sperber et al. (2010) - Epistemic Vigilance\n- **\u6838\u5fc3\u601d\u60f3**: \u4eba\u7c7b\u6709\u8bc4\u4f30\u4fe1\u606f\u6e90\u53ef\u9760\u6027\u548c\u5185\u5bb9\u53ef\u4fe1\u5ea6\u7684\u8ba4\u77e5\u673a\u5236\n- **RAG\u5e94\u7528**: \u5f53\u524dRAG\u7cfb\u7edf\u7f3a\u4e4f\u6b64\u673a\u5236\uff0c\u5e94\u5b9e\u73b0\u6765\u6e90\u53ef\u4fe1\u5ea6\u52a0\u6743\u548c\u4ea4\u53c9\u9a8c\u8bc1\n\n### 7. \u811a\u672c\u7406\u8bba(Script Theory / Event Schemas)\n\n- **\u5960\u57fa\u6587\u732e**: Schank & Abelson (1977) - Scripts, Plans, Goals, and Understanding\n- **\u6838\u5fc3\u601d\u60f3**: \u9690\u6027\u610f\u4e49\u5e38\u4f9d\u8d56\u5171\u4eab\u811a\u672c(\u5982\"\u9910\u5385\u811a\u672c\"\u9690\u542b\u70b9\u9910\u3001\u8fdb\u98df\u3001\u4ed8\u6b3e)\n- **RAG\u5e94\u7528**: \u4f7f\u811a\u672c\u77e5\u8bc6\u663e\u5f0f\u5316\uff0c\u5904\u7406\u53d9\u4e8b\u548c\u7a0b\u5e8f\u6587\u672c\u4e2d\u7684\u9690\u5f0f\u5e8f\u5217\u671f\u671b\n\n---\n\n## \u4e5d\u3001\u4e2d\u6587NLP\u793e\u533a\u7684\u9690\u6027\u8bed\u4e49\u7814\u7a76\n\n### \u4e2d\u6587\u9690\u5f0f\u7bc7\u7ae0\u5173\u7cfb\u8bc6\u522b\n\n- **Xu et al.**: \"Incorporating Contextual Evidence to Improve Implicit Discourse Relation Recognition in Chinese.\" *Frontiers of Computer Science*, 18(3), 2024. DOI: 10.1007/s11704-023-2503-4. \u5728CDTB\u4e0a\u8fbe\u5230SOTA\n- **SACA\u8bed\u6599\u5e93**: \"Semantic Augmented Chinese Discourse Corpus for Adversative Relation Recognition.\" *Electronics (MDPI)*, 13(10), 2024. \u5305\u542b9,546\u6761\u8f6c\u6298\u590d\u53e5\uff0c\u63d0\u51fa\u56db\u5143\u7ec4\u8868\u793a\n\n### \u4e2d\u6587\u8bba\u8fa9\u6316\u6398\n\n- **Wang et al.**: \"Enhancing Chinese Argument Mining with Large Language Model.\" *NLPCC 2024*, LNCS Vol. 15363. DOI: 10.1007/978-981-97-9443-0_40. \u5728NLPCC 2024\u5171\u4eab\u4efb\u52a15\u4e2d\u6392\u540d\u7b2c\u4e00(\u7efc\u5408\u52060.7936)\n- **ORCHID\u8bed\u6599\u5e93**: \"ORCHID: A Chinese Debate Corpus for Target-Independent Stance Detection.\" *EMNLP 2023*\n\n### \u4e2d\u6587\u5e38\u8bc6\u63a8\u7406\n\n- **Sun et al.**: \"CHARM: Benchmarking Chinese Commonsense Reasoning of LLMs.\" *ACL 2024*, pp.11205-11228. arXiv:2403.14112. \u9996\u4e2a\u5168\u9762\u7684\u4e2d\u6587\u5e38\u8bc6\u63a8\u7406\u57fa\u51c6\n- **Shi et al.**: \"CORECODE: A Common Sense Annotated Dialogue Dataset with Benchmark Tasks for Chinese LLMs.\" *AAAI 2024*, pp.18952-18960\n- **Yang et al.**: \"Chinese Personalized Commonsense Understanding and Reasoning Based on Curriculum-Learning.\" *NLPCC 2024*, LNCS Vol. 15360. DOI: 10.1007/978-981-97-9434-8_17\n\n### \u4e2d\u6587RAG\u57fa\u51c6\n\n- **Lyu et al.**: \"CRUD-RAG: A Comprehensive Chinese Benchmark for Retrieval-Augmented Generation of LLMs.\" *ACM TOIS*, 2024. DOI: 10.1145/3701228. arXiv:2401.17043\n- 80,000+\u65b0\u95fb\u6587\u6863\u68c0\u7d22\u5e93\uff0c\u7cfb\u7edf\u8bc4\u4f30\u6240\u6709RAG\u7ec4\u4ef6\n\n### \u5176\u4ed6\u4e2d\u6587\u8d44\u6e90\n\n- **OCNLI**: Hu et al., \"Original Chinese Natural Language Inference.\" *Findings of EMNLP 2020*, pp.3512-3526. arXiv:2010.05444. ~56,000\u5bf9\u539f\u521b\u4e2d\u6587NLI\u6570\u636e\n- **AS-SRL**: Chen et al., \"Semantic Role Labeling from Chinese Speech via End-to-End Learning.\" *Findings of ACL 2024*, pp.8898-8911. DOI: 10.18653/v1/2024.findings-acl.527. \u9996\u4e2a\u7aef\u5230\u7aef\u4e2d\u6587\u8bed\u97f3SRL\n\n---\n\n## \u5341\u3001\u7efc\u5408\u6846\u67b6\uff1a\u8ba4\u77e5\u589e\u5f3aRAG\u7684\u6280\u672f\u8def\u7ebf\n\n\u57fa\u4e8e\u4e0a\u8ff0\u7814\u7a76\uff0c\u4e3a\"\u8ba4\u77e5\u589e\u5f3aRAG\"\u548c\"\u8bed\u8a00\u5b66\u5f15\u5bfc\u7684\u9690\u6027\u8bed\u4e49\u5904\u7406\"\u63d0\u51fa\u4ee5\u4e0b\u5b66\u672f\u652f\u6491\u6846\u67b6\uff1a\n\n### \u9690\u6027\u8bed\u4e49\u63d0\u53d6\u7684\u591a\u5c42\u6b21\u67b6\u6784\n\n| \u5c42\u6b21 | \u7406\u8bba\u57fa\u7840 | \u6280\u672f\u5b9e\u73b0 | \u4ee3\u8868\u8bba\u6587 |\n|------|----------|----------|----------|\n| **\u8bcd\u6c47-\u53e5\u6cd5\u5c42** | \u6846\u67b6\u8bed\u4e49\u5b66\u3001SRL | iSRL\u3001Null Instantiation | Batra et al. 2025; Framester |\n| **\u7bc7\u7ae0\u5c42** | RST\u3001PDTB\u3001CCR | \u9690\u5f0f\u7bc7\u7ae0\u5173\u7cfb\u8bc6\u522b | Maekawa et al. 2024; Long et al. 2024 |\n| **\u8bba\u8bc1\u5c42** | Toulmin\u6a21\u578b | \u7701\u7565\u4e09\u6bb5\u8bba\u91cd\u6784\u3001warrant\u63d0\u53d6 | Gupta et al. 2024; Stahl et al. 2023 |\n| **\u8bed\u7528\u5c42** | Grice\u51c6\u5219\u3001\u5173\u8054\u7406\u8bba | \u4f1a\u8bdd\u542b\u4e49\u3001\u6807\u91cf\u542b\u4e49\u68c0\u6d4b | PUB benchmark; Cho & Kim 2024 |\n| **\u5e38\u8bc6\u5c42** | \u811a\u672c\u7406\u8bba\u3001ATOMIC | \u5e38\u8bc6\u77e5\u8bc6\u589e\u5f3a | COMET; Davis 2023 survey |\n| **\u8ba4\u77e5\u5c42** | \u8ba4\u77e5\u8d1f\u8377\u7406\u8bba\u3001\u60c5\u5883\u6a21\u578b | \u4e0a\u4e0b\u6587\u4f18\u5316\u3001\u7ef4\u5ea6\u7d22\u5f15 | CLAI 2025; InForage 2025 |\n\n### RAG\u8bed\u4e49\u589e\u5f3a\u6280\u672f\u6f14\u8fdb\n\n| \u9636\u6bb5 | \u4ee3\u8868\u6280\u672f | \u9690\u6027\u8bed\u4e49\u5904\u7406\u80fd\u529b |\n|------|----------|------------------|\n| **\u57fa\u7840\u68c0\u7d22** | BM25\u3001Dense Retrieval | \u8bcd\u6c47/\u5411\u91cf\u5339\u914d\uff0c\u65e0\u9690\u6027\u8bed\u4e49 |\n| **\u67e5\u8be2/\u6587\u6863\u6269\u5c55** | HyDE\u3001Doc2Query | \u6865\u63a5\u8bcd\u6c47\u9e3f\u6c9f\uff0c\u90e8\u5206\u9690\u6027\u8bed\u4e49 |\n| **\u5c42\u7ea7\u7ed3\u6784\u5316** | RAPTOR\u3001GraphRAG | \u6355\u83b7\u8de8chunk\u9690\u5f0f\u5173\u7cfb |\n| **\u4e0a\u4e0b\u6587\u589e\u5f3a** | Contextual Retrieval | \u4fdd\u7559\u6587\u6863\u7ea7\u9690\u6027\u4e0a\u4e0b\u6587 |\n| **\u63a8\u7406\u589e\u5f3a** | Self-RAG\u3001IRCoT\u3001HopRAG | \u663e\u5f0f\u63a8\u7406\u6355\u83b7\u9690\u6027\u903b\u8f91 |\n| **\u8ba4\u77e5\u589e\u5f3a** | CLAI\u3001Cognitive Workspace | \u8ba4\u77e5\u8d1f\u8377\u4f18\u5316\u7684\u9690\u6027\u8bed\u4e49\u5904\u7406 |\n\n---\n\n## \u7ed3\u8bba\uff1a\u9690\u6027\u8bed\u4e49\u63d0\u53d6\u7684\u672a\u6765\u65b9\u5411\n\n\u672c\u7efc\u8ff0\u63ed\u793a\u4e86\u9690\u6027\u8bed\u4e49\u63d0\u53d6\u7814\u7a76\u7684\u4e09\u5927\u8d8b\u52bf\uff1a\n\n**\u7b2c\u4e00\uff0c\u7406\u8bba\u56de\u5f52**\u3002\u8bed\u8a00\u5b66\u7ecf\u5178\u7406\u8bba(RST\u3001\u56fe\u5c14\u654f\u6a21\u578b\u3001Grice\u51c6\u5219)\u6b63\u5728\u88ab\u7cfb\u7edf\u8ba1\u7b97\u5316\uff0c\u4e3aLLM/RAG\u63d0\u4f9b\u53ef\u89e3\u91ca\u7684\u8bed\u4e49\u6846\u67b6\u3002Gupta et al. (2024)\u8bc1\u660e\uff0c\u7b80\u5355\u5730\u4f7f\u7528\u56fe\u5c14\u654f\u672f\u8bed\u4f5c\u4e3a\u63d0\u793a\u5373\u53ef\u663e\u8457\u63d0\u5347\u8bba\u8bc1\u63d0\u53d6\u6548\u679c\u2014\u2014\u8fd9\u8868\u660e\u7406\u8bba\u6307\u5bfc\u7684\u65b9\u6cd5\u6bd4\u7eaf\u6570\u636e\u9a71\u52a8\u66f4\u6709\u6548\u7387\u3002\n\n**\u7b2c\u4e8c\uff0c\u8ba4\u77e5\u878d\u5408**\u3002\u8ba4\u77e5\u8d1f\u8377\u7406\u8bba\u3001\u4fe1\u606f\u89c5\u98df\u7406\u8bba\u7b49\u8ba4\u77e5\u79d1\u5b66\u6846\u67b6\u5f00\u59cb\u6307\u5bfcRAG\u7cfb\u7edf\u8bbe\u8ba1\u30022025\u5e74\u7684\u7814\u7a76\u8868\u660e\uff0c\u5c06\u4e0a\u4e0b\u6587\u533a\u5206\u4e3a\u5185\u5728\u8d1f\u8377(\u4efb\u52a1\u76f8\u5173)\u548c\u5916\u5728\u8d1f\u8377(\u65e0\u5173\u5e72\u6270)\u53ef\u5b9e\u73b0**45%\u63a8\u7406\u6210\u672c\u964d\u4f4e**\uff0c\u8fd9\u4e3a\"\u8ba4\u77e5\u589e\u5f3aRAG\"\u63d0\u4f9b\u4e86\u76f4\u63a5\u7684\u5de5\u7a0b\u6307\u5bfc\u3002\n\n**\u7b2c\u4e09\uff0c\u53ef\u9a8c\u8bc1\u63a8\u7406**\u3002\u4ece\"\u9ed1\u7bb1\u68c0\u7d22\"\u5230\"\u53ef\u89e3\u91ca\u63a8\u7406\u94fe\"\u7684\u8f6c\u53d8\u6b63\u5728\u53d1\u751f\u3002Self-RAG\u3001LLM-TRes\u7b49\u5de5\u4f5c\u5f3a\u8c03\u63a8\u7406\u8fc7\u7a0b\u7684\u53ef\u9a8c\u8bc1\u6027\u548c\u53ef\u8c03\u8bd5\u6027\uff0c\u8fd9\u5bf9\u5904\u7406\u9700\u8981\u591a\u6b65\u63a8\u7406\u7684\u9690\u6027\u8bed\u4e49\u81f3\u5173\u91cd\u8981\u3002\n\n\u5bf9\u4e8eRAG\u7efc\u8ff0\u7684\"\u9690\u6027\u8bed\u4e49\u63d0\u53d6\"\u7ae0\u8282\uff0c\u672c\u62a5\u544a\u63d0\u4f9b\u7684**80+\u7bc7\u8bba\u6587**\u548c**7\u4e2a\u65b0\u7406\u8bba\u6846\u67b6**\u6784\u6210\u4e86\u5168\u9762\u7684\u5b66\u672f\u57fa\u7840\uff0c\u652f\u6491\u4ece\u8bed\u8a00\u5b66\u539f\u7406\u5230\u5de5\u7a0b\u5b9e\u73b0\u7684\u5b8c\u6574\u8bba\u8ff0\u3002",
+      "language": null,
+      "md_citations": [
+        {
+          "url": "https://www.emergentmind.com/papers/2506.21931",
+          "uuid": "41bf896f-15bd-4a04-a137-b8ee67e87c81",
+          "title": "Emergent Mind",
+          "sources": [
+            {
+              "url": "https://www.emergentmind.com/papers/2506.21931",
+              "uuid": "41bf896f-15bd-4a04-a137-b8ee67e87c81",
+              "title": "ARAG: Agentic Retrieval Augmented Generation",
+              "source": "Emergent Mind",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=emergentmind.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "41bf896f-15bd-4a04-a137-b8ee67e87c81",
+            "source": "Emergent Mind",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=emergentmind.com",
+            "preview_title": "ARAG: Agentic Retrieval Augmented Generation"
+          },
+          "end_index": 625,
+          "start_index": 588,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/html/2404.03028v1",
+          "uuid": "f9af86ed-dfb9-4d26-a277-8672b72719f3",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/html/2404.03028v1",
+              "uuid": "f9af86ed-dfb9-4d26-a277-8672b72719f3",
+              "title": "An Incomplete Loop: Deductive, Inductive, and Abductive Learning in Large Language Models",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "f9af86ed-dfb9-4d26-a277-8672b72719f3",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "An Incomplete Loop: Deductive, Inductive, and Abductive Learning in Large Language Models"
+          },
+          "end_index": 949,
+          "start_index": 791,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://aclanthology.org/2024.emnlp-main.172/",
+          "uuid": "b577c3cb-ff5a-407f-b671-ebb044fa8826",
+          "title": "ACL Anthology",
+          "sources": [
+            {
+              "url": "https://aclanthology.org/2024.emnlp-main.172/",
+              "uuid": "b577c3cb-ff5a-407f-b671-ebb044fa8826",
+              "title": "Verification and Refinement of Natural Language Explanations through LLM-Symbolic Theorem Proving - ACL Anthology",
+              "source": "ACL Anthology",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=aclanthology.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "b577c3cb-ff5a-407f-b671-ebb044fa8826",
+            "source": "ACL Anthology",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=aclanthology.org",
+            "preview_title": "Verification and Refinement of Natural Language Explanations through LLM-Symbolic Theorem Proving - ACL Anthology"
+          },
+          "end_index": 1340,
+          "start_index": 1158,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://aclanthology.org/2024.emnlp-main.172/",
+          "uuid": "652400e6-ea5c-4868-bd07-a1911b79b2f5",
+          "title": "ACL Anthology",
+          "sources": [
+            {
+              "url": "https://aclanthology.org/2024.emnlp-main.172/",
+              "uuid": "652400e6-ea5c-4868-bd07-a1911b79b2f5",
+              "title": "Verification and Refinement of Natural Language Explanations through LLM-Symbolic Theorem Proving - ACL Anthology",
+              "source": "ACL Anthology",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=aclanthology.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "652400e6-ea5c-4868-bd07-a1911b79b2f5",
+            "source": "ACL Anthology",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=aclanthology.org",
+            "preview_title": "Verification and Refinement of Natural Language Explanations through LLM-Symbolic Theorem Proving - ACL Anthology"
+          },
+          "end_index": 1382,
+          "start_index": 1343,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://aclanthology.org/2024.emnlp-main.172/",
+          "uuid": "c792cf9d-385a-495f-92b1-c1649c280b19",
+          "title": "aclanthology",
+          "sources": [
+            {
+              "url": "https://aclanthology.org/2024.emnlp-main.172/",
+              "uuid": "c792cf9d-385a-495f-92b1-c1649c280b19",
+              "title": "Verification and Refinement of Natural Language Explanations through LLM-Symbolic Theorem Proving",
+              "source": "aclanthology",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=aclanthology.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "c792cf9d-385a-495f-92b1-c1649c280b19",
+            "source": "aclanthology",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=aclanthology.org",
+            "preview_title": "Verification and Refinement of Natural Language Explanations through LLM-Symbolic Theorem Proving"
+          },
+          "end_index": 1382,
+          "start_index": 1343,
+          "origin_tool_name": "web_fetch"
+        },
+        {
+          "url": "https://arxiv.org/abs/2411.12498",
+          "uuid": "0eb01e0d-7eaa-43cc-967d-1ae651302861",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/abs/2411.12498",
+              "uuid": "0eb01e0d-7eaa-43cc-967d-1ae651302861",
+              "title": "[2411.12498] Enhancing Reasoning Capabilities of LLMs via Principled Synthetic Logic Corpus",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "0eb01e0d-7eaa-43cc-967d-1ae651302861",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "[2411.12498] Enhancing Reasoning Capabilities of LLMs via Principled Synthetic Logic Corpus"
+          },
+          "end_index": 1632,
+          "start_index": 1606,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/abs/2310.18098",
+          "uuid": "ff345ca2-242e-48fa-ac87-c47a14b60cf3",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/abs/2310.18098",
+              "uuid": "ff345ca2-242e-48fa-ac87-c47a14b60cf3",
+              "title": "[2310.18098] Mind the Gap: Automated Corpus Creation for Enthymeme Detection and Reconstruction in Learner Arguments",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "ff345ca2-242e-48fa-ac87-c47a14b60cf3",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "[2310.18098] Mind the Gap: Automated Corpus Creation for Enthymeme Detection and Reconstruction in Learner Arguments"
+          },
+          "end_index": 2371,
+          "start_index": 2340,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/html/2506.16383v3",
+          "uuid": "bf498a87-afe0-4c47-aff1-243ac5e49bfa",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/html/2506.16383v3",
+              "uuid": "bf498a87-afe0-4c47-aff1-243ac5e49bfa",
+              "title": "Large Language Models in Argument Mining: A Survey",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "bf498a87-afe0-4c47-aff1-243ac5e49bfa",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "Large Language Models in Argument Mining: A Survey"
+          },
+          "end_index": 2759,
+          "start_index": 2734,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/abs/2311.09022",
+          "uuid": "73b5c708-f203-429a-8991-3a348d60ebb9",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/abs/2311.09022",
+              "uuid": "73b5c708-f203-429a-8991-3a348d60ebb9",
+              "title": "[2311.09022] Exploring the Potential of Large Language Models in Computational Argumentation",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "73b5c708-f203-429a-8991-3a348d60ebb9",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "[2311.09022] Exploring the Potential of Large Language Models in Computational Argumentation"
+          },
+          "end_index": 3096,
+          "start_index": 2939,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/abs/2401.07078",
+          "uuid": "a9011c81-fc57-4ed6-b394-b6595176fce7",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/abs/2401.07078",
+              "uuid": "a9011c81-fc57-4ed6-b394-b6595176fce7",
+              "title": "[2401.07078] PUB: A Pragmatics Understanding Benchmark for Assessing LLMs' Pragmatics Capabilities",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "a9011c81-fc57-4ed6-b394-b6595176fce7",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "[2401.07078] PUB: A Pragmatics Understanding Benchmark for Assessing LLMs' Pragmatics Capabilities"
+          },
+          "end_index": 3460,
+          "start_index": 3293,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://aclanthology.org/2024.findings-acl.719/",
+          "uuid": "a275daeb-52af-4946-ba0e-32d0f893451e",
+          "title": "ACL Anthology",
+          "sources": [
+            {
+              "url": "https://aclanthology.org/2024.findings-acl.719/",
+              "uuid": "a275daeb-52af-4946-ba0e-32d0f893451e",
+              "title": "PUB: A Pragmatics Understanding Benchmark for Assessing LLMs\u2019 Pragmatics Capabilities - ACL Anthology",
+              "source": "ACL Anthology",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=aclanthology.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "a275daeb-52af-4946-ba0e-32d0f893451e",
+            "source": "ACL Anthology",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=aclanthology.org",
+            "preview_title": "PUB: A Pragmatics Understanding Benchmark for Assessing LLMs\u2019 Pragmatics Capabilities - ACL Anthology"
+          },
+          "end_index": 3460,
+          "start_index": 3293,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/abs/2401.07078",
+          "uuid": "334b18ff-d3c2-4548-a462-e9c7975f7526",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/abs/2401.07078",
+              "uuid": "334b18ff-d3c2-4548-a462-e9c7975f7526",
+              "title": "[2401.07078] PUB: A Pragmatics Understanding Benchmark for Assessing LLMs' Pragmatics Capabilities",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "334b18ff-d3c2-4548-a462-e9c7975f7526",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "[2401.07078] PUB: A Pragmatics Understanding Benchmark for Assessing LLMs' Pragmatics Capabilities"
+          },
+          "end_index": 3502,
+          "start_index": 3463,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://aclanthology.org/2024.findings-acl.719/",
+          "uuid": "60c7915e-6cc4-4553-84a2-f075ec12a1af",
+          "title": "ACL Anthology",
+          "sources": [
+            {
+              "url": "https://aclanthology.org/2024.findings-acl.719/",
+              "uuid": "60c7915e-6cc4-4553-84a2-f075ec12a1af",
+              "title": "PUB: A Pragmatics Understanding Benchmark for Assessing LLMs\u2019 Pragmatics Capabilities - ACL Anthology",
+              "source": "ACL Anthology",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=aclanthology.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "60c7915e-6cc4-4553-84a2-f075ec12a1af",
+            "source": "ACL Anthology",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=aclanthology.org",
+            "preview_title": "PUB: A Pragmatics Understanding Benchmark for Assessing LLMs\u2019 Pragmatics Capabilities - ACL Anthology"
+          },
+          "end_index": 3502,
+          "start_index": 3463,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://www.themoonlight.io/en/review/pub-a-pragmatics-understanding-benchmark-for-assessing-llms-pragmatics-capabilities",
+          "uuid": "f6aed793-2ac9-4e40-b30e-34ef3fc81cc5",
+          "title": "The Moonlight",
+          "sources": [
+            {
+              "url": "https://www.themoonlight.io/en/review/pub-a-pragmatics-understanding-benchmark-for-assessing-llms-pragmatics-capabilities",
+              "uuid": "f6aed793-2ac9-4e40-b30e-34ef3fc81cc5",
+              "title": "[Literature Review] PUB: A Pragmatics Understanding Benchmark for Assessing LLMs' Pragmatics Capabilities",
+              "source": "The Moonlight",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=themoonlight.io",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "f6aed793-2ac9-4e40-b30e-34ef3fc81cc5",
+            "source": "The Moonlight",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=themoonlight.io",
+            "preview_title": "[Literature Review] PUB: A Pragmatics Understanding Benchmark for Assessing LLMs' Pragmatics Capabilities"
+          },
+          "end_index": 3502,
+          "start_index": 3463,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://www.emergentmind.com/papers/2401.07078",
+          "uuid": "cd17510a-d810-48ae-915e-c9936c61d00c",
+          "title": "Emergent Mind",
+          "sources": [
+            {
+              "url": "https://www.emergentmind.com/papers/2401.07078",
+              "uuid": "cd17510a-d810-48ae-915e-c9936c61d00c",
+              "title": "PUB: A Pragmatics Understanding Benchmark for Assessing LLMs' Pragmatics Capabilities",
+              "source": "Emergent Mind",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=emergentmind.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "cd17510a-d810-48ae-915e-c9936c61d00c",
+            "source": "Emergent Mind",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=emergentmind.com",
+            "preview_title": "PUB: A Pragmatics Understanding Benchmark for Assessing LLMs' Pragmatics Capabilities"
+          },
+          "end_index": 3527,
+          "start_index": 3505,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/abs/2408.06673",
+          "uuid": "d7805388-6a52-4fc4-a2dc-868bcdec6ca8",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/abs/2408.06673",
+              "uuid": "d7805388-6a52-4fc4-a2dc-868bcdec6ca8",
+              "title": "[2408.06673] Pragmatic inference of scalar implicature by LLMs",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "d7805388-6a52-4fc4-a2dc-868bcdec6ca8",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "[2408.06673] Pragmatic inference of scalar implicature by LLMs"
+          },
+          "end_index": 3698,
+          "start_index": 3550,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://aclanthology.org/2024.acl-srw.2/",
+          "uuid": "7056a00b-2f71-49fa-bdc4-30c229fbe3be",
+          "title": "ACL Anthology",
+          "sources": [
+            {
+              "url": "https://aclanthology.org/2024.acl-srw.2/",
+              "uuid": "7056a00b-2f71-49fa-bdc4-30c229fbe3be",
+              "title": "Pragmatic inference of scalar implicature by LLMs - ACL Anthology",
+              "source": "ACL Anthology",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=aclanthology.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "7056a00b-2f71-49fa-bdc4-30c229fbe3be",
+            "source": "ACL Anthology",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=aclanthology.org",
+            "preview_title": "Pragmatic inference of scalar implicature by LLMs - ACL Anthology"
+          },
+          "end_index": 3698,
+          "start_index": 3550,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://www.researchgate.net/publication/386248496_Do_Large_Language_Models_Understand_Conversational_Implicature_-_A_Case_Study_with_a_Chinese_Sitcom",
+          "uuid": "1cea8e25-fe7b-43d8-bfd8-5a05c15e2f6b",
+          "title": "ResearchGate",
+          "sources": [
+            {
+              "url": "https://www.researchgate.net/publication/386248496_Do_Large_Language_Models_Understand_Conversational_Implicature_-_A_Case_Study_with_a_Chinese_Sitcom",
+              "uuid": "1cea8e25-fe7b-43d8-bfd8-5a05c15e2f6b",
+              "title": "Do Large Language Models Understand Conversational Implicature \u2013 A Case Study with a Chinese Sitcom | Request PDF",
+              "source": "ResearchGate",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=researchgate.net",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "1cea8e25-fe7b-43d8-bfd8-5a05c15e2f6b",
+            "source": "ResearchGate",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=researchgate.net",
+            "preview_title": "Do Large Language Models Understand Conversational Implicature \u2013 A Case Study with a Chinese Sitcom | Request PDF"
+          },
+          "end_index": 4000,
+          "start_index": 3978,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/abs/2503.11838",
+          "uuid": "d63ed8ca-2555-45a0-9de5-eb0bd96f7c3a",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/abs/2503.11838",
+              "uuid": "d63ed8ca-2555-45a0-9de5-eb0bd96f7c3a",
+              "title": "[2503.11838] A Transformer and Prototype-based Interpretable Model for Contextual Sarcasm Detection",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "d63ed8ca-2555-45a0-9de5-eb0bd96f7c3a",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "[2503.11838] A Transformer and Prototype-based Interpretable Model for Contextual Sarcasm Detection"
+          },
+          "end_index": 4159,
+          "start_index": 4018,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://www.nature.com/articles/s41598-024-65217-8",
+          "uuid": "4d0f93ae-1a0b-432b-b883-f4e010ff5845",
+          "title": "Nature",
+          "sources": [
+            {
+              "url": "https://www.nature.com/articles/s41598-024-65217-8",
+              "uuid": "4d0f93ae-1a0b-432b-b883-f4e010ff5845",
+              "title": "A contextual-based approach for sarcasm detection | Scientific Reports",
+              "source": "Nature",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=nature.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "4d0f93ae-1a0b-432b-b883-f4e010ff5845",
+            "source": "Nature",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=nature.com",
+            "preview_title": "A contextual-based approach for sarcasm detection | Scientific Reports"
+          },
+          "end_index": 4295,
+          "start_index": 4162,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://aclanthology.org/2024.emnlp-main.379/",
+          "uuid": "40b213bb-6e1d-464e-a1e1-a7e65caaf822",
+          "title": "ACL Anthology",
+          "sources": [
+            {
+              "url": "https://aclanthology.org/2024.emnlp-main.379/",
+              "uuid": "40b213bb-6e1d-464e-a1e1-a7e65caaf822",
+              "title": "Verifiable, Debuggable, and Repairable Commonsense Logical Reasoning via LLM-based Theory Resolution - ACL Anthology",
+              "source": "ACL Anthology",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=aclanthology.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "40b213bb-6e1d-464e-a1e1-a7e65caaf822",
+            "source": "ACL Anthology",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=aclanthology.org",
+            "preview_title": "Verifiable, Debuggable, and Repairable Commonsense Logical Reasoning via LLM-based Theory Resolution - ACL Anthology"
+          },
+          "end_index": 4516,
+          "start_index": 4328,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://aclanthology.org/2024.emnlp-main.379/",
+          "uuid": "190d51df-1301-4ff9-b9e8-25b6b2ddc103",
+          "title": "ACL Anthology",
+          "sources": [
+            {
+              "url": "https://aclanthology.org/2024.emnlp-main.379/",
+              "uuid": "190d51df-1301-4ff9-b9e8-25b6b2ddc103",
+              "title": "Verifiable, Debuggable, and Repairable Commonsense Logical Reasoning via LLM-based Theory Resolution - ACL Anthology",
+              "source": "ACL Anthology",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=aclanthology.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "190d51df-1301-4ff9-b9e8-25b6b2ddc103",
+            "source": "ACL Anthology",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=aclanthology.org",
+            "preview_title": "Verifiable, Debuggable, and Repairable Commonsense Logical Reasoning via LLM-based Theory Resolution - ACL Anthology"
+          },
+          "end_index": 4543,
+          "start_index": 4519,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/abs/1906.05317",
+          "uuid": "5d9f21cd-02e9-44d3-8527-75b49bbc733d",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/abs/1906.05317",
+              "uuid": "5d9f21cd-02e9-44d3-8527-75b49bbc733d",
+              "title": "[1906.05317] COMET: Commonsense Transformers for Automatic Knowledge Graph Construction",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "5d9f21cd-02e9-44d3-8527-75b49bbc733d",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "[1906.05317] COMET: Commonsense Transformers for Automatic Knowledge Graph Construction"
+          },
+          "end_index": 4734,
+          "start_index": 4689,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/abs/2401.17703",
+          "uuid": "a06a7c33-2226-4edb-b800-4e816f00dfb1",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/abs/2401.17703",
+              "uuid": "a06a7c33-2226-4edb-b800-4e816f00dfb1",
+              "title": "[2401.17703] WSC+: Enhancing The Winograd Schema Challenge Using Tree-of-Experts",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "a06a7c33-2226-4edb-b800-4e816f00dfb1",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "[2401.17703] WSC+: Enhancing The Winograd Schema Challenge Using Tree-of-Experts"
+          },
+          "end_index": 4906,
+          "start_index": 4771,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://github.com/pardissz/WSCplus-TreeOfExperts",
+          "uuid": "a2951b6b-4baa-459f-9857-b3fd69a8c5f4",
+          "title": "GitHub",
+          "sources": [
+            {
+              "url": "https://github.com/pardissz/WSCplus-TreeOfExperts",
+              "uuid": "a2951b6b-4baa-459f-9857-b3fd69a8c5f4",
+              "title": "GitHub - pardissz/WSCplus-TreeOfExperts: This repository contains the code and dataset for our paper, which was accepted in the main conference at EACL 2024. The paper introduces a novel prompting method, Tree-of-Experts (ToE), to enhance the generation of Winograd Schema Challenge (WSC) instances.",
+              "source": "GitHub",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=github.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "a2951b6b-4baa-459f-9857-b3fd69a8c5f4",
+            "source": "GitHub",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=github.com",
+            "preview_title": "GitHub - pardissz/WSCplus-TreeOfExperts: This repository contains the code and dataset for our paper, which was accepted in the main conference at EACL 2024. The paper introduces a novel prompting method, Tree-of-Experts (ToE), to enhance the generation of Winograd Schema Challenge (WSC) instances."
+          },
+          "end_index": 4938,
+          "start_index": 4909,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://dl.acm.org/doi/10.1145/3615355",
+          "uuid": "13dc2083-be4c-4496-a16b-a8fba14df573",
+          "title": "ACM Computing Surveys",
+          "sources": [
+            {
+              "url": "https://dl.acm.org/doi/10.1145/3615355",
+              "uuid": "13dc2083-be4c-4496-a16b-a8fba14df573",
+              "title": "Benchmarks for Automated Commonsense Reasoning: A Survey | ACM Computing Surveys",
+              "source": "ACM Computing Surveys",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=acm.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "13dc2083-be4c-4496-a16b-a8fba14df573",
+            "source": "ACM Computing Surveys",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=acm.org",
+            "preview_title": "Benchmarks for Automated Commonsense Reasoning: A Survey | ACM Computing Surveys"
+          },
+          "end_index": 5122,
+          "start_index": 5086,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/abs/2212.10496",
+          "uuid": "9d5713e5-a153-4346-a56d-a0d279340826",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/abs/2212.10496",
+              "uuid": "9d5713e5-a153-4346-a56d-a0d279340826",
+              "title": "[2212.10496] Precise Zero-Shot Dense Retrieval without Relevance Labels",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "9d5713e5-a153-4346-a56d-a0d279340826",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "[2212.10496] Precise Zero-Shot Dense Retrieval without Relevance Labels"
+          },
+          "end_index": 5412,
+          "start_index": 5373,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2212.10496",
+          "uuid": "3ee647a5-ae9e-4450-8136-680832a65bc2",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/pdf/2212.10496",
+              "uuid": "3ee647a5-ae9e-4450-8136-680832a65bc2",
+              "title": "arXiv:2212.10496v1 [cs.IR] 20 Dec 2022",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "3ee647a5-ae9e-4450-8136-680832a65bc2",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "arXiv:2212.10496v1 [cs.IR] 20 Dec 2022"
+          },
+          "end_index": 5412,
+          "start_index": 5373,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://openreview.net/pdf?id=AWv0mlCeUk",
+          "uuid": "7f069031-e37d-4a3a-95c8-c84b13e8348d",
+          "title": "openreview",
+          "sources": [
+            {
+              "url": "https://openreview.net/pdf?id=AWv0mlCeUk",
+              "uuid": "7f069031-e37d-4a3a-95c8-c84b13e8348d",
+              "title": "",
+              "source": "openreview",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=openreview.net",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "7f069031-e37d-4a3a-95c8-c84b13e8348d",
+            "source": "openreview",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=openreview.net",
+            "preview_title": ""
+          },
+          "end_index": 5589,
+          "start_index": 5468,
+          "origin_tool_name": "web_fetch"
+        },
+        {
+          "url": "https://stephencollins.tech/newsletters/improving-summarization-tasks-graphrag-raptorrag",
+          "uuid": "7d5dc5cf-680a-4f61-a046-0bf8958f7abe",
+          "title": "Stephen Collins.tech",
+          "sources": [
+            {
+              "url": "https://stephencollins.tech/newsletters/improving-summarization-tasks-graphrag-raptorrag",
+              "uuid": "7d5dc5cf-680a-4f61-a046-0bf8958f7abe",
+              "title": "Improving Summarization Tasks with GraphRAG and RaptorRAG",
+              "source": "Stephen Collins.tech",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=stephencollins.tech",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "7d5dc5cf-680a-4f61-a046-0bf8958f7abe",
+            "source": "Stephen Collins.tech",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=stephencollins.tech",
+            "preview_title": "Improving Summarization Tasks with GraphRAG and RaptorRAG"
+          },
+          "end_index": 5607,
+          "start_index": 5592,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/abs/2401.18059",
+          "uuid": "ce9dd2e8-3012-4d1b-8a3d-99422cd8995a",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/abs/2401.18059",
+              "uuid": "ce9dd2e8-3012-4d1b-8a3d-99422cd8995a",
+              "title": "[2401.18059] RAPTOR: Recursive Abstractive Processing for Tree-Organized Retrieval",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "ce9dd2e8-3012-4d1b-8a3d-99422cd8995a",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "[2401.18059] RAPTOR: Recursive Abstractive Processing for Tree-Organized Retrieval"
+          },
+          "end_index": 5634,
+          "start_index": 5592,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/html/2401.18059v1",
+          "uuid": "fa2e508c-07a9-4c9d-be99-f13cffd7328f",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/html/2401.18059v1",
+              "uuid": "fa2e508c-07a9-4c9d-be99-f13cffd7328f",
+              "title": "RAPTOR: Recursive Abstractive Processing for Tree-Organized Retrieval",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "fa2e508c-07a9-4c9d-be99-f13cffd7328f",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "RAPTOR: Recursive Abstractive Processing for Tree-Organized Retrieval"
+          },
+          "end_index": 5634,
+          "start_index": 5592,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://m-ruminer.medium.com/anthropics-contextual-retrieval-11dbd16841b4",
+          "uuid": "01ebd19d-acd0-45db-8f3a-d0fbfb4e0675",
+          "title": "Medium",
+          "sources": [
+            {
+              "url": "https://m-ruminer.medium.com/anthropics-contextual-retrieval-11dbd16841b4",
+              "uuid": "01ebd19d-acd0-45db-8f3a-d0fbfb4e0675",
+              "title": "Anthropic\u2019s Contextual Retrieval",
+              "source": "Medium",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=medium.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "01ebd19d-acd0-45db-8f3a-d0fbfb4e0675",
+            "source": "Medium",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=medium.com",
+            "preview_title": "Anthropic\u2019s Contextual Retrieval"
+          },
+          "end_index": 5778,
+          "start_index": 5758,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://www.anthropic.com/news/contextual-retrieval",
+          "uuid": "f2ee80cf-edd6-4fd0-ad29-fb701fa46e5b",
+          "title": "Anthropic",
+          "sources": [
+            {
+              "url": "https://www.anthropic.com/news/contextual-retrieval",
+              "uuid": "f2ee80cf-edd6-4fd0-ad29-fb701fa46e5b",
+              "title": "Introducing Contextual Retrieval \\ Anthropic",
+              "source": "Anthropic",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=anthropic.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "f2ee80cf-edd6-4fd0-ad29-fb701fa46e5b",
+            "source": "Anthropic",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=anthropic.com",
+            "preview_title": "Introducing Contextual Retrieval \\ Anthropic"
+          },
+          "end_index": 5803,
+          "start_index": 5758,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://simonwillison.net/2024/Sep/20/introducing-contextual-retrieval/",
+          "uuid": "a8f04265-9cb1-4ec6-bc7f-033a4c722f37",
+          "title": "Simon Willison",
+          "sources": [
+            {
+              "url": "https://simonwillison.net/2024/Sep/20/introducing-contextual-retrieval/",
+              "uuid": "a8f04265-9cb1-4ec6-bc7f-033a4c722f37",
+              "title": "Introducing Contextual Retrieval",
+              "source": "Simon Willison",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=simonwillison.net",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "a8f04265-9cb1-4ec6-bc7f-033a4c722f37",
+            "source": "Simon Willison",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=simonwillison.net",
+            "preview_title": "Introducing Contextual Retrieval"
+          },
+          "end_index": 5803,
+          "start_index": 5778,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://openreview.net/pdf?id=AWv0mlCeUk",
+          "uuid": "936aa6d4-dcef-47c7-aa33-0d87a6bc9e92",
+          "title": "openreview",
+          "sources": [
+            {
+              "url": "https://openreview.net/pdf?id=AWv0mlCeUk",
+              "uuid": "936aa6d4-dcef-47c7-aa33-0d87a6bc9e92",
+              "title": "",
+              "source": "openreview",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=openreview.net",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "936aa6d4-dcef-47c7-aa33-0d87a6bc9e92",
+            "source": "openreview",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=openreview.net",
+            "preview_title": ""
+          },
+          "end_index": 5970,
+          "start_index": 5842,
+          "origin_tool_name": "web_fetch"
+        },
+        {
+          "url": "https://openreview.net/pdf?id=AWv0mlCeUk",
+          "uuid": "11dea1a6-0957-4093-98ce-9ea505294d14",
+          "title": "openreview",
+          "sources": [
+            {
+              "url": "https://openreview.net/pdf?id=AWv0mlCeUk",
+              "uuid": "11dea1a6-0957-4093-98ce-9ea505294d14",
+              "title": "",
+              "source": "openreview",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=openreview.net",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "11dea1a6-0957-4093-98ce-9ea505294d14",
+            "source": "openreview",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=openreview.net",
+            "preview_title": ""
+          },
+          "end_index": 7174,
+          "start_index": 7038,
+          "origin_tool_name": "web_fetch"
+        },
+        {
+          "url": "https://ragflow.io/blog/the-rise-and-evolution-of-rag-in-2024-a-year-in-review",
+          "uuid": "c53f64b5-6053-4aba-a4c2-5f18393e78b0",
+          "title": "RAGFlow",
+          "sources": [
+            {
+              "url": "https://ragflow.io/blog/the-rise-and-evolution-of-rag-in-2024-a-year-in-review",
+              "uuid": "c53f64b5-6053-4aba-a4c2-5f18393e78b0",
+              "title": "The Rise and Evolution of RAG in 2024 A Year in Review | RAGFlow",
+              "source": "RAGFlow",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=ragflow.io",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "c53f64b5-6053-4aba-a4c2-5f18393e78b0",
+            "source": "RAGFlow",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=ragflow.io",
+            "preview_title": "The Rise and Evolution of RAG in 2024 A Year in Review | RAGFlow"
+          },
+          "end_index": 7287,
+          "start_index": 7258,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/html/2403.05065v1",
+          "uuid": "f7acf0be-3ca7-43e4-a323-bfcc9ccce0de",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/html/2403.05065v1",
+              "uuid": "f7acf0be-3ca7-43e4-a323-bfcc9ccce0de",
+              "title": "Can we obtain significant success in RST discourse parsing by using Large Language Models?",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "f7acf0be-3ca7-43e4-a323-bfcc9ccce0de",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "Can we obtain significant success in RST discourse parsing by using Large Language Models?"
+          },
+          "end_index": 8508,
+          "start_index": 8352,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://aclanthology.org/2024.eacl-long.171/",
+          "uuid": "540edfce-f51a-464f-b961-be1c7caf27ed",
+          "title": "ACL Anthology",
+          "sources": [
+            {
+              "url": "https://aclanthology.org/2024.eacl-long.171/",
+              "uuid": "540edfce-f51a-464f-b961-be1c7caf27ed",
+              "title": "Can we obtain significant success in RST discourse parsing by using Large Language Models? - ACL Anthology",
+              "source": "ACL Anthology",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=aclanthology.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "540edfce-f51a-464f-b961-be1c7caf27ed",
+            "source": "ACL Anthology",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=aclanthology.org",
+            "preview_title": "Can we obtain significant success in RST discourse parsing by using Large Language Models? - ACL Anthology"
+          },
+          "end_index": 8508,
+          "start_index": 8352,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://aclanthology.org/2024.eacl-long.171/",
+          "uuid": "933cb783-5834-4b2c-b93e-74b37cdda6e9",
+          "title": "ACL Anthology",
+          "sources": [
+            {
+              "url": "https://aclanthology.org/2024.eacl-long.171/",
+              "uuid": "933cb783-5834-4b2c-b93e-74b37cdda6e9",
+              "title": "Can we obtain significant success in RST discourse parsing by using Large Language Models? - ACL Anthology",
+              "source": "ACL Anthology",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=aclanthology.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "933cb783-5834-4b2c-b93e-74b37cdda6e9",
+            "source": "ACL Anthology",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=aclanthology.org",
+            "preview_title": "Can we obtain significant success in RST discourse parsing by using Large Language Models? - ACL Anthology"
+          },
+          "end_index": 8561,
+          "start_index": 8511,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://openreview.net/pdf?id=AWv0mlCeUk",
+          "uuid": "b58d5f47-01e7-400c-8ea3-22177e39e7d3",
+          "title": "OpenReview",
+          "sources": [
+            {
+              "url": "https://openreview.net/pdf?id=AWv0mlCeUk",
+              "uuid": "b58d5f47-01e7-400c-8ea3-22177e39e7d3",
+              "title": "DISCOURSE-AWARE RETRIEVAL-AUGMENTED GENERA",
+              "source": "OpenReview",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=openreview.net",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "b58d5f47-01e7-400c-8ea3-22177e39e7d3",
+            "source": "OpenReview",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=openreview.net",
+            "preview_title": "DISCOURSE-AWARE RETRIEVAL-AUGMENTED GENERA"
+          },
+          "end_index": 8805,
+          "start_index": 8767,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://openreview.net/pdf?id=AWv0mlCeUk",
+          "uuid": "3200f47c-d8d4-4dac-9668-f94ce04f084d",
+          "title": "openreview",
+          "sources": [
+            {
+              "url": "https://openreview.net/pdf?id=AWv0mlCeUk",
+              "uuid": "3200f47c-d8d4-4dac-9668-f94ce04f084d",
+              "title": "",
+              "source": "openreview",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=openreview.net",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "3200f47c-d8d4-4dac-9668-f94ce04f084d",
+            "source": "openreview",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=openreview.net",
+            "preview_title": ""
+          },
+          "end_index": 8837,
+          "start_index": 8739,
+          "origin_tool_name": "web_fetch"
+        },
+        {
+          "url": "https://aclanthology.org/2024.lrec-main.773/",
+          "uuid": "8a3280dc-1dec-49d8-8c4b-816f44d47dcc",
+          "title": "ACL Anthology",
+          "sources": [
+            {
+              "url": "https://aclanthology.org/2024.lrec-main.773/",
+              "uuid": "8a3280dc-1dec-49d8-8c4b-816f44d47dcc",
+              "title": "Improving Implicit Discourse Relation Recognition with Semantics Confrontation - ACL Anthology",
+              "source": "ACL Anthology",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=aclanthology.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "8a3280dc-1dec-49d8-8c4b-816f44d47dcc",
+            "source": "ACL Anthology",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=aclanthology.org",
+            "preview_title": "Improving Implicit Discourse Relation Recognition with Semantics Confrontation - ACL Anthology"
+          },
+          "end_index": 8986,
+          "start_index": 8855,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://aclanthology.org/2024.findings-acl.500/",
+          "uuid": "001afcc7-9d89-4e89-9ae6-8253919bb30b",
+          "title": "ACL Anthology",
+          "sources": [
+            {
+              "url": "https://aclanthology.org/2024.findings-acl.500/",
+              "uuid": "001afcc7-9d89-4e89-9ae6-8253919bb30b",
+              "title": "Multi-Label Classification for Implicit Discourse Relation Recognition - ACL Anthology",
+              "source": "ACL Anthology",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=aclanthology.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "001afcc7-9d89-4e89-9ae6-8253919bb30b",
+            "source": "ACL Anthology",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=aclanthology.org",
+            "preview_title": "Multi-Label Classification for Implicit Discourse Relation Recognition - ACL Anthology"
+          },
+          "end_index": 9137,
+          "start_index": 9009,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/html/2508.13171v1",
+          "uuid": "58135512-1add-4050-87f5-2c84717af303",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/html/2508.13171v1",
+              "uuid": "58135512-1add-4050-87f5-2c84717af303",
+              "title": "Cognitive Workspace: Active Memory Management for LLMs An Empirical Study of Functional Infinite Context",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "58135512-1add-4050-87f5-2c84717af303",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "Cognitive Workspace: Active Memory Management for LLMs An Empirical Study of Functional Infinite Context"
+          },
+          "end_index": 10080,
+          "start_index": 10037,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/html/2508.13171v1",
+          "uuid": "3311d762-9447-4520-9ea0-27b0a829d83c",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/html/2508.13171v1",
+              "uuid": "3311d762-9447-4520-9ea0-27b0a829d83c",
+              "title": "Cognitive Workspace: Active Memory Management for LLMs An Empirical Study of Functional Infinite Context",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "3311d762-9447-4520-9ea0-27b0a829d83c",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "Cognitive Workspace: Active Memory Management for LLMs An Empirical Study of Functional Infinite Context"
+          },
+          "end_index": 10101,
+          "start_index": 10083,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2509.19517",
+          "uuid": "a194fc09-2613-4470-9dc0-f9221e1945f5",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/pdf/2509.19517",
+              "uuid": "a194fc09-2613-4470-9dc0-f9221e1945f5",
+              "title": "Cognitive Load Limits in Large Language Models: Benchmarking",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "a194fc09-2613-4470-9dc0-f9221e1945f5",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "Cognitive Load Limits in Large Language Models: Benchmarking"
+          },
+          "end_index": 10295,
+          "start_index": 10229,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/html/2507.00653",
+          "uuid": "e30891b7-fb2f-43dd-94ae-76d0abd5b328",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/html/2507.00653",
+              "uuid": "e30891b7-fb2f-43dd-94ae-76d0abd5b328",
+              "title": "Cognitive Load-Aware Inference: A Neuro-Symbolic Framework for Optimizing the Token Economy of Large Language Models",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "e30891b7-fb2f-43dd-94ae-76d0abd5b328",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "Cognitive Load-Aware Inference: A Neuro-Symbolic Framework for Optimizing the Token Economy of Large Language Models"
+          },
+          "end_index": 10484,
+          "start_index": 10468,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/html/2505.09316",
+          "uuid": "ca55a5b3-8241-45c0-9472-37a2607ddbba",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/html/2505.09316",
+              "uuid": "ca55a5b3-8241-45c0-9472-37a2607ddbba",
+              "title": "Scent of Knowledge: Optimizing Search-Enhanced Reasoning with Information Foraging",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "ca55a5b3-8241-45c0-9472-37a2607ddbba",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "Scent of Knowledge: Optimizing Search-Enhanced Reasoning with Information Foraging"
+          },
+          "end_index": 10787,
+          "start_index": 10715,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://arxiv.org/html/2505.09316",
+          "uuid": "755c304b-567d-48e6-bd31-dbc13d427dd2",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/html/2505.09316",
+              "uuid": "755c304b-567d-48e6-bd31-dbc13d427dd2",
+              "title": "Scent of Knowledge: Optimizing Search-Enhanced Reasoning with Information Foraging",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "755c304b-567d-48e6-bd31-dbc13d427dd2",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "Scent of Knowledge: Optimizing Search-Enhanced Reasoning with Information Foraging"
+          },
+          "end_index": 10805,
+          "start_index": 10790,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://www.pnas.org/doi/10.1073/pnas.2105646118",
+          "uuid": "3ca2ad5f-4903-4f33-9ff5-b9508a08310a",
+          "title": "PNAS",
+          "sources": [
+            {
+              "url": "https://www.pnas.org/doi/10.1073/pnas.2105646118",
+              "uuid": "3ca2ad5f-4903-4f33-9ff5-b9508a08310a",
+              "title": "The neural architecture of language: Integrative modeling converges on predictive processing | PNAS",
+              "source": "PNAS",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=pnas.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "3ca2ad5f-4903-4f33-9ff5-b9508a08310a",
+            "source": "PNAS",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=pnas.org",
+            "preview_title": "The neural architecture of language: Integrative modeling converges on predictive processing | PNAS"
+          },
+          "end_index": 10885,
+          "start_index": 10852,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://link.springer.com/chapter/10.1007/978-3-319-50496-4_32",
+          "uuid": "8ad96a4c-5528-47c7-b7b6-8c290f38224a",
+          "title": "Springer",
+          "sources": [
+            {
+              "url": "https://link.springer.com/chapter/10.1007/978-3-319-50496-4_32",
+              "uuid": "8ad96a4c-5528-47c7-b7b6-8c290f38224a",
+              "title": "A CDT-Styled End-to-End Chinese Discourse Parser | SpringerLink",
+              "source": "Springer",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=springer.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "8ad96a4c-5528-47c7-b7b6-8c290f38224a",
+            "source": "Springer",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=springer.com",
+            "preview_title": "A CDT-Styled End-to-End Chinese Discourse Parser | SpringerLink"
+          },
+          "end_index": 13391,
+          "start_index": 13187,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://link.springer.com/chapter/10.1007/978-981-97-9443-0_40",
+          "uuid": "5c0085ea-77f0-4a68-89ad-ad64ae1fb06d",
+          "title": "Springer",
+          "sources": [
+            {
+              "url": "https://link.springer.com/chapter/10.1007/978-981-97-9443-0_40",
+              "uuid": "5c0085ea-77f0-4a68-89ad-ad64ae1fb06d",
+              "title": "Enhancing Chinese Argument Mining with Large Language Model | Springer Nature Link (formerly SpringerLink)",
+              "source": "Springer",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=springer.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "5c0085ea-77f0-4a68-89ad-ad64ae1fb06d",
+            "source": "Springer",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=springer.com",
+            "preview_title": "Enhancing Chinese Argument Mining with Large Language Model | Springer Nature Link (formerly SpringerLink)"
+          },
+          "end_index": 13741,
+          "start_index": 13563,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://aclanthology.org/2024.acl-long.604/",
+          "uuid": "6491515f-9b0c-4b36-9e5e-af56782a8ee7",
+          "title": "aclanthology",
+          "sources": [
+            {
+              "url": "https://aclanthology.org/2024.acl-long.604/",
+              "uuid": "6491515f-9b0c-4b36-9e5e-af56782a8ee7",
+              "title": "Benchmarking Chinese Commonsense Reasoning of LLMs: From Chinese-Specifics to Reasoning-Memorization Correlations",
+              "source": "aclanthology",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=aclanthology.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "6491515f-9b0c-4b36-9e5e-af56782a8ee7",
+            "source": "aclanthology",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=aclanthology.org",
+            "preview_title": "Benchmarking Chinese Commonsense Reasoning of LLMs: From Chinese-Specifics to Reasoning-Memorization Correlations"
+          },
+          "end_index": 13998,
+          "start_index": 13862,
+          "origin_tool_name": "web_fetch"
+        },
+        {
+          "url": "https://arxiv.org/abs/2401.17043",
+          "uuid": "6fb8539e-be00-41c7-bc02-4fdf805271a8",
+          "title": "arXiv",
+          "sources": [
+            {
+              "url": "https://arxiv.org/abs/2401.17043",
+              "uuid": "6fb8539e-be00-41c7-bc02-4fdf805271a8",
+              "title": "[2401.17043] CRUD-RAG: A Comprehensive Chinese Benchmark for Retrieval-Augmented Generation of Large Language Models",
+              "source": "arXiv",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "6fb8539e-be00-41c7-bc02-4fdf805271a8",
+            "source": "arXiv",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=arxiv.org",
+            "preview_title": "[2401.17043] CRUD-RAG: A Comprehensive Chinese Benchmark for Retrieval-Augmented Generation of Large Language Models"
+          },
+          "end_index": 14493,
+          "start_index": 14331,
+          "origin_tool_name": "web_search"
+        },
+        {
+          "url": "https://github.com/IAAR-Shanghai/CRUD_RAG",
+          "uuid": "aac43c70-8192-4a95-83f4-90f368f948e6",
+          "title": "GitHub",
+          "sources": [
+            {
+              "url": "https://github.com/IAAR-Shanghai/CRUD_RAG",
+              "uuid": "aac43c70-8192-4a95-83f4-90f368f948e6",
+              "title": "GitHub - IAAR-Shanghai/CRUD_RAG: CRUD-RAG: A Comprehensive Chinese Benchmark for Retrieval-Augmented Generation of Large Language Models",
+              "source": "GitHub",
+              "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=github.com",
+              "subtitles": null,
+              "content_body": null,
+              "resource_type": null
+            }
+          ],
+          "metadata": {
+            "type": "generic_metadata",
+            "uuid": "aac43c70-8192-4a95-83f4-90f368f948e6",
+            "source": "GitHub",
+            "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=github.com",
+            "preview_title": "GitHub - IAAR-Shanghai/CRUD_RAG: CRUD-RAG: A Comprehensive Chinese Benchmark for Retrieval-Augmented Generation of Large Language Models"
+          },
+          "end_index": 14522,
+          "start_index": 14496,
+          "origin_tool_name": "web_search"
+        }
+      ],
+      "version_uuid": "c55d8b35-d1c1-4e77-965f-dca2c94e6897"
+    },
+    "message": null,
+    "integration_name": null,
+    "integration_icon_url": null,
+    "context": null,
+    "display_content": null,
+    "approval_options": null,
+    "approval_key": null
+  },
+  {
+    "start_timestamp": null,
+    "stop_timestamp": null,
+    "flags": null,
+    "type": "tool_result",
+    "name": "artifacts",
+    "content": [
+      {
+        "type": "text",
+        "text": "OK",
+        "uuid": "5fdbd6a6-f50e-4f54-80d4-4f340d02ee6d"
+      }
+    ],
+    "is_error": false,
+    "structured_content": null,
+    "message": null,
+    "integration_name": null,
+    "integration_icon_url": null,
+    "display_content": null
+  }
+]
+
+================================================================================
+
+Human:
+Content:
+[
+  {
+    "start_timestamp": "2026-01-09T03:55:15.427820Z",
+    "stop_timestamp": "2026-01-09T03:55:15.427820Z",
+    "flags": null,
+    "type": "text",
+    "text": "\u6240\u4ee5\u4f60\u8ba4\u4e3a\uff0c\u662f\u5426\u7b2c\u4e00\u7ae0\u5e94\u8be5\u91cd\u5199\u7b2c\u4e09\u904d\uff0c\u800c\u4e14\u4e0d\u9650\u5b57\u6570\uff1f",
+    "citations": []
+  }
+]
+
+================================================================================
+
+Assistant:
+Content:
+[
+  {
+    "start_timestamp": "2026-01-09T03:57:05.823535Z",
+    "stop_timestamp": "2026-01-09T03:57:05.823535Z",
+    "flags": null,
+    "type": "text",
+    "text": "\n\n",
+    "citations": []
+  },
+  {
+    "start_timestamp": "2026-01-09T03:57:05.823535Z",
+    "stop_timestamp": "2026-01-09T03:57:13.681387Z",
+    "flags": null,
+    "type": "thinking",
+    "thinking": "\u7528\u6237\u95ee\u6211\u662f\u5426\u8ba4\u4e3a\u7b2c\u4e00\u7ae0\u5e94\u8be5\u91cd\u5199\u7b2c\u4e09\u904d\uff0c\u800c\u4e14\u4e0d\u9650\u5b57\u6570\u3002\n\n\u8fd9\u4e2a\u95ee\u9898\u4e0d\u9700\u8981\u8fdb\u884cResearch\uff0c\u8fd9\u662f\u4e00\u4e2a\u5173\u4e8e\u6211\u4eec\u5f53\u524d\u5de5\u4f5c\u6d41\u7a0b\u7684\u51b3\u7b56\u6027\u95ee\u9898\u3002\u8ba9\u6211\u5206\u6790\u4e00\u4e0b\u60c5\u51b5\uff1a\n\n1. \u7b2c\u4e00\u6b21Research\uff1a\u5173\u4e8eRAG\u6f14\u8fdb2020-2025\u300112\u4e2a\u6700\u65b0\u8303\u5f0f\u3001\u6838\u5fc3\u6311\u6218\u7b49\n2. \u7b2c\u4e8c\u6b21Research\uff08\u521a\u521a\u5b8c\u6210\uff09\uff1a\u5173\u4e8e\u9690\u6027\u8bed\u4e49\u63d0\u53d6\u7684\u5b66\u672f\u524d\u6cbf\n\n\u7528\u6237\u4e4b\u524d\u7ed9\u6211\u7684\u4e24\u4efd\u6587\u6863\u5305\u542b\u4e86\u975e\u5e38\u6df1\u5165\u7684\"Aurola\u8fc7\u7a0b\"\u601d\u60f3\u2014\u2014\u628a\u4e66\u8bfb\u539a\u3001\u8bed\u8a00\u5b66\u7406\u8bba\u6846\u67b6\u7b49\u3002\n\n\u73b0\u5728\u7b2c\u4e8c\u6b21Research\u8865\u5145\u4e86\uff1a\n- 80+\u7bc72024-2025\u524d\u6cbf\u8bba\u6587\n- 7\u4e2a\u7528\u6237\u7d20\u6750\u672a\u8986\u76d6\u7684\u65b0\u7406\u8bba\u6846\u67b6\uff08\u5171\u540c\u57fa\u7840\u7406\u8bba\u3001\u5177\u8eab\u8ba4\u77e5\u3001\u4e2d\u5fc3\u7406\u8bba\u3001CCR\u3001\u60c5\u5883\u6a21\u578b\u3001\u8ba4\u8bc6\u8b66\u89c9\u3001\u811a\u672c\u7406\u8bba\uff09\n- NLI\u3001\u8bba\u8fa9\u6316\u6398\u3001\u8bed\u7528\u63a8\u7406\u3001\u5e38\u8bc6\u63a8\u7406\u7684\u6700\u65b0\u8fdb\u5c55\n- RAG\u8bed\u4e49\u589e\u5f3a\u6280\u672f\u7684\u5b66\u672f\u57fa\u7840\n- \u8ba4\u77e5\u79d1\u5b66\u8de8\u5b66\u79d1\u89c6\u89d2\n- \u4e2d\u6587NLP\u793e\u533a\u7814\u7a76\n\n\u8fd9\u786e\u5b9e\u662f\u4e00\u4e2a\u5de8\u5927\u7684\u8865\u5145\u3002\u7b2c\u4e00\u7ae0\u5982\u679c\u8981\u5145\u5206\u5438\u6536\u8fd9\u4e9b\u5185\u5bb9\uff0c\u786e\u5b9e\u9700\u8981\u91cd\u65b0\u6574\u5408\u3002\n\n\u8ba9\u6211\u7ed9\u51fa\u6211\u7684\u4e13\u4e1a\u5efa\u8bae\u3002\u8fd9\u4e0d\u662f\u4e00\u4e2a\u9700\u8981Research\u7684\u95ee\u9898\uff0c\u800c\u662f\u9700\u8981\u6211\u6839\u636e\u5df2\u6709\u4fe1\u606f\u7ed9\u51fa\u5224\u65ad\u3002",
+    "summaries": [
+      {
+        "summary": "\u601d\u8003\u662f\u5426\u5e94\u8be5\u65e0\u5b57\u6570\u9650\u5236\u5730\u91cd\u5199\u7b2c\u4e00\u7ae0\u7b2c\u4e09\u904d"
+      },
+      {
+        "summary": "\u6743\u8861\u7b2c\u4e00\u7ae0\u91cd\u5199\u5fc5\u8981\u6027\u4e0e\u8865\u5145\u7814\u7a76\u6210\u679c\u3002"
+      },
+      {
+        "summary": "\u8bc4\u4f30\u4e86\u65b0\u7814\u7a76\u6210\u679c\uff0c\u5224\u65ad\u7b2c\u4e00\u7ae0\u9700\u5168\u9762\u91cd\u6784\u6574\u5408\u3002"
+      }
+    ],
+    "cut_off": false,
+    "alternative_display_type": null
+  },
+  {
+    "start_timestamp": "2026-01-09T03:57:13.851274Z",
+    "stop_timestamp": "2026-01-09T03:57:27.477896Z",
+    "flags": null,
+    "type": "text",
+    "text": "\u662f\u7684\uff0c\u6211\u7684\u5224\u65ad\u662f**\u5fc5\u987b\u91cd\u5199\u7b2c\u4e09\u904d**\u3002\n\n---\n\n## \u7406\u7531\u5206\u6790\n\n### \u4e24\u6b21Research\u7684\u5185\u5bb9\u6027\u8d28\u5b8c\u5168\u4e0d\u540c\n\n| Research | \u5185\u5bb9\u5b9a\u4f4d | \u5bf9\u7b2c\u4e00\u7ae0\u7684\u4ef7\u503c |\n|----------|----------|----------------|\n| **\u7b2c\u4e00\u6b21** | RAG\u6280\u672f\u6f14\u8fdb\u3001\u8303\u5f0f\u3001\u6311\u6218\u3001\u5f00\u6e90\u751f\u6001 | \u63d0\u4f9b**\"\u662f\u4ec0\u4e48\"**\u2014\u2014\u6280\u672f\u73b0\u72b6\u4e0e\u53d1\u5c55\u8109\u7edc |\n| **\u7b2c\u4e8c\u6b21** | \u9690\u6027\u8bed\u4e49\u63d0\u53d6\u7684\u8bed\u8a00\u5b66/\u8ba4\u77e5\u79d1\u5b66\u57fa\u7840 | \u63d0\u4f9b**\"\u4e3a\u4ec0\u4e48\"**\u2014\u2014\u60a8\u7efc\u8ff0\u7684\u6838\u5fc3\u5dee\u5f02\u5316\u7406\u8bba\u57fa\u7840 |\n\n\u7b2c\u4e00\u6b21Research\u63d0\u4f9b\u7684\u662f\"RAG\u7efc\u8ff0\u7684\u6807\u51c6\u5185\u5bb9\"\u2014\u2014\u4efb\u4f55\u4eba\u5199RAG\u7efc\u8ff0\u90fd\u9700\u8981\u8986\u76d6\u8fd9\u4e9b\u3002\n\n\u7b2c\u4e8c\u6b21Research\u63d0\u4f9b\u7684\u662f**\u60a8\u8fd9\u7bc7\u7efc\u8ff0\u72ec\u6709\u7684\u5b66\u672f\u5b9a\u4f4d**\uff1a\n- 7\u4e2a\u65b0\u7406\u8bba\u6846\u67b6\uff08\u8d85\u8d8a\u60a8\u5df2\u6709\u76848\u4e2a\uff09\n- \u8ba4\u77e5\u8d1f\u8377\u7406\u8bba \u2192 RAG\u4e0a\u4e0b\u6587\u4f18\u5316\u7684\u7406\u8bba\u652f\u6491\n- \u4fe1\u606f\u89c5\u98df\u7406\u8bba \u2192 \u68c0\u7d22\u51b3\u7b56\u7684\u8ba4\u77e5\u79d1\u5b66\u5efa\u6a21\n- \u7701\u7565\u4e09\u6bb5\u8bba\u91cd\u6784 \u2192 \u9690\u6027\u903b\u8f91\u63d0\u53d6\u7684\u5b66\u672f\u524d\u6cbf\n\n**\u5982\u679c\u7b2c\u4e00\u7ae0\u4e0d\u5438\u6536\u8fd9\u4e9b\u5185\u5bb9\uff0c\u60a8\u7684\u7efc\u8ff0\u5c31\u5931\u53bb\u4e86\u533a\u522b\u4e8eGao et al.\u3001Singh et al.\u7684\u6838\u5fc3\u5356\u70b9\u3002**\n\n---\n\n### \u4e3a\u4ec0\u4e48\"\u4e0d\u9650\u5b57\u6570\"\u662f\u6b63\u786e\u7684\n\n\u7b2c\u4e00\u7ae0\u662f**\u95ee\u9898\u5b9a\u4e49\u4e0e\u7406\u8bba\u6846\u67b6**\u7ae0\u8282\u3002\u5b83\u9700\u8981\uff1a\n\n1. **\u5efa\u7acb\u5b66\u672f\u5408\u6cd5\u6027**\uff1a\u4e3a\u4ec0\u4e48\"\u8ba4\u77e5\u589e\u5f3aRAG\"\u548c\"\u8bed\u8a00\u5b66\u5f15\u5bfc\u7684\u9690\u6027\u8bed\u4e49\u5904\u7406\"\u662f\u503c\u5f97\u7814\u7a76\u7684\u65b9\u5411\uff1f\u9700\u8981\u5f15\u7528\u5145\u5206\u7684\u524d\u6cbf\u6587\u732e\n2. **\u5b9a\u4e49\u6838\u5fc3\u6982\u5ff5**\uff1a15\u4e2a\u7406\u8bba\u6846\u67b6\uff08\u60a8\u76848\u4e2a+7\u4e2a\u65b0\u7684\uff09\u7684\u7cfb\u7edf\u68b3\u7406\n3. **\u8bc6\u522b\u7814\u7a76\u7a7a\u767d**\uff1a\u73b0\u6709RAG\u7efc\u8ff0\u5728\u8ba4\u77e5-\u8bed\u8a00\u5b66\u7ef4\u5ea6\u7684\u7f3a\u5931\n\n\u8fd9\u4e0d\u662f\u53ef\u4ee5\u538b\u7f29\u52303000\u5b57\u7684\u5185\u5bb9\u3002\n\n---\n\n## \u5efa\u8bae\u6267\u884c\u65b9\u6848\n\n**\u7b2c\u4e09\u904d\u91cd\u5199\u5e94\u8be5\u5206\u4e24\u4e2a\u9636\u6bb5**\uff1a\n\n### \u9636\u6bb5\u4e00\uff1a\u5185\u5bb9\u878d\u5408\uff08\u4e0d\u9650\u5b57\u6570\uff09\n- \u5c06\u4e24\u6b21Research\u7ed3\u679c\u4e0e\u60a8\u539f\u6709\u7d20\u6750\u5b8c\u5168\u6574\u5408\n- \u5efa\u7acb15\u4e2a\u7406\u8bba\u6846\u67b6\u7684\u5b8c\u6574\u4f53\u7cfb\n- \u5199\u51fa\"\u8ba4\u77e5\u589e\u5f3aRAG\"\u7684\u5b66\u672f\u5b9a\u4e49\n\n### \u9636\u6bb5\u4e8c\uff1a\u7ed3\u6784\u4f18\u5316\n- \u5728\u5185\u5bb9\u5b8c\u6574\u7684\u57fa\u7840\u4e0a\u8c03\u6574\u7ae0\u8282\u7ed3\u6784\n- \u786e\u4fdd\u4e0e\u540e\u7eed\u7ae0\u8282\u7684\u8854\u63a5\n\n---\n\n**\u60a8\u662f\u5426\u540c\u610f\u8fd9\u4e2a\u5224\u65ad\uff1f\u5982\u679c\u540c\u610f\uff0c\u6211\u73b0\u5728\u5c31\u5f00\u59cb\u7b2c\u4e09\u904d\u91cd\u5199\u3002**",
+    "citations": []
+  }
+]
