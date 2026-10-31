@@ -27,3 +27,11 @@
 - 逐文件来源映射见 [PROVENANCE.md](PROVENANCE.md)。
 - `transcripts/` 中同一对话存在数秒间隔的两次保存时，已按内容去重保留较早一份；同对话不同时点的导出内容不同，均保留。
 - 文件修改时间保留自原始资料；zip 不含创建时间，故创建时间与修改时间一致。
+
+## 许可与引用
+
+Copyright © 2026 Math Fournity。本项目（研究文档与对话记录）以 **[CC BY 4.0](./LICENSE)**（Creative Commons Attribution 4.0 International）许可发布：使用、转载、改编须署名并注明许可。
+
+引用格式建议：
+
+> Math Fournity. *RAG 与隐性语义处理综述项目档案* [Research Archive]. GitHub, 2026. https://github.com/math-fournity/rag-implicit-semantic-survey
